@@ -27,6 +27,15 @@
         footer { background: #2c3e50; color: white; text-align: center; padding: 1rem 0; margin-top: 2rem; }
         .btn { display: inline-block; background: #3498db; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 5px; margin-top: 1rem; }
         .btn:hover { background: #2980b9; }
+        /* Lightbox for product images */
+        .lightbox { display: none; position: fixed; z-index: 1000; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); }
+        .lightbox-content { margin: auto; display: block; max-width: 90%; max-height: 90%; margin-top: 5%; }
+        .lightbox-close { position: absolute; top: 20px; right: 40px; color: #fff; font-size: 50px; font-weight: bold; cursor: pointer; }
+        .lightbox-caption { margin: auto; display: block; width: 80%; max-width: 700px; text-align: center; color: #ccc; padding: 10px 0; }
+        .product-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 1rem; }
+        .product-gallery img { width: 100%; height: 120px; object-fit: cover; border-radius: 5px; cursor: pointer; transition: transform 0.2s; }
+        .product-gallery img:hover { transform: scale(1.05); }
+
         .product-card img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem; }
 
     </style>
@@ -77,9 +86,16 @@
                 </div>
                 <div class="product-card">
                     <h3>🔒 Door Locks</h3>
-                    <img src="https://images.unsplash.com/photo-1558002038-1091a1661116?w=400&h=300&fit=crop" alt="Door Locks">
                     <p>Mortise locks, padlocks, smart locks for residential and commercial</p>
                     <p><strong>MOQ:</strong> 200 pcs</p>
+                    <div class="product-gallery">
+                        <img src="https://raw.githubusercontent.com/Tommy9959/tommy-hardware-cn/main/images/locks/705-118.PNG" alt="Door Lock 705-118" onclick="openLightbox(this.src)">
+                        <img src="https://raw.githubusercontent.com/Tommy9959/tommy-hardware-cn/main/images/locks/755-231.PNG" alt="Door Lock 755-231" onclick="openLightbox(this.src)">
+                        <img src="https://raw.githubusercontent.com/Tommy9959/tommy-hardware-cn/main/images/locks/905-126.PNG" alt="Door Lock 905-126" onclick="openLightbox(this.src)">
+                        <img src="https://raw.githubusercontent.com/Tommy9959/tommy-hardware-cn/main/images/locks/955-113.PNG" alt="Door Lock 955-113" onclick="openLightbox(this.src)">
+                        <img src="https://raw.githubusercontent.com/Tommy9959/tommy-hardware-cn/main/images/locks/955-126.PNG" alt="Door Lock 955-126" onclick="openLightbox(this.src)">
+                    </div>
+                    <p style="margin-top:0.5rem;font-size:0.9rem;color:#666;">👆 Click images to enlarge</p>
                 </div>
                 <div class="product-card">
                     <h3>🛤️ Sliding Door Tracks</h3>
@@ -132,7 +148,7 @@
                 <div class="contact-info">
                     <p><strong>👤 Contact Person:</strong> Tommy Zhu (朱晓雷)</p>
                     <p><strong>📧 Email:</strong> 946487044@qq.com</p>
-                    <p><strong>📱 WhatsApp:</strong> +86 18358008400</p>
+                    <p><strong>📱 WhatsApp:</strong> +86 XXX XXXX XXXX</p>
                     <p><strong>🏢 Company:</strong> Tommy Hardware Co., Ltd.</p>
                     <p><strong>📍 Address:</strong> Room 2018, Xuefeng Yinzuo, No.18 Danxi North Road, Yiwu City, Zhejiang Province, China</p>
                 </div>
@@ -147,5 +163,19 @@
             <p>Door Hardware Supplier for Nigeria & Africa Market</p>
         </div>
     </footer>
+
+    <!-- Product Image Lightbox -->
+    <div id="productLightbox" class="lightbox" onclick="this.style.display='none'">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+    <script>
+        function openLightbox(imgSrc) {
+            document.getElementById('lightboxImg').src = imgSrc;
+            document.getElementById('productLightbox').style.display = 'block';
+        }
+    </script>
+
 </body>
 </html>
