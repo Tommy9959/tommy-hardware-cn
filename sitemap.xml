@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://tommy9959.github.io/tommy-hardware-cn/</loc>
+        <lastmod>2026-03-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/Tommy9959/tommy-hardware-cn/main/images/logo/logo.jpeg</image:loc>
+            <image:title>Yiwu Shuihui Import & Export Co., Ltd. Logo</image:title>
+        </image:image>
+    </url>
+    
+    <!-- Product Pages -->
+    <url>
+        <loc>https://tommy9959.github.io/tommy-hardware-cn/door-handles.html</loc>
+        <lastmod>2026-03-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://tommy9959.github.io/tommy-hardware-cn/door-hinges.html</loc>
+        <lastmod>2026-03-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://tommy9959.github.io/tommy-hardware-cn/door-locks.html</loc>
+        <lastmod>2026-03-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://tommy9959.github.io/tommy-hardware-cn/sliding-tracks.html</loc>
+        <lastmod>2026-03-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://tommy9959.github.io/tommy-hardware-cn/cabinet-hardware.html</loc>
+        <lastmod>2026-03-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://tommy9959.github.io/tommy-hardware-cn/building-hardware.html</loc>
+        <lastmod>2026-03-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+</urlset>

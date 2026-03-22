@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://tommy9959.github.io/tommy-hardware-cn/sitemap.xml
+
+# Allow all search engines to crawl everything
+Disallow: 
+
+# Crawl-delay for bots
+Crawl-delay: 10
