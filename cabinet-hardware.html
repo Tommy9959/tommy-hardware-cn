@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional cabinet hardware - cabinet hinges, drawer slides, handles from Yiwu Shuihui Import & Export Co., Ltd.">
+    <meta name="description" content="Professional cabinet handles from Yiwu Shuihui Import & Export Co., Ltd. MOQ: 6,000 pcs (10 cartons).">
     <title>Cabinet Hardware - Yiwu Shuihui Import & Export</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -21,6 +21,14 @@
         .product-intro { background: white; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         .product-intro h3 { color: #2c3e50; margin-bottom: 1rem; }
         .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+        .product-card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+        .product-card:hover { transform: translateY(-5px); box-shadow: 0 4px 20px rgba(0,0,0,0.15); }
+        .product-card img { width: 100%; height: 250px; object-fit: cover; background: #f8f9fa; }
+        .product-card-body { padding: 1rem; }
+        .product-card-title { font-size: 1rem; color: #2c3e50; margin-bottom: 0.5rem; font-weight: 600; }
+        .product-card-desc { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+        .product-card-moq { font-size: 0.8rem; color: #3498db; font-weight: 600; }
         .gallery-item { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         .gallery-item img { width: 100%; height: 300px; object-fit: cover; background: #fff; }
         .gallery-item-info { padding: 1rem; }
@@ -32,7 +40,17 @@
         footer { background: #2c3e50; color: white; text-align: center; padding: 1rem 0; margin-top: 2rem; }
         .btn { display: inline-block; background: #3498db; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 5px; margin-top: 1rem; }
         .btn:hover { background: #2980b9; }
-    </style>
+            .inquiry-form { background: white; padding: 2rem; border-radius: 8px; margin-top: 2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .form-group { margin-bottom: 1.5rem; }
+        .form-group label { display: block; margin-bottom: 0.5rem; color: #2c3e50; font-weight: 600; }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem; }
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: #3498db; box-shadow: 0 0 0 3px rgba(52,152,219,0.1); }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        .btn-submit { background: #3498db; color: white; padding: 1rem 2rem; border: none; border-radius: 5px; font-size: 1.1rem; cursor: pointer; width: 100%; font-weight: 600; }
+        .btn-submit:hover { background: #2980b9; }
+        @media (max-width: 768px) { .form-row { grid-template-columns: 1fr; } }
+
+</style>
 </head>
 <body>
     <header>
@@ -47,7 +65,7 @@
 
     <section class="product-header">
         <div class="container">
-            <h2>📦 Cabinet Hardware</h2>
+            <h2>📦 Cabinet Handles</h2>
             <p>Complete Solutions for Kitchen & Furniture</p>
         </div>
     </section>
@@ -61,49 +79,117 @@
                 <p><strong>Product Types:</strong> Cabinet hinges, Drawer slides, Cabinet handles, Shelf supports</p>
                 <p><strong>Materials:</strong> Stainless steel, Zinc alloy, Cold rolled steel, Plastic nylon</p>
                 <p><strong>Features:</strong> Soft-close, Push-to-open, Full extension, Concealed</p>
-                <p><strong>MOQ:</strong> 500 pcs</p>
+                <p><strong>MOQ:</strong> 6,000 pcs (10 cartons)</p>
+                <p><strong>Price Range:</strong> $0.30 - $2.80 / pc</p>
                 <p><strong>Delivery:</strong> 15-30 days after order confirmation</p>
                 <br>
                 <a href="#contact" class="btn">Get Quote Now</a>
             </div>
 
-            <h3 style="text-align: center; margin-bottom: 1.5rem; color: #2c3e50;">Product Gallery</h3>
-            <div class="gallery">
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600&h=400&fit=crop" alt="Soft-close Hinge">
-                    <div class="gallery-item-info">
-                        <h4>Soft-close Hinge</h4>
-                        <p>European style, 35mm cup</p>
-                    </div>
+            <h3 style="text-align: center; margin-bottom: 1.5rem; color: #2c3e50;">Product Gallery (100 Styles)</h3>
+            <p style="text-align: center; color: #666; margin-bottom: 2rem;">Browse our extensive collection. Click "Request Quote" for pricing on specific models.</p>
+            <div class="product-grid" id="productGrid">
                 </div>
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600&h=400&fit=crop" alt="Drawer Slide">
-                    <div class="gallery-item-info">
-                        <h4>Drawer Slide</h4>
-                        <p>Ball bearing, full extension</p>
-                    </div>
+
+            
+    <script>
+        const productGrid = document.getElementById('productGrid');
+        const productTypes = ['Cabinet Pull', 'Knob Handle', 'Edge Pull', 'Recessed Handle', 'T-Bar Handle'];
+        const materials = ['Stainless Steel', 'Brass', 'Zinc Alloy', 'Aluminum', 'Iron', 'Steel'];
+        const finishes = ['Polished', 'Brushed', 'Black Matte', 'Gold', 'Antique Brass', 'Satin', 'Nickel Plated'];
+        const moq = "6,000 pcs (10 cartons)";
+        const title = "Cabinet Handles";
+        
+        for (let i = 1; i <= 100; i++) {
+            const type = productTypes[Math.floor(Math.random() * productTypes.length)];
+            const material = materials[Math.floor(Math.random() * materials.length)];
+            const finish = finishes[Math.floor(Math.random() * finishes.length)];
+            const modelNum = String(i).padStart(3, '0');
+            
+            const card = document.createElement('div');
+            card.className = 'product-card';
+            card.innerHTML = `
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop" alt="${title} ${modelNum}">
+                <div class="product-card-body">
+                    <h4 class="product-card-title">${title} - Model ${modelNum}</h4>
+                    <p class="product-card-desc">${material} • ${finish}</p>
+                    <p class="product-card-moq">MOQ: ${moq}</p>
                 </div>
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600&h=400&fit=crop" alt="Cabinet Handle">
-                    <div class="gallery-item-info">
-                        <h4>Cabinet Handle</h4>
-                        <p>Zinc alloy, various finishes</p>
+            `;
+            productGrid.appendChild(card);
+        }
+    </script>
+    
+
+
+            <!-- Inquiry Form -->
+            <div id="inquiry-form" class="inquiry-form" style="background: white; padding: 2rem; border-radius: 8px; margin-top: 2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                <h3>📧 Quick Inquiry Form</h3>
+                <p style="margin-bottom: 1.5rem; color: #666;">Fill out the form below and we'll get back to you within 24 hours with a detailed quote.</p>
+                
+                <form id="quoteForm" onsubmit="handleSubmit(event)">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div>
+                            <label for="name" style="display: block; margin-bottom: 0.5rem; color: #2c3e50; font-weight: 600;">Your Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="e.g. John Okonkwo" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                        </div>
+                        <div>
+                            <label for="company" style="display: block; margin-bottom: 0.5rem; color: #2c3e50; font-weight: 600;">Company Name *</label>
+                            <input type="text" id="company" name="company" required placeholder="e.g. Lagos Hardware Ltd." style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                        </div>
                     </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600&h=400&fit=crop" alt="Concealed Hinge">
-                    <div class="gallery-item-info">
-                        <h4>Concealed Hinge</h4>
-                        <p>110° opening angle</p>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div>
+                            <label for="email" style="display: block; margin-bottom: 0.5rem; color: #2c3e50; font-weight: 600;">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="your@email.com" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                        </div>
+                        <div>
+                            <label for="phone" style="display: block; margin-bottom: 0.5rem; color: #2c3e50; font-weight: 600;">Phone / WhatsApp</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+234 800 000 0000" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                        </div>
                     </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600&h=400&fit=crop" alt="Shelf Support">
-                    <div class="gallery-item-info">
-                        <h4>Shelf Support</h4>
-                        <p>Adjustable, metal/plastic</p>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div>
+                            <label for="country" style="display: block; margin-bottom: 0.5rem; color: #2c3e50; font-weight: 600;">Country *</label>
+                            <select id="country" name="country" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                                <option value="">Select Country</option>
+                                <option value="Nigeria">Nigeria 🇳🇬</option>
+                                <option value="Kenya">Kenya 🇰🇪</option>
+                                <option value="Ghana">Ghana 🇬🇭</option>
+                                <option value="South Africa">South Africa 🇿🇦</option>
+                                <option value="Other">Other African Country</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="quantity" style="display: block; margin-bottom: 0.5rem; color: #2c3e50; font-weight: 600;">Estimated Quantity</label>
+                            <select id="quantity" name="quantity" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                                <option value="">Select Quantity Range</option>
+                                <option value="400-1000">400 - 1,000 pcs (Trial Order)</option>
+                                <option value="1000-5000">1,000 - 5,000 pcs</option>
+                                <option value="5000-10000">5,000 - 10,000 pcs</option>
+                                <option value="10000+">10,000+ pcs (Container Load)</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
+                    
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="products" style="display: block; margin-bottom: 0.5rem; color: #2c3e50; font-weight: 600;">Interested Products</label>
+                        <textarea id="products" name="products" rows="3" placeholder="List the product models or styles you're interested in" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;"></textarea>
+                    </div>
+                    
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="message" style="display: block; margin-bottom: 0.5rem; color: #2c3e50; font-weight: 600;">Additional Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your requirements, target price, delivery timeline, etc." style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;"></textarea>
+                    </div>
+                    
+                    <button type="submit" style="background: #3498db; color: white; padding: 1rem 2rem; border: none; border-radius: 5px; font-size: 1.1rem; cursor: pointer; width: 100%; font-weight: 600;">📤 Send Inquiry Now</button>
+                </form>
+                
+                <p style="margin-top: 1rem; font-size: 0.9rem; color: #666; text-align: center;">
+                    🔒 Your information is secure. We never share your details with third parties.
+                </p>
             </div>
 
             <div id="contact" class="contact-box">
@@ -127,5 +213,36 @@
             <p>Professional Door Hardware Supplier for Nigeria & Africa Market</p>
         </div>
     </footer>
+
+        // Form submission handler
+        function handleSubmit(event) {
+            event.preventDefault();
+            
+            // Get form values
+            const formData = new FormData(event.target);
+            const data = Object.fromEntries(formData.entries());
+            
+            // Create WhatsApp message
+            const message = `🔔 New Inquiry from Website:%0A%0A` +
+                `👤 Name: ${data.name}%0A` +
+                `🏢 Company: ${data.company}%0A` +
+                `📧 Email: ${data.email}%0A` +
+                `📱 Phone: ${data.phone || 'N/A'}%0A` +
+                `🌍 Country: ${data.country}%0A` +
+                `📦 Quantity: ${data.quantity || 'Not specified'}%0A` +
+                `🔧 Products: ${data.products || 'Not specified'}%0A` +
+                `💬 Message: ${data.message || 'No additional message'}`;
+            
+            // Open WhatsApp with pre-filled message
+            const whatsappUrl = `https://wa.me/8618358008400?text=${message}`;
+            window.open(whatsappUrl, '_blank');
+            
+            // Show success message
+            alert('✅ Thank you for your inquiry! You will be redirected to WhatsApp to send your message directly to us. We will respond within 24 hours!');
+            
+            // Reset form
+            event.target.reset();
+        }
+
 </body>
 </html>
