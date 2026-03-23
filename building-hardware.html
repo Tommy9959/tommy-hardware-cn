@@ -89,37 +89,26 @@
 
             <h3 style="text-align: center; margin-bottom: 1.5rem; color: #2c3e50;">Product Gallery (100 Styles)</h3>
             <p style="text-align: center; color: #666; margin-bottom: 2rem;">Browse our extensive collection. Click "Request Quote" for pricing on specific models.</p>
-            <div class="product-grid" id="productGrid">
-                </div>
+            <div class="product-grid" id="productGrid"></div>
+            
+            <!-- Pagination Controls -->
+            <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin: 2rem 0; padding: 1.5rem; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                <button id="prevBtn" onclick="goToPage(currentPage - 1)" style="padding: 0.75rem 1.5rem; border: 2px solid #3498db; background: white; color: #3498db; border-radius: 6px; font-weight: 600; cursor: pointer; transition: all 0.3s;" disabled>← Previous</button>
+                <span id="pageIndicator" style="font-size: 1rem; color: #2c3e50; font-weight: 600;">Page 1 of 5</span>
+                <button id="nextBtn" onclick="goToPage(currentPage + 1)" style="padding: 0.75rem 1.5rem; border: 2px solid #3498db; background: #3498db; color: white; border-radius: 6px; font-weight: 600; cursor: pointer; transition: all 0.3s;">Next →</button>
+            </div>
+            
+            <style>
+                #prevBtn:disabled { opacity: 0.4; cursor: not-allowed; }
+                #prevBtn:disabled:hover { background: white; }
+                #nextBtn:disabled { opacity: 0.4; cursor: not-allowed; }
+                #nextBtn:disabled:hover { background: #3498db; }
+                #prevBtn:hover:not(:disabled) { background: #3498db; color: white; }
+                #nextBtn:hover:not(:disabled) { background: #2980b9; }
+            </style>
 
             
-    <script>
-        const productGrid = document.getElementById('productGrid');
-        const productTypes = ['Anchor Bolt', 'Expansion Screw', 'Wall Plug', 'Construction Bracket', 'Fastener Set'];
-        const materials = ['Stainless Steel', 'Brass', 'Zinc Alloy', 'Aluminum', 'Iron', 'Steel'];
-        const finishes = ['Polished', 'Brushed', 'Black Matte', 'Gold', 'Antique Brass', 'Satin', 'Nickel Plated'];
-        const moq = "Negotiable";
-        const title = "Building Hardware";
-        
-        for (let i = 1; i <= 100; i++) {
-            const type = productTypes[Math.floor(Math.random() * productTypes.length)];
-            const material = materials[Math.floor(Math.random() * materials.length)];
-            const finish = finishes[Math.floor(Math.random() * finishes.length)];
-            const modelNum = String(i).padStart(3, '0');
-            
-            const card = document.createElement('div');
-            card.className = 'product-card';
-            card.innerHTML = `
-                <img src="https://images.unsplash.com/photo-1558002038-1091a1661116?w=400&h=400&fit=crop" alt="${title} ${modelNum}">
-                <div class="product-card-body">
-                    <h4 class="product-card-title">${title} - Model ${modelNum}</h4>
-                    <p class="product-card-desc">${material} • ${finish}</p>
-                    <p class="product-card-moq">MOQ: ${moq}</p>
-                </div>
-            `;
-            productGrid.appendChild(card);
-        }
-    </script>
+    
     
 
 
@@ -221,11 +210,92 @@
         
 
 
+        
+        }
+
+
+    <script>
+        // Product data
+        const allProducts = [];
+        const productTypes = ['Anchor Bolt', 'Expansion Screw', 'Wall Plug', 'Construction Bracket', 'Fastener Set'];
+        const materials = ['Stainless Steel', 'Brass', 'Zinc Alloy', 'Aluminum', 'Iron', 'Steel'];
+        const finishes = ['Polished', 'Brushed', 'Black Matte', 'Gold', 'Antique Brass', 'Satin', 'Nickel Plated'];
+        const moq = "Negotiable";
+        const title = "Building Hardware";
+        
+        // Generate 100 products
+        for (let i = 1; i <= 100; i++) {
+            const type = productTypes[Math.floor(Math.random() * productTypes.length)];
+            const material = materials[Math.floor(Math.random() * materials.length)];
+            const finish = finishes[Math.floor(Math.random() * finishes.length)];
+            const modelNum = String(i).padStart(3, '0');
+            allProducts.push({
+                id: i,
+                model: `${title} - Model ${modelNum}`,
+                desc: `${material} • ${finish}`,
+                moq: moq
+            });
+        }
+        
+        // Pagination
+        const itemsPerPage = 20;
+        const totalPages = Math.ceil(allProducts.length / itemsPerPage);
+        let currentPage = 1;
+        
+        function renderPage(page) {
+            const grid = document.getElementById('productGrid');
+            grid.innerHTML = '';
+            
+            const start = (page - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const products = allProducts.slice(start, end);
+            
+            products.forEach(product => {
+                const card = document.createElement('div');
+                card.className = 'product-card';
+                card.innerHTML = `
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop" alt="${product.model}">
+                    <div class="product-card-body">
+                        <h4 class="product-card-title">${product.model}</h4>
+                        <p class="product-card-desc">${product.desc}</p>
+                        <p class="product-card-moq">MOQ: ${product.moq}</p>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+            
+            // Update pagination buttons
+            updatePagination(page);
+            
+            // Scroll to grid
+            grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        
+        function updatePagination(current) {
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const pageIndicator = document.getElementById('pageIndicator');
+            
+            if (prevBtn) prevBtn.disabled = current === 1;
+            if (nextBtn) nextBtn.disabled = current === totalPages;
+            if (pageIndicator) pageIndicator.textContent = `Page ${current} of ${totalPages}`;
+        }
+        
+        function goToPage(page) {
+            if (page < 1 || page > totalPages) return;
+            currentPage = page;
+            renderPage(page);
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            renderPage(1);
+        });
+        
         // Inquiry form handler
         function handleInquirySubmit(event) {
             event.preventDefault();
             
-            // Get form values
             const name = document.getElementById('inqName').value.trim();
             const company = document.getElementById('inqCompany').value.trim();
             const email = document.getElementById('inqEmail').value.trim();
@@ -235,13 +305,11 @@
             const products = document.getElementById('inqProducts').value.trim() || 'Not specified';
             const message = document.getElementById('inqMessage').value.trim() || 'No additional message';
             
-            // Validate
             if (!name || !company || !email || !country) {
                 alert('⚠️ Please fill in all required fields (marked with *)');
                 return;
             }
             
-            // Create WhatsApp message
             const whatsappMsg = `🔔 *New Website Inquiry*%0A%0A` +
                 `👤 *Name:* ${encodeURIComponent(name)}%0A` +
                 `🏢 *Company:* ${encodeURIComponent(company)}%0A` +
@@ -252,21 +320,16 @@
                 `🔧 *Products:* ${encodeURIComponent(products)}%0A` +
                 `💬 *Message:* ${encodeURIComponent(message)}`;
             
-            // Show confirmation
             const confirmed = confirm('✅ Ready to send inquiry via WhatsApp!\n\nThis will open WhatsApp with your message pre-filled. Click OK to continue.');
             
             if (confirmed) {
-                // Open WhatsApp
                 const whatsappUrl = `https://wa.me/8618358008400?text=${whatsappMsg}`;
                 window.open(whatsappUrl, '_blank');
-                
-                // Reset form
                 document.getElementById('inquiryForm').reset();
-                
-                // Show success
                 alert('🎉 Thank you for your inquiry! We will respond within 24 hours!');
             }
         }
+    </script>
 
 </body>
 </html>
