@@ -209,36 +209,7 @@
     </footer>
 
     <script>
-        // Auto-generate 100 product cards
-        const productGrid = document.getElementById('productGrid');
-        const productTypes = [
-            'Lever Handle', 'Knob Handle', 'Pull Handle', 'Push Plate',
-            'Smart Handle', 'Security Handle', 'Hotel Handle', 'Cabinet Handle'
-        ];
-        const materials = ['Stainless Steel', 'Brass', 'Zinc Alloy', 'Aluminum'];
-        const finishes = ['Polished', 'Brushed', 'Black Matte', 'Gold', 'Antique Brass', 'Satin'];
-        
-        for (let i = 1; i <= 100; i++) {
-            const type = productTypes[Math.floor(Math.random() * productTypes.length)];
-            const material = materials[Math.floor(Math.random() * materials.length)];
-            const finish = finishes[Math.floor(Math.random() * finishes.length)];
-            const modelNum = String(i).padStart(3, '0');
-            
-            const card = document.createElement('div');
-            card.className = 'product-card';
-            card.innerHTML = `
-                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop" alt="${type} ${modelNum}">
-                <div class="product-card-body">
-                    <h4 class="product-card-title">${type} ${modelNum}</h4>
-                    <p class="product-card-desc">${material} • ${finish}</p>
-                    <p class="product-card-moq">MOQ: 400 pcs</p>
-                </div>
-            `;
-            productGrid.appendChild(card);
-        }
-        
-        
-    </script>
+        </script>
 
         
         }
