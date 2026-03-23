@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional {{CATEGORY_NAME}} from Yiwu Shuihui Import & Export Co., Ltd.">
+    <title>{{CATEGORY_NAME}} - Yiwu Shuihui Import & Export</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
+        .container { max-width: 1400px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header */
+        header { background: #2c3e50; color: white; padding: 1rem 0; }
+        .header-content { display: flex; align-items: center; gap: 1rem; }
+        .logo { height: 50px; width: auto; border-radius: 4px; }
+        header h1 { font-size: 1.5rem; }
+        header p { font-size: 0.9rem; opacity: 0.9; }
+        
+        /* Navigation */
+        nav { background: #34495e; padding: 0.5rem 0; position: sticky; top: 0; z-index: 100; }
+        nav ul { list-style: none; display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: center; }
+        nav a { color: white; text-decoration: none; padding: 0.5rem 0; font-size: 0.9rem; transition: color 0.3s; }
+        nav a:hover { color: #3498db; }
+        nav a.active { color: #3498db; font-weight: 600; }
+        
+        /* Category Sub-nav */
+        .category-nav { background: #ecf0f1; padding: 1rem 0; border-bottom: 1px solid #ddd; }
+        .category-nav ul { list-style: none; display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center; }
+        .category-nav a { color: #2c3e50; text-decoration: none; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.85rem; background: white; border: 1px solid #ddd; transition: all 0.3s; }
+        .category-nav a:hover { background: #3498db; color: white; border-color: #3498db; }
+        .category-nav a.active { background: #3498db; color: white; border-color: #3498db; }
+        
+        /* Hero */
+        .hero { background: linear-gradient(135deg, #3498db, #2c3e50); color: white; padding: 3rem 0; text-align: center; }
+        .hero h2 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+        .hero p { opacity: 0.9; }
+        
+        /* Section */
+        .section { padding: 2rem 0; }
+        
+        /* Product Intro */
+        .product-intro { background: white; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .product-intro h3 { color: #2c3e50; margin-bottom: 1rem; }
+        .product-intro p { margin-bottom: 0.5rem; }
+        
+        /* Filter & Search Bar */
+        .filter-bar { background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .filter-row { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+        .filter-group { display: flex; align-items: center; gap: 0.5rem; }
+        .filter-group label { font-weight: 600; color: #2c3e50; font-size: 0.9rem; }
+        .filter-group select, .filter-group input { padding: 0.5rem 1rem; border: 1px solid #ddd; border-radius: 5px; font-size: 0.9rem; }
+        .filter-group input[type="text"] { min-width: 250px; }
+        .search-btn { background: #3498db; color: white; border: none; padding: 0.5rem 1.5rem; border-radius: 5px; cursor: pointer; font-weight: 600; }
+        .search-btn:hover { background: #2980b9; }
+        .clear-btn { background: #95a5a6; color: white; border: none; padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer; }
+        .clear-btn:hover { background: #7f8c8d; }
+        
+        /* Stats Bar */
+        .stats-bar { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 2rem; border-radius: 8px; margin-bottom: 2rem; display: flex; justify-content: space-around; flex-wrap: wrap; gap: 1rem; text-align: center; }
+        .stat-item h4 { font-size: 1.8rem; margin-bottom: 0.25rem; }
+        .stat-item p { font-size: 0.85rem; opacity: 0.9; }
+        
+        /* Product Grid */
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+        .product-card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; position: relative; }
+        .product-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+        .product-card.coming-soon::after { content: "Coming Soon"; position: absolute; top: 10px; right: 10px; background: #e74c3c; color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600; }
+        .product-card img { width: 100%; height: 180px; object-fit: cover; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
+        .product-card-body { padding: 1rem; }
+        .product-card-title { font-size: 0.95rem; color: #2c3e50; margin-bottom: 0.5rem; font-weight: 600; }
+        .product-card-desc { font-size: 0.8rem; color: #666; margin-bottom: 0.5rem; }
+        .product-card-specs { font-size: 0.75rem; color: #888; margin-bottom: 0.5rem; }
+        .product-card-moq { font-size: 0.8rem; color: #3498db; font-weight: 600; }
+        .product-card-price { font-size: 0.9rem; color: #e74c3c; font-weight: 700; margin-top: 0.5rem; }
+        
+        /* Pagination */
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin: 2rem 0; padding: 1.5rem; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); flex-wrap: wrap; }
+        .pagination button { padding: 0.5rem 1rem; border: 2px solid #3498db; background: white; color: #3498db; border-radius: 6px; font-weight: 600; cursor: pointer; transition: all 0.3s; min-width: 40px; }
+        .pagination button:hover:not(:disabled) { background: #3498db; color: white; }
+        .pagination button:disabled { opacity: 0.4; cursor: not-allowed; }
+        .pagination button.active { background: #3498db; color: white; }
+        .pagination .page-info { padding: 0.5rem 1rem; color: #2c3e50; font-weight: 600; }
+        
+        /* Inquiry Form */
+        .inquiry-section { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 3rem 2rem; border-radius: 12px; margin: 3rem 0; box-shadow: 0 10px 40px rgba(0,0,0,0.2); }
+        .inquiry-section h3 { color: white; margin-bottom: 0.5rem; font-size: 1.8rem; text-align: center; }
+        .inquiry-section > p { color: rgba(255,255,255,0.9); text-align: center; margin-bottom: 2rem; }
+        .inquiry-form { max-width: 700px; margin: 0 auto; }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+        .form-group { margin-bottom: 1rem; }
+        .form-group label { display: block; margin-bottom: 0.5rem; color: white; font-weight: 600; font-size: 0.9rem; }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 0.75rem; border: 2px solid rgba(255,255,255,0.3); border-radius: 8px; font-size: 1rem; background: rgba(255,255,255,0.95); }
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: #3498db; }
+        .btn-submit { width: 100%; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 1rem 2rem; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: all 0.3s; box-shadow: 0 4px 15px rgba(0,0,0,0.2); margin-top: 1rem; }
+        .btn-submit:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.3); }
+        
+        /* Contact Box */
+        .contact-box { background: white; padding: 2rem; border-radius: 8px; margin-top: 2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .contact-box h3 {
