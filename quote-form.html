@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Quote - Yiwu Shuihui Hardware</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #2c5282; margin-bottom: 20px; }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input, select, textarea { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px; }
+        textarea { height: 120px; resize: vertical; }
+        button { background: #2c5282; color: white; padding: 12px 30px; border: none; border-radius: 4px; font-size: 16px; cursor: pointer; }
+        button:hover { background: #1a365d; }
+        .success { background: #c6f6d5; color: #22543d; padding: 15px; border-radius: 4px; margin-bottom: 20px; display: none; }
+        .required { color: #e53e3e; }
+    </style>
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EW8MR1LQWY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-EW8MR1LQWY');
+</script>
+<!-- End Google Analytics 4 -->
+</head>
+<body>
+    <div class="container">
+        <h1>📩 Request a Quote</h1>
+        <p>Fill in the form below and we'll get back to you within 24 hours with a competitive quote!</p>
+        <br>
+        
+        <div id="success" class="success">
+            ✅ Thank you! Your inquiry has been received. We'll contact you at <span id="contact-email"></span> within 24 hours.
+        </div>
+
+        <form id="quoteForm">
+            <div class="form-group">
+                <label for="name">Full Name <span class="required">*</span></label>
+                <input type="text" id="name" name="name" required placeholder="Your name">
+            </div>
+
+            <div class="form-group">
+                <label for="company">Company Name</label>
+                <input type="text" id="company" name="company" placeholder="Your company name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required placeholder="your@email.com">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone/WhatsApp</label>
+                <input type="tel" id="phone" name="phone" placeholder="+234 XXX XXX XXXX">
+            </div>
+
+            <div class="form-group">
+                <label for="country">Country <span class="required">*</span></label>
+                <select id="country" name="country" required>
+                    <option value="">Select country</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="product">Product Category <span class="required">*</span></label>
+                <select id="product" name="product" required>
+                    <option value="">Select product</option>
+                    <option value="Door Handles">🚪 Door Handles</option>
+                    <option value="Door Hinges">🔧 Door Hinges</option>
+                    <option value="Door Locks">🔒 Door Locks</option>
+                    <option value="Sliding Door Tracks">🛤️ Sliding Door Tracks</option>
+                    <option value="Cabinet Handles">📦 Cabinet Handles</option>
+                    <option value="Sofa Legs">🛋️ Sofa Legs</option>
+                    <option value="Edge Banding">📏 Edge Banding</option>
+                    <option value="Corner Brackets">🔩 Corner Brackets</option>
+                    <option value="Drawer Locks">🗄️ Drawer Locks</option>
+                    <option value="Building Hardware">🏗️ Building Hardware (Bulk Order)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="quantity">Estimated Quantity</label>
+                <select id="quantity" name="quantity">
+                    <option value="">Select quantity range</option>
+                    <option value="100-500">100 - 500 pcs</option>
+                    <option value="500-1000">500 - 1,000 pcs</option>
+                    <option value="1000-5000">1,000 - 5,000 pcs</option>
+                    <option value="5000+">5,000+ pcs (Wholesale)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message / Requirements</label>
+                <textarea id="message" name="message" placeholder="Please describe your requirements, specifications, or any questions..."></textarea>
+            </div>
+
+            <button type="submit">📤 Send Inquiry</button>
+        </form>
+
+        <br><br>
+        <hr>
+        <br>
+        
+        <h3>📞 Direct Contact</h3>
+        <p><strong>Email:</strong> z946487044@icloud.com</p>
+        <p><strong>WhatsApp:</strong> +86 183 5800 8400</p>
+        <p><strong>Location:</strong> Wenzhou, Zhejiang, China</p>
+        <p><strong>Response Time:</strong> Within 24 hours</p>
+    </div>
+
+    <script>
+        document.getElementById('quoteForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Collect form data
+            const formData = {
+                name: document.getElementById('name').value,
+                company: document.getElementById('company').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                country: document.getElementById('country').value,
+                product: document.getElementById('product').value,
+                quantity: document.getElementById('quantity').value,
+                message: document.getElementById('message').value,
+                timestamp: new Date().toISOString()
+            };
+
+            // Save to localStorage (will be synced to backend)
+            const inquiries = JSON.parse(localStorage.getItem('inquiries') || '[]');
+            inquiries.push(formData);
+            localStorage.setItem('inquiries', JSON.stringify(inquiries));
+
+            // Show success message
+            document.getElementById('contact-email').textContent = formData.email;
+            document.getElementById('success').style.display = 'block';
+            document.getElementById('quoteForm').reset();
+
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            // Log for debugging
+            console.log('Inquiry saved:', formData);
+        });
+    </script>
+</body>
+</html>
