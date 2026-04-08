@@ -18,7 +18,11 @@
 
         <!-- 产品网格 -->
         <div class="products-grid">
-            {{ range .Site.RegularPages }}
+            {{ $pages := .Site.RegularPages }}
+            {{ if .IsNode }}
+                {{ $pages = .RegularPages }}
+            {{ end }}
+            {{ range $pages }}
             {{ if and (eq .Section "products") (not .IsNode) }}
             <div class="product-card">
                 {{ if .Params.image }}
