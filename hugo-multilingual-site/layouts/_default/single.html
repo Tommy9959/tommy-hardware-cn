@@ -1,0 +1,217 @@
+{{ define "main" }}
+<!-- Product Detail Page -->
+<section class="section product-detail">
+    <div class="container">
+        <!-- Breadcrumb & Back -->
+        <div class="breadcrumb">
+            <a href="{{ if eq .Site.Language.Lang "zh" }}/zh/{{ else if eq .Site.Language.Lang "ar" }}/ar/{{ else }}/{{ end }}" style="color: var(--primary-color); text-decoration: none;">{{ if eq .Site.Language.Lang "zh" }}首页{{ else if eq .Site.Language.Lang "ar" }}الرئيسية{{ else }}Home{{ end }}</a>
+            <span style="margin: 0 0.5rem; color: #999;">/</span>
+            <a href="{{ if eq .Site.Language.Lang "zh" }}/zh/#products{{ else if eq .Site.Language.Lang "ar" }}/ar/#products{{ else }}/#products{{ end }}" style="color: var(--primary-color); text-decoration: none;">{{ if eq .Site.Language.Lang "zh" }}产品中心{{ else if eq .Site.Language.Lang "ar" }}المنتجات{{ else }}Products{{ end }}</a>
+            <span style="margin: 0 0.5rem; color: #999;">/</span>
+            <span style="color: #666;">{{ .Title }}</span>
+        </div>
+        
+        <p style="margin-bottom: 2rem; margin-top: 1rem;">
+            <a href="javascript:history.back()" style="color: var(--primary-color); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;">
+                <span>←</span>
+                <span>{{ if eq .Site.Language.Lang "zh" }}返回{{ else if eq .Site.Language.Lang "ar" }}رجوع{{ else }}Back{{ end }}</span>
+            </a>
+        </p>
+
+        <!-- Product Header -->
+        <div class="product-header">
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img src="{{ if .Params.image }}{{ .Params.image }}{{ else }}https://images.unsplash.com/photo-1617103996702-96ff29b1c467?w=800&h=600&fit=crop{{ end }}" alt="{{ .Title }}" id="mainImage">
+                </div>
+                <div class="thumbnail-gallery">
+                    <img src="{{ if .Params.image }}{{ .Params.image }}{{ else }}https://images.unsplash.com/photo-1617103996702-96ff29b1c467?w=800&h=600&fit=crop{{ end }}" alt="{{ .Title }}" class="thumbnail active" onclick="changeImage(this)">
+                    <img src="https://images.unsplash.com/photo-1558002038-1055907df827?w=200&h=200&fit=crop" alt="Detail 1" class="thumbnail" onclick="changeImage(this)">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop" alt="Detail 2" class="thumbnail" onclick="changeImage(this)">
+                    <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=200&h=200&fit=crop" alt="Detail 3" class="thumbnail" onclick="changeImage(this)">
+                </div>
+            </div>
+            
+            <div class="product-info-main">
+                <h1 class="product-title">{{ .Title }}</h1>
+                {{ if .Params.price_range }}
+                <p class="product-price">{{ .Params.price_range }}</p>
+                {{ end }}
+                
+                <div class="product-meta">
+                    <div class="meta-item">
+                        <strong>📦 {{ if eq .Site.Language.Lang "zh" }}起订量{{ else if eq .Site.Language.Lang "ar" }}الحد الأدنى للطلب{{ else }}MOQ{{ end }}:</strong>
+                        <span>{{ if .Params.moq }}{{ .Params.moq }}{{ else }}500 pcs{{ end }}</span>
+                    </div>
+                    <div class="meta-item">
+                        <strong>🚢 {{ if eq .Site.Language.Lang "zh" }}交货期{{ else if eq .Site.Language.Lang "ar" }}وقت التسليم{{ else }}Delivery{{ end }}:</strong>
+                        <span>15-25 days</span>
+                    </div>
+                    <div class="meta-item">
+                        <strong>💰 {{ if eq .Site.Language.Lang "zh" }}付款方式{{ else if eq .Site.Language.Lang "ar" }}طريقة الدفع{{ else }}Payment{{ end }}:</strong>
+                        <span>T/T, L/C, Western Union</span>
+                    </div>
+                </div>
+                
+                <div class="product-actions">
+                    <a href="mailto:z946487044@icloud.com" class="btn btn-primary btn-large">
+                        {{ if eq .Site.Language.Lang "zh" }}📧 发送询价{{ else if eq .Site.Language.Lang "ar" }}📧 إرسال استفسار{{ else }}📧 Send Inquiry{{ end }}
+                    </a>
+                    <a href="https://wa.me/8618358008400" class="btn btn-whatsapp btn-large">
+                        {{ if eq .Site.Language.Lang "zh" }}💬 WhatsApp 咨询{{ else if eq .Site.Language.Lang "ar" }}💬 استشارة واتساب{{ else }}💬 WhatsApp Consult{{ end }}
+                    </a>
+                </div>
+                
+                <!-- Language Switcher for Product Page -->
+                <div class="product-lang-switch">
+                    <p style="margin-bottom: 0.5rem; font-size: 0.9rem; color: #666;">
+                        {{ if eq .Site.Language.Lang "zh" }}🌐 此页面其他语言:{{ else if eq .Site.Language.Lang "ar" }}🌐 هذه الصفحة بلغات أخرى:{{ else }}🌐 This page in other languages:{{ end }}
+                    </p>
+                    <div class="lang-buttons">
+                        {{ $productName := .File.BaseFileName }}
+                        <a href="/products/{{ $productName }}/" class="lang-btn {{ if eq .Site.Language.Lang "en" }}active{{ end }}">🇬🇧 English</a>
+                        <a href="/zh/products/{{ $productName }}/" class="lang-btn {{ if eq .Site.Language.Lang "zh" }}active{{ end }}">🇨🇳 中文</a>
+                        <a href="/ar/products/{{ $productName }}/" class="lang-btn {{ if eq .Site.Language.Lang "ar" }}active{{ end }}">🇸🇦 عربي</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Content -->
+        <div class="product-content-section">
+            <div class="content-box">
+                <h2>{{ if eq .Site.Language.Lang "zh" }}产品详情{{ else if eq .Site.Language.Lang "ar" }}تفاصيل المنتج{{ else }}Product Details{{ end }}</h2>
+                {{ .Content }}
+            </div>
+        </div>
+
+        <!-- Specifications Table -->
+        <div class="product-content-section">
+            <div class="content-box">
+                <h2>{{ if eq .Site.Language.Lang "zh" }}规格参数{{ else if eq .Site.Language.Lang "ar" }}المواصفات{{ else }}Specifications{{ end }}</h2>
+                <table class="spec-table">
+                    <tr>
+                        <th>{{ if eq .Site.Language.Lang "zh" }}材质{{ else if eq .Site.Language.Lang "ar" }}المادة{{ else }}Material{{ end }}</th>
+                        <td>{{ if .Params.material }}{{ .Params.material }}{{ else }}Stainless Steel, Zinc Alloy{{ end }}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ if eq .Site.Language.Lang "zh" }}表面处理{{ else if eq .Site.Language.Lang "ar" }}التشطيب السطحي{{ else }}Finish{{ end }}</th>
+                        <td>Chrome, Nickel, Bronze, Gold, Black</td>
+                    </tr>
+                    <tr>
+                        <th>{{ if eq .Site.Language.Lang "zh" }}认证{{ else if eq .Site.Language.Lang "ar" }}الشهادات{{ else }}Certification{{ end }}</th>
+                        <td>ISO 9001, CE, RoHS</td>
+                    </tr>
+                    <tr>
+                        <th>{{ if eq .Site.Language.Lang "zh" }}包装{{ else if eq .Site.Language.Lang "ar" }}التغليف{{ else }}Packaging{{ end }}</th>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}标准出口包装，可定制{{ else if eq .Site.Language.Lang "ar" }}تغليف تصدير قياسي، قابل للتخصيص{{ else }}Standard export packing, customizable{{ end }}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ if eq .Site.Language.Lang "zh" }}样品{{ else if eq .Site.Language.Lang "ar" }}العينات{{ else }}Sample{{ end }}</th>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}免费提供，运费到付{{ else if eq .Site.Language.Lang "ar" }}عينات مجانية، الشحن على المحصل{{ else }}Free samples, freight collect{{ end }}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="product-content-section">
+            <div class="content-box">
+                <h2>{{ if eq .Site.Language.Lang "zh" }}产品特点{{ else if eq .Site.Language.Lang "ar" }}ميزات المنتج{{ else }}Product Features{{ end }}</h2>
+                <ul class="features-list">
+                    <li>✅ {{ if eq .Site.Language.Lang "zh" }}高品质材料，耐用性强{{ else if eq .Site.Language.Lang "ar" }}مواد عالية الجودة، متانة عالية{{ else }}High quality materials, durable{{ end }}</li>
+                    <li>✅ {{ if eq .Site.Language.Lang "zh" }}精密制造，安装简便{{ else if eq .Site.Language.Lang "ar" }}تصنيع دقيق، تركيب سهل{{ else }}Precision manufacturing, easy installation{{ end }}</li>
+                    <li>✅ {{ if eq .Site.Language.Lang "zh" }}多种表面处理可选{{ else if eq .Site.Language.Lang "ar" }}خيارات تشطيب سطحي متعددة{{ else }}Multiple finish options available{{ end }}</li>
+                    <li>✅ {{ if eq .Site.Language.Lang "zh" }}符合国际标准{{ else if eq .Site.Language.Lang "ar" }}متوافق مع المعايير الدولية{{ else }}Compliant with international standards{{ end }}</li>
+                    <li>✅ {{ if eq .Site.Language.Lang "zh" }}支持 OEM/ODM 定制{{ else if eq .Site.Language.Lang "ar" }}دعم تخصيص OEM/ODM{{ else }}OEM/ODM customization supported{{ end }}</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Contact CTA -->
+        <div class="product-cta">
+            <h2>{{ if eq .Site.Language.Lang "zh" }}获取报价{{ else if eq .Site.Language.Lang "ar" }}احصل على عرض أسعار{{ else }}Get a Quote{{ end }}</h2>
+            <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else if eq .Site.Language.Lang "ar" }}اتصل الآن، رد خلال ساعتين{{ else }}Contact now, reply within 2 hours{{ end }}</p>
+            <div class="cta-buttons">
+                <a href="mailto:z946487044@icloud.com" class="btn btn-primary btn-large">
+                    📧 {{ if eq .Site.Language.Lang "zh" }}发送邮件{{ else if eq .Site.Language.Lang "ar" }}إرسال بريد إلكتروني{{ else }}Send Email{{ end }}
+                </a>
+                <a href="https://wa.me/8618358008400" class="btn btn-whatsapp btn-large">
+                    💬 WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Product Detail Page Styles -->
+<style>
+    .product-detail { padding: 3rem 0; }
+    .breadcrumb { font-size: 0.95rem; padding: 1rem 0; border-bottom: 1px solid var(--border-color); }
+    
+    .product-header { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin: 3rem 0; }
+    
+    .product-gallery .main-image { margin-bottom: 1rem; }
+    .product-gallery .main-image img { width: 100%; height: 500px; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow); }
+    .thumbnail-gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+    .thumbnail { width: 100%; height: 100px; object-fit: cover; border-radius: var(--radius); cursor: pointer; border: 2px solid transparent; transition: all 0.3s; }
+    .thumbnail:hover, .thumbnail.active { border-color: var(--primary-color); }
+    
+    .product-info-main { padding: 1rem; }
+    .product-title { font-size: 2.2rem; color: var(--secondary-color); margin-bottom: 1rem; }
+    .product-price { font-size: 1.8rem; color: #e74c3c; font-weight: 700; margin-bottom: 1.5rem; }
+    
+    .product-meta { background: var(--bg-light); padding: 1.5rem; border-radius: var(--radius-lg); margin-bottom: 2rem; }
+    .meta-item { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px dashed var(--border-color); }
+    .meta-item:last-child { border-bottom: none; }
+    .meta-item strong { color: var(--secondary-color); }
+    .meta-item span { color: var(--text-light); }
+    
+    .product-actions { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2rem; }
+    
+    .product-lang-switch { background: #f0f7ff; padding: 1.5rem; border-radius: var(--radius-lg); border: 1px solid #d0e3f5; }
+    .lang-buttons { display: flex; gap: 0.8rem; flex-wrap: wrap; margin-top: 0.5rem; }
+    .lang-btn { padding: 0.6rem 1.2rem; background: white; border: 1px solid var(--border-color); border-radius: var(--radius); text-decoration: none; color: var(--text-color); font-size: 0.9rem; transition: all 0.3s; }
+    .lang-btn:hover { background: var(--primary-color); color: white; border-color: var(--primary-color); }
+    .lang-btn.active { background: var(--primary-color); color: white; border-color: var(--primary-color); }
+    
+    .product-content-section { margin: 3rem 0; }
+    .content-box { background: white; padding: 2.5rem; border-radius: var(--radius-lg); box-shadow: var(--shadow); }
+    .content-box h2 { color: var(--secondary-color); font-size: 1.6rem; margin-bottom: 1.5rem; padding-bottom: 0.8rem; border-bottom: 2px solid var(--primary-color); }
+    
+    .spec-table { width: 100%; border-collapse: collapse; }
+    .spec-table th, .spec-table td { padding: 1rem; text-align: left; border-bottom: 1px solid var(--border-color); }
+    .spec-table th { background: var(--bg-light); color: var(--secondary-color); font-weight: 600; width: 30%; }
+    .spec-table tr:hover { background: var(--bg-light); }
+    
+    .features-list { list-style: none; }
+    .features-list li { padding: 0.8rem 0; font-size: 1rem; color: var(--text-color); border-bottom: 1px dashed var(--border-color); }
+    .features-list li:last-child { border-bottom: none; }
+    
+    .product-cta { background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white; padding: 3rem; border-radius: var(--radius-lg); text-align: center; margin: 3rem 0; }
+    .product-cta h2 { font-size: 2rem; margin-bottom: 1rem; }
+    .product-cta p { font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.95; }
+    .cta-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .cta-buttons .btn { background: white; color: var(--primary-color); }
+    .cta-buttons .btn-whatsapp { background: #25D366; color: white; }
+    
+    @media (max-width: 768px) {
+        .product-header { grid-template-columns: 1fr; gap: 2rem; }
+        .product-gallery .main-image img { height: 350px; }
+        .product-title { font-size: 1.7rem; }
+        .product-price { font-size: 1.4rem; }
+        .content-box { padding: 1.5rem; }
+        .spec-table th, .spec-table td { padding: 0.8rem; font-size: 0.9rem; }
+        .lang-buttons { flex-direction: column; }
+    }
+</style>
+
+<!-- Image Switcher Script -->
+<script>
+function changeImage(thumbnail) {
+    document.getElementById('mainImage').src = thumbnail.src.replace('w=200', 'w=800').replace('h=200', 'h=600');
+    document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+    thumbnail.classList.add('active');
+}
+</script>
+{{ end }}

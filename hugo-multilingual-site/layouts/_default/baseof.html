@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" {{ if eq .Site.Language.LanguageDirection "rtl" }}dir="rtl"{{ end }}>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    
+    <!-- 样式 -->
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    
+    <!-- Google Analytics -->
+    {{ with .Site.Params.googleAnalytics }}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ . }}');
+    </script>
+    {{ end }}
+    
+    {{ if eq .Site.Language.LanguageDirection "rtl" }}
+    <style>body { direction: rtl; text-align: right; }</style>
+    {{ end }}
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="{{ "/" | relLangURL }}" class="site-logo">
+                    <img src="{{ "images/logo/logo.jpeg" | relURL }}" alt="Logo" class="logo-image">
+                    <h1>{{ .Site.Title }}</h1>
+                </a>
+                
+                <!-- 导航菜单 -->
+                <nav class="site-nav">
+                    <ul class="nav-menu">
+                        {{ range .Site.Menus.main }}
+                        <li class="nav-item">
+                            <a href="{{ .URL | relLangURL }}" class="nav-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </nav>
+                
+                <!-- 语言切换器 -->
+                <div class="lang-switcher">
+                    <span class="lang-label">
+                        {{ if eq .Site.Language.Lang "zh" }}🇨🇳 中文{{ else if eq .Site.Language.Lang "en" }}🇬🇧 EN{{ else }}🇸🇦 AR{{ end }}
+                    </span>
+                    <div class="lang-dropdown">
+                        {{ $currentPage := . }}
+                        {{ range .AllTranslations }}
+                        <a href="{{ .Permalink }}" class="lang-option{{ if eq $currentPage.Lang .Lang }} active{{ end }}">
+                            {{ if eq .Lang "zh" }}🇨🇳 中文{{ else if eq .Lang "en" }}🇬🇧 English{{ else }}🇸🇦 العربية{{ end }}
+                        </a>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主内容区 -->
+    <main class="site-main">
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>{{ .Site.Title }}</h3>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}{{ .Site.Params.description }}{{ else if eq .Site.Language.Lang "en" }}{{ .Site.Params.descriptionEn }}{{ else }}{{ .Site.Params.descriptionAr }}{{ end }}</p>
+                </div>
+                <div class="footer-section">
+                    <h3>{{ if eq .Site.Language.Lang "zh" }}联系方式{{ else if eq .Site.Language.Lang "en" }}Contact{{ else }}اتصل{{ end }}</h3>
+                    <p>📧 {{ .Site.Params.email }}</p>
+                    <p>📱 {{ .Site.Params.phone }}</p>
+                    <p>💬 {{ if eq .Site.Language.Lang "zh" }}微信：{{ .Site.Params.wechat }}{{ else if eq .Site.Language.Lang "en" }}WeChat: {{ .Site.Params.wechat }}{{ else }}WeChat: {{ .Site.Params.wechat }}{{ end }}</p>
+                    <p>📍 {{ if eq .Site.Language.Lang "zh" }}{{ .Site.Params.address }}{{ else if eq .Site.Language.Lang "en" }}{{ .Site.Params.addressEn }}{{ else }}{{ .Site.Params.addressAr }}{{ end }}</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; {{ now.Year }} {{ .Site.Title }}. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp 浮窗 -->
+    <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="whatsapp-float" target="_blank" rel="noopener">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="60" height="60">
+    </a>
+
+    <script src="{{ "js/main.js" | relURL }}"></script>
+</body>
+</html>

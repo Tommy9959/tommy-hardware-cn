@@ -1,0 +1,193 @@
+{{ define "main" }}
+<!-- Hero 区域 -->
+<section class="hero-section">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                {{ if eq .Site.Language.Lang "zh" }}专业门控五金制造商
+                {{ else if eq .Site.Language.Lang "en" }}Professional Door Hardware Manufacturer
+                {{ else }}مصنع محترف لأجهزة الأبواب{{ end }}
+            </h1>
+            <p class="hero-subtitle">
+                {{ if eq .Site.Language.Lang "zh" }}工厂直销门把手、铰链、门锁、导轨。出口尼日利亚、迪拜、非洲。15-25 天快速交货。
+                {{ else if eq .Site.Language.Lang "en" }}Factory direct supply of door handles, hinges, locks, and sliding tracks. Export to Nigeria, Dubai, Africa. Fast delivery 15-25 days.
+                {{ else }}توريد مباشر من المصنع لمقابض الأبواب، والمفاصل، والأقفال، والمسارات المنزلقة. التصدير إلى نيجيريا ودبي وأفريقيا.{{ end }}
+            </p>
+            <div class="hero-buttons">
+                <a href="{{ "/products/" | relLangURL }}" class="btn btn-primary">
+                    {{ if eq .Site.Language.Lang "zh" }}查看产品{{ else if eq .Site.Language.Lang "en" }}View Products{{ else }}عرض المنتجات{{ end }}
+                </a>
+                <a href="{{ "/contact/" | relLangURL }}" class="btn btn-secondary">
+                    {{ if eq .Site.Language.Lang "zh" }}联系我们{{ else if eq .Site.Language.Lang "en" }}Contact Us{{ else }}اتصل بنا{{ end }}
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 为什么选择我们 -->
+<section class="why-choose-section">
+    <div class="container">
+        <h2 class="section-title">
+            {{ if eq .Site.Language.Lang "zh" }}为什么选择我们
+            {{ else if eq .Site.Language.Lang "en" }}Why Choose Us
+            {{ else }}لماذا تختارنا{{ end }}
+        </h2>
+        <p class="section-subtitle">
+            {{ if eq .Site.Language.Lang "zh" }}10+ 年出口经验，50+ 国家和地区信赖之选
+            {{ else if eq .Site.Language.Lang "en" }}10+ years export experience, trusted by 50+ countries
+            {{ else }}+10 سنوات من الخبرة في التصدير، موثوق من قبل +50 دولة{{ end }}
+        </p>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🏭</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}工厂直销{{ else if eq .Site.Language.Lang "en" }}Factory Direct{{ else }}المصنع مباشرة{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}无中间商，价格比市场价低 30-50%{{ else if eq .Site.Language.Lang "en" }}No middlemen, 30-50% lower than market{{ else }}بدون وسطاء{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}出厂价格优惠{{ else if eq .Site.Language.Lang "en" }}Best factory prices{{ else }}أسعار المصنع{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}支持小批量订单{{ else if eq .Site.Language.Lang "en" }}Small orders accepted{{ else }}الطلبات الصغيرة{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}免费样品服务{{ else if eq .Site.Language.Lang "en" }}Free samples{{ end }}</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}质量保证{{ else if eq .Site.Language.Lang "en" }}Quality Guaranteed{{ else }}جودة مضمونة{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}ISO 9001 认证，严格质检流程{{ else if eq .Site.Language.Lang "en" }}ISO 9001 certified, strict QC{{ else }}معتمدة ISO{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}100% 出厂检验{{ else if eq .Site.Language.Lang "en" }}100% inspection{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}50,000+ 次耐用测试{{ else if eq .Site.Language.Lang "en" }}50,000+ cycles test{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}2 年质量保证{{ else if eq .Site.Language.Lang "en" }}2-year warranty{{ end }}</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🚢</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}快速交货{{ else if eq .Site.Language.Lang "en" }}Fast Delivery{{ else }}تسليم سريع{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}15-25 天到大多数港口{{ else if eq .Site.Language.Lang "en" }}15-25 days to most ports{{ else }}15-25 يوم{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}现货 3-5 天发货{{ else if eq .Site.Language.Lang "en" }}Stock: 3-5 days{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}定制 15-25 天生产{{ else if eq .Site.Language.Lang "en" }}Custom: 15-25 days{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}合作多家货代公司{{ else if eq .Site.Language.Lang "en" }}Multiple forwarders{{ end }}</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}灵活付款{{ else if eq .Site.Language.Lang "en" }}Flexible Payment{{ else }}دفع مرن{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}支持多种付款方式{{ else if eq .Site.Language.Lang "en" }}Multiple payment methods{{ else }}دفع مرن{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ T/T (银行转账)</li>
+                    <li>✓ L/C (信用证)</li>
+                    <li>✓ Western Union (西联汇款)</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔧</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}OEM/ODM 服务{{ else if eq .Site.Language.Lang "en" }}OEM/ODM Service{{ else }}خدمة OEM/ODM{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}定制设计和包装{{ else if eq .Site.Language.Lang "en" }}Custom design & packaging{{ else }}تصميم مخصص{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}定制 Logo 和包装{{ else if eq .Site.Language.Lang "en" }}Custom logo{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}新产品开发支持{{ else if eq .Site.Language.Lang "en" }}New product development{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}免费设计稿{{ else if eq .Site.Language.Lang "en" }}Free design drafts{{ end }}</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}全球出口{{ else if eq .Site.Language.Lang "en" }}Global Export{{ else }}تصدير عالمي{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}出口 50+ 国家和地区{{ else if eq .Site.Language.Lang "en" }}Export to 50+ countries{{ else }}50+ دولة{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}专注非洲市场 10 年+{{ else if eq .Site.Language.Lang "en" }}10+ years in Africa{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}熟悉各国进口政策{{ else if eq .Site.Language.Lang "en" }}Know import policies{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}提供清关文件{{ else if eq .Site.Language.Lang "en" }}Customs documents{{ end }}</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📞</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}专业服务{{ else if eq .Site.Language.Lang "en" }}Professional Service{{ else }}خدمة احترافية{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}24/7 多语言支持{{ else if eq .Site.Language.Lang "en" }}24/7 multilingual support{{ else }}دعم 24/7{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}2 小时内回复询价{{ else if eq .Site.Language.Lang "en" }}Reply within 2 hours{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}英语/中文/阿语服务{{ else if eq .Site.Language.Lang "en" }}EN/CN/AR support{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}售后技术支持{{ else if eq .Site.Language.Lang "en" }}After-sales support{{ end }}</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🤝</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}长期合作{{ else if eq .Site.Language.Lang "en" }}Long-term Partnership{{ else }}شراكة طويلة{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}与客户共同成长{{ else if eq .Site.Language.Lang "en" }}Grow together{{ else }}نمو معًا{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}老客户价格优惠{{ else if eq .Site.Language.Lang "en" }}Regular client discount{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}优先生产和发货{{ else if eq .Site.Language.Lang "en" }}Priority production{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}市场保护政策{{ else if eq .Site.Language.Lang "en" }}Market protection{{ end }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 产品类别 -->
+<section class="products-section">
+    <div class="container">
+        <h2 class="section-title">
+            {{ if eq .Site.Language.Lang "zh" }}产品中心
+            {{ else if eq .Site.Language.Lang "en" }}Our Products
+            {{ else }}منتجاتنا{{ end }}
+        </h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-icon">🚪</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门把手{{ else if eq .Site.Language.Lang "en" }}Door Handles{{ else }}مقابض الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}不锈钢、铝合金、黄铜{{ else if eq .Site.Language.Lang "en" }}Stainless Steel, Aluminum, Brass{{ else }}فولاذ مقاوم، ألومنيوم، نحاس{{ end }}</p>
+                <a href="{{ "/products/door-handles/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🔒</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门锁{{ else if eq .Site.Language.Lang "en" }}Door Locks{{ else }}أقفال الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}插芯锁、挂锁、智能锁{{ else if eq .Site.Language.Lang "en" }}Mortise Locks, Padlocks, Smart Locks{{ else }}أقفال مقبس، أقفال قفل{{ end }}</p>
+                <a href="{{ "/products/door-locks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🔧</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门铰链{{ else if eq .Site.Language.Lang "en" }}Door Hinges{{ else }}مفاصل الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}合页、转轴铰链、烟斗铰链{{ else if eq .Site.Language.Lang "en" }}Butt Hinges, Pivot Hinges{{ end }}</p>
+                <a href="{{ "/products/door-hinges/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">📦</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}导轨{{ else if eq .Site.Language.Lang "en" }}Sliding Tracks{{ else }}المسارات المنزلقة{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}抽屉导轨、衣柜轨道{{ else if eq .Site.Language.Lang "en" }}Drawer Slides, Wardrobe Tracks{{ end }}</p>
+                <a href="{{ "/products/sliding-tracks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="{{ "/products/" | relLangURL }}" class="btn btn-secondary btn-large">
+                {{ if eq .Site.Language.Lang "zh" }}查看更多产品{{ else if eq .Site.Language.Lang "en" }}View All Products{{ else }}عرض كل المنتجات{{ end }}
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- 公司地图 -->
+<section class="map-section">
+    <div class="container">
+        <h2 class="section-title">
+            {{ if eq .Site.Language.Lang "zh" }}公司地址
+            {{ else if eq .Site.Language.Lang "en" }}Our Location
+            {{ else }}موقعنا{{ end }}
+        </h2>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.123456789!2d120.0741!3d29.3089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDE4JzMzLjYiTiAxMjDCsDA0JzI2LjQiRQ!5e0!3m2!1sen!2scn!4v1234567890" 
+                width="100%" 
+                height="450" 
+                style="border:0; border-radius: 12px;" 
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div class="map-info">
+                <p><strong>📍 {{ if eq .Site.Language.Lang "zh" }}地址{{ else if eq .Site.Language.Lang "en" }}Address{{ else }}العنوان{{ end }}:</strong></p>
+                <p>{{ if eq .Site.Language.Lang "zh" }}浙江省金华市义乌市稠城街道丹溪北路 18 号雪峰商务大厦 2018 室{{ else if eq .Site.Language.Lang "en" }}Room 2018, Xuefeng Business Building, No.18 Danxi North Road, Yiwu, Zhejiang, China{{ else }}غرفة 2018، مبنى شوفeng التجاري، رقم 18 طريق دانجي الشمالي، مدينة ييو، الصين{{ end }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

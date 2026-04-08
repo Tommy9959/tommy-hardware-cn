@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "skills": {
+    "fluid-memory": {
+      "version": "1.0.9",
+      "installedAt": 1775586569247
+    },
+    "self-improving-agent": {
+      "version": "3.0.13",
+      "installedAt": 1775586702766
+    },
+    "find-skills-skill": {
+      "version": "1.0.0",
+      "installedAt": 1775587343906
+    },
+    "ontology": {
+      "version": "1.0.4",
+      "installedAt": 1775587404089
+    },
+    "proactive-agent-lite": {
+      "version": "1.0.0",
+      "installedAt": 1775587425492
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1775587444973
+    },
+    "self-improving-proactive-agent": {
+      "version": "1.0.0",
+      "installedAt": 1775587525322
+    },
+    "moss-deep-search": {
+      "version": "1.0.0",
+      "installedAt": 1775588261524
+    },
+    "internet-search": {
+      "version": "0.3.4",
+      "installedAt": 1775588261730
+    },
+    "multi-search-engine-simple": {
+      "version": "1.0.0",
+      "installedAt": 1775588261930
+    },
+    "openclaw-tavily-search": {
+      "version": "0.1.0",
+      "installedAt": 1775588330668
+    },
+    "openclaw-agent-browser": {
+      "version": "1.0.0",
+      "installedAt": 1775606020303
+    },
+    "mcporter": {
+      "version": "1.0.0",
+      "installedAt": 1775606801377
+    }
+  }
+}
