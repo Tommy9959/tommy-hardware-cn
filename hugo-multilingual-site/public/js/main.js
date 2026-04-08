@@ -3,6 +3,18 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Hugo Multilingual Site Loaded');
     
+    // 移动端语言切换器点击支持
+    const langSwitcher = document.querySelector('.lang-switcher');
+    if (langSwitcher) {
+        langSwitcher.addEventListener('click', function(e) {
+            e.stopPropagation();
+            this.classList.toggle('active');
+        });
+        document.addEventListener('click', function() {
+            langSwitcher.classList.remove('active');
+        });
+    }
+    
     // 平滑滚动
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {

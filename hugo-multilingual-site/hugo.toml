@@ -3,27 +3,27 @@ baseURL = 'https://jh-hardware.com/'
 languageCode = 'zh-cn'
 title = '义乌水汇进出口有限公司'
 
-# 默认语言为中文
-defaultContentLanguage = 'zh'
-defaultContentLanguageInSubdir = true
+# 默认语言为英文
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
 
 # 多语言配置
 [languages]
-  [languages.zh]
-    title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
-    weight = 1
-    languageName = '中文'
-    languageCode = 'zh-cn'
-    contentDir = 'content/zh'
-    description = '工厂直销门把手、铰链、门锁、导轨。出口尼日利亚、迪拜、非洲。'
-    
   [languages.en]
     title = 'Yiwu Shuihui Import & Export Co., Ltd.'
-    weight = 2
+    weight = 1
     languageName = 'English'
     languageCode = 'en-us'
     contentDir = 'content/en'
     description = 'Factory direct supply of door handles, hinges, locks, and sliding tracks.'
+    
+  [languages.zh]
+    title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
+    weight = 2
+    languageName = '中文'
+    languageCode = 'zh-cn'
+    contentDir = 'content/zh'
+    description = '工厂直销门把手、铰链、门锁、导轨。出口尼日利亚、迪拜、非洲。'
     
   [languages.ar]
     title = 'شركة ييو شويهوي للاستيراد والتصدير'

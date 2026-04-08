@@ -1,89 +1,169 @@
 {{ define "main" }}
-<!-- 产品列表页 -->
-<section class="products-list-page">
+<section class="products-list-section">
     <div class="container">
-        <!-- 页面标题 -->
-        <div class="page-header">
-            <h1 class="page-title">
-                {{ if eq .Site.Language.Lang "zh" }}产品中心
-                {{ else if eq .Site.Language.Lang "en" }}Our Products
-                {{ else }}منتجاتنا{{ end }}
-            </h1>
-            <p class="page-subtitle">
-                {{ if eq .Site.Language.Lang "zh" }}工厂直销，品质保证，支持 OEM/ODM
-                {{ else if eq .Site.Language.Lang "en" }}Factory direct, quality guaranteed, OEM/ODM supported
-                {{ else }}مباشر من المصنع، جودة مضمونة{{ end }}
-            </p>
+        <!-- 面包屑导航 -->
+        <nav class="breadcrumb">
+            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}</a>
+            <span> / </span>
+            <a href="{{ "/products/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}产品中心{{ else if eq .Site.Language.Lang "en" }}Products{{ else }}المنتجات{{ end }}</a>
+            <span> / </span>
+            <span>{{ .Title }}</span>
+        </nav>
+
+        <!-- 分类标题 -->
+        <div class="category-header">
+            <h1 class="category-title">{{ .Title }}</h1>
+            <p class="category-description">{{ .Params.description }}</p>
         </div>
 
-        <!-- 产品网格 -->
-        <div class="products-grid">
-            {{ range .Site.RegularPages }}
-            {{ if and (eq .Section "products") (not .IsNode) }}
-            <div class="product-card">
-                {{ if .Params.image }}
-                <div class="product-image">
-                    <img src="{{ .Params.image }}" alt="{{ .Title }}">
-                </div>
-                {{ end }}
-                <div class="product-info">
-                    <h3>{{ .Title }}</h3>
-                    {{ if .Params.model }}
-                    <p class="product-model">
-                        <strong>{{ if eq $.Site.Language.Lang "zh" }}型号{{ else if eq $.Site.Language.Lang "en" }}Model{{ else }}النموذج{{ end }}:</strong> {{ .Params.model }}
-                    </p>
-                    {{ end }}
-                    <p class="product-desc">{{ .Description }}</p>
-                    {{ if .Params.price_range }}
-                    <p class="product-price">
-                        <strong>{{ if eq $.Site.Language.Lang "zh" }}价格{{ else if eq $.Site.Language.Lang "en" }}Price{{ else }}السعر{{ end }}:</strong> {{ .Params.price_range }}
-                    </p>
-                    {{ end }}
-                    <a href="{{ .Permalink }}" class="btn btn-primary">
-                        {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}
-                    </a>
-                </div>
+        <!-- 产品型号列表 -->
+        <div class="models-grid">
+            {{ range .Params.products }}
+            <div class="model-card">
+                <div class="model-icon">🔧</div>
+                <h3 class="model-name">{{ .model }}</h3>
+                <p class="model-title">{{ .name }}</p>
+                <a href="{{ .model | lower | urlize }}/" class="btn btn-primary">
+                    {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}
+                </a>
             </div>
-            {{ end }}
             {{ end }}
         </div>
 
         <!-- 联系 CTA -->
-        <div class="products-cta">
-            <h2>{{ if eq .Site.Language.Lang "zh" }}需要帮助选择产品？{{ else if eq .Site.Language.Lang "en" }}Need Help Choosing Products?{{ else }}تحتاج مساعدة؟{{ end }}</h2>
-            <p>{{ if eq .Site.Language.Lang "zh" }}联系我们的销售团队，获取专业建议{{ else if eq .Site.Language.Lang "en" }}Contact our sales team for professional advice{{ else }}تواصل مع فريق المبيعات{{ end }}</p>
+        <div class="contact-cta">
+            <h2>{{ if eq .Site.Language.Lang "zh" }}需要报价或样品？{{ else if eq .Site.Language.Lang "en" }}Need a Quote or Samples?{{ else }}تحتاج إلى عرض أسعار أو عينات؟{{ end }}</h2>
+            <p>{{ if eq .Site.Language.Lang "zh" }}立即联系我们，获取最优价格和快速交货{{ else if eq .Site.Language.Lang "en" }}Contact us now for best prices and fast delivery{{ else }}اتصل بنا الآن للحصول على أفضل الأسعار{{ end }}</p>
             <div class="cta-buttons">
-                <a href="mailto:{{ .Site.Params.email }}" class="btn btn-primary btn-large">📧 {{ if eq .Site.Language.Lang "zh" }}发送邮件{{ else if eq .Site.Language.Lang "en" }}Send Email{{ else }}إرسال بريد{{ end }}</a>
-                <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="btn btn-whatsapp btn-large">💬 WhatsApp</a>
+                <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="btn btn-primary" target="_blank">
+                    WhatsApp
+                </a>
+                <a href="{{ "/contact/" | relLangURL }}" class="btn btn-secondary">
+                    {{ if eq .Site.Language.Lang "zh" }}联系我们{{ else if eq .Site.Language.Lang "en" }}Contact Us{{ else }}اتصل بنا{{ end }}
+                </a>
             </div>
         </div>
     </div>
 </section>
 
 <style>
-.products-list-page { padding: 4rem 0; min-height: 60vh; }
-.page-header { text-align: center; margin-bottom: 3rem; }
-.page-title { font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 1rem; }
-.page-subtitle { font-size: 1.1rem; color: var(--text-light); }
-.products-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 4rem; }
-.product-card { background: white; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); transition: all 0.3s; border: 1px solid var(--border-color); }
-.product-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
-.product-image img { width: 100%; height: 220px; object-fit: cover; }
-.product-info { padding: 1.5rem; }
-.product-info h3 { color: var(--secondary-color); margin-bottom: 0.8rem; font-size: 1.3rem; }
-.product-model { color: var(--primary-color); font-weight: 600; margin-bottom: 0.5rem; }
-.product-desc { color: var(--text-light); margin-bottom: 1rem; font-size: 0.95rem; }
-.product-price { color: #e74c3c; font-weight: 700; margin-bottom: 1rem; }
-.products-cta { background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white; padding: 3rem; border-radius: var(--radius-lg); text-align: center; }
-.products-cta h2 { font-size: 2rem; margin-bottom: 1rem; }
-.products-cta p { font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.95; }
-.cta-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
-.cta-buttons .btn { background: white; color: var(--primary-color); }
-.cta-buttons .btn-whatsapp { background: #25D366; color: white; }
+.products-list-section {
+    padding: 3rem 0 5rem;
+    min-height: 60vh;
+}
+.breadcrumb {
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+.breadcrumb a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+.category-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.category-title {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+.category-description {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    max-width: 800px;
+    margin: 0 auto;
+}
+.models-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+.model-card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    text-align: center;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border-color);
+    transition: all 0.3s;
+}
+.model-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-hover);
+}
+.model-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+.model-name {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+.model-title {
+    font-size: 1rem;
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
+    min-height: 3rem;
+}
+.contact-cta {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 3rem 2rem;
+    border-radius: var(--radius-lg);
+    text-align: center;
+}
+.contact-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.contact-cta p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+}
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 @media (max-width: 768px) {
-    .products-list-page { padding: 2rem 0; }
-    .page-title { font-size: 2rem; }
-    .products-grid { grid-template-columns: 1fr; }
+    .products-list-section {
+        padding: 2rem 0 3rem;
+    }
+    .category-title {
+        font-size: 1.8rem;
+    }
+    .category-description {
+        font-size: 1rem;
+    }
+    .models-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .model-card {
+        padding: 1.5rem;
+    }
+    .model-icon {
+        font-size: 2.5rem;
+    }
+    .model-name {
+        font-size: 1.3rem;
+    }
+    .contact-cta {
+        padding: 2rem 1.5rem;
+    }
+    .contact-cta h2 {
+        font-size: 1.5rem;
+    }
 }
 </style>
 {{ end }}

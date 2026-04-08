@@ -25,6 +25,60 @@
     </div>
 </section>
 
+<!-- 产品类别 -->
+<section class="products-section">
+    <div class="container">
+        <h2 class="section-title">
+            {{ if eq .Site.Language.Lang "zh" }}产品中心
+            {{ else if eq .Site.Language.Lang "en" }}Our Products
+            {{ else }}منتجاتنا{{ end }}
+        </h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-icon">🚪</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门把手{{ else if eq .Site.Language.Lang "en" }}Door Handles{{ else }}مقابض الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}不锈钢、铝合金、黄铜{{ else if eq .Site.Language.Lang "en" }}Stainless Steel, Aluminum, Brass{{ else }}فولاذ مقاوم، ألومنيوم، نحاس{{ end }}</p>
+                <a href="{{ "/products/door-handles/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🔒</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门锁{{ else if eq .Site.Language.Lang "en" }}Door Locks{{ else }}أقفال الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}插芯锁、挂锁、智能锁{{ else if eq .Site.Language.Lang "en" }}Mortise Locks, Padlocks, Smart Locks{{ else }}أقفال مقبس، أقفال قفل{{ end }}</p>
+                <a href="{{ "/products/door-locks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🔧</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门铰链{{ else if eq .Site.Language.Lang "en" }}Door Hinges{{ else }}مفاصل الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}合页、转轴铰链、烟斗铰链{{ else if eq .Site.Language.Lang "en" }}Butt Hinges, Pivot Hinges{{ end }}</p>
+                <a href="{{ "/products/door-hinges/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">📦</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}导轨{{ else if eq .Site.Language.Lang "en" }}Sliding Tracks{{ else }}المسارات المنزلقة{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}抽屉导轨、衣柜轨道{{ else if eq .Site.Language.Lang "en" }}Drawer Slides, Wardrobe Tracks{{ end }}</p>
+                <a href="{{ "/products/sliding-tracks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🪑</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}沙发脚{{ else if eq .Site.Language.Lang "en" }}Sofa Legs{{ else }}أرجل الأريكة{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}金属脚、木脚、塑料脚{{ else if eq .Site.Language.Lang "en" }}Metal, Wooden, Plastic Legs{{ else }}أرجل معدنية، خشبية{{ end }}</p>
+                <a href="{{ "/products/sofa-legs/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🗄️</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}橱柜五金{{ else if eq .Site.Language.Lang "en" }}Cabinet Hardware{{ else }}أجهزة الخزانة{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}拉手、连接件、支撑杆{{ else if eq .Site.Language.Lang "en" }}Handles, Connectors, Gas Struts{{ else }}مقابض، موصلات{{ end }}</p>
+                <a href="{{ "/products/cabinet-hardware/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="{{ "/products/" | relLangURL }}" class="btn btn-secondary btn-large">
+                {{ if eq .Site.Language.Lang "zh" }}查看更多产品{{ else if eq .Site.Language.Lang "en" }}View All Products{{ else }}عرض كل المنتجات{{ end }}
+            </a>
+        </div>
+    </div>
+</section>
+
 <!-- 为什么选择我们 -->
 <section class="why-choose-section">
     <div class="container">
@@ -123,48 +177,6 @@
     </div>
 </section>
 
-<!-- 产品类别 -->
-<section class="products-section">
-    <div class="container">
-        <h2 class="section-title">
-            {{ if eq .Site.Language.Lang "zh" }}产品中心
-            {{ else if eq .Site.Language.Lang "en" }}Our Products
-            {{ else }}منتجاتنا{{ end }}
-        </h2>
-        <div class="products-grid">
-            <div class="product-card">
-                <div class="product-icon">🚪</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}门把手{{ else if eq .Site.Language.Lang "en" }}Door Handles{{ else }}مقابض الأبواب{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}不锈钢、铝合金、黄铜{{ else if eq .Site.Language.Lang "en" }}Stainless Steel, Aluminum, Brass{{ else }}فولاذ مقاوم، ألومنيوم، نحاس{{ end }}</p>
-                <a href="{{ "/products/door-handles/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
-            </div>
-            <div class="product-card">
-                <div class="product-icon">🔒</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}门锁{{ else if eq .Site.Language.Lang "en" }}Door Locks{{ else }}أقفال الأبواب{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}插芯锁、挂锁、智能锁{{ else if eq .Site.Language.Lang "en" }}Mortise Locks, Padlocks, Smart Locks{{ else }}أقفال مقبس، أقفال قفل{{ end }}</p>
-                <a href="{{ "/products/door-locks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
-            </div>
-            <div class="product-card">
-                <div class="product-icon">🔧</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}门铰链{{ else if eq .Site.Language.Lang "en" }}Door Hinges{{ else }}مفاصل الأبواب{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}合页、转轴铰链、烟斗铰链{{ else if eq .Site.Language.Lang "en" }}Butt Hinges, Pivot Hinges{{ end }}</p>
-                <a href="{{ "/products/door-hinges/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
-            </div>
-            <div class="product-card">
-                <div class="product-icon">📦</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}导轨{{ else if eq .Site.Language.Lang "en" }}Sliding Tracks{{ else }}المسارات المنزلقة{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}抽屉导轨、衣柜轨道{{ else if eq .Site.Language.Lang "en" }}Drawer Slides, Wardrobe Tracks{{ end }}</p>
-                <a href="{{ "/products/sliding-tracks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
-            </div>
-        </div>
-        <div style="text-align: center; margin-top: 3rem;">
-            <a href="{{ "/products/" | relLangURL }}" class="btn btn-secondary btn-large">
-                {{ if eq .Site.Language.Lang "zh" }}查看更多产品{{ else if eq .Site.Language.Lang "en" }}View All Products{{ else }}عرض كل المنتجات{{ end }}
-            </a>
-        </div>
-    </div>
-</section>
-
 <!-- 公司地图 -->
 <section class="map-section">
     <div class="container">
@@ -175,10 +187,10 @@
         </h2>
         <div class="map-container">
             <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.123456789!2d120.0741!3d29.3089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDE4JzMzLjYiTiAxMjDCsDA0JzI2LjQiRQ!5e0!3m2!1sen!2scn!4v1234567890" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.123456789!2d120.0741!3d29.3089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344360a6b5c3f123%3A0xabcdef1234567890!2z5rGf5Lic5YyX5L2T5Y2X5LmQ5YiG5Lq65Y2X5LmQ!5e0!3m2!1szh-CN!2scn!4v1712567890123!5m2!1szh-CN!2scn" 
                 width="100%" 
                 height="450" 
-                style="border:0; border-radius: 12px;" 
+                style="border:0; border-radius: 12px; max-width: 100%;" 
                 allowfullscreen="" 
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">

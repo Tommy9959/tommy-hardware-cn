@@ -46,11 +46,11 @@
                 </nav>
                 
                 <!-- 语言切换器 -->
-                <div class="lang-switcher">
-                    <span class="lang-label">
+                <div class="lang-switcher" role="button" tabindex="0" aria-label="Switch language">
+                    <span class="lang-label" aria-haspopup="true">
                         {{ if eq .Site.Language.Lang "zh" }}🇨🇳 中文{{ else if eq .Site.Language.Lang "en" }}🇬🇧 EN{{ else }}🇸🇦 AR{{ end }}
                     </span>
-                    <div class="lang-dropdown">
+                    <div class="lang-dropdown" role="menu">
                         {{ $currentPage := . }}
                         {{ range .AllTranslations }}
                         <a href="{{ .Permalink }}" class="lang-option{{ if eq $currentPage.Lang .Lang }} active{{ end }}">
