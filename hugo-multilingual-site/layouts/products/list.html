@@ -18,12 +18,15 @@
 
         <!-- 产品型号列表 -->
         <div class="models-grid">
-            {{ range .Params.products }}
+            {{ range .Pages }}
             <div class="model-card">
                 <div class="model-icon">🔧</div>
-                <h3 class="model-name">{{ .model }}</h3>
-                <p class="model-title">{{ .name }}</p>
-                <a href="{{ .model | lower | urlize }}/" class="btn btn-primary">
+                <h3 class="model-name">{{ .Title }}</h3>
+                <p class="model-title">{{ .Params.product_name | default .Description }}</p>
+                {{ if .Params.price_range }}
+                <p class="model-price">{{ if eq $.Site.Language.Lang "zh" }}价格：{{ else }}Price: {{ end }}{{ .Params.price_range }}</p>
+                {{ end }}
+                <a href="{{ .RelPermalink }}" class="btn btn-primary">
                     {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}
                 </a>
             </div>
