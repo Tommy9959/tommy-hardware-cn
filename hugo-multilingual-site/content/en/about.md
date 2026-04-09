@@ -10,31 +10,6 @@ keywords: "SOLA, SOLA hardware, SOLA brand, door locks, door handles, interior l
 
 ---
 
-## 🎯 SOLA Core Products for Africa
-
-### 🔒 Interior Door Locks (Best Seller for Africa)
-- Mortise Locks for Interior Doors
-- Bathroom Locks (Privacy Locks)
-- Bedroom Locks
-- Handle Locks
-- High security, durable design
-- Suitable for wooden doors, metal doors
-
-### 🚪 Door Handles (Popular in Africa)
-- Stainless Steel Door Handles
-- Aluminum Alloy Handles
-- Zinc Alloy Handles
-- Modern Design & Classic Design
-- Anti-corrosion, long-lasting
-
-### Other Products
-- Door Hinges (Butt Hinges, Pivot Hinges)
-- Sliding Tracks (Drawer Slides, Wardrobe Tracks)
-- Cabinet Hardware (Handles, Connectors)
-- Sofa Legs (Metal, Wooden)
-
----
-
 ## 🌍 Why Choose SOLA for African Market?
 
 ### Deep Understanding of African Market
