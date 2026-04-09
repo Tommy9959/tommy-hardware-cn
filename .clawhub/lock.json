@@ -52,6 +52,66 @@
     "mcporter": {
       "version": "1.0.0",
       "installedAt": 1775606801377
+    },
+    "ffmpeg-video-editor": {
+      "version": "1.0.0",
+      "installedAt": 1775659556329
+    },
+    "deep-research-pro": {
+      "version": "1.0.2",
+      "installedAt": 1775659562577
+    },
+    "byterover": {
+      "version": "3.0.0",
+      "installedAt": 1775659568820
+    },
+    "atxp-cli": {
+      "version": "1.21.1",
+      "installedAt": 1775659591963
+    },
+    "memory-hygiene": {
+      "version": "1.0.0",
+      "installedAt": 1775659791625
+    },
+    "lossless-claw": {
+      "version": "1.0.1",
+      "installedAt": 1775659821746
+    },
+    "web-scraper": {
+      "version": "0.1.1",
+      "installedAt": 1775660190863
+    },
+    "email-sender": {
+      "version": "1.0.2",
+      "installedAt": 1775660202987
+    },
+    "apollo-io": {
+      "version": "1.0.0",
+      "installedAt": 1775660205959
+    },
+    "cron-scheduler": {
+      "version": "1.0.0",
+      "installedAt": 1775660219120
+    },
+    "excel-xlsx": {
+      "version": "1.0.2",
+      "installedAt": 1775660243291
+    },
+    "universal-translate": {
+      "version": "1.0.0",
+      "installedAt": 1775660245890
+    },
+    "risk-management-specialist": {
+      "version": "2.1.1",
+      "installedAt": 1775660248982
+    },
+    "market-analysis-cn": {
+      "version": "1.0.0",
+      "installedAt": 1775661357343
+    },
+    "data-analyst-pro": {
+      "version": "0.1.0",
+      "installedAt": 1775661359911
     }
   }
 }

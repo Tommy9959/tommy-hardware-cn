@@ -1,0 +1,157 @@
+{{ define "main" }}
+<!-- 联系页面 -->
+<section class="contact-page">
+    <div class="container">
+        <!-- 页面标题 -->
+        <div class="page-header">
+            <h1 class="page-title">{{ .Title }}</h1>
+            <p class="page-subtitle">{{ .Params.description }}</p>
+        </div>
+
+        <div class="contact-content">
+            <!-- 左侧：联系信息 -->
+            <div class="contact-info">
+                <h2>{{ if eq .Site.Language.Lang "zh" }}联系方式{{ else if eq .Site.Language.Lang "en" }}Contact Information{{ else }}معلومات الاتصال{{ end }}</h2>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-details">
+                        <h3>{{ if eq .Site.Language.Lang "zh" }}邮箱{{ else if eq .Site.Language.Lang "en" }}Email{{ else }}البريد الإلكتروني{{ end }}</h3>
+                        <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div class="contact-details">
+                        <h3>{{ if eq .Site.Language.Lang "zh" }}电话 / WhatsApp{{ else if eq .Site.Language.Lang "en" }}Phone / WhatsApp{{ else }}الهاتف / واتساب{{ end }}</h3>
+                        <a href="https://wa.me/{{ .Site.Params.whatsapp }}" target="_blank">{{ .Site.Params.phone }}</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">💬</div>
+                    <div class="contact-details">
+                        <h3>{{ if eq .Site.Language.Lang "zh" }}微信{{ else if eq .Site.Language.Lang "en" }}WeChat{{ else }}ويتشات{{ end }}</h3>
+                        <p>{{ .Site.Params.wechat }}</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-details">
+                        <h3>{{ if eq .Site.Language.Lang "zh" }}地址{{ else if eq .Site.Language.Lang "en" }}Address{{ else }}العنوان{{ end }}</h3>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}{{ .Site.Params.address }}{{ else if eq .Site.Language.Lang "en" }}{{ .Site.Params.addressEn }}{{ else }}{{ .Site.Params.addressAr }}{{ end }}</p>
+                    </div>
+                </div>
+
+                <div class="business-hours">
+                    <h3>{{ if eq .Site.Language.Lang "zh" }}营业时间{{ else if eq .Site.Language.Lang "en" }}Business Hours{{ else }}ساعات العمل{{ end }}</h3>
+                    <ul>
+                        <li><strong>{{ if eq .Site.Language.Lang "zh" }}周一至周五{{ else if eq .Site.Language.Lang "en" }}Monday - Friday{{ else }}الإثنين - الجمعة{{ end }}:</strong> 9:00 AM - 6:00 PM</li>
+                        <li><strong>{{ if eq .Site.Language.Lang "zh" }}周六{{ else if eq .Site.Language.Lang "en" }}Saturday{{ else }}السبت{{ end }}:</strong> 10:00 AM - 4:00 PM</li>
+                        <li><strong>{{ if eq .Site.Language.Lang "zh" }}周日{{ else if eq .Site.Language.Lang "en" }}Sunday{{ else }}الأحد{{ end }}:</strong> {{ if eq .Site.Language.Lang "zh" }}休息{{ else if eq .Site.Language.Lang "en" }}Closed{{ else }}مغلق{{ end }}</li>
+                    </ul>
+                </div>
+
+                <div class="response-time">
+                    <p><strong>{{ if eq .Site.Language.Lang "zh" }}快速回复：{{ else if eq .Site.Language.Lang "en" }}Quick Response:{{ else }}رد سريع:{{ end }}</strong> {{ if eq .Site.Language.Lang "zh" }}我们承诺在 24 小时内回复所有询盘{{ else if eq .Site.Language.Lang "en" }}We promise to respond to all inquiries within 24 hours{{ else }}نعد بالرد على جميع الاستفسارات خلال 24 ساعة{{ end }}</p>
+                </div>
+            </div>
+
+            <!-- 右侧：询价表单 -->
+            <div class="contact-form-section">
+                <h2>{{ if eq .Site.Language.Lang "zh" }}快速询价{{ else if eq .Site.Language.Lang "en" }}Quick Inquiry{{ else }}استفسار سريع{{ end }}</h2>
+                <p class="form-description">{{ if eq .Site.Language.Lang "zh" }}填写下方表单，我们将在 24 小时内回复您{{ else if eq .Site.Language.Lang "en" }}Fill out the form below and we'll respond within 24 hours{{ else }}املأ النموذج أدناه وسنرد خلال 24 ساعة{{ end }}</p>
+                
+                <form class="inquiry-form" action="https://formspree.io/f/xojpbpbj" method="POST">
+                    <div class="form-group">
+                        <label for="name">{{ if eq .Site.Language.Lang "zh" }}姓名 *{{ else if eq .Site.Language.Lang "en" }}Your Name *{{ else }}الاسم *{{ end }}</label>
+                        <input type="text" id="name" name="name" required placeholder="{{ if eq .Site.Language.Lang "zh" }}请输入您的姓名{{ else if eq .Site.Language.Lang "en" }}Enter your name{{ else }}أدخل اسمك{{ end }}">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">{{ if eq .Site.Language.Lang "zh" }}邮箱 *{{ else if eq .Site.Language.Lang "en" }}Email *{{ else }}البريد الإلكتروني *{{ end }}</label>
+                        <input type="email" id="email" name="email" required placeholder="{{ if eq .Site.Language.Lang "zh" }}请输入您的邮箱{{ else if eq .Site.Language.Lang "en" }}Enter your email{{ else }}أدخل بريدك الإلكتروني{{ end }}">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">{{ if eq .Site.Language.Lang "zh" }}电话 / WhatsApp{{ else if eq .Site.Language.Lang "en" }}Phone / WhatsApp{{ else }}الهاتف / واتساب{{ end }}</label>
+                        <input type="tel" id="phone" name="phone" placeholder="{{ if eq .Site.Language.Lang "zh" }}请输入您的电话{{ else if eq .Site.Language.Lang "en" }}Enter your phone number{{ else }}أدخل رقم هاتفك{{ end }}">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">{{ if eq .Site.Language.Lang "zh" }}公司名称{{ else if eq .Site.Language.Lang "en" }}Company Name{{ else }}اسم الشركة{{ end }}</label>
+                        <input type="text" id="company" name="company" placeholder="{{ if eq .Site.Language.Lang "zh" }}请输入公司名称{{ else if eq .Site.Language.Lang "en" }}Enter company name{{ else }}أدخل اسم الشركة{{ end }}">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="product">{{ if eq .Site.Language.Lang "zh" }}感兴趣的产品{{ else if eq .Site.Language.Lang "en" }}Product of Interest{{ else }}المنتج المهتم به{{ end }}</label>
+                        <select id="product" name="product">
+                            <option value="">{{ if eq .Site.Language.Lang "zh" }}请选择产品类别{{ else if eq .Site.Language.Lang "en" }}Select product category{{ else }}اختر فئة المنتج{{ end }}</option>
+                            <option value="Door Handles">{{ if eq .Site.Language.Lang "zh" }}门把手{{ else if eq .Site.Language.Lang "en" }}Door Handles{{ else }}مقابض الأبواب{{ end }}</option>
+                            <option value="Door Locks">{{ if eq .Site.Language.Lang "zh" }}门锁{{ else if eq .Site.Language.Lang "en" }}Door Locks{{ else }}أقفال الأبواب{{ end }}</option>
+                            <option value="Door Hinges">{{ if eq .Site.Language.Lang "zh" }}门铰链{{ else if eq .Site.Language.Lang "en" }}Door Hinges{{ else }}مفاصل الأبواب{{ end }}</option>
+                            <option value="Sliding Tracks">{{ if eq .Site.Language.Lang "zh" }}导轨{{ else if eq .Site.Language.Lang "en" }}Sliding Tracks{{ else }}المسارات المنزلقة{{ end }}</option>
+                            <option value="Sofa Legs">{{ if eq .Site.Language.Lang "zh" }}沙发脚{{ else if eq .Site.Language.Lang "en" }}Sofa Legs{{ else }}أرجل الأريكة{{ end }}</option>
+                            <option value="Cabinet Hardware">{{ if eq .Site.Language.Lang "zh" }}橱柜五金{{ else if eq .Site.Language.Lang "en" }}Cabinet Hardware{{ else }}أجهزة الخزانة{{ end }}</option>
+                            <option value="Other">{{ if eq .Site.Language.Lang "zh" }}其他{{ else if eq .Site.Language.Lang "en" }}Other{{ else }}أخرى{{ end }}</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">{{ if eq .Site.Language.Lang "zh" }}询盘内容 *{{ else if eq .Site.Language.Lang "en" }}Message *{{ else }}الرسالة *{{ end }}</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="{{ if eq .Site.Language.Lang "zh" }}请告诉我们您的需求（产品、数量、规格等）{{ else if eq .Site.Language.Lang "en" }}Tell us about your requirements (products, quantity, specifications, etc.){{ else }}أخبرنا عن متطلباتك (المنتجات، الكمية، المواصفات، إلخ){{ end }}"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large btn-block">
+                        {{ if eq .Site.Language.Lang "zh" }}发送询盘{{ else if eq .Site.Language.Lang "en" }}Send Inquiry{{ else }}إرسال الاستفسار{{ end }}
+                    </button>
+
+                    <p class="form-note">{{ if eq .Site.Language.Lang "zh" }}* 为必填项{{ else if eq .Site.Language.Lang "en" }}* Required fields{{ else }}* الحقول المطلوبة{{ end }}</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.contact-page { padding: 4rem 0; }
+.page-header { text-align: center; margin-bottom: 3rem; }
+.page-title { font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 1rem; }
+.page-subtitle { font-size: 1.1rem; color: var(--text-light); }
+.contact-content { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 4rem; }
+.contact-info h2, .contact-form-section h2 { font-size: 1.8rem; color: var(--secondary-color); margin-bottom: 1.5rem; }
+.contact-item { display: flex; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--bg-light); border-radius: var(--radius); }
+.contact-icon { font-size: 2rem; }
+.contact-details h3 { font-size: 1rem; color: var(--text-light); margin-bottom: 0.3rem; }
+.contact-details a, .contact-details p { color: var(--text-color); font-size: 1rem; text-decoration: none; }
+.contact-details a:hover { color: var(--primary-color); }
+.business-hours { margin-top: 2rem; padding: 1.5rem; background: white; border: 1px solid var(--border-color); border-radius: var(--radius); }
+.business-hours h3 { font-size: 1.2rem; margin-bottom: 1rem; color: var(--secondary-color); }
+.business-hours ul { list-style: none; padding: 0; }
+.business-hours li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+.business-hours li:last-child { border-bottom: none; }
+.response-time { margin-top: 1.5rem; padding: 1rem; background: #e8f5e9; border-left: 4px solid #4caf50; border-radius: var(--radius); }
+.contact-form-section { padding: 2rem; background: white; border-radius: var(--radius-lg); box-shadow: var(--shadow); }
+.form-description { color: var(--text-light); margin-bottom: 1.5rem; }
+.inquiry-form { display: flex; flex-direction: column; gap: 1.2rem; }
+.form-group { display: flex; flex-direction: column; gap: 0.5rem; }
+.form-group label { font-weight: 600; color: var(--text-color); font-size: 0.9rem; }
+.form-group input, .form-group select, .form-group textarea { padding: 0.75rem; border: 1px solid #ddd; border-radius: var(--radius); font-size: 1rem; font-family: inherit; transition: border-color 0.3s; }
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: var(--primary-color); }
+.form-group textarea { resize: vertical; min-height: 120px; }
+.btn-block { width: 100%; }
+.form-note { font-size: 0.85rem; color: var(--text-light); text-align: center; margin-top: 1rem; }
+@media (max-width: 900px) {
+    .contact-content { grid-template-columns: 1fr; gap: 2rem; }
+    .contact-form-section { order: -1; }
+}
+@media (max-width: 768px) {
+    .contact-page { padding: 2rem 0; }
+    .page-title { font-size: 2rem; }
+    .contact-item { padding: 0.75rem; }
+    .contact-form-section { padding: 1.5rem; }
+}
+</style>
+{{ end }}

@@ -1,7 +1,7 @@
 # Hugo 多语言网站配置文件
 baseURL = 'https://jh-hardware.com/'
 languageCode = 'zh-cn'
-title = '义乌水汇进出口有限公司'
+title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
 
 # 默认语言为英文
 defaultContentLanguage = 'en'
@@ -10,12 +10,12 @@ defaultContentLanguageInSubdir = false
 # 多语言配置
 [languages]
   [languages.en]
-    title = 'Yiwu Shuihui Import & Export Co., Ltd.'
+    title = 'Yiwu Shuihui Import & Export Co., Ltd. - Professional Door Hardware Manufacturer'
     weight = 1
     languageName = 'English'
     languageCode = 'en-us'
     contentDir = 'content/en'
-    description = 'Factory direct supply of door handles, hinges, locks, and sliding tracks.'
+    description = 'Factory direct supply of door handles, hinges, locks, and sliding tracks. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
     
   [languages.zh]
     title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
@@ -23,16 +23,16 @@ defaultContentLanguageInSubdir = false
     languageName = '中文'
     languageCode = 'zh-cn'
     contentDir = 'content/zh'
-    description = '工厂直销门把手、铰链、门锁、导轨。出口尼日利亚、迪拜、非洲。'
+    description = '工厂直销门把手、铰链、门锁、导轨。ISO 9001 认证制造商。出口尼日利亚、迪拜、非洲。'
     
   [languages.ar]
-    title = 'شركة ييو شويهوي للاستيراد والتصدير'
+    title = 'شركة ييو شويهوي للاستيراد والتصدير - تصنيع مهني لعتاد الأبواب'
     weight = 3
     languageName = 'العربية'
     languageCode = 'ar'
     contentDir = 'content/ar'
     languageDirection = 'rtl'
-    description = 'توريد مباشر من المصنع لمقابض الأبواب، والمفاصل، والأقفال، والمسارات المنزلقة.'
+    description = 'توريد مباشر من المصنع لمقابض الأبواب، والمفاصل، والأقفال، والمسارات المنزلقة. تصنيع مهني لعتاد الأبواب.'
 
 # 菜单配置 - 每种语言独立
 [languages.zh.menu]
@@ -97,13 +97,43 @@ defaultContentLanguageInSubdir = false
   wechat = '946487044'
   address = '浙江省金华市义乌市稠城街道丹溪北路 18 号雪峰商务大厦 2018 室'
   addressEn = 'Room 2018, Xuefeng Business Building, No.18 Danxi North Road, Yiwu, China'
-  addressAr = 'غرفة 2018، مبنى شوفeng التجاري، رقم 18 طريق دانجي الشمالي، مدينة ييو، الصين'
+  addressAr = 'غرفة 2018، مبنى شوفينج التجاري، رقم 18 طريق دانجي الشمالي، مدينة ييو، الصين'
   googleAnalytics = 'G-EW8MR1LQWY'
   latitude = '29.3089'
   longitude = '120.0741'
+  
+  # SEO 关键词（包含 SOLA 品牌，用于搜索引擎）
+  keywords = 'SOLA, door handles, door locks, door hinges, sliding tracks, furniture hardware, cabinet hardware, 门把手，门锁，门铰链，导轨，家具五金，尼日利亚，迪拜，非洲，ISO 9001'
 
 # Markdown 配置
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+# SEO 优化配置
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+# 输出配置
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+  page = ['HTML']
+  section = ['HTML', 'RSS']
+
+# 性能优化 - 压缩配置
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepComments = false
+      keepSpecialComments = false
+      minifyCSS = true
+      minifyJS = true
+    [minify.tdewolff.css]
+      precision = 2
+    [minify.tdewolff.js]
+      keepVarNames = false
+      precision = 0
+      version = 2022

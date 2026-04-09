@@ -301,6 +301,18 @@ img { max-width: 100%; height: auto; }
 .map-container {
     max-width: 100%;
 }
+.map-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+.map-wrapper iframe {
+    display: block;
+    width: 100%;
+    height: 450px;
+}
 .map-info {
     margin-top: 2rem;
     padding: 1.5rem;
@@ -311,6 +323,12 @@ img { max-width: 100%; height: auto; }
 .map-info p {
     margin-bottom: 0.5rem;
     color: var(--text-color);
+}
+.map-info .btn-small {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    display: inline-block;
 }
 
 /* ===== WhatsApp 浮窗 ===== */
@@ -415,6 +433,20 @@ img { max-width: 100%; height: auto; }
     .site-main {
         margin-top: 0;
     }
+    /* 移动端地图优化 */
+    .map-section {
+        padding: 3rem 0;
+    }
+    .map-wrapper iframe {
+        height: 350px;
+    }
+    .map-info {
+        padding: 1.2rem;
+    }
+    .map-info .btn-small {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -448,6 +480,16 @@ img { max-width: 100%; height: auto; }
     .hero-section { padding: 2rem 0; }
     .section-title { font-size: 1.3rem; }
     .container { padding: 0 12px; }
+    /* 小屏幕地图优化 */
+    .map-wrapper iframe {
+        height: 280px;
+    }
+    .map-info {
+        padding: 1rem;
+    }
+    .map-info p {
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 480px) {

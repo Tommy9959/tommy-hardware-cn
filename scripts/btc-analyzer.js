@@ -3,51 +3,300 @@
  * 比特币专业行情分析卡片（增强版）
  * 数据源：Binance API
  * 输出：结构化详细分析卡片
+ * 
+ * 使用方法：
+ *   node btc-analyzer.js --notify  # 推送分析结果
+ *   node btc-analyzer.js           # 仅输出到控制台
  */
 
 const https = require('https');
+const { HttpsProxyAgent } = require('https-proxy-agent');
 const { spawn } = require('child_process');
 
+// ClashX Pro 代理配置
+const proxyAgent = new HttpsProxyAgent('http://127.0.0.1:7890');
+
+// ============ 多数据源配置 ============
+// 主数据源：Binance（全球最大交易所）
+// 备用 1：OKX（亚洲主流交易所）
+// 备用 2：CoinGecko（聚合数据，无需 API key）
+// 备用 3：Gate.io（备用交易所）
+// 备用 4：Kraken（欧美主流交易所）
+
+const API_SOURCES = [
+  {
+    name: 'Binance',
+    baseUrl: 'https://api.binance.com/api/v3',
+    endpoints: {
+      ticker: (symbol) => `/ticker/24hr?symbol=${symbol}`,
+      depth: (symbol) => `/depth?symbol=${symbol}&limit=20`,
+      klines: (symbol, interval, limit) => `/klines?symbol=${symbol}&interval=${interval}&limit=${limit}`
+    },
+    symbolMap: { 'BTCUSDT': 'BTCUSDT' },
+    priority: 1
+  },
+  {
+    name: 'OKX',
+    baseUrl: 'https://www.okx.com/api/v5',
+    endpoints: {
+      ticker: (symbol) => `/market/ticker?instId=${symbol.replace('USDT', '-USDT')}`,
+      depth: (symbol) => `/market/books?instId=${symbol.replace('USDT', '-USDT')}&sz=20`,
+      klines: (symbol, interval, limit) => {
+        // OKX bar 参数映射：15m → 15m, 1h → 1H, 4h → 4H, 1d → 1D
+        const barMap = { '15m': '15m', '1h': '1H', '4h': '4H', '1d': '1D' };
+        const bar = barMap[interval] || interval;
+        return `/market/candles?instId=${symbol.replace('USDT', '-USDT')}&bar=${bar}&limit=${limit}`;
+      }
+    },
+    symbolMap: { 'BTCUSDT': 'BTC-USDT' },
+    priority: 2
+  },
+  {
+    name: 'Gate.io',
+    baseUrl: 'https://api.gateio.ws/api/v4',
+    endpoints: {
+      ticker: (symbol) => `/spot/tickers?currency_pair=${symbol}`,
+      depth: (symbol) => `/spot/order_books?currency_pair=${symbol}&limit=20`,
+      klines: (symbol, interval, limit) => `/spot/candlesticks?currency_pair=${symbol}&interval=${interval}&limit=${limit}`
+    },
+    symbolMap: { 'BTCUSDT': 'BTC_USDT' },
+    priority: 3
+  },
+  {
+    name: 'CoinGecko',
+    baseUrl: 'https://api.coingecko.com/api/v3',
+    endpoints: {
+      ticker: () => `/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_vol=true&include_24hr_change=true`,
+      depth: () => null, // 不支持
+      klines: () => null // 不支持 K 线
+    },
+    symbolMap: { 'BTCUSDT': 'bitcoin' },
+    priority: 4,
+    note: '仅基础价格，无 K 线'
+  }
+];
+
 const CONFIG = {
-  binance: 'https://api.binance.com/api/v3',
   notify: process.argv.includes('--notify'),
-  channel: '+8618358008400',
+  wechat_user: 'o9cq80-VOQWTsN3h5bn6gyR2IdY4@im.wechat',
+  account_id: 'ec25a54ce939-im-bot',
   startHour: 8,
-  endHour: 22
+  endHour: 22,
+  currentSource: null, // 当前使用的数据源
+  maxRetries: 2
 };
 
 // ============ 数据获取 ============
 
-function fetchJSON(url) {
+function fetchJSON(url, sourceName = 'Unknown') {
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'BTC-Analyzer/1.0' } }, (res) => {
+    const options = {
+      agent: proxyAgent,
+      headers: { 
+        'User-Agent': 'BTC-Analyzer/2.0',
+        'Accept': 'application/json'
+      },
+      timeout: 15000,
+      rejectUnauthorized: false
+    };
+    
+    console.log(`🔍 [${sourceName}] 请求：${url}`);
+    
+    https.get(url, options, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
-        try { resolve(JSON.parse(data)); }
-        catch (e) { reject(e); }
+        try { 
+          const result = JSON.parse(data);
+          console.log(`✅ [${sourceName}] 响应成功`);
+          resolve(result); 
+        }
+        catch (e) { 
+          console.log(`❌ [${sourceName}] JSON 解析失败：${e.message}`);
+          reject(e); 
+        }
       });
-    }).on('error', reject);
+    }).on('error', (e) => {
+      console.log(`❌ [${sourceName}] 请求失败：${e.message}`);
+      reject(e);
+    }).on('timeout', () => {
+      console.log(`⏱️ [${sourceName}] 请求超时`);
+      reject(new Error('Timeout'));
+    });
   });
 }
 
+// 尝试从多个数据源获取数据
+async function fetchFromSource(source, symbol = 'BTCUSDT') {
+  try {
+    const tickerUrl = source.baseUrl + source.endpoints.ticker(symbol);
+    const tickerData = await fetchJSON(tickerUrl, source.name);
+    
+    // 尝试获取订单簿（可选）
+    let orderBook = null;
+    if (source.endpoints.depth) {
+      try {
+        const depthUrl = source.baseUrl + source.endpoints.depth(symbol);
+        orderBook = await fetchJSON(depthUrl, source.name);
+      } catch (e) {
+        console.log(`⚠️ [${source.name}] 订单簿获取失败，继续...`);
+      }
+    }
+    
+    // 尝试获取 K 线（可选）
+    let klines = {};
+    if (source.endpoints.klines) {
+      const intervals = ['15m', '1h', '4h', '1d'];
+      for (const interval of intervals) {
+        try {
+          const klineUrl = source.baseUrl + source.endpoints.klines(symbol, interval, 100);
+          const klineData = await fetchJSON(klineUrl, source.name);
+          
+          // OKX K 线格式：[time, open, high, low, close, vol, volCcy]
+          // Binance K 线格式：[time, open, high, low, close, volume, ...]
+          if (Array.isArray(klineData)) {
+            klines[interval] = klineData.map(k => ({
+              time: k[0],
+              open: parseFloat(k[1]),
+              high: parseFloat(k[2]),
+              low: parseFloat(k[3]),
+              close: parseFloat(k[4]),
+              volume: parseFloat(k[5] || 0)
+            }));
+          } else if (klineData.data && Array.isArray(klineData.data)) {
+            // OKX 返回格式
+            klines[interval] = klineData.data.map(k => ({
+              time: k[0],
+              open: parseFloat(k[1]),
+              high: parseFloat(k[2]),
+              low: parseFloat(k[3]),
+              close: parseFloat(k[4]),
+              volume: parseFloat(k[5] || 0)
+            }));
+          }
+        } catch (e) {
+          console.log(`⚠️ [${source.name}] ${interval} K 线获取失败：${e.message}`);
+        }
+      }
+    }
+    
+    return { ticker: tickerData, orderBook, klines, source: source.name };
+  } catch (e) {
+    throw new Error(`[${source.name}] 数据获取失败：${e.message}`);
+  }
+}
+
+// 智能故障转移：按优先级尝试多个数据源
 async function getMarketData() {
-  const ticker24h = await fetchJSON(`${CONFIG.binance}/ticker/24hr?symbol=BTCUSDT`);
-  const orderBook = await fetchJSON(`${CONFIG.binance}/depth?symbol=BTCUSDT&limit=20`);
-  const klines15m = await fetchJSON(`${CONFIG.binance}/klines?symbol=BTCUSDT&interval=15m&limit=100`);
-  const klines1h = await fetchJSON(`${CONFIG.binance}/klines?symbol=BTCUSDT&interval=1h&limit=100`);
-  const klines4h = await fetchJSON(`${CONFIG.binance}/klines?symbol=BTCUSDT&interval=4h&limit=100`);
-  const klines1d = await fetchJSON(`${CONFIG.binance}/klines?symbol=BTCUSDT&interval=1d&limit=60`);
+  console.log('🔄 开始尝试获取市场数据...');
+  
+  for (const source of API_SOURCES) {
+    try {
+      console.log(`🎯 尝试数据源 #${source.priority}: ${source.name}`);
+      const rawData = await fetchFromSource(source);
+      
+      // 标准化数据格式
+      const normalizedData = normalizeData(rawData, source.name);
+      
+      CONFIG.currentSource = source.name;
+      console.log(`✅ 成功使用数据源：${source.name}`);
+      return normalizedData;
+    } catch (e) {
+      console.log(`❌ ${source.name} 失败：${e.message}`);
+      console.log(`   尝试下一个数据源...\n`);
+    }
+  }
+  
+  throw new Error('所有数据源均不可用');
+}
+
+// ============ 数据格式标准化 ============
+// 不同 API 返回的数据格式不同，需要统一标准化
+
+function normalizeData(rawData, sourceName) {
+  const { ticker, orderBook, klines } = rawData;
+  
+  // 标准化 ticker 数据
+  let normalizedTicker = {};
+  
+  if (sourceName === 'Binance' || sourceName === 'OKX' || sourceName === 'Gate.io') {
+    // 交易所 API 格式
+    if (sourceName === 'Binance') {
+      normalizedTicker = {
+        lastPrice: parseFloat(ticker.lastPrice || ticker.last),
+        priceChangePercent: parseFloat(ticker.priceChangePercent),
+        high24h: parseFloat(ticker.highPrice),
+        low24h: parseFloat(ticker.lowPrice),
+        volume24h: parseFloat(ticker.quoteVolume || ticker.volume),
+        bidPrice: ticker.bids && ticker.bids[0] ? parseFloat(ticker.bids[0][0]) : null,
+        askPrice: ticker.asks && ticker.asks[0] ? parseFloat(ticker.asks[0][0]) : null
+      };
+    } else if (sourceName === 'OKX') {
+      const okxData = ticker.data && ticker.data[0] ? ticker.data[0] : ticker;
+      normalizedTicker = {
+        lastPrice: parseFloat(okxData.last || okxData.lastPx),
+        priceChangePercent: parseFloat(okxData.chg || 0),
+        high24h: parseFloat(okxData.high24h || okxData.high24),
+        low24h: parseFloat(okxData.low24h || okxData.low24),
+        volume24h: parseFloat(okxData.volCcy24h || okxData.vol24h),
+        bidPrice: parseFloat(okxData.bidPx || (okxData.bids && okxData.bids[0] ? okxData.bids[0][0] : null)),
+        askPrice: parseFloat(okxData.askPx || (okxData.asks && okxData.asks[0] ? okxData.asks[0][0] : null))
+      };
+    } else if (sourceName === 'Gate.io') {
+      const gateData = Array.isArray(ticker) ? ticker[0] : ticker;
+      normalizedTicker = {
+        lastPrice: parseFloat(gateData.last || gateData.close),
+        priceChangePercent: parseFloat(gateData.changePercentage || 0),
+        high24h: parseFloat(gateData.high24h || gateData.high),
+        low24h: parseFloat(gateData.low24h || gateData.low),
+        volume24h: parseFloat(gateData.quoteVolume || gateData.volume),
+        bidPrice: gateData.highestBid ? parseFloat(gateData.highestBid) : null,
+        askPrice: gateData.lowestAsk ? parseFloat(gateData.lowestAsk) : null
+      };
+    }
+  } else if (sourceName === 'CoinGecko') {
+    // CoinGecko 格式（仅基础价格）
+    const btcData = ticker.bitcoin || {};
+    normalizedTicker = {
+      lastPrice: btcData.usd || 0,
+      priceChangePercent: btcData.usd_24h_change || 0,
+      high24h: null,
+      low24h: null,
+      volume24h: btcData.usd_24h_vol || 0,
+      bidPrice: null,
+      askPrice: null
+    };
+  }
+  
+  // 标准化订单簿
+  let normalizedOrderBook = null;
+  if (orderBook) {
+    if (sourceName === 'Binance') {
+      normalizedOrderBook = {
+        bids: orderBook.bids || [],
+        asks: orderBook.asks || []
+      };
+    } else if (sourceName === 'OKX') {
+      normalizedOrderBook = {
+        bids: orderBook.data && orderBook.data[0] ? (orderBook.data[0].bids || []) : [],
+        asks: orderBook.data && orderBook.data[0] ? (orderBook.data[0].asks || []) : []
+      };
+    } else if (sourceName === 'Gate.io') {
+      normalizedOrderBook = {
+        bids: orderBook.bids || orderBook.asks ? [] : [],
+        asks: orderBook.asks || []
+      };
+    }
+  }
+  
+  // K 线数据已经是标准化格式
+  const normalizedKlines = klines;
   
   return {
-    ticker: ticker24h,
-    orderBook,
-    klines: {
-      '15m': klines15m.map(k => ({ time: k[0], open: parseFloat(k[1]), high: parseFloat(k[2]), low: parseFloat(k[3]), close: parseFloat(k[4]), volume: parseFloat(k[5]) })),
-      '1h': klines1h.map(k => ({ time: k[0], open: parseFloat(k[1]), high: parseFloat(k[2]), low: parseFloat(k[3]), close: parseFloat(k[4]), volume: parseFloat(k[5]) })),
-      '4h': klines4h.map(k => ({ time: k[0], open: parseFloat(k[1]), high: parseFloat(k[2]), low: parseFloat(k[3]), close: parseFloat(k[4]), volume: parseFloat(k[5]) })),
-      '1d': klines1d.map(k => ({ time: k[0], open: parseFloat(k[1]), high: parseFloat(k[2]), low: parseFloat(k[3]), close: parseFloat(k[4]), volume: parseFloat(k[5]) }))
-    }
+    ticker: normalizedTicker,
+    orderBook: normalizedOrderBook,
+    klines: normalizedKlines,
+    source: sourceName
   };
 }
 
@@ -254,22 +503,35 @@ function fmtMoney(n) {
 }
 
 function generateCard(data) {
-  const { ticker, orderBook, klines } = data;
+  const { ticker, orderBook, klines, source } = data;
   const price = parseFloat(ticker.lastPrice);
   const change24h = parseFloat(ticker.priceChangePercent);
-  const high24h = parseFloat(ticker.highPrice);
-  const low24h = parseFloat(ticker.lowPrice);
-  const vol24h = parseFloat(ticker.quoteVolume);
+  const high24h = parseFloat(ticker.high24h) || price;
+  const low24h = parseFloat(ticker.low24h) || price;
+  const vol24h = parseFloat(ticker.volume24h) || 0;
   const marketCap = price * 19750000;
-  const obImbalance = getOrderBookImbalance(orderBook);
+  const obImbalance = orderBook ? getOrderBookImbalance(orderBook) : { imbalance: 0 };
   
-  const a15m = analyze(klines['15m'], '15M');
-  const a1h = analyze(klines['1h'], '1H');
-  const a4h = analyze(klines['4h'], '4H');
-  const a1d = analyze(klines['1d'], '1D');
+  // 检查是否有 K 线数据
+  const hasKlines = klines && klines['1h'] && klines['1h'].length > 0;
   
-  // 综合评分
-  const totalScore = a15m.trendScore + a1h.trendScore + a4h.trendScore + a1d.trendScore;
+  if (!hasKlines) {
+    console.log('⚠️ 警告：K 线数据不可用，使用简化分析模式');
+  }
+  
+  const a15m = hasKlines && klines['15m'] ? analyze(klines['15m'], '15M') : null;
+  const a1h = hasKlines && klines['1h'] ? analyze(klines['1h'], '1H') : null;
+  const a4h = hasKlines && klines['4h'] ? analyze(klines['4h'], '4H') : null;
+  const a1d = hasKlines && klines['1d'] ? analyze(klines['1d'], '1D') : null;
+  
+  // 综合评分（如果 K 线数据不可用，使用简化评分）
+  let totalScore = 0;
+  if (hasKlines) {
+    totalScore = (a15m?.trendScore || 0) + (a1h?.trendScore || 0) + (a4h?.trendScore || 0) + (a1d?.trendScore || 0);
+  } else {
+    // 简化模式：仅基于价格变化
+    totalScore = change24h > 0 ? 2 : change24h < 0 ? -2 : 0;
+  }
   let overall = '观望 - 等待机会', overallEmoji = '🟡';
   if (totalScore >= 8) { overall = '强烈做多 - 全周期共振'; overallEmoji = '🟢🟢🟢'; }
   else if (totalScore >= 4) { overall = '强烈做多 - 多周期共振'; overallEmoji = '🟢🟢'; }
@@ -284,11 +546,11 @@ function generateCard(data) {
   else if (obImbalance.imbalance < -10) obSentiment = '空头占优 🔴';
   
   // 波动率
-  const volatility = fmt(a4h.atr / price * 100, 2);
-  const volatilityStatus = parseFloat(volatility) < 2 ? '✅ 正常' : '⚠️ 较高';
+  const volatility = a4h ? fmt(a4h.atr / price * 100, 2) : 'N/A';
+  const volatilityStatus = a4h && parseFloat(volatility) < 2 ? '✅ 正常' : '⚠️ 较高';
   
   // RSI 超买检查
-  const rsiOverbought = a1h.rsi > 70 || a4h.rsi > 70;
+  const rsiOverbought = (a1h?.rsi > 70) || (a4h?.rsi > 70);
   
   // 情景推演概率
   const bullProb = totalScore >= 4 ? 60 : totalScore >= 2 ? 45 : 25;
@@ -297,13 +559,20 @@ function generateCard(data) {
   
   // 核心逻辑
   const coreLogic = [];
-  if (totalScore >= 4) coreLogic.push('多周期均线多头排列，趋势强劲');
-  else if (totalScore <= -4) coreLogic.push('多周期均线空头排列，趋势疲弱');
-  if (a4h.macd.histogram > 0) coreLogic.push('MACD 持续放量，动能充足');
-  else coreLogic.push('MACD 动能减弱，需谨慎');
-  if (rsiOverbought) coreLogic.push('RSI 超买，警惕短期回调风险');
-  if (a1d.trendScore > 0) coreLogic.push('日线级别仍有上行空间');
-  else if (a1d.trendScore < 0) coreLogic.push('日线级别承压');
+  if (hasKlines) {
+    if (totalScore >= 4) coreLogic.push('多周期均线多头排列，趋势强劲');
+    else if (totalScore <= -4) coreLogic.push('多周期均线空头排列，趋势疲弱');
+    if (a4h?.macd?.histogram > 0) coreLogic.push('MACD 持续放量，动能充足');
+    else coreLogic.push('MACD 动能减弱，需谨慎');
+    if (rsiOverbought) coreLogic.push('RSI 超买，警惕短期回调风险');
+    if ((a1d?.trendScore || 0) > 0) coreLogic.push('日线级别仍有上行空间');
+    else if ((a1d?.trendScore || 0) < 0) coreLogic.push('日线级别承压');
+  } else {
+    coreLogic.push('K 线数据暂时不可用');
+    if (change24h > 0) coreLogic.push('24 小时上涨趋势');
+    else if (change24h < 0) coreLogic.push('24 小时下跌趋势');
+    else coreLogic.push('价格波动较小');
+  }
   
   return `
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -335,7 +604,7 @@ function generateCard(data) {
 ${overallEmoji} ${overall}
 
 综合评分：${totalScore > 0 ? '+' : ''}${totalScore} / 12
-置信度：${a4h.confidence}
+置信度：${a4h?.confidence || '中'}
 
 核心逻辑：
 ${coreLogic.map(logic => `• ${logic}`).join('\n')}
@@ -438,19 +707,51 @@ ${coreLogic.map(logic => `• ${logic}`).join('\n')}
 ══════════════════════════════════
 ⚠️ 免责声明：本报告不构成投资建议，加密货币市场风险极高，请独立判断、谨慎决策
 ══════════════════════════════════
-`.trim();
+`.trim().replace('数据来源：Binance API', `数据来源：${source || 'Binance'} API`);
 }
 
 // ============ 推送 ============
 
 function sendNotify(message) {
   return new Promise((resolve, reject) => {
-    const imsg = spawn('/opt/homebrew/bin/imsg', ['send', '--to', CONFIG.channel, '--text', message]);
+    const openclaw = spawn('/Users/zhuxiaolei/.nvm/versions/node/v24.14.1/bin/openclaw', [
+      'message', 'send',
+      '-t', CONFIG.wechat_user,
+      '--channel', 'openclaw-weixin',
+      '--account', CONFIG.account_id,
+      '-m', message
+    ]);
     let output = '', errorOutput = '';
-    imsg.stdout.on('data', d => output += d);
-    imsg.stderr.on('data', d => errorOutput += d);
-    imsg.on('close', code => code === 0 ? resolve(output) : reject(new Error(errorOutput)));
+    openclaw.stdout.on('data', d => output += d);
+    openclaw.stderr.on('data', d => errorOutput += d);
+    openclaw.on('close', code => code === 0 ? resolve(output) : reject(new Error(errorOutput)));
   });
+}
+
+// 分段推送长消息（iMessage 有长度限制）
+async function sendNotifyInParts(fullMessage, maxPartLength = 3000) {
+  const parts = [];
+  
+  // 如果消息超过最大长度，强制分割
+  if (fullMessage.length > maxPartLength) {
+    for (let i = 0; i < fullMessage.length; i += maxPartLength) {
+      parts.push(fullMessage.slice(i, i + maxPartLength));
+    }
+  } else {
+    parts.push(fullMessage);
+  }
+  
+  // 发送所有分段
+  for (let i = 0; i < parts.length; i++) {
+    const part = parts[i];
+    const prefix = parts.length > 1 ? `(Part ${i+1}/${parts.length}) ` : '';
+    console.log(`📱 发送第 ${i+1}/${parts.length} 段...`);
+    await sendNotify(prefix + part);
+    if (i < parts.length - 1) {
+      await new Promise(resolve => setTimeout(resolve, 500)); // 间隔 0.5 秒
+    }
+  }
+  console.log(`✅ 完成 ${parts.length} 段推送`);
 }
 
 // ============ 主函数 ============
@@ -471,7 +772,7 @@ async function main() {
     console.log(card);
     
     if (CONFIG.notify) {
-      await sendNotify(card);
+      await sendNotifyInParts(card);
       console.log('\n✅ 推送成功');
     }
     

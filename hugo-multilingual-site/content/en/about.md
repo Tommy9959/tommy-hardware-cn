@@ -1,26 +1,77 @@
 ---
-title: "About Us"
-description: "Learn about Yiwu Shuihui Import & Export Co., Ltd."
+title: "About SOLA Brand"
+description: "SOLA is a professional door hardware brand specializing in interior door locks and door handles for African market. Factory direct supply with ISO 9001 certification."
+keywords: "SOLA, SOLA hardware, SOLA brand, door locks, door handles, interior locks, Africa, Nigeria, Dubai, manufacturer, ISO 9001"
 ---
 
-## Company Profile
+## 🏆 SOLA Brand - Professional Door Hardware for African Market
 
-Yiwu Shuihui Import & Export Co., Ltd. is a professional door hardware manufacturer and exporter located in Yiwu, Zhejiang Province, China.
+**SOLA** is a professional door hardware brand owned by Yiwu Shuihui Import & Export Co., Ltd. With over 10 years of export experience, SOLA has become a trusted name in the African door hardware market, specializing in **interior door locks** and **door handles**.
 
-## Main Products
+---
 
-- 🚪 **Door Handles** - Stainless Steel, Aluminum Alloy, Brass
-- 🔒 **Door Locks** - Mortise Locks, Padlocks, Smart Locks
-- 🔧 **Door Hinges** - Butt Hinges, Pivot Hinges, Concealed Hinges
-- 📦 **Sliding Tracks** - Drawer Slides, Wardrobe Tracks
+## 🎯 SOLA Core Products for Africa
 
-## Export Markets
+### 🔒 Interior Door Locks (Best Seller for Africa)
+- Mortise Locks for Interior Doors
+- Bathroom Locks (Privacy Locks)
+- Bedroom Locks
+- Handle Locks
+- High security, durable design
+- Suitable for wooden doors, metal doors
 
-Our products are exported to 50+ countries including Nigeria, Dubai, and Africa.
+### 🚪 Door Handles (Popular in Africa)
+- Stainless Steel Door Handles
+- Aluminum Alloy Handles
+- Zinc Alloy Handles
+- Modern Design & Classic Design
+- Anti-corrosion, long-lasting
 
-## Our Advantages
+### Other Products
+- Door Hinges (Butt Hinges, Pivot Hinges)
+- Sliding Tracks (Drawer Slides, Wardrobe Tracks)
+- Cabinet Hardware (Handles, Connectors)
+- Sofa Legs (Metal, Wooden)
 
-- 🏭 Factory Direct, Best Prices
-- 🎯 ISO Certified, Quality Guaranteed
-- 🚢 Fast Delivery, 15-25 Days
-- 💰 Flexible Payment, T/T, L/C
+---
+
+## 🌍 Why Choose SOLA for African Market?
+
+### Deep Understanding of African Market
+- 10+ years focused on Africa exports
+- Know local preferences and standards
+- Popular in Nigeria, Ghana, Kenya, Tanzania
+- Trusted by 500+ African clients
+
+### Specialized in Interior Locks & Handles
+- High volume production for African market
+- Competitive pricing for bulk orders
+- Customized designs for local preferences
+- Fast delivery to African ports (15-25 days)
+
+### Factory Direct Advantages
+- ISO 9001:2015 Certified Manufacturing
+- 30-50% lower than market average
+- Small orders accepted (Flexible MOQ)
+- Free samples for quality testing
+
+### Reliable Africa Shipping
+- Multiple forwarders to African ports
+- Complete customs documentation
+- Experience with Lagos, Mombasa, Dar es Salaam ports
+- Safe packaging for long-distance shipping
+
+---
+
+## 📞 Contact SOLA Today
+
+Get a free quote for African market!
+
+- 📧 Email: z946487044@icloud.com
+- 📱 WhatsApp: +86 183 5800 8400
+- 💬 WeChat: 946487044
+- 📍 Factory: Yiwu, Zhejiang, China
+
+---
+
+*SOLA Hardware - Your Trusted Partner for African Door Hardware Market*

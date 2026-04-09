@@ -3,6 +3,22 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Hugo Multilingual Site Loaded');
     
+    // 移动端菜单切换
+    const menuToggle = document.querySelector('.mobile-menu-toggle');
+    const siteNav = document.querySelector('.site-nav');
+    if (menuToggle && siteNav) {
+        menuToggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            this.classList.toggle('active');
+            siteNav.classList.toggle('active');
+        });
+        // 点击外部关闭菜单
+        document.addEventListener('click', function() {
+            menuToggle.classList.remove('active');
+            siteNav.classList.remove('active');
+        });
+    }
+    
     // 移动端语言切换器点击支持
     const langSwitcher = document.querySelector('.lang-switcher');
     if (langSwitcher) {

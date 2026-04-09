@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta name="keywords" content="door handles, door locks, door hinges, sliding tracks, sofa legs, cabinet hardware, 门把手，门锁，铰链，导轨，家具五金">
+    <meta name="author" content="{{ .Site.Title }}">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ .Permalink }}">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}product{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta property="og:image" content="{{ "/images/og-image.jpg" | absURL }}">
+    <meta property="og:locale" content="{{ .Site.Language.Lang }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ .Permalink }}">
+    <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta name="twitter:image" content="{{ "/images/og-image.jpg" | absURL }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="{{ "images/logo/logo.jpeg" | relURL }}">
     
     <!-- 样式 -->
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
@@ -35,6 +58,11 @@
                 </a>
                 
                 <!-- 导航菜单 -->
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <nav class="site-nav">
                     <ul class="nav-menu">
                         {{ range .Site.Menus.main }}

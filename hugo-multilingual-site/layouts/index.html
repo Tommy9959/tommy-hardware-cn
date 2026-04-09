@@ -177,6 +177,111 @@
     </div>
 </section>
 
+<!-- 信任元素 -->
+<section class="trust-section">
+    <div class="container">
+        <h2 class="section-title">
+            {{ if eq .Site.Language.Lang "zh" }}为什么选择我们{{ else if eq .Site.Language.Lang "en" }}Why Choose Us{{ else }}لماذا تختارنا{{ end }}
+        </h2>
+        <p class="section-subtitle">
+            {{ if eq .Site.Language.Lang "zh" }}10+ 年专注门控五金出口，50+ 国家和地区信赖之选{{ else if eq .Site.Language.Lang "en" }}10+ years focused on door hardware export, trusted by 50+ countries{{ else }}+10 سنوات من التركيز على تصدير أجهزة الأبواب{{ end }}
+        </p>
+        
+        <!-- 数据统计 -->
+        <div class="trust-grid">
+            <div class="trust-item">
+                <div class="trust-icon">🏆</div>
+                <div class="trust-number">10+</div>
+                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}年出口经验{{ else if eq .Site.Language.Lang "en" }}Years Export Experience{{ else }}سنوات خبرة{{ end }}</div>
+                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}专注五金出口{{ else if eq .Site.Language.Lang "en" }}Focused on hardware{{ else }}التركيز على الأجهزة{{ end }}</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">🌍</div>
+                <div class="trust-number">50+</div>
+                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}出口国家和地区{{ else if eq .Site.Language.Lang "en" }}Countries Exported{{ else }}دولة{{ end }}</div>
+                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}遍布全球{{ else if eq .Site.Language.Lang "en" }}Worldwide{{ else }}في جميع أنحاء العالم{{ end }}</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">👥</div>
+                <div class="trust-number">1000+</div>
+                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}满意客户{{ else if eq .Site.Language.Lang "en" }}Happy Clients{{ else }}عميل سعيد{{ end }}</div>
+                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}长期合作{{ else if eq .Site.Language.Lang "en" }}Long-term partners{{ else }}شركاء طويل الأجل{{ end }}</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">📦</div>
+                <div class="trust-number">100%</div>
+                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}质量检验{{ else if eq .Site.Language.Lang "en" }}Quality Inspection{{ end }}</div>
+                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}出厂前全检{{ else if eq .Site.Language.Lang "en" }}100% inspection{{ end }}</div>
+            </div>
+        </div>
+        
+        <!-- 核心优势 -->
+        <div class="advantages-section">
+            <h3 class="advantages-title">{{ if eq .Site.Language.Lang "zh" }}核心优势{{ else if eq .Site.Language.Lang "en" }}Core Advantages{{ else }}المزايا الأساسية{{ end }}</h3>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">💰</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}工厂直销{{ else if eq .Site.Language.Lang "en" }}Factory Direct{{ else }}المصنع مباشرة{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}无中间商，价格优惠 30-50%{{ else if eq .Site.Language.Lang "en" }}No middlemen, 30-50% lower prices{{ end }}</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">🔒</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}质量保证{{ else if eq .Site.Language.Lang "en" }}Quality Guaranteed{{ else }}جودة مضمونة{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}ISO 认证，50,000+ 次测试{{ else if eq .Site.Language.Lang "en" }}ISO certified, 50,000+ cycles test{{ end }}</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">⚡</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}快速交货{{ else if eq .Site.Language.Lang "en" }}Fast Delivery{{ else }}تسليم سريع{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}现货 3-5 天，定制 15-25 天{{ else if eq .Site.Language.Lang "en" }}Stock: 3-5 days, Custom: 15-25 days{{ end }}</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">🤝</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}定制服务{{ else if eq .Site.Language.Lang "en" }}Custom Service{{ else }}خدمة مخصصة{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}OEM/ODM，支持小批量{{ else if eq .Site.Language.Lang "en" }}OEM/ODM, small orders accepted{{ end }}</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 认证标志 -->
+        <div class="certifications">
+            <h3 class="cert-title">{{ if eq .Site.Language.Lang "zh" }}国际认证{{ else if eq .Site.Language.Lang "en" }}International Certifications{{ else }}الشهادات الدولية{{ end }}</h3>
+            <p class="cert-subtitle">{{ if eq .Site.Language.Lang "zh" }}符合国际标准，质量可靠{{ else if eq .Site.Language.Lang "en" }}Meet international standards, reliable quality{{ else }}تتوافق مع المعايير الدولية{{ end }}</p>
+            <div class="cert-logos">
+                <div class="cert-badge cert-badge-large">
+                    <div class="cert-main">ISO 9001</div>
+                    <div class="cert-sub">Quality Management</div>
+                </div>
+                <div class="cert-badge cert-badge-large">
+                    <div class="cert-main">CE</div>
+                    <div class="cert-sub">European Standard</div>
+                </div>
+                <div class="cert-badge cert-badge-large">
+                    <div class="cert-main">SGS</div>
+                    <div class="cert-sub">Tested & Verified</div>
+                </div>
+            </div>
+            <div class="cert-note">{{ if eq .Site.Language.Lang "zh" }}* 所有产品均通过严格质量检测{{ else if eq .Site.Language.Lang "en" }}* All products pass strict quality testing{{ end }}</div>
+        </div>
+        
+        <!-- 客户评价 -->
+        <div class="testimonials">
+            <h3 class="testimonials-title">{{ if eq .Site.Language.Lang "zh" }}客户评价{{ else if eq .Site.Language.Lang "en" }}What Clients Say{{ else }}آراء العملاء{{ end }}</h3>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"{{ if eq .Site.Language.Lang "zh" }}质量非常好，交货准时，已经合作 3 年了！{{ else if eq .Site.Language.Lang "en" }}Excellent quality, on-time delivery, been working together for 3 years!{{ end }}"</p>
+                    <div class="testimonial-author">— {{ if eq .Site.Language.Lang "zh" }}尼日利亚客户{{ else if eq .Site.Language.Lang "en" }}Client from Nigeria{{ end }}, Mr. Ahmed</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"{{ if eq .Site.Language.Lang "zh" }}价格有竞争力，服务专业，推荐！{{ else if eq .Site.Language.Lang "en" }}Competitive prices, professional service, highly recommended!{{ end }}"</p>
+                    <div class="testimonial-author">— {{ if eq .Site.Language.Lang "zh" }}迪拜客户{{ else if eq .Site.Language.Lang "en" }}Client from Dubai{{ end }}, Mr. Mohammed</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- 公司地图 -->
 <section class="map-section">
     <div class="container">
@@ -186,20 +291,62 @@
             {{ else }}موقعنا{{ end }}
         </h2>
         <div class="map-container">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.123456789!2d120.0741!3d29.3089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344360a6b5c3f123%3A0xabcdef1234567890!2z5rGf5Lic5YyX5L2T5Y2X5LmQ5YiG5Lq65Y2X5LmQ!5e0!3m2!1szh-CN!2scn!4v1712567890123!5m2!1szh-CN!2scn" 
-                width="100%" 
-                height="450" 
-                style="border:0; border-radius: 12px; max-width: 100%;" 
-                allowfullscreen="" 
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+            <div class="map-wrapper">
+                <iframe 
+                    src="https://maps.google.com/maps?q=29.3013552,120.0703096&z=15&output=embed" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0; border-radius: 12px;" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Company Location Map">
+                </iframe>
+            </div>
             <div class="map-info">
                 <p><strong>📍 {{ if eq .Site.Language.Lang "zh" }}地址{{ else if eq .Site.Language.Lang "en" }}Address{{ else }}العنوان{{ end }}:</strong></p>
                 <p>{{ if eq .Site.Language.Lang "zh" }}浙江省金华市义乌市稠城街道丹溪北路 18 号雪峰商务大厦 2018 室{{ else if eq .Site.Language.Lang "en" }}Room 2018, Xuefeng Business Building, No.18 Danxi North Road, Yiwu, Zhejiang, China{{ else }}غرفة 2018، مبنى شوفeng التجاري، رقم 18 طريق دانجي الشمالي، مدينة ييو، الصين{{ end }}</p>
+                <p><strong>🗺️ {{ if eq .Site.Language.Lang "zh" }}精准定位{{ else if eq .Site.Language.Lang "en" }}Coordinates{{ else }}إحداثيات{{ end }}:</strong> 29.3013552°N, 120.0703096°E</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=29.3013552,120.0703096" target="_blank" rel="noopener" class="btn btn-primary btn-small">
+                    {{ if eq .Site.Language.Lang "zh" }}🗺️ 在 Google 地图中打开{{ else if eq .Site.Language.Lang "en" }}🗺️ Open in Google Maps{{ else }}🗺️ افتح في خرائط جوجل{{ end }}
+                </a>
             </div>
         </div>
     </div>
 </section>
+
+<!-- 结构化数据 Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ "/images/logo/logo.jpeg" | absURL }}",
+  "description": "{{ .Site.Params.description }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ .Site.Params.addressEn }}",
+    "addressLocality": "Yiwu",
+    "addressRegion": "Zhejiang",
+    "addressCountry": "CN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "29.3013552",
+    "longitude": "120.0703096"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+86-183-5800-8400",
+    "contactType": "sales",
+    "availableLanguage": ["English", "Chinese", "Arabic"]
+  },
+  "sameAs": [
+    "https://www.facebook.com/",
+    "https://www.linkedin.com/",
+    "https://www.instagram.com/"
+  ]
+}
+</script>
 {{ end }}

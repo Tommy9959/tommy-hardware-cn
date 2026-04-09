@@ -1,0 +1,16 @@
+/bin/bash: /Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: No such file or directory
+[2026-04-09 08:13:59] 开始获取天气预报...
+[2026-04-09 08:14:01] 天气数据获取成功
+[2026-04-09 08:14:01] 天气推送失败，尝试备用方案...
+[2026-04-09 08:14:01] 已写入 weather-update.txt
+[2026-04-09 08:14:01] 脚本执行完成
+[2026-04-09 08:14:13] 开始获取天气预报...
+[2026-04-09 08:14:14] 天气数据获取成功
+[2026-04-09 08:14:14] 天气推送成功
+[2026-04-09 08:14:14] 脚本执行完成
+[2026-04-09 11:47:11] 开始获取天气预报...
+[2026-04-09 11:47:12] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1775706438360-aa9af29d
+[2026-04-09 11:47:18] 天气推送成功
+[2026-04-09 11:47:18] 脚本执行完成

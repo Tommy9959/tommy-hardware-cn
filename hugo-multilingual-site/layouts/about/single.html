@@ -1,0 +1,513 @@
+{{ define "main" }}
+<!-- Hero 区域 -->
+<section class="about-hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                {{ if eq .Site.Language.Lang "zh" }}
+                    关于义乌水汇进出口有限公司
+                {{ else if eq .Site.Language.Lang "en" }}
+                    About Yiwu Shuihui Import & Export Co., Ltd.
+                {{ else }}
+                    حول شركة ييو شويهوي للاستيراد والتصدير
+                {{ end }}
+            </h1>
+            <p class="hero-subtitle">
+                {{ if eq .Site.Language.Lang "zh" }}
+                    专业门控五金制造商，10+ 年出口经验，服务全球 50+ 国家和地区
+                {{ else if eq .Site.Language.Lang "en" }}
+                    Professional door hardware manufacturer with 10+ years export experience, serving 50+ countries worldwide
+                {{ else }}
+                    مصنع محترف لأجهزة الأبواب مع أكثر من 10 سنوات من الخبرة في التصدير، نخدم أكثر من 50 دولة حول العالم
+                {{ end }}
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 公司简介 -->
+<section class="company-profile">
+    <div class="container">
+        <div class="profile-grid">
+            <div class="profile-content">
+                <h2 class="section-title" style="text-align: left; margin-bottom: 1.5rem;">
+                    {{ if eq .Site.Language.Lang "zh" }}公司简介{{ else if eq .Site.Language.Lang "en" }}Company Profile{{ else }}ملف الشركة{{ end }}
+                </h2>
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                    {{ if eq .Site.Language.Lang "zh" }}
+                        义乌水汇进出口有限公司是一家专业从事门控五金制造和出口的企业，位于中国浙江省义乌市。我们专注于生产高质量的门把手、门锁、门铰链、导轨等建筑五金产品，产品远销尼日利亚、迪拜、非洲等 50+ 个国家和地区。
+                    {{ else if eq .Site.Language.Lang "en" }}
+                        Yiwu Shuihui Import & Export Co., Ltd. is a professional door hardware manufacturer and exporter located in Yiwu, Zhejiang Province, China. We specialize in producing high-quality door handles, locks, hinges, sliding tracks and other construction hardware products, exported to 50+ countries including Nigeria, Dubai, and Africa.
+                    {{ else }}
+                        شركة ييو شويهوي للاستيراد والتصدير المحدودة هي مصنع ومصدر محترف لأجهزة الأبواب تقع في ييو، مقاطعة تشجيانغ، الصين. نحن متخصصون في إنتاج مقابض الأبواب عالية الجودة، والأقفال، والمفاصل، والمسارات المنزلقة وغيرها من منتجات الأجهزة، المصدرة إلى أكثر من 50 دولة بما في ذلك نيجيريا ودبي وأفريقيا.
+                    {{ end }}
+                </p>
+                <div class="profile-highlights">
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🏭</span>
+                        <div>
+                            <strong>{{ if eq .Site.Language.Lang "zh" }}工厂直销{{ else if eq .Site.Language.Lang "en" }}Factory Direct{{ else }}المصنع مباشرة{{ end }}</strong>
+                            <p>{{ if eq .Site.Language.Lang "zh" }}无中间商，价格优惠 30-50%{{ else if eq .Site.Language.Lang "en" }}No middlemen, 30-50% lower prices{{ else }}بدون وسطاء{{ end }}</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🎯</span>
+                        <div>
+                            <strong>{{ if eq .Site.Language.Lang "zh" }}质量保证{{ else if eq .Site.Language.Lang "en" }}Quality Guaranteed{{ else }}جودة مضمونة{{ end }}</strong>
+                            <p>{{ if eq .Site.Language.Lang "zh" }}ISO 9001 认证，严格质检{{ else if eq .Site.Language.Lang "en" }}ISO 9001 certified, strict QC{{ else }}معتمدة ISO{{ end }}</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🚢</span>
+                        <div>
+                            <strong>{{ if eq .Site.Language.Lang "zh" }}快速交货{{ else if eq .Site.Language.Lang "en" }}Fast Delivery{{ else }}تسليم سريع{{ end }}</strong>
+                            <p>{{ if eq .Site.Language.Lang "zh" }}15-25 天到大多数港口{{ else if eq .Site.Language.Lang "en" }}15-25 days to most ports{{ else }}15-25 يوم{{ end }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-image">
+                <div class="image-placeholder">
+                    <span class="placeholder-icon">🏢</span>
+                    <span class="placeholder-text">{{ if eq .Site.Language.Lang "zh" }}公司大楼{{ else if eq .Site.Language.Lang "en" }}Company Building{{ else }}مبنى الشركة{{ end }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 信任元素 -->
+<section class="trust-section">
+    <div class="container">
+        <h2 class="section-title">
+            {{ if eq .Site.Language.Lang "zh" }}为什么选择我们{{ else if eq .Site.Language.Lang "en" }}Why Choose Us{{ else }}لماذا تختارنا{{ end }}
+        </h2>
+        <p class="section-subtitle">
+            {{ if eq .Site.Language.Lang "zh" }}10+ 年专注门控五金出口，50+ 国家和地区信赖之选{{ else if eq .Site.Language.Lang "en" }}10+ years focused on door hardware export, trusted by 50+ countries{{ else }}+10 سنوات من التركيز على تصدير أجهزة الأبواب{{ end }}
+        </p>
+        
+        <!-- 数据统计 -->
+        <div class="trust-grid">
+            <div class="trust-item">
+                <div class="trust-icon">🏆</div>
+                <div class="trust-number">10+</div>
+                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}年出口经验{{ else if eq .Site.Language.Lang "en" }}Years Export Experience{{ else }}سنوات خبرة{{ end }}</div>
+                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}专注五金出口{{ else if eq .Site.Language.Lang "en" }}Focused on hardware{{ else }}التركيز على الأجهزة{{ end }}</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">🌍</div>
+                <div class="trust-number">50+</div>
+                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}出口国家和地区{{ else if eq .Site.Language.Lang "en" }}Countries Exported{{ else }}دولة{{ end }}</div>
+                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}遍布全球{{ else if eq .Site.Language.Lang "en" }}Worldwide{{ else }}في جميع أنحاء العالم{{ end }}</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">👥</div>
+                <div class="trust-number">1000+</div>
+                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}满意客户{{ else if eq .Site.Language.Lang "en" }}Happy Clients{{ else }}عميل سعيد{{ end }}</div>
+                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}长期合作{{ else if eq .Site.Language.Lang "en" }}Long-term partners{{ else }}شركاء طويل الأجل{{ end }}</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">📦</div>
+                <div class="trust-number">100%</div>
+                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}质量检验{{ else if eq .Site.Language.Lang "en" }}Quality Inspection{{ end }}</div>
+                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}出厂前全检{{ else if eq .Site.Language.Lang "en" }}100% inspection{{ end }}</div>
+            </div>
+        </div>
+        
+        <!-- 认证标志 -->
+        <div class="certifications">
+            <h3 class="cert-title">{{ if eq .Site.Language.Lang "zh" }}国际认证{{ else if eq .Site.Language.Lang "en" }}International Certifications{{ else }}الشهادات الدولية{{ end }}</h3>
+            <p class="cert-subtitle">{{ if eq .Site.Language.Lang "zh" }}符合国际标准，质量可靠{{ else if eq .Site.Language.Lang "en" }}Meet international standards, reliable quality{{ else }}تتوافق مع المعايير الدولية{{ end }}</p>
+            <div class="cert-logos">
+                <div class="cert-badge cert-badge-large">
+                    <div class="cert-main">ISO 9001</div>
+                    <div class="cert-sub">Quality Management</div>
+                </div>
+                <div class="cert-badge cert-badge-large">
+                    <div class="cert-main">CE</div>
+                    <div class="cert-sub">European Standard</div>
+                </div>
+                <div class="cert-badge cert-badge-large">
+                    <div class="cert-main">SGS</div>
+                    <div class="cert-sub">Tested & Verified</div>
+                </div>
+            </div>
+            <div class="cert-note">{{ if eq .Site.Language.Lang "zh" }}* 所有产品均通过严格质量检测{{ else if eq .Site.Language.Lang "en" }}* All products pass strict quality testing{{ end }}</div>
+        </div>
+    </div>
+</section>
+
+<!-- 核心优势 -->
+<section class="why-choose-section">
+    <div class="container">
+        <h2 class="section-title">
+            {{ if eq .Site.Language.Lang "zh" }}核心优势{{ else if eq .Site.Language.Lang "en" }}Core Advantages{{ else }}المزايا الأساسية{{ end }}
+        </h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🏭</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}工厂直销{{ else if eq .Site.Language.Lang "en" }}Factory Direct{{ else }}المصنع مباشرة{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}无中间商，价格比市场价低 30-50%{{ else if eq .Site.Language.Lang "en" }}No middlemen, 30-50% lower than market{{ else }}بدون وسطاء{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}出厂价格优惠{{ else if eq .Site.Language.Lang "en" }}Best factory prices{{ else }}أسعار المصنع{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}支持小批量订单{{ else if eq .Site.Language.Lang "en" }}Small orders accepted{{ else }}الطلبات الصغيرة{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}免费样品服务{{ else if eq .Site.Language.Lang "en" }}Free samples{{ end }}</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}质量保证{{ else if eq .Site.Language.Lang "en" }}Quality Guaranteed{{ else }}جودة مضمونة{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}ISO 9001 认证，严格质检流程{{ else if eq .Site.Language.Lang "en" }}ISO 9001 certified, strict QC{{ else }}معتمدة ISO{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}100% 出厂检验{{ else if eq .Site.Language.Lang "en" }}100% inspection{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}50,000+ 次耐用测试{{ else if eq .Site.Language.Lang "en" }}50,000+ cycles test{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}2 年质量保证{{ else if eq .Site.Language.Lang "en" }}2-year warranty{{ end }}</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🚢</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}快速交货{{ else if eq .Site.Language.Lang "en" }}Fast Delivery{{ else }}تسليم سريع{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}15-25 天到大多数港口{{ else if eq .Site.Language.Lang "en" }}15-25 days to most ports{{ else }}15-25 يوم{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}现货 3-5 天发货{{ else if eq .Site.Language.Lang "en" }}Stock: 3-5 days{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}定制 15-25 天生产{{ else if eq .Site.Language.Lang "en" }}Custom: 15-25 days{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}合作多家货代公司{{ else if eq .Site.Language.Lang "en" }}Multiple forwarders{{ end }}</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}灵活付款{{ else if eq .Site.Language.Lang "en" }}Flexible Payment{{ else }}دفع مرن{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}支持多种付款方式{{ else if eq .Site.Language.Lang "en" }}Multiple payment methods{{ else }}دفع مرن{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ T/T (银行转账)</li>
+                    <li>✓ L/C (信用证)</li>
+                    <li>✓ Western Union (西联汇款)</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔧</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}OEM/ODM 服务{{ else if eq .Site.Language.Lang "en" }}OEM/ODM Service{{ else }}خدمة OEM/ODM{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}定制设计和包装{{ else if eq .Site.Language.Lang "en" }}Custom design & packaging{{ else }}تصميم مخصص{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}定制 Logo 和包装{{ else if eq .Site.Language.Lang "en" }}Custom logo{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}新产品开发支持{{ else if eq .Site.Language.Lang "en" }}New product development{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}免费设计稿{{ else if eq .Site.Language.Lang "en" }}Free design drafts{{ end }}</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📞</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}专业服务{{ else if eq .Site.Language.Lang "en" }}Professional Service{{ else }}خدمة احترافية{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}24/7 多语言支持{{ else if eq .Site.Language.Lang "en" }}24/7 multilingual support{{ else }}دعم 24/7{{ end }}</p>
+                <ul class="feature-list">
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}2 小时内回复询价{{ else if eq .Site.Language.Lang "en" }}Reply within 2 hours{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}英语/中文/阿语服务{{ else if eq .Site.Language.Lang "en" }}EN/CN/AR support{{ end }}</li>
+                    <li>✓ {{ if eq .Site.Language.Lang "zh" }}售后技术支持{{ else if eq .Site.Language.Lang "en" }}After-sales support{{ end }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 主要产品 -->
+<section class="products-section">
+    <div class="container">
+        <h2 class="section-title">
+            {{ if eq .Site.Language.Lang "zh" }}主要产品{{ else if eq .Site.Language.Lang "en" }}Main Products{{ else }}المنتجات الرئيسية{{ end }}
+        </h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-icon">🚪</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门把手{{ else if eq .Site.Language.Lang "en" }}Door Handles{{ else }}مقابض الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}不锈钢、铝合金、黄铜{{ else if eq .Site.Language.Lang "en" }}Stainless Steel, Aluminum, Brass{{ else }}فولاذ مقاوم، ألومنيوم، نحاس{{ end }}</p>
+                <a href="{{ "/products/door-handles/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🔒</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门锁{{ else if eq .Site.Language.Lang "en" }}Door Locks{{ else }}أقفال الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}插芯锁、挂锁、智能锁{{ else if eq .Site.Language.Lang "en" }}Mortise Locks, Padlocks, Smart Locks{{ else }}أقفال مقبس، أقفال قفل{{ end }}</p>
+                <a href="{{ "/products/door-locks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🔧</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门铰链{{ else if eq .Site.Language.Lang "en" }}Door Hinges{{ else }}مفاصل الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}合页、转轴铰链、烟斗铰链{{ else if eq .Site.Language.Lang "en" }}Butt Hinges, Pivot Hinges{{ end }}</p>
+                <a href="{{ "/products/door-hinges/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">📦</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}导轨{{ else if eq .Site.Language.Lang "en" }}Sliding Tracks{{ else }}المسارات المنزلقة{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}抽屉导轨、衣柜轨道{{ else if eq .Site.Language.Lang "en" }}Drawer Slides, Wardrobe Tracks{{ end }}</p>
+                <a href="{{ "/products/sliding-tracks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="{{ "/products/" | relLangURL }}" class="btn btn-secondary btn-large">
+                {{ if eq .Site.Language.Lang "zh" }}查看更多产品{{ else if eq .Site.Language.Lang "en" }}View All Products{{ else }}عرض كل المنتجات{{ end }}
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- 客户评价 -->
+<section class="testimonials-section">
+    <div class="container">
+        <h2 class="section-title">
+            {{ if eq .Site.Language.Lang "zh" }}客户评价{{ else if eq .Site.Language.Lang "en" }}What Clients Say{{ else }}آراء العملاء{{ end }}
+        </h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"{{ if eq .Site.Language.Lang "zh" }}质量非常好，交货准时，已经合作 3 年了！{{ else if eq .Site.Language.Lang "en" }}Excellent quality, on-time delivery, been working together for 3 years!{{ end }}"</p>
+                <div class="testimonial-author">— {{ if eq .Site.Language.Lang "zh" }}尼日利亚客户{{ else if eq .Site.Language.Lang "en" }}Client from Nigeria{{ end }}}, Mr. Ahmed</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"{{ if eq .Site.Language.Lang "zh" }}价格有竞争力，服务专业，推荐！{{ else if eq .Site.Language.Lang "en" }}Competitive prices, professional service, highly recommended!{{ end }}"</p>
+                <div class="testimonial-author">— {{ if eq .Site.Language.Lang "zh" }}迪拜客户{{ else if eq .Site.Language.Lang "en" }}Client from Dubai{{ end }}}, Mr. Mohammed</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"{{ if eq .Site.Language.Lang "zh" }}产品质量稳定，包装完好，合作愉快！{{ else if eq .Site.Language.Lang "en" }}Stable product quality, perfect packaging, happy cooperation!{{ end }}"</p>
+                <div class="testimonial-author">— {{ if eq .Site.Language.Lang "zh" }}肯尼亚客户{{ else if eq .Site.Language.Lang "en" }}Client from Kenya{{ end }}}, Mr. John</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 联系 CTA -->
+<section class="contact-cta-section">
+    <div class="container">
+        <div class="contact-cta">
+            <h2>{{ if eq .Site.Language.Lang "zh" }}准备好开始合作了吗？{{ else if eq .Site.Language.Lang "en" }}Ready to Start Cooperation?{{ else }}مستعد لبدء التعاون؟{{ end }}</h2>
+            <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，获取免费样品和报价，2 小时内回复{{ else if eq .Site.Language.Lang "en" }}Contact now for free samples and quote, reply within 2 hours{{ else }}اتصل الآن للحصول على عينات مجانية{{ end }}</p>
+            <div class="contact-methods">
+                <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="contact-btn whatsapp" target="_blank">
+                    💬 WhatsApp: {{ .Site.Params.whatsapp }}
+                </a>
+                <a href="mailto:{{ .Site.Params.email }}" class="contact-btn email">
+                    📧 {{ .Site.Params.email }}
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+/* 关于页面 Hero */
+.about-hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+}
+.about-hero .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.about-hero .hero-subtitle {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+    line-height: 1.6;
+}
+
+/* 公司简介 */
+.company-profile {
+    padding: 5rem 0;
+    background: white;
+}
+.profile-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+.profile-image .image-placeholder {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: var(--radius-lg);
+    padding: 4rem 2rem;
+    text-align: center;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--shadow-hover);
+}
+.profile-image .placeholder-icon {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+.profile-image .placeholder-text {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+}
+.profile-highlights {
+    margin-top: 2rem;
+}
+.highlight-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--bg-light);
+    border-radius: var(--radius);
+    transition: all 0.3s;
+}
+.highlight-item:hover {
+    transform: translateX(5px);
+    box-shadow: var(--shadow);
+}
+.highlight-icon {
+    font-size: 2rem;
+}
+.highlight-item strong {
+    display: block;
+    color: var(--secondary-color);
+    margin-bottom: 0.3rem;
+    font-size: 1.1rem;
+}
+.highlight-item p {
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+/* 客户评价 */
+.testimonials-section {
+    padding: 5rem 0;
+    background: var(--bg-light);
+}
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+.testimonial-card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    transition: all 0.3s;
+}
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+.testimonial-stars {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+}
+.testimonial-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: #555;
+}
+.testimonial-author {
+    font-size: 0.9rem;
+    color: #888;
+    font-weight: 600;
+}
+
+/* 联系 CTA */
+.contact-cta-section {
+    padding: 5rem 0;
+    background: white;
+}
+.contact-cta {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 3rem 2rem;
+    border-radius: var(--radius-lg);
+    text-align: center;
+}
+.contact-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.contact-cta p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+}
+.contact-methods {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-btn {
+    padding: 1rem 2rem;
+    background: white;
+    color: var(--primary-color);
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.contact-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.contact-btn.whatsapp {
+    background: #25D366;
+    color: white;
+}
+.contact-btn.email {
+    background: white;
+    color: var(--primary-color);
+}
+
+/* 响应式设计 */
+@media (max-width: 900px) {
+    .profile-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .profile-image {
+        order: -1;
+    }
+    .profile-image .image-placeholder {
+        min-height: 250px;
+        padding: 2rem 1rem;
+    }
+    .profile-image .placeholder-icon {
+        font-size: 4rem;
+    }
+    .about-hero .hero-title {
+        font-size: 2rem;
+    }
+    .about-hero .hero-subtitle {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-hero {
+        padding: 3rem 0;
+    }
+    .about-hero .hero-title {
+        font-size: 1.75rem;
+    }
+    .company-profile, .testimonials-section, .contact-cta-section {
+        padding: 3rem 0;
+    }
+    .highlight-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-methods {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .contact-btn {
+        width: 100%;
+    }
+}
+</style>
+{{ end }}
