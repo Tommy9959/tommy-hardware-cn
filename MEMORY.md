@@ -274,3 +274,10 @@ git push origin main:gh-pages --force
 
 *记录时间：2026-04-08 21:50*
 *记录人：林黛玉 · AI 助手*
+
+## Promoted From Short-Term Memory (2026-04-12)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-04-08.md:123:174 -->
+- - ✅ 汉堡菜单按钮 (三横线) - ✅ 点击展开/收起动画 - ✅ 移动端导航优化 - ✅ 触摸友好的大按钮 - ✅ 语言切换器下拉式 ### 3. 联系表单 - ✅ 专业 B2B 询盘表单 - ✅ 字段：姓名、邮箱、电话、公司、产品、询盘内容 - ✅ 6 大产品分类下拉选择 - ✅ 三语言自动切换 - ⚠️ **待配置：** Formspree 表单 ID (需注册 formspree.io) ### 4. 信任元素 - ✅ 数据统计 (10+ 年经验、50+ 国家、1000+ 客户、100% 质检) - ✅ 认证标志 (ISO 9001、CE、SGS) - ✅ 紫色渐变背景 + 悬停动画 - ✅ 响应式设计 ### 5. 地图优化 - ✅ Google Maps embed - ✅ 精准坐标：29.3013552°N, 120.0703096°E - ✅ "在 Google 地图中打开"按钮 - ✅ 移动端高度自适应 --- ## 📋 后续优化建议 ### 高优先级 - [ ] 拍摄并添加真实产品图片 - [ ] 配置 Formspree 联系表单 - [ ] 完善阿拉伯语翻译 ### 中优先级 - [ ] 添加客户评价/案例 - [ ] 添加工厂/团队照片 - [ ] 添加博客/新闻中心 - [ ] FAQ 常见问题解答 ### 低优先级 - [ ] 产品搜索功能 - [ ] 产品对比功能 - [ ] Google Search Console - [ ] 社交媒体分享按钮 --- ## 🔗 访问地址 - **主域名：** https://jh-hardware.com - **GitHub 仓库：** https://github.com/Tommy9959/tommy-hardware-cn [score=0.835 recalls=3 avg=0.788 source=memory/2026-04-08.md:123-174]
+<!-- openclaw-memory-promotion:memory:memory/2026-04-08.md:83:131 -->
+- ├── 显示该分类下 6 个产品型号 └── 产品详情 (/products/{category}/{model}/) └── 产品图片、参数、规格、材质、尺寸等 ``` ### 6 大产品分类 (共 36+ 个产品型号) 1. **Door Handles (门把手)** - DH-001 ~ DH-006 2. **Door Locks (门锁)** - DL-001 ~ DL-006 3. **Door Hinges (门铰链)** - HH-001 ~ HH-006 4. **Sliding Tracks (导轨)** - ST-001 ~ ST-006 5. **Sofa Legs (沙发脚)** - SL-001 ~ SL-006 6. **Cabinet Hardware (橱柜五金)** - CH-001 ~ CH-006 ### 产品详情页功能 - ✅ 产品图片占位符 - ✅ 价格范围、MOQ - ✅ 技术规格表 - ✅ 材质工艺说明 - ✅ 尺寸包装信息 - ✅ 应用场景 - ✅ 相关产品推荐 - ✅ WhatsApp/邮件询价按钮 ### 三语言支持 - English (默认) - 中文 - العربية (阿拉伯语，RTL 布局) --- ## ✅ 优化完成 (20:45 部署上线) ### 1. SEO 优化 - ✅ Meta 标签 (description, keywords, canonical, robots) - ✅ Open Graph (Facebook/LinkedIn 分享) - ✅ Twitter Cards - ✅ 结构化数据 (Schema.org JSON-LD) - ✅ Favicon 网站图标 ### 2. 移动端菜单优化 - ✅ 汉堡菜单按钮 (三横线) - ✅ 点击展开/收起动画 - ✅ 移动端导航优化 - ✅ 触摸友好的大按钮 - ✅ 语言切换器下拉式 ### 3. 联系表单 - ✅ 专业 B2B 询盘表单 - ✅ 字段：姓名、邮箱、电话、公司、产品、询盘内容 [score=0.830 recalls=3 avg=0.770 source=memory/2026-04-08.md:83-131]
