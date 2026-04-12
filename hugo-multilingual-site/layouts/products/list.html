@@ -9,7 +9,7 @@
         </div>
 
         {{/* 如果是/products/页面，显示 6 大分类 */}}
-        {{ if eq .RelPermalink "/products/" }}
+        {{ if or (eq .RelPermalink "/products/") (eq .RelPermalink "/en/products/") (eq .RelPermalink "/zh/products/") (eq .RelPermalink "/ar/products/") }}
         <div class="categories-grid">
             <!-- 门把手 -->
             <div class="category-card">

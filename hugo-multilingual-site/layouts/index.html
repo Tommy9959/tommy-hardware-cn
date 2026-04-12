@@ -13,6 +13,11 @@
                 {{ else if eq .Site.Language.Lang "en" }}Factory direct supply of door handles, hinges, locks, and sliding tracks. Export to Nigeria, Dubai, Africa. Fast delivery 15-25 days.
                 {{ else }}توريد مباشر من المصنع لمقابض الأبواب، والمفاصل، والأقفال، والمسارات المنزلقة. التصدير إلى نيجيريا ودبي وأفريقيا.{{ end }}
             </p>
+            <div class="hero-badges">
+                <span class="badge">🇳🇬 {{ if eq .Site.Language.Lang "zh" }}尼日利亚专线{{ else if eq .Site.Language.Lang "en" }}Nigeria Express{{ else }}نيجيريا{{ end }}</span>
+                <span class="badge">🇦🇪 {{ if eq .Site.Language.Lang "zh" }}迪拜专线{{ else if eq .Site.Language.Lang "en" }}Dubai Express{{ else }}دبي{{ end }}</span>
+                <span class="badge">🌍 {{ if eq .Site.Language.Lang "zh" }}非洲市场{{ else if eq .Site.Language.Lang "en" }}Africa Market{{ else }}أفريقيا{{ end }}</span>
+            </div>
             <div class="hero-buttons">
                 <a href="{{ "/products/" | relLangURL }}" class="btn btn-primary">
                     {{ if eq .Site.Language.Lang "zh" }}查看产品{{ else if eq .Site.Language.Lang "en" }}View Products{{ else }}عرض المنتجات{{ end }}
@@ -239,6 +244,52 @@
                     <h4>{{ if eq .Site.Language.Lang "zh" }}定制服务{{ else if eq .Site.Language.Lang "en" }}Custom Service{{ else }}خدمة مخصصة{{ end }}</h4>
                     <p>{{ if eq .Site.Language.Lang "zh" }}OEM/ODM，支持小批量{{ else if eq .Site.Language.Lang "en" }}OEM/ODM, small orders accepted{{ end }}</p>
                 </div>
+            </div>
+        </div>
+        
+        <!-- 尼日利亚市场专题 -->
+        <div class="nigeria-market-section">
+            <h3 class="section-title">🇳🇬 {{ if eq .Site.Language.Lang "zh" }}尼日利亚市场专线{{ else if eq .Site.Language.Lang "en" }}Nigeria Market Express{{ else }}خط نيجيريا{{ end }}</h3>
+            <p class="section-subtitle">{{ if eq .Site.Language.Lang "zh" }}专注尼日利亚市场 10+ 年，服务拉各斯、阿布贾、哈科特港等城市{{ else if eq .Site.Language.Lang "en" }}10+ years focused on Nigeria market, serving Lagos, Abuja, Port Harcourt and more{{ else }}10+ سنوات في سوق نيجيريا{{ end }}</p>
+            
+            <div class="nigeria-features">
+                <div class="nigeria-feature">
+                    <div class="feature-icon">🚢</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}快速海运{{ else if eq .Site.Language.Lang "en" }}Fast Shipping{{ else }}شحن سريع{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}宁波/上海港 → 拉各斯/阿帕帕港，15-25 天{{ else if eq .Site.Language.Lang "en" }}Ningbo/Shanghai → Lagos/Apapa, 15-25 days{{ end }}</p>
+                </div>
+                <div class="nigeria-feature">
+                    <div class="feature-icon">📋</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}清关支持{{ else if eq .Site.Language.Lang "en" }}Customs Support{{ else }}دعم الجمارك{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}提供完整清关文件，包括 Form M、SONCAP 等{{ else if eq .Site.Language.Lang "en" }}Complete docs: Form M, SONCAP, etc.{{ end }}</p>
+                </div>
+                <div class="nigeria-feature">
+                    <div class="feature-icon">💰</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}灵活付款{{ else if eq .Site.Language.Lang "en" }}Flexible Payment{{ else }}دفع مرن{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}支持 T/T、L/C，理解尼日利亚外汇政策{{ else if eq .Site.Language.Lang "en" }}T/T, L/C accepted, understand forex policies{{ end }}</p>
+                </div>
+                <div class="nigeria-feature">
+                    <div class="feature-icon">🛡️</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}耐用产品{{ else if eq .Site.Language.Lang "en" }}Durable Products{{ else }}منتجات متينة{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}适合尼日利亚气候，防锈耐腐蚀{{ else if eq .Site.Language.Lang "en" }}Suitable for Nigerian climate, anti-rust{{ end }}</p>
+                </div>
+            </div>
+            
+            <div class="nigeria-cities">
+                <span class="city-badge">📍 Lagos (拉各斯)</span>
+                <span class="city-badge">📍 Abuja (阿布贾)</span>
+                <span class="city-badge">📍 Port Harcourt (哈科特港)</span>
+                <span class="city-badge">📍 Kano (卡诺)</span>
+                <span class="city-badge">📍 Ibadan (伊巴丹)</span>
+            </div>
+            
+            <div class="nigeria-cta">
+                <a href="https://wa.me/8618358008400?text=Hello,%20I'm%20interested%20in%20door%20handles%20for%20Nigeria%20market" class="btn btn-whatsapp" target="_blank">
+                    💬 {{ if eq .Site.Language.Lang "zh" }}WhatsApp 咨询尼日利亚市场{{ else if eq .Site.Language.Lang "en" }}WhatsApp for Nigeria Market{{ else }}واتساب{{ end }}
+                </a>
+                <a href="{{ "/contact/" | relLangURL }}" class="btn btn-secondary">
+                    {{ if eq .Site.Language.Lang "zh" }}获取尼日利亚报价{{ else if eq .Site.Language.Lang "en" }}Get Nigeria Quote{{ else }}احصل على عرض أسعار{{ end }}
+                </a>
             </div>
         </div>
         

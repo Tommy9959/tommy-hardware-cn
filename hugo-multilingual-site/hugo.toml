@@ -46,7 +46,7 @@ defaultContentLanguageInSubdir = true
     weight = 20
   [[languages.zh.menu.main]]
     name = '博客'
-    pageRef = '/zh/blog/'
+    pageRef = '/blog/'
     weight = 25
   [[languages.zh.menu.main]]
     name = '关于'
@@ -68,7 +68,7 @@ defaultContentLanguageInSubdir = true
     weight = 20
   [[languages.en.menu.main]]
     name = 'Blog'
-    pageRef = '/en/blog/'
+    pageRef = '/blog/'
     weight = 25
   [[languages.en.menu.main]]
     name = 'About'
@@ -90,7 +90,7 @@ defaultContentLanguageInSubdir = true
     weight = 20
   [[languages.ar.menu.main]]
     name = 'المدونة'
-    pageRef = '/ar/blog/'
+    pageRef = '/blog/'
     weight = 25
   [[languages.ar.menu.main]]
     name = 'حول'

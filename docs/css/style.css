@@ -812,6 +812,119 @@ img[loading="lazy"]:not([src]) { opacity: 0; }
     margin-top: 1rem;
 }
 
+/* 尼日利亚市场专题 */
+.nigeria-market-section {
+    background: linear-gradient(135deg, #008751 0%, #ffffff 50%, #008751 100%);
+    padding: 3rem 2rem;
+    border-radius: var(--radius-lg);
+    margin: 3rem 0;
+    text-align: center;
+    border: 3px solid #008751;
+}
+.nigeria-market-section .section-title {
+    font-size: 2rem;
+    color: #008751;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.nigeria-market-section .section-subtitle {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+}
+.nigeria-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+.nigeria-feature {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: all 0.3s;
+}
+.nigeria-feature:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+.nigeria-feature .feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.nigeria-feature h4 {
+    font-size: 1.2rem;
+    color: #008751;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+.nigeria-feature p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.6;
+}
+.nigeria-cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.city-badge {
+    background: white;
+    color: #008751;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 2px solid #008751;
+}
+.nigeria-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nigeria-cta .btn {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nigeria-cta .btn-whatsapp {
+    background: #25D366;
+    color: white;
+}
+.nigeria-cta .btn-whatsapp:hover {
+    background: #128C7E;
+}
+@media (max-width: 768px) {
+    .nigeria-market-section {
+        padding: 2rem 1rem;
+    }
+    .nigeria-market-section .section-title {
+        font-size: 1.5rem;
+    }
+    .nigeria-market-section .section-subtitle {
+        font-size: 1rem;
+    }
+    .nigeria-features {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .nigeria-cities {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nigeria-cta {
+        flex-direction: column;
+    }
+    .nigeria-cta .btn {
+        width: 100%;
+    }
+}
+
 /* 客户评价 */
 .testimonials {
     text-align: center;
