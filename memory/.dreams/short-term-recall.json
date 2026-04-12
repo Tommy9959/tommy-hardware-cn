@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-12T23:00:00.544Z",
+  "updatedAt": "2026-04-12T23:30:02.618Z",
   "entries": {
     "memory:memory/2026-04-08.md:6:9": {
       "key": "memory:memory/2026-04-08.md:6:9",
@@ -15,7 +15,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-09T19:00:00.300Z",
-      "lastRecalledAt": "2026-04-12T23:00:00.544Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
       "queryHashes": [
         "4320a7af2f21"
       ],
@@ -49,7 +49,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-09T19:00:00.300Z",
-      "lastRecalledAt": "2026-04-12T23:00:00.544Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
       "queryHashes": [
         "4320a7af2f21"
       ],
@@ -83,7 +83,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-09T19:00:00.300Z",
-      "lastRecalledAt": "2026-04-12T23:00:00.544Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
       "queryHashes": [
         "4320a7af2f21"
       ],
@@ -114,7 +114,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-09T19:00:00.300Z",
-      "lastRecalledAt": "2026-04-12T23:00:00.544Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
       "queryHashes": [
         "4320a7af2f21"
       ],
@@ -144,7 +144,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-09T19:00:00.300Z",
-      "lastRecalledAt": "2026-04-12T23:00:00.544Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
       "queryHashes": [
         "4320a7af2f21"
       ],
@@ -177,7 +177,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-09T19:00:00.300Z",
-      "lastRecalledAt": "2026-04-12T23:00:00.544Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
       "queryHashes": [
         "4320a7af2f21"
       ],
@@ -207,7 +207,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-09T19:00:00.300Z",
-      "lastRecalledAt": "2026-04-12T23:00:00.544Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
       "queryHashes": [
         "4320a7af2f21"
       ],
@@ -240,7 +240,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-09T19:00:00.300Z",
-      "lastRecalledAt": "2026-04-12T23:00:00.544Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
       "queryHashes": [
         "4320a7af2f21"
       ],
@@ -111341,7 +111341,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-12T16:48:19.829Z",
-      "lastRecalledAt": "2026-04-12T23:00:00.544Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
       "queryHashes": [
         "0dac2e09ca9b"
       ],
@@ -111373,7 +111373,421 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-12T16:48:19.829Z",
-      "lastRecalledAt": "2026-04-12T23:00:00.544Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
+      "queryHashes": [
+        "0dac2e09ca9b"
+      ],
+      "recallDays": [
+        "2026-04-13",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "备份",
+        "dl-003",
+        "dl-007",
+        "possible",
+        "lasting",
+        "truths",
+        "开发",
+        "模板"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-13.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-13.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-13.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"openclaw-weixin:1776036176748-95459092\", \"timestamp\": \"Mon 2026-04-13 07:22 GMT+8\" } ``` 博客页面还是跟首页内容一致，你仔细检查问题并修复",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T23:30:00.586Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
+      "queryHashes": [
+        "27426694d940"
+      ],
+      "recallDays": [
+        "2026-04-13",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "message-id",
+        "openclaw-weixin",
+        "1776036176748-95459092",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-13.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-13.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-13.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 黛玉这就去检查博客页面的问题。让黛玉仔细看看博客页面的模板和内容配置。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T23:30:00.586Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
+      "queryHashes": [
+        "27426694d940"
+      ],
+      "recallDays": [
+        "2026-04-13",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "黛玉",
+        "就去",
+        "检查",
+        "问题",
+        "仔细",
+        "看看",
+        "模板"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-13.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-13.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-13.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: 黛玉发现问题了！博客页面的模板是正确的，但问题是博客文章列表显示的是\"没有文章\"的状态，因为只有一篇文章 `how-to-choose-door-handles.md`。让黛玉检查一下首页的模板，看看是不是博客页面错误地使用了首页模板：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T23:30:00.586Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
+      "queryHashes": [
+        "27426694d940"
+      ],
+      "recallDays": [
+        "2026-04-13",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "how-to-choose-door-handles.md",
+        "assistant",
+        "黛玉",
+        "发现",
+        "问题",
+        "模板",
+        "正确",
+        "文章"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-13.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-13.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-13.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 黛玉明白了！问题在于 Hugo 的模板查找规则。博客页面有 `layouts/blog/list.html`，但 Hugo 可能没有正确使用它。让黛玉检查一下 hugo.toml 中的配置，看看博客 section 是否正确配置：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T23:30:00.586Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
+      "queryHashes": [
+        "27426694d940"
+      ],
+      "recallDays": [
+        "2026-04-13",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "layouts/blog/list.html",
+        "hugo.toml",
+        "assistant",
+        "黛玉",
+        "明白",
+        "问题",
+        "在于",
+        "hugo"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-13.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-13.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-13.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: 黛玉找到问题了！在 hugo.toml 中，博客的菜单配置是正确的，但 Hugo 的 section 模板需要正确的内容目录结构。让黛玉检查一下是否所有语言都有博客文章目录，以及检查生成的博客页面：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T23:30:00.586Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
+      "queryHashes": [
+        "27426694d940"
+      ],
+      "recallDays": [
+        "2026-04-13",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "hugo.toml",
+        "assistant",
+        "黛玉",
+        "找到",
+        "问题",
+        "菜单",
+        "配置",
+        "正确"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-13.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-13.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-13.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: 好的，博客文章是存在的。现在让黛玉检查一下实际生成的博客页面 HTML，看看是不是真的显示成了首页内容：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T23:30:00.586Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
+      "queryHashes": [
+        "27426694d940"
+      ],
+      "recallDays": [
+        "2026-04-13",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "文章",
+        "存在",
+        "现在",
+        "黛玉",
+        "检查",
+        "一下"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-13.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-13.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-13.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: 黛玉仔细看了生成的 HTML，博客页面本身是正确的！显示了博客文章列表。但黛玉发现了一个问题： **导航菜单中的\"博客\"链接错误！** 看这里： ```html <li class=nav-item><a href=/zh/ class=nav-link>博客</a></li> ``` 博客菜单链接到了 `/zh/`（首页），而不是 `/zh/blog/`！ 这就是为什么用户点击博客时看到的是首页内容。问题出在 hugo.toml 的菜单配置。让黛玉修复这个问题：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T23:30:00.586Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
+      "queryHashes": [
+        "27426694d940"
+      ],
+      "recallDays": [
+        "2026-04-13",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "nav-item",
+        "nav-link",
+        "zh/blog",
+        "hugo.toml",
+        "assistant",
+        "黛玉",
+        "仔细",
+        "看了"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-13.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-13.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-13.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: 现在让黛玉重新构建网站并部署：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T23:30:00.586Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
+      "queryHashes": [
+        "27426694d940"
+      ],
+      "recallDays": [
+        "2026-04-13",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "黛玉",
+        "重新",
+        "网站",
+        "部署"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-13.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-13.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-13.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: 构建成功！现在让黛玉提交并部署到 GitHub Pages：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T23:30:00.586Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
+      "queryHashes": [
+        "27426694d940"
+      ],
+      "recallDays": [
+        "2026-04-13",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "成功",
+        "现在",
+        "黛玉",
+        "提交",
+        "部署",
+        "github",
+        "pages"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-13.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-13.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-13.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: 黛玉已经验证了生成的博客页面 HTML，确认导航链接已经正确。让黛玉再确认一下生成的中文博客页面导航：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T23:30:00.586Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
+      "queryHashes": [
+        "27426694d940"
+      ],
+      "recallDays": [
+        "2026-04-13",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "黛玉",
+        "已经",
+        "验证",
+        "生成",
+        "html",
+        "确认",
+        "导航"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-13.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-13.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-04-13.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: 完美！✅ 黛玉看到导航中的博客链接现在是正确的了： ``` href=/zh/blog/ class=nav-link>博客 ``` 之前是错误的 `/zh/`，现在已经修复为 `/zh/blog/` 了！ --- ## ✅ 问题已修复 **问题原因：** hugo.toml 中博客菜单的 `pageRef` 配置错误，三种语言的配置都包含了语言前缀（如 `/zh/blog/`），但 Hugo 在多语言模式下会自动添加语言前缀，导致最终生成的链接变成了 `/zh/zh/blog/` 或者被错误解析为 `/zh/`（首页）。 **修复",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T23:30:00.586Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
+      "queryHashes": [
+        "27426694d940"
+      ],
+      "recallDays": [
+        "2026-04-13",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "zh/blog",
+        "nav-link",
+        "hugo.toml",
+        "zh/zh/blog",
+        "assistant",
+        "完美",
+        "黛玉",
+        "看到"
+      ]
+    },
+    "memory:memory/2026-04-13.md:298:301": {
+      "key": "memory:memory/2026-04-13.md:298:301",
+      "path": "memory/2026-04-13.md",
+      "startLine": 298,
+      "endLine": 301,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 2183 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-08.txt:1-1, memory/.dreams/session-corpus/2026-04-08.txt:3-3, memory/.dreams/session-corpus/2026-04-08.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T23:30:00.586Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
+      "queryHashes": [
+        "0dac2e09ca9b"
+      ],
+      "recallDays": [
+        "2026-04-13",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-13.md:304:306": {
+      "key": "memory:memory/2026-04-13.md:304:306",
+      "path": "memory/2026-04-13.md",
+      "startLine": 304,
+      "endLine": 306,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: - ✅ 4 套开发信模板优化 - ✅ 发送计划制定 ### 技术改进 - ✅ WhatsApp 工具问题定位 - ✅ 脚本功能优化 - ✅ 配置备份完成 --- ## ⏰ 待办事项 ### 高优先级（今天下午 17:00） - [ ] 发送 8 封开发信给尼日利亚客户 - [ ] 手动发送 3 条 WhatsApp 消息 ### 中优先级 - [ ] 准备产品目录 PDF（用于邮件附件） - [ ] 补充 DL-003 和 DL-007 的产品描述 ### 低优先级 - [ ] 添加更多产品型号 - [",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T23:30:00.586Z",
+      "lastRecalledAt": "2026-04-12T23:30:00.586Z",
       "queryHashes": [
         "0dac2e09ca9b"
       ],

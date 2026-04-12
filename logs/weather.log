@@ -66,3 +66,9 @@ env: node: No such file or directory
 ✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1775950217612-ef177a49
 [2026-04-12 07:30:18] 天气推送成功
 [2026-04-12 07:30:18] 脚本执行完成
+[2026-04-13 07:30:00] 开始获取天气预报...
+[2026-04-13 07:30:01] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1776036618805-2498c241
+[2026-04-13 07:30:19] 天气推送成功
+[2026-04-13 07:30:19] 脚本执行完成
