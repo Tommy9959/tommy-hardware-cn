@@ -10,11 +10,10 @@
  */
 
 const https = require('https');
-const { HttpsProxyAgent } = require('https-proxy-agent');
 const { spawn } = require('child_process');
+const { HttpsProxyAgent } = require('https-proxy-agent');
 
-// ClashX Pro 代理配置
-const proxyAgent = new HttpsProxyAgent('http://127.0.0.1:7890');
+// 不使用代理，直接访问
 
 // ============ 多数据源配置 ============
 // 主数据源：Binance（全球最大交易所）
@@ -39,13 +38,13 @@ const API_SOURCES = [
     name: 'OKX',
     baseUrl: 'https://www.okx.com/api/v5',
     endpoints: {
-      ticker: (symbol) => `/market/ticker?instId=${symbol.replace('USDT', '-USDT')}`,
-      depth: (symbol) => `/market/books?instId=${symbol.replace('USDT', '-USDT')}&sz=20`,
+      ticker: (symbol) => `/market/ticker?instId=${symbol.replace('USDT', '-USDT').replace('--', '-')}`,
+      depth: (symbol) => `/market/books?instId=${symbol.replace('USDT', '-USDT').replace('--', '-')}&sz=20`,
       klines: (symbol, interval, limit) => {
         // OKX bar 参数映射：15m → 15m, 1h → 1H, 4h → 4H, 1d → 1D
         const barMap = { '15m': '15m', '1h': '1H', '4h': '4H', '1d': '1D' };
         const bar = barMap[interval] || interval;
-        return `/market/candles?instId=${symbol.replace('USDT', '-USDT')}&bar=${bar}&limit=${limit}`;
+        return `/market/candles?instId=${symbol.replace('USDT', '-USDT').replace('--', '-')}&bar=${bar}&limit=${limit}`;
       }
     },
     symbolMap: { 'BTCUSDT': 'BTC-USDT' },
@@ -78,6 +77,7 @@ const API_SOURCES = [
 
 const CONFIG = {
   notify: process.argv.includes('--notify'),
+  force: process.argv.includes('--force'), // 强制推送，跳过时间检查
   wechat_user: 'o9cq80-VOQWTsN3h5bn6gyR2IdY4@im.wechat',
   account_id: 'ec25a54ce939-im-bot',
   startHour: 8,
@@ -88,19 +88,23 @@ const CONFIG = {
 
 // ============ 数据获取 ============
 
-function fetchJSON(url, sourceName = 'Unknown') {
+// 带重试的 fetchJSON
+function fetchJSON(url, sourceName = 'Unknown', retryCount = 0) {
   return new Promise((resolve, reject) => {
+    // 使用代理访问（Clash Pro mixed-port: 7890）
+    const proxyUrl = new URL('http://127.0.0.1:7890');
+    const proxyAgent = new HttpsProxyAgent(proxyUrl);
+    
     const options = {
-      agent: proxyAgent,
       headers: { 
         'User-Agent': 'BTC-Analyzer/2.0',
         'Accept': 'application/json'
       },
-      timeout: 15000,
-      rejectUnauthorized: false
+      timeout: 30000, // 增加到 30 秒
+      agent: proxyAgent
     };
     
-    console.log(`🔍 [${sourceName}] 请求：${url}`);
+    console.log(`🔍 [${sourceName}] 请求：${url} (重试 ${retryCount}/${CONFIG.maxRetries})`);
     
     https.get(url, options, (res) => {
       let data = '';
@@ -117,11 +121,34 @@ function fetchJSON(url, sourceName = 'Unknown') {
         }
       });
     }).on('error', (e) => {
-      console.log(`❌ [${sourceName}] 请求失败：${e.message}`);
-      reject(e);
+      const errorMsg = `${e.message}`;
+      console.log(`❌ [${sourceName}] 请求失败：${errorMsg}`);
+      
+      // 重试逻辑：如果是网络错误且未达到最大重试次数，则重试
+      if ((errorMsg.includes('socket disconnected') || errorMsg.includes('Timeout') || errorMsg.includes('ENOTFOUND')) && retryCount < CONFIG.maxRetries) {
+        console.log(`🔄 [${sourceName}] 等待 2 秒后重试...`);
+        setTimeout(() => {
+          fetchJSON(url, sourceName, retryCount + 1)
+            .then(resolve)
+            .catch(reject);
+        }, 2000);
+      } else {
+        reject(e);
+      }
     }).on('timeout', () => {
       console.log(`⏱️ [${sourceName}] 请求超时`);
-      reject(new Error('Timeout'));
+      
+      // 重试逻辑
+      if (retryCount < CONFIG.maxRetries) {
+        console.log(`🔄 [${sourceName}] 等待 2 秒后重试...`);
+        setTimeout(() => {
+          fetchJSON(url, sourceName, retryCount + 1)
+            .then(resolve)
+            .catch(reject);
+        }, 2000);
+      } else {
+        reject(new Error('Timeout'));
+      }
     });
   });
 }
@@ -129,14 +156,18 @@ function fetchJSON(url, sourceName = 'Unknown') {
 // 尝试从多个数据源获取数据
 async function fetchFromSource(source, symbol = 'BTCUSDT') {
   try {
-    const tickerUrl = source.baseUrl + source.endpoints.ticker(symbol);
+    // 使用 symbolMap 转换交易对符号（不同交易所格式不同）
+    const mappedSymbol = source.symbolMap && source.symbolMap[symbol] ? source.symbolMap[symbol] : symbol;
+    console.log(`🔍 [${source.name}] 原始符号：${symbol}, 映射后：${mappedSymbol}`);
+    
+    const tickerUrl = source.baseUrl + source.endpoints.ticker(mappedSymbol);
     const tickerData = await fetchJSON(tickerUrl, source.name);
     
     // 尝试获取订单簿（可选）
     let orderBook = null;
     if (source.endpoints.depth) {
       try {
-        const depthUrl = source.baseUrl + source.endpoints.depth(symbol);
+        const depthUrl = source.baseUrl + source.endpoints.depth(mappedSymbol);
         orderBook = await fetchJSON(depthUrl, source.name);
       } catch (e) {
         console.log(`⚠️ [${source.name}] 订单簿获取失败，继续...`);
@@ -149,20 +180,37 @@ async function fetchFromSource(source, symbol = 'BTCUSDT') {
       const intervals = ['15m', '1h', '4h', '1d'];
       for (const interval of intervals) {
         try {
-          const klineUrl = source.baseUrl + source.endpoints.klines(symbol, interval, 100);
+          const klineUrl = source.baseUrl + source.endpoints.klines(mappedSymbol, interval, 100);
           const klineData = await fetchJSON(klineUrl, source.name);
           
           // OKX K 线格式：[time, open, high, low, close, vol, volCcy]
           // Binance K 线格式：[time, open, high, low, close, volume, ...]
           if (Array.isArray(klineData)) {
-            klines[interval] = klineData.map(k => ({
-              time: k[0],
-              open: parseFloat(k[1]),
-              high: parseFloat(k[2]),
-              low: parseFloat(k[3]),
-              close: parseFloat(k[4]),
-              volume: parseFloat(k[5] || 0)
-            }));
+            if (interval === '1d') console.log(`[DEBUG] ${source.name} 日线原始数据：`, JSON.stringify(klineData.slice(0, 2)));
+klines[interval] = klineData.map(k => {
+              // Gate.io 格式：[time, volume, open, close, high, low, ...]
+              // 标准格式：[time, open, high, low, close, volume, ...]
+              const isGateIO = source.name === 'Gate.io';
+              let open, high, low, close, volume;
+              if (isGateIO) {
+                // Gate.io 格式：[time, volume, open, close, high, low, ...]
+                // 但需要确保 high > low
+                const h = parseFloat(k[4]);
+                const l = parseFloat(k[5]);
+                open = parseFloat(k[2]);
+                close = parseFloat(k[3]);
+                volume = parseFloat(k[1] || 0);
+                high = Math.max(h, l);
+                low = Math.min(h, l);
+              } else {
+                open = parseFloat(k[1]);
+                high = parseFloat(k[2]);
+                low = parseFloat(k[3]);
+                close = parseFloat(k[4]);
+                volume = parseFloat(k[5] || 0);
+              }
+              return { time: k[0], open, high, low, close, volume };
+            });
           } else if (klineData.data && Array.isArray(klineData.data)) {
             // OKX 返回格式
             klines[interval] = klineData.data.map(k => ({
@@ -243,15 +291,31 @@ function normalizeData(rawData, sourceName) {
         askPrice: parseFloat(okxData.askPx || (okxData.asks && okxData.asks[0] ? okxData.asks[0][0] : null))
       };
     } else if (sourceName === 'Gate.io') {
-      const gateData = Array.isArray(ticker) ? ticker[0] : ticker;
+      // Gate.io tickers API 返回格式：{"BTC_USDT":{"last":"108528.56","change_percentage":"+1.54%",...}}
+      let gateData = ticker;
+      if (ticker && typeof ticker === 'object' && !Array.isArray(ticker)) {
+        // 如果是对象，取 BTC_USDT 或 BTCUSDT 键
+        gateData = ticker.BTC_USDT || ticker.BTCUSDT || ticker;
+      } else if (Array.isArray(ticker)) {
+        gateData = ticker[0];
+      }
+      
+      // 解析涨跌幅（去除 % 符号）
+      let changePct = 0;
+      if (gateData.change_percentage) {
+        changePct = parseFloat(gateData.change_percentage.replace('%', '')) || 0;
+      } else if (gateData.changePercentage) {
+        changePct = parseFloat(gateData.changePercentage) || 0;
+      }
+      
       normalizedTicker = {
-        lastPrice: parseFloat(gateData.last || gateData.close),
-        priceChangePercent: parseFloat(gateData.changePercentage || 0),
-        high24h: parseFloat(gateData.high24h || gateData.high),
-        low24h: parseFloat(gateData.low24h || gateData.low),
-        volume24h: parseFloat(gateData.quoteVolume || gateData.volume),
-        bidPrice: gateData.highestBid ? parseFloat(gateData.highestBid) : null,
-        askPrice: gateData.lowestAsk ? parseFloat(gateData.lowestAsk) : null
+        lastPrice: parseFloat(gateData.last || gateData.close || 0),
+        priceChangePercent: changePct,
+        high24h: parseFloat(gateData.high24h || gateData.high_24h || gateData.high),
+        low24h: parseFloat(gateData.low24h || gateData.low_24h || gateData.low),
+        volume24h: parseFloat(gateData.quoteVolume || gateData.quote_volume_24h || gateData.volume),
+        bidPrice: gateData.highestBid ? parseFloat(gateData.highestBid) : (gateData.bid ? parseFloat(gateData.bid) : null),
+        askPrice: gateData.lowestAsk ? parseFloat(gateData.lowestAsk) : (gateData.ask ? parseFloat(gateData.ask) : null)
       };
     }
   } else if (sourceName === 'CoinGecko') {
@@ -425,7 +489,7 @@ function getOrderBookImbalance(orderBook) {
 
 // ============ 分析引擎 ============
 
-function analyze(klines, label) {
+function analyze(klines, label, dailyKlines = null) {
   const closes = klines.map(k => k.close);
   const price = closes.at(-1);
   
@@ -440,7 +504,13 @@ function analyze(klines, label) {
   const atr = ATR(klines);
   const stoch = Stochastic(klines);
   const volProfile = VolumeProfile(klines);
-  const pivots = calculatePivots(klines);
+  // 枢轴点使用日线数据计算（前一日 High/Low/Close）
+  // 使用倒数第二根 K 线（昨天），因为最后一根是今天未完成的 K 线
+  const pivotKlines = dailyKlines || klines;
+  const yesterdayKlines = pivotKlines.length >= 2 ? pivotKlines.slice(0, -1) : pivotKlines;
+  const lastCandle = yesterdayKlines.at(-1);
+  console.log(`[DEBUG] 枢轴点数据：High=${lastCandle?.high}, Low=${lastCandle?.low}, Close=${lastCandle?.close}`);
+  const pivots = calculatePivots(yesterdayKlines);
   const fib = calculateFib(klines);
   
   // 趋势
@@ -512,17 +582,20 @@ function generateCard(data) {
   const marketCap = price * 19750000;
   const obImbalance = orderBook ? getOrderBookImbalance(orderBook) : { imbalance: 0 };
   
-  // 检查是否有 K 线数据
-  const hasKlines = klines && klines['1h'] && klines['1h'].length > 0;
+  // 检查是否有 K 线数据（至少需要 1h、4h 或 1d 之一）
+  const has1h = klines && klines['1h'] && klines['1h'].length > 0;
+  const has4h = klines && klines['4h'] && klines['4h'].length > 0;
+  const has1d = klines && klines['1d'] && klines['1d'].length > 0;
+  const hasKlines = has1h || has4h || has1d;
   
   if (!hasKlines) {
     console.log('⚠️ 警告：K 线数据不可用，使用简化分析模式');
   }
   
-  const a15m = hasKlines && klines['15m'] ? analyze(klines['15m'], '15M') : null;
-  const a1h = hasKlines && klines['1h'] ? analyze(klines['1h'], '1H') : null;
-  const a4h = hasKlines && klines['4h'] ? analyze(klines['4h'], '4H') : null;
-  const a1d = hasKlines && klines['1d'] ? analyze(klines['1d'], '1D') : null;
+  const a15m = (klines && klines['15m'] && klines['15m'].length > 0) ? analyze(klines['15m'], '15M') : null;
+  const a1h = has1h ? analyze(klines['1h'], '1H') : null;
+  const a4h = has4h ? analyze(klines['4h'], '4H', has1d ? klines['1d'] : null) : null;
+  const a1d = has1d ? analyze(klines['1d'], '1D') : null;
   
   // 综合评分（如果 K 线数据不可用，使用简化评分）
   let totalScore = 0;
@@ -545,12 +618,13 @@ function generateCard(data) {
   if (obImbalance.imbalance > 10) obSentiment = '多头占优 🟢';
   else if (obImbalance.imbalance < -10) obSentiment = '空头占优 🔴';
   
-  // 波动率
-  const volatility = a4h ? fmt(a4h.atr / price * 100, 2) : 'N/A';
-  const volatilityStatus = a4h && parseFloat(volatility) < 2 ? '✅ 正常' : '⚠️ 较高';
+  // 波动率（优先 4H，其次 1D）
+  const pivotSource = a4h || a1d;
+  const volatility = pivotSource ? fmt(pivotSource.atr / price * 100, 2) : 'N/A';
+  const volatilityStatus = pivotSource && parseFloat(volatility) < 2 ? '✅ 正常' : '⚠️ 较高';
   
   // RSI 超买检查
-  const rsiOverbought = (a1h?.rsi > 70) || (a4h?.rsi > 70);
+  const rsiOverbought = (a1h?.rsi > 70) || (a4h?.rsi > 70) || (a1d?.rsi > 70);
   
   // 情景推演概率
   const bullProb = totalScore >= 4 ? 60 : totalScore >= 2 ? 45 : 25;
@@ -613,72 +687,72 @@ ${coreLogic.map(logic => `• ${logic}`).join('\n')}
 📊 三、多周期技术分析
 ══════════════════════════════════
 
-15 分钟线 (超短线)
-├─ 趋势：${a15m.trend}
-├─ RSI: ${fmt(a15m.rsi, 0)}
-├─ MACD: ${a15m.macd.histogram > 0 ? '多头' : '空头'}
-├─ EMA: 9($${fmt(a15m.ema9)}) > 20($${fmt(a15m.ema20)}) ${a15m.ema9 > a15m.ema20 ? '✓' : ''}
-└─ 波动率：${fmt(a15m.atr / a15m.price * 100, 2)}%
+${hasKlines ? `15 分钟线 (超短线)
+├─ 趋势：${a15m ? a15m.trend : '数据不足'}
+├─ RSI: ${a15m ? fmt(a15m.rsi, 0) : 'N/A'}
+├─ MACD: ${a15m ? (a15m.macd.histogram > 0 ? '多头' : '空头') : 'N/A'}
+├─ EMA: 9(${a15m ? '$'+fmt(a15m.ema9) : 'N/A'}) ${a15m && a15m.ema9 > a15m.ema20 ? '> 20 ✓' : ''}
+└─ 波动率：${a15m ? fmt(a15m.atr / a15m.price * 100, 2) + '%' : 'N/A'}
 
 1 小时线 (短线)
-├─ 趋势：${a1h.trend}
-├─ RSI: ${fmt(a1h.rsi, 0)}${a1h.rsi > 70 ? ' ⚠️ 超买' : a1h.rsi < 30 ? ' ⚠️ 超卖' : ''}
-├─ MACD: ${a1h.macd.histogram > 0 ? '多头' : '空头'}
-├─ EMA: 9($${fmt(a1h.ema9)}) > 20($${fmt(a1h.ema20)}) ${a1h.ema9 > a1h.ema20 ? '✓' : ''}
-└─ 波动率：${fmt(a1h.atr / a1h.price * 100, 2)}%
+├─ 趋势：${a1h ? a1h.trend : '数据不足'}
+├─ RSI: ${a1h ? fmt(a1h.rsi, 0) : 'N/A'}${a1h && a1h.rsi > 70 ? ' ⚠️ 超买' : a1h && a1h.rsi < 30 ? ' ⚠️ 超卖' : ''}
+├─ MACD: ${a1h ? (a1h.macd.histogram > 0 ? '多头' : '空头') : 'N/A'}
+├─ EMA: 9(${a1h ? '$'+fmt(a1h.ema9) : 'N/A'}) ${a1h && a1h.ema9 > a1h.ema20 ? '> 20 ✓' : ''}
+└─ 波动率：${a1h ? fmt(a1h.atr / a1h.price * 100, 2) + '%' : 'N/A'}
 
 4 小时线 (中线)
-├─ 趋势：${a4h.trend}
-├─ RSI: ${fmt(a4h.rsi, 0)}${a4h.rsi > 70 ? ' ⚠️ 超买' : a4h.rsi < 30 ? ' ⚠️ 超卖' : ''}
-├─ MACD: ${a4h.macd.histogram > 0 ? '多头' : '空头'}
-├─ EMA: 9($${fmt(a4h.ema9)}) | 20($${fmt(a4h.ema20)}) | 50($${fmt(a4h.ema50)})
-└─ 波动率：${fmt(a4h.atr / a4h.price * 100, 2)}%
+├─ 趋势：${a4h ? a4h.trend : '数据不足'}
+├─ RSI: ${a4h ? fmt(a4h.rsi, 0) : 'N/A'}${a4h && a4h.rsi > 70 ? ' ⚠️ 超买' : a4h && a4h.rsi < 30 ? ' ⚠️ 超卖' : ''}
+├─ MACD: ${a4h ? (a4h.macd.histogram > 0 ? '多头' : '空头') : 'N/A'}
+├─ EMA: 9(${a4h ? '$'+fmt(a4h.ema9) : 'N/A'}) | 20(${a4h ? '$'+fmt(a4h.ema20) : 'N/A'}) | 50(${a4h ? '$'+fmt(a4h.ema50) : 'N/A'})
+└─ 波动率：${a4h ? fmt(a4h.atr / a4h.price * 100, 2) + '%' : 'N/A'}
 
 日线 (长线)
-├─ 趋势：${a1d.trend}
-├─ RSI: ${fmt(a1d.rsi, 0)}
-├─ MACD: ${a1d.macd.histogram > 0 ? '多头' : '空头'}
-└─ 波动率：${fmt(a1d.atr / a1d.price * 100, 2)}%
+├─ 趋势：${a1d ? a1d.trend : '数据不足'}
+├─ RSI: ${a1d ? fmt(a1d.rsi, 0) : 'N/A'}
+├─ MACD: ${a1d ? (a1d.macd.histogram > 0 ? '多头' : '空头') : 'N/A'}
+└─ 波动率：${a1d ? fmt(a1d.atr / a1d.price * 100, 2) + '%' : 'N/A'}` : '⚠️ K 线数据暂时不可用，无法提供详细技术分析\n   请检查网络连接或 API 状态'}
 
 ══════════════════════════════════
 📐 四、关键价位系统
 ══════════════════════════════════
 
-枢轴点 (4H)
-├─ R3 (强阻力): $${fmt(a4h.pivots.r3)}
-├─ R2 (阻力): $${fmt(a4h.pivots.r2)}
-├─ R1 (弱阻力): $${fmt(a4h.pivots.r1)}
-├─ Pivot (中枢): $${fmt(a4h.pivots.pivot)}
-├─ S1 (弱支撑): $${fmt(a4h.pivots.s1)}
-├─ S2 (支撑): $${fmt(a4h.pivots.s2)}
-└─ S3 (强支撑): $${fmt(a4h.pivots.s3)}
+${hasKlines && (a4h || a1d) ? `枢轴点 ${a4h ? '(4H)' : '(1D)'}
+├─ R3 (强阻力): $${fmt((a4h || a1d).pivots.r3)}
+├─ R2 (阻力): $${fmt((a4h || a1d).pivots.r2)}
+├─ R1 (弱阻力): $${fmt((a4h || a1d).pivots.r1)}
+├─ Pivot (中枢): $${fmt((a4h || a1d).pivots.pivot)}
+├─ S1 (弱支撑): $${fmt((a4h || a1d).pivots.s1)}
+├─ S2 (支撑): $${fmt((a4h || a1d).pivots.s2)}
+└─ S3 (强支撑): $${fmt((a4h || a1d).pivots.s3)}
 
-斐波那契回撤 (4H)
-├─ 0% (高点): $${fmt(a4h.fib.fib0)}
-├─ 23.6%: $${fmt(a4h.fib.fib236)}
-├─ 38.2%: $${fmt(a4h.fib.fib382)} ← 浅回调
-├─ 50%: $${fmt(a4h.fib.fib500)} ← 中位
-├─ 61.8%: $${fmt(a4h.fib.fib618)} ← 黄金分割
-├─ 78.6%: $${fmt(a4h.fib.fib786)}
-└─ 100% (低点): $${fmt(a4h.fib.fib1000)}
+斐波那契回撤 ${a4h ? '(4H)' : '(1D)'}
+├─ 0% (高点): $${fmt((a4h || a1d).fib.fib0)}
+├─ 23.6%: $${fmt((a4h || a1d).fib.fib236)}
+├─ 38.2%: $${fmt((a4h || a1d).fib.fib382)} ← 浅回调
+├─ 50%: $${fmt((a4h || a1d).fib.fib500)} ← 中位
+├─ 61.8%: $${fmt((a4h || a1d).fib.fib618)} ← 黄金分割
+├─ 78.6%: $${fmt((a4h || a1d).fib.fib786)}
+└─ 100% (低点): $${fmt((a4h || a1d).fib.fib1000)}` : '⚠️ K 线数据暂时不可用，无法计算关键价位\n   恢复后将自动提供支撑/阻力分析'}
 
 ══════════════════════════════════
-💡 五、实操策略建议
+${hasKlines && pivotSource ? `💡 五、实操策略建议
 ══════════════════════════════════
 
-📋 短线交易 (4H)
+📋 短线交易 (${a4h ? '4H' : '1D'})
 ├─ 方向：${totalScore >= 2 ? '逢低做多' : totalScore <= -2 ? '逢高做空' : '观望'}
-├─ 入场 (多): $${fmt(a4h.pivots.s1 * 1.001)}
-├─ 入场 (空): $${fmt(a4h.pivots.r1 * 0.999)}
-├─ 止损：$${fmt(a4h.pivots.s2 * 0.995)}
-├─ 目标 1: $${fmt(a4h.pivots.r1)}
-├─ 目标 2: $${fmt(a4h.pivots.r2)}
-└─ 盈亏比：1:${fmt(Math.abs((a4h.pivots.r1 - a4h.pivots.s1) / (a4h.pivots.s1 - a4h.pivots.s2)))}
+├─ 入场 (多): $${fmt(pivotSource.pivots.s1 * 1.001)}
+├─ 入场 (空): $${fmt(pivotSource.pivots.r1 * 0.999)}
+├─ 止损：$${fmt(pivotSource.pivots.s2 * 0.995)}
+├─ 目标 1: $${fmt(pivotSource.pivots.r1)}
+├─ 目标 2: $${fmt(pivotSource.pivots.r2)}
+└─ 盈亏比：1:${fmt(Math.abs((pivotSource.pivots.r1 - pivotSource.pivots.s1) / (pivotSource.pivots.s1 - pivotSource.pivots.s2)))}
 
 📋 中线交易 (1D)
-├─ 方向：${a1d.trendScore > 0 ? '持有多头' : a1d.trendScore < 0 ? '持有空头' : '观望'}
-├─ 关键支撑：$${fmt(a1d.pivots.s2)}
-├─ 关键阻力：$${fmt(a1d.pivots.r2)}
+├─ 方向：${a1d && a1d.trendScore ? (a1d.trendScore > 0 ? '持有多头' : a1d.trendScore < 0 ? '持有空头' : '观望') : '数据不足'}
+├─ 关键支撑：${a1d && a1d.pivots ? '$'+fmt(a1d.pivots.s2) : 'N/A'}
+├─ 关键阻力：${a1d && a1d.pivots ? '$'+fmt(a1d.pivots.r2) : 'N/A'}
 └─ 仓位：${totalScore >= 4 ? '60-80%' : totalScore >= 2 ? '40-60%' : totalScore <= -4 ? '60-80% 空' : totalScore <= -2 ? '40-60% 空' : '20-30%'}
 
 ⚠️ 风险警示
@@ -691,18 +765,25 @@ ${coreLogic.map(logic => `• ${logic}`).join('\n')}
 ══════════════════════════════════
 
 🟢 看涨情景 (概率：${bullProb}%)
-├─ 触发：站稳 $${fmt(a4h.pivots.pivot)} 上方
-├─ 目标：R1 $${fmt(a4h.pivots.r1)} → R2 $${fmt(a4h.pivots.r2)} → R3 $${fmt(a4h.pivots.r3)}
-└─ 失效：跌破 $${fmt(a4h.pivots.s1)}
+├─ 触发：站稳 $${fmt(pivotSource.pivots.pivot)} 上方
+├─ 目标：R1 $${fmt(pivotSource.pivots.r1)} → R2 $${fmt(pivotSource.pivots.r2)} → R3 $${fmt(pivotSource.pivots.r3)}
+└─ 失效：跌破 $${fmt(pivotSource.pivots.s1)}
 
 🔴 看跌情景 (概率：${bearProb}%)
-├─ 触发：跌破 $${fmt(a4h.pivots.s1)}
-├─ 目标：S1 $${fmt(a4h.pivots.s1)} → S2 $${fmt(a4h.pivots.s2)} → S3 $${fmt(a4h.pivots.s3)}
-└─ 失效：站回 $${fmt(a4h.pivots.pivot)} 上方
+├─ 触发：跌破 $${fmt(pivotSource.pivots.s1)}
+├─ 目标：S1 $${fmt(pivotSource.pivots.s1)} → S2 $${fmt(pivotSource.pivots.s2)} → S3 $${fmt(pivotSource.pivots.s3)}
+└─ 失效：站回 $${fmt(pivotSource.pivots.pivot)} 上方
 
 ⚪ 震荡情景 (概率：${neutralProb}%)
-├─ 区间：$${fmt(a4h.pivots.s2)} - $${fmt(a4h.pivots.r2)}
-└─ 策略：区间内低多高空，突破后跟随
+├─ 区间：$${fmt(pivotSource.pivots.s2)} - $${fmt(pivotSource.pivots.r2)}
+└─ 策略：区间内低多高空，突破后跟随` : `💡 五、简化建议 (K 线数据不可用)
+══════════════════════════════════
+
+📋 当前趋势：${change24h > 0 ? '🟢 24 小时上涨 ' + fmt(change24h) + '%' : change24h < 0 ? '🔴 24 小时下跌 ' + fmt(change24h) + '%' : '⚪ 价格波动较小'}
+├─ 建议：等待 K 线数据恢复后再做详细分析
+└─ 仓位：建议保持低仓位或观望
+
+⚠️ 提醒：详细技术分析将在 K 线数据恢复后提供`}
 
 ══════════════════════════════════
 ⚠️ 免责声明：本报告不构成投资建议，加密货币市场风险极高，请独立判断、谨慎决策
@@ -720,7 +801,9 @@ function sendNotify(message) {
       '--channel', 'openclaw-weixin',
       '--account', CONFIG.account_id,
       '-m', message
-    ]);
+    ], {
+      env: { ...process.env, PATH: '/opt/homebrew/bin:/opt/homebrew/sbin:' + process.env.PATH }
+    });
     let output = '', errorOutput = '';
     openclaw.stdout.on('data', d => output += d);
     openclaw.stderr.on('data', d => errorOutput += d);
@@ -754,14 +837,60 @@ async function sendNotifyInParts(fullMessage, maxPartLength = 3000) {
   console.log(`✅ 完成 ${parts.length} 段推送`);
 }
 
+// ============ 防重复机制 ============
+// 使用锁文件防止同一分钟内重复执行
+const fs = require('fs');
+const path = require('path');
+const lockFile = path.join(__dirname, '../logs/.btc-analyzer.lock');
+
+function acquireLock() {
+  try {
+    if (fs.existsSync(lockFile)) {
+      const lockContent = fs.readFileSync(lockFile, 'utf8');
+      const lockTime = parseInt(lockContent);
+      const now = Date.now();
+      // 如果锁是 55 秒内获得的，拒绝执行
+      if (now - lockTime < 55000) {
+        console.log(`⚠️ 检测到 ${Math.round((now - lockTime) / 1000)} 秒内有其他实例运行，跳过本次执行`);
+        return false;
+      }
+    }
+    // 获取锁
+    fs.writeFileSync(lockFile, Date.now().toString());
+    return true;
+  } catch (e) {
+    console.log(`⚠️ 锁文件操作失败：${e.message}`);
+    return true; // 失败时允许执行
+  }
+}
+
+function releaseLock() {
+  try {
+    if (fs.existsSync(lockFile)) {
+      fs.unlinkSync(lockFile);
+    }
+  } catch (e) {
+    // 忽略清理错误
+  }
+}
+
 // ============ 主函数 ============
 
 async function main() {
   try {
+    // 防重复检查
+    if (CONFIG.notify && !acquireLock()) {
+      return;
+    }
+    
     const hour = new Date().getHours();
-    if (CONFIG.notify && (hour < CONFIG.startHour || hour > CONFIG.endHour)) {
+    if (CONFIG.notify && !CONFIG.force && (hour < CONFIG.startHour || hour > CONFIG.endHour)) {
       console.log(`⏰ 不在推送时段 (${CONFIG.startHour}:00-${CONFIG.endHour}:00)，跳过`);
       return;
+    }
+    
+    if (CONFIG.force) {
+      console.log('⚡ 强制推送模式，跳过时间检查');
     }
     
     console.log('🔍 获取 Binance 数据...');
@@ -779,6 +908,11 @@ async function main() {
   } catch (error) {
     console.error('❌ 错误:', error.message);
     process.exit(1);
+  } finally {
+    // 释放锁
+    if (CONFIG.notify) {
+      releaseLock();
+    }
   }
 }
 

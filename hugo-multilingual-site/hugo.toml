@@ -5,7 +5,7 @@ title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
 
 # 默认语言为英文
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 # 多语言配置
 [languages]
@@ -45,6 +45,10 @@ defaultContentLanguageInSubdir = false
     pageRef = '/products/'
     weight = 20
   [[languages.zh.menu.main]]
+    name = '博客'
+    pageRef = '/zh/blog/'
+    weight = 25
+  [[languages.zh.menu.main]]
     name = '关于'
     pageRef = '/about/'
     weight = 30
@@ -63,6 +67,10 @@ defaultContentLanguageInSubdir = false
     pageRef = '/products/'
     weight = 20
   [[languages.en.menu.main]]
+    name = 'Blog'
+    pageRef = '/en/blog/'
+    weight = 25
+  [[languages.en.menu.main]]
     name = 'About'
     pageRef = '/about/'
     weight = 30
@@ -80,6 +88,10 @@ defaultContentLanguageInSubdir = false
     name = 'المنتجات'
     pageRef = '/products/'
     weight = 20
+  [[languages.ar.menu.main]]
+    name = 'المدونة'
+    pageRef = '/ar/blog/'
+    weight = 25
   [[languages.ar.menu.main]]
     name = 'حول'
     pageRef = '/about/'
@@ -115,7 +127,8 @@ defaultContentLanguageInSubdir = false
 [sitemap]
   changefreq = 'weekly'
   filename = 'sitemap.xml'
-  priority = 0.5
+  priority = 0.8
+  disable = false
 
 # 输出配置
 [outputs]
@@ -137,3 +150,8 @@ defaultContentLanguageInSubdir = false
       keepVarNames = false
       precision = 0
       version = 2022
+
+# 禁用分类和标签避免空页面
+# [taxonomies]
+# category = "categories"
+# tag = "tags"

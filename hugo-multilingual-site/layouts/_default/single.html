@@ -20,10 +20,11 @@
             <!-- 左侧：产品图片 -->
             <div class="product-images">
                 <div class="main-image">
-                    <div class="image-placeholder">
-                        <span class="placeholder-icon">🔧</span>
-                        <span class="placeholder-text">{{ .Title }}</span>
-                    </div>
+                    {{ if .Params.image }}
+                    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy" style="max-width: 100%; height: auto;">
+                    {{ else }}
+                    <img src="/images/products/placeholder.svg" alt="{{ .Title }} - Product Image Coming Soon" loading="lazy" style="max-width: 100%; height: auto;">
+                    {{ end }}
                 </div>
                 <div class="thumbnail-grid">
                     <div class="thumbnail active">1</div>

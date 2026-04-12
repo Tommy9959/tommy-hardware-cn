@@ -1,0 +1,18 @@
+{{ define "main" }}
+<!-- About Hero -->
+<section class="about-hero" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 4rem 0; text-align: center; color: white;">
+    <div class="container">
+        <h1 style="font-size: 2rem; margin-bottom: 1rem; color: white;">{{ .Title }}</h1>
+        <p style="font-size: 1rem; opacity: 0.9; max-width: 600px; margin: 0 auto; color: white;">{{ .Description }}</p>
+    </div>
+</section>
+
+<!-- About Content -->
+<section class="about-content" style="padding: 3rem 0; background: white;">
+    <div class="container">
+        <div class="about-text" style="max-width: 800px; margin: 0 auto; line-height: 1.8; color: #333;">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+{{ end }}

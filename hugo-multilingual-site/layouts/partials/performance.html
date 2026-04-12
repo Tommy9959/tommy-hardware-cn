@@ -1,0 +1,23 @@
+{{- /* 资源预加载提示 */ -}}
+{{- if .IsHome -}}
+<link rel="preload" href="{{ "css/style.css" | relURL }}" as="style">
+<link rel="preload" href="{{ "js/main.js" | relURL }}" as="script">
+{{- end -}}
+
+{{- /* DNS 预解析 */ -}}
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//wa.me">
+<link rel="dns-prefetch" href="//upload.wikimedia.org">
+
+{{- /* 预连接关键资源 */ -}}
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+
+{{- /* 图片懒加载优化 */ -}}
+{{- if eq .Section "products" -}}
+<link rel="preload" href="/images/products/placeholder.svg" as="image">
+{{- end -}}

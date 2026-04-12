@@ -8,11 +8,47 @@
             <p class="page-subtitle">{{ .Params.description }}</p>
         </div>
 
+        <!-- 快速联系卡片 -->
+        <div class="quick-contact-cards">
+            <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="quick-contact-card whatsapp" target="_blank">
+                <div class="qc-icon">💬</div>
+                <div class="qc-info">
+                    <h3>WhatsApp</h3>
+                    <p>{{ .Site.Params.phone }}</p>
+                </div>
+                <div class="qc-action">→</div>
+            </a>
+            <a href="mailto:{{ .Site.Params.email }}" class="quick-contact-card email">
+                <div class="qc-icon">📧</div>
+                <div class="qc-info">
+                    <h3>{{ if eq .Site.Language.Lang "zh" }}邮箱{{ else if eq .Site.Language.Lang "en" }}Email{{ else }}البريد{{ end }}</h3>
+                    <p>{{ .Site.Params.email }}</p>
+                </div>
+                <div class="qc-action">→</div>
+            </a>
+            <a href="tel:{{ .Site.Params.phone }}" class="quick-contact-card phone">
+                <div class="qc-icon">📱</div>
+                <div class="qc-info">
+                    <h3>{{ if eq .Site.Language.Lang "zh" }}电话{{ else if eq .Site.Language.Lang "en" }}Phone{{ else }}الهاتف{{ end }}</h3>
+                    <p>{{ .Site.Params.phone }}</p>
+                </div>
+                <div class="qc-action">→</div>
+            </a>
+        </div>
+
         <div class="contact-content">
             <!-- 左侧：联系信息 -->
             <div class="contact-info">
-                <h2>{{ if eq .Site.Language.Lang "zh" }}联系方式{{ else if eq .Site.Language.Lang "en" }}Contact Information{{ else }}معلومات الاتصال{{ end }}</h2>
+                <h2>{{ if eq .Site.Language.Lang "zh" }}详细信息{{ else if eq .Site.Language.Lang "en" }}Detailed Information{{ else }}معلومات مفصلة{{ end }}</h2>
                 
+                <div class="contact-item">
+                    <div class="contact-icon">🏢</div>
+                    <div class="contact-details">
+                        <h3>{{ if eq .Site.Language.Lang "zh" }}公司名称{{ else if eq .Site.Language.Lang "en" }}Company Name{{ else }}اسم الشركة{{ end }}</h3>
+                        <p>Yiwu Shuihui Import & Export Co., Ltd.<br><small>义乌水汇进出口有限公司</small></p>
+                    </div>
+                </div>
+
                 <div class="contact-item">
                     <div class="contact-icon">📧</div>
                     <div class="contact-details">
@@ -34,6 +70,15 @@
                     <div class="contact-details">
                         <h3>{{ if eq .Site.Language.Lang "zh" }}微信{{ else if eq .Site.Language.Lang "en" }}WeChat{{ else }}ويتشات{{ end }}</h3>
                         <p>{{ .Site.Params.wechat }}</p>
+                        <small style="color: var(--text-light); margin-top: 0.5rem; display: block;">{{ if eq .Site.Language.Lang "zh" }}扫一扫添加微信{{ else if eq .Site.Language.Lang "en" }}Scan to add on WeChat{{ else }}امسح الضوئي{{ end }}</small>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">🌐</div>
+                    <div class="contact-details">
+                        <h3>{{ if eq .Site.Language.Lang "zh" }}网站{{ else if eq .Site.Language.Lang "en" }}Website{{ else }}الموقع{{ end }}</h3>
+                        <a href="{{ site.BaseURL }}" target="_blank">{{ site.BaseURL }}</a>
                     </div>
                 </div>
 
@@ -41,21 +86,53 @@
                     <div class="contact-icon">📍</div>
                     <div class="contact-details">
                         <h3>{{ if eq .Site.Language.Lang "zh" }}地址{{ else if eq .Site.Language.Lang "en" }}Address{{ else }}العنوان{{ end }}</h3>
-                        <p>{{ if eq .Site.Language.Lang "zh" }}{{ .Site.Params.address }}{{ else if eq .Site.Language.Lang "en" }}{{ .Site.Params.addressEn }}{{ else }}{{ .Site.Params.addressAr }}{{ end }}</p>
+                        <p>
+                            {{ if eq .Site.Language.Lang "zh" }}
+                            <strong>办公室：</strong>浙江省金华市义乌市稠城街道丹溪北路 18 号雪峰商务大厦 2018 室<br>
+                            <strong>工厂：</strong>浙江省温州市<br>
+                            <strong>仓库：</strong>义乌港直通仓 2 栋 9 号门
+                            {{ else if eq .Site.Language.Lang "en" }}
+                            <strong>Office:</strong> Room 2018, Xuefeng Business Building, No.18 Danxi North Road, Yiwu City, Jinhua, Zhejiang, China<br>
+                            <strong>Factory:</strong> Wenzhou City, Zhejiang Province<br>
+                            <strong>Warehouse:</strong> Yiwu Port Direct Warehouse, Building 2, Gate 9
+                            {{ else }}
+                            <strong>المكتب:</strong> غرفة 2018، مبنى شوفينغ للأعمال، طريق دانكسي الشمالي، مدينة ييو، تشجيانغ، الصين<br>
+                            <strong>المصنع:</strong> مدينة ونتشو<br>
+                            <strong>المستودع:</strong> مستودع ييو بورت المباشر، المبنى 2، البوابة 9
+                            {{ end }}
+                        </p>
                     </div>
                 </div>
 
                 <div class="business-hours">
                     <h3>{{ if eq .Site.Language.Lang "zh" }}营业时间{{ else if eq .Site.Language.Lang "en" }}Business Hours{{ else }}ساعات العمل{{ end }}</h3>
                     <ul>
-                        <li><strong>{{ if eq .Site.Language.Lang "zh" }}周一至周五{{ else if eq .Site.Language.Lang "en" }}Monday - Friday{{ else }}الإثنين - الجمعة{{ end }}:</strong> 9:00 AM - 6:00 PM</li>
-                        <li><strong>{{ if eq .Site.Language.Lang "zh" }}周六{{ else if eq .Site.Language.Lang "en" }}Saturday{{ else }}السبت{{ end }}:</strong> 10:00 AM - 4:00 PM</li>
+                        <li><strong>{{ if eq .Site.Language.Lang "zh" }}周一至周五{{ else if eq .Site.Language.Lang "en" }}Monday - Friday{{ else }}الإثنين - الجمعة{{ end }}:</strong> 9:00 AM - 6:00 PM (GMT+8)</li>
+                        <li><strong>{{ if eq .Site.Language.Lang "zh" }}周六{{ else if eq .Site.Language.Lang "en" }}Saturday{{ else }}السبت{{ end }}:</strong> 10:00 AM - 4:00 PM (GMT+8)</li>
                         <li><strong>{{ if eq .Site.Language.Lang "zh" }}周日{{ else if eq .Site.Language.Lang "en" }}Sunday{{ else }}الأحد{{ end }}:</strong> {{ if eq .Site.Language.Lang "zh" }}休息{{ else if eq .Site.Language.Lang "en" }}Closed{{ else }}مغلق{{ end }}</li>
                     </ul>
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-light);">
+                        {{ if eq .Site.Language.Lang "zh" }}* 支持 24/7 WhatsApp 留言，我们会尽快回复{{ else if eq .Site.Language.Lang "en" }}* 24/7 WhatsApp messages supported, we'll reply ASAP{{ else }}* رسائل واتساب على مدار الساعة{{ end }}
+                    </p>
                 </div>
 
                 <div class="response-time">
-                    <p><strong>{{ if eq .Site.Language.Lang "zh" }}快速回复：{{ else if eq .Site.Language.Lang "en" }}Quick Response:{{ else }}رد سريع:{{ end }}</strong> {{ if eq .Site.Language.Lang "zh" }}我们承诺在 24 小时内回复所有询盘{{ else if eq .Site.Language.Lang "en" }}We promise to respond to all inquiries within 24 hours{{ else }}نعد بالرد على جميع الاستفسارات خلال 24 ساعة{{ end }}</p>
+                    <div class="response-badge">⚡</div>
+                    <div>
+                        <strong>{{ if eq .Site.Language.Lang "zh" }}快速回复承诺：{{ else if eq .Site.Language.Lang "en" }}Quick Response Promise:{{ else }}وعد الرد السريع:{{ end }}</strong><br>
+                        {{ if eq .Site.Language.Lang "zh" }}我们承诺在 24 小时内回复所有询盘，紧急询盘 2 小时内回复{{ else if eq .Site.Language.Lang "en" }}We promise to respond to all inquiries within 24 hours, urgent inquiries within 2 hours{{ else }}نعد بالرد خلال 24 ساعة{{ end }}
+                    </div>
+                </div>
+
+                <!-- 社交媒体链接 -->
+                <div class="social-links">
+                    <h3>{{ if eq .Site.Language.Lang "zh" }}关注我们{{ else if eq .Site.Language.Lang "en" }}Follow Us{{ else }}تابعنا{{ end }}</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" title="LinkedIn" target="_blank">💼</a>
+                        <a href="#" class="social-icon" title="Facebook" target="_blank">📘</a>
+                        <a href="#" class="social-icon" title="Instagram" target="_blank">📷</a>
+                        <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="social-icon" title="WhatsApp" target="_blank">💬</a>
+                    </div>
                 </div>
             </div>
 
@@ -65,93 +142,352 @@
                 <p class="form-description">{{ if eq .Site.Language.Lang "zh" }}填写下方表单，我们将在 24 小时内回复您{{ else if eq .Site.Language.Lang "en" }}Fill out the form below and we'll respond within 24 hours{{ else }}املأ النموذج أدناه وسنرد خلال 24 ساعة{{ end }}</p>
                 
                 <form class="inquiry-form" action="https://formspree.io/f/xojpbpbj" method="POST">
-                    <div class="form-group">
-                        <label for="name">{{ if eq .Site.Language.Lang "zh" }}姓名 *{{ else if eq .Site.Language.Lang "en" }}Your Name *{{ else }}الاسم *{{ end }}</label>
-                        <input type="text" id="name" name="name" required placeholder="{{ if eq .Site.Language.Lang "zh" }}请输入您的姓名{{ else if eq .Site.Language.Lang "en" }}Enter your name{{ else }}أدخل اسمك{{ end }}">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">{{ if eq .Site.Language.Lang "zh" }}姓名 *{{ else if eq .Site.Language.Lang "en" }}Your Name *{{ else }}الاسم *{{ end }}</label>
+                            <input type="text" id="name" name="name" required placeholder="{{ if eq .Site.Language.Lang "zh" }}John{{ else if eq .Site.Language.Lang "en" }}John{{ else }}John{{ end }}">
+                        </div>
+                        <div class="form-group">
+                            <label for="company">{{ if eq .Site.Language.Lang "zh" }}公司名称{{ else if eq .Site.Language.Lang "en" }}Company Name{{ else }}اسم الشركة{{ end }}</label>
+                            <input type="text" id="company" name="company" placeholder="{{ if eq .Site.Language.Lang "zh" }}您的公司{{ else if eq .Site.Language.Lang "en" }}Your Company{{ else }}شركتك{{ end }}">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">{{ if eq .Site.Language.Lang "zh" }}邮箱 *{{ else if eq .Site.Language.Lang "en" }}Email *{{ else }}البريد الإلكتروني *{{ end }}</label>
+                            <input type="email" id="email" name="email" required placeholder="{{ if eq .Site.Language.Lang "zh" }}john@example.com{{ else if eq .Site.Language.Lang "en" }}john@example.com{{ else }}john@example.com{{ end }}">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">{{ if eq .Site.Language.Lang "zh" }}电话 / WhatsApp{{ else if eq .Site.Language.Lang "en" }}Phone / WhatsApp{{ else }}الهاتف / واتساب{{ end }}</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 234 567 8900">
+                        </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="email">{{ if eq .Site.Language.Lang "zh" }}邮箱 *{{ else if eq .Site.Language.Lang "en" }}Email *{{ else }}البريد الإلكتروني *{{ end }}</label>
-                        <input type="email" id="email" name="email" required placeholder="{{ if eq .Site.Language.Lang "zh" }}请输入您的邮箱{{ else if eq .Site.Language.Lang "en" }}Enter your email{{ else }}أدخل بريدك الإلكتروني{{ end }}">
+                        <label for="country">{{ if eq .Site.Language.Lang "zh" }}国家 / 地区{{ else if eq .Site.Language.Lang "en" }}Country / Region{{ else }}البلد / المنطقة{{ end }}</label>
+                        <input type="text" id="country" name="country" placeholder="{{ if eq .Site.Language.Lang "zh" }}例如：尼日利亚，迪拜，美国{{ else if eq .Site.Language.Lang "en" }}e.g. Nigeria, Dubai, USA{{ else }}على سبيل المثال: نيجيريا، دبي، الولايات المتحدة{{ end }}">
                     </div>
 
                     <div class="form-group">
-                        <label for="phone">{{ if eq .Site.Language.Lang "zh" }}电话 / WhatsApp{{ else if eq .Site.Language.Lang "en" }}Phone / WhatsApp{{ else }}الهاتف / واتساب{{ end }}</label>
-                        <input type="tel" id="phone" name="phone" placeholder="{{ if eq .Site.Language.Lang "zh" }}请输入您的电话{{ else if eq .Site.Language.Lang "en" }}Enter your phone number{{ else }}أدخل رقم هاتفك{{ end }}">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="company">{{ if eq .Site.Language.Lang "zh" }}公司名称{{ else if eq .Site.Language.Lang "en" }}Company Name{{ else }}اسم الشركة{{ end }}</label>
-                        <input type="text" id="company" name="company" placeholder="{{ if eq .Site.Language.Lang "zh" }}请输入公司名称{{ else if eq .Site.Language.Lang "en" }}Enter company name{{ else }}أدخل اسم الشركة{{ end }}">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="product">{{ if eq .Site.Language.Lang "zh" }}感兴趣的产品{{ else if eq .Site.Language.Lang "en" }}Product of Interest{{ else }}المنتج المهتم به{{ end }}</label>
-                        <select id="product" name="product">
+                        <label for="product">{{ if eq .Site.Language.Lang "zh" }}感兴趣的产品 *{{ else if eq .Site.Language.Lang "en" }}Product of Interest *{{ else }}المنتج المهتم به *{{ end }}</label>
+                        <select id="product" name="product" required>
                             <option value="">{{ if eq .Site.Language.Lang "zh" }}请选择产品类别{{ else if eq .Site.Language.Lang "en" }}Select product category{{ else }}اختر فئة المنتج{{ end }}</option>
-                            <option value="Door Handles">{{ if eq .Site.Language.Lang "zh" }}门把手{{ else if eq .Site.Language.Lang "en" }}Door Handles{{ else }}مقابض الأبواب{{ end }}</option>
-                            <option value="Door Locks">{{ if eq .Site.Language.Lang "zh" }}门锁{{ else if eq .Site.Language.Lang "en" }}Door Locks{{ else }}أقفال الأبواب{{ end }}</option>
-                            <option value="Door Hinges">{{ if eq .Site.Language.Lang "zh" }}门铰链{{ else if eq .Site.Language.Lang "en" }}Door Hinges{{ else }}مفاصل الأبواب{{ end }}</option>
-                            <option value="Sliding Tracks">{{ if eq .Site.Language.Lang "zh" }}导轨{{ else if eq .Site.Language.Lang "en" }}Sliding Tracks{{ else }}المسارات المنزلقة{{ end }}</option>
-                            <option value="Sofa Legs">{{ if eq .Site.Language.Lang "zh" }}沙发脚{{ else if eq .Site.Language.Lang "en" }}Sofa Legs{{ else }}أرجل الأريكة{{ end }}</option>
-                            <option value="Cabinet Hardware">{{ if eq .Site.Language.Lang "zh" }}橱柜五金{{ else if eq .Site.Language.Lang "en" }}Cabinet Hardware{{ else }}أجهزة الخزانة{{ end }}</option>
+                            <option value="Door Handles">🚪 {{ if eq .Site.Language.Lang "zh" }}门把手{{ else if eq .Site.Language.Lang "en" }}Door Handles{{ else }}مقابض الأبواب{{ end }}</option>
+                            <option value="Door Locks">🔒 {{ if eq .Site.Language.Lang "zh" }}门锁{{ else if eq .Site.Language.Lang "en" }}Door Locks{{ else }}أقفال الأبواب{{ end }}</option>
+                            <option value="Door Hinges">🔧 {{ if eq .Site.Language.Lang "zh" }}门铰链{{ else if eq .Site.Language.Lang "en" }}Door Hinges{{ else }}مفاصل الأبواب{{ end }}</option>
+                            <option value="Sliding Tracks">📦 {{ if eq .Site.Language.Lang "zh" }}导轨{{ else if eq .Site.Language.Lang "en" }}Sliding Tracks{{ else }}المسارات المنزلقة{{ end }}</option>
+                            <option value="Sofa Legs">🪑 {{ if eq .Site.Language.Lang "zh" }}沙发脚{{ else if eq .Site.Language.Lang "en" }}Sofa Legs{{ else }}أرجل الأريكة{{ end }}</option>
+                            <option value="Cabinet Hardware">🗄️ {{ if eq .Site.Language.Lang "zh" }}橱柜五金{{ else if eq .Site.Language.Lang "en" }}Cabinet Hardware{{ else }}أجهزة الخزانة{{ end }}</option>
+                            <option value="Multiple Products">{{ if eq .Site.Language.Lang "zh" }}多种产品{{ else if eq .Site.Language.Lang "en" }}Multiple Products{{ else }}منتجات متعددة{{ end }}</option>
                             <option value="Other">{{ if eq .Site.Language.Lang "zh" }}其他{{ else if eq .Site.Language.Lang "en" }}Other{{ else }}أخرى{{ end }}</option>
                         </select>
                     </div>
 
                     <div class="form-group">
+                        <label for="quantity">{{ if eq .Site.Language.Lang "zh" }}预估数量{{ else if eq .Site.Language.Lang "en" }}Estimated Quantity{{ else }}الكمية المقدرة{{ end }}</label>
+                        <select id="quantity" name="quantity">
+                            <option value="">-- {{ if eq .Site.Language.Lang "zh" }}请选择{{ else if eq .Site.Language.Lang "en" }}Select{{ else }}اختر{{ end }} --</option>
+                            <option value="Sample Order">{{ if eq .Site.Language.Lang "zh" }}样品订单{{ else if eq .Site.Language.Lang "en" }}Sample Order{{ else }}طلب عينة{{ end }}</option>
+                            <option value="100-500 pcs">100 - 500 pcs</option>
+                            <option value="500-1000 pcs">500 - 1,000 pcs</option>
+                            <option value="1000-5000 pcs">1,000 - 5,000 pcs</option>
+                            <option value="5000+ pcs">5,000+ pcs</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
                         <label for="message">{{ if eq .Site.Language.Lang "zh" }}询盘内容 *{{ else if eq .Site.Language.Lang "en" }}Message *{{ else }}الرسالة *{{ end }}</label>
-                        <textarea id="message" name="message" rows="5" required placeholder="{{ if eq .Site.Language.Lang "zh" }}请告诉我们您的需求（产品、数量、规格等）{{ else if eq .Site.Language.Lang "en" }}Tell us about your requirements (products, quantity, specifications, etc.){{ else }}أخبرنا عن متطلباتك (المنتجات، الكمية، المواصفات، إلخ){{ end }}"></textarea>
+                        <textarea id="message" name="message" rows="5" required placeholder="{{ if eq .Site.Language.Lang "zh" }}请告诉我们您的具体需求：&#10;- 产品型号或图片&#10;- 数量和规格&#10;- 目标价格&#10;- 交货地址&#10;- 其他特殊要求{{ else if eq .Site.Language.Lang "en" }}Please tell us your specific requirements:&#10;- Product model or photos&#10;- Quantity and specifications&#10;- Target price&#10;- Delivery address&#10;- Other special requirements{{ else }}أخبرنا عن متطلباتك المحددة:&#10;- نموذج المنتج أو الصور&#10;- الكمية والمواصفات&#10;- السعر المستهدف&#10;- عنوان التسليم&#10;- متطلبات خاصة أخرى{{ end }}"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label style="display: flex; align-items: flex-start; gap: 0.5rem; cursor: pointer;">
+                            <input type="checkbox" name="newsletter" value="yes" style="width: auto; margin-top: 0.25rem;">
+                            <span style="font-size: 0.85rem; color: var(--text-light);">{{ if eq .Site.Language.Lang "zh" }}我希望接收新产品和优惠信息（可选）{{ else if eq .Site.Language.Lang "en" }}I'd like to receive new product updates and offers (optional){{ else }}أرغب في تلقي تحديثات المنتجات والعروض{{ end }}</span>
+                        </label>
                     </div>
 
                     <button type="submit" class="btn btn-primary btn-large btn-block">
-                        {{ if eq .Site.Language.Lang "zh" }}发送询盘{{ else if eq .Site.Language.Lang "en" }}Send Inquiry{{ else }}إرسال الاستفسار{{ end }}
+                        🚀 {{ if eq .Site.Language.Lang "zh" }}发送询盘{{ else if eq .Site.Language.Lang "en" }}Send Inquiry{{ else }}إرسال الاستفسار{{ end }}
                     </button>
 
-                    <p class="form-note">{{ if eq .Site.Language.Lang "zh" }}* 为必填项{{ else if eq .Site.Language.Lang "en" }}* Required fields{{ else }}* الحقول المطلوبة{{ end }}</p>
+                    <p class="form-note">{{ if eq .Site.Language.Lang "zh" }}* 为必填项。我们保护您的隐私，不会泄露您的信息{{ else if eq .Site.Language.Lang "en" }}* Required fields. We protect your privacy and won't share your information{{ else }}* الحقول المطلوبة. نحن نحمي خصوصيتك{{ end }}</p>
                 </form>
+            </div>
+        </div>
+
+        <!-- 地图部分 -->
+        <div class="map-section">
+            <h2>{{ if eq .Site.Language.Lang "zh" }}我们的位置{{ else if eq .Site.Language.Lang "en" }}Our Location{{ else }}موقعنا{{ end }}</h2>
+            <p class="map-description">{{ if eq .Site.Language.Lang "zh" }}位于浙江义乌，全球最大的小商品集散中心{{ else if eq .Site.Language.Lang "en" }}Located in Yiwu, Zhejiang - the world's largest small commodity distribution center{{ else }}تقع في ييو، تشجيانغ{{ end }}</p>
+            
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.1234567890!2d120.0703096!3d29.3013552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344f7c0b5a7e4b6f%3A0x6c8e7b8e8e8e8e8e!2zxYHmloDlnLrplYDlu7rlj6PmjaLmnKzml6Hml6HmjaLmiJblh7vmnKw!5e0!3m2!1sen!2sus!4v1234567890" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0; border-radius: var(--radius-lg);" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            
+            <div class="map-address">
+                <p><strong>📍 {{ if eq .Site.Language.Lang "zh" }}公司地址：{{ else if eq .Site.Language.Lang "en" }}Company Address:{{ else }}عنوان الشركة:{{ end }}</strong></p>
+                <p>{{ if eq .Site.Language.Lang "zh" }}浙江省金华市义乌市稠城街道丹溪北路 18 号雪峰商务大厦 2018 室{{ else if eq .Site.Language.Lang "en" }}Room 2018, Xuefeng Business Building, No.18 Danxi North Road, Yiwu City, Jinhua, Zhejiang, China{{ else }}غرفة 2018، مبنى شوفينغ للأعمال، طريق دانكسي الشمالي، مدينة ييو، تشجيانغ، الصين{{ end }}</p>
+                <p><strong>🗺️ {{ if eq .Site.Language.Lang "zh" }}坐标：{{ else if eq .Site.Language.Lang "en" }}Coordinates:{{ else }}الإحداثيات:{{ end }}</strong> 29.3013552°N, 120.0703096°E</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=29.3013552,120.0703096" class="btn btn-primary" target="_blank" rel="noopener">
+                    🗺️ {{ if eq .Site.Language.Lang "zh" }}在 Google 地图中打开{{ else if eq .Site.Language.Lang "en" }}Open in Google Maps{{ else }}افتح في خرائط جوجل{{ end }}
+                </a>
+            </div>
+            
+            <div class="location-highlights">
+                <div class="highlight-item">
+                    <div class="highlight-icon">🏭</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}工厂直供{{ else if eq .Site.Language.Lang "en" }}Factory Direct{{ else }}المصنع مباشرة{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}浙江温州，中国五金产业基地{{ else if eq .Site.Language.Lang "en" }}Wenzhou, Zhejiang - Industrial Base of Hardware in China{{ end }}</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">📦</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}仓储物流{{ else if eq .Site.Language.Lang "en" }}Warehousing{{ else }}التخزين{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}义乌港直通仓 2 栋 9 号门{{ else if eq .Site.Language.Lang "en" }}Yiwu Port Direct Warehouse, Building 2, Gate 9{{ end }}</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">🌍</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}全球发货{{ else if eq .Site.Language.Lang "en" }}Global Shipping{{ else }}الشحن العالمي{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}宁波港/上海港，出口便捷{{ else if eq .Site.Language.Lang "en" }}Ningbo/Shanghai Port, easy export{{ end }}</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ 快捷链接 -->
+        <div class="faq-quick-links">
+            <h2>{{ if eq .Site.Language.Lang "zh" }}常见问题{{ else if eq .Site.Language.Lang "en" }}FAQs{{ else }}الأسئلة الشائعة{{ end }}</h2>
+            <div class="faq-grid">
+                <a href="{{ "/faq/" | relLangURL }}" class="faq-card">
+                    <div class="faq-icon">❓</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}起订量是多少？{{ else if eq .Site.Language.Lang "en" }}What's the MOQ?{{ else }}ما هي أدنى كمية للطلب{{ end }}</h4>
+                </a>
+                <a href="{{ "/faq/" | relLangURL }}" class="faq-card">
+                    <div class="faq-icon">💰</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}如何获取报价？{{ else if eq .Site.Language.Lang "en" }}How to get a quote?{{ else }}كيف أحصل على عرض أسعار{{ end }}</h4>
+                </a>
+                <a href="{{ "/faq/" | relLangURL }}" class="faq-card">
+                    <div class="faq-icon">📦</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}交货期多久？{{ else if eq .Site.Language.Lang "en" }}What's the lead time?{{ else }}ما هو وقت التسليم{{ end }}</h4>
+                </a>
+                <a href="{{ "/faq/" | relLangURL }}" class="faq-card">
+                    <div class="faq-icon">🔒</div>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}付款方式有哪些？{{ else if eq .Site.Language.Lang "en" }}Payment methods?{{ else }}طرق الدفع{{ end }}</h4>
+                </a>
             </div>
         </div>
     </div>
 </section>
 
 <style>
-.contact-page { padding: 4rem 0; }
-.page-header { text-align: center; margin-bottom: 3rem; }
-.page-title { font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 1rem; }
+.contact-page { padding: 3rem 0 5rem; }
+.page-header { text-align: center; margin-bottom: 2.5rem; }
+.page-title { font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 0.5rem; }
 .page-subtitle { font-size: 1.1rem; color: var(--text-light); }
+
+/* 快速联系卡片 */
+.quick-contact-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+.quick-contact-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    text-decoration: none;
+    transition: all 0.3s;
+    border: 2px solid transparent;
+}
+.quick-contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+.quick-contact-card.whatsapp:hover { border-color: #25D366; }
+.quick-contact-card.email:hover { border-color: var(--primary-color); }
+.quick-contact-card.phone:hover { border-color: #3498db; }
+.qc-icon { font-size: 2.5rem; }
+.qc-info { flex: 1; }
+.qc-info h3 { font-size: 1rem; color: var(--text-light); margin-bottom: 0.25rem; }
+.qc-info p { font-size: 1.1rem; font-weight: 600; color: var(--text-color); margin: 0; }
+.qc-action { font-size: 1.5rem; color: var(--primary-color); }
+
 .contact-content { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 4rem; }
 .contact-info h2, .contact-form-section h2 { font-size: 1.8rem; color: var(--secondary-color); margin-bottom: 1.5rem; }
-.contact-item { display: flex; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--bg-light); border-radius: var(--radius); }
-.contact-icon { font-size: 2rem; }
-.contact-details h3 { font-size: 1rem; color: var(--text-light); margin-bottom: 0.3rem; }
-.contact-details a, .contact-details p { color: var(--text-color); font-size: 1rem; text-decoration: none; }
+.contact-item { display: flex; gap: 1rem; margin-bottom: 1.2rem; padding: 1rem; background: var(--bg-light); border-radius: var(--radius); transition: all 0.3s; }
+.contact-item:hover { background: white; box-shadow: var(--shadow); }
+.contact-icon { font-size: 2rem; flex-shrink: 0; }
+.contact-details h3 { font-size: 0.9rem; color: var(--text-light); margin-bottom: 0.3rem; }
+.contact-details a, .contact-details p { color: var(--text-color); font-size: 0.95rem; text-decoration: none; line-height: 1.5; }
 .contact-details a:hover { color: var(--primary-color); }
+.contact-details small { font-size: 0.85rem; }
+
 .business-hours { margin-top: 2rem; padding: 1.5rem; background: white; border: 1px solid var(--border-color); border-radius: var(--radius); }
 .business-hours h3 { font-size: 1.2rem; margin-bottom: 1rem; color: var(--secondary-color); }
 .business-hours ul { list-style: none; padding: 0; }
-.business-hours li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+.business-hours li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; font-size: 0.95rem; }
 .business-hours li:last-child { border-bottom: none; }
-.response-time { margin-top: 1.5rem; padding: 1rem; background: #e8f5e9; border-left: 4px solid #4caf50; border-radius: var(--radius); }
+
+.response-time { 
+    margin-top: 1.5rem; 
+    padding: 1.25rem; 
+    background: linear-gradient(135deg, #e8f5e9, #c8e6c9); 
+    border-left: 4px solid #4caf50; 
+    border-radius: var(--radius);
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+.response-badge { font-size: 2rem; }
+.response-time strong { display: block; margin-bottom: 0.25rem; color: var(--secondary-color); }
+.response-time p { margin: 0; font-size: 0.95rem; color: var(--text-color); }
+
+.social-links { margin-top: 2rem; padding: 1.5rem; background: white; border-radius: var(--radius); text-align: center; }
+.social-links h3 { font-size: 1.1rem; margin-bottom: 1rem; color: var(--secondary-color); }
+.social-icons { display: flex; justify-content: center; gap: 1rem; }
+.social-icon { 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center;
+    width: 50px; 
+    height: 50px; 
+    background: var(--bg-light);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.social-icon:hover { 
+    background: var(--primary-color); 
+    transform: scale(1.1);
+}
+
 .contact-form-section { padding: 2rem; background: white; border-radius: var(--radius-lg); box-shadow: var(--shadow); }
-.form-description { color: var(--text-light); margin-bottom: 1.5rem; }
-.inquiry-form { display: flex; flex-direction: column; gap: 1.2rem; }
-.form-group { display: flex; flex-direction: column; gap: 0.5rem; }
-.form-group label { font-weight: 600; color: var(--text-color); font-size: 0.9rem; }
-.form-group input, .form-group select, .form-group textarea { padding: 0.75rem; border: 1px solid #ddd; border-radius: var(--radius); font-size: 1rem; font-family: inherit; transition: border-color 0.3s; }
-.form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: var(--primary-color); }
-.form-group textarea { resize: vertical; min-height: 120px; }
-.btn-block { width: 100%; }
-.form-note { font-size: 0.85rem; color: var(--text-light); text-align: center; margin-top: 1rem; }
+.form-description { color: var(--text-light); margin-bottom: 1.5rem; font-size: 0.95rem; }
+.inquiry-form { display: flex; flex-direction: column; gap: 1rem; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.form-group { display: flex; flex-direction: column; gap: 0.4rem; }
+.form-group label { font-weight: 600; color: var(--text-color); font-size: 0.85rem; }
+.form-group input, .form-group select, .form-group textarea { 
+    padding: 0.75rem; 
+    border: 1px solid #ddd; 
+    border-radius: var(--radius); 
+    font-size: 0.95rem; 
+    font-family: inherit; 
+    transition: all 0.3s;
+    background: #fafafa;
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus { 
+    outline: none; 
+    border-color: var(--primary-color);
+    background: white;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+.form-group textarea { resize: vertical; min-height: 130px; }
+.btn-block { width: 100%; margin-top: 0.5rem; }
+.form-note { font-size: 0.8rem; color: var(--text-light); text-align: center; margin-top: 1rem; line-height: 1.4; }
+
+/* 地图部分 */
+.map-section {
+    margin: 4rem 0;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: var(--radius-lg);
+    text-align: center;
+}
+.map-section h2 { font-size: 2rem; color: var(--secondary-color); margin-bottom: 0.5rem; }
+.map-description { color: var(--text-light); margin-bottom: 2rem; font-size: 1rem; }
+.map-container { 
+    max-width: 100%; 
+    margin: 0 auto 2rem;
+    overflow: hidden;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+}
+.map-address {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    text-align: left;
+}
+.map-address p { margin: 0.5rem 0; font-size: 0.95rem; }
+.map-address strong { color: var(--secondary-color); }
+.map-address .btn { margin-top: 1rem; display: inline-block; }
+.location-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.highlight-item {
+    padding: 1.5rem;
+    background: white;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+.highlight-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+.highlight-item h4 { font-size: 1rem; color: var(--secondary-color); margin-bottom: 0.5rem; }
+.highlight-item p { font-size: 0.9rem; color: var(--text-light); margin: 0; }
+
+/* FAQ 快捷链接 */
+.faq-quick-links {
+    margin-top: 4rem;
+    text-align: center;
+}
+.faq-quick-links h2 { font-size: 2rem; color: var(--secondary-color); margin-bottom: 2rem; }
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+.faq-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    background: white;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.faq-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+.faq-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+.faq-card h4 { font-size: 1rem; color: var(--text-color); margin: 0; }
+
 @media (max-width: 900px) {
     .contact-content { grid-template-columns: 1fr; gap: 2rem; }
     .contact-form-section { order: -1; }
+    .form-row { grid-template-columns: 1fr; }
 }
 @media (max-width: 768px) {
-    .contact-page { padding: 2rem 0; }
+    .contact-page { padding: 1.5rem 0 3rem; }
     .page-title { font-size: 2rem; }
+    .quick-contact-cards { grid-template-columns: 1fr; }
+    .quick-contact-card { padding: 1.25rem; }
     .contact-item { padding: 0.75rem; }
     .contact-form-section { padding: 1.5rem; }
+    .map-section { padding: 2rem 1rem; }
+    .location-highlights { grid-template-columns: 1fr; }
+    .faq-grid { grid-template-columns: 1fr; }
 }
 </style>
 {{ end }}

@@ -1,1 +1,143 @@
 /Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/zhuxiaolei/.openclaw/workspace/scripts/nigeria-customer-pro.py': [Errno 2] No such file or directory
+
+╔══════════════════════════════════════════════════════════╗
+║     尼日利亚客户开发自动化搜索脚本                        ║
+║     家装五金 · 门锁 · 拉手 · 导轨 · 铰链 · 家具配件       ║
+╚══════════════════════════════════════════════════════════╝
+    
+请选择模式：
+1. 🔍 手动搜索辅助模式（生成搜索链接和指南）
+2. 📝 交互式录入模式（搜索后录入客户信息）
+3. 🤖 API 自动搜索模式（需配置 Google API）
+4. 🚀 快速启动模式（无需交互，直接生成）
+
+💡 提示：也可运行 python3 nigeria-client-finder.py --quick 直接生成
+
+输入数字选择 [1/2/3/4]: 
+🚀 快速生成搜索链接...
+
+
+============================================================
+🔍 尼日利亚客户开发 - 手动搜索辅助模式
+============================================================
+
+📋 搜索指南（按顺序执行）
+
+【第一步】Google 搜索（找官网和邮箱）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. "door lock" supplier distributor "Lagos" Nigeria...
+   🔗 https://www.google.com/search?q=%22door%20lock%22%20supplier%20distributor%20%22Lagos%22%20Nigeria
+
+2. "door lock" dealer in Nigeria...
+   🔗 https://www.google.com/search?q=%22door%20lock%22%20dealer%20in%20Nigeria
+
+3. "door handle" supplier distributor "Lagos" Nigeria...
+   🔗 https://www.google.com/search?q=%22door%20handle%22%20supplier%20distributor%20%22Lagos%22%20Nigeria
+
+4. "drawer slide" distributor in Nigeria...
+   🔗 https://www.google.com/search?q=%22drawer%20slide%22%20distributor%20in%20Nigeria
+
+5. "cabinet hinge" supplier distributor "Lagos" Nigeria...
+   🔗 https://www.google.com/search?q=%22cabinet%20hinge%22%20supplier%20distributor%20%22Lagos%22%20Nigeria
+
+6. "drawer slide" importer in Nigeria...
+   🔗 https://www.google.com/search?q=%22drawer%20slide%22%20importer%20in%20Nigeria
+
+7. "furniture hardware" dealer in Nigeria...
+   🔗 https://www.google.com/search?q=%22furniture%20hardware%22%20dealer%20in%20Nigeria
+
+8. site:instagram.com "furniture hardware" Nigeria...
+   🔗 https://www.google.com/search?q=site%3Ainstagram.com%20%22furniture%20hardware%22%20Nigeria
+
+9. "drawer slide" wholesaler in Nigeria...
+   🔗 https://www.google.com/search?q=%22drawer%20slide%22%20wholesaler%20in%20Nigeria
+
+10. "door handle" distributor in Nigeria...
+   🔗 https://www.google.com/search?q=%22door%20handle%22%20distributor%20in%20Nigeria
+
+
+【第二步】LinkedIn 搜索（找公司和采购负责人）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. 访问：https://www.linkedin.com/
+2. 搜索关键词：
+   - "building materials Nigeria"
+   - "hardware importer Lagos"
+   - "furniture accessories Nigeria"
+3. 筛选：Companies → 地点：Nigeria
+4. 查看公司页面，找：
+   - About 里的官网和邮箱
+   - People 里的采购负责人
+
+【第三步】Facebook 搜索（找中小批发商）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. 访问：https://www.facebook.com/
+2. 搜索：
+   - "hardware store Lagos"
+   - "building materials Nigeria"
+   - "furniture fittings Abuja"
+3. 筛选：Pages → 地点：Nigeria
+4. 查看 Page Info 里的联系方式
+
+【第四步】Instagram 搜索（找零售商）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. 访问：https://www.instagram.com/
+2. 搜索标签：
+   - #nigeriahardware
+   - #lagosbuildingmaterials
+   - #furniturenigeria
+3. 查看主页 Bio 里的联系方式
+
+【第五步】Google Maps（找实体店）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. 访问：https://www.google.com/maps
+2. 搜索：
+   - "hardware store Lagos"
+   - "building materials Ikeja"
+   - "furniture accessories Nigeria"
+3. 查看商家信息里的电话和网站
+
+【第六步】行业目录网站
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+推荐网站：
+• https://www.nigeriainfo.fm/lagos/business/
+• https://www.vconnect.com/
+• https://www.finelib.com/
+• https://www.tradekey.com/nigeria/
+• https://www.go4worldbusiness.com/buyers/nigeria/
+
+
+✅ 搜索链接已保存：/Users/zhuxiaolei/.openclaw/workspace/scripts/nigeria_search_links.json
+✅ 客户记录模板已创建：/Users/zhuxiaolei/.openclaw/workspace/scripts/client_template.csv
+
+============================================================
+✅ 完成！请查看以下文件：
+   📄 nigeria_search_links.json - 搜索链接
+   📄 client_template.csv - 客户记录模板
+   📖 README-尼日利亚客户开发.md - 详细使用说明
+============================================================
+============================================================
+🌍 尼日利亚客户开发自动化脚本
+============================================================
+⏰ 运行时间：2026-04-10 16:00:00
+🇳🇬 目标市场：Nigeria
+🏙️  目标城市：Lagos, Abuja, Kano, Port Harcourt, Ibadan
+============================================================
+🔍 生成搜索链接：75 个
+📁 保存至：/Users/zhuxiaolei/.openclaw/workspace/logs/nigeria-clients/nigeria_search_links.json
+✅ 模板已保存至：/Users/zhuxiaolei/.openclaw/workspace/logs/nigeria-clients/client_template.csv
+✅ 导出 1 个客户到 Excel
+📁 保存至：/Users/zhuxiaolei/.openclaw/workspace/logs/nigeria-clients/nigeria_clients_20260410_160000.xlsx
+✅ 同步到 iCloud 林黛玉/客户名单
+📁 iCloud 路径：/Users/zhuxiaolei/Library/Mobile Documents/com~apple~CloudDocs/林黛玉/客户名单/nigeria_clients_20260410_160000.xlsx
+============================================================
+✅ 脚本执行完成！
+============================================================
+
+📝 使用说明：
+1. 打开 nigeria_search_links.json 中的链接搜索客户
+2. 将找到的客户信息填入 client_template.csv
+3. 使用邮件模板联系客户（参考 nigeria-outreach-email-v3.md）
+
+💡 提示：已配置每日 16:00 自动运行
+⚠️ 注意：WhatsApp 功能已移除，改为手动发送
+============================================================

@@ -1,0 +1,12 @@
+# ==================== 定时任务配置 ====================
+# 更新时间：2026-04-09 23:02 (修复 BTC 脚本后)
+# ====================
+
+# 🌤️ 天气预报 - 每天早上 7:30
+30 7 * * * /bin/bash /Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh >> /Users/zhuxiaolei/.openclaw/workspace/logs/weather.log 2>&1
+
+# 📧 尼日利亚客户开发 - 工作日 16:00 (周一至周五)
+0 16 * * 1-5 /Library/Developer/CommandLineTools/usr/bin/python3 /Users/zhuxiaolei/.openclaw/workspace/scripts/nigeria-client-finder.py >> /Users/zhuxiaolei/.openclaw/workspace/logs/nigeria.log 2>&1
+
+# 📊 BTC 技术分析 - 每小时一次 (08:00-22:00)
+0 8-22 * * * /opt/homebrew/bin/node /Users/zhuxiaolei/.openclaw/workspace/scripts/btc-analyzer.js --notify >> /Users/zhuxiaolei/.openclaw/workspace/logs/btc-analysis.log 2>&1

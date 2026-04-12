@@ -14,3 +14,55 @@
 ✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1775706438360-aa9af29d
 [2026-04-09 11:47:18] 天气推送成功
 [2026-04-09 11:47:18] 脚本执行完成
+[2026-04-10 07:30:00] 开始获取天气预报...
+[2026-04-10 07:30:01] 天气数据获取成功
+/Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: line 55: openclaw: command not found
+[2026-04-10 07:30:01] 天气推送失败
+[2026-04-10 07:30:01] 脚本执行完成
+[2026-04-10 07:38:12] 开始获取天气预报...
+[2026-04-10 07:38:13] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1775777898715-32135bbc
+[2026-04-10 07:38:19] 天气推送成功
+[2026-04-10 07:38:19] 脚本执行完成
+[2026-04-10 07:40:23] 开始获取天气预报...
+[2026-04-10 07:40:24] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1775778028713-925ffe0e
+[2026-04-10 07:40:29] 天气推送成功
+[2026-04-10 07:40:29] 脚本执行完成
+[2026-04-10 07:44:01] 开始获取天气预报...
+[2026-04-10 07:44:02] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1775778247703-98f90c1e
+[2026-04-10 07:44:08] 天气推送成功
+[2026-04-10 07:44:08] 脚本执行完成
+[2026-04-10 07:55:38] 开始获取天气预报...
+[2026-04-10 07:55:39] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1775778946090-66b3c614
+[2026-04-10 07:55:46] 天气推送成功
+[2026-04-10 07:55:46] 脚本执行完成
+[2026-04-10 12:46:56] 开始获取天气预报...
+[2026-04-10 12:46:57] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1775796424255-c7448d7b
+[2026-04-10 12:47:04] 天气推送成功
+[2026-04-10 12:47:04] 脚本执行完成
+[2026-04-11 07:30:00] 开始获取天气预报...
+[2026-04-11 07:30:01] 天气数据获取成功
+env: node: No such file or directory
+[2026-04-11 07:30:01] 天气推送失败
+[2026-04-11 07:30:01] 脚本执行完成
+[2026-04-11 08:44:10] 开始获取天气预报...
+[2026-04-11 08:44:11] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1775868258656-153a507a
+[2026-04-11 08:44:19] 天气推送成功
+[2026-04-11 08:44:19] 脚本执行完成
+[2026-04-12 07:30:00] 开始获取天气预报...
+[2026-04-12 07:30:01] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1775950217612-ef177a49
+[2026-04-12 07:30:18] 天气推送成功
+[2026-04-12 07:30:18] 脚本执行完成

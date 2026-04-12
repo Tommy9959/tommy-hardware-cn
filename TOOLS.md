@@ -2,6 +2,10 @@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
+## 用户位置
+- **主人所在地：** 浙江省温州市永嘉县上塘镇
+- **坐标：** 28.15°N, 120.68°E
+
 ## What Goes Here
 
 Things like:
