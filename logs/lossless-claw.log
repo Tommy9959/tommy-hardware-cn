@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/zhuxiaolei/.openclaw/workspace/skills/lossless-claw/scripts/distill.py", line 159, in <module>
+    main()
+  File "/Users/zhuxiaolei/.openclaw/workspace/skills/lossless-claw/scripts/distill.py", line 152, in main
+    extracted = distill_session(input_file)
+  File "/Users/zhuxiaolei/.openclaw/workspace/skills/lossless-claw/scripts/distill.py", line 70, in distill_session
+    with open(input_file, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/zhuxiaolei/.openclaw/workspace/logs/sessions/today.md'

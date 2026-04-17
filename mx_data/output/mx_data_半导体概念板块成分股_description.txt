@@ -1,0 +1,8 @@
+金融数据查询结果说明
+========================================
+查询内容: 半导体概念板块成分股
+数据文件路径: /Users/zhuxiaolei/.openclaw/workspace/mx_data/output/mx_data_半导体概念板块成分股.xlsx
+描述文件路径: /Users/zhuxiaolei/.openclaw/workspace/mx_data/output/mx_data_半导体概念板块成分股_description.txt
+数据行数: 17
+表数量: 2
+Sheet 列表: 半导体概念的成分个数, 半导体概念(861315.EI)成分详情(2026-04-16)

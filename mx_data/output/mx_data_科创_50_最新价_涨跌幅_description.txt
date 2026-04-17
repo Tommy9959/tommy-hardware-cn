@@ -1,0 +1,8 @@
+金融数据查询结果说明
+========================================
+查询内容: 科创 50 最新价 涨跌幅
+数据文件路径: /Users/zhuxiaolei/.openclaw/workspace/mx_data/output/mx_data_科创_50_最新价_涨跌幅.xlsx
+描述文件路径: /Users/zhuxiaolei/.openclaw/workspace/mx_data/output/mx_data_科创_50_最新价_涨跌幅_description.txt
+数据行数: 6
+表数量: 2
+Sheet 列表: 科创50(000688.SH)当前的最新价、涨跌幅, 科创50(000688.SH)的收盘价、涨跌幅

@@ -20,10 +20,14 @@
             <!-- 左侧：产品图片 -->
             <div class="product-images">
                 <div class="main-image">
+                    {{ $productName := .Params.product_name | default .Title }}
+                    {{ $material := .Params.material | default "High Quality Material" }}
+                    {{ $category := "" }}
+                    {{ with .Parent }}{{ $category = .Title }}{{ end }}
                     {{ if .Params.image }}
-                    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy" style="max-width: 100%; height: auto;">
+                    <img src="{{ .Params.image | relURL }}" alt="{{ $productName }} - {{ $material }} {{ $category }} for {{ .Site.Title }} - Model {{ .Title }}" title="{{ $productName }}" loading="lazy" style="max-width: 100%; height: auto;">
                     {{ else }}
-                    <img src="/images/products/placeholder.svg" alt="{{ .Title }} - Product Image Coming Soon" loading="lazy" style="max-width: 100%; height: auto;">
+                    <img src="/images/products/placeholder.svg" alt="{{ $productName }} - {{ $material }} {{ $category }} - Factory Direct from {{ .Site.Title }} - Model {{ .Title }}" title="{{ $productName }} - Image Coming Soon" loading="lazy" style="max-width: 100%; height: auto;">
                     {{ end }}
                 </div>
                 <div class="thumbnail-grid">

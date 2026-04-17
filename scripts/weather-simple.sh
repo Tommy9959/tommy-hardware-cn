@@ -8,8 +8,11 @@ export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 LOG_FILE="/Users/zhuxiaolei/.openclaw/workspace/logs/weather.log"
 CITY="yongjia"
 LOCATION="温州永嘉"
+# 微信推送配置
 WECHAT_USER="o9cq80-VOQWTsN3h5bn6gyR2IdY4@im.wechat"
 ACCOUNT_ID="ec25a54ce939-im-bot"
+# iMessage 配置（保留备用）
+IMSG_TO="+8618358008400"
 
 # 记录日志
 log() {
@@ -220,7 +223,7 @@ log "天气数据获取成功"
 /opt/homebrew/bin/openclaw message send -t "$WECHAT_USER" --channel openclaw-weixin --account "$ACCOUNT_ID" -m "$MESSAGE" >> "$LOG_FILE" 2>&1
 
 if [ $? -eq 0 ]; then
-    log "天气推送成功"
+    log "天气推送成功 (微信)"
 else
     log "天气推送失败"
 fi

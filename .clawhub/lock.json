@@ -107,11 +107,51 @@
     },
     "market-analysis-cn": {
       "version": "1.0.0",
-      "installedAt": 1775661357343
+      "installedAt": 1776328016630
     },
     "data-analyst-pro": {
       "version": "0.1.0",
       "installedAt": 1775661359911
+    },
+    "lead-generation": {
+      "version": "2.2.0",
+      "installedAt": 1776327969629
+    },
+    "lead-hunter": {
+      "version": "1.0.1",
+      "installedAt": 1776327977398
+    },
+    "linkedin-cli": {
+      "version": "1.0.0",
+      "installedAt": 1776327989546
+    },
+    "sourcing-in-china": {
+      "version": "2.2.1",
+      "installedAt": 1776328005982
+    },
+    "competitor-analysis": {
+      "version": "8.0.0",
+      "installedAt": 1776328024821
+    },
+    "market-sentiment": {
+      "version": "1.0.0",
+      "installedAt": 1776328037963
+    },
+    "whatsapp-business-api": {
+      "version": "1.0.0",
+      "installedAt": 1776328060669
+    },
+    "openclaw-whatsapp": {
+      "version": "0.3.0",
+      "installedAt": 1776328068863
+    },
+    "xpoz-setup": {
+      "version": "1.2.0",
+      "installedAt": 1776341953393
+    },
+    "xpoz-social-search": {
+      "version": "1.5.0",
+      "installedAt": 1776341888774
     }
   }
 }

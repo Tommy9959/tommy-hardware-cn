@@ -1,0 +1,138 @@
+# 尼日利亚五金进口商 ICP 配置
+# 2026-04-16 创建
+
+ideal_customer_profile:
+  name: "尼日利亚五金进口商"
+  
+  # 地理位置
+  location:
+    countries: ["Nigeria"]
+    cities: ["Lagos", "Abuja", "Kano", "Port Harcourt"]
+    priority_cities: ["Lagos", "Abuja"]
+  
+  # 公司类型
+  company_type:
+    - "importer"
+    - "wholesaler"
+    - "distributor"
+    - "trading company"
+    - "building materials supplier"
+  
+  # 行业关键词
+  industry_keywords:
+    - "door handles"
+    - "door locks"
+    - "door hinges"
+    - "sliding tracks"
+    - "furniture hardware"
+    - "cabinet hardware"
+    - "building materials"
+    - "hardware supplier"
+    - "construction materials"
+  
+  # 公司规模
+  company_size:
+    employees_min: 5
+    employees_max: 500
+    revenue_min: "$500K"
+    revenue_max: "$50M"
+  
+  # 决策人职位
+  decision_makers:
+    - "CEO"
+    - "Managing Director"
+    - "Procurement Manager"
+    - "Purchasing Manager"
+    - "Import Manager"
+    - "Owner"
+  
+  # 联系方式优先级
+  contact_priority:
+    1. "WhatsApp"
+    2. "Email"
+    3. "Phone"
+    4. "LinkedIn"
+  
+  # 排除条件
+  exclude:
+    - "retail store"
+    - "end consumer"
+    - "manufacturer"  # 除非也做进口
+    - "agent only"  # 除非有采购权
+  
+  # 采购信号
+  buying_signals:
+    - "looking for supplier"
+    - "import from China"
+    - "wholesale price"
+    - "bulk order"
+    - "OEM"
+    - "factory direct"
+  
+  # 产品兴趣
+  product_interests:
+    primary:
+      - "Door Handles (门把手)"
+      - "Door Locks (门锁)"
+      - "Door Hinges (门铰链)"
+    secondary:
+      - "Sliding Tracks (导轨)"
+      - "Furniture Hardware (家具五金)"
+      - "Cabinet Hardware (橱柜五金)"
+
+# 评分标准
+scoring:
+  # 地理位置评分
+  location_score:
+    Lagos: 30
+    Abuja: 25
+    Kano: 15
+    Port_Harcourt: 15
+    other_Nigeria: 10
+  
+  # 公司类型评分
+  company_type_score:
+    importer: 30
+    wholesaler: 25
+    distributor: 20
+    trading_company: 15
+    building_materials_supplier: 10
+  
+  # 联系方式评分
+  contact_score:
+    whatsapp: 30
+    email: 20
+    phone: 15
+    linkedin: 10
+  
+  # 产品匹配评分
+  product_match_score:
+    door_handles: 25
+    door_locks: 25
+    door_hinges: 20
+    sliding_tracks: 15
+    furniture_hardware: 10
+    cabinet_hardware: 5
+
+# 输出配置
+output:
+  format: "excel"
+  include_fields:
+    - company_name
+    - contact_person
+    - position
+    - whatsapp
+    - email
+    - phone
+    - linkedin
+    - city
+    - company_type
+    - product_interest
+    - score
+    - priority
+  
+  priority_thresholds:
+    hot: 80  # 立即联系
+    warm: 60  # 本周联系
+    lukewarm: 40  # 保持跟进
+    cold: 0  # 暂不联系

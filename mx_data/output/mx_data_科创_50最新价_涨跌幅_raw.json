@@ -1,0 +1,423 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "78862541-4d94-4e6d-ae95-598b26ec8c6a",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "9a31cc02-fe33-47d4-ba43-326a7e7bd9c4",
+        "dataTableDTOList": [
+          {
+            "code": "000688.SH",
+            "entityName": "科创50(000688.SH)",
+            "table": {
+              "f2": [
+                "1422.23"
+              ],
+              "f3": [
+                "1.13%"
+              ],
+              "headName": [
+                "2026-04-16 16:04"
+              ]
+            },
+            "rawTable": {
+              "f2": [
+                "1422.23"
+              ],
+              "f3": [
+                "1.13"
+              ],
+              "headName": [
+                "2026-04-16 16:04"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "f2": "最新价",
+              "headNameSub": "数据来源",
+              "f3": "涨跌幅"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "ZXJ_f2_3",
+              "returnName": "最新价",
+              "classCode": "007001",
+              "checkedRelatedIndicators": false,
+              "startDate": "2026-04-16 00:00:00",
+              "endDate": "2026-04-16 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "apiCode": "3",
+              "isGroup": false,
+              "returnSourceCode": "f2",
+              "returnSourceName": "最新价",
+              "graph": "2",
+              "unit": "0",
+              "tableType": "2"
+            },
+            "entityCodes": [
+              "000688.SH"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "ZXJ_f2_3",
+                "returnName": "最新价",
+                "classCode": "007001",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-04-16 00:00:00",
+                "endDate": "2026-04-16 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f2",
+                "returnSourceName": "最新价",
+                "graph": "2",
+                "unit": "0",
+                "tableType": "2"
+              },
+              {
+                "returnCode": "ZDF_f3_3",
+                "returnName": "涨跌幅",
+                "classCode": "007001",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-04-16 00:00:00",
+                "endDate": "2026-04-16 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f3",
+                "returnSourceName": "涨跌幅",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "unitName": "%",
+                "unitDesc": "901:%:%"
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "f2",
+              "f3"
+            ],
+            "tipFlags": [
+              "0"
+            ],
+            "dataType": "行情数据",
+            "title": "科创50(000688.SH)当前的最新价、涨跌幅",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [],
+            "dataTypeEnum": "HQ",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1002280999",
+              "entityType": "INDEX",
+              "entityTypeCode": "INDEX",
+              "entityTypeName": "INDEX",
+              "classCode": "006001",
+              "className": "沪深京指数",
+              "publishCode": "905009001",
+              "fullName": "上证科创板50成份指数",
+              "shortName": "科创50",
+              "secuCode": "000688",
+              "market": "1",
+              "marketChar": ".SH",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1002280999",
+                "entityType": "INDEX",
+                "entityTypeCode": "INDEX",
+                "entityTypeName": "INDEX",
+                "classCode": "006001",
+                "className": "沪深京指数",
+                "publishCode": "905009001",
+                "fullName": "上证科创板50成份指数",
+                "shortName": "科创50",
+                "secuCode": "000688",
+                "market": "1",
+                "marketChar": ".SH",
+                "correct": false,
+                "hasKLine": true,
+                "valuation": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-04-16 16:04": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          },
+          {
+            "code": "000688.SH",
+            "entityName": "科创50(000688.SH)",
+            "table": {
+              "325898": [
+                "1422.2276元",
+                "1406.3224元",
+                "1405.0723元",
+                "1375.2873元",
+                "1364.4946元",
+                "1343.9462元"
+              ],
+              "326865": [
+                "1.131%",
+                "0.08897%",
+                "2.166%",
+                "0.791%",
+                "1.529%",
+                "-0.6464%"
+              ],
+              "headName": [
+                "2026-04-16(日)",
+                "2026-04-15(日)",
+                "2026-04-14(日)",
+                "2026-04-13(日)",
+                "2026-04-10(日)",
+                "2026-04-09(日)"
+              ]
+            },
+            "rawTable": {
+              "325898": [
+                "1422.2276",
+                "1406.3224",
+                "1405.0723",
+                "1375.2873",
+                "1364.4946",
+                "1343.9462"
+              ],
+              "326865": [
+                "0.011309782166592754",
+                "0.000889705106278143",
+                "0.021657292988890454",
+                "0.00790966853221696",
+                "0.015289600134291016",
+                "-0.006463568059304588"
+              ],
+              "headName": [
+                "2026-04-16",
+                "2026-04-15",
+                "2026-04-14",
+                "2026-04-13",
+                "2026-04-10",
+                "2026-04-09"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "325898": "收盘价",
+              "headNameSub": "数据来源",
+              "326865": "涨跌幅"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "325898",
+              "returnName": "收盘价",
+              "classCode": "007121",
+              "checkedRelatedIndicators": false,
+              "startDate": "2026-04-16 00:00:00",
+              "endDate": "2026-04-16 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "AdjustFlag=1,CurType=2,Period=1",
+              "isGroup": false,
+              "returnSourceCode": "CLOSE",
+              "returnSourceName": "收盘价(全品种)_序列",
+              "graph": "0",
+              "unit": "2",
+              "tableType": "20",
+              "unitName": "元",
+              "unitDesc": "元"
+            },
+            "entityCodes": [
+              "000688.SH"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "325898",
+                "returnName": "收盘价",
+                "classCode": "007121",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-04-16 00:00:00",
+                "endDate": "2026-04-16 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "AdjustFlag=1,CurType=2,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "CLOSE",
+                "returnSourceName": "收盘价(全品种)_序列",
+                "graph": "0",
+                "unit": "2",
+                "tableType": "20",
+                "unitName": "元",
+                "unitDesc": "元"
+              },
+              {
+                "returnCode": "326865",
+                "returnName": "涨跌幅",
+                "classCode": "007121",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-04-16 00:00:00",
+                "endDate": "2026-04-16 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "AdjustFlag=1,CurType=2,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "PCTCHANGE",
+                "returnSourceName": "涨跌幅(全品种)_序列",
+                "graph": "0",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "100%",
+                "unitDesc": "100%"
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "325898",
+              "326865"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "科创50(000688.SH)的收盘价、涨跌幅",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=INDEX&code=000688.SH&indId=100000000006220|121:GetLatestDay,100000000006180|121:GetLatestDay",
+                "typeName": "指数数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1002280999",
+              "entityType": "INDEX",
+              "entityTypeCode": "INDEX",
+              "entityTypeName": "INDEX",
+              "classCode": "006001",
+              "className": "沪深京指数",
+              "publishCode": "905009001",
+              "fullName": "上证科创板50成份指数",
+              "shortName": "科创50",
+              "secuCode": "000688",
+              "market": "1",
+              "marketChar": ".SH",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1002280999",
+                "entityType": "INDEX",
+                "entityTypeCode": "INDEX",
+                "entityTypeName": "INDEX",
+                "classCode": "006001",
+                "className": "沪深京指数",
+                "publishCode": "905009001",
+                "fullName": "上证科创板50成份指数",
+                "shortName": "科创50",
+                "secuCode": "000688",
+                "market": "1",
+                "marketChar": ".SH",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-04-16": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "TDAY"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "上证科创板50成份指数",
+            "最新价收盘价涨跌幅",
+            "2026-04-16至2026-04-16"
+          ]
+        },
+        "entityTagDTOList": []
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "cd35ac7d337c498faaca78809e16f8da"
+}

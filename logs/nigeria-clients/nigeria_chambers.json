@@ -1,0 +1,50 @@
+[
+  {
+    "name": "尼日利亚工商总会 (NACCIMA)",
+    "desc": "National Association of Chambers of Commerce, Industry, Mines and Agriculture",
+    "url": "https://naccima.org.ng/",
+    "focus": "全国性商会，成员包括进口商、批发商、制造商"
+  },
+  {
+    "name": "拉各斯商会 (LCCI)",
+    "desc": "Lagos Chamber of Commerce and Industry",
+    "url": "https://lagoschamber.com/",
+    "focus": "拉各斯地区最大商会，五金建材进口商集中"
+  },
+  {
+    "name": "阿布贾商会 (ABCCI)",
+    "desc": "Abuja Chamber of Commerce and Industry",
+    "url": "https://abujachamber.org/",
+    "focus": "首都地区商会，政府采购供应商多"
+  },
+  {
+    "name": "尼日利亚制造商协会 (MAN)",
+    "desc": "Manufacturers Association of Nigeria",
+    "url": "https://man.org.ng/",
+    "focus": "制造商协会，需要五金配件的工厂"
+  },
+  {
+    "name": "尼日利亚进口商协会",
+    "desc": "National Association of Importers and Exporters",
+    "url": "https://naien.org.ng/",
+    "focus": "专业进出口商协会，精准客户群体"
+  },
+  {
+    "name": "尼日利亚建材协会",
+    "desc": "Nigeria Building Materials Association",
+    "url": "需要搜索",
+    "focus": "建材行业专业协会，门把手/门锁/铰链精准客户"
+  },
+  {
+    "name": "卡诺商会",
+    "desc": "Kano Chamber of Commerce",
+    "url": "需要搜索",
+    "focus": "北部最大商业城市，建材需求大"
+  },
+  {
+    "name": "尼日利亚华人商会",
+    "desc": "Nigeria Chinese Chamber of Commerce",
+    "url": "需要搜索",
+    "focus": "华人商家，沟通更方便，五金贸易多"
+  }
+]

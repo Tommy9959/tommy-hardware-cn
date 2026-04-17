@@ -72,3 +72,83 @@ env: node: No such file or directory
 ✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1776036618805-2498c241
 [2026-04-13 07:30:19] 天气推送成功
 [2026-04-13 07:30:19] 脚本执行完成
+[2026-04-14 07:30:00] 开始获取天气预报...
+[2026-04-14 07:30:01] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1776123017541-7d01713d
+[2026-04-14 07:30:17] 天气推送成功
+[2026-04-14 07:30:17] 脚本执行完成
+[2026-04-14 11:18:37] 开始获取天气预报...
+[2026-04-14 11:18:38] 天气数据获取成功
+sent
+[2026-04-14 11:18:38] 天气推送成功 (iMessage)
+[2026-04-14 11:18:38] 脚本执行完成
+[2026-04-14 21:12:25] 开始获取天气预报...
+[2026-04-14 21:12:34] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1776172362659-646c1fdb
+[2026-04-14 21:12:43] 天气推送成功 (微信)
+[2026-04-14 21:12:43] 脚本执行完成
+[2026-04-15 07:30:00] 开始获取天气预报...
+[2026-04-15 07:30:03] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1776209417001-b3b8a070
+[2026-04-15 07:30:17] 天气推送成功 (微信)
+[2026-04-15 07:30:17] 脚本执行完成
+[2026-04-16 07:30:00] 开始获取天气预报...
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+jq: parse error: Invalid numeric literal at line 1, column 8
+/Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: line 84: [: : integer expression expected
+/Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: line 86: [: : integer expression expected
+/Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: line 88: [: : integer expression expected
+/Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: line 90: [: : integer expression expected
+/Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: line 99: [: : integer expression expected
+/Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: line 101: [: : integer expression expected
+/Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: line 103: [: : integer expression expected
+/Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: line 112: [: : integer expression expected
+/Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: line 114: [: : integer expression expected
+/Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: line 116: [: : integer expression expected
+/Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: line 125: [: : integer expression expected
+/Users/zhuxiaolei/.openclaw/workspace/scripts/weather-simple.sh: line 127: [: : integer expression expected
+[2026-04-16 07:30:02] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1776295824074-6fb95c5b
+[2026-04-16 07:30:24] 天气推送成功 (微信)
+[2026-04-16 07:30:24] 脚本执行完成
+[2026-04-17 07:30:00] 开始获取天气预报...
+[2026-04-17 07:30:01] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1776382219108-0e57efa8
+[2026-04-17 07:30:20] 天气推送成功 (微信)
+[2026-04-17 07:30:20] 脚本执行完成

@@ -1,0 +1,197 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "16f6bb01-36c2-4ef6-b2c5-8454bdcaa69a",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "6bf84116-6a1e-465e-8855-901a88de2f46",
+        "dataTableDTOList": [
+          {
+            "code": "90.BK1283",
+            "entityName": "银行",
+            "table": {
+              "100000000016932": [
+                "42",
+                "42",
+                "42",
+                "42",
+                "42"
+              ],
+              "headName": [
+                "2026-04-15",
+                "2026-04-14",
+                "2026-04-13",
+                "2026-04-10",
+                "2026-04-09"
+              ]
+            },
+            "rawTable": {
+              "100000000016932": [
+                "42",
+                "42",
+                "42",
+                "42",
+                "42"
+              ],
+              "headName": [
+                "2026-04-15",
+                "2026-04-14",
+                "2026-04-13",
+                "2026-04-10",
+                "2026-04-09"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "100000000016932": "成分个数",
+              "headNameSub": "数据来源"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "100000000016932",
+              "returnName": "成分个数",
+              "classCode": "007109",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-04-16 00:00:00",
+              "endDate": "2026-04-16 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "IsHistory=0",
+              "quantType": "9",
+              "isGroup": false,
+              "returnSourceCode": "SCOUNT",
+              "returnSourceName": "成分个数",
+              "graph": "1",
+              "unit": "1",
+              "tableType": "1"
+            },
+            "entityCodes": [
+              "90.BK1283"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "100000000016932",
+                "returnName": "成分个数",
+                "classCode": "007109",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-04-16 00:00:00",
+                "endDate": "2026-04-16 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "IsHistory=0",
+                "quantType": "9",
+                "isGroup": false,
+                "returnSourceCode": "SCOUNT",
+                "returnSourceName": "成分个数",
+                "graph": "1",
+                "unit": "1",
+                "tableType": "1"
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "100000000016932"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "银行的成分个数",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=BLOCK&code=90.BK1283&indId=100000000016932|119:2026-04-09,100000000016932|119:2026-04-10,100000000016932|119:2026-04-13,100000000016932|119:2026-04-14,100000000016932|119:2026-04-15",
+                "typeName": "板块数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "BK1283",
+              "entityType": "BLOCK",
+              "entityTypeCode": "2",
+              "entityTypeName": "财富通行业板块1级",
+              "classCode": "005002",
+              "className": "行业板块",
+              "fullName": "银行",
+              "secuCode": "BK1283",
+              "market": "90",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "BK1283",
+                "entityType": "BLOCK",
+                "entityTypeCode": "2",
+                "entityTypeName": "财富通行业板块1级",
+                "classCode": "005002",
+                "className": "行业板块",
+                "fullName": "银行",
+                "secuCode": "BK1283",
+                "market": "90",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-04-15": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "银行",
+            "成分个数",
+            "2026-04-16至2026-04-16"
+          ]
+        },
+        "entityTagDTOList": []
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "9f24194aa5564231a47ba379ec3ea728"
+}

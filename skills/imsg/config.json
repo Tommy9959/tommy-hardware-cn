@@ -1,0 +1,39 @@
+{
+  "name": "imsg",
+  "enabled": true,
+  "config": {
+    "echo_filter": {
+      "enabled": true,
+      "description": "过滤自己发送的消息，防止回音",
+      "my_phone": "+8618358008400",
+      "my_emails": ["z946487044@icloud.com"],
+      "filter_patterns": [
+        "me",
+        "self",
+        "+8618358008400"
+      ]
+    },
+    "watch": {
+      "enabled": false,
+      "description": "iMessage 监听（需要时手动开启）",
+      "chat_ids": [],
+      "auto_reply": false
+    },
+    "send": {
+      "default_service": "auto",
+      "confirm_before_send": true,
+      "log_sent_messages": true,
+      "description": "发送消息后记录，避免重复处理"
+    },
+    "sent_messages_log": {
+      "path": "/Users/zhuxiaolei/.openclaw/workspace/logs/imsg-sent.json",
+      "ttl_seconds": 300,
+      "description": "5 分钟内发送的消息不会被处理"
+    }
+  },
+  "usage": {
+    "send": "imsg send --to \"+86...\" --text \"消息\"",
+    "history": "imsg history --chat-id 1 --limit 20",
+    "watch": "bash /tmp/imsg-watch.sh <chat_id>"
+  }
+}

@@ -1,0 +1,8 @@
+金融数据查询结果说明
+========================================
+查询内容: 银行板块成分股
+数据文件路径: /Users/zhuxiaolei/.openclaw/workspace/mx_data/output/mx_data_银行板块成分股.xlsx
+描述文件路径: /Users/zhuxiaolei/.openclaw/workspace/mx_data/output/mx_data_银行板块成分股_description.txt
+数据行数: 5
+表数量: 1
+Sheet 列表: 银行的成分个数

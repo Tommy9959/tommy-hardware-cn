@@ -87,7 +87,14 @@
       "name": "Yiwu Shuihui Import & Export Co., Ltd."
     },
     "minOrderQuantity": {{ index (split .Params.moq " ") 0 | default 400 }},
-    "businessOperation": "B2B"
+    "businessOperation": "B2B",
+    "areaServed": [
+      { "@type": "Country", "name": "Nigeria" },
+      { "@type": "Country", "name": "United Arab Emirates" },
+      { "@type": "Country", "name": "Saudi Arabia" },
+      { "@type": "Country", "name": "Egypt" },
+      { "@type": "Country", "name": "Kenya" }
+    ]
   },
   "material": "{{ .Params.material | default "Stainless Steel" }}",
   "category": "{{ with .Parent }}{{ .Title }}{{ end }}",
@@ -118,12 +125,27 @@
     "addressRegion": "Zhejiang",
     "addressCountry": "CN"
   },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "29.3013552",
+    "longitude": "120.0703096"
+  },
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "sales",
+    "telephone": "+86-183-5800-8400",
     "email": "{{ site.Params.email }}",
     "availableLanguage": ["English", "Chinese", "Arabic"]
   },
+  "areaServed": [
+    { "@type": "Country", "name": "Nigeria" },
+    { "@type": "Country", "name": "United Arab Emirates" },
+    { "@type": "Country", "name": "Saudi Arabia" },
+    { "@type": "Country", "name": "Egypt" },
+    { "@type": "Country", "name": "Kenya" },
+    { "@type": "Country", "name": "Qatar" },
+    { "@type": "Country", "name": "Kuwait" }
+  ],
   "sameAs": [
     "https://www.facebook.com/yourpage",
     "https://www.linkedin.com/company/yourcompany"
@@ -135,3 +157,76 @@
 <!-- 预加载关键资源 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- ============================================
+     AI 搜索引擎优化标签
+     帮助 ChatGPT、Claude、Perplexity 等 AI 理解网站内容
+     ============================================ -->
+
+<!-- AI 摘要优化 -->
+<meta name="ai-bot" content="index, follow">
+<meta name="GPTBot" content="index, follow">
+<meta name="ChatGPT-User" content="index, follow">
+<meta name="ClaudeBot" content="index, follow">
+<meta name="PerplexityBot" content="index, follow">
+<meta name="Google-Extended" content="index, follow">
+<meta name="Microsoft-Preview" content="index, follow">
+
+<!-- 内容类型声明（帮助 AI 理解） -->
+<meta name="content-type" content="B2B Manufacturer Website">
+<meta name="business-type" content="Door Hardware Manufacturer & Exporter">
+<meta name="target-market" content="Africa, Middle East, Global">
+<meta name="primary-products" content="Door Handles, Door Locks, Door Hinges, Sliding Tracks, Building Materials">
+
+<!-- AI 友好的网站描述 -->
+<meta name="ai-description" content="Yiwu Shuihui Import & Export Co., Ltd. is a professional door hardware manufacturer exporting to Nigeria, Dubai, Africa. Factory direct supply of door handles, locks, hinges, sliding tracks. ISO 9001 certified. 15-25 days delivery. MOQ from 400 pcs.">
+
+<!-- 结构化数据增强（AI 更容易理解） -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What products do you supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We supply door handles, door locks, door hinges, sliding tracks, cabinet hardware, building materials including glue, iron pipes, curtain rods, wallpaper, and plastic handles. All factory direct supply."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is your MOQ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOQ varies by product: Door Handles 400 pcs, Door Locks 1000 pcs, Door Hinges 1000 pairs, Building Materials 10-100 cartons. Small orders welcome."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is your delivery time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stock items: 3-5 days. Custom orders: 15-25 days. Delivery to Africa: 15-35 days depending on destination port."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you export to Africa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We specialize in African market with 10+ years experience. We export to Nigeria, Kenya, Ghana, Tanzania, Ethiopia, South Africa and 50+ African countries. Complete documentation support including Form M, SONCAP."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you a factory or trading company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are a factory direct manufacturer located in Yiwu, Zhejiang, China. ISO 9001, CE, SGS certified. Our prices are 30-50% lower than market average."
+      }
+    }
+  ]
+}
+</script>

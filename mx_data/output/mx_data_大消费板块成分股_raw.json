@@ -1,0 +1,197 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "bf669c49-7f57-42a4-ba65-0676098f4c17",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "4bae8ca0-620e-459b-99f2-e0477c9ef688",
+        "dataTableDTOList": [
+          {
+            "code": "90.BK0438",
+            "entityName": "食品饮料",
+            "table": {
+              "100000000016932": [
+                "130",
+                "130",
+                "130",
+                "130",
+                "130"
+              ],
+              "headName": [
+                "2026-04-15",
+                "2026-04-14",
+                "2026-04-13",
+                "2026-04-10",
+                "2026-04-09"
+              ]
+            },
+            "rawTable": {
+              "100000000016932": [
+                "130",
+                "130",
+                "130",
+                "130",
+                "130"
+              ],
+              "headName": [
+                "2026-04-15",
+                "2026-04-14",
+                "2026-04-13",
+                "2026-04-10",
+                "2026-04-09"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "100000000016932": "成分个数",
+              "headNameSub": "数据来源"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "100000000016932",
+              "returnName": "成分个数",
+              "classCode": "007109",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-04-16 00:00:00",
+              "endDate": "2026-04-16 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "IsHistory=0",
+              "quantType": "9",
+              "isGroup": false,
+              "returnSourceCode": "SCOUNT",
+              "returnSourceName": "成分个数",
+              "graph": "1",
+              "unit": "1",
+              "tableType": "1"
+            },
+            "entityCodes": [
+              "90.BK0438"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "100000000016932",
+                "returnName": "成分个数",
+                "classCode": "007109",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-04-16 00:00:00",
+                "endDate": "2026-04-16 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "IsHistory=0",
+                "quantType": "9",
+                "isGroup": false,
+                "returnSourceCode": "SCOUNT",
+                "returnSourceName": "成分个数",
+                "graph": "1",
+                "unit": "1",
+                "tableType": "1"
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "100000000016932"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "食品饮料的成分个数",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=BLOCK&code=90.BK0438&indId=100000000016932|119:2026-04-09,100000000016932|119:2026-04-10,100000000016932|119:2026-04-13,100000000016932|119:2026-04-14,100000000016932|119:2026-04-15",
+                "typeName": "板块数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "BK0438",
+              "entityType": "BLOCK",
+              "entityTypeCode": "2",
+              "entityTypeName": "财富通行业板块1级",
+              "classCode": "005002",
+              "className": "行业板块",
+              "fullName": "食品饮料",
+              "secuCode": "BK0438",
+              "market": "90",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "BK0438",
+                "entityType": "BLOCK",
+                "entityTypeCode": "2",
+                "entityTypeName": "财富通行业板块1级",
+                "classCode": "005002",
+                "className": "行业板块",
+                "fullName": "食品饮料",
+                "secuCode": "BK0438",
+                "market": "90",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-04-15": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "食品饮料",
+            "成分个数",
+            "2026-04-16至2026-04-16"
+          ]
+        },
+        "entityTagDTOList": []
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "509b00c20eba44b69ff3527935b2fa75"
+}

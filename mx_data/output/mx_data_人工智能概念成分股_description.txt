@@ -1,0 +1,8 @@
+金融数据查询结果说明
+========================================
+查询内容: 人工智能概念成分股
+数据文件路径: /Users/zhuxiaolei/.openclaw/workspace/mx_data/output/mx_data_人工智能概念成分股.xlsx
+描述文件路径: /Users/zhuxiaolei/.openclaw/workspace/mx_data/output/mx_data_人工智能概念成分股_description.txt
+数据行数: 12
+表数量: 1
+Sheet 列表: 人工智能(861195.EI)成分详情(2026-04-16)

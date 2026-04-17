@@ -1,0 +1,8 @@
+金融数据查询结果说明
+========================================
+查询内容: 深证成指最新点位 涨跌幅
+数据文件路径: /Users/zhuxiaolei/.openclaw/workspace/scripts/mx_data/output/mx_data_深证成指最新点位_涨跌幅.xlsx
+描述文件路径: /Users/zhuxiaolei/.openclaw/workspace/scripts/mx_data/output/mx_data_深证成指最新点位_涨跌幅_description.txt
+数据行数: 6
+表数量: 2
+Sheet 列表: 深证成指(399001.SZ)当前的最新价、涨跌幅, 深证成指(399001.SZ)的收盘价、涨跌幅

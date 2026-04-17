@@ -1,0 +1,415 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "6f65159f-e80e-49b3-86bf-29eee9fb9934",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "e5dd99db-82d5-420d-b4a9-d6ab085ec5dc",
+        "dataTableDTOList": [
+          {
+            "code": "399006.SZ",
+            "entityName": "创业板指(399006.SZ)",
+            "table": {
+              "f2": [
+                "3626.27"
+              ],
+              "f3": [
+                "3.17%"
+              ],
+              "headName": [
+                "2026-04-16 16:04"
+              ]
+            },
+            "rawTable": {
+              "f2": [
+                "3626.27"
+              ],
+              "f3": [
+                "3.17"
+              ],
+              "headName": [
+                "2026-04-16 16:04"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "f2": "最新价",
+              "headNameSub": "数据来源",
+              "f3": "涨跌幅"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "ZXJ_f2_3",
+              "returnName": "最新价",
+              "classCode": "007001",
+              "checkedRelatedIndicators": false,
+              "startDate": "2026-04-16 00:00:00",
+              "endDate": "2026-04-16 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "apiCode": "3",
+              "isGroup": false,
+              "returnSourceCode": "f2",
+              "returnSourceName": "最新价",
+              "graph": "2",
+              "unit": "0",
+              "tableType": "2"
+            },
+            "entityCodes": [
+              "399006.SZ"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "ZXJ_f2_3",
+                "returnName": "最新价",
+                "classCode": "007001",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-04-16 00:00:00",
+                "endDate": "2026-04-16 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f2",
+                "returnSourceName": "最新价",
+                "graph": "2",
+                "unit": "0",
+                "tableType": "2"
+              },
+              {
+                "returnCode": "ZDF_f3_3",
+                "returnName": "涨跌幅",
+                "classCode": "007001",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-04-16 00:00:00",
+                "endDate": "2026-04-16 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f3",
+                "returnSourceName": "涨跌幅",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "unitName": "%",
+                "unitDesc": "901:%:%"
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "f2",
+              "f3"
+            ],
+            "tipFlags": [
+              "0"
+            ],
+            "dataType": "行情数据",
+            "title": "创业板指(399006.SZ)当前的最新价、涨跌幅",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [],
+            "dataTypeEnum": "HQ",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000159296",
+              "entityType": "INDEX",
+              "entityTypeCode": "HSJ_INDEX",
+              "entityTypeName": "A股市场核心基准指数",
+              "classCode": "006001",
+              "className": "HSJ_INDEX",
+              "publishCode": "905001024",
+              "fullName": "创业板指",
+              "secuCode": "399006",
+              "market": "0",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000159296",
+                "entityType": "INDEX",
+                "entityTypeCode": "HSJ_INDEX",
+                "entityTypeName": "A股市场核心基准指数",
+                "classCode": "006001",
+                "className": "HSJ_INDEX",
+                "publishCode": "905001024",
+                "fullName": "创业板指",
+                "secuCode": "399006",
+                "market": "0",
+                "correct": false,
+                "hasKLine": true,
+                "valuation": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-04-16 16:04": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          },
+          {
+            "code": "399006.SZ",
+            "entityName": "创业板指(399006.SZ)",
+            "table": {
+              "325898": [
+                "3626.271元",
+                "3514.9604元",
+                "3558.5273元",
+                "3476.4396元",
+                "3448.787元",
+                "3323.2989元"
+              ],
+              "326865": [
+                "3.167%",
+                "-1.224%",
+                "2.361%",
+                "0.8018%",
+                "3.776%",
+                "-0.7262%"
+              ],
+              "headName": [
+                "2026-04-16(日)",
+                "2026-04-15(日)",
+                "2026-04-14(日)",
+                "2026-04-13(日)",
+                "2026-04-10(日)",
+                "2026-04-09(日)"
+              ]
+            },
+            "rawTable": {
+              "325898": [
+                "3626.271",
+                "3514.9604",
+                "3558.5273",
+                "3476.4396",
+                "3448.787",
+                "3323.2989"
+              ],
+              "326865": [
+                "0.03166766829008948",
+                "-0.012242957922509196",
+                "0.023612577649846134",
+                "0.008018065482153681",
+                "0.037760100362925535",
+                "-0.007262225886528105"
+              ],
+              "headName": [
+                "2026-04-16",
+                "2026-04-15",
+                "2026-04-14",
+                "2026-04-13",
+                "2026-04-10",
+                "2026-04-09"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "325898": "收盘价",
+              "headNameSub": "数据来源",
+              "326865": "涨跌幅"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "325898",
+              "returnName": "收盘价",
+              "classCode": "007121",
+              "checkedRelatedIndicators": false,
+              "startDate": "2026-04-16 00:00:00",
+              "endDate": "2026-04-16 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "AdjustFlag=1,CurType=2,Period=1",
+              "isGroup": false,
+              "returnSourceCode": "CLOSE",
+              "returnSourceName": "收盘价(全品种)_序列",
+              "graph": "0",
+              "unit": "2",
+              "tableType": "20",
+              "unitName": "元",
+              "unitDesc": "元"
+            },
+            "entityCodes": [
+              "399006.SZ"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "325898",
+                "returnName": "收盘价",
+                "classCode": "007121",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-04-16 00:00:00",
+                "endDate": "2026-04-16 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "AdjustFlag=1,CurType=2,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "CLOSE",
+                "returnSourceName": "收盘价(全品种)_序列",
+                "graph": "0",
+                "unit": "2",
+                "tableType": "20",
+                "unitName": "元",
+                "unitDesc": "元"
+              },
+              {
+                "returnCode": "326865",
+                "returnName": "涨跌幅",
+                "classCode": "007121",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-04-16 00:00:00",
+                "endDate": "2026-04-16 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "AdjustFlag=1,CurType=2,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "PCTCHANGE",
+                "returnSourceName": "涨跌幅(全品种)_序列",
+                "graph": "0",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "100%",
+                "unitDesc": "100%"
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "325898",
+              "326865"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "创业板指(399006.SZ)的收盘价、涨跌幅",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=INDEX&code=399006.SZ&indId=100000000006220|121:GetLatestDay,100000000006180|121:GetLatestDay",
+                "typeName": "指数数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000159296",
+              "entityType": "INDEX",
+              "entityTypeCode": "HSJ_INDEX",
+              "entityTypeName": "A股市场核心基准指数",
+              "classCode": "006001",
+              "className": "HSJ_INDEX",
+              "publishCode": "905001024",
+              "fullName": "创业板指",
+              "secuCode": "399006",
+              "market": "0",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000159296",
+                "entityType": "INDEX",
+                "entityTypeCode": "HSJ_INDEX",
+                "entityTypeName": "A股市场核心基准指数",
+                "classCode": "006001",
+                "className": "HSJ_INDEX",
+                "publishCode": "905001024",
+                "fullName": "创业板指",
+                "secuCode": "399006",
+                "market": "0",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-04-16": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "TDAY"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "创业板指",
+            "最新价收盘价涨跌幅",
+            "2026-04-16至2026-04-16"
+          ]
+        },
+        "entityTagDTOList": []
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "f969f13c23d44577aa3d24db8d15b22d"
+}

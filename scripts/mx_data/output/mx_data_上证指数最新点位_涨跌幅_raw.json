@@ -1,0 +1,417 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "d1ed8789-3b5d-490e-a6d6-02094f5af197",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "ba02fd2a-c72b-4254-a121-88c2124b1923",
+        "dataTableDTOList": [
+          {
+            "code": "000001.SH",
+            "entityName": "上证指数(000001.SH)",
+            "table": {
+              "f2": [
+                "4027.21"
+              ],
+              "f3": [
+                "0.01%"
+              ],
+              "headName": [
+                "2026-04-15 15:10"
+              ]
+            },
+            "rawTable": {
+              "f2": [
+                "4027.21"
+              ],
+              "f3": [
+                "0.01"
+              ],
+              "headName": [
+                "2026-04-15 15:10"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "f2": "最新价",
+              "headNameSub": "数据来源",
+              "f3": "涨跌幅"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "ZXJ_f2_3",
+              "returnName": "最新价",
+              "classCode": "007001",
+              "checkedRelatedIndicators": false,
+              "startDate": "2026-04-15 00:00:00",
+              "endDate": "2026-04-15 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "apiCode": "3",
+              "isGroup": false,
+              "returnSourceCode": "f2",
+              "returnSourceName": "最新价",
+              "graph": "2",
+              "unit": "0",
+              "tableType": "2"
+            },
+            "entityCodes": [
+              "000001.SH"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "ZDF_f3_3",
+                "returnName": "涨跌幅",
+                "classCode": "007001",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-04-15 00:00:00",
+                "endDate": "2026-04-15 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f3",
+                "returnSourceName": "涨跌幅",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "unitName": "%",
+                "unitDesc": "901:%:%"
+              },
+              {
+                "returnCode": "ZXJ_f2_3",
+                "returnName": "最新价",
+                "classCode": "007001",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-04-15 00:00:00",
+                "endDate": "2026-04-15 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f2",
+                "returnSourceName": "最新价",
+                "graph": "2",
+                "unit": "0",
+                "tableType": "2"
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "f2",
+              "f3"
+            ],
+            "tipFlags": [
+              "0"
+            ],
+            "dataType": "行情数据",
+            "title": "上证指数(000001.SH)当前的最新价、涨跌幅",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [],
+            "dataTypeEnum": "HQ",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000158679",
+              "entityType": "INDEX",
+              "entityTypeCode": "INDEX",
+              "entityTypeName": "INDEX",
+              "classCode": "006001",
+              "className": "沪深京指数",
+              "publishCode": "905001024",
+              "fullName": "上证综合指数",
+              "shortName": "上证指数",
+              "secuCode": "000001",
+              "market": "1",
+              "marketChar": ".SH",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000158679",
+                "entityType": "INDEX",
+                "entityTypeCode": "INDEX",
+                "entityTypeName": "INDEX",
+                "classCode": "006001",
+                "className": "沪深京指数",
+                "publishCode": "905001024",
+                "fullName": "上证综合指数",
+                "shortName": "上证指数",
+                "secuCode": "000001",
+                "market": "1",
+                "marketChar": ".SH",
+                "correct": false,
+                "hasKLine": true,
+                "valuation": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-04-15 15:10": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          },
+          {
+            "code": "000001.SH",
+            "entityName": "上证指数(000001.SH)",
+            "table": {
+              "325898": [
+                "4027元",
+                "3989元",
+                "3986元",
+                "3966元",
+                "3995元"
+              ],
+              "326865": [
+                "0.9544%",
+                "0.05853%",
+                "0.5056%",
+                "-0.7216%",
+                "2.695%"
+              ],
+              "headName": [
+                "2026-04-14(日)",
+                "2026-04-13(日)",
+                "2026-04-10(日)",
+                "2026-04-09(日)",
+                "2026-04-08(日)"
+              ]
+            },
+            "rawTable": {
+              "325898": [
+                "4026.6256",
+                "3988.558",
+                "3986.2247",
+                "3966.1712",
+                "3994.9975"
+              ],
+              "326865": [
+                "0.009544201187496798",
+                "0.0005853408113194876",
+                "0.005056135751275685",
+                "-0.007215599008509948",
+                "0.026948217742463098"
+              ],
+              "headName": [
+                "2026-04-14",
+                "2026-04-13",
+                "2026-04-10",
+                "2026-04-09",
+                "2026-04-08"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "325898": "收盘价",
+              "headNameSub": "数据来源",
+              "326865": "涨跌幅"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "325898",
+              "returnName": "收盘价",
+              "classCode": "007121",
+              "checkedRelatedIndicators": false,
+              "startDate": "2026-04-15 00:00:00",
+              "endDate": "2026-04-15 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "AdjustFlag=1,CurType=2,Period=1",
+              "isGroup": false,
+              "returnSourceCode": "CLOSE",
+              "returnSourceName": "收盘价(全品种)_序列",
+              "graph": "0",
+              "unit": "1",
+              "tableType": "20",
+              "unitName": "元",
+              "unitDesc": "元"
+            },
+            "entityCodes": [
+              "000001.SH"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "326865",
+                "returnName": "涨跌幅",
+                "classCode": "007121",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-04-15 00:00:00",
+                "endDate": "2026-04-15 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "AdjustFlag=1,CurType=2,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "PCTCHANGE",
+                "returnSourceName": "涨跌幅(全品种)_序列",
+                "graph": "0",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "100%",
+                "unitDesc": "100%"
+              },
+              {
+                "returnCode": "325898",
+                "returnName": "收盘价",
+                "classCode": "007121",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-04-15 00:00:00",
+                "endDate": "2026-04-15 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "AdjustFlag=1,CurType=2,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "CLOSE",
+                "returnSourceName": "收盘价(全品种)_序列",
+                "graph": "0",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "元",
+                "unitDesc": "元"
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "325898",
+              "326865"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "上证指数(000001.SH)的收盘价、涨跌幅",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=INDEX&code=000001.SH&indId=100000000006220|121:GetLatestDay,100000000006180|121:GetLatestDay",
+                "typeName": "指数数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000158679",
+              "entityType": "INDEX",
+              "entityTypeCode": "INDEX",
+              "entityTypeName": "INDEX",
+              "classCode": "006001",
+              "className": "沪深京指数",
+              "publishCode": "905001024",
+              "fullName": "上证综合指数",
+              "shortName": "上证指数",
+              "secuCode": "000001",
+              "market": "1",
+              "marketChar": ".SH",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000158679",
+                "entityType": "INDEX",
+                "entityTypeCode": "INDEX",
+                "entityTypeName": "INDEX",
+                "classCode": "006001",
+                "className": "沪深京指数",
+                "publishCode": "905001024",
+                "fullName": "上证综合指数",
+                "shortName": "上证指数",
+                "secuCode": "000001",
+                "market": "1",
+                "marketChar": ".SH",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-04-14": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "TDAY"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "上证综合指数",
+            "最新价收盘价涨跌幅",
+            "2026-04-15至2026-04-15"
+          ]
+        },
+        "entityTagDTOList": []
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "4f798e79699b4139870c88f17b79aa8e"
+}

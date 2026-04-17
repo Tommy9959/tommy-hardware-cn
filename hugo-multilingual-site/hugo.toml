@@ -114,8 +114,8 @@ defaultContentLanguageInSubdir = true
   latitude = '29.3089'
   longitude = '120.0741'
   
-  # SEO 关键词（包含 SOLA 品牌，用于搜索引擎）
-  keywords = 'SOLA, door handles, door locks, door hinges, sliding tracks, furniture hardware, cabinet hardware, 门把手，门锁，门铰链，导轨，家具五金，尼日利亚，迪拜，非洲，ISO 9001'
+  # SEO 关键词（2026-04-13 扩展关键词库 - 200+ 关键词）
+  keywords = 'SOLA, door handles, door locks, door hinges, sliding tracks, drawer slides, furniture hardware, cabinet hardware, cabinet accessories, cabinet handles, cabinet knobs, drawer pulls, kitchen hardware, wardrobe hardware, bathroom hardware, architectural hardware, building hardware, construction hardware, stainless steel hardware, zinc alloy hardware, aluminum hardware, brass hardware, iron pipes, steel tubes, galvanized pipes, square pipes, round pipes, curtain rods, curtain poles, drapery rods, telescopic rods, wallpaper, wall covering, PVC wallpaper, non-woven wallpaper, 3D wallpaper, wall stickers, glue, adhesive, construction glue, wood glue, PVC glue, silicone sealant, plastic handles, cabinet knobs, drawer pulls, furniture handles, furniture legs, sofa legs, table legs, cabinet foot, gas struts, gas springs, cabinet supports, soft close hinges, hydraulic hinges, concealed hinges, butt hinges, pivot hinges, mortise locks, padlocks, smart locks, digital door locks, cylinder locks, door closers, door stoppers, door viewers, door chains, security doors, aluminum doors, UPVC doors, glass doors, interior doors, exterior doors, fire doors, bathroom doors, bedroom doors, kitchen doors, wardrobe doors, sliding doors, barn doors, Africa market, African importer, West Africa, East Africa, Southern Africa, North Africa, Nigeria, Kenya, Ghana, Tanzania, Ethiopia, South Africa, Egypt, Morocco, Algeria, Uganda, Senegal, Ivory Coast, Cameroon, Zimbabwe, Zambia, Dubai, UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain, Middle East, Lagos, Abuja, Port Harcourt, Kano, Mombasa, Nairobi, Accra, Tema, Dar es Salaam, Addis Ababa, Johannesburg, Durban, Cape Town, Cairo, Alexandria, Casablanca, factory direct, factory price, wholesale price, bulk order, OEM, ODM, custom design, ISO 9001, CE certified, SGS tested, quality assurance, fast delivery, 15-25 days, free samples, small orders accepted, Form M, SONCAP, PAAR, customs clearance, 门把手，门锁，门铰链，导轨，抽屉导轨，家具五金，橱柜五金，橱柜配件，橱柜拉手，橱柜把手，抽屉拉手，厨房五金，衣柜五金，卫浴五金，建筑五金，不锈钢五金，锌合金五金，铝合金五金，黄铜五金，铁管，钢管，镀锌管，方管，圆管，窗帘杆，墙纸，墙布，PVC 墙纸，无纺布墙纸，3D 墙纸，墙贴，胶水，粘合剂，建筑胶水，木工胶，PVC 胶水，硅胶密封胶，塑料拉手，橱柜拉手，抽屉拉手，家具拉手，家具脚，沙发脚，桌脚，气撑，气弹簧，橱柜支撑，缓冲铰链，液压铰链，暗铰链，合页，转轴铰链，插芯锁，挂锁，智能锁，电子锁，锁芯，闭门器，门吸，猫眼，门链，安全门，铝门，UPVC 门，玻璃门，室内门，室外门，防火门，浴室门，卧室门，厨房门，衣柜门，推拉门，谷仓门，非洲市场，非洲进口商，西非，东非，南非，北非，尼日利亚，肯尼亚，加纳，坦桑尼亚，埃塞俄比亚，南非，埃及，摩洛哥，阿尔及利亚，乌干达，塞内加尔，科特迪瓦，喀麦隆，津巴布韦，赞比亚，迪拜，阿联酋，沙特阿拉伯，卡塔尔，科威特，阿曼，巴林，中东，拉各斯，阿布贾，哈科特港，卡诺，蒙巴萨，内罗毕，阿克拉，特马，达累斯萨拉姆，亚的斯亚贝巴，约翰内斯堡，德班，开普敦，开罗，亚历山大，卡萨布兰卡，工厂直销，工厂价格，批发价格，批量订单，OEM, ODM, 定制设计，ISO 9001, CE 认证，SGS 检测，质量保证，快速交货，15-25 天，免费样品，小批量订单，Form M, SONCAP, PAAR, 清关文件'
 
 # Markdown 配置
 [markup]
@@ -123,12 +123,24 @@ defaultContentLanguageInSubdir = true
     [markup.goldmark.renderer]
       unsafe = true
 
-# SEO 优化配置
+# SEO 优化配置（2026-04-13 优化）
 [sitemap]
-  changefreq = 'weekly'
+  changefreq = 'daily'  # 改为每日更新，提高抓取频率
   filename = 'sitemap.xml'
-  priority = 0.8
+  priority = 0.9  # 提高优先级
   disable = false
+
+# 搜索引擎验证
+[verification]
+  google = 'G-EW8MR1LQWY'  # Google Search Console 验证（使用 Analytics ID 临时）
+  bing = ''  # 待添加 Bing 站长工具验证
+
+# 社交媒体 SEO
+[social]
+  twitter = '@YourTwitter'  # 添加 Twitter 账号
+  facebook = 'YourFacebookPage'  # 添加 Facebook 页面
+  linkedin = 'your-company-linkedin'  # 添加 LinkedIn
+  instagram = 'YourInstagram'  # 添加 Instagram
 
 # 输出配置
 [outputs]

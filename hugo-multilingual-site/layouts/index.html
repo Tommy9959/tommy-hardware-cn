@@ -84,7 +84,7 @@
     </div>
 </section>
 
-<!-- 为什么选择我们 -->
+<!-- 为什么选择我们 - 双排布局 -->
 <section class="why-choose-section">
     <div class="container">
         <h2 class="section-title">
@@ -97,6 +97,36 @@
             {{ else if eq .Site.Language.Lang "en" }}10+ years export experience, trusted by 50+ countries
             {{ else }}+10 سنوات من الخبرة في التصدير، موثوق من قبل +50 دولة{{ end }}
         </p>
+        
+        <!-- 数据统计 -->
+        <div class="trust-grid">
+            <div class="trust-item">
+                <div class="trust-icon">🏆</div>
+                <div class="trust-number">10+</div>
+                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}年出口经验{{ else if eq .Site.Language.Lang "en" }}Years Export Experience{{ else }}سنوات خبرة{{ end }}</div>
+                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}专注五金出口{{ else if eq .Site.Language.Lang "en" }}Focused on hardware{{ else }}التركيز على الأجهزة{{ end }}</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">🌍</div>
+                <div class="trust-number">50+</div>
+                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}出口国家和地区{{ else if eq .Site.Language.Lang "en" }}Countries Exported{{ else }}دولة{{ end }}</div>
+                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}遍布全球{{ else if eq .Site.Language.Lang "en" }}Worldwide{{ else }}في جميع أنحاء العالم{{ end }}</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">👥</div>
+                <div class="trust-number">1000+</div>
+                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}满意客户{{ else if eq .Site.Language.Lang "en" }}Happy Clients{{ else }}عميل سعيد{{ end }}</div>
+                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}长期合作{{ else if eq .Site.Language.Lang "en" }}Long-term partners{{ else }}شركاء طويل الأجل{{ end }}</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">📦</div>
+                <div class="trust-number">100%</div>
+                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}质量检验{{ else if eq .Site.Language.Lang "en" }}Quality Inspection{{ end }}</div>
+                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}出厂前全检{{ else if eq .Site.Language.Lang "en" }}100% inspection{{ end }}</div>
+            </div>
+        </div>
+        
+        <!-- 核心优势卡片 -->
         <div class="features-grid">
             <div class="feature-card">
                 <div class="feature-icon">🏭</div>
@@ -177,73 +207,6 @@
                     <li>✓ {{ if eq .Site.Language.Lang "zh" }}优先生产和发货{{ else if eq .Site.Language.Lang "en" }}Priority production{{ end }}</li>
                     <li>✓ {{ if eq .Site.Language.Lang "zh" }}市场保护政策{{ else if eq .Site.Language.Lang "en" }}Market protection{{ end }}</li>
                 </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- 信任元素 -->
-<section class="trust-section">
-    <div class="container">
-        <h2 class="section-title">
-            {{ if eq .Site.Language.Lang "zh" }}为什么选择我们{{ else if eq .Site.Language.Lang "en" }}Why Choose Us{{ else }}لماذا تختارنا{{ end }}
-        </h2>
-        <p class="section-subtitle">
-            {{ if eq .Site.Language.Lang "zh" }}10+ 年专注门控五金出口，50+ 国家和地区信赖之选{{ else if eq .Site.Language.Lang "en" }}10+ years focused on door hardware export, trusted by 50+ countries{{ else }}+10 سنوات من التركيز على تصدير أجهزة الأبواب{{ end }}
-        </p>
-        
-        <!-- 数据统计 -->
-        <div class="trust-grid">
-            <div class="trust-item">
-                <div class="trust-icon">🏆</div>
-                <div class="trust-number">10+</div>
-                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}年出口经验{{ else if eq .Site.Language.Lang "en" }}Years Export Experience{{ else }}سنوات خبرة{{ end }}</div>
-                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}专注五金出口{{ else if eq .Site.Language.Lang "en" }}Focused on hardware{{ else }}التركيز على الأجهزة{{ end }}</div>
-            </div>
-            <div class="trust-item">
-                <div class="trust-icon">🌍</div>
-                <div class="trust-number">50+</div>
-                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}出口国家和地区{{ else if eq .Site.Language.Lang "en" }}Countries Exported{{ else }}دولة{{ end }}</div>
-                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}遍布全球{{ else if eq .Site.Language.Lang "en" }}Worldwide{{ else }}في جميع أنحاء العالم{{ end }}</div>
-            </div>
-            <div class="trust-item">
-                <div class="trust-icon">👥</div>
-                <div class="trust-number">1000+</div>
-                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}满意客户{{ else if eq .Site.Language.Lang "en" }}Happy Clients{{ else }}عميل سعيد{{ end }}</div>
-                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}长期合作{{ else if eq .Site.Language.Lang "en" }}Long-term partners{{ else }}شركاء طويل الأجل{{ end }}</div>
-            </div>
-            <div class="trust-item">
-                <div class="trust-icon">📦</div>
-                <div class="trust-number">100%</div>
-                <div class="trust-label">{{ if eq .Site.Language.Lang "zh" }}质量检验{{ else if eq .Site.Language.Lang "en" }}Quality Inspection{{ end }}</div>
-                <div class="trust-desc">{{ if eq .Site.Language.Lang "zh" }}出厂前全检{{ else if eq .Site.Language.Lang "en" }}100% inspection{{ end }}</div>
-            </div>
-        </div>
-        
-        <!-- 核心优势 -->
-        <div class="advantages-section">
-            <h3 class="advantages-title">{{ if eq .Site.Language.Lang "zh" }}核心优势{{ else if eq .Site.Language.Lang "en" }}Core Advantages{{ else }}المزايا الأساسية{{ end }}</h3>
-            <div class="advantages-grid">
-                <div class="advantage-card">
-                    <div class="advantage-icon">💰</div>
-                    <h4>{{ if eq .Site.Language.Lang "zh" }}工厂直销{{ else if eq .Site.Language.Lang "en" }}Factory Direct{{ else }}المصنع مباشرة{{ end }}</h4>
-                    <p>{{ if eq .Site.Language.Lang "zh" }}无中间商，价格优惠 30-50%{{ else if eq .Site.Language.Lang "en" }}No middlemen, 30-50% lower prices{{ end }}</p>
-                </div>
-                <div class="advantage-card">
-                    <div class="advantage-icon">🔒</div>
-                    <h4>{{ if eq .Site.Language.Lang "zh" }}质量保证{{ else if eq .Site.Language.Lang "en" }}Quality Guaranteed{{ else }}جودة مضمونة{{ end }}</h4>
-                    <p>{{ if eq .Site.Language.Lang "zh" }}ISO 认证，50,000+ 次测试{{ else if eq .Site.Language.Lang "en" }}ISO certified, 50,000+ cycles test{{ end }}</p>
-                </div>
-                <div class="advantage-card">
-                    <div class="advantage-icon">⚡</div>
-                    <h4>{{ if eq .Site.Language.Lang "zh" }}快速交货{{ else if eq .Site.Language.Lang "en" }}Fast Delivery{{ else }}تسليم سريع{{ end }}</h4>
-                    <p>{{ if eq .Site.Language.Lang "zh" }}现货 3-5 天，定制 15-25 天{{ else if eq .Site.Language.Lang "en" }}Stock: 3-5 days, Custom: 15-25 days{{ end }}</p>
-                </div>
-                <div class="advantage-card">
-                    <div class="advantage-icon">🤝</div>
-                    <h4>{{ if eq .Site.Language.Lang "zh" }}定制服务{{ else if eq .Site.Language.Lang "en" }}Custom Service{{ else }}خدمة مخصصة{{ end }}</h4>
-                    <p>{{ if eq .Site.Language.Lang "zh" }}OEM/ODM，支持小批量{{ else if eq .Site.Language.Lang "en" }}OEM/ODM, small orders accepted{{ end }}</p>
-                </div>
             </div>
         </div>
         
