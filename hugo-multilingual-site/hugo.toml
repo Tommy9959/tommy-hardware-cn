@@ -5,7 +5,7 @@ title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
 
 # 默认语言为英文
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 # 多语言配置
 [languages]
