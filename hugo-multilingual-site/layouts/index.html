@@ -1,5 +1,5 @@
 {{ define "main" }}
-<link rel="stylesheet" href="/css/homepage.css">
+<link rel="stylesheet" href="{{ "css/homepage.css" | relURL }}">
 
 <!-- Hero Section -->
 <section class="hero-section">
@@ -8,12 +8,12 @@
             <h1 class="hero-title">{{ .Title }}</h1>
             <p class="hero-subtitle">{{ .Params.description }}</p>
             <div class="hero-buttons">
-                <a href="/products/" class="btn btn-primary">View Products</a>
-                <a href="/contact/" class="btn btn-secondary">Contact Us</a>
+                <a href="{{ relLangURL "products/" }}" class="btn btn-primary">{{ i18n "viewProducts" }}</a>
+                <a href="{{ relLangURL "contact/" }}" class="btn btn-secondary">{{ i18n "contactUs" }}</a>
             </div>
         </div>
         <div class="hero-image">
-            <img src="/images/logo/logo.jpeg" alt="Door Hardware Manufacturer" class="hero-img">
+            <img src="{{ "images/logo/logo.jpeg" | relURL }}" alt="Door Hardware Manufacturer" class="hero-img">
         </div>
     </div>
 </section>
@@ -23,19 +23,19 @@
     <div class="stats-container">
         <div class="stat-card">
             <div class="stat-number">10+</div>
-            <div class="stat-label">Years Experience</div>
+            <div class="stat-label">{{ i18n "yearsExperience" }}</div>
         </div>
         <div class="stat-card">
             <div class="stat-number">50+</div>
-            <div class="stat-label">Export Countries</div>
+            <div class="stat-label">{{ i18n "exportCountries" }}</div>
         </div>
         <div class="stat-card">
             <div class="stat-number">1000+</div>
-            <div class="stat-label">Happy Clients</div>
+            <div class="stat-label">{{ i18n "happyClients" }}</div>
         </div>
         <div class="stat-card">
             <div class="stat-number">100%</div>
-            <div class="stat-label">Quality Inspection</div>
+            <div class="stat-label">{{ i18n "qualityInspection" }}</div>
         </div>
     </div>
 </section>
@@ -43,45 +43,45 @@
 <!-- Products Section -->
 <section class="products-section">
     <div class="container">
-        <h2 class="section-title">Our Core Products</h2>
+        <h2 class="section-title">{{ i18n "ourCoreProducts" }}</h2>
         <div class="products-grid">
             <div class="product-card">
-                <a href="/products/door-handles/">
+                <a href="{{ relLangURL "products/door-handles/" }}">
                     <div class="product-icon">🚪</div>
                     <h3>Door Handles</h3>
                     <p>Stainless Steel, Aluminum, Brass Handles for all types of doors</p>
                 </a>
             </div>
             <div class="product-card">
-                <a href="/products/door-locks/">
+                <a href="{{ relLangURL "products/door-locks/" }}">
                     <div class="product-icon">🔒</div>
                     <h3>Door Locks</h3>
                     <p>Mortise Locks, Padlocks, Smart Locks for security</p>
                 </a>
             </div>
             <div class="product-card">
-                <a href="/products/door-hinges/">
+                <a href="{{ relLangURL "products/door-hinges/" }}">
                     <div class="product-icon">🔧</div>
                     <h3>Door Hinges</h3>
                     <p>Butt Hinges, Pivot Hinges, Concealed Hinges</p>
                 </a>
             </div>
             <div class="product-card">
-                <a href="/products/sliding-tracks/">
+                <a href="{{ relLangURL "products/sliding-tracks/" }}">
                     <div class="product-icon">🚀</div>
                     <h3>Sliding Tracks</h3>
                     <p>Drawer Slides, Wardrobe Tracks, Barn Door Hardware</p>
                 </a>
             </div>
             <div class="product-card">
-                <a href="/products/sofa-legs/">
+                <a href="{{ relLangURL "products/sofa-legs/" }}">
                     <div class="product-icon">🪑</div>
                     <h3>Sofa Legs</h3>
                     <p>Metal Legs, Wooden Legs, Plastic Legs for furniture</p>
                 </a>
             </div>
             <div class="product-card">
-                <a href="/products/cabinet-hardware/">
+                <a href="{{ relLangURL "products/cabinet-hardware/" }}">
                     <div class="product-icon">🗄️</div>
                     <h3>Cabinet Hardware</h3>
                     <p>Cabinet Handles, Connectors, Gas Struts</p>
