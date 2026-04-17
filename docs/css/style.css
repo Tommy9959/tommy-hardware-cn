@@ -1055,9 +1055,9 @@ img[loading="lazy"]:not([src]) { opacity: 0; }
         top: 0.8rem;
         z-index: 1001;
     }
-    /* 隐藏原来的导航容器 */
+    /* 导航容器 - 使用 max-height 动画 */
     .site-nav {
-        display: none;
+        display: block;
         width: 100%;
         position: absolute;
         top: 100%;
@@ -1065,10 +1065,15 @@ img[loading="lazy"]:not([src]) { opacity: 0; }
         background: white;
         box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         z-index: 1000;
-        padding: 1rem 0;
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
     }
     .site-nav.active {
-        display: block;
+        max-height: 500px;
+        overflow: visible;
+        padding: 1rem 0;
     }
     /* 第二排：导航菜单（左对齐）+ 语言切换器（紧跟） */
     .nav-menu {
