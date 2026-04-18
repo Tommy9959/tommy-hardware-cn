@@ -1,8 +1,0 @@
-金融数据查询结果说明
-========================================
-查询内容: 创业板指最新点位 涨跌幅
-数据文件路径: /Users/zhuxiaolei/.openclaw/workspace/scripts/mx_data/output/mx_data_创业板指最新点位_涨跌幅.xlsx
-描述文件路径: /Users/zhuxiaolei/.openclaw/workspace/scripts/mx_data/output/mx_data_创业板指最新点位_涨跌幅_description.txt
-数据行数: 6
-表数量: 2
-Sheet 列表: 创业板指(399006.SZ)当前的最新价、涨跌幅, 创业板指(399006.SZ)的收盘价、涨跌幅

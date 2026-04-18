@@ -1815,6 +1815,53 @@ market-sentiment Nigeria building materials
     print(f"   6. openclaw-whatsapp - WhatsApp 联系 ✅ (已配对 8618358008400)")
     print(f"   使用指南：查看 '6 个 clawhub 技能使用指南.md'")
     print("=" * 60)
+    
+    # 💓 运行完成汇报
+    report_completion('nigeria-client-finder', len(clients) if clients else 0)
 
 if __name__ == '__main__':
     main()
+
+def report_completion(task_name, client_count=0):
+    """运行完成汇报"""
+    import subprocess
+    from datetime import datetime
+    
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    
+    if task_name == 'nigeria-client-finder':
+        message = f"""🇳🇬 尼日利亚客户开发任务完成！✅
+
+⏰ 时间：{timestamp}
+📊 客户数：{client_count} 个
+🎯 产品：五金产品（门把手、门锁、铰链等）
+🔗 网站：https://jh-hardware.com
+
+任务正常完成，客户文件已生成。"""
+    elif task_name == 'nigeria-send-afternoon':
+        message = f"""📧 尼日利亚 WhatsApp 发送任务完成！✅
+
+⏰ 时间：{timestamp}
+📊 发送数：{client_count} 条
+🎯 客户：五金产品精准客户
+📱 状态：自动发送成功
+
+开发信已成功发送给客户。"""
+    else:
+        message = f"✅ {task_name} 任务完成！\n⏰ {timestamp}"
+    
+    try:
+        # 使用 openclaw message send 发送汇报消息
+        result = subprocess.run([
+            'openclaw', 'message', 'send',
+            '--target', 'o9cq80-VOQWTsN3h5bn6gyR2IdY4@im.wechat',
+            '--message', message
+        ], capture_output=True, text=True, timeout=30)
+        
+        if result.returncode == 0:
+            print(f"✅ 汇报消息已发送")
+        else:
+            print(f"⚠️ 汇报消息发送失败: {result.stderr}")
+    except Exception as e:
+        print(f"⚠️ 汇报消息发送异常: {e}")
+

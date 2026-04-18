@@ -142,6 +142,7 @@
                 <p class="form-description">{{ if eq .Site.Language.Lang "zh" }}填写下方表单，我们将在 24 小时内回复您{{ else if eq .Site.Language.Lang "en" }}Fill out the form below and we'll respond within 24 hours{{ else }}املأ النموذج أدناه وسنرد خلال 24 ساعة{{ end }}</p>
                 
                 <form class="inquiry-form" action="https://formspree.io/f/xojpbpbj" method="POST">
+                    <input type="hidden" name="_next" value="{{ "/thanks" | relLangURL }}">
                     <div class="form-row">
                         <div class="form-group">
                             <label for="name">{{ if eq .Site.Language.Lang "zh" }}姓名 *{{ else if eq .Site.Language.Lang "en" }}Your Name *{{ else }}الاسم *{{ end }}</label>

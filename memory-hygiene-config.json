@@ -1,0 +1,12 @@
+{
+  "plugins": {
+    "entries": {
+      "memory-lancedb": {
+        "config": {
+          "autoCapture": false,
+          "autoRecall": true
+        }
+      }
+    }
+  }
+}
