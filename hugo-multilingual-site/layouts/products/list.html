@@ -58,6 +58,46 @@
                 <p>{{ if eq .Site.Language.Lang "zh" }}拉手、把手、连接件，厨房浴室适用{{ else if eq .Site.Language.Lang "en" }}Handles, knobs, connectors for kitchen and bathroom cabinets{{ else }}مقابض، موصلات للخزائن{{ end }}</p>
                 <a href="{{ "/products/cabinet-hardware/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
             </div>
+            
+            <!-- 钢管与法兰 -->
+            <div class="category-card">
+                <div class="category-icon">🏗️</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}钢管与法兰{{ else if eq .Site.Language.Lang "en" }}Steel Pipes & Flanges{{ else }}أنابيب الصلب والشفاه{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}无缝钢管、焊接钢管、法兰，建筑和工业用{{ else if eq .Site.Language.Lang "en" }}Seamless pipes, welded pipes, flanges for construction and industrial use{{ else }}أنابيب غير ملحومة، أنابيب ملحومة، شفاه{{ end }}</p>
+                <a href="{{ "/products/steel-pipes-flanges/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 建材 -->
+            <div class="category-card">
+                <div class="category-icon">🏠</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}建材{{ else if eq .Site.Language.Lang "en" }}Building Materials{{ else }}مواد البناء{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}胶粘剂、墙纸、防水涂料，环保耐用{{ else if eq .Site.Language.Lang "en" }}Adhesives, wallpapers, waterproofing coatings, eco-friendly and durable{{ else }}مواد لاصقة، ورق حائط، طلاء عزل مائي{{ end }}</p>
+                <a href="{{ "/products/building-materials/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 门配件 -->
+            <div class="category-card">
+                <div class="category-icon">🚪</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门配件{{ else if eq .Site.Language.Lang "en" }}Door Accessories{{ else }}إكسسوارات الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}门吸、闭门器、猫眼、安全链{{ else if eq .Site.Language.Lang "en" }}Door stoppers, closers, viewers, security chains{{ else }}مثبتات الأبواب، إغلاق الأبواب، عدسات{{ end }}</p>
+                <a href="{{ "/products/door-accessories/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 家具配件 -->
+            <div class="category-card">
+                <div class="category-icon">🛋️</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}家具配件{{ else if eq .Site.Language.Lang "en" }}Furniture Fittings{{ else }}تجهيزات الأثاث{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}家具把手、连接件、支撑脚、铰链{{ else if eq .Site.Language.Lang "en" }}Furniture handles, connectors, legs, hinges{{ else }}مقابض الأثاث، موصلات، أرجل، مفاصل{{ end }}</p>
+                <a href="{{ "/products/furniture-fittings/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 挂锁 -->
+            <div class="category-card">
+                <div class="category-icon">🔐</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}挂锁{{ else if eq .Site.Language.Lang "en" }}Padlocks{{ else }}أقفال القفل{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}重型矩形铁挂锁，实心黄铜锁芯，高安全性{{ else if eq .Site.Language.Lang "en" }}Heavy duty rectangle iron padlocks with solid brass cylinder, high security{{ else }}أقفال قفل حديدية ثقيلة مع أسطوانة نحاسية صلبة، أمان عالي{{ end }}</p>
+                <a href="{{ "/products/padlocks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
         </div>
         
         {{/* 如果是分类页面，显示该分类下的产品型号 */}}
