@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>尼日利亚客户开发仪表板</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header class="header">
+            <h1><i class="fas fa-chart-line"></i> 尼日利亚客户开发仪表板</h1>
+            <p>实时监控客户开发效果 · 智能优化跟进策略 · 数据驱动业务增长</p>
+        </header>
+
+        <!-- 刷新按钮 -->
+        <button class="refresh-btn" id="refresh-btn">
+            <i class="fas fa-sync-alt"></i> 刷新数据
+        </button>
+
+        <!-- 核心指标卡片 -->
+        <div class="grid-3">
+            <div class="card stat-card">
+                <div class="stat-number" id="total-clients">--</div>
+                <div class="stat-label">总客户数</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-number" id="new-clients">--</div>
+                <div class="stat-label">今日新增</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-number" id="high-potential">--</div>
+                <div class="stat-label">高潜力客户</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-number" id="large-clients">--</div>
+                <div class="stat-label">大客户数量</div>
+            </div>
+        </div>
+
+        <!-- 主要内容区域 -->
+        <div class="grid-2">
+            <!-- 地理分布 -->
+            <div class="card">
+                <h3 class="card-title"><i class="fas fa-map-marked-alt"></i> 客户地理分布</h3>
+                <div class="chart-container" id="geographic-chart">
+                    <div class="loading">加载中...</div>
+                </div>
+            </div>
+
+            <!-- A/B测试结果 -->
+            <div class="card">
+                <h3 class="card-title"><i class="fas fa-a"></i> A/B测试效果对比</h3>
+                <div class="chart-container" id="ab-test-chart">
+                    <div class="loading">加载中...</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 产品分布 -->
+        <div class="card">
+            <h3 class="card-title"><i class="fas fa-boxes"></i> 产品线客户分布</h3>
+            <div class="chart-container" id="product-chart">
+                <div class="loading">加载中...</div>
+            </div>
+        </div>
+
+        <!-- 竞争对手价格分析 -->
+        <div class="card">
+            <h3 class="card-title"><i class="fas fa-dollar-sign"></i> 竞争对手价格对比</h3>
+            <div class="chart-container" id="pricing-chart">
+                <div class="loading">加载中...</div>
+            </div>
+        </div>
+
+        <!-- 最佳联系时机 -->
+        <div class="card">
+            <h3 class="card-title"><i class="fas fa-clock"></i> 最佳联系时机建议</h3>
+            <div class="timing-content">
+                <h4>📅 推荐联系时间</h4>
+                <p><strong>最佳日期:</strong> 周一至周四</p>
+                <p><strong>最佳时段:</strong> 10:00 - 16:00 (拉各斯时间)</p>
+                <p><strong>避免时间:</strong> 周五、周末、当地节假日</p>
+                
+                <h4 style="margin-top: 20px;">🎉 即将到来的节假日</h4>
+                <ul>
+                    <li>2026-05-01 - Labour Day</li>
+                    <li>2026-06-03 - Eid al-Fitr</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>尼日利亚客户开发仪表板 v1.0 · 数据更新时间: <span id="last-update">--</span></p>
+        </footer>
+    </div>
+
+    <script src="js/charts.js"></script>
+    <script>
+        // 更新最后更新时间
+        document.getElementById('last-update').textContent = new Date().toLocaleString('zh-CN');
+    </script>
+</body>
+</html>

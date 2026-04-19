@@ -796,6 +796,41 @@ function predictPrice(klines) {
 
 // ============ 报告生成 ============
 
+// 优化入场时机建议
+function getEntryAdvice(a4h, fearGreed) {
+  if (!a4h) return '等待 K 线数据';
+  
+  const { rsi, macdSignal, currentPrice, pivots } = a4h;
+  const fg = fearGreed.value;
+  
+  // 计算满足的多头条件数量
+  let bullConditions = 0;
+  if (rsi < 40) bullConditions++;
+  if (currentPrice <= pivots.s1 * 1.02) bullConditions++;
+  if (macdSignal === '多头') bullConditions++;
+  if (fg < 30) bullConditions++;
+  
+  // 计算满足的空头条件数量
+  let bearConditions = 0;
+  if (rsi > 60) bearConditions++;
+  if (currentPrice >= pivots.r1 * 0.98) bearConditions++;
+  if (macdSignal === '空头') bearConditions++;
+  if (fg > 70) bearConditions++;
+  
+  // 判断最佳入场时机
+  if (bullConditions >= 3) {
+    return '🟢 多头入场时机良好！可分批建仓';
+  } else if (bearConditions >= 3) {
+    return '🔴 空头入场时机良好！可分批建仓';
+  } else if (bullConditions >= 2) {
+    return '🟡 多头条件部分满足，可轻仓试多';
+  } else if (bearConditions >= 2) {
+    return '🟡 空头条件部分满足，可轻仓试空';
+  } else {
+    return '⚪ 条件不充分，建议观望等待';
+  }
+}
+
 function formatTime() {
   const now = new Date();
   const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -998,6 +1033,19 @@ ${hasKlines && pivotSource ? `💡 五、实操策略建议
 ├─ 关键支撑：${a1d && a1d.pivots ? '$'+fmt(a1d.pivots.s2) : 'N/A'}
 ├─ 关键阻力：${a1d && a1d.pivots ? '$'+fmt(a1d.pivots.r2) : 'N/A'}
 └─ 仓位：${totalScore >= 4 ? '60-80%' : totalScore >= 2 ? '40-60%' : totalScore <= -4 ? '60-80% 空' : totalScore <= -2 ? '40-60% 空' : '20-30%'}
+
+🎯 优化入场时机
+├─ 多头入场条件:
+│  • RSI < 40 (超卖区) ✅ ${a4h && a4h.rsi < 40 ? '已满足' : '等待中'}
+│  • 价格触及支撑位 ✅ ${a4h && a4h.currentPrice <= a4h.pivots.s1 * 1.02 ? '已满足' : '等待中'}
+│  • MACD 金叉 ✅ ${a4h && a4h.macdSignal === '多头' ? '已满足' : '等待中'}
+│  • 恐惧贪婪 < 30 ✅ ${fearGreed.value < 30 ? '已满足' : '等待中'}
+├─ 空头入场条件:
+│  • RSI > 60 (超买区) ✅ ${a4h && a4h.rsi > 60 ? '已满足' : '等待中'}
+│  • 价格触及阻力位 ✅ ${a4h && a4h.currentPrice >= a4h.pivots.r1 * 0.98 ? '已满足' : '等待中'}
+│  • MACD 死叉 ✅ ${a4h && a4h.macdSignal === '空头' ? '已满足' : '等待中'}
+│  • 恐惧贪婪 > 70 ✅ ${fearGreed.value > 70 ? '已满足' : '等待中'}
+└─ 当前建议：${getEntryAdvice(a4h, fearGreed)}
 
 ⚠️ 风险警示
 ├─ 波动率：${volatility}% ${volatilityStatus}

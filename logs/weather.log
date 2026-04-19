@@ -152,3 +152,195 @@ jq: parse error: Invalid numeric literal at line 1, column 8
 ✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1776382219108-0e57efa8
 [2026-04-17 07:30:20] 天气推送成功 (微信)
 [2026-04-17 07:30:20] 脚本执行完成
+[2026-04-19 07:30:00] 开始获取天气预报...
+[2026-04-19 07:30:02] 天气数据获取成功
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+[plugins] imessage missing register/activate export
+[openclaw] Failed to start CLI: PluginLoadFailureError: plugin load failed: imessage: plugin export missing register/activate
+    at maybeThrowOnPluginLoadError (file:///opt/homebrew/lib/node_modules/openclaw/dist/loader-DYJR63Q1.js:2079:8)
+    at loadOpenClawPlugins (file:///opt/homebrew/lib/node_modules/openclaw/dist/loader-DYJR63Q1.js:2740:3)
+    at ensurePluginRegistryLoaded (file:///opt/homebrew/lib/node_modules/openclaw/dist/runtime-registry-loader-CL6oNH4F.js:65:2)
+    at ensureCliPluginRegistryLoaded (file:///opt/homebrew/lib/node_modules/openclaw/dist/plugin-registry-loader-tGFLU9fm.js:16:3)
+    at async ensureCliCommandBootstrap (file:///opt/homebrew/lib/node_modules/openclaw/dist/command-execution-startup-CEjgpnNN.js:23:2)
+    at async ensureCliExecutionBootstrap (file:///opt/homebrew/lib/node_modules/openclaw/dist/command-execution-startup-CEjgpnNN.js:253:2)
+    at async Object.callback (file:///opt/homebrew/lib/node_modules/openclaw/dist/program-n6MGRkkm.js:86:3)
+    at async Command.parseAsync (/opt/homebrew/lib/node_modules/openclaw/node_modules/commander/lib/command.js:1122:5)
+    at async runCli (file:///opt/homebrew/lib/node_modules/openclaw/dist/run-main-CWEXgPOd.js:463:4)
+[2026-04-19 07:30:16] 天气推送失败
+[2026-04-19 07:30:16] 脚本执行完成
+[2026-04-19 07:46:20] 开始获取天气预报...
+[2026-04-19 07:46:20] 错误：无法获取天气数据
+[2026/4/19 07:46:57] 开始获取天气预报...
+[2026/4/19 07:47:00] 天气数据获取成功
+[2026/4/19 07:51:34] 开始获取天气预报...
+[2026/4/19 07:51:35] 天气数据获取成功
+[2026/4/19 07:51:37] 发送消息失败：Command failed: node -e "
+const msg = process.argv[1];
+const { execSync } = require('child_process');
+try {
+    execSync(`openclaw message send -t '${process.argv[2]}' --channel openclaw-weixin --account '${process.argv[3]}' -m \`${msg}\``, { stdio: 'inherit' });
+} catch(e) {
+    console.error('发送失败:', e.message);
+    process.exit(1);
+}
+" "🌤️ 温州永嘉天气预报
+
+━━━━━━━━━━━━━━━━━━━━
+📍 当前实况 · 周日
+━━━━━━━━━━━━━━━━━━━━
+🌡️ 温度：17°C（体感 17°C）
+⛅ 天气：多云
+💧 湿度：93%
+💨 风向：SW 4km/h
+🌫️ 能见度：10km
+🎯 气压：1013hPa
+☁️ 云量：52%
+☀️ 紫外线：0
+
+━━━━━━━━━━━━━━━━━━━━
+📅 今天 · 04/19 周日
+━━━━━━━━━━━━━━━━━━━━
+🔺 最高温：27°C  🔻 最低温：17°C
+☀️ 天气：晴朗
+🌧️ 降雨概率：0%
+💧 平均湿度：undefined%
+🌅 日出：05:29  🌇 日落：18:24
+🌒 月相：Waxing Crescent
+🌙 月出：06:20  🌙 月落：20:39
+☀️ 紫外线指数：9
+
+━━━━━━━━━━━━━━━━━━━━
+📅 明天 · 04/20 周一
+━━━━━━━━━━━━━━━━━━━━
+🔺 最高温：28°C  🔻 最低温：17°C
+🌧️ 天气：局部有雨
+🌧️ 降雨概率：78%
+💧 平均湿度：undefined%
+🌅 日出：05:28  🌇 日落：18:25
+
+━━━━━━━━━━━━━━━━━━━━
+📅 后天 · 04/21 周二
+━━━━━━━━━━━━━━━━━━━━
+🔺 最高温：16°C  🔻 最低温：15°C
+🌧️ 天气：局部有雨
+🌧️ 降雨概率：100%
+💧 平均湿度：undefined%
+
+━━━━━━━━━━━━━━━━━━━━
+💡 生活指数建议
+━━━━━━━━━━━━━━━━━━━━
+👔 穿衣建议：☀️ 天气较热，建议穿短袖短裤，注意防暑
+☔ 防雨建议：🌈 降雨概率较低，天气较好
+🧴 防晒建议：⚠️ 紫外线很强，务必涂抹防晒霜，戴帽子和太阳镜
+
+━━━━━━━━━━━━━━━━━━━━
+🌸 黛玉的温馨小贴士
+━━━━━━━━━━━━━━━━━━━━
+• 早晚温差较大，注意适时增减衣物
+• 保持室内通风，空气清新
+• 多喝水，保持身体水分充足
+• 雨天路滑，出行注意安全
+• 保持好心情，迎接美好的一天！
+
+祝晓雷哥哥今天工作顺利，心情愉快！🌸
+黛玉一直陪着你～ 💕" "o9cq80-VOQWTsN3h5bn6gyR2IdY4@im.wechat" "ec25a54ce939-im-bot"
+error: option '-m, --message <text>' argument missing
+[eval]:5
+    execSync(, { stdio: 'inherit' });
+             ^
+Expression expected
+
+SyntaxError: Unexpected token ','
+    at makeContextifyScript (node:internal/vm:194:14)
+    at compileScript (node:internal/process/execution:388:10)
+    at evalTypeScript (node:internal/process/execution:260:22)
+    at node:internal/main/eval_string:71:3
+
+Node.js v24.4.1
+
+[2026/4/19 07:51:37] 天气推送失败 (微信)
+[2026/4/19 07:51:37] 脚本执行完成
+[2026/4/19 07:51:59] 开始获取天气预报...
+[2026/4/19 07:52:00] 天气数据获取成功
+[2026/4/19 07:52:05] 发送消息失败：Command failed: /opt/homebrew/bin/openclaw message send -t 'o9cq80-VOQWTsN3h5bn6gyR2IdY4@im.wechat' --channel openclaw-weixin --account 'ec25a54ce939-im-bot' -m '🌤️ 温州永嘉天气预报
+
+━━━━━━━━━━━━━━━━━━━━
+📍 当前实况 · 周日
+━━━━━━━━━━━━━━━━━━━━
+🌡️ 温度：17°C（体感 17°C）
+⛅ 天气：多云
+💧 湿度：93%
+💨 风向：SW 4km/h
+🌫️ 能见度：10km
+🎯 气压：1013hPa
+☁️ 云量：52%
+☀️ 紫外线：0
+
+━━━━━━━━━━━━━━━━━━━━
+📅 今天 · 04/19 周日
+━━━━━━━━━━━━━━━━━━━━
+🔺 最高温：27°C  🔻 最低温：17°C
+☀️ 天气：晴朗
+🌧️ 降雨概率：0%
+💧 平均湿度：undefined%
+🌅 日出：05:29  🌇 日落：18:24
+🌒 月相：Waxing Crescent
+🌙 月出：06:20  🌙 月落：20:39
+☀️ 紫外线指数：9
+
+━━━━━━━━━━━━━━━━━━━━
+📅 明天 · 04/20 周一
+━━━━━━━━━━━━━━━━━━━━
+🔺 最高温：28°C  🔻 最低温：17°C
+🌧️ 天气：局部有雨
+🌧️ 降雨概率：78%
+💧 平均湿度：undefined%
+🌅 日出：05:28  🌇 日落：18:25
+
+━━━━━━━━━━━━━━━━━━━━
+📅 后天 · 04/21 周二
+━━━━━━━━━━━━━━━━━━━━
+🔺 最高温：16°C  🔻 最低温：15°C
+🌧️ 天气：局部有雨
+🌧️ 降雨概率：100%
+💧 平均湿度：undefined%
+
+━━━━━━━━━━━━━━━━━━━━
+💡 生活指数建议
+━━━━━━━━━━━━━━━━━━━━
+👔 穿衣建议：☀️ 天气较热，建议穿短袖短裤，注意防暑
+☔ 防雨建议：🌈 降雨概率较低，天气较好
+🧴 防晒建议：⚠️ 紫外线很强，务必涂抹防晒霜，戴帽子和太阳镜
+
+━━━━━━━━━━━━━━━━━━━━
+🌸 黛玉的温馨小贴士
+━━━━━━━━━━━━━━━━━━━━
+• 早晚温差较大，注意适时增减衣物
+• 保持室内通风，空气清新
+• 多喝水，保持身体水分充足
+• 雨天路滑，出行注意安全
+• 保持好心情，迎接美好的一天！
+
+祝晓雷哥哥今天工作顺利，心情愉快！🌸
+黛玉一直陪着你～ 💕'
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-weixin (/Users/zhuxiaolei/.openclaw/extensions/openclaw-weixin/index.ts). Set plugins.allow to explicit trusted ids.
+[plugins] imessage missing register/activate export
+[openclaw] Failed to start CLI: PluginLoadFailureError: plugin load failed: imessage: plugin export missing register/activate
+    at maybeThrowOnPluginLoadError (file:///opt/homebrew/lib/node_modules/openclaw/dist/loader-DYJR63Q1.js:2079:8)
+    at loadOpenClawPlugins (file:///opt/homebrew/lib/node_modules/openclaw/dist/loader-DYJR63Q1.js:2740:3)
+    at ensurePluginRegistryLoaded (file:///opt/homebrew/lib/node_modules/openclaw/dist/runtime-registry-loader-CL6oNH4F.js:65:2)
+    at ensureCliPluginRegistryLoaded (file:///opt/homebrew/lib/node_modules/openclaw/dist/plugin-registry-loader-tGFLU9fm.js:16:3)
+    at async ensureCliCommandBootstrap (file:///opt/homebrew/lib/node_modules/openclaw/dist/command-execution-startup-CEjgpnNN.js:23:2)
+    at async ensureCliExecutionBootstrap (file:///opt/homebrew/lib/node_modules/openclaw/dist/command-execution-startup-CEjgpnNN.js:253:2)
+    at async Object.callback (file:///opt/homebrew/lib/node_modules/openclaw/dist/program-n6MGRkkm.js:86:3)
+    at async Command.parseAsync (/opt/homebrew/lib/node_modules/openclaw/node_modules/commander/lib/command.js:1122:5)
+    at async runCli (file:///opt/homebrew/lib/node_modules/openclaw/dist/run-main-CWEXgPOd.js:463:4)
+
+[2026/4/19 07:52:05] 天气推送失败 (微信)
+[2026/4/19 07:52:05] 脚本执行完成
+[2026/4/19 07:52:18] 开始获取天气预报...
+[2026/4/19 07:52:19] 天气数据获取成功
+[2026/4/19 07:52:24] 发送结果：✅ Sent via openclaw-weixin. Message ID: openclaw-weixin:1776556344392-b7dc754e
+
+[2026/4/19 07:52:24] 天气推送成功 (微信)
+[2026/4/19 07:52:24] 脚本执行完成

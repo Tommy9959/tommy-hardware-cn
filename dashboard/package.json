@@ -1,0 +1,24 @@
+{
+  "name": "nigeria-customer-dashboard",
+  "version": "1.0.0",
+  "description": "尼日利亚客户开发可视化仪表板",
+  "main": "api/data-api.js",
+  "scripts": {
+    "start": "node api/data-api.js",
+    "dev": "nodemon api/data-api.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "nigeria",
+    "customer",
+    "dashboard",
+    "visualization"
+  ],
+  "author": "林黛玉",
+  "license": "MIT"
+}

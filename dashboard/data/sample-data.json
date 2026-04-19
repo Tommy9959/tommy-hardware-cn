@@ -1,0 +1,55 @@
+{
+  "client_summary": {
+    "total_clients": 127,
+    "new_clients_today": 8,
+    "high_potential": 45,
+    "medium_potential": 62,
+    "low_potential": 20,
+    "large_clients": 38,
+    "small_clients": 89
+  },
+  "geographic_data": {
+    "cities": [
+      {"city": "Lagos", "clients": 52, "lat": 6.5244, "lng": 3.3792},
+      {"city": "Abuja", "clients": 23, "lat": 9.0765, "lng": 7.3986},
+      {"city": "Port Harcourt", "clients": 15, "lat": 4.8156, "lng": 7.0498},
+      {"city": "Kano", "clients": 12, "lat": 12.0022, "lng": 8.5920},
+      {"city": "Ibadan", "clients": 8, "lat": 7.3775, "lng": 3.9470},
+      {"city": "Benin City", "clients": 6, "lat": 6.3350, "lng": 5.6037},
+      {"city": "Other", "clients": 11, "lat": 8.0, "lng": 5.0}
+    ]
+  },
+  "ab_test_results": {
+    "template_a": {
+      "sent": 85,
+      "replied": 23,
+      "reply_rate": 27.1,
+      "avg_response_time": "8.2 hours"
+    },
+    "template_b": {
+      "sent": 42,
+      "replied": 18,
+      "reply_rate": 42.9,
+      "avg_response_time": "5.4 hours"
+    }
+  },
+  "competitor_pricing": {
+    "categories": ["Door Handles", "Door Locks", "Hinges", "Sliding Tracks"],
+    "alibaba_prices": [3.2, 4.1, 1.8, 2.5],
+    "local_prices": [2.8, 3.6, 1.5, 2.2],
+    "our_prices": [2.1, 2.8, 1.2, 1.8]
+  },
+  "optimal_timing": {
+    "best_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+    "best_hours": [10, 11, 12, 13, 14, 15, 16],
+    "upcoming_holidays": [
+      {"date": "2026-05-01", "name": "Labour Day"},
+      {"date": "2026-06-03", "name": "Eid al-Fitr"}
+    ]
+  },
+  "product_distribution": {
+    "door_hardware": 68,
+    "furniture_hardware": 35,
+    "building_materials": 24
+  }
+}

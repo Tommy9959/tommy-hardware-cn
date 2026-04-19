@@ -11,8 +11,6 @@ LOCATION="温州永嘉"
 # 微信推送配置
 WECHAT_USER="o9cq80-VOQWTsN3h5bn6gyR2IdY4@im.wechat"
 ACCOUNT_ID="ec25a54ce939-im-bot"
-# iMessage 配置（保留备用）
-IMSG_TO="+8618358008400"
 
 # 记录日志
 log() {
