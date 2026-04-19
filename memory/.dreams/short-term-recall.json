@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-18T19:00:00.079Z",
+  "updatedAt": "2026-04-19T13:30:22.565Z",
   "entries": {
     "memory:memory/2026-04-08.md:6:9": {
       "key": "memory:memory/2026-04-08.md:6:9",
@@ -152945,6 +152945,37 @@
         "脚本",
         "工作",
         "测试"
+      ]
+    },
+    "memory:memory/2026-04-17.md:46:67": {
+      "key": "memory:memory/2026-04-17.md:46:67",
+      "path": "memory/2026-04-17.md",
+      "startLine": 46,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "- recalls: 0 - status: staged - Candidate: Assistant: 主人，黛玉发现已经有 15 个客户数据了！让黛玉整理一份**重点客户开发清单**给您： - confidence: 0.58 - evidence: memory/.dreams/session-corpus/2026-04-16.txt:139-139 - recalls: 0 - status: staged - Candidate: Assistant: 主人，**客户开发清单已生成！** 🌸 --- ## 📊 开发成果总结 ### ✅ 已完成 1. **安装了 9 个 ClawHub 技能** - 客户开发类：4 个 - 市场分析类：3 个 - WhatsApp 类：2 个 2. **优化了尼日利亚客户脚本** - 整合 6 个 ClawHub 技能 - 生成使用指南 - 15 个搜索/分析渠道 3. **生成了客户清单** - 🔥 **HOT 客户：5 个**（立即联系） - ⚡ **WARM 客户：6 个**（本周联系） - 📋 **WATCHLIST：4 个**（保持 - confidence: 0.58 - evidence: memory/.dreams/session-corpus/2026-04-16.txt:140-140 - recalls: 0 - status: staged - Candidate: User: System (untrusted): [2026-04-16 16:34:38",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-19T13:30:22.565Z",
+      "lastRecalledAt": "2026-04-19T13:30:22.565Z",
+      "queryHashes": [
+        "bf7df42b1e11"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "0.58",
+        "139-139",
+        "个搜索/分析渠道",
+        "140-140",
+        "recalls",
+        "status",
+        "staged",
+        "candidate"
       ]
     }
   }
