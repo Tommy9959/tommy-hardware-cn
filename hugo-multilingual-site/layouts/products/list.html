@@ -2,11 +2,29 @@
 <!-- 产品列表页 -->
 <section class="products-list-page">
     <div class="container">
+        <!-- 面包屑导航 -->
+        {{ if not (or (eq .RelPermalink "/products/") (eq .RelPermalink "/en/products/") (eq .RelPermalink "/zh/products/") (eq .RelPermalink "/ar/products/")) }}
+        <nav class="breadcrumb">
+            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}</a>
+            <span> / </span>
+            <a href="{{ "/products/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}产品中心{{ else if eq .Site.Language.Lang "en" }}Products{{ else }}المنتجات{{ end }}</a>
+            <span> / </span>
+            <span>{{ .Title }}</span>
+        </nav>
+        {{ end }}
+
         <!-- 页面标题 -->
         <div class="page-header">
             <h1 class="page-title">{{ .Title }}</h1>
             <p class="page-subtitle">{{ .Params.description }}</p>
         </div>
+
+        {{/* 分类介绍内容（如挂锁分类有详细介绍） */}}
+        {{ if .Content }}
+        <div class="category-intro">
+            {{ .Content }}
+        </div>
+        {{ end }}
 
         {{/* 如果是/products/页面，显示 6 大分类 */}}
         {{ if or (eq .RelPermalink "/products/") (eq .RelPermalink "/en/products/") (eq .RelPermalink "/zh/products/") (eq .RelPermalink "/ar/products/") }}
@@ -137,6 +155,17 @@
 
 <style>
 .products-list-page { padding: 4rem 0; min-height: 60vh; }
+.breadcrumb { margin-bottom: 2rem; padding: 1rem 0; font-size: 0.95rem; }
+.breadcrumb a { color: var(--primary-color); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb span { color: var(--text-light); }
+.category-intro { margin-bottom: 3rem; line-height: 1.8; color: var(--text-color); }
+.category-intro h2 { font-size: 1.8rem; color: var(--secondary-color); margin: 2rem 0 1rem; }
+.category-intro h3 { font-size: 1.4rem; color: var(--secondary-color); margin: 1.5rem 0 0.75rem; }
+.category-intro h4 { font-size: 1.1rem; color: var(--secondary-color); margin: 1rem 0 0.5rem; }
+.category-intro a { color: var(--primary-color); text-decoration: none; font-weight: 600; }
+.category-intro a:hover { text-decoration: underline; }
+.category-intro p { margin-bottom: 1rem; }
 .page-header { text-align: center; margin-bottom: 3rem; }
 .page-title { font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 1rem; }
 .page-subtitle { font-size: 1.1rem; color: var(--text-light); }
