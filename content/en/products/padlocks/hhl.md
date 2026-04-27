@@ -19,9 +19,9 @@ High quality Heavy Duty Rectangle Iron Padlock. Factory direct supply, competiti
 | Model | Size(mm) | Lock Body(mm) | Shackle(mm) | Weight(g) | Qty/Ctn | Price(USD) |
 |-------|----------|--------------|-------------|-----------|---------|------------|
 
-| RD-HHL74 | 74 | 74*70*29 | 12.8mm | - | 24 | $2.4 |
-| RD-HHL84 | 84 | 84*70*29 | 12.8mm | 956g | 24 | $2.59 |
-| RD-HHL94 | 94 | 94*70*29 | 12.8mm | 1050g | 24 | $2.71 |
+| RD-HHL74 | 74 | 74x70x29 | 12.8mm | - | 24 | $2.4 |
+| RD-HHL84 | 84 | 84x70x29 | 12.8mm | 956g | 24 | $2.59 |
+| RD-HHL94 | 94 | 94x70x29 | 12.8mm | 1050g | 24 | $2.71 |
 
 
 ## Features

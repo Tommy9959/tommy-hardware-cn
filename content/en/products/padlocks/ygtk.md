@@ -19,7 +19,7 @@ High quality WaterProof Round Steel Padlock. Factory direct supply, competitive 
 | Model | Size(mm) | Lock Body(mm) | Shackle(mm) | Weight(g) | Qty/Ctn | Price(USD) |
 |-------|----------|--------------|-------------|-----------|---------|------------|
 
-| RD-YGTK70L | L70 | 71*56*31 | 10.5mm | 568g | 36 | $2.32 |
+| RD-YGTK70L | L70 | 71x56x31 | 10.5mm | 568g | 36 | $2.32 |
 
 
 ## Features
