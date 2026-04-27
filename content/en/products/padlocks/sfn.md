@@ -18,7 +18,6 @@ High quality Golden Square Iron Padlock. Factory direct supply, competitive pric
 ## Models & Pricing
 | Model | Size(mm) | Lock Body(mm) | Shackle(mm) | Weight(g) | Qty/Ctn | Price(USD) |
 |-------|----------|--------------|-------------|-----------|---------|------------|
-
 | RD-SFN32 | 32 | 32x29x14 | 5mm | 97g | 192 | $0.5 |
 | RD-SFN38 | 38 | 38x35x15 | 6mm | 144g | 144 | $0.62 |
 | RD-SFN50 | 50 | 48x40x18 | 8mm | 263g | 96 | $0.89 |

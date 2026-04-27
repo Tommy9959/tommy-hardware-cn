@@ -18,7 +18,6 @@ High quality Imitate Brass Hammer Padlock. Factory direct supply, competitive pr
 ## Models & Pricing
 | Model | Size(mm) | Lock Body(mm) | Shackle(mm) | Weight(g) | Qty/Ctn | Price(USD) |
 |-------|----------|--------------|-------------|-----------|---------|------------|
-
 | RD-LTN30 | 30 | 30x20x20 | 4.3mm | - | 144 | $0.64 |
 | RD-LTN40 | 40 | 40x24x24 | 6.3mm | 134g | 96 | $0.83 |
 | RD-LTN50 | 50 | 50x27x27 | 7.7mm | 210g | 72 | $1.02 |

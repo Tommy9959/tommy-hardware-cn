@@ -18,7 +18,6 @@ High quality Nickle Round Side Iron Padlock. Factory direct supply, competitive 
 ## Models & Pricing
 | Model | Size(mm) | Lock Body(mm) | Shackle(mm) | Weight(g) | Qty/Ctn | Price(USD) |
 |-------|----------|--------------|-------------|-----------|---------|------------|
-
 | RD-YJN32 | 32 | 32x29x14 | 5mm | 90g | 192 | $0.5 |
 | RD-YJN38 | 38 | 38x35x15 | 6mm | 137g | 144 | $0.62 |
 | RD-YJN50 | 50 | 48x40x18 | 8mm | 246g | 96 | $0.89 |

@@ -18,7 +18,6 @@ High quality WaterProof Padlock With Plastic Cover. Factory direct supply, compe
 ## Models & Pricing
 | Model | Size(mm) | Lock Body(mm) | Shackle(mm) | Weight(g) | Qty/Ctn | Price(USD) |
 |-------|----------|--------------|-------------|-----------|---------|------------|
-
 | RD-GTK45 | 45 | 46x40x24 | 6.8mm | 165g | 96 | $0.94 |
 | RD-GTK55 | 55 | 57x48x28 | 8.5mm | 315g | 72 | $1.32 |
 | RD-GTK70 | 70 | 71x56x32 | 10mm | 541g | 48 | $1.79 |

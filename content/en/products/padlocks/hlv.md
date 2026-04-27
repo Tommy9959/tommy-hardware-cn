@@ -18,7 +18,6 @@ High quality Cr-Plated Rectangular Iron Padlock - Vane Key. Factory direct suppl
 ## Models & Pricing
 | Model | Size(mm) | Lock Body(mm) | Shackle(mm) | Weight(g) | Qty/Ctn | Price(USD) |
 |-------|----------|--------------|-------------|-----------|---------|------------|
-
 | RD-HLV50 | 50 | 50x46x17 | 8mm | 215g | 72 | $0.94 |
 | RD-HLV60 | 60 | 60x46x17 | 8mm | 246g | 72 | $1.08 |
 | RD-HLV70 | 70 | 69x50x18 | 10mm | 343g | 72 | $1.28 |
