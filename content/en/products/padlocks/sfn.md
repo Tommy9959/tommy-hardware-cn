@@ -1,5 +1,5 @@
 ---
-title: "Golden Square Iron Padlock - Golden Square Iron Padlock"
+title: "SFN - Golden Square Iron Padlock"
 description: "High quality Golden Square Iron Padlock. Factory direct supply, competitive prices."
 image: "/images/products/padlocks/sfn.png"
 ---

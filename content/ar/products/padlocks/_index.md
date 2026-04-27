@@ -1,5 +1,5 @@
 ---
-title: "أقفال - أقفال حديدية ثقيلة وأقفال مقاومة للماء لأفريقيا"
+title: "أقفال - أقفال حديدية ثقيلة وأقفال مقاومة للماء"
 description: "Browse our complete collection of padlock models. Factory direct supply."
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "CR-Plated Square Iron Padlock - Vane Key - CR-Plated Square Iron Padlock - Vane Key"
+title: "SF - CR-Plated Square Iron Padlock (Vane Key)"
 description: "High quality CR-Plated Square Iron Padlock - Vane Key. Factory direct supply, competitive prices."
 image: "/images/products/padlocks/sf.png"
 ---

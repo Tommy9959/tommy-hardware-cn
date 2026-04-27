@@ -1,5 +1,5 @@
 ---
-title: "Nickle Round Side Iron Padlock - Nickle Round Side Iron Padlock"
+title: "YJN - Nickle Round Side Iron Padlock"
 description: "High quality Nickle Round Side Iron Padlock. Factory direct supply, competitive prices."
 image: "/images/products/padlocks/yjn.png"
 ---

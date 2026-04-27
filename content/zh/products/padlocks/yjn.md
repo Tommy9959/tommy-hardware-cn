@@ -1,5 +1,5 @@
 ---
-title: "大圆角直开亚光挂锁 - 大圆角直开亚光挂锁"
+title: "YJN - 大圆角直开亚光挂锁"
 description: "高品质大圆角直开亚光挂锁。工厂直供，价格优惠。"
 image: "/images/products/padlocks/yjn.png"
 ---
