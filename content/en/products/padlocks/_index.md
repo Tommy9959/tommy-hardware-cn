@@ -1,5 +1,5 @@
 ---
-title: "Padlocks - Heavy Duty Iron, Brass & Waterproof Padlocks for Africa"
+title: "Padlocks"
 description: "Browse our complete collection of padlock models. Factory direct supply."
 ---
 

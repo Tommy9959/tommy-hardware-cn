@@ -1,6 +1,6 @@
 ---
-title: "挂锁 - 重型铁挂锁、防水挂锁、铜挂锁"
-description: "Browse our complete collection of padlock models. Factory direct supply."
+title: "挂锁"
+description: "浏览全部挂锁产品系列，工厂直供"
 ---
 
 # 挂锁产品系列

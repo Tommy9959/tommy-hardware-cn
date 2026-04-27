@@ -1,6 +1,6 @@
 ---
-title: "أقفال - أقفال حديدية ثقيلة وأقفال مقاومة للماء"
-description: "Browse our complete collection of padlock models. Factory direct supply."
+title: "أقفال"
+description: "تصفح جميع منتجات الأقفال"
 ---
 
 # الأقفال
