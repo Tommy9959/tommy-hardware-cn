@@ -1,53 +1,29 @@
 ---
-title: "钢管与法兰 - 建筑五金供应商"
-description: "高品质钢管和法兰，用于建筑和工业。工厂直销，出口尼日利亚、迪拜、非洲。"
-keywords: "钢管，法兰，建筑管材，工业管材，建筑材料，尼日利亚进口，迪拜五金，非洲出口"
-author: "义乌水汇进出口有限公司"
-canonical: "https://jh-hardware.com/zh/products/steel-pipes-flanges/"
-robots: "index, follow"
+title: "钢管与法兰"
+description: "高品质钢管和法兰，适用于建筑和工业用途"
+products:
+  - model: "SP-001"
+    name: "Seamless Steel Pipe 1/2""
+    material: "Carbon Steel A106"
+    finish: "Black / Galvanized"
+  - model: "SP-002"
+    name: "Welded Steel Pipe 3/4""
+    material: "Carbon Steel A53"
+    finish: "Black / Galvanized"
+  - model: "SP-003"
+    name: "Slip-on Flange PN16"
+    material: "Carbon Steel A105"
+    finish: "Black / Coated"
+  - model: "SP-004"
+    name: "Square Steel Tube 20x20"
+    material: "Q235 Steel"
+    finish: "Black / Galvanized"
+  - model: "SP-005"
+    name: "Blind Flange PN10"
+    material: "Carbon Steel A105"
+    finish: "Black"
+  - model: "SP-006"
+    name: "Galvanized Pipe 1""
+    material: "Galvanized Steel"
+    finish: "Silver"
 ---
-
-# 钢管与法兰
-
-专业的钢管和法兰供应商，适用于建筑和工业应用。
-
-## 产品范围
-
-### 钢管
-- 无缝钢管
-- 焊接钢管
-- 镀锌钢管
-- 方形钢管
-- 圆形钢管
-
-### 法兰
-- 平焊法兰
-- 对焊法兰
-- 盲板法兰
-- 螺纹法兰
-- 承插焊法兰
-
-## 规格参数
-
-| 产品 | 材质 | 尺寸范围 | 标准 |
-|------|------|----------|------|
-| 钢管 | Q235, Q345, 20#, 45# | DN15-DN2000 | GB, ASTM, DIN |
-| 法兰 | Q235, 20#, 304, 316 | DN10-DN4000 | GB, ANSI, DIN, JIS |
-
-## 应用领域
-
-- 建筑施工
-- 石油天然气行业
-- 供水系统
-- 化工行业
-- 发电厂
-
-## 选择我们的理由
-
-✅ 工厂直销价格
-✅ 质量认证（ISO 9001）
-✅ 可提供第三方检测
-✅ 快速交货（15-25 天）
-✅ 丰富的非洲和中东出口经验
-
-[联系我们](/zh/contact/)获取批发价格和产品目录。

@@ -1,69 +1,29 @@
 ---
-title: "Furniture Fittings - Complete Furniture Hardware Solutions"
-description: "Professional furniture fittings including handles, connectors, supports, and accessories. Factory direct supply to Nigeria, Dubai, Africa."
-keywords: "furniture fittings, furniture handles, furniture connectors, furniture legs, cabinet accessories, furniture hardware, Nigeria importer, Dubai furniture parts"
-author: "Yiwu Shuihui Import & Export Co., Ltd."
-canonical: "https://jh-hardware.com/en/products/furniture-fittings/"
-robots: "index, follow"
+title: "Furniture Fittings"
+description: "Professional furniture fittings including handles, connectors, supports, and accessories."
+products:
+  - model: "FF-001"
+    name: "Furniture Handle Aluminum"
+    material: "Aluminum Alloy"
+    finish: "Silver / Black"
+  - model: "FF-002"
+    name: "Furniture Connector Cam"
+    material: "Zinc Alloy + Plastic"
+    finish: "Nickel / Black"
+  - model: "FF-003"
+    name: "Furniture Support Leg"
+    material: "Steel + Plastic"
+    finish: "Chrome / Black"
+  - model: "FF-004"
+    name: "Furniture Hinge Concealed"
+    material: "Cold Rolled Steel"
+    finish: "Nickel / Bronze"
+  - model: "FF-005"
+    name: "Drawer Lock Cam"
+    material: "Zinc Alloy"
+    finish: "Chrome / Brass"
+  - model: "FF-006"
+    name: "Furniture Magnet Catch"
+    material: "Magnet + Plastic"
+    finish: "White / Brown"
 ---
-
-# Furniture Fittings
-
-Complete range of furniture fittings and hardware for all types of furniture.
-
-## Product Range
-
-### Furniture Handles & Knobs
-- Cabinet Handles
-- Drawer Pulls
-- Furniture Knobs
-- Edge Pulls
-- Recessed Handles
-
-### Furniture Connectors
-- Cam Locks
-- Dowel Pins
-- Corner Brackets
-- Shelf Supports
-- Connecting Bolts
-
-### Furniture Supports
-- Table Legs
-- Cabinet Legs
-- Adjustable Feet
-- Sofa Supports
-- Bed Frame Fittings
-
-### Other Furniture Fittings
-- Drawer Slides
-- Hinges (Concealed, Surface)
-- Gas Struts
-- Clothes Rails
-- Basket Systems
-
-## Specifications
-
-| Product | Material | Finish | Application |
-|---------|----------|--------|-------------|
-| Handles | Zinc Alloy, Aluminum | Chrome, Black, Gold | Cabinets, drawers |
-| Connectors | Steel, Zinc Plated | Silver, Black | Furniture assembly |
-| Legs | Steel, Wood, Plastic | Various | Tables, cabinets, sofas |
-| Hinges | Steel, Stainless | Nickel, Bronze | Cabinet doors |
-
-## Features
-
-✅ Modern Designs
-✅ Durable Materials
-✅ Easy Installation
-✅ Multiple Finishes
-✅ Suitable for All Furniture Types
-
-## Applications
-
-- Kitchen Cabinets
-- Bedroom Furniture
-- Office Furniture
-- Living Room Furniture
-- Commercial Furniture
-
-[Contact us](/contact/) for wholesale pricing and product catalog.
