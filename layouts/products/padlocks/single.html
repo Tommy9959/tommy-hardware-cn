@@ -1,0 +1,101 @@
+{{ define "main" }}
+<article class="padlock-series">
+    <div class="container">
+        <nav class="breadcrumb">
+            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}</a>
+            <span> / </span>
+            <a href="{{ "/products/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}产品中心{{ else if eq .Site.Language.Lang "en" }}Products{{ else }}المنتجات{{ end }}</a>
+            <span> / </span>
+            <a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a>
+            <span> / </span>
+            <span>{{ .Title }}</span>
+        </nav>
+
+        <div class="product-content">
+            <div class="product-images">
+                <div class="main-image">
+                    {{ if .Params.image }}
+                    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" title="{{ .Title }}" loading="lazy" style="max-width: 100%; height: auto;">
+                    {{ else }}
+                    <img src="/images/products/placeholder.svg" alt="{{ .Title }}" title="{{ .Title }}" loading="lazy" style="max-width: 100%; height: auto;">
+                    {{ end }}
+                </div>
+                <div class="thumbnail-grid">
+                    <div class="thumbnail active">1</div>
+                    <div class="thumbnail">2</div>
+                    <div class="thumbnail">3</div>
+                    <div class="thumbnail">4</div>
+                </div>
+            </div>
+
+            <div class="product-info">
+                <h1 class="product-title">{{ .Title }}</h1>
+
+                <div class="product-highlights">
+                    <h3>{{ if eq .Site.Language.Lang "zh" }}产品亮点{{ else if eq .Site.Language.Lang "en" }}Product Highlights{{ else }}مميزات المنتج{{ end }}</h3>
+                    <ul>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}工厂直销，价格优惠{{ else if eq .Site.Language.Lang "en" }}Factory direct, best prices{{ else }}المصنع مباشرة{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}高质量材料，耐用可靠{{ else if eq .Site.Language.Lang "en" }}High quality materials{{ else }}جودة عالية{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}支持定制，OEM/ODM{{ else if eq .Site.Language.Lang "en" }}Custom design accepted{{ else }}تصميم مخصص{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}快速交货 15-25 天{{ else if eq .Site.Language.Lang "en" }}Fast delivery 15-25 days{{ else }}تسليم سريع{{ end }}</li>
+                    </ul>
+                </div>
+
+                <div class="inquiry-buttons">
+                    <a href="https://wa.me/{{ .Site.Params.whatsapp }}?text=I'm interested in {{ .Title }}" class="btn btn-primary" target="_blank">💬 WhatsApp</a>
+                    <a href="{{ "/contact/" | relLangURL }}" class="btn btn-secondary">{{ if eq .Site.Language.Lang "zh" }}询价{{ else if eq .Site.Language.Lang "en" }}Inquire Now{{ else }}استفسار{{ end }}</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="series-content">
+            {{ .Content }}
+        </div>
+
+        <div class="contact-cta">
+            <h2>{{ if eq .Site.Language.Lang "zh" }}获取免费样品和报价{{ else if eq .Site.Language.Lang "en" }}Get Free Samples & Quote{{ else }}احصل على عينات مجانية{{ end }}</h2>
+            <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else if eq .Site.Language.Lang "en" }}Contact now, reply within 2 hours{{ else }}اتصل الآن{{ end }}</p>
+            <div class="contact-methods">
+                <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="contact-btn whatsapp" target="_blank">💬 WhatsApp: {{ .Site.Params.whatsapp }}</a>
+                <a href="mailto:{{ .Site.Params.email }}" class="contact-btn email">📧 {{ .Site.Params.email }}</a>
+            </div>
+        </div>
+    </div>
+</article>
+<style>
+.padlock-series { padding: 2rem 0 4rem; }
+.padlock-series .breadcrumb { margin-bottom: 2rem; font-size: 0.9rem; color: var(--text-light); }
+.padlock-series .breadcrumb a { color: var(--primary-color); text-decoration: none; }
+.padlock-series .product-content { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 2rem; }
+.padlock-series .product-images { position: sticky; top: 2rem; }
+.padlock-series .main-image { background: #f8f9fa; border-radius: var(--radius-lg); padding: 3rem; margin-bottom: 1rem; min-height: 400px; display: flex; align-items: center; justify-content: center; }
+.padlock-series .thumbnail-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5rem; }
+.padlock-series .thumbnail { aspect-ratio: 1; background: #f0f0f0; border-radius: var(--radius); display: flex; align-items: center; justify-content: center; cursor: pointer; border: 2px solid transparent; transition: all 0.3s; }
+.padlock-series .thumbnail:hover, .padlock-series .thumbnail.active { border-color: var(--primary-color); }
+.padlock-series .product-title { font-size: 2rem; color: var(--secondary-color); margin-bottom: 1.5rem; line-height: 1.3; }
+.padlock-series .product-highlights { margin: 2rem 0; padding: 1.5rem; background: #f0f7ff; border-radius: var(--radius); border-left: 4px solid var(--primary-color); }
+.padlock-series .product-highlights h3 { margin-bottom: 1rem; color: var(--secondary-color); }
+.padlock-series .product-highlights ul { list-style: none; padding: 0; }
+.padlock-series .product-highlights li { padding: 0.5rem 0; color: var(--text-color); }
+.padlock-series .inquiry-buttons { display: flex; gap: 1rem; margin-top: 2rem; }
+.padlock-series .series-content { margin: 2rem 0; }
+.padlock-series .series-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+.padlock-series .series-content th, .padlock-series .series-content td { padding: 0.75rem; border: 1px solid var(--border-color); text-align: center; }
+.padlock-series .series-content th { background: var(--primary-color); color: white; font-weight: 600; }
+.padlock-series .series-content tr:nth-child(even) { background: var(--bg-light); }
+.padlock-series .contact-cta { background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white; padding: 3rem 2rem; border-radius: var(--radius-lg); text-align: center; margin-top: 3rem; }
+.padlock-series .contact-cta h2 { font-size: 2rem; margin-bottom: 1rem; }
+.padlock-series .contact-cta p { font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.95; }
+.padlock-series .contact-methods { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.padlock-series .contact-btn { padding: 1rem 2rem; background: white; color: var(--primary-color); border-radius: var(--radius); text-decoration: none; font-weight: 600; transition: all 0.3s; }
+.padlock-series .contact-btn:hover { transform: translateY(-2px); box-shadow: 0 5px 20px rgba(0,0,0,0.2); }
+.padlock-series .contact-btn.whatsapp { background: #25D366; color: white; }
+.padlock-series .contact-btn.email { background: white; color: var(--primary-color); }
+@media (max-width: 900px) {
+    .padlock-series .product-content { grid-template-columns: 1fr; gap: 2rem; }
+    .padlock-series .product-images { position: static; }
+    .padlock-series .product-title { font-size: 1.5rem; }
+    .padlock-series .inquiry-buttons { flex-direction: column; }
+}
+</style>
+{{ end }}
