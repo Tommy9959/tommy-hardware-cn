@@ -1,0 +1,7 @@
+# SEO 定期检查 Cron 配置
+
+# 每日检查 - 每天早上 9:00
+0 9 * * * cd /Users/zhuxiaolei/.openclaw/workspace/hugo-multilingual-site && ./scripts/gsc-daily-check.sh >> /Users/zhuxiaolei/.openclaw/workspace/logs/gsc-check-cron.log 2>&1
+
+# 每周报告 - 每周一早上 9:00
+0 9 * * 1 cd /Users/zhuxiaolei/.openclaw/workspace/hugo-multilingual-site && ./scripts/gsc-weekly-report.sh >> /Users/zhuxiaolei/.openclaw/workspace/logs/gsc-weekly-cron.log 2>&1

@@ -1,0 +1,206 @@
+{{ define "main" }}
+<!-- 博客列表页 -->
+<section class="blog-page">
+    <div class="container">
+        <!-- 页面标题 -->
+        <div class="page-header">
+            <h1 class="page-title">
+                {{ if eq .Site.Language.Lang "zh" }}博客中心
+                {{ else if eq .Site.Language.Lang "en" }}Blog
+                {{ else }}المدونة{{ end }}
+            </h1>
+            <p class="page-subtitle">
+                {{ if eq .Site.Language.Lang "zh" }}门控五金行业知识、产品指南、市场趋势
+                {{ else if eq .Site.Language.Lang "en" }}Door hardware industry insights, product guides, market trends
+                {{ else }}رؤى صناعة أجهزة الأبواب، أدلة المنتج، اتجاهات السوق{{ end }}
+            </p>
+        </div>
+
+        <!-- 博客文章列表 -->
+        <div class="blog-grid">
+            {{ range .RegularPages }}
+            <article class="blog-card">
+                <div class="blog-content">
+                    <h2 class="blog-title">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h2>
+                    <div class="blog-meta">
+                        <span class="blog-date">📅 {{ .Date.Format "2006-01-02" }}</span>
+                        {{ if .Params.author }}
+                        <span class="blog-author">✍️ {{ .Params.author }}</span>
+                        {{ end }}
+                    </div>
+                    <p class="blog-excerpt">{{ .Summary | truncate 200 }}</p>
+                    <a href="{{ .RelPermalink }}" class="btn btn-primary">
+                        {{ if eq $.Site.Language.Lang "zh" }}阅读全文 →{{ else if eq $.Site.Language.Lang "en" }}Read More →{{ else }}اقرأ المزيد →{{ end }}
+                    </a>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+
+        {{/* 如果没有文章 */}}
+        {{ if eq (len .RegularPages) 0 }}
+        <div class="no-posts">
+            <p>{{ if eq .Site.Language.Lang "zh" }}博客文章即将上线，敬请期待！{{ else if eq .Site.Language.Lang "en" }}Blog posts coming soon, stay tuned!{{ else }}مقالات المدونة قريبا{{ end }}</p>
+        </div>
+        {{ end }}
+
+        <!-- 订阅板块 -->
+        <div class="blog-subscribe">
+            <h3>{{ if eq .Site.Language.Lang "zh" }}订阅我们的博客{{ else if eq .Site.Language.Lang "en" }}Subscribe to Our Blog{{ else }}اشترك في مدونتنا{{ end }}</h3>
+            <p>{{ if eq .Site.Language.Lang "zh" }}获取最新的行业洞察和产品指南{{ else if eq .Site.Language.Lang "en" }}Get latest industry insights and product guides{{ else }}احصل على أحدث رؤى الصناعة{{ end }}</p>
+            <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="btn btn-whatsapp" target="_blank">
+                💬 {{ if eq .Site.Language.Lang "zh" }}WhatsApp 订阅{{ else if eq .Site.Language.Lang "en" }}Subscribe via WhatsApp{{ else }}واتساب{{ end }}
+            </a>
+        </div>
+    </div>
+</section>
+
+<style>
+.blog-page {
+    padding: 5rem 0;
+    min-height: 60vh;
+    background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+}
+.page-header {
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+}
+.page-title {
+    font-size: 2.8rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.page-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    max-width: 700px;
+    margin: 0 auto;
+}
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 2.5rem;
+    margin-bottom: 5rem;
+}
+.blog-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 2.5rem;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s;
+    border: 1px solid var(--border-color);
+    position: relative;
+    overflow: hidden;
+}
+.blog-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--primary-color), var(--secondary-color));
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.blog-card:hover::before {
+    opacity: 1;
+}
+.blog-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+.blog-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+.blog-title a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.blog-title a:hover {
+    color: var(--primary-color);
+}
+.blog-meta {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+.blog-excerpt {
+    color: var(--text-color);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+.blog-subscribe {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 3rem 2rem;
+    border-radius: var(--radius-lg);
+    text-align: center;
+    margin-top: 3rem;
+}
+.blog-subscribe h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.blog-subscribe p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+}
+.blog-subscribe .btn {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.blog-subscribe .btn-whatsapp {
+    background: white;
+    color: var(--primary-color);
+}
+.blog-subscribe .btn-whatsapp:hover {
+    background: #25D366;
+    color: white;
+}
+.no-posts {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: white;
+    border-radius: var(--radius-lg);
+    font-size: 1.2rem;
+    color: var(--text-light);
+}
+@media (max-width: 768px) {
+    .blog-page {
+        padding: 3rem 0;
+    }
+    .page-title {
+        font-size: 2.2rem;
+    }
+    .page-subtitle {
+        font-size: 1rem;
+    }
+    .blog-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .blog-card {
+        padding: 2rem;
+    }
+    .blog-subscribe {
+        padding: 2rem 1.5rem;
+    }
+    .blog-subscribe h3 {
+        font-size: 1.5rem;
+    }
+}
+</style>
+{{ end }}

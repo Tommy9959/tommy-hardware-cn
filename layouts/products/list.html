@@ -1,0 +1,195 @@
+{{ define "main" }}
+<!-- 产品列表页 -->
+<section class="products-list-page">
+    <div class="container">
+        <!-- 面包屑导航 -->
+        {{ if not (or (eq .RelPermalink "/products/") (eq .RelPermalink "/en/products/") (eq .RelPermalink "/zh/products/") (eq .RelPermalink "/ar/products/")) }}
+        <nav class="breadcrumb">
+            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}</a>
+            <span> / </span>
+            <a href="{{ "/products/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}产品中心{{ else if eq .Site.Language.Lang "en" }}Products{{ else }}المنتجات{{ end }}</a>
+            <span> / </span>
+            <span>{{ .Title }}</span>
+        </nav>
+        {{ end }}
+
+        <!-- 页面标题 -->
+        <div class="page-header">
+            <h1 class="page-title">{{ .Title }}</h1>
+            <p class="page-subtitle">{{ .Params.description }}</p>
+        </div>
+
+        {{/* 分类介绍内容（如挂锁分类有详细介绍） */}}
+        {{ if .Content }}
+        <div class="category-intro">
+            {{ .Content }}
+        </div>
+        {{ end }}
+
+        {{/* 如果是/products/页面，显示 6 大分类 */}}
+        {{ if or (eq .RelPermalink "/products/") (eq .RelPermalink "/en/products/") (eq .RelPermalink "/zh/products/") (eq .RelPermalink "/ar/products/") }}
+        <div class="categories-grid">
+            <!-- 门把手 -->
+            <div class="category-card">
+                <div class="category-icon">🚪</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门把手{{ else if eq .Site.Language.Lang "en" }}Door Handles{{ else }}مقابض الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}不锈钢、铝合金、黄铜材质，适用于室内室外门{{ else if eq .Site.Language.Lang "en" }}Stainless steel, aluminum alloy, brass for interior and exterior doors{{ else }}فولاذ مقاوم، ألومنيوم، نحاس{{ end }}</p>
+                <a href="{{ "/products/door-handles/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 门锁 -->
+            <div class="category-card">
+                <div class="category-icon">🔒</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门锁{{ else if eq .Site.Language.Lang "en" }}Door Locks{{ else }}أقفال الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}执手锁、防盗锁、智能锁，高安全性{{ else if eq .Site.Language.Lang "en" }}Mortise locks, deadbolts, smart locks with high security{{ else }}أقفال مقبس، أقفال عالية الأمان{{ end }}</p>
+                <a href="{{ "/products/door-locks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 门铰链 -->
+            <div class="category-card">
+                <div class="category-icon">🔧</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门铰链{{ else if eq .Site.Language.Lang "en" }}Door Hinges{{ else }}مفاصل الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}合页、隐藏式铰链、重型铰链{{ else if eq .Site.Language.Lang "en" }}Butt hinges, concealed hinges, heavy-duty hinges{{ else }}مفاصل، مفاصل مخفية{{ end }}</p>
+                <a href="{{ "/products/door-hinges/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 导轨 -->
+            <div class="category-card">
+                <div class="category-icon">📦</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}导轨{{ else if eq .Site.Language.Lang "en" }}Sliding Tracks{{ else }}المسارات المنزلقة{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}抽屉导轨、衣柜轨道、推拉门轨道{{ else if eq .Site.Language.Lang "en" }}Drawer slides, wardrobe tracks, sliding door tracks{{ else }}مسارات الأدراج، مسارات الخزائن{{ end }}</p>
+                <a href="{{ "/products/sliding-tracks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 沙发脚 -->
+            <div class="category-card">
+                <div class="category-icon">🪑</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}沙发脚{{ else if eq .Site.Language.Lang "en" }}Sofa Legs{{ else }}أرجل الأريكة{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}金属脚、木脚、塑料脚，多种款式{{ else if eq .Site.Language.Lang "en" }}Metal, wooden, plastic furniture legs in various styles{{ else }}أرجل معدنية، خشبية، بلاستيكية{{ end }}</p>
+                <a href="{{ "/products/sofa-legs/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 橱柜五金 -->
+            <div class="category-card">
+                <div class="category-icon">🗄️</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}橱柜五金{{ else if eq .Site.Language.Lang "en" }}Cabinet Hardware{{ else }}أجهزة الخزانة{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}拉手、把手、连接件，厨房浴室适用{{ else if eq .Site.Language.Lang "en" }}Handles, knobs, connectors for kitchen and bathroom cabinets{{ else }}مقابض، موصلات للخزائن{{ end }}</p>
+                <a href="{{ "/products/cabinet-hardware/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 钢管与法兰 -->
+            <div class="category-card">
+                <div class="category-icon">🏗️</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}钢管与法兰{{ else if eq .Site.Language.Lang "en" }}Steel Pipes & Flanges{{ else }}أنابيب الصلب والشفاه{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}无缝钢管、焊接钢管、法兰，建筑和工业用{{ else if eq .Site.Language.Lang "en" }}Seamless pipes, welded pipes, flanges for construction and industrial use{{ else }}أنابيب غير ملحومة، أنابيب ملحومة، شفاه{{ end }}</p>
+                <a href="{{ "/products/steel-pipes-flanges/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 建材 -->
+            <div class="category-card">
+                <div class="category-icon">🏠</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}建材{{ else if eq .Site.Language.Lang "en" }}Building Materials{{ else }}مواد البناء{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}胶粘剂、墙纸、防水涂料，环保耐用{{ else if eq .Site.Language.Lang "en" }}Adhesives, wallpapers, waterproofing coatings, eco-friendly and durable{{ else }}مواد لاصقة، ورق حائط، طلاء عزل مائي{{ end }}</p>
+                <a href="{{ "/products/building-materials/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 门配件 -->
+            <div class="category-card">
+                <div class="category-icon">🚪</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}门配件{{ else if eq .Site.Language.Lang "en" }}Door Accessories{{ else }}إكسسوارات الأبواب{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}门吸、闭门器、猫眼、安全链{{ else if eq .Site.Language.Lang "en" }}Door stoppers, closers, viewers, security chains{{ else }}مثبتات الأبواب، إغلاق الأبواب، عدسات{{ end }}</p>
+                <a href="{{ "/products/door-accessories/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 家具配件 -->
+            <div class="category-card">
+                <div class="category-icon">🛋️</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}家具配件{{ else if eq .Site.Language.Lang "en" }}Furniture Fittings{{ else }}تجهيزات الأثاث{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}家具把手、连接件、支撑脚、铰链{{ else if eq .Site.Language.Lang "en" }}Furniture handles, connectors, legs, hinges{{ else }}مقابض الأثاث، موصلات، أرجل، مفاصل{{ end }}</p>
+                <a href="{{ "/products/furniture-fittings/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+            
+            <!-- 挂锁 -->
+            <div class="category-card">
+                <div class="category-icon">🔐</div>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}挂锁{{ else if eq .Site.Language.Lang "en" }}Padlocks{{ else }}أقفال القفل{{ end }}</h3>
+                <p>{{ if eq .Site.Language.Lang "zh" }}重型矩形铁挂锁，实心黄铜锁芯，高安全性{{ else if eq .Site.Language.Lang "en" }}Heavy duty rectangle iron padlocks with solid brass cylinder, high security{{ else }}أقفال قفل حديدية ثقيلة مع أسطوانة نحاسية صلبة، أمان عالي{{ end }}</p>
+                <a href="{{ "/products/padlocks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+            </div>
+        </div>
+        
+        {{/* 如果是分类页面，显示该分类下的产品型号 */}}
+        {{ else }}
+        <div class="models-grid">
+            {{ range .RegularPages }}
+            <div class="model-card">
+                {{ if .Params.image }}
+                <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" style="width: 100%; height: 200px; object-fit: contain; margin-bottom: 1rem;">
+                {{ else }}
+                <div class="model-icon">🔧</div>
+                {{ end }}
+                <h3 class="model-name">{{ .Title }}</h3>
+                <p class="model-title">{{ .Params.product_name | default .Description }}</p>
+                {{ if .Params.price_range }}
+                <p class="model-price">{{ if eq $.Site.Language.Lang "zh" }}价格：{{ else }}Price: {{ end }}{{ .Params.price_range }}</p>
+                {{ end }}
+                <a href="{{ .RelPermalink }}" class="btn btn-primary">
+                    {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}
+                </a>
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+
+        <!-- 联系 CTA -->
+        <div class="products-cta">
+            <h2>{{ if eq .Site.Language.Lang "zh" }}需要帮助选择产品？{{ else if eq .Site.Language.Lang "en" }}Need Help Choosing Products?{{ else }}تحتاج مساعدة؟{{ end }}</h2>
+            <p>{{ if eq .Site.Language.Lang "zh" }}联系我们的销售团队，获取专业建议{{ else if eq .Site.Language.Lang "en" }}Contact our sales team for professional advice{{ else }}تواصل مع فريق المبيعات{{ end }}</p>
+            <div class="cta-buttons">
+                <a href="mailto:{{ .Site.Params.email }}" class="btn btn-primary btn-large">📧 {{ if eq .Site.Language.Lang "zh" }}发送邮件{{ else if eq .Site.Language.Lang "en" }}Send Email{{ else }}إرسال بريد{{ end }}</a>
+                <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="btn btn-whatsapp btn-large">💬 WhatsApp</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.products-list-page { padding: 4rem 0; min-height: 60vh; }
+.breadcrumb { margin-bottom: 2rem; padding: 1rem 0; font-size: 0.95rem; }
+.breadcrumb a { color: var(--primary-color); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb span { color: var(--text-light); }
+.category-intro { margin-bottom: 3rem; line-height: 1.8; color: var(--text-color); }
+.category-intro h2 { font-size: 1.8rem; color: var(--secondary-color); margin: 2rem 0 1rem; }
+.category-intro h3 { font-size: 1.4rem; color: var(--secondary-color); margin: 1.5rem 0 0.75rem; }
+.category-intro h4 { font-size: 1.1rem; color: var(--secondary-color); margin: 1rem 0 0.5rem; }
+.category-intro a { color: var(--primary-color); text-decoration: none; font-weight: 600; }
+.category-intro a:hover { text-decoration: underline; }
+.category-intro p { margin-bottom: 1rem; }
+.page-header { text-align: center; margin-bottom: 3rem; }
+.page-title { font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 1rem; }
+.page-subtitle { font-size: 1.1rem; color: var(--text-light); }
+.categories-grid, .models-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; margin-bottom: 4rem; }
+.category-card, .model-card { background: white; padding: 2rem; border-radius: var(--radius-lg); text-align: center; box-shadow: var(--shadow); border: 1px solid var(--border-color); transition: all 0.3s; }
+.category-card:hover, .model-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
+.category-icon, .model-icon { font-size: 4rem; margin-bottom: 1rem; }
+.category-card h3, .model-name { color: var(--secondary-color); font-size: 1.5rem; margin-bottom: 0.8rem; }
+.category-card p, .model-title { color: var(--text-light); margin-bottom: 1.5rem; font-size: 0.95rem; line-height: 1.6; }
+.model-price { color: #e74c3c; font-weight: 700; margin-bottom: 1rem; font-size: 1rem; }
+.products-cta { background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white; padding: 3rem; border-radius: var(--radius-lg); text-align: center; }
+.products-cta h2 { font-size: 2rem; margin-bottom: 1rem; }
+.products-cta p { font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.95; }
+.cta-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.cta-buttons .btn { background: white; color: var(--primary-color); }
+.cta-buttons .btn-whatsapp { background: #25D366; color: white; }
+@media (max-width: 768px) {
+    .products-list-page { padding: 2rem 0; }
+    .page-title { font-size: 2rem; }
+    .categories-grid, .models-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+    .category-card, .model-card { padding: 1.5rem; }
+    .category-icon, .model-icon { font-size: 3rem; }
+    .category-card h3, .model-name { font-size: 1.3rem; }
+    .category-card p, .model-title { font-size: 0.9rem; }
+}
+</style>
+{{ end }}

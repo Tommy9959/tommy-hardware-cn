@@ -1,0 +1,544 @@
+{{ define "main" }}
+{{ if eq .Section "products" }}
+<!-- 产品详情页 -->
+<article class="product-detail">
+    <div class="container">
+        <!-- 面包屑导航 -->
+        <nav class="breadcrumb">
+            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}</a>
+            <span> / </span>
+            <a href="{{ "/products/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}产品中心{{ else if eq .Site.Language.Lang "en" }}Products{{ else }}المنتجات{{ end }}</a>
+            <span> / </span>
+            {{ $parentTitle := "" }}
+            {{ with .Parent }}{{ $parentTitle = .Title }}{{ end }}
+            <a href="{{ .Parent.RelPermalink }}">{{ $parentTitle }}</a>
+            <span> / </span>
+            <span>{{ .Title }}</span>
+        </nav>
+
+        <div class="product-content">
+            <!-- 左侧：产品图片 -->
+            <div class="product-images">
+                <div class="main-image">
+                    {{ $productName := .Params.product_name | default .Title }}
+                    {{ $material := .Params.material | default "High Quality Material" }}
+                    {{ $category := "" }}
+                    {{ with .Parent }}{{ $category = .Title }}{{ end }}
+                    {{ if .Params.image }}
+                    <img src="{{ .Params.image | relURL }}" alt="{{ $productName }} - {{ $material }} {{ $category }} for {{ .Site.Title }} - Model {{ .Title }}" title="{{ $productName }}" loading="lazy" style="max-width: 100%; height: auto;">
+                    {{ else }}
+                    <img src="/images/products/placeholder.svg" alt="{{ $productName }} - {{ $material }} {{ $category }} - Factory Direct from {{ .Site.Title }} - Model {{ .Title }}" title="{{ $productName }} - Image Coming Soon" loading="lazy" style="max-width: 100%; height: auto;">
+                    {{ end }}
+                </div>
+                <div class="thumbnail-grid">
+                    <div class="thumbnail active">1</div>
+                    <div class="thumbnail">2</div>
+                    <div class="thumbnail">3</div>
+                    <div class="thumbnail">4</div>
+                </div>
+            </div>
+
+            <!-- 右侧：产品信息 -->
+            <div class="product-info">
+                <h1 class="product-title">{{ .Title }} - {{ .Params.product_name | default .Title }}</h1>
+                
+                {{ if .Params.price_range }}
+                <div class="price-box">
+                    <span class="price-label">{{ if eq .Site.Language.Lang "zh" }}价格范围{{ else if eq .Site.Language.Lang "en" }}Price Range{{ else }}نطاق السعر{{ end }}:</span>
+                    <span class="price-value">{{ .Params.price_range }}</span>
+                </div>
+                {{ end }}
+
+                {{ if .Params.moq }}
+                <div class="moq-box">
+                    <span class="moq-label">{{ if eq .Site.Language.Lang "zh" }}最小起订量{{ else if eq .Site.Language.Lang "en" }}MOQ{{ else }}أدنى كمية للطلب{{ end }}:</span>
+                    <span class="moq-value">{{ .Params.moq }}</span>
+                </div>
+                {{ end }}
+
+                <div class="product-highlights">
+                    <h3>{{ if eq .Site.Language.Lang "zh" }}产品亮点{{ else if eq .Site.Language.Lang "en" }}Product Highlights{{ else }}مميزات المنتج{{ end }}</h3>
+                    <ul>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}工厂直销，价格优惠{{ else if eq .Site.Language.Lang "en" }}Factory direct, best prices{{ else }}المصنع مباشرة{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}高质量材料，耐用可靠{{ else if eq .Site.Language.Lang "en" }}High quality materials{{ else }}جودة عالية{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}支持定制，OEM/ODM{{ else if eq .Site.Language.Lang "en" }}Custom design accepted{{ else }}تصميم مخصص{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}快速交货 15-25 天{{ else if eq .Site.Language.Lang "en" }}Fast delivery 15-25 days{{ else }}تسليم سريع{{ end }}</li>
+                    </ul>
+                </div>
+
+                <div class="inquiry-buttons">
+                    <a href="https://wa.me/{{ .Site.Params.whatsapp }}?text=I'm interested in {{ .Title }}" class="btn btn-primary" target="_blank">
+                        💬 WhatsApp
+                    </a>
+                    <a href="{{ "/contact/" | relLangURL }}" class="btn btn-secondary">
+                        {{ if eq .Site.Language.Lang "zh" }}询价{{ else if eq .Site.Language.Lang "en" }}Inquire Now{{ else }}استفسار{{ end }}
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 产品详情标签页 -->
+        <div class="product-tabs">
+            <div class="tab-headers">
+                <button class="tab-btn active" data-tab="specs">{{ if eq .Site.Language.Lang "zh" }}规格参数{{ else if eq .Site.Language.Lang "en" }}Specifications{{ else }}المواصفات{{ end }}</button>
+                <button class="tab-btn" data-tab="materials">{{ if eq .Site.Language.Lang "zh" }}材质工艺{{ else if eq .Site.Language.Lang "en" }}Materials{{ else }}المواد{{ end }}</button>
+                <button class="tab-btn" data-tab="dimensions">{{ if eq .Site.Language.Lang "zh" }}尺寸包装{{ else if eq .Site.Language.Lang "en" }}Dimensions{{ else }}الأبعاد{{ end }}</button>
+                <button class="tab-btn" data-tab="application">{{ if eq .Site.Language.Lang "zh" }}应用场景{{ else if eq .Site.Language.Lang "en" }}Application{{ else }}التطبيق{{ end }}</button>
+            </div>
+
+            <div class="tab-content active" id="specs">
+                <h3>{{ if eq .Site.Language.Lang "zh" }}技术规格{{ else if eq .Site.Language.Lang "en" }}Technical Specifications{{ else }}المواصفات التقنية{{ end }}</h3>
+                <table class="specs-table">
+                    <tr>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}型号{{ else if eq .Site.Language.Lang "en" }}Model{{ else }}النموذج{{ end }}</td>
+                        <td>{{ .Title }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}材质{{ else if eq .Site.Language.Lang "en" }}Material{{ else }}المادة{{ end }}</td>
+                        <td>{{ .Params.material | default "Stainless Steel 304" }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}表面处理{{ else if eq .Site.Language.Lang "en" }}Surface Finish{{ else }}تشطيب السطح{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}拉丝/抛光/电镀{{ else if eq .Site.Language.Lang "en" }}Brushed/Polished/Plated{{ else }}مصقول/مطلي{{ end }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}适用门类型{{ else if eq .Site.Language.Lang "en" }}Door Type{{ else }}نوع الباب{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}室内门/室外门/防火门{{ else if eq .Site.Language.Lang "en" }}Interior/Exterior/Fire Door{{ else }}داخلي/خارجي{{ end }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}认证{{ else if eq .Site.Language.Lang "en" }}Certification{{ else }}الشهادات{{ end }}</td>
+                        <td>ISO 9001, CE, SGS</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="tab-content" id="materials">
+                <h3>{{ if eq .Site.Language.Lang "zh" }}材质与工艺{{ else if eq .Site.Language.Lang "en" }}Materials & Craftsmanship{{ else }}المواد والحرفية{{ end }}</h3>
+                <div class="material-grid">
+                    <div class="material-item">
+                        <div class="material-icon">🏭</div>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}优质原材料{{ else if eq .Site.Language.Lang "en" }}Premium Materials{{ else }}مواد ممتازة{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}采用 SS304 不锈钢/锌合金/铝合金，耐腐蚀，抗氧化{{ else if eq .Site.Language.Lang "en" }}SS304 Stainless Steel/Zinc Alloy/Aluminum, anti-corrosion{{ else }}فولاذ مقاوم{{ end }}</p>
+                    </div>
+                    <div class="material-item">
+                        <div class="material-icon">⚙️</div>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}精密加工{{ else if eq .Site.Language.Lang "en" }}Precision Manufacturing{{ else }}تصنيع دقيق{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}CNC 加工，确保每个零件精度在 0.01mm 以内{{ else if eq .Site.Language.Lang "en" }}CNC machining, tolerance within 0.01mm{{ end }}</p>
+                    </div>
+                    <div class="material-item">
+                        <div class="material-icon">✨</div>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}表面处理{{ else if eq .Site.Language.Lang "en" }}Surface Treatment{{ else }}معالجة السطح{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}拉丝/抛光/电镀/喷塑，多种表面处理可选{{ else if eq .Site.Language.Lang "en" }}Brushed/Polished/Plated/Powder Coated{{ end }}</p>
+                    </div>
+                    <div class="material-item">
+                        <div class="material-icon">🔬</div>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}质量检测{{ else if eq .Site.Language.Lang "en" }}Quality Testing{{ else }}اختبار الجودة{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}50,000+ 次开关测试，100% 出厂检验{{ else if eq .Site.Language.Lang "en" }}50,000+ cycles test, 100% inspection{{ end }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="dimensions">
+                <h3>{{ if eq .Site.Language.Lang "zh" }}尺寸与包装{{ else if eq .Site.Language.Lang "en" }}Dimensions & Packaging{{ else }}الأبعاد والتعبئة{{ end }}</h3>
+                <table class="specs-table">
+                    <tr>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}产品尺寸{{ else if eq .Site.Language.Lang "en" }}Product Size{{ else }}حجم المنتج{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}根据型号定制（请联系获取详细尺寸）{{ else if eq .Site.Language.Lang "en" }}Custom sizes available (contact for details){{ else }}أحجام مخصصة{{ end }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}包装方式{{ else if eq .Site.Language.Lang "en" }}Packaging{{ else }}التعبئة{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}独立纸盒 + 出口纸箱{{ else if eq .Site.Language.Lang "en" }}Individual box + Export carton{{ end }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}装箱数量{{ else if eq .Site.Language.Lang "en" }}Qty per Carton{{ else }}الكمية في الكرتون{{ end }}</td>
+                        <td>根据产品尺寸，通常 20-50 件/箱</td>
+                    </tr>
+                    <tr>
+                        <td>{{ if eq .Site.Language.Lang "zh" }} carton 尺寸{{ else if eq .Site.Language.Lang "en" }}Carton Size{{ else }}حجم الكرتون{{ end }}</td>
+                        <td>根据订单定制最优装箱方案</td>
+                    </tr>
+                    <tr>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}交货期{{ else if eq .Site.Language.Lang "en" }}Lead Time{{ else }}وقت التسليم{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}样品 3-5 天，批量订单 15-25 天{{ else if eq .Site.Language.Lang "en" }}Samples: 3-5 days, Bulk: 15-25 days{{ end }}</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="tab-content" id="application">
+                <h3>{{ if eq .Site.Language.Lang "zh" }}应用场景{{ else if eq .Site.Language.Lang "en" }}Applications{{ else }}التطبيقات{{ end }}</h3>
+                <div class="application-grid">
+                    <div class="app-item">
+                        <div class="app-icon">🏠</div>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}住宅建筑{{ else if eq .Site.Language.Lang "en" }}Residential{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}家庭门、室内门、入户门{{ else if eq .Site.Language.Lang "en" }}Home doors, interior doors{{ end }}</p>
+                    </div>
+                    <div class="app-item">
+                        <div class="app-icon">🏢</div>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}商业建筑{{ else if eq .Site.Language.Lang "en" }}Commercial{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}办公室、酒店、商场{{ else if eq .Site.Language.Lang "en" }}Offices, hotels, malls{{ end }}</p>
+                    </div>
+                    <div class="app-item">
+                        <div class="app-icon">🏭</div>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}工业设施{{ else if eq .Site.Language.Lang "en" }}Industrial{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}工厂、仓库、机房{{ else if eq .Site.Language.Lang "en" }}Factories, warehouses{{ end }}</p>
+                    </div>
+                    <div class="app-item">
+                        <div class="app-icon">🏥</div>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}公共设施{{ else if eq .Site.Language.Lang "en" }}Public Facilities{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}医院、学校、政府大楼{{ else if eq .Site.Language.Lang "en" }}Hospitals, schools{{ end }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 相关产品 -->
+        <section class="related-products">
+            <h2>{{ if eq .Site.Language.Lang "zh" }}相关产品{{ else if eq .Site.Language.Lang "en" }}Related Products{{ else }}المنتجات ذات الصلة{{ end }}</h2>
+            <div class="products-grid">
+                {{ $currentLang := .Site.Language.Lang }}
+                {{ $currentPage := .RelPermalink }}
+                {{ $count := 0 }}
+                {{ range .Site.RegularPages }}
+                {{ if and (eq .Section "products") (ne .RelPermalink $currentPage) (eq .Site.Language.Lang $currentLang) (lt $count 4) }}
+                {{ $count = add $count 1 }}
+                <div class="product-card">
+                    <div class="product-icon">🔧</div>
+                    <h3>{{ .Title }}</h3>
+                    <p>{{ .Params.product_name | default .Description | truncate 50 }}</p>
+                    <a href="{{ .RelPermalink }}" class="btn btn-primary">
+                        {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}
+                    </a>
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+        </section>
+
+        <!-- 联系 CTA -->
+        <div class="contact-cta">
+            <h2>{{ if eq .Site.Language.Lang "zh" }}获取免费样品和报价{{ else if eq .Site.Language.Lang "en" }}Get Free Samples & Quote{{ else }}احصل على عينات مجانية{{ end }}</h2>
+            <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else if eq .Site.Language.Lang "en" }}Contact now, reply within 2 hours{{ else }}اتصل الآن{{ end }}</p>
+            <div class="contact-methods">
+                <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="contact-btn whatsapp" target="_blank">
+                    💬 WhatsApp: {{ .Site.Params.whatsapp }}
+                </a>
+                <a href="mailto:{{ .Site.Params.email }}" class="contact-btn email">
+                    📧 {{ .Site.Params.email }}
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+<style>
+.product-detail {
+    padding: 2rem 0 4rem;
+}
+.breadcrumb {
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+.breadcrumb a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+.product-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+.product-images {
+    position: sticky;
+    top: 2rem;
+}
+.main-image {
+    background: #f8f9fa;
+    border-radius: var(--radius-lg);
+    padding: 3rem;
+    margin-bottom: 1rem;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-placeholder {
+    text-align: center;
+}
+.placeholder-icon {
+    font-size: 5rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+.placeholder-text {
+    font-size: 1.5rem;
+    color: var(--text-light);
+    font-weight: 600;
+}
+.thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
+.thumbnail {
+    aspect-ratio: 1;
+    background: #f0f0f0;
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+.thumbnail:hover, .thumbnail.active {
+    border-color: var(--primary-color);
+}
+.product-info {
+    padding: 1rem 0;
+}
+.product-title {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+}
+.price-box, .moq-box {
+    background: var(--bg-light);
+    padding: 1rem 1.5rem;
+    border-radius: var(--radius);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-label, .moq-label {
+    font-weight: 600;
+    color: var(--text-light);
+}
+.price-value, .moq-value {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+.product-highlights {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #f0f7ff;
+    border-radius: var(--radius);
+    border-left: 4px solid var(--primary-color);
+}
+.product-highlights h3 {
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+.product-highlights ul {
+    list-style: none;
+    padding: 0;
+}
+.product-highlights li {
+    padding: 0.5rem 0;
+    color: var(--text-color);
+}
+.inquiry-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.product-tabs {
+    margin: 4rem 0;
+}
+.tab-headers {
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 2rem;
+    overflow-x: auto;
+}
+.tab-btn {
+    padding: 1rem 1.5rem;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-light);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    white-space: nowrap;
+    transition: all 0.3s;
+}
+.tab-btn:hover, .tab-btn.active {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+.tab-content {
+    display: none;
+    padding: 2rem 0;
+}
+.tab-content.active {
+    display: block;
+}
+.tab-content h3 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.specs-table tr {
+    border-bottom: 1px solid var(--border-color);
+}
+.specs-table td {
+    padding: 1rem;
+    vertical-align: top;
+}
+.specs-table td:first-child {
+    font-weight: 600;
+    color: var(--text-light);
+    width: 30%;
+    background: var(--bg-light);
+}
+.material-grid, .application-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+.material-item, .app-item {
+    padding: 1.5rem;
+    background: var(--bg-light);
+    border-radius: var(--radius);
+    text-align: center;
+}
+.material-icon, .app-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.material-item h4, .app-item h4 {
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+.material-item p, .app-item p {
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+.related-products {
+    margin: 4rem 0;
+    padding-top: 3rem;
+    border-top: 2px solid var(--border-color);
+}
+.related-products h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--secondary-color);
+}
+.contact-cta {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 3rem 2rem;
+    border-radius: var(--radius-lg);
+    text-align: center;
+    margin-top: 3rem;
+}
+.contact-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.contact-cta p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+}
+.contact-methods {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-btn {
+    padding: 1rem 2rem;
+    background: white;
+    color: var(--primary-color);
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.contact-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.contact-btn.whatsapp {
+    background: #25D366;
+    color: white;
+}
+.contact-btn.email {
+    background: white;
+    color: var(--primary-color);
+}
+@media (max-width: 900px) {
+    .product-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .product-images {
+        position: static;
+    }
+    .product-title {
+        font-size: 1.5rem;
+    }
+    .inquiry-buttons {
+        flex-direction: column;
+    }
+    .tab-headers {
+        flex-wrap: nowrap;
+    }
+    .tab-btn {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+</style>
+
+<script>
+// 标签页切换
+document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+        const tabId = this.dataset.tab;
+        
+        // 移除所有 active
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+        
+        // 添加 active
+        this.classList.add('active');
+        document.getElementById(tabId).classList.add('active');
+    });
+});
+
+// 缩略图切换
+document.querySelectorAll('.thumbnail').forEach(thumb => {
+    thumb.addEventListener('click', function() {
+        document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+        this.classList.add('active');
+    });
+});
+</script>
+
+{{ else }}
+<!-- 其他单页模板 -->
+<article class="page-content">
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}
+{{ end }}

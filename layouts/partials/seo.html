@@ -1,0 +1,232 @@
+{{- $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) -}}
+{{- $description := cond .IsHome site.Params.description .Description -}}
+{{- $keywords := site.Params.keywords -}}
+{{- if and (not .IsHome) .Params.tags -}}
+    {{- $keywords = delimit .Params.tags ", " -}}
+{{- else if and (not .IsHome) (not .Params.tags) -}}
+    {{- $keywords = "door hardware, building materials, construction" -}}
+{{- end -}}
+
+{{- /* 产品页面特殊处理 */ -}}
+{{- if eq .Section "products" -}}
+    {{- $productName := .Params.product_name | default .Title -}}
+    {{- $material := .Params.material | default "High Quality Material" -}}
+    {{- $title = printf "%s - %s | %s" .Title $productName site.Title -}}
+    {{- $description = printf "High quality %s made of %s. Factory direct supply, best prices, fast delivery. MOQ: %s. Contact us for quote." $productName $material (.Params.moq | default "400 pcs") -}}
+    {{- $materialStr := cond .Params.material .Params.material "Stainless Steel" -}}
+    {{- $keywords = printf "%s, %s, door hardware, building materials, construction, %s" .Title $productName $materialStr -}}
+{{- end -}}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- 基础 SEO -->
+<title>{{ $title }}</title>
+<meta name="title" content="{{ $title }}">
+<meta name="description" content="{{ $description }}">
+<meta name="keywords" content="{{ $keywords }}">
+<meta name="author" content="{{ site.Params.author | default "Yiwu Shuihui Import & Export Co., Ltd." }}">
+<meta name="robots" content="index, follow">
+
+<!-- 规范链接 -->
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="{{ cond .IsHome "website" "article" }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:image" content="{{ cond .Params.image (.Params.image | absURL) (site.Params.logo | absURL) }}">
+<meta property="og:locale" content="{{ .Site.Language.Lang }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ .Permalink }}">
+<meta property="twitter:title" content="{{ $title }}">
+<meta property="twitter:description" content="{{ $description }}">
+<meta property="twitter:image" content="{{ cond .Params.image (.Params.image | absURL) (site.Params.logo | absURL) }}">
+
+<!-- 多语言替代链接 -->
+{{- if .IsTranslated -}}
+{{- range .Translations }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{- end }}
+<link rel="alternate" hreflang="x-default" href="{{ site.BaseURL }}">
+{{- else -}}
+{{- /* 即使没有翻译，也提供其他语言版本的链接 */ -}}
+{{- $currentLang := .Language.Lang -}}
+{{- range site.Languages -}}
+{{- if ne $currentLang .Lang -}}
+{{- $link := printf "/%s%s" .Lang $.RelPermalink -}}
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ $link | absURL }}">
+{{- end -}}
+{{- end -}}
+{{- end -}}
+
+<!-- 结构化数据 (Schema.org) -->
+{{- if eq .Section "products" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{ .Title }} - {{ .Params.product_name | default .Title }}",
+  "description": "{{ $description }}",
+  "image": "{{ cond .Params.image (.Params.image | absURL) ("/images/products/placeholder.svg" | absURL) }}",
+  "brand": {
+    "@type": "Brand",
+    "name": "Yiwu Shuihui Hardware"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "{{ index (split .Params.price_range " ") 1 | replace "$" "" | replace "-" "" | trim " " }}",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Yiwu Shuihui Import & Export Co., Ltd."
+    },
+    "minOrderQuantity": {{ index (split .Params.moq " ") 0 | default 400 }},
+    "businessOperation": "B2B",
+    "areaServed": [
+      { "@type": "Country", "name": "Nigeria" },
+      { "@type": "Country", "name": "United Arab Emirates" },
+      { "@type": "Country", "name": "Saudi Arabia" },
+      { "@type": "Country", "name": "Egypt" },
+      { "@type": "Country", "name": "Kenya" }
+    ]
+  },
+  "material": "{{ .Params.material | default "Stainless Steel" }}",
+  "category": "{{ with .Parent }}{{ .Title }}{{ end }}",
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Yiwu Shuihui Import & Export Co., Ltd.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Yiwu",
+      "addressRegion": "Zhejiang",
+      "addressCountry": "CN"
+    }
+  }
+}
+</script>
+{{- else if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Yiwu Shuihui Import & Export Co., Ltd.",
+  "url": "{{ site.BaseURL }}",
+  "logo": "{{ site.Params.logo | absURL }}",
+  "description": "{{ site.Params.description }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Yiwu",
+    "addressRegion": "Zhejiang",
+    "addressCountry": "CN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "29.3013552",
+    "longitude": "120.0703096"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "telephone": "+86-183-5800-8400",
+    "email": "{{ site.Params.email }}",
+    "availableLanguage": ["English", "Chinese", "Arabic"]
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "Nigeria" },
+    { "@type": "Country", "name": "United Arab Emirates" },
+    { "@type": "Country", "name": "Saudi Arabia" },
+    { "@type": "Country", "name": "Egypt" },
+    { "@type": "Country", "name": "Kenya" },
+    { "@type": "Country", "name": "Qatar" },
+    { "@type": "Country", "name": "Kuwait" }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/yourpage",
+    "https://www.linkedin.com/company/yourcompany"
+  ]
+}
+</script>
+{{- end -}}
+
+<!-- 预加载关键资源 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- ============================================
+     AI 搜索引擎优化标签
+     帮助 ChatGPT、Claude、Perplexity 等 AI 理解网站内容
+     ============================================ -->
+
+<!-- AI 摘要优化 -->
+<meta name="ai-bot" content="index, follow">
+<meta name="GPTBot" content="index, follow">
+<meta name="ChatGPT-User" content="index, follow">
+<meta name="ClaudeBot" content="index, follow">
+<meta name="PerplexityBot" content="index, follow">
+<meta name="Google-Extended" content="index, follow">
+<meta name="Microsoft-Preview" content="index, follow">
+
+<!-- 内容类型声明（帮助 AI 理解） -->
+<meta name="content-type" content="B2B Manufacturer Website">
+<meta name="business-type" content="Door Hardware Manufacturer & Exporter">
+<meta name="target-market" content="Africa, Middle East, Global">
+<meta name="primary-products" content="Door Handles, Door Locks, Door Hinges, Sliding Tracks, Building Materials">
+
+<!-- AI 友好的网站描述 -->
+<meta name="ai-description" content="Yiwu Shuihui Import & Export Co., Ltd. is a professional door hardware manufacturer exporting to Nigeria, Dubai, Africa. Factory direct supply of door handles, locks, hinges, sliding tracks. ISO 9001 certified. 15-25 days delivery. MOQ from 400 pcs.">
+
+<!-- 结构化数据增强（AI 更容易理解） -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What products do you supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We supply door handles, door locks, door hinges, sliding tracks, cabinet hardware, building materials including glue, iron pipes, curtain rods, wallpaper, and plastic handles. All factory direct supply."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is your MOQ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOQ varies by product: Door Handles 400 pcs, Door Locks 1000 pcs, Door Hinges 1000 pairs, Building Materials 10-100 cartons. Small orders welcome."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is your delivery time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stock items: 3-5 days. Custom orders: 15-25 days. Delivery to Africa: 15-35 days depending on destination port."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you export to Africa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We specialize in African market with 10+ years experience. We export to Nigeria, Kenya, Ghana, Tanzania, Ethiopia, South Africa and 50+ African countries. Complete documentation support including Form M, SONCAP."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you a factory or trading company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are a factory direct manufacturer located in Yiwu, Zhejiang, China. ISO 9001, CE, SGS certified. Our prices are 30-50% lower than market average."
+      }
+    }
+  ]
+}
+</script>
