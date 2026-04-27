@@ -1,6 +1,7 @@
 ---
 title: "四方直开喷金挂锁 - 四方直开喷金挂锁"
 description: "高品质四方直开喷金挂锁。工厂直供，价格优惠。"
+image: "/images/products/padlocks/sfn.png"
 ---
 
 # 四方直开喷金挂锁

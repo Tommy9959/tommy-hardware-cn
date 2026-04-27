@@ -1,6 +1,7 @@
 ---
 title: "镀铬四方叶片锁 - 镀铬四方叶片锁"
 description: "高品质镀铬四方叶片锁。工厂直供，价格优惠。"
+image: "/images/products/padlocks/sf.png"
 ---
 
 # 镀铬四方叶片锁

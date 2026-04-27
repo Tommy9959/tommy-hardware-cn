@@ -1,6 +1,7 @@
 ---
 title: "防水圆钢套壳挂锁 - 防水圆钢套壳挂锁"
 description: "高品质防水圆钢套壳挂锁。工厂直供，价格优惠。"
+image: "/images/products/padlocks/ygtk.png"
 ---
 
 # 防水圆钢套壳挂锁

@@ -1,6 +1,7 @@
 ---
 title: "WaterProof Round Steel Padlock - WaterProof Round Steel Padlock"
 description: "High quality WaterProof Round Steel Padlock. Factory direct supply, competitive prices."
+image: "/images/products/padlocks/ygtk.png"
 ---
 
 # WaterProof Round Steel Padlock

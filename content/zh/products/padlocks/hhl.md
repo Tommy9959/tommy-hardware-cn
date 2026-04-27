@@ -1,6 +1,7 @@
 ---
 title: "重型长方铁挂锁 - 重型长方铁挂锁"
 description: "高品质重型长方铁挂锁。工厂直供，价格优惠。"
+image: "/images/products/padlocks/hhl.png"
 ---
 
 # 重型长方铁挂锁
