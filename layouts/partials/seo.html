@@ -11,10 +11,14 @@
 {{- if eq .Section "products" -}}
     {{- $productName := .Params.product_name | default .Title -}}
     {{- $material := .Params.material | default "High Quality Material" -}}
-    {{- $title = printf "%s - %s | %s" .Title $productName site.Title -}}
+    {{- if eq .Title $productName -}}
+        {{- $title = printf "%s | %s" .Title site.Title -}}
+    {{- else -}}
+        {{- $title = printf "%s - %s | %s" .Title $productName site.Title -}}
+    {{- end -}}
     {{- $description = printf "High quality %s made of %s. Factory direct supply, best prices, fast delivery. MOQ: %s. Contact us for quote." $productName $material (.Params.moq | default "400 pcs") -}}
     {{- $materialStr := cond .Params.material .Params.material "Stainless Steel" -}}
-    {{- $keywords = printf "%s, %s, door hardware, building materials, construction, %s" .Title $productName $materialStr -}}
+    {{- $keywords = printf "%s, %s, door hardware, building materials, construction, %s" $productName $productName $materialStr -}}
 {{- end -}}
 
 <meta charset="UTF-8">
