@@ -26,8 +26,21 @@
         </div>
         {{ end }}
 
-        {{/* 如果是/products/页面，显示 6 大分类 */}}
+        {{/* 如果是/products/页面，显示所有分类卡片 */}}
         {{ if or (eq .RelPermalink "/products/") (eq .RelPermalink "/en/products/") (eq .RelPermalink "/zh/products/") (eq .RelPermalink "/ar/products/") }}
+        {{ $allProducts := where site.RegularPages ".Section" "products" }}
+        {{ $padlockProducts := slice }}
+        {{ $doorlockProducts := slice }}
+        {{ range $allProducts }}
+            {{ if and (strings.Contains .File.Dir "products/padlocks/") .Params.image }}
+                {{ $padlockProducts = $padlockProducts | append . }}
+            {{ end }}
+            {{ if and (strings.Contains .File.Dir "products/door-locks/") .Params.image }}
+                {{ $doorlockProducts = $doorlockProducts | append . }}
+            {{ end }}
+        {{ end }}
+        {{ $randomPadlock := index (first 1 (shuffle $padlockProducts)) 0 }}
+        {{ $randomDoorlock := index (first 1 (shuffle $doorlockProducts)) 0 }}
         <div class="categories-grid">
             <!-- 门把手 -->
             <div class="category-card">
@@ -37,12 +50,36 @@
                 <a href="{{ "/products/door-handles/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
             </div>
             
-            <!-- 门锁 -->
+            <!-- 门锁（真实产品图） -->
             <div class="category-card">
-                <div class="category-icon">🔒</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}门锁{{ else if eq .Site.Language.Lang "en" }}Door Locks{{ else }}أقفال الأبواب{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}执手锁、防盗锁、智能锁，高安全性{{ else if eq .Site.Language.Lang "en" }}Mortise locks, deadbolts, smart locks with high security{{ else }}أقفال مقبس، أقفال عالية الأمان{{ end }}</p>
-                <a href="{{ "/products/door-locks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+                <a href="{{ "/products/door-locks/" | relLangURL }}">
+                    {{ if $randomDoorlock }}
+                    <div class="category-img-wrapper">
+                        <img src="{{ $randomDoorlock.Params.image }}" alt="Door Locks" class="category-card-img" loading="lazy">
+                    </div>
+                    {{ else }}
+                    <div class="category-icon">🔒</div>
+                    {{ end }}
+                    <h3>{{ if eq .Site.Language.Lang "zh" }}门锁{{ else if eq .Site.Language.Lang "en" }}Door Locks{{ else }}أقفال الأبواب{{ end }}</h3>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}执手锁、防盗锁、智能锁，高安全性{{ else if eq .Site.Language.Lang "en" }}Mortise locks, deadbolts, smart locks with high security{{ else }}أقفال مقبس، أقفال عالية الأمان{{ end }}</p>
+                    <span class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</span>
+                </a>
+            </div>
+            
+            <!-- 挂锁（真实产品图） -->
+            <div class="category-card">
+                <a href="{{ "/products/padlocks/" | relLangURL }}">
+                    {{ if $randomPadlock }}
+                    <div class="category-img-wrapper">
+                        <img src="{{ $randomPadlock.Params.image }}" alt="Padlocks" class="category-card-img" loading="lazy">
+                    </div>
+                    {{ else }}
+                    <div class="category-icon">🔐</div>
+                    {{ end }}
+                    <h3>{{ if eq .Site.Language.Lang "zh" }}挂锁{{ else if eq .Site.Language.Lang "en" }}Padlocks{{ else }}أقفال القفل{{ end }}</h3>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}重型矩形铁挂锁，实心黄铜锁芯，高安全性{{ else if eq .Site.Language.Lang "en" }}Heavy duty rectangle iron padlocks with solid brass cylinder, high security{{ else }}أقفال قفل حديدية ثقيلة مع أسطوانة نحاسية صلبة، أمان عالي{{ end }}</p>
+                    <span class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التف details{{ end }}</span>
+                </a>
             </div>
             
             <!-- 门铰链 -->
@@ -109,13 +146,7 @@
                 <a href="{{ "/products/furniture-fittings/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
             </div>
             
-            <!-- 挂锁 -->
-            <div class="category-card">
-                <div class="category-icon">🔐</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}挂锁{{ else if eq .Site.Language.Lang "en" }}Padlocks{{ else }}أقفال القفل{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}重型矩形铁挂锁，实心黄铜锁芯，高安全性{{ else if eq .Site.Language.Lang "en" }}Heavy duty rectangle iron padlocks with solid brass cylinder, high security{{ else }}أقفال قفل حديدية ثقيلة مع أسطوانة نحاسية صلبة، أمان عالي{{ end }}</p>
-                <a href="{{ "/products/padlocks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
-            </div>
+            <!-- 挂锁已在上面展示（真实产品图） -->
         </div>
         
         {{/* 如果是分类页面，显示该分类下的产品型号 */}}
@@ -170,11 +201,15 @@
 .page-title { font-size: 2.5rem; color: #333; margin-bottom: 1rem; }
 .page-subtitle { font-size: 1.1rem; color: #999; }
 .categories-grid, .models-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2rem; margin-bottom: 4rem; }
-.category-card, .model-card { background: white; padding: 2rem; border-radius: 15px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border: none; transition: all 0.3s; }
-.category-card:hover, .model-card:hover { transform: translateY(-8px); box-shadow: 0 15px 30px rgba(0,0,0,0.15); }
-.category-icon, .model-icon { font-size: 4rem; margin-bottom: 1rem; }
-.category-card h3, .model-name { color: #667eea; font-size: 1.3rem; margin-bottom: 0.8rem; }
-.category-card p, .model-title { color: #666; margin-bottom: 1rem; font-size: 0.95rem; line-height: 1.6; }
+.category-card, .model-card { background: white; padding: 20px; border-radius: 12px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border: none; transition: all 0.3s; display: flex; flex-direction: column; }
+.category-card a { text-decoration: none; color: inherit; display: flex; flex-direction: column; width: 100%; height: 100%; }
+.category-card:hover, .model-card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(0,0,0,0.15); }
+.category-icon, .model-icon { font-size: 3rem; margin-bottom: 1rem; }
+.category-img-wrapper { width: 100%; aspect-ratio: 4 / 3; overflow: hidden; border-radius: 8px; margin-bottom: 16px; background: #f8f8f8; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.category-card-img { width: 100%; height: 100%; object-fit: contain; padding: 8px; background: #fff; transition: transform 0.35s ease; }
+.category-card:hover .category-card-img { transform: scale(1.06); }
+.category-card h3, .model-name { color: #667eea; font-size: 1.2rem; margin-bottom: 10px; }
+.category-card p, .model-title { color: #666; margin-bottom: 16px; font-size: 0.9rem; line-height: 1.6; flex: 1; }
 .model-card img { width: 100%; height: 200px; object-fit: contain; margin-bottom: 1rem; border-radius: 8px; background: #f8f9fa; }
 .model-price { color: #667eea; font-weight: 700; margin-bottom: 1rem; font-size: 1rem; }
 .model-card .btn { display: inline-block; padding: 10px 24px; background: #667eea; color: white; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s; }
@@ -192,9 +227,12 @@
 @media (max-width: 768px) {
     .products-list-page { padding: 2rem 0; }
     .page-title { font-size: 2rem; }
-    .categories-grid, .models-grid { grid-template-columns: 1fr; gap: 1.5rem; }
-    .category-card, .model-card { padding: 1.5rem; }
-    .category-icon, .model-icon { font-size: 3rem; }
+    .categories-grid, .models-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .category-card, .model-card { padding: 12px; border-radius: 10px; }
+    .category-icon, .model-icon { font-size: 2.2rem; }
+    .category-img-wrapper { aspect-ratio: 1 / 1; border-radius: 6px; margin-bottom: 10px; }
+    .category-card h3, .model-name { font-size: 0.95rem; margin-bottom: 6px; }
+    .category-card p, .model-title { font-size: 0.78rem; }
     .category-card h3, .model-name { font-size: 1.2rem; }
     .category-card p, .model-title { font-size: 0.9rem; }
     .model-card img { height: 160px; }
