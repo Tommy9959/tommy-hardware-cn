@@ -43,18 +43,43 @@
     <div class="container">
         <h2 class="section-title">Our Core Products</h2>
         <div class="products-grid">
+            {{ $allProducts := where site.RegularPages ".Section" "products" }}
+            {{ $padlockProducts := slice }}
+            {{ $doorlockProducts := slice }}
+            {{ range $allProducts }}
+                {{ if and (strings.Contains .File.Dir "products/padlocks/") .Params.image }}
+                    {{ $padlockProducts = $padlockProducts | append . }}
+                {{ end }}
+                {{ if and (strings.Contains .File.Dir "products/door-locks/") .Params.image }}
+                    {{ $doorlockProducts = $doorlockProducts | append . }}
+                {{ end }}
+            {{ end }}
+            {{ $randomPadlock := index (first 1 (shuffle $padlockProducts)) 0 }}
+            {{ $randomDoorlock := index (first 1 (shuffle $doorlockProducts)) 0 }}
             <div class="product-card">
-                <a href="{{ relLangURL "products/door-handles/" }}">
-                    <div class="product-icon">🚪</div>
-                    <h3>Door Handles</h3>
-                    <p>Stainless Steel, Aluminum, Brass Handles for all types of doors</p>
+                <a href="{{ relLangURL "products/padlocks/" }}">
+                    {{ if $randomPadlock }}
+                    <div class="product-img-wrapper">
+                        <img src="{{ $randomPadlock.Params.image }}" alt="Padlocks" class="product-card-img" loading="lazy">
+                    </div>
+                    {{ else }}
+                    <div class="product-icon">🔒</div>
+                    {{ end }}
+                    <h3>Padlocks</h3>
+                    <p>High Security Padlocks, Heavy Duty Locks for Industrial &amp; Commercial Use</p>
                 </a>
             </div>
             <div class="product-card">
                 <a href="{{ relLangURL "products/door-locks/" }}">
-                    <div class="product-icon">🔒</div>
+                    {{ if $randomDoorlock }}
+                    <div class="product-img-wrapper">
+                        <img src="{{ $randomDoorlock.Params.image }}" alt="Door Locks" class="product-card-img" loading="lazy">
+                    </div>
+                    {{ else }}
+                    <div class="product-icon">🔐</div>
+                    {{ end }}
                     <h3>Door Locks</h3>
-                    <p>Mortise Locks, Padlocks, Smart Locks for security</p>
+                    <p>Mortise Locks, Smart Locks, Iron Plate Locks for security doors</p>
                 </a>
             </div>
             <div class="product-card">
