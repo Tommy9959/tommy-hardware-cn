@@ -1,13 +1,14 @@
 {{ define "main" }}
+{{ $lang := .Site.Language.Lang }}
 <!-- 产品列表页 -->
 <section class="products-list-page">
     <div class="container">
         <!-- 面包屑导航 -->
         {{ if not (or (eq .RelPermalink "/products/") (eq .RelPermalink "/en/products/") (eq .RelPermalink "/zh/products/") (eq .RelPermalink "/ar/products/")) }}
         <nav class="breadcrumb">
-            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}</a>
+            <a href="{{ "/" | relLangURL }}">{{ if eq $lang "zh" }}首页{{ else if eq $lang "ar" }}الرئيسية{{ else }}Home{{ end }}</a>
             <span> / </span>
-            <a href="{{ "/products/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}产品中心{{ else if eq .Site.Language.Lang "en" }}Products{{ else }}المنتجات{{ end }}</a>
+            <a href="{{ "/products/" | relLangURL }}">{{ if eq $lang "zh" }}产品中心{{ else if eq $lang "ar" }}المنتجات{{ else }}Products{{ end }}</a>
             <span> / </span>
             <span>{{ .Title }}</span>
         </nav>
@@ -19,7 +20,7 @@
             <p class="page-subtitle">{{ .Params.description }}</p>
         </div>
 
-        {{/* 分类介绍内容（如挂锁分类有详细介绍） */}}
+        {{/* 分类介绍内容 */}}
         {{ if .Content }}
         <div class="category-intro">
             {{ .Content }}
@@ -42,113 +43,111 @@
         {{ $randomPadlock := index (first 1 (shuffle $padlockProducts)) 0 }}
         {{ $randomDoorlock := index (first 1 (shuffle $doorlockProducts)) 0 }}
         <div class="categories-grid">
-            <!-- 门把手 -->
-            <div class="category-card">
-                <div class="category-icon">🚪</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}门把手{{ else if eq .Site.Language.Lang "en" }}Door Handles{{ else }}مقابض الأبواب{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}不锈钢、铝合金、黄铜材质，适用于室内室外门{{ else if eq .Site.Language.Lang "en" }}Stainless steel, aluminum alloy, brass for interior and exterior doors{{ else }}فولاذ مقاوم، ألومنيوم، نحاس{{ end }}</p>
-                <a href="{{ "/products/door-handles/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
-            </div>
-            
             <!-- 门锁（真实产品图） -->
             <div class="category-card">
                 <a href="{{ "/products/door-locks/" | relLangURL }}">
                     {{ if $randomDoorlock }}
                     <div class="category-img-wrapper">
-                        <img src="{{ $randomDoorlock.Params.image }}" alt="Door Locks" class="category-card-img" loading="lazy">
+                        <img src="{{ $randomDoorlock.Params.image }}" alt="{{ if eq $lang "zh" }}门锁{{ else if eq $lang "ar" }}أقفال الأبواب{{ else }}Door Locks{{ end }}" class="category-card-img" loading="lazy">
                     </div>
                     {{ else }}
                     <div class="category-icon">🔒</div>
                     {{ end }}
-                    <h3>{{ if eq .Site.Language.Lang "zh" }}门锁{{ else if eq .Site.Language.Lang "en" }}Door Locks{{ else }}أقفال الأبواب{{ end }}</h3>
-                    <p>{{ if eq .Site.Language.Lang "zh" }}执手锁、防盗锁、智能锁，高安全性{{ else if eq .Site.Language.Lang "en" }}Mortise locks, deadbolts, smart locks with high security{{ else }}أقفال مقبس، أقفال عالية الأمان{{ end }}</p>
-                    <span class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</span>
+                    <h3>{{ if eq $lang "zh" }}门锁{{ else if eq $lang "ar" }}أقفال الأبواب{{ else }}Door Locks{{ end }}</h3>
+                    <p>{{ if eq $lang "zh" }}执手锁、防盗锁、智能锁，高安全性{{ else if eq $lang "ar" }}أقفال مقبس، أقفال أمان، أقفال ذكية، أمان عالي{{ else }}Mortise locks, deadbolts, smart locks with high security{{ end }}</p>
+                    <span class="btn btn-primary">{{ if eq $lang "zh" }}查看详情{{ else if eq $lang "ar" }}عرض التفاصيل{{ else }}View Details{{ end }}</span>
                 </a>
             </div>
-            
+
             <!-- 挂锁（真实产品图） -->
             <div class="category-card">
                 <a href="{{ "/products/padlocks/" | relLangURL }}">
                     {{ if $randomPadlock }}
                     <div class="category-img-wrapper">
-                        <img src="{{ $randomPadlock.Params.image }}" alt="Padlocks" class="category-card-img" loading="lazy">
+                        <img src="{{ $randomPadlock.Params.image }}" alt="{{ if eq $lang "zh" }}挂锁{{ else if eq $lang "ar" }}أقفال{{ else }}Padlocks{{ end }}" class="category-card-img" loading="lazy">
                     </div>
                     {{ else }}
                     <div class="category-icon">🔐</div>
                     {{ end }}
-                    <h3>{{ if eq .Site.Language.Lang "zh" }}挂锁{{ else if eq .Site.Language.Lang "en" }}Padlocks{{ else }}أقفال القفل{{ end }}</h3>
-                    <p>{{ if eq .Site.Language.Lang "zh" }}重型矩形铁挂锁，实心黄铜锁芯，高安全性{{ else if eq .Site.Language.Lang "en" }}Heavy duty rectangle iron padlocks with solid brass cylinder, high security{{ else }}أقفال قفل حديدية ثقيلة مع أسطوانة نحاسية صلبة، أمان عالي{{ end }}</p>
-                    <span class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التف details{{ end }}</span>
+                    <h3>{{ if eq $lang "zh" }}挂锁{{ else if eq $lang "ar" }}أقفال{{ else }}Padlocks{{ end }}</h3>
+                    <p>{{ if eq $lang "zh" }}重型矩形铁挂锁，实心黄铜锁芯，高安全性{{ else if eq $lang "ar" }}أقفال حديدية ثقيلة مع أسطوانة نحاسية صلبة، أمان عالي{{ else }}Heavy duty rectangle iron padlocks with solid brass cylinder, high security{{ end }}</p>
+                    <span class="btn btn-primary">{{ if eq $lang "zh" }}查看详情{{ else if eq $lang "ar" }}عرض التفاصيل{{ else }}View Details{{ end }}</span>
                 </a>
             </div>
-            
+
+            <!-- 门把手 -->
+            <div class="category-card">
+                <div class="category-icon">🚪</div>
+                <h3>{{ if eq $lang "zh" }}门把手{{ else if eq $lang "ar" }}مقابض الأبواب{{ else }}Door Handles{{ end }}</h3>
+                <p>{{ if eq $lang "zh" }}不锈钢、铝合金、黄铜材质，适用于室内室外门{{ else if eq $lang "ar" }}فولاذ مقاوم، ألومنيوم، نحاس للأبواب الداخلية والخارجية{{ else }}Stainless steel, aluminum alloy, brass for interior and exterior doors{{ end }}</p>
+                <a href="{{ "/products/door-handles/" | relLangURL }}" class="btn btn-primary">{{ if eq $lang "zh" }}查看详情{{ else if eq $lang "ar" }}عرض التفاصيل{{ else }}View Details{{ end }}</a>
+            </div>
+
             <!-- 门铰链 -->
             <div class="category-card">
                 <div class="category-icon">🔧</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}门铰链{{ else if eq .Site.Language.Lang "en" }}Door Hinges{{ else }}مفاصل الأبواب{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}合页、隐藏式铰链、重型铰链{{ else if eq .Site.Language.Lang "en" }}Butt hinges, concealed hinges, heavy-duty hinges{{ else }}مفاصل، مفاصل مخفية{{ end }}</p>
-                <a href="{{ "/products/door-hinges/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+                <h3>{{ if eq $lang "zh" }}门铰链{{ else if eq $lang "ar" }}مفصلات الأبواب{{ else }}Door Hinges{{ end }}</h3>
+                <p>{{ if eq $lang "zh" }}合页、隐藏式铰链、重型铰链{{ else if eq $lang "ar" }}مفصلات عادية، مفصلات مخفية، مفصلات ثقيلة{{ else }}Butt hinges, concealed hinges, heavy-duty hinges{{ end }}</p>
+                <a href="{{ "/products/door-hinges/" | relLangURL }}" class="btn btn-primary">{{ if eq $lang "zh" }}查看详情{{ else if eq $lang "ar" }}عرض التفاصيل{{ else }}View Details{{ end }}</a>
             </div>
-            
-            <!-- 导轨 -->
+
+            <!-- 滑轨 -->
             <div class="category-card">
                 <div class="category-icon">📦</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}导轨{{ else if eq .Site.Language.Lang "en" }}Sliding Tracks{{ else }}المسارات المنزلقة{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}抽屉导轨、衣柜轨道、推拉门轨道{{ else if eq .Site.Language.Lang "en" }}Drawer slides, wardrobe tracks, sliding door tracks{{ else }}مسارات الأدراج، مسارات الخزائن{{ end }}</p>
-                <a href="{{ "/products/sliding-tracks/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+                <h3>{{ if eq $lang "zh" }}滑轨{{ else if eq $lang "ar" }}مسارات منزلقة{{ else }}Sliding Tracks{{ end }}</h3>
+                <p>{{ if eq $lang "zh" }}抽屉滑轨、衣柜轨道、推拉门轨道{{ else if eq $lang "ar" }}مسارات أدراج، مسارات خزائن، مسارات أبواب منزلقة{{ else }}Drawer slides, wardrobe tracks, sliding door tracks{{ end }}</p>
+                <a href="{{ "/products/sliding-tracks/" | relLangURL }}" class="btn btn-primary">{{ if eq $lang "zh" }}查看详情{{ else if eq $lang "ar" }}عرض التفاصيل{{ else }}View Details{{ end }}</a>
             </div>
-            
+
             <!-- 沙发脚 -->
             <div class="category-card">
                 <div class="category-icon">🪑</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}沙发脚{{ else if eq .Site.Language.Lang "en" }}Sofa Legs{{ else }}أرجل الأريكة{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}金属脚、木脚、塑料脚，多种款式{{ else if eq .Site.Language.Lang "en" }}Metal, wooden, plastic furniture legs in various styles{{ else }}أرجل معدنية، خشبية، بلاستيكية{{ end }}</p>
-                <a href="{{ "/products/sofa-legs/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+                <h3>{{ if eq $lang "zh" }}沙发脚{{ else if eq $lang "ar" }}أرجل الأرائك{{ else }}Sofa Legs{{ end }}</h3>
+                <p>{{ if eq $lang "zh" }}金属脚、木脚、塑料脚，多种款式{{ else if eq $lang "ar" }}أرجل معدنية، خشبية، بلاستيكية، أنماط متعددة{{ else }}Metal, wooden, plastic furniture legs in various styles{{ end }}</p>
+                <a href="{{ "/products/sofa-legs/" | relLangURL }}" class="btn btn-primary">{{ if eq $lang "zh" }}查看详情{{ else if eq $lang "ar" }}عرض التفاصيل{{ else }}View Details{{ end }}</a>
             </div>
-            
+
             <!-- 橱柜五金 -->
             <div class="category-card">
                 <div class="category-icon">🗄️</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}橱柜五金{{ else if eq .Site.Language.Lang "en" }}Cabinet Hardware{{ else }}أجهزة الخزانة{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}拉手、把手、连接件，厨房浴室适用{{ else if eq .Site.Language.Lang "en" }}Handles, knobs, connectors for kitchen and bathroom cabinets{{ else }}مقابض، موصلات للخزائن{{ end }}</p>
-                <a href="{{ "/products/cabinet-hardware/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+                <h3>{{ if eq $lang "zh" }}橱柜五金{{ else if eq $lang "ar" }}أجهزة الخزائن{{ else }}Cabinet Hardware{{ end }}</h3>
+                <p>{{ if eq $lang "zh" }}拉手、把手、连接件，厨房浴室适用{{ else if eq $lang "ar" }}مقابض، أيدي، موصلات للخزائن والمطابخ والحمامات{{ else }}Handles, knobs, connectors for kitchen and bathroom cabinets{{ end }}</p>
+                <a href="{{ "/products/cabinet-hardware/" | relLangURL }}" class="btn btn-primary">{{ if eq $lang "zh" }}查看详情{{ else if eq $lang "ar" }}عرض التفاصيل{{ else }}View Details{{ end }}</a>
             </div>
-            
+
             <!-- 钢管与法兰 -->
             <div class="category-card">
                 <div class="category-icon">🏗️</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}钢管与法兰{{ else if eq .Site.Language.Lang "en" }}Steel Pipes & Flanges{{ else }}أنابيب الصلب والشفاه{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}无缝钢管、焊接钢管、法兰，建筑和工业用{{ else if eq .Site.Language.Lang "en" }}Seamless pipes, welded pipes, flanges for construction and industrial use{{ else }}أنابيب غير ملحومة، أنابيب ملحومة، شفاه{{ end }}</p>
-                <a href="{{ "/products/steel-pipes-flanges/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+                <h3>{{ if eq $lang "zh" }}钢管与法兰{{ else if eq $lang "ar" }}أنابيب وفلنجات{{ else }}Steel Pipes & Flanges{{ end }}</h3>
+                <p>{{ if eq $lang "zh" }}无缝钢管、焊接钢管、法兰，建筑和工业用{{ else if eq $lang "ar" }}أنابيب غير ملحومة، أنابيب ملحومة، فلنجات للبناء والصناعة{{ else }}Seamless pipes, welded pipes, flanges for construction and industrial use{{ end }}</p>
+                <a href="{{ "/products/steel-pipes-flanges/" | relLangURL }}" class="btn btn-primary">{{ if eq $lang "zh" }}查看详情{{ else if eq $lang "ar" }}عرض التفاصيل{{ else }}View Details{{ end }}</a>
             </div>
-            
+
             <!-- 建材 -->
             <div class="category-card">
                 <div class="category-icon">🏠</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}建材{{ else if eq .Site.Language.Lang "en" }}Building Materials{{ else }}مواد البناء{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}胶粘剂、墙纸、防水涂料，环保耐用{{ else if eq .Site.Language.Lang "en" }}Adhesives, wallpapers, waterproofing coatings, eco-friendly and durable{{ else }}مواد لاصقة، ورق حائط، طلاء عزل مائي{{ end }}</p>
-                <a href="{{ "/products/building-materials/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+                <h3>{{ if eq $lang "zh" }}建材{{ else if eq $lang "ar" }}مواد البناء{{ else }}Building Materials{{ end }}</h3>
+                <p>{{ if eq $lang "zh" }}胶粘剂、墙纸、防水涂料，环保耐用{{ else if eq $lang "ar" }}مواد لاصقة، ورق جدران، طلاء عازل للماء، صديق للبيئة{{ else }}Adhesives, wallpapers, waterproofing coatings, eco-friendly and durable{{ end }}</p>
+                <a href="{{ "/products/building-materials/" | relLangURL }}" class="btn btn-primary">{{ if eq $lang "zh" }}查看详情{{ else if eq $lang "ar" }}عرض التفاصيل{{ else }}View Details{{ end }}</a>
             </div>
-            
+
             <!-- 门配件 -->
             <div class="category-card">
                 <div class="category-icon">🚪</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}门配件{{ else if eq .Site.Language.Lang "en" }}Door Accessories{{ else }}إكسسوارات الأبواب{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}门吸、闭门器、猫眼、安全链{{ else if eq .Site.Language.Lang "en" }}Door stoppers, closers, viewers, security chains{{ else }}مثبتات الأبواب، إغلاق الأبواب، عدسات{{ end }}</p>
-                <a href="{{ "/products/door-accessories/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+                <h3>{{ if eq $lang "zh" }}门配件{{ else if eq $lang "ar" }}إكسسوارات الأبواب{{ else }}Door Accessories{{ end }}</h3>
+                <p>{{ if eq $lang "zh" }}门吸、闭门器、猫眼、安全链{{ else if eq $lang "ar" }}ماسكات أبواب، غالقات أبواب، عدسات، سلاسل أمان{{ else }}Door stoppers, closers, viewers, security chains{{ end }}</p>
+                <a href="{{ "/products/door-accessories/" | relLangURL }}" class="btn btn-primary">{{ if eq $lang "zh" }}查看详情{{ else if eq $lang "ar" }}عرض التفاصيل{{ else }}View Details{{ end }}</a>
             </div>
-            
+
             <!-- 家具配件 -->
             <div class="category-card">
                 <div class="category-icon">🛋️</div>
-                <h3>{{ if eq .Site.Language.Lang "zh" }}家具配件{{ else if eq .Site.Language.Lang "en" }}Furniture Fittings{{ else }}تجهيزات الأثاث{{ end }}</h3>
-                <p>{{ if eq .Site.Language.Lang "zh" }}家具把手、连接件、支撑脚、铰链{{ else if eq .Site.Language.Lang "en" }}Furniture handles, connectors, legs, hinges{{ else }}مقابض الأثاث، موصلات، أرجل، مفاصل{{ end }}</p>
-                <a href="{{ "/products/furniture-fittings/" | relLangURL }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看详情{{ else if eq .Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}</a>
+                <h3>{{ if eq $lang "zh" }}家具配件{{ else if eq $lang "ar" }}تجهيزات الأثاث{{ else }}Furniture Fittings{{ end }}</h3>
+                <p>{{ if eq $lang "zh" }}家具把手、连接件、支撑脚、铰链{{ else if eq $lang "ar" }}مقابض أثاث، موصلات، أرجل دعم، مفصلات{{ else }}Furniture handles, connectors, legs, hinges{{ end }}</p>
+                <a href="{{ "/products/furniture-fittings/" | relLangURL }}" class="btn btn-primary">{{ if eq $lang "zh" }}查看详情{{ else if eq $lang "ar" }}عرض التفاصيل{{ else }}View Details{{ end }}</a>
             </div>
-            
-            <!-- 挂锁已在上面展示（真实产品图） -->
         </div>
-        
+
         {{/* 如果是分类页面，显示该分类下的产品型号 */}}
         {{ else }}
         <div class="models-grid">
@@ -162,10 +161,10 @@
                 <h3 class="model-name">{{ .Title }}</h3>
                 <p class="model-title">{{ .Params.product_name | default .Description }}</p>
                 {{ if .Params.price_range }}
-                <p class="model-price">{{ if eq $.Site.Language.Lang "zh" }}价格：{{ else }}Price: {{ end }}{{ .Params.price_range }}</p>
+                <p class="model-price">{{ if eq $lang "zh" }}价格：{{ else if eq $lang "ar" }}السعر: {{ else }}Price: {{ end }}{{ .Params.price_range }}</p>
                 {{ end }}
                 <a href="{{ .RelPermalink }}" class="btn btn-primary">
-                    {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}
+                    {{ if eq $lang "zh" }}查看详情{{ else if eq $lang "ar" }}عرض التفاصيل{{ else }}View Details{{ end }}
                 </a>
             </div>
             {{ end }}
@@ -174,10 +173,10 @@
 
         <!-- 联系 CTA -->
         <div class="products-cta">
-            <h2>{{ if eq .Site.Language.Lang "zh" }}需要帮助选择产品？{{ else if eq .Site.Language.Lang "en" }}Need Help Choosing Products?{{ else }}تحتاج مساعدة؟{{ end }}</h2>
-            <p>{{ if eq .Site.Language.Lang "zh" }}联系我们的销售团队，获取专业建议{{ else if eq .Site.Language.Lang "en" }}Contact our sales team for professional advice{{ else }}تواصل مع فريق المبيعات{{ end }}</p>
+            <h2>{{ if eq $lang "zh" }}需要帮助选择产品？{{ else if eq $lang "ar" }}هل تحتاج مساعدة في اختيار المنتجات؟{{ else }}Need Help Choosing Products?{{ end }}</h2>
+            <p>{{ if eq $lang "zh" }}联系我们的销售团队，获取专业建议{{ else if eq $lang "ar" }}اتصل بفريق المبيعات لدينا للحصول على استشارة احترافية{{ else }}Contact our sales team for professional advice{{ end }}</p>
             <div class="cta-buttons">
-                <a href="mailto:{{ .Site.Params.email }}" class="btn btn-primary btn-large">📧 {{ if eq .Site.Language.Lang "zh" }}发送邮件{{ else if eq .Site.Language.Lang "en" }}Send Email{{ else }}إرسال بريد{{ end }}</a>
+                <a href="mailto:{{ .Site.Params.email }}" class="btn btn-primary btn-large">📧 {{ if eq $lang "zh" }}发送邮件{{ else if eq $lang "ar" }}إرسال بريد إلكتروني{{ else }}Send Email{{ end }}</a>
                 <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="btn btn-whatsapp btn-large">💬 WhatsApp</a>
             </div>
         </div>
@@ -214,6 +213,8 @@
 .model-price { color: #667eea; font-weight: 700; margin-bottom: 1rem; font-size: 1rem; }
 .model-card .btn { display: inline-block; padding: 10px 24px; background: #667eea; color: white; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s; }
 .model-card .btn:hover { background: #5a6fe0; transform: translateY(-2px); box-shadow: 0 5px 12px rgba(102,126,234,0.3); }
+.category-card .btn { display: inline-block; padding: 10px 24px; background: #667eea; color: white; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s; margin-top: auto; }
+.category-card .btn:hover { background: #5a6fe0; transform: translateY(-2px); box-shadow: 0 5px 12px rgba(102,126,234,0.3); }
 .products-cta { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 3rem; border-radius: 15px; text-align: center; }
 .products-cta h2 { font-size: 2rem; margin-bottom: 1rem; }
 .products-cta p { font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.95; }
@@ -233,8 +234,6 @@
     .category-img-wrapper { aspect-ratio: 1 / 1; border-radius: 6px; margin-bottom: 10px; }
     .category-card h3, .model-name { font-size: 0.95rem; margin-bottom: 6px; }
     .category-card p, .model-title { font-size: 0.78rem; }
-    .category-card h3, .model-name { font-size: 1.2rem; }
-    .category-card p, .model-title { font-size: 0.9rem; }
     .model-card img { height: 160px; }
 }
 </style>
