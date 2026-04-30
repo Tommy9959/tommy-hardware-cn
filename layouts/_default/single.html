@@ -40,7 +40,12 @@
 
             <!-- 右侧：产品信息 -->
             <div class="product-info">
-                <h1 class="product-title">{{ .Title }} - {{ .Params.product_name | default .Title }}</h1>
+                {{ $productName := .Params.product_name | default .Title }}
+                {{ if eq .Title $productName }}
+                <h1 class="product-title">{{ .Title }}</h1>
+                {{ else }}
+                <h1 class="product-title">{{ .Title }} - {{ $productName }}</h1>
+                {{ end }}
                 
                 {{ if .Params.price_range }}
                 <div class="price-box">
