@@ -2,2006 +2,2996 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1318/zh/blog/nigeria-hardware-market-guide/</loc>
+    <loc>http://localhost:1319/zh/blog/nigeria-hardware-market-guide/</loc>
     <lastmod>2026-04-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/blog/nigeria-hardware-market-guide/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1318/zh/blog/nigeria-hardware-market-guide/"
-                />
-  </url><url>
-    <loc>http://localhost:1318/zh/categories/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1318/categories/"
+                href="http://localhost:1319/blog/nigeria-hardware-market-guide/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/categories/"
+                href="http://localhost:1319/ar/blog/nigeria-hardware-market-guide/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/categories/"
+                href="http://localhost:1319/zh/blog/nigeria-hardware-market-guide/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/tags/ce/</loc>
+    <loc>http://localhost:1319/zh/categories/</loc>
     <lastmod>2026-04-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/tags/ce/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1318/zh/tags/ce/"
-                />
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/iso-9001/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1318/tags/iso-9001/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1318/zh/tags/iso-9001/"
-                />
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/sgs/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1318/tags/sgs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1318/zh/tags/sgs/"
-                />
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1318/tags/"
+                href="http://localhost:1319/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/tags/"
+                href="http://localhost:1319/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/tags/"
+                href="http://localhost:1319/zh/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/tags/%E5%AE%89%E5%85%A8/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/blog/</loc>
+    <loc>http://localhost:1319/zh/tags/ce/</loc>
     <lastmod>2026-04-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/blog/"
+                href="http://localhost:1319/tags/ce/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/blog/"
+                href="http://localhost:1319/ar/tags/ce/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/blog/"
+                href="http://localhost:1319/zh/tags/ce/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/tags/%E6%9D%90%E8%B4%A8/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/%E4%BA%A7%E5%93%81%E5%AF%B9%E6%AF%94/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/categories/%E4%BA%A7%E5%93%81%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/%E9%9D%9E%E6%B4%B2%E8%B4%B8%E6%98%93/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/blog/how-to-choose-door-locks/</loc>
+    <loc>http://localhost:1319/zh/tags/iso-9001/</loc>
     <lastmod>2026-04-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/blog/how-to-choose-door-locks/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1318/zh/blog/how-to-choose-door-locks/"
-                />
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/%E6%B5%B7%E5%85%B3%E6%B8%85%E5%85%B3/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/%E5%BB%BA%E7%AD%91%E7%83%AD%E6%BD%AE/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/%E8%BF%9B%E5%8F%A3%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/categories/%E8%B4%B8%E6%98%93%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/%E9%97%A8%E6%8A%8A%E6%89%8B/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/blog/door-handle-materials-guide/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1318/blog/door-handle-materials-guide/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1318/zh/blog/door-handle-materials-guide/"
-                />
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/%E9%97%A8%E9%94%81/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/%E9%97%A8%E4%BA%94%E9%87%91/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/blog/door-hardware-quality-certification-guide/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1318/blog/door-hardware-quality-certification-guide/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1318/zh/blog/door-hardware-quality-certification-guide/"
-                />
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/%E5%B0%BC%E6%97%A5%E5%88%A9%E4%BA%9A%E5%B8%82%E5%9C%BA/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/%E5%B8%82%E5%9C%BA%E5%88%86%E6%9E%90/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/categories/%E5%B8%82%E5%9C%BA%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1318/"
+                href="http://localhost:1319/tags/iso-9001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/"
+                href="http://localhost:1319/ar/tags/iso-9001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/"
+                href="http://localhost:1319/zh/tags/iso-9001/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/tags/%E4%BA%94%E9%87%91%E8%BF%9B%E5%8F%A3/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/%E8%B4%A8%E9%87%8F%E6%8E%A7%E5%88%B6/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/tags/%E8%B4%A8%E9%87%8F%E8%AE%A4%E8%AF%81/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/categories/%E8%B4%A8%E9%87%8F%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url><url>
-    <loc>http://localhost:1318/zh/blog/import-door-hardware-from-china/</loc>
+    <loc>http://localhost:1319/zh/tags/sgs/</loc>
     <lastmod>2026-04-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/blog/import-door-hardware-from-china/"
+                href="http://localhost:1319/tags/sgs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/tags/sgs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/blog/import-door-hardware-from-china/"
+                href="http://localhost:1319/zh/tags/sgs/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/tags/%E8%B4%AD%E4%B9%B0%E6%8C%87%E5%8D%97/</loc>
+    <loc>http://localhost:1319/zh/tags/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E5%AE%89%E5%85%A8/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/blog/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/blog/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E6%9D%90%E8%B4%A8/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E4%BA%A7%E5%93%81%E5%AF%B9%E6%AF%94/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/categories/%E4%BA%A7%E5%93%81%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E9%9D%9E%E6%B4%B2%E8%B4%B8%E6%98%93/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/blog/how-to-choose-door-locks/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/blog/how-to-choose-door-locks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/blog/how-to-choose-door-locks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/blog/how-to-choose-door-locks/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E6%B5%B7%E5%85%B3%E6%B8%85%E5%85%B3/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E5%BB%BA%E7%AD%91%E7%83%AD%E6%BD%AE/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E8%BF%9B%E5%8F%A3%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/categories/%E8%B4%B8%E6%98%93%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E9%97%A8%E6%8A%8A%E6%89%8B/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/blog/door-handle-materials-guide/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/blog/door-handle-materials-guide/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/blog/door-handle-materials-guide/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/blog/door-handle-materials-guide/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E9%97%A8%E9%94%81/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E9%97%A8%E4%BA%94%E9%87%91/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/blog/door-hardware-quality-certification-guide/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/blog/door-hardware-quality-certification-guide/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/blog/door-hardware-quality-certification-guide/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/blog/door-hardware-quality-certification-guide/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E5%B0%BC%E6%97%A5%E5%88%A9%E4%BA%9A%E5%B8%82%E5%9C%BA/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E5%B8%82%E5%9C%BA%E5%88%86%E6%9E%90/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/categories/%E5%B8%82%E5%9C%BA%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E4%BA%94%E9%87%91%E8%BF%9B%E5%8F%A3/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E8%B4%A8%E9%87%8F%E6%8E%A7%E5%88%B6/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E8%B4%A8%E9%87%8F%E8%AE%A4%E8%AF%81/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/categories/%E8%B4%A8%E9%87%8F%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url><url>
+    <loc>http://localhost:1319/zh/blog/import-door-hardware-from-china/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/blog/import-door-hardware-from-china/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/blog/import-door-hardware-from-china/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/blog/import-door-hardware-from-china/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/tags/%E8%B4%AD%E4%B9%B0%E6%8C%87%E5%8D%97/</loc>
     <lastmod>2026-04-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url><url>
-    <loc>http://localhost:1318/zh/tags/%E5%AE%B6%E5%B1%85%E8%A3%85%E4%BF%AE/</loc>
+    <loc>http://localhost:1319/zh/tags/%E5%AE%B6%E5%B1%85%E8%A3%85%E4%BF%AE/</loc>
     <lastmod>2026-04-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url><url>
-    <loc>http://localhost:1318/zh/blog/how-to-choose-door-handles/</loc>
+    <loc>http://localhost:1319/zh/blog/how-to-choose-door-handles/</loc>
     <lastmod>2026-04-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/blog/how-to-choose-door-handles/"
+                href="http://localhost:1319/blog/how-to-choose-door-handles/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/blog/how-to-choose-door-handles/"
+                href="http://localhost:1319/ar/blog/how-to-choose-door-handles/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/blog/how-to-choose-door-handles/"
+                href="http://localhost:1319/zh/blog/how-to-choose-door-handles/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/building-materials/bm-001/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-008/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/building-materials/bm-001/"
+                href="http://localhost:1319/products/door-locks/dl-008/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/building-materials/bm-001/"
+                href="http://localhost:1319/ar/products/door-locks/dl-008/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/building-materials/bm-001/"
+                href="http://localhost:1319/zh/products/door-locks/dl-008/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/building-materials/bm-002/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-009/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/building-materials/bm-002/"
+                href="http://localhost:1319/products/door-locks/dl-009/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/building-materials/bm-002/"
+                href="http://localhost:1319/ar/products/door-locks/dl-009/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/building-materials/bm-002/"
+                href="http://localhost:1319/zh/products/door-locks/dl-009/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/building-materials/bm-003/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-010/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/building-materials/bm-003/"
+                href="http://localhost:1319/products/door-locks/dl-010/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/building-materials/bm-003/"
+                href="http://localhost:1319/ar/products/door-locks/dl-010/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/building-materials/bm-003/"
+                href="http://localhost:1319/zh/products/door-locks/dl-010/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/building-materials/bm-004/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-011/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/building-materials/bm-004/"
+                href="http://localhost:1319/products/door-locks/dl-011/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/building-materials/bm-004/"
+                href="http://localhost:1319/ar/products/door-locks/dl-011/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/building-materials/bm-004/"
+                href="http://localhost:1319/zh/products/door-locks/dl-011/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/building-materials/bm-005/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-012/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/building-materials/bm-005/"
+                href="http://localhost:1319/products/door-locks/dl-012/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/building-materials/bm-005/"
+                href="http://localhost:1319/ar/products/door-locks/dl-012/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/building-materials/bm-005/"
+                href="http://localhost:1319/zh/products/door-locks/dl-012/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/building-materials/bm-006/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-013/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/building-materials/bm-006/"
+                href="http://localhost:1319/products/door-locks/dl-013/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/building-materials/bm-006/"
+                href="http://localhost:1319/ar/products/door-locks/dl-013/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/building-materials/bm-006/"
+                href="http://localhost:1319/zh/products/door-locks/dl-013/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/cabinet-hardware/ch-001/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-014/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/cabinet-hardware/ch-001/"
+                href="http://localhost:1319/products/door-locks/dl-014/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/cabinet-hardware/ch-001/"
+                href="http://localhost:1319/ar/products/door-locks/dl-014/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/cabinet-hardware/ch-001/"
+                href="http://localhost:1319/zh/products/door-locks/dl-014/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/cabinet-hardware/ch-002/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-015/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/cabinet-hardware/ch-002/"
+                href="http://localhost:1319/products/door-locks/dl-015/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/cabinet-hardware/ch-002/"
+                href="http://localhost:1319/ar/products/door-locks/dl-015/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/cabinet-hardware/ch-002/"
+                href="http://localhost:1319/zh/products/door-locks/dl-015/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/cabinet-hardware/ch-003/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-016/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/cabinet-hardware/ch-003/"
+                href="http://localhost:1319/products/door-locks/dl-016/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/cabinet-hardware/ch-003/"
+                href="http://localhost:1319/ar/products/door-locks/dl-016/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/cabinet-hardware/ch-003/"
+                href="http://localhost:1319/zh/products/door-locks/dl-016/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/cabinet-hardware/ch-004/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-017/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/cabinet-hardware/ch-004/"
+                href="http://localhost:1319/products/door-locks/dl-017/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/cabinet-hardware/ch-004/"
+                href="http://localhost:1319/ar/products/door-locks/dl-017/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/cabinet-hardware/ch-004/"
+                href="http://localhost:1319/zh/products/door-locks/dl-017/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/cabinet-hardware/ch-005/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-018/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/cabinet-hardware/ch-005/"
+                href="http://localhost:1319/products/door-locks/dl-018/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/cabinet-hardware/ch-005/"
+                href="http://localhost:1319/ar/products/door-locks/dl-018/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/cabinet-hardware/ch-005/"
+                href="http://localhost:1319/zh/products/door-locks/dl-018/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/cabinet-hardware/ch-006/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-019/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/cabinet-hardware/ch-006/"
+                href="http://localhost:1319/products/door-locks/dl-019/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/cabinet-hardware/ch-006/"
+                href="http://localhost:1319/ar/products/door-locks/dl-019/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/cabinet-hardware/ch-006/"
+                href="http://localhost:1319/zh/products/door-locks/dl-019/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-accessories/da-001/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-020/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-accessories/da-001/"
+                href="http://localhost:1319/products/door-locks/dl-020/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-accessories/da-001/"
+                href="http://localhost:1319/ar/products/door-locks/dl-020/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-accessories/da-001/"
+                href="http://localhost:1319/zh/products/door-locks/dl-020/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-accessories/da-002/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-021/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-accessories/da-002/"
+                href="http://localhost:1319/products/door-locks/dl-021/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-accessories/da-002/"
+                href="http://localhost:1319/ar/products/door-locks/dl-021/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-accessories/da-002/"
+                href="http://localhost:1319/zh/products/door-locks/dl-021/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-accessories/da-003/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-022/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-accessories/da-003/"
+                href="http://localhost:1319/products/door-locks/dl-022/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-accessories/da-003/"
+                href="http://localhost:1319/ar/products/door-locks/dl-022/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-accessories/da-003/"
+                href="http://localhost:1319/zh/products/door-locks/dl-022/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-accessories/da-004/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-023/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-accessories/da-004/"
+                href="http://localhost:1319/products/door-locks/dl-023/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-accessories/da-004/"
+                href="http://localhost:1319/ar/products/door-locks/dl-023/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-accessories/da-004/"
+                href="http://localhost:1319/zh/products/door-locks/dl-023/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-accessories/da-005/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-024/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-accessories/da-005/"
+                href="http://localhost:1319/products/door-locks/dl-024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-accessories/da-005/"
+                href="http://localhost:1319/ar/products/door-locks/dl-024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-accessories/da-005/"
+                href="http://localhost:1319/zh/products/door-locks/dl-024/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-accessories/da-006/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-025/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-accessories/da-006/"
+                href="http://localhost:1319/products/door-locks/dl-025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-accessories/da-006/"
+                href="http://localhost:1319/ar/products/door-locks/dl-025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-accessories/da-006/"
+                href="http://localhost:1319/zh/products/door-locks/dl-025/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-handles/dh-001/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-029/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-handles/dh-001/"
+                href="http://localhost:1319/products/door-locks/dl-029/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-handles/dh-001/"
+                href="http://localhost:1319/ar/products/door-locks/dl-029/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-handles/dh-001/"
+                href="http://localhost:1319/zh/products/door-locks/dl-029/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-handles/dh-002/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-030/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-handles/dh-002/"
+                href="http://localhost:1319/products/door-locks/dl-030/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-handles/dh-002/"
+                href="http://localhost:1319/ar/products/door-locks/dl-030/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-handles/dh-002/"
+                href="http://localhost:1319/zh/products/door-locks/dl-030/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-handles/dh-003/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-026/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-handles/dh-003/"
+                href="http://localhost:1319/products/door-locks/dl-026/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-handles/dh-003/"
+                href="http://localhost:1319/ar/products/door-locks/dl-026/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-handles/dh-003/"
+                href="http://localhost:1319/zh/products/door-locks/dl-026/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-handles/dh-004/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-027/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-handles/dh-004/"
+                href="http://localhost:1319/products/door-locks/dl-027/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-handles/dh-004/"
+                href="http://localhost:1319/ar/products/door-locks/dl-027/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-handles/dh-004/"
+                href="http://localhost:1319/zh/products/door-locks/dl-027/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-handles/dh-005/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-028/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-handles/dh-005/"
+                href="http://localhost:1319/products/door-locks/dl-028/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-handles/dh-005/"
+                href="http://localhost:1319/ar/products/door-locks/dl-028/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-handles/dh-005/"
+                href="http://localhost:1319/zh/products/door-locks/dl-028/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-handles/dh-006/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-031/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-handles/dh-006/"
+                href="http://localhost:1319/products/door-locks/dl-031/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-handles/dh-006/"
+                href="http://localhost:1319/ar/products/door-locks/dl-031/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-handles/dh-006/"
+                href="http://localhost:1319/zh/products/door-locks/dl-031/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-locks/dl-001/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-032/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-locks/dl-001/"
+                href="http://localhost:1319/products/door-locks/dl-032/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-locks/dl-001/"
+                href="http://localhost:1319/ar/products/door-locks/dl-032/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-locks/dl-001/"
+                href="http://localhost:1319/zh/products/door-locks/dl-032/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-locks/dl-002/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-033/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-locks/dl-002/"
+                href="http://localhost:1319/products/door-locks/dl-033/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-locks/dl-002/"
+                href="http://localhost:1319/ar/products/door-locks/dl-033/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-locks/dl-002/"
+                href="http://localhost:1319/zh/products/door-locks/dl-033/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-locks/dl-003/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-034/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-locks/dl-003/"
+                href="http://localhost:1319/products/door-locks/dl-034/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-locks/dl-003/"
+                href="http://localhost:1319/ar/products/door-locks/dl-034/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-locks/dl-003/"
+                href="http://localhost:1319/zh/products/door-locks/dl-034/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-locks/dl-004/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-035/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-locks/dl-004/"
+                href="http://localhost:1319/products/door-locks/dl-035/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-locks/dl-004/"
+                href="http://localhost:1319/ar/products/door-locks/dl-035/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-locks/dl-004/"
+                href="http://localhost:1319/zh/products/door-locks/dl-035/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-locks/dl-005/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-036/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-locks/dl-005/"
+                href="http://localhost:1319/products/door-locks/dl-036/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-locks/dl-005/"
+                href="http://localhost:1319/ar/products/door-locks/dl-036/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-locks/dl-005/"
+                href="http://localhost:1319/zh/products/door-locks/dl-036/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-locks/dl-006/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-037/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-locks/dl-006/"
+                href="http://localhost:1319/products/door-locks/dl-037/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-locks/dl-006/"
+                href="http://localhost:1319/ar/products/door-locks/dl-037/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-locks/dl-006/"
+                href="http://localhost:1319/zh/products/door-locks/dl-037/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-locks/dl-007/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-038/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-locks/dl-007/"
+                href="http://localhost:1319/products/door-locks/dl-038/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-locks/dl-007/"
+                href="http://localhost:1319/ar/products/door-locks/dl-038/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-locks/dl-007/"
+                href="http://localhost:1319/zh/products/door-locks/dl-038/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/furniture-fittings/ff-001/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-039/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/furniture-fittings/ff-001/"
+                href="http://localhost:1319/products/door-locks/dl-039/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/furniture-fittings/ff-001/"
+                href="http://localhost:1319/ar/products/door-locks/dl-039/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/furniture-fittings/ff-001/"
+                href="http://localhost:1319/zh/products/door-locks/dl-039/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/furniture-fittings/ff-002/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-040/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/furniture-fittings/ff-002/"
+                href="http://localhost:1319/products/door-locks/dl-040/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/furniture-fittings/ff-002/"
+                href="http://localhost:1319/ar/products/door-locks/dl-040/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/furniture-fittings/ff-002/"
+                href="http://localhost:1319/zh/products/door-locks/dl-040/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/furniture-fittings/ff-003/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-041/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/furniture-fittings/ff-003/"
+                href="http://localhost:1319/products/door-locks/dl-041/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/furniture-fittings/ff-003/"
+                href="http://localhost:1319/ar/products/door-locks/dl-041/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/furniture-fittings/ff-003/"
+                href="http://localhost:1319/zh/products/door-locks/dl-041/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/furniture-fittings/ff-004/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-042/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/furniture-fittings/ff-004/"
+                href="http://localhost:1319/products/door-locks/dl-042/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/furniture-fittings/ff-004/"
+                href="http://localhost:1319/ar/products/door-locks/dl-042/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/furniture-fittings/ff-004/"
+                href="http://localhost:1319/zh/products/door-locks/dl-042/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/furniture-fittings/ff-005/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-043/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/furniture-fittings/ff-005/"
+                href="http://localhost:1319/products/door-locks/dl-043/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/furniture-fittings/ff-005/"
+                href="http://localhost:1319/ar/products/door-locks/dl-043/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/furniture-fittings/ff-005/"
+                href="http://localhost:1319/zh/products/door-locks/dl-043/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/furniture-fittings/ff-006/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-044/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/furniture-fittings/ff-006/"
+                href="http://localhost:1319/products/door-locks/dl-044/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/furniture-fittings/ff-006/"
+                href="http://localhost:1319/ar/products/door-locks/dl-044/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/furniture-fittings/ff-006/"
+                href="http://localhost:1319/zh/products/door-locks/dl-044/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/padlocks/gtk/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-045/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/padlocks/gtk/"
+                href="http://localhost:1319/products/door-locks/dl-045/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/padlocks/gtk/"
+                href="http://localhost:1319/ar/products/door-locks/dl-045/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/padlocks/gtk/"
+                href="http://localhost:1319/zh/products/door-locks/dl-045/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-hinges/hh-001/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-046/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-hinges/hh-001/"
+                href="http://localhost:1319/products/door-locks/dl-046/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-hinges/hh-001/"
+                href="http://localhost:1319/ar/products/door-locks/dl-046/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-hinges/hh-001/"
+                href="http://localhost:1319/zh/products/door-locks/dl-046/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-hinges/hh-002/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-047/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-hinges/hh-002/"
+                href="http://localhost:1319/products/door-locks/dl-047/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-hinges/hh-002/"
+                href="http://localhost:1319/ar/products/door-locks/dl-047/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-hinges/hh-002/"
+                href="http://localhost:1319/zh/products/door-locks/dl-047/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-hinges/hh-003/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-048/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-hinges/hh-003/"
+                href="http://localhost:1319/products/door-locks/dl-048/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-hinges/hh-003/"
+                href="http://localhost:1319/ar/products/door-locks/dl-048/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-hinges/hh-003/"
+                href="http://localhost:1319/zh/products/door-locks/dl-048/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-hinges/hh-004/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-056/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-hinges/hh-004/"
+                href="http://localhost:1319/products/door-locks/dl-056/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-hinges/hh-004/"
+                href="http://localhost:1319/ar/products/door-locks/dl-056/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-hinges/hh-004/"
+                href="http://localhost:1319/zh/products/door-locks/dl-056/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-hinges/hh-005/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-057/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-hinges/hh-005/"
+                href="http://localhost:1319/products/door-locks/dl-057/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-hinges/hh-005/"
+                href="http://localhost:1319/ar/products/door-locks/dl-057/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-hinges/hh-005/"
+                href="http://localhost:1319/zh/products/door-locks/dl-057/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-hinges/hh-006/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-049/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-hinges/hh-006/"
+                href="http://localhost:1319/products/door-locks/dl-049/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-hinges/hh-006/"
+                href="http://localhost:1319/ar/products/door-locks/dl-049/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-hinges/hh-006/"
+                href="http://localhost:1319/zh/products/door-locks/dl-049/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/padlocks/hhl/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-050/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/padlocks/hhl/"
+                href="http://localhost:1319/products/door-locks/dl-050/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/padlocks/hhl/"
+                href="http://localhost:1319/ar/products/door-locks/dl-050/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/padlocks/hhl/"
+                href="http://localhost:1319/zh/products/door-locks/dl-050/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/padlocks/hlv/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-051/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/padlocks/hlv/"
+                href="http://localhost:1319/products/door-locks/dl-051/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/padlocks/hlv/"
+                href="http://localhost:1319/ar/products/door-locks/dl-051/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/padlocks/hlv/"
+                href="http://localhost:1319/zh/products/door-locks/dl-051/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/padlocks/ltn/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-052/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/padlocks/ltn/"
+                href="http://localhost:1319/products/door-locks/dl-052/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/padlocks/ltn/"
+                href="http://localhost:1319/ar/products/door-locks/dl-052/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/padlocks/ltn/"
+                href="http://localhost:1319/zh/products/door-locks/dl-052/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/padlocks/sf/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-053/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/padlocks/sf/"
+                href="http://localhost:1319/products/door-locks/dl-053/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/padlocks/sf/"
+                href="http://localhost:1319/ar/products/door-locks/dl-053/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/padlocks/sf/"
+                href="http://localhost:1319/zh/products/door-locks/dl-053/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/padlocks/sfn/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-054/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/padlocks/sfn/"
+                href="http://localhost:1319/products/door-locks/dl-054/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/padlocks/sfn/"
+                href="http://localhost:1319/ar/products/door-locks/dl-054/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/padlocks/sfn/"
+                href="http://localhost:1319/zh/products/door-locks/dl-054/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sofa-legs/sl-001/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-055/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sofa-legs/sl-001/"
+                href="http://localhost:1319/products/door-locks/dl-055/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sofa-legs/sl-001/"
+                href="http://localhost:1319/ar/products/door-locks/dl-055/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sofa-legs/sl-001/"
+                href="http://localhost:1319/zh/products/door-locks/dl-055/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sofa-legs/sl-002/</loc>
+    <loc>http://localhost:1319/zh/products/building-materials/bm-001/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sofa-legs/sl-002/"
+                href="http://localhost:1319/products/building-materials/bm-001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sofa-legs/sl-002/"
+                href="http://localhost:1319/ar/products/building-materials/bm-001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sofa-legs/sl-002/"
+                href="http://localhost:1319/zh/products/building-materials/bm-001/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sofa-legs/sl-003/</loc>
+    <loc>http://localhost:1319/zh/products/building-materials/bm-002/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sofa-legs/sl-003/"
+                href="http://localhost:1319/products/building-materials/bm-002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sofa-legs/sl-003/"
+                href="http://localhost:1319/ar/products/building-materials/bm-002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sofa-legs/sl-003/"
+                href="http://localhost:1319/zh/products/building-materials/bm-002/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sofa-legs/sl-004/</loc>
+    <loc>http://localhost:1319/zh/products/building-materials/bm-003/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sofa-legs/sl-004/"
+                href="http://localhost:1319/products/building-materials/bm-003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sofa-legs/sl-004/"
+                href="http://localhost:1319/ar/products/building-materials/bm-003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sofa-legs/sl-004/"
+                href="http://localhost:1319/zh/products/building-materials/bm-003/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sofa-legs/sl-005/</loc>
+    <loc>http://localhost:1319/zh/products/building-materials/bm-004/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sofa-legs/sl-005/"
+                href="http://localhost:1319/products/building-materials/bm-004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sofa-legs/sl-005/"
+                href="http://localhost:1319/ar/products/building-materials/bm-004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sofa-legs/sl-005/"
+                href="http://localhost:1319/zh/products/building-materials/bm-004/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sofa-legs/sl-006/</loc>
+    <loc>http://localhost:1319/zh/products/building-materials/bm-005/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sofa-legs/sl-006/"
+                href="http://localhost:1319/products/building-materials/bm-005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sofa-legs/sl-006/"
+                href="http://localhost:1319/ar/products/building-materials/bm-005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sofa-legs/sl-006/"
+                href="http://localhost:1319/zh/products/building-materials/bm-005/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/steel-pipes-flanges/sp-001/</loc>
+    <loc>http://localhost:1319/zh/products/building-materials/bm-006/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/steel-pipes-flanges/sp-001/"
+                href="http://localhost:1319/products/building-materials/bm-006/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/steel-pipes-flanges/sp-001/"
+                href="http://localhost:1319/ar/products/building-materials/bm-006/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/steel-pipes-flanges/sp-001/"
+                href="http://localhost:1319/zh/products/building-materials/bm-006/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/steel-pipes-flanges/sp-002/</loc>
+    <loc>http://localhost:1319/zh/products/cabinet-hardware/ch-001/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/steel-pipes-flanges/sp-002/"
+                href="http://localhost:1319/products/cabinet-hardware/ch-001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/steel-pipes-flanges/sp-002/"
+                href="http://localhost:1319/ar/products/cabinet-hardware/ch-001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/steel-pipes-flanges/sp-002/"
+                href="http://localhost:1319/zh/products/cabinet-hardware/ch-001/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/steel-pipes-flanges/sp-003/</loc>
+    <loc>http://localhost:1319/zh/products/cabinet-hardware/ch-002/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/steel-pipes-flanges/sp-003/"
+                href="http://localhost:1319/products/cabinet-hardware/ch-002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/steel-pipes-flanges/sp-003/"
+                href="http://localhost:1319/ar/products/cabinet-hardware/ch-002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/steel-pipes-flanges/sp-003/"
+                href="http://localhost:1319/zh/products/cabinet-hardware/ch-002/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/steel-pipes-flanges/sp-004/</loc>
+    <loc>http://localhost:1319/zh/products/cabinet-hardware/ch-003/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/steel-pipes-flanges/sp-004/"
+                href="http://localhost:1319/products/cabinet-hardware/ch-003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/steel-pipes-flanges/sp-004/"
+                href="http://localhost:1319/ar/products/cabinet-hardware/ch-003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/steel-pipes-flanges/sp-004/"
+                href="http://localhost:1319/zh/products/cabinet-hardware/ch-003/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/steel-pipes-flanges/sp-005/</loc>
+    <loc>http://localhost:1319/zh/products/cabinet-hardware/ch-004/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/steel-pipes-flanges/sp-005/"
+                href="http://localhost:1319/products/cabinet-hardware/ch-004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/steel-pipes-flanges/sp-005/"
+                href="http://localhost:1319/ar/products/cabinet-hardware/ch-004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/steel-pipes-flanges/sp-005/"
+                href="http://localhost:1319/zh/products/cabinet-hardware/ch-004/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/steel-pipes-flanges/sp-006/</loc>
+    <loc>http://localhost:1319/zh/products/cabinet-hardware/ch-005/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/steel-pipes-flanges/sp-006/"
+                href="http://localhost:1319/products/cabinet-hardware/ch-005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/steel-pipes-flanges/sp-006/"
+                href="http://localhost:1319/ar/products/cabinet-hardware/ch-005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/steel-pipes-flanges/sp-006/"
+                href="http://localhost:1319/zh/products/cabinet-hardware/ch-005/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sliding-tracks/st-001/</loc>
+    <loc>http://localhost:1319/zh/products/cabinet-hardware/ch-006/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sliding-tracks/st-001/"
+                href="http://localhost:1319/products/cabinet-hardware/ch-006/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sliding-tracks/st-001/"
+                href="http://localhost:1319/ar/products/cabinet-hardware/ch-006/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sliding-tracks/st-001/"
+                href="http://localhost:1319/zh/products/cabinet-hardware/ch-006/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sliding-tracks/st-002/</loc>
+    <loc>http://localhost:1319/zh/products/door-accessories/da-001/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sliding-tracks/st-002/"
+                href="http://localhost:1319/products/door-accessories/da-001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sliding-tracks/st-002/"
+                href="http://localhost:1319/ar/products/door-accessories/da-001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sliding-tracks/st-002/"
+                href="http://localhost:1319/zh/products/door-accessories/da-001/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sliding-tracks/st-003/</loc>
+    <loc>http://localhost:1319/zh/products/door-accessories/da-002/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sliding-tracks/st-003/"
+                href="http://localhost:1319/products/door-accessories/da-002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sliding-tracks/st-003/"
+                href="http://localhost:1319/ar/products/door-accessories/da-002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sliding-tracks/st-003/"
+                href="http://localhost:1319/zh/products/door-accessories/da-002/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sliding-tracks/st-004/</loc>
+    <loc>http://localhost:1319/zh/products/door-accessories/da-003/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sliding-tracks/st-004/"
+                href="http://localhost:1319/products/door-accessories/da-003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sliding-tracks/st-004/"
+                href="http://localhost:1319/ar/products/door-accessories/da-003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sliding-tracks/st-004/"
+                href="http://localhost:1319/zh/products/door-accessories/da-003/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sliding-tracks/st-005/</loc>
+    <loc>http://localhost:1319/zh/products/door-accessories/da-004/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sliding-tracks/st-005/"
+                href="http://localhost:1319/products/door-accessories/da-004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sliding-tracks/st-005/"
+                href="http://localhost:1319/ar/products/door-accessories/da-004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sliding-tracks/st-005/"
+                href="http://localhost:1319/zh/products/door-accessories/da-004/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sliding-tracks/st-006/</loc>
+    <loc>http://localhost:1319/zh/products/door-accessories/da-005/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sliding-tracks/st-006/"
+                href="http://localhost:1319/products/door-accessories/da-005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sliding-tracks/st-006/"
+                href="http://localhost:1319/ar/products/door-accessories/da-005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sliding-tracks/st-006/"
+                href="http://localhost:1319/zh/products/door-accessories/da-005/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/padlocks/ygtk/</loc>
+    <loc>http://localhost:1319/zh/products/door-accessories/da-006/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/padlocks/ygtk/"
+                href="http://localhost:1319/products/door-accessories/da-006/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/padlocks/ygtk/"
+                href="http://localhost:1319/ar/products/door-accessories/da-006/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/padlocks/ygtk/"
+                href="http://localhost:1319/zh/products/door-accessories/da-006/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/padlocks/yjn/</loc>
+    <loc>http://localhost:1319/zh/products/door-handles/dh-001/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/padlocks/yjn/"
+                href="http://localhost:1319/products/door-handles/dh-001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/padlocks/yjn/"
+                href="http://localhost:1319/ar/products/door-handles/dh-001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/padlocks/yjn/"
+                href="http://localhost:1319/zh/products/door-handles/dh-001/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/</loc>
+    <loc>http://localhost:1319/zh/products/door-handles/dh-002/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/"
+                href="http://localhost:1319/products/door-handles/dh-002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/"
+                href="http://localhost:1319/ar/products/door-handles/dh-002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/"
+                href="http://localhost:1319/zh/products/door-handles/dh-002/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/faq/</loc>
+    <loc>http://localhost:1319/zh/products/door-handles/dh-003/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/faq/"
+                href="http://localhost:1319/products/door-handles/dh-003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/faq/"
+                href="http://localhost:1319/ar/products/door-handles/dh-003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/faq/"
+                href="http://localhost:1319/zh/products/door-handles/dh-003/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/cabinet-hardware/</loc>
+    <loc>http://localhost:1319/zh/products/door-handles/dh-004/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/cabinet-hardware/"
+                href="http://localhost:1319/products/door-handles/dh-004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/cabinet-hardware/"
+                href="http://localhost:1319/ar/products/door-handles/dh-004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/cabinet-hardware/"
+                href="http://localhost:1319/zh/products/door-handles/dh-004/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sliding-tracks/</loc>
+    <loc>http://localhost:1319/zh/products/door-handles/dh-005/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sliding-tracks/"
+                href="http://localhost:1319/products/door-handles/dh-005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sliding-tracks/"
+                href="http://localhost:1319/ar/products/door-handles/dh-005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sliding-tracks/"
+                href="http://localhost:1319/zh/products/door-handles/dh-005/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/africa/</loc>
+    <loc>http://localhost:1319/zh/products/door-handles/dh-006/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/africa/"
+                href="http://localhost:1319/products/door-handles/dh-006/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/africa/"
+                href="http://localhost:1319/ar/products/door-handles/dh-006/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/africa/"
+                href="http://localhost:1319/zh/products/door-handles/dh-006/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/thanks/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-001/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/thanks/"
+                href="http://localhost:1319/products/door-locks/dl-001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/thanks/"
+                href="http://localhost:1319/ar/products/door-locks/dl-001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/thanks/"
+                href="http://localhost:1319/zh/products/door-locks/dl-001/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/steel-pipes-flanges/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-002/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/steel-pipes-flanges/"
+                href="http://localhost:1319/products/door-locks/dl-002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/steel-pipes-flanges/"
+                href="http://localhost:1319/ar/products/door-locks/dl-002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/steel-pipes-flanges/"
+                href="http://localhost:1319/zh/products/door-locks/dl-002/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/padlocks/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-003/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/padlocks/"
+                href="http://localhost:1319/products/door-locks/dl-003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/padlocks/"
+                href="http://localhost:1319/ar/products/door-locks/dl-003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/padlocks/"
+                href="http://localhost:1319/zh/products/door-locks/dl-003/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/about/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-004/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/about/"
+                href="http://localhost:1319/products/door-locks/dl-004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/about/"
+                href="http://localhost:1319/ar/products/door-locks/dl-004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/about/"
+                href="http://localhost:1319/zh/products/door-locks/dl-004/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/furniture-fittings/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-005/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/furniture-fittings/"
+                href="http://localhost:1319/products/door-locks/dl-005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/furniture-fittings/"
+                href="http://localhost:1319/ar/products/door-locks/dl-005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/furniture-fittings/"
+                href="http://localhost:1319/zh/products/door-locks/dl-005/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/building-materials/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-006/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/building-materials/"
+                href="http://localhost:1319/products/door-locks/dl-006/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/building-materials/"
+                href="http://localhost:1319/ar/products/door-locks/dl-006/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/building-materials/"
+                href="http://localhost:1319/zh/products/door-locks/dl-006/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/building-materials/</loc>
+    <loc>http://localhost:1319/zh/products/door-locks/dl-007/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/building-materials/"
+                href="http://localhost:1319/products/door-locks/dl-007/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/building-materials/"
+                href="http://localhost:1319/ar/products/door-locks/dl-007/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/building-materials/"
+                href="http://localhost:1319/zh/products/door-locks/dl-007/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/contact/</loc>
+    <loc>http://localhost:1319/zh/products/furniture-fittings/ff-001/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/contact/"
+                href="http://localhost:1319/products/furniture-fittings/ff-001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/contact/"
+                href="http://localhost:1319/ar/products/furniture-fittings/ff-001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/contact/"
+                href="http://localhost:1319/zh/products/furniture-fittings/ff-001/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-handles/</loc>
+    <loc>http://localhost:1319/zh/products/furniture-fittings/ff-002/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-handles/"
+                href="http://localhost:1319/products/furniture-fittings/ff-002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-handles/"
+                href="http://localhost:1319/ar/products/furniture-fittings/ff-002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-handles/"
+                href="http://localhost:1319/zh/products/furniture-fittings/ff-002/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-hinges/</loc>
+    <loc>http://localhost:1319/zh/products/furniture-fittings/ff-003/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-hinges/"
+                href="http://localhost:1319/products/furniture-fittings/ff-003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-hinges/"
+                href="http://localhost:1319/ar/products/furniture-fittings/ff-003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-hinges/"
+                href="http://localhost:1319/zh/products/furniture-fittings/ff-003/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-accessories/</loc>
+    <loc>http://localhost:1319/zh/products/furniture-fittings/ff-004/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-accessories/"
+                href="http://localhost:1319/products/furniture-fittings/ff-004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-accessories/"
+                href="http://localhost:1319/ar/products/furniture-fittings/ff-004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-accessories/"
+                href="http://localhost:1319/zh/products/furniture-fittings/ff-004/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/door-locks/</loc>
+    <loc>http://localhost:1319/zh/products/furniture-fittings/ff-005/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/door-locks/"
+                href="http://localhost:1319/products/furniture-fittings/ff-005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/door-locks/"
+                href="http://localhost:1319/ar/products/furniture-fittings/ff-005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/door-locks/"
+                href="http://localhost:1319/zh/products/furniture-fittings/ff-005/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/nigeria/</loc>
+    <loc>http://localhost:1319/zh/products/furniture-fittings/ff-006/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/nigeria/"
+                href="http://localhost:1319/products/furniture-fittings/ff-006/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/nigeria/"
+                href="http://localhost:1319/ar/products/furniture-fittings/ff-006/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/nigeria/"
+                href="http://localhost:1319/zh/products/furniture-fittings/ff-006/"
                 />
   </url><url>
-    <loc>http://localhost:1318/zh/products/sofa-legs/</loc>
+    <loc>http://localhost:1319/zh/products/padlocks/gtk/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1318/products/sofa-legs/"
+                href="http://localhost:1319/products/padlocks/gtk/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1318/ar/products/sofa-legs/"
+                href="http://localhost:1319/ar/products/padlocks/gtk/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1318/zh/products/sofa-legs/"
+                href="http://localhost:1319/zh/products/padlocks/gtk/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/door-hinges/hh-001/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/door-hinges/hh-001/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/door-hinges/hh-001/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/door-hinges/hh-001/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/door-hinges/hh-002/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/door-hinges/hh-002/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/door-hinges/hh-002/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/door-hinges/hh-002/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/door-hinges/hh-003/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/door-hinges/hh-003/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/door-hinges/hh-003/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/door-hinges/hh-003/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/door-hinges/hh-004/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/door-hinges/hh-004/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/door-hinges/hh-004/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/door-hinges/hh-004/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/door-hinges/hh-005/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/door-hinges/hh-005/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/door-hinges/hh-005/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/door-hinges/hh-005/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/door-hinges/hh-006/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/door-hinges/hh-006/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/door-hinges/hh-006/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/door-hinges/hh-006/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/padlocks/hhl/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/padlocks/hhl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/padlocks/hhl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/padlocks/hhl/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/padlocks/hlv/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/padlocks/hlv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/padlocks/hlv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/padlocks/hlv/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/padlocks/ltn/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/padlocks/ltn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/padlocks/ltn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/padlocks/ltn/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/padlocks/sf/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/padlocks/sf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/padlocks/sf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/padlocks/sf/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/padlocks/sfn/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/padlocks/sfn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/padlocks/sfn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/padlocks/sfn/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sofa-legs/sl-001/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sofa-legs/sl-001/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sofa-legs/sl-001/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sofa-legs/sl-001/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sofa-legs/sl-002/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sofa-legs/sl-002/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sofa-legs/sl-002/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sofa-legs/sl-002/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sofa-legs/sl-003/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sofa-legs/sl-003/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sofa-legs/sl-003/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sofa-legs/sl-003/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sofa-legs/sl-004/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sofa-legs/sl-004/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sofa-legs/sl-004/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sofa-legs/sl-004/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sofa-legs/sl-005/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sofa-legs/sl-005/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sofa-legs/sl-005/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sofa-legs/sl-005/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sofa-legs/sl-006/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sofa-legs/sl-006/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sofa-legs/sl-006/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sofa-legs/sl-006/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/steel-pipes-flanges/sp-001/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/steel-pipes-flanges/sp-001/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/steel-pipes-flanges/sp-001/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/steel-pipes-flanges/sp-001/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/steel-pipes-flanges/sp-002/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/steel-pipes-flanges/sp-002/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/steel-pipes-flanges/sp-002/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/steel-pipes-flanges/sp-002/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/steel-pipes-flanges/sp-003/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/steel-pipes-flanges/sp-003/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/steel-pipes-flanges/sp-003/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/steel-pipes-flanges/sp-003/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/steel-pipes-flanges/sp-004/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/steel-pipes-flanges/sp-004/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/steel-pipes-flanges/sp-004/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/steel-pipes-flanges/sp-004/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/steel-pipes-flanges/sp-005/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/steel-pipes-flanges/sp-005/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/steel-pipes-flanges/sp-005/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/steel-pipes-flanges/sp-005/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/steel-pipes-flanges/sp-006/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/steel-pipes-flanges/sp-006/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/steel-pipes-flanges/sp-006/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/steel-pipes-flanges/sp-006/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sliding-tracks/st-001/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sliding-tracks/st-001/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sliding-tracks/st-001/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sliding-tracks/st-001/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sliding-tracks/st-002/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sliding-tracks/st-002/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sliding-tracks/st-002/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sliding-tracks/st-002/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sliding-tracks/st-003/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sliding-tracks/st-003/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sliding-tracks/st-003/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sliding-tracks/st-003/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sliding-tracks/st-004/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sliding-tracks/st-004/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sliding-tracks/st-004/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sliding-tracks/st-004/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sliding-tracks/st-005/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sliding-tracks/st-005/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sliding-tracks/st-005/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sliding-tracks/st-005/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sliding-tracks/st-006/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sliding-tracks/st-006/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sliding-tracks/st-006/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sliding-tracks/st-006/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/padlocks/ygtk/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/padlocks/ygtk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/padlocks/ygtk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/padlocks/ygtk/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/padlocks/yjn/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/padlocks/yjn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/padlocks/yjn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/padlocks/yjn/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/faq/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/faq/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/cabinet-hardware/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/cabinet-hardware/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/cabinet-hardware/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/cabinet-hardware/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sliding-tracks/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sliding-tracks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sliding-tracks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sliding-tracks/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/africa/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/africa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/africa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/africa/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/thanks/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/thanks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/thanks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/thanks/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/steel-pipes-flanges/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/steel-pipes-flanges/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/steel-pipes-flanges/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/steel-pipes-flanges/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/padlocks/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/padlocks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/padlocks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/padlocks/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/about/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/about/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/furniture-fittings/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/furniture-fittings/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/furniture-fittings/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/furniture-fittings/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/building-materials/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/building-materials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/building-materials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/building-materials/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/building-materials/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/building-materials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/building-materials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/building-materials/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/contact/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/contact/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/door-handles/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/door-handles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/door-handles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/door-handles/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/door-hinges/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/door-hinges/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/door-hinges/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/door-hinges/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/door-accessories/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/door-accessories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/door-accessories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/door-accessories/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/door-locks/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/door-locks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/door-locks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/door-locks/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/nigeria/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/nigeria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/nigeria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/nigeria/"
+                />
+  </url><url>
+    <loc>http://localhost:1319/zh/products/sofa-legs/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1319/products/sofa-legs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1319/ar/products/sofa-legs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1319/zh/products/sofa-legs/"
                 />
   </url>
 </urlset>
