@@ -489,3 +489,36 @@
     font-size: 0.95rem;
     line-height: 1.6;
 }
+
+/* Map placeholder - click to load */
+.map-placeholder {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(135deg, #f0f4ff 0%, #e8edff 100%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: 2px dashed #667eea;
+}
+.map-placeholder:hover {
+    background: linear-gradient(135deg, #e8edff 0%, #dde4ff 100%);
+    border-color: #5a6fe0;
+}
+.map-placeholder-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.map-placeholder-text {
+    color: #667eea;
+    font-weight: 600;
+    font-size: 1rem;
+}
+@media (max-width: 768px) {
+    .map-placeholder { height: 200px; }
+    .map-placeholder-icon { font-size: 2rem; }
+    .map-placeholder-text { font-size: 0.85rem; }
+}

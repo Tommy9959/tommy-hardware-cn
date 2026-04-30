@@ -200,16 +200,11 @@
         <p class="section-subtitle">
             {{ if eq $lang "zh" }}中国浙江省金华市义乌市丹溪北路18号雪峰商务大厦2018室{{ else if eq $lang "ar" }}غرفة 2018، مبنى شيويفنغ التجاري، رقم 18 طريق دانشي الشمالي، مدينة ييوو، جينهوا، تشجيانغ، الصين{{ else }}Room 2018, Xuefeng Business Building, No.18 Danxi North Road, Yiwu City, Jinhua, Zhejiang, China{{ end }}
         </p>
-        <div class="map-container">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3446.516948370974!2d120.06772831508257!3d29.30135528206846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3446516f4c3b0c9f%3A0x4b5e0a9e0c0e0a0!2z44CSMjAxOCwg5bGx5YyX5L2T6Ieq5Y2X5LmL6Z2S5Y2X5LmL6LWE5Liq5Y2X5LmL6LWE5YiG5Lq65Y2X5LmL6LWE5YiG77yS5Lit5Zu95riF6Ieq5Y2X5LmL77yS5rGf6Ieq5Y2X5LmM77yS5Lit5YyX5riF6Ieq5Y2X5LmM77yS5riF6Ieq5Y2X5LmM44CB44Gv44GZ44CC!5e0!3m2!1sen!2s!4v1713513600000!5m2!1sen!2s" 
-                width="100%" 
-                height="450" 
-                style="border:0; border-radius: 12px;" 
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+        <div class="map-container" id="map-container">
+            <div class="map-placeholder" id="map-placeholder" onclick="loadMap()">
+                <div class="map-placeholder-icon">📍</div>
+                <div class="map-placeholder-text">{{ if eq $lang "zh" }}点击加载地图{{ else if eq $lang "ar" }}انقر لتحميل الخريطة{{ else }}Click to load map{{ end }}</div>
+            </div>
         </div>
         <div class="map-info">
             <div class="info-card">
