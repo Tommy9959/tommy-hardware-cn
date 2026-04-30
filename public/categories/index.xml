@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Yiwu Shuihui Import &amp; Export Co., Ltd. - Professional Door Hardware Manufacturer</title>
+    <link>http://localhost:1318/categories/</link>
+    <description>Recent content in Categories on Yiwu Shuihui Import &amp; Export Co., Ltd. - Professional Door Hardware Manufacturer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1318/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Market Guide</title>
+      <link>http://localhost:1318/categories/market-guide/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1318/categories/market-guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Product Guide</title>
+      <link>http://localhost:1318/categories/product-guide/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1318/categories/product-guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quality Guide</title>
+      <link>http://localhost:1318/categories/quality-guide/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1318/categories/quality-guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trade Guide</title>
+      <link>http://localhost:1318/categories/trade-guide/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1318/categories/trade-guide/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

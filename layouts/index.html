@@ -49,7 +49,7 @@
     <div class="container">
         <h2 class="section-title">{{ if eq $lang "zh" }}核心产品{{ else if eq $lang "ar" }}منتجاتنا الأساسية{{ else }}Our Core Products{{ end }}</h2>
         <div class="products-grid">
-            {{ $allProducts := where site.RegularPages ".Section" "products" }}
+            {{ $allProducts := where $.Site.RegularPages ".Section" "products" }}
             {{ $padlockProducts := slice }}
             {{ $doorlockProducts := slice }}
             {{ range $allProducts }}
