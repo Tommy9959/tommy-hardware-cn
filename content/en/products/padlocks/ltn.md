@@ -1,7 +1,7 @@
 ---
 title: "LTN - Imitate Brass Hammer Padlock"
 description: "High quality Imitate Brass Hammer Padlock. Factory direct supply, competitive prices."
-image: "/images/products/padlocks/ltn.png"
+image: "/images/products/padlocks/ltn.jpg"
 ---
 
 # Imitate Brass Hammer Padlock

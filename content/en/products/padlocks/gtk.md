@@ -1,7 +1,7 @@
 ---
 title: "GTK - WaterProof Padlock With Plastic Cover"
 description: "High quality WaterProof Padlock With Plastic Cover. Factory direct supply, competitive prices."
-image: "/images/products/padlocks/gtk.png"
+image: "/images/products/padlocks/gtk.jpg"
 ---
 
 # WaterProof Padlock With Plastic Cover

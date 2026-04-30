@@ -1,7 +1,7 @@
 ---
 title: "HHL - Heavy Duty Rectangle Iron Padlock"
 description: "High quality Heavy Duty Rectangle Iron Padlock. Factory direct supply, competitive prices."
-image: "/images/products/padlocks/hhl.png"
+image: "/images/products/padlocks/hhl.jpg"
 ---
 
 # Heavy Duty Rectangle Iron Padlock

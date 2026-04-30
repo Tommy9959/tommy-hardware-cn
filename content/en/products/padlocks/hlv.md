@@ -1,7 +1,7 @@
 ---
 title: "HLV - Cr-Plated Rectangular Iron Padlock (Vane Key)"
 description: "High quality Cr-Plated Rectangular Iron Padlock - Vane Key. Factory direct supply, competitive prices."
-image: "/images/products/padlocks/hlv.png"
+image: "/images/products/padlocks/hlv.jpg"
 ---
 
 # Cr-Plated Rectangular Iron Padlock - Vane Key
