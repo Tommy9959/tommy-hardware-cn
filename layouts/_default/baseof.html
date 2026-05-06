@@ -35,7 +35,7 @@
             <div class="header-content">
                 <a href="{{ "/" | relLangURL }}" class="site-logo">
                     <img src="{{ "images/logo/logo.jpeg" | relURL }}" alt="Logo" class="logo-image">
-                    <h1>{{ .Site.Title }}</h1>
+                    <span class="site-name">{{ .Site.Title }}</span>
                 </a>
                 
                 <!-- 导航菜单 -->
@@ -83,7 +83,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>{{ .Site.Title }}</h3>
-                    <p>{{ if eq .Site.Language.Lang "zh" }}{{ .Site.Params.description }}{{ else if eq .Site.Language.Lang "en" }}{{ .Site.Params.descriptionEn }}{{ else }}{{ .Site.Params.descriptionAr }}{{ end }}</p>
+                    <p>{{ site.Params.description }}</p>
                 </div>
                 <div class="footer-section">
                     <h3>{{ if eq .Site.Language.Lang "zh" }}联系方式{{ else if eq .Site.Language.Lang "en" }}Contact{{ else }}اتصل{{ end }}</h3>

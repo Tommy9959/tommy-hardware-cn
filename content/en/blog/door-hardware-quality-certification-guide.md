@@ -1,16 +1,16 @@
 ---
-title: "Door Hardware Quality Certification Guide: ISO 9001, CE, SGS Explained"
-description: "Comprehensive guide to door hardware quality certifications — what ISO 9001, CE, and SGS mean, why they matter for African markets, and how to verify certificates."
-keywords: "door hardware certification, ISO 9001, CE marking, SGS testing, quality certification Africa, Nigerian hardware standards, verify certificate"
+title: "Door Hardware Quality Certification Guide: SOLA ISO 9001, CE, SGS Explained"
+description: "Comprehensive guide to door hardware quality certifications — SOLA brand ISO 9001, CE, SGS standards explained for African importers."
+keywords: "door hardware certification, ISO 9001, CE marking, SGS testing, quality certification Africa, Nigerian hardware standards, verify certificate, SOLA hardware quality, SOLA ISO 9001"
 author: "Yiwu Shuihui Import & Export Co., Ltd."
 date: "2026-04-29"
-tags: ["quality certification", "ISO 9001", "CE", "SGS", "quality control"]
+tags: ["quality certification", "ISO 9001", "CE", "SGS", "quality control", "SOLA brand"]
 categories: ["Quality Guide"]
 ---
 
 # Door Hardware Quality Certification Guide: ISO 9001, CE, SGS Explained
 
-When importing door hardware from China, quality certifications are not just paperwork — they're your guarantee that the products meet international standards. Understanding these certifications protects your business and your customers.
+When importing door hardware from China, quality certifications are not just paperwork — they're your guarantee that the products meet international standards. Trusted brands like **[SOLA Hardware](https://jh-hardware.com/about/)** hold ISO 9001:2015, CE, and SGS certifications to ensure consistent quality for African importers.
 
 This guide explains the three most important certifications for door hardware: ISO 9001, CE, and SGS — and why they matter for African importers.
 

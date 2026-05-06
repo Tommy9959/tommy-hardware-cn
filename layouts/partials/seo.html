@@ -1,5 +1,12 @@
-{{- $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) -}}
-{{- $description := cond .IsHome site.Params.description .Description -}}
+{{- /* 多语言短品牌名 */ -}}
+{{- $brand := cond (eq .Site.Language.Lang "zh") "SOLA 五金" (cond (eq .Site.Language.Lang "ar") "سولا" "SOLA Hardware") -}}
+
+{{- /* 标题：首页用完整标题，其他页面用短品牌名 */ -}}
+{{- $title := cond .IsHome site.Title (printf "%s | %s" .Title $brand) -}}
+
+{{- /* 描述：优先用页面 frontmatter 的 description，再用站点参数 */ -}}
+{{- $description := or .Description site.Params.description -}}
+
 {{- $keywords := site.Params.keywords -}}
 {{- if and (not .IsHome) .Params.tags -}}
     {{- $keywords = delimit .Params.tags ", " -}}
@@ -7,14 +14,14 @@
     {{- $keywords = "door hardware, building materials, construction" -}}
 {{- end -}}
 
-{{- /* 产品页面特殊处理 */ -}}
-{{- if eq .Section "products" -}}
+{{- /* 产品页面特殊处理 - 仅用于单个产品页，不用于分类列表 */ -}}
+{{- if and .IsPage (eq .Section "products") -}}
     {{- $productName := .Params.product_name | default .Title -}}
     {{- $material := .Params.material | default "High Quality Material" -}}
     {{- if eq .Title $productName -}}
-        {{- $title = printf "%s | %s" .Title site.Title -}}
+        {{- $title = printf "%s | %s" .Title $brand -}}
     {{- else -}}
-        {{- $title = printf "%s - %s | %s" .Title $productName site.Title -}}
+        {{- $title = printf "%s - %s | %s" .Title $productName $brand -}}
     {{- end -}}
     {{- $description = printf "High quality %s made of %s. Factory direct supply, best prices, fast delivery. MOQ: %s. Contact us for quote." $productName $material (.Params.moq | default "400 pcs") -}}
     {{- $materialStr := cond .Params.material .Params.material "Stainless Steel" -}}
@@ -34,6 +41,14 @@
 
 <!-- 规范链接 -->
 <link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Google Search Console 验证 -->
+{{- with site.Params.googleVerification }}
+<meta name="google-site-verification" content="{{ . }}">
+{{- end }}
+{{- with site.Params.bingVerification }}
+<meta name="msvalidate.01" content="{{ . }}">
+{{- end }}
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="{{ cond .IsHome "website" "article" }}">
@@ -122,7 +137,7 @@
   "name": "Yiwu Shuihui Import & Export Co., Ltd.",
   "url": "{{ site.BaseURL }}",
   "logo": "{{ site.Params.logo | absURL }}",
-  "description": "{{ site.Params.description }}",
+  "description": "{{ or .Description site.Params.description }}",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Yiwu",
@@ -157,6 +172,41 @@
 }
 </script>
 {{- end -}}
+
+<!-- 面包屑导航结构化数据 - 非首页页面 -->
+{{- if not .IsHome }}
+{{- $pos := 1 -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "{{ if eq .Site.Language.Lang "zh" }}首页{{ else if eq .Site.Language.Lang "ar" }}الرئيسية{{ else }}Home{{ end }}",
+      "item": "{{ site.BaseURL }}"
+    }
+    {{- $sections := .Ancestors -}}
+    {{- range $i, $section := $sections.Reverse }}
+    {{- if not $section.IsHome }}
+    ,{
+      "@type": "ListItem",
+      "position": {{ add $i 2 }},
+      "name": "{{ $section.Title }}",
+      "item": "{{ $section.Permalink }}"
+    }
+    {{- end -}}
+    {{- end }}
+    ,{
+      "@type": "ListItem",
+      "position": {{ add (len $sections) 1 }},
+      "name": "{{ .Title }}"
+    }
+  ]
+}
+</script>
+{{- end }}
 
 <!-- ============================================
      AI 搜索引擎优化标签
