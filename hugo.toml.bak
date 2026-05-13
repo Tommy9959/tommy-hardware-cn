@@ -1,0 +1,174 @@
+# Hugo 多语言网站配置文件
+baseURL = 'https://jh-hardware.com/'
+languageCode = 'zh-cn'
+title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
+
+# 默认语言为英文
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+# 多语言配置
+[languages]
+  [languages.en]
+    title = 'Yiwu Shuihui Import & Export Co., Ltd. - Professional Door Hardware Manufacturer'
+    weight = 1
+    languageName = 'English'
+    languageCode = 'en-us'
+    contentDir = 'content/en'
+    description = 'Factory direct supply of door handles, hinges, locks, and sliding tracks. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
+    
+  [languages.zh]
+    title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
+    weight = 2
+    languageName = '中文'
+    languageCode = 'zh-cn'
+    contentDir = 'content/zh'
+    description = '工厂直销门把手、铰链、门锁、导轨。ISO 9001 认证制造商。出口尼日利亚、迪拜、非洲。'
+    
+  [languages.ar]
+    title = 'شركة ييو شويهوي للاستيراد والتصدير - تصنيع مهني لعتاد الأبواب'
+    weight = 3
+    languageName = 'العربية'
+    languageCode = 'ar'
+    contentDir = 'content/ar'
+    languageDirection = 'rtl'
+    description = 'توريد مباشر من المصنع لمقابض الأبواب، والمفاصل، والأقفال، والمسارات المنزلقة. تصنيع مهني لعتاد الأبواب.'
+
+# 菜单配置 - 每种语言独立
+[languages.zh.menu]
+  [[languages.zh.menu.main]]
+    name = '首页'
+    pageRef = '/'
+    weight = 10
+  [[languages.zh.menu.main]]
+    name = '产品中心'
+    pageRef = '/products/'
+    weight = 20
+  [[languages.zh.menu.main]]
+    name = '博客'
+    pageRef = '/blog/'
+    weight = 25
+  [[languages.zh.menu.main]]
+    name = '关于'
+    pageRef = '/about/'
+    weight = 30
+  [[languages.zh.menu.main]]
+    name = '联系'
+    pageRef = '/contact/'
+    weight = 40
+
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[languages.en.menu.main]]
+    name = 'Products'
+    pageRef = '/products/'
+    weight = 20
+  [[languages.en.menu.main]]
+    name = 'Blog'
+    pageRef = '/blog/'
+    weight = 25
+  [[languages.en.menu.main]]
+    name = 'About'
+    pageRef = '/about/'
+    weight = 30
+  [[languages.en.menu.main]]
+    name = 'Contact'
+    pageRef = '/contact/'
+    weight = 40
+
+[languages.ar.menu]
+  [[languages.ar.menu.main]]
+    name = 'الرئيسية'
+    pageRef = '/'
+    weight = 10
+  [[languages.ar.menu.main]]
+    name = 'المنتجات'
+    pageRef = '/products/'
+    weight = 20
+  [[languages.ar.menu.main]]
+    name = 'المدونة'
+    pageRef = '/blog/'
+    weight = 25
+  [[languages.ar.menu.main]]
+    name = 'حول'
+    pageRef = '/about/'
+    weight = 30
+  [[languages.ar.menu.main]]
+    name = 'اتصل'
+    pageRef = '/contact/'
+    weight = 40
+
+# 网站参数
+[params]
+  email = 'z946487044@icloud.com'
+  phone = '+86 183 5800 8400'
+  whatsapp = '+8618358008400'
+  wechat = '946487044'
+  address = '浙江省金华市义乌市稠城街道丹溪北路 18 号雪峰商务大厦 2018 室'
+  addressEn = 'Room 2018, Xuefeng Business Building, No.18 Danxi North Road, Yiwu, China'
+  addressAr = 'غرفة 2018، مبنى شوفينج التجاري، رقم 18 طريق دانجي الشمالي، مدينة ييو، الصين'
+  googleAnalytics = 'G-EW8MR1LQWY'
+  latitude = '29.3089'
+  longitude = '120.0741'
+  description = 'Factory direct supply of door handles, hinges, locks, and sliding tracks. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
+  descriptionEn = 'Factory direct supply of door handles, hinges, and locks. ISO 9001 certified. Export to Nigeria, Dubai, Africa.'
+  descriptionAr = 'توريد مباشر لمقابض الأبواب والمفاصل والأقفال. مصنع حاصل على شهادة ISO 9001. تصدير إلى نيجيريا ودبي وأفريقيا.'
+  googleVerification = ''
+  bingVerification = ''
+  
+  # SEO 关键词（2026-04-13 扩展关键词库 - 200+ 关键词）
+  keywords = 'SOLA, door handles, door locks, door hinges, sliding tracks, drawer slides, furniture hardware, cabinet hardware, cabinet accessories, cabinet handles, cabinet knobs, drawer pulls, kitchen hardware, wardrobe hardware, bathroom hardware, architectural hardware, building hardware, construction hardware, stainless steel hardware, zinc alloy hardware, aluminum hardware, brass hardware, iron pipes, steel tubes, galvanized pipes'
+
+# Markdown 配置
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# SEO 优化配置（2026-04-13 优化）
+[sitemap]
+  changefreq = 'daily'  # 改为每日更新，提高抓取频率
+  filename = 'sitemap.xml'
+  priority = 0.9  # 提高优先级
+  disable = false
+
+# 搜索引擎验证
+[verification]
+  google = 'G-EW8MR1LQWY'  # Google Search Console 验证（使用 Analytics ID 临时）
+  bing = ''  # 待添加 Bing 站长工具验证
+
+# 社交媒体 SEO
+[social]
+  twitter = '@YourTwitter'  # 添加 Twitter 账号
+  facebook = 'YourFacebookPage'  # 添加 Facebook 页面
+  linkedin = 'your-company-linkedin'  # 添加 LinkedIn
+  instagram = 'YourInstagram'  # 添加 Instagram
+
+# 输出配置
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+  page = ['HTML']
+  section = ['HTML', 'RSS']
+
+# 性能优化 - 压缩配置
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepComments = false
+      keepSpecialComments = false
+      minifyCSS = true
+      minifyJS = true
+    [minify.tdewolff.css]
+      precision = 2
+    [minify.tdewolff.js]
+      keepVarNames = false
+      precision = 0
+      version = 2022
+
+# 禁用分类和标签避免空页面
+# [taxonomies]
+# category = "categories"
+# tag = "tags"
