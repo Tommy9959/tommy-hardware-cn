@@ -7,6 +7,9 @@ title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 
+# 禁用空标签/分类页面（避免产生404）
+disableKinds = ["taxonomy", "term"]
+
 # 多语言配置
 [languages]
   [languages.en]
