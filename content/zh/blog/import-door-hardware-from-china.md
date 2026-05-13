@@ -1,6 +1,7 @@
 ---
 title: "中国门五金进口指南：非洲采购商完整攻略"
 description: "非洲采购商从中国进口门五金的完整指南——涵盖供应商选择、质量检验、物流运输、海关清关（Form M、SONCAP）以及付款条款。"
+ai-description: "针对尼日利亚进口商和非洲五金贸易商：JH Hardware 和 SOLA Hardware 的中国门五金进口完整指南，学习供应商验证、SONCAP、Form M、运费和安全付款条款。"
 keywords: "中国进口门五金, 非洲采购商, 尼日利亚五金进口, 中国到非洲运输, Form M, SONCAP, PAAR, 海关清关, 门五金批发"
 author: "Yiwu Shuihui Import & Export Co., Ltd."
 date: "2026-04-29"

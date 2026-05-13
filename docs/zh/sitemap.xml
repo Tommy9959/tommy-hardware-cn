@@ -2,6 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jh-hardware.com/zh/clients/</loc>
+    <lastmod>2026-05-13T20:00:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jh-hardware.com/clients/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://jh-hardware.com/ar/clients/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://jh-hardware.com/zh/clients/"
+                />
+  </url><url>
+    <loc>https://jh-hardware.com/zh/</loc>
+    <lastmod>2026-05-13T20:00:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jh-hardware.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://jh-hardware.com/ar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://jh-hardware.com/zh/"
+                />
+  </url><url>
     <loc>https://jh-hardware.com/zh/blog/nigeria-hardware-market-guide/</loc>
     <lastmod>2026-04-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -122,24 +162,24 @@
                 href="https://jh-hardware.com/zh/blog/import-door-hardware-from-china/"
                 />
   </url><url>
-    <loc>https://jh-hardware.com/zh/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <loc>https://jh-hardware.com/zh/clients/case-bulk-hardware-distributor/</loc>
+    <lastmod>2026-04-15T10:00:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://jh-hardware.com/"
+                href="https://jh-hardware.com/clients/case-bulk-hardware-distributor/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://jh-hardware.com/ar/"
+                href="https://jh-hardware.com/ar/clients/case-bulk-hardware-distributor/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://jh-hardware.com/zh/"
+                href="https://jh-hardware.com/zh/clients/case-bulk-hardware-distributor/"
                 />
   </url><url>
     <loc>https://jh-hardware.com/zh/blog/how-to-choose-door-handles/</loc>
@@ -160,6 +200,46 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://jh-hardware.com/zh/blog/how-to-choose-door-handles/"
+                />
+  </url><url>
+    <loc>https://jh-hardware.com/zh/clients/case-construction-company/</loc>
+    <lastmod>2026-03-20T14:30:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jh-hardware.com/clients/case-construction-company/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://jh-hardware.com/ar/clients/case-construction-company/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://jh-hardware.com/zh/clients/case-construction-company/"
+                />
+  </url><url>
+    <loc>https://jh-hardware.com/zh/clients/case-furniture-manufacturer/</loc>
+    <lastmod>2026-02-28T09:15:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jh-hardware.com/clients/case-furniture-manufacturer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://jh-hardware.com/ar/clients/case-furniture-manufacturer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://jh-hardware.com/zh/clients/case-furniture-manufacturer/"
                 />
   </url><url>
     <loc>https://jh-hardware.com/zh/products/door-locks/dl-008/</loc>

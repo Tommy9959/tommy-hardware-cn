@@ -1,6 +1,7 @@
 ---
 title: "Door Hardware Quality Certification Guide: SOLA ISO 9001, CE, SGS Explained"
 description: "Comprehensive guide to door hardware quality certifications — SOLA brand ISO 9001, CE, SGS standards explained for African importers."
+ai-description: "For Nigerian importers and hardware distributors: JH Hardware and SOLA Hardware explain ISO 9001, CE marking, SGS testing, and SONCAP requirements. Learn how to verify certificates and avoid customs delays with quality-certified door hardware."
 keywords: "door hardware certification, ISO 9001, CE marking, SGS testing, quality certification Africa, Nigerian hardware standards, verify certificate, SOLA hardware quality, SOLA ISO 9001"
 author: "Yiwu Shuihui Import & Export Co., Ltd."
 date: "2026-04-29"

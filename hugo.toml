@@ -48,17 +48,21 @@ disableKinds = ["taxonomy", "term"]
     pageRef = '/products/'
     weight = 20
   [[languages.zh.menu.main]]
+    name = '客户案例'
+    pageRef = '/clients/'
+    weight = 25
+  [[languages.zh.menu.main]]
     name = '博客'
     pageRef = '/blog/'
-    weight = 25
+    weight = 30
   [[languages.zh.menu.main]]
     name = '关于'
     pageRef = '/about/'
-    weight = 30
+    weight = 40
   [[languages.zh.menu.main]]
     name = '联系'
     pageRef = '/contact/'
-    weight = 40
+    weight = 50
 
 [languages.en.menu]
   [[languages.en.menu.main]]
@@ -70,17 +74,21 @@ disableKinds = ["taxonomy", "term"]
     pageRef = '/products/'
     weight = 20
   [[languages.en.menu.main]]
+    name = 'Client Cases'
+    pageRef = '/clients/'
+    weight = 25
+  [[languages.en.menu.main]]
     name = 'Blog'
     pageRef = '/blog/'
-    weight = 25
+    weight = 30
   [[languages.en.menu.main]]
     name = 'About'
     pageRef = '/about/'
-    weight = 30
+    weight = 40
   [[languages.en.menu.main]]
     name = 'Contact'
     pageRef = '/contact/'
-    weight = 40
+    weight = 50
 
 [languages.ar.menu]
   [[languages.ar.menu.main]]
@@ -92,17 +100,21 @@ disableKinds = ["taxonomy", "term"]
     pageRef = '/products/'
     weight = 20
   [[languages.ar.menu.main]]
+    name = 'عملائنا'
+    pageRef = '/clients/'
+    weight = 25
+  [[languages.ar.menu.main]]
     name = 'المدونة'
     pageRef = '/blog/'
-    weight = 25
+    weight = 30
   [[languages.ar.menu.main]]
     name = 'حول'
     pageRef = '/about/'
-    weight = 30
+    weight = 40
   [[languages.ar.menu.main]]
     name = 'اتصل'
     pageRef = '/contact/'
-    weight = 40
+    weight = 50
 
 # 网站参数
 [params]

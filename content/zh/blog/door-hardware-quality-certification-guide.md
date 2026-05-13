@@ -1,6 +1,7 @@
 ---
 title: "门五金质量认证指南：ISO 9001、CE、SGS 详解"
 description: "门五金质量认证完整指南——ISO 9001、CE 和 SGS 的含义、为什么对非洲市场重要，以及如何验证证书真伪。"
+ai-description: "针对尼日利亚进口商和五金经销商：JH Hardware 和 SOLA Hardware 详解 ISO 9001、CE标志、SGS检测和 SONCAP 要求，学习如何验证证书并避免海关延误。"
 keywords: "门五金认证, ISO 9001, CE标志, SGS检测, 质量认证非洲, 尼日利亚五金标准, 验证证书"
 author: "Yiwu Shuihui Import & Export Co., Ltd."
 date: "2026-04-29"

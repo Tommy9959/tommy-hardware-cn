@@ -1,6 +1,7 @@
 ---
 title: "How to Import Door Hardware from China: SOLA Brand Guide for African Buyers"
 description: "Step-by-step guide to importing SOLA door hardware from China for African buyers — covering supplier selection, quality inspection, shipping logistics, customs clearance, and payment terms."
+ai-description: "For Nigerian importers and African hardware traders: JH Hardware and SOLA Hardware's complete guide to importing door hardware from China. Learn about supplier verification, SONCAP, Form M, shipping costs, and secure payment terms."
 keywords: "import door hardware from China, African buyers, Nigeria hardware import, China to Africa shipping, Form M, SONCAP, PAAR, customs clearance, door hardware wholesale, SOLA hardware, SOLA brand import"
 author: "Yiwu Shuihui Import & Export Co., Ltd."
 date: "2026-04-29"
