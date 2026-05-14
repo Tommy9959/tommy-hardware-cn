@@ -167,6 +167,19 @@ disableKinds = ["taxonomy", "term"]
   home = ['HTML', 'RSS', 'JSON']
   page = ['HTML']
   section = ['HTML', 'RSS']
+  llms = ['TXT']
+
+# 自定义输出格式
+[outputFormats]
+  [outputFormats.TXT]
+    name = 'TXT'
+    baseName = 'llms'
+    path = '/'
+    mediaType = 'text/plain'
+    isPlainText = true
+    isHTML = false
+    rel = 'alternate'
+    permalinkable = false
 
 # 性能优化 - 压缩配置
 [minify]
