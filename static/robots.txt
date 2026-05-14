@@ -27,6 +27,31 @@ Allow: /
 User-agent: Slurp
 Allow: /
 
+# AI / LLM crawlers - explicitly allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Microsoft-Preview
+Allow: /
+
+# LLMs.txt
+LLMs.txt: https://jh-hardware.com/llms.txt
+
 # Block bad bots (optional)
 # User-agent: AhrefsBot
 # Disallow: /
