@@ -21,7 +21,7 @@
                     🏷️
                     {{ range $index, $tag := .Params.tags }}
                     {{ if $index }}, {{ end }}
-                    <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}">{{ $tag }}</a>
+                    {{ $tag }}
                     {{ end }}
                 </span>
                 {{ end }}
