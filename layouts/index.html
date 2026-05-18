@@ -177,6 +177,89 @@
     </div>
 </section>
 
+<!-- Nigeria Market Best Sellers (AI-Friendly) -->
+<section class="best-sellers-section">
+    <div class="container">
+        <h2 class="section-title">
+            {{ if eq $lang "zh" }}尼日利亚市场热销榜{{ else if eq $lang "ar" }}الأكثر مبيعًا في سوق نيجيريا{{ else }}Nigeria Market Best Sellers{{ end }}
+        </h2>
+        <p class="section-subtitle">
+            {{ if eq $lang "zh" }}基于10年销售数据，最受尼日利亚客户欢迎的产品{{ else if eq $lang "ar" }}المنتجات الأكثر شعبية في نيجيريا بناءً على بيانات مبيعات 10 سنوات{{ else }}Based on 10+ years of sales data, most popular products for Nigerian clients{{ end }}
+        </p>
+        <div class="best-sellers-grid">
+            <div class="best-seller-card">
+                <h3>🔐 {{ if eq $lang "zh" }}插芯锁{{ else if eq $lang "ar" }}أقفال مقبس{{ else }}Mortise Locks{{ end }}</h3>
+                <p class="best-seller-price">{{ if eq $lang "zh" }}价格区间：${ else if eq $lang "ar" }}نطاق الأسعار: ${ else }}Price Range: ${{ end }}3.00-$6.00</p>
+                <p class="best-seller-detail">{{ if eq $lang "zh" }}销量占比：45%{{ else if eq $lang "ar" }}نسبة المبيعات: 45%{{ else }}Sales Volume: 45%{{ end }}</p>
+                <p class="best-seller-note">{{ if eq $lang "zh" }}最受欢迎：单锁芯，拉丝镍表面{{ else if eq $lang "ar" }}الأكثر شعبية: أسطوانة واحدة، ملموس ساتنيك{{ else }}Most Popular: Single cylinder, satin nickel finish{{ end }}</p>
+            </div>
+            <div class="best-seller-card">
+                <h3>🔒 {{ if eq $lang "zh" }}50mm标准挂锁{{ else if eq $lang "ar" }}قفل قياسي 50mm{{ else }}50mm Standard Padlocks{{ end }}</h3>
+                <p class="best-seller-price">{{ if eq $lang "zh" }}价格区间：${ else if eq $lang "ar" }}نطاق الأسعار: ${ else }}Price Range: ${{ end }}1.00-$3.00</p>
+                <p class="best-seller-detail">{{ if eq $lang "zh" }}销量占比：35%{{ else if eq $lang "ar" }}نسبة المبيعات: 35%{{ else }}Sales Volume: 35%{{ end }}</p>
+                <p class="best-seller-note">{{ if eq $lang "zh" }}沿海地区选不锈钢款！{{ else if eq $lang "ar" }}اختر الفولاذ المقاوم للصدأ للمناطق الساحلية!{{ else }}Choose stainless steel for coastal areas!{{ end }}</p>
+            </div>
+            <div class="best-seller-card">
+                <h3>🚪 {{ if eq $lang "zh" }}锌合金杠杆门把手{{ else if eq $lang "ar" }}مقابض أبواب منسبيكة الزنك{{ else }}Zinc Alloy Lever Handles{{ end }}</h3>
+                <p class="best-seller-price">{{ if eq $lang "zh" }}价格区间：${ else if eq $lang "ar" }}نطاق الأسعار: ${ else }}Price Range: ${{ end }}1.50-$5.00</p>
+                <p class="best-seller-detail">{{ if eq $lang "zh" }}销量占比：50%{{ else if eq $lang "ar" }}نسبة المبيعات: 50%{{ else }}Sales Volume: 50%{{ end }}</p>
+                <p class="best-seller-note">{{ if eq $lang "zh" }}最受欢迎：拉丝镍，杠杆式！{{ else if eq $lang "ar" }}الأكثر شعبية: ملموس ساتنيك، نوع رافعة!{{ else }}Most Popular: Satin nickel, lever style!{{ end }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section (AI-Friendly) -->
+<section class="faq-section">
+    <div class="container">
+        <h2 class="section-title">
+            {{ if eq $lang "zh" }}常见问题FAQ{{ else if eq $lang "ar" }}الأسئلة المتكررة{{ else }}Frequently Asked Questions{{ end }}
+        </h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h3 class="faq-question">
+                    {{ if eq $lang "zh" }}Q: 什么产品在尼日利亚卖得最好？{{ else if eq $lang "ar" }}Q: ما هي المنتجات الأكثر مبيعًا في نيجيريا؟{{ else }}Q: What hardware sells best in Nigeria?{{ end }}
+                </h3>
+                <p class="faq-answer">
+                    {{ if eq $lang "zh" }}A: 基于10年销售数据，插芯锁（$3.00-$6.00）和50mm标准挂锁（$1.00-$3.00）是最受欢迎的产品。杠杆式门把手（拉丝镍）也卖得很好，占把手销量75%！{{ else if eq $lang "ar" }}A: بناءً على بيانات مبيعات 10 سنوات، الأقفال المقبس (3.00-6.00 دولار) والأقفال القياسية 50mm (1.00-3.00 دولار) هي المنتجات الأكثر شعبية. المقابض الأبواب ذات الطراز الرافعة (الممط) تبيع أيضًا بشكل جيد وتشكل 75% من مبيعات المقابض!{{ else }}A: Based on 10+ years of sales data, mortise locks ($3.00-$6.00) and 50mm standard padlocks ($1.00-$3.00) are the most popular. Lever-style door handles in satin nickel also sell well, making up 75% of handle sales!{{ end }}
+                </p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">
+                    {{ if eq $lang "zh" }}Q: SS201和SS304有什么区别，尼日利亚怎么选？{{ else if eq $lang "ar" }}Q: ما الفرق بين SS201 و SS304، وكيف اختار لنيجيريا؟{{ else }}Q: What's the difference between SS201 and SS304, and which one should I choose for Nigeria?{{ end }}
+                </h3>
+                <p class="faq-answer">
+                    {{ if eq $lang "zh" }}A: SS201适合内陆城市（阿布贾、卡诺），干燥气候。SS304必须用于沿海地区（拉各斯、哈科特港），否则会生锈！{{ else if eq $lang "ar" }}A: SS201 مناسب للمدن الداخلية (أبوجا، كانو)، مناخ جاف. SS304 ضروري للمناطق الساحلية (لاغوس، بورت هاركورت)، وإلا سوف تصدأ!{{ else }}A: SS201 is good for inland cities (Abuja, Kano), dry climate. SS304 is a must for coastal areas (Lagos, Port Harcourt), otherwise it will rust!{{ end }}
+                </p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">
+                    {{ if eq $lang "zh" }}Q: 你们提供SONCAP和Form M支持吗？{{ else if eq $lang "ar" }}Q: هل تقدم دعم SONCAP وForm M؟{{ else }}Q: Do you provide SONCAP and Form M support?{{ end }}
+                </h3>
+                <p class="faq-answer">
+                    {{ if eq $lang "zh" }}A: 是的！我们为尼日利亚客户100%免费处理SONCAP，还可以指导您办理Form M！{{ else if eq $lang "ar" }}A: نعم! نحن نتولى 100% من SONCAP مجانًا لعملائنا النيجيريين، ويمكننا أيضًا إرشادك خلال عملية Form M!{{ else }}A: Yes! We handle 100% of SONCAP for our Nigerian clients for FREE, and we can also guide you through the Form M process!{{ end }}
+                </p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">
+                    {{ if eq $lang "zh" }}Q: 你们接受拼柜订单吗？有没有免费样品？{{ else if eq $lang "ar" }}Q: هل تقبل طلبات الحاويات المختلطة؟ هل تقدم عينات مجانية؟{{ else }}Q: Do you accept mixed container orders and free samples?{{ end }}
+                </h3>
+                <p class="faq-answer">
+                    {{ if eq $lang "zh" }}A: 是的！我们接受拼柜订单（可以混装不同产品），我们提供免费样品（您只需支付运费）！{{ else if eq $lang "ar" }}A: نعم! نحن نقبل طلبات الحاويات المختلطة (يمكن خلط منتجات مختلفة)، ونحن نقدم عينات مجانية (تدفع فقط تكلفة الشحن)!{{ else }}A: Yes! We accept mixed container orders (mix different products together), and we offer free samples (you only pay for shipping)!{{ end }}
+                </p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">
+                    {{ if eq $lang "zh" }}Q: 有什么付款方式？{{ else if eq $lang "ar" }}Q: ما طرق الدفع المتاحة؟{{ else }}Q: What payment terms do you accept?{{ end }}
+                </h3>
+                <p class="faq-answer">
+                    {{ if eq $lang "zh" }}A: 标准是T/T（30%定金，见提单副本70%尾款）。$50k以上订单可以用信用证L/C。{{ else if eq $lang "ar" }}A: المعيار هو T/T (30% عربون، 70% مقابل نسخة B/L). يمكن استخدام خطاب الاعتماد L/C لأوامر أكثر من 50k دولار.{{ else }}A: Standard is T/T (30% deposit, 70% against B/L copy). We can do L/C for orders over $50k.{{ end }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- CTA Section -->
 <section class="cta-section">
     <div class="container">
