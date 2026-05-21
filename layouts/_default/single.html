@@ -5,9 +5,9 @@
     <div class="container">
         <!-- 面包屑导航 -->
         <nav class="breadcrumb">
-            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}</a>
+            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}{{ if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}{{ end }}</a>
             <span> / </span>
-            <a href="{{ "/products/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}产品中心{{ else if eq .Site.Language.Lang "en" }}Products{{ else }}المنتجات{{ end }}</a>
+            <a href="{{ "/products/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}产品中心{{ else }}{{ if eq .Site.Language.Lang "en" }}Products{{ else }}المنتجات{{ end }}{{ end }}</a>
             <span> / </span>
             {{ $parentTitle := "" }}
             {{ with .Parent }}{{ $parentTitle = .Title }}{{ end }}
@@ -49,25 +49,25 @@
                 
                 {{ if .Params.price_range }}
                 <div class="price-box">
-                    <span class="price-label">{{ if eq .Site.Language.Lang "zh" }}价格范围{{ else if eq .Site.Language.Lang "en" }}Price Range{{ else }}نطاق السعر{{ end }}:</span>
+                    <span class="price-label">{{ if eq .Site.Language.Lang "zh" }}价格范围{{ else }}{{ if eq .Site.Language.Lang "en" }}Price Range{{ else }}نطاق السعر{{ end }}{{ end }}:</span>
                     <span class="price-value">{{ .Params.price_range }}</span>
                 </div>
                 {{ end }}
 
                 {{ if .Params.moq }}
                 <div class="moq-box">
-                    <span class="moq-label">{{ if eq .Site.Language.Lang "zh" }}最小起订量{{ else if eq .Site.Language.Lang "en" }}MOQ{{ else }}أدنى كمية للطلب{{ end }}:</span>
+                    <span class="moq-label">{{ if eq .Site.Language.Lang "zh" }}最小起订量{{ else }}{{ if eq .Site.Language.Lang "en" }}MOQ{{ else }}أدنى كمية للطلب{{ end }}{{ end }}:</span>
                     <span class="moq-value">{{ .Params.moq }}</span>
                 </div>
                 {{ end }}
 
                 <div class="product-highlights">
-                    <h3>{{ if eq .Site.Language.Lang "zh" }}产品亮点{{ else if eq .Site.Language.Lang "en" }}Product Highlights{{ else }}مميزات المنتج{{ end }}</h3>
+                    <h3>{{ if eq .Site.Language.Lang "zh" }}产品亮点{{ else }}{{ if eq .Site.Language.Lang "en" }}Product Highlights{{ else }}مميزات المنتج{{ end }}{{ end }}</h3>
                     <ul>
-                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}工厂直销，价格优惠{{ else if eq .Site.Language.Lang "en" }}Factory direct, best prices{{ else }}المصنع مباشرة{{ end }}</li>
-                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}高质量材料，耐用可靠{{ else if eq .Site.Language.Lang "en" }}High quality materials{{ else }}جودة عالية{{ end }}</li>
-                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}支持定制，OEM/ODM{{ else if eq .Site.Language.Lang "en" }}Custom design accepted{{ else }}تصميم مخصص{{ end }}</li>
-                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}快速交货 15-25 天{{ else if eq .Site.Language.Lang "en" }}Fast delivery 15-25 days{{ else }}تسليم سريع{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}工厂直销，价格优惠{{ else }}{{ if eq .Site.Language.Lang "en" }}Factory direct, best prices{{ else }}المصنع مباشرة{{ end }}{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}高质量材料，耐用可靠{{ else }}{{ if eq .Site.Language.Lang "en" }}High quality materials{{ else }}جودة عالية{{ end }}{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}支持定制，OEM/ODM{{ else }}{{ if eq .Site.Language.Lang "en" }}Custom design accepted{{ else }}تصميم مخصص{{ end }}{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}快速交货 15-25 天{{ else }}{{ if eq .Site.Language.Lang "en" }}Fast delivery 15-25 days{{ else }}تسليم سريع{{ end }}{{ end }}</li>
                     </ul>
                 </div>
 
@@ -76,13 +76,13 @@
                         💬 WhatsApp
                     </a>
                     <a href="{{ "/contact/" | relLangURL }}" class="btn btn-secondary">
-                        {{ if eq .Site.Language.Lang "zh" }}询价{{ else if eq .Site.Language.Lang "en" }}Inquire Now{{ else }}استفسار{{ end }}
+                        {{ if eq .Site.Language.Lang "zh" }}询价{{ else }}{{ if eq .Site.Language.Lang "en" }}Inquire Now{{ else }}استفسار{{ end }}{{ end }}
                     </a>
                 </div>
 
                 <!-- 分享按钮 -->
                 <div class="share-buttons">
-                    <span class="share-label">{{ if eq .Site.Language.Lang "zh" }}分享：{{ else if eq .Site.Language.Lang "en" }}Share:{{ else }}مشاركة:{{ end }}</span>
+                    <span class="share-label">{{ if eq .Site.Language.Lang "zh" }}分享：{{ else }}{{ if eq .Site.Language.Lang "en" }}Share:{{ else }}مشاركة:{{ end }}{{ end }}</span>
                     <a href="https://wa.me/?text={{ .Title }} - {{ .Site.BaseURL }}{{ .RelPermalink }}" target="_blank" class="share-btn share-whatsapp" title="WhatsApp">💬</a>
                     <a href="mailto:?subject={{ .Title }}&body=Check out {{ .Site.BaseURL }}{{ .RelPermalink }}" class="share-btn share-email" title="Email">📧</a>
                     <button class="share-btn share-copy" onclick="navigator.clipboard.writeText(window.location.href); this.textContent='✅'; setTimeout(()=>this.textContent='📋', 2000)" title="Copy Link">📋</button>
@@ -93,112 +93,112 @@
         <!-- 产品详情标签页 -->
         <div class="product-tabs">
             <div class="tab-headers">
-                <button class="tab-btn active" data-tab="specs">{{ if eq .Site.Language.Lang "zh" }}规格参数{{ else if eq .Site.Language.Lang "en" }}Specifications{{ else }}المواصفات{{ end }}</button>
-                <button class="tab-btn" data-tab="materials">{{ if eq .Site.Language.Lang "zh" }}材质工艺{{ else if eq .Site.Language.Lang "en" }}Materials{{ else }}المواد{{ end }}</button>
-                <button class="tab-btn" data-tab="dimensions">{{ if eq .Site.Language.Lang "zh" }}尺寸包装{{ else if eq .Site.Language.Lang "en" }}Dimensions{{ else }}الأبعاد{{ end }}</button>
-                <button class="tab-btn" data-tab="application">{{ if eq .Site.Language.Lang "zh" }}应用场景{{ else if eq .Site.Language.Lang "en" }}Application{{ else }}التطبيق{{ end }}</button>
+                <button class="tab-btn active" data-tab="specs">{{ if eq .Site.Language.Lang "zh" }}规格参数{{ else }}{{ if eq .Site.Language.Lang "en" }}Specifications{{ else }}المواصفات{{ end }}{{ end }}</button>
+                <button class="tab-btn" data-tab="materials">{{ if eq .Site.Language.Lang "zh" }}材质工艺{{ else }}{{ if eq .Site.Language.Lang "en" }}Materials{{ else }}المواد{{ end }}{{ end }}</button>
+                <button class="tab-btn" data-tab="dimensions">{{ if eq .Site.Language.Lang "zh" }}尺寸包装{{ else }}{{ if eq .Site.Language.Lang "en" }}Dimensions{{ else }}الأبعاد{{ end }}{{ end }}</button>
+                <button class="tab-btn" data-tab="application">{{ if eq .Site.Language.Lang "zh" }}应用场景{{ else }}{{ if eq .Site.Language.Lang "en" }}Application{{ else }}التطبيق{{ end }}{{ end }}</button>
             </div>
 
             <div class="tab-content active" id="specs">
-                <h3>{{ if eq .Site.Language.Lang "zh" }}技术规格{{ else if eq .Site.Language.Lang "en" }}Technical Specifications{{ else }}المواصفات التقنية{{ end }}</h3>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}技术规格{{ else }}{{ if eq .Site.Language.Lang "en" }}Technical Specifications{{ else }}المواصفات التقنية{{ end }}{{ end }}</h3>
                 <table class="specs-table">
                     <tr>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}型号{{ else if eq .Site.Language.Lang "en" }}Model{{ else }}النموذج{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}型号{{ else }}{{ if eq .Site.Language.Lang "en" }}Model{{ else }}النموذج{{ end }}{{ end }}</td>
                         <td>{{ .Title }}</td>
                     </tr>
                     <tr>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}材质{{ else if eq .Site.Language.Lang "en" }}Material{{ else }}المادة{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}材质{{ else }}{{ if eq .Site.Language.Lang "en" }}Material{{ else }}المادة{{ end }}{{ end }}</td>
                         <td>{{ .Params.material | default "Stainless Steel 304" }}</td>
                     </tr>
                     <tr>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}表面处理{{ else if eq .Site.Language.Lang "en" }}Surface Finish{{ else }}تشطيب السطح{{ end }}</td>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}拉丝/抛光/电镀{{ else if eq .Site.Language.Lang "en" }}Brushed/Polished/Plated{{ else }}مصقول/مطلي{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}表面处理{{ else }}{{ if eq .Site.Language.Lang "en" }}Surface Finish{{ else }}تشطيب السطح{{ end }}{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}拉丝/抛光/电镀{{ else }}{{ if eq .Site.Language.Lang "en" }}Brushed/Polished/Plated{{ else }}مصقول/مطلي{{ end }}{{ end }}</td>
                     </tr>
                     <tr>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}适用门类型{{ else if eq .Site.Language.Lang "en" }}Door Type{{ else }}نوع الباب{{ end }}</td>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}室内门/室外门/防火门{{ else if eq .Site.Language.Lang "en" }}Interior/Exterior/Fire Door{{ else }}داخلي/خارجي{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}适用门类型{{ else }}{{ if eq .Site.Language.Lang "en" }}Door Type{{ else }}نوع الباب{{ end }}{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}室内门/室外门/防火门{{ else }}{{ if eq .Site.Language.Lang "en" }}Interior/Exterior/Fire Door{{ else }}داخلي/خارجي{{ end }}{{ end }}</td>
                     </tr>
                     <tr>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}认证{{ else if eq .Site.Language.Lang "en" }}Certification{{ else }}الشهادات{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}认证{{ else }}{{ if eq .Site.Language.Lang "en" }}Certification{{ else }}الشهادات{{ end }}{{ end }}</td>
                         <td>ISO 9001, CE, SGS</td>
                     </tr>
                 </table>
             </div>
 
             <div class="tab-content" id="materials">
-                <h3>{{ if eq .Site.Language.Lang "zh" }}材质与工艺{{ else if eq .Site.Language.Lang "en" }}Materials & Craftsmanship{{ else }}المواد والحرفية{{ end }}</h3>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}材质与工艺{{ else }}{{ if eq .Site.Language.Lang "en" }}Materials & Craftsmanship{{ else }}المواد والحرفية{{ end }}{{ end }}</h3>
                 <div class="material-grid">
                     <div class="material-item">
                         <div class="material-icon">🏭</div>
-                        <h4>{{ if eq .Site.Language.Lang "zh" }}优质原材料{{ else if eq .Site.Language.Lang "en" }}Premium Materials{{ else }}مواد ممتازة{{ end }}</h4>
-                        <p>{{ if eq .Site.Language.Lang "zh" }}采用 SS304 不锈钢/锌合金/铝合金，耐腐蚀，抗氧化{{ else if eq .Site.Language.Lang "en" }}SS304 Stainless Steel/Zinc Alloy/Aluminum, anti-corrosion{{ else }}فولاذ مقاوم{{ end }}</p>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}优质原材料{{ else }}{{ if eq .Site.Language.Lang "en" }}Premium Materials{{ else }}مواد ممتازة{{ end }}{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}采用 SS304 不锈钢/锌合金/铝合金，耐腐蚀，抗氧化{{ else }}{{ if eq .Site.Language.Lang "en" }}SS304 Stainless Steel/Zinc Alloy/Aluminum, anti-corrosion{{ else }}فولاذ مقاوم{{ end }}{{ end }}</p>
                     </div>
                     <div class="material-item">
                         <div class="material-icon">⚙️</div>
-                        <h4>{{ if eq .Site.Language.Lang "zh" }}精密加工{{ else if eq .Site.Language.Lang "en" }}Precision Manufacturing{{ else }}تصنيع دقيق{{ end }}</h4>
-                        <p>{{ if eq .Site.Language.Lang "zh" }}CNC 加工，确保每个零件精度在 0.01mm 以内{{ else if eq .Site.Language.Lang "en" }}CNC machining, tolerance within 0.01mm{{ end }}</p>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}精密加工{{ else }}{{ if eq .Site.Language.Lang "en" }}Precision Manufacturing{{ else }}تصنيع دقيق{{ end }}{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}CNC 加工，确保每个零件精度在 0.01mm 以内{{ else }}{{ if eq .Site.Language.Lang "en" }}CNC machining, tolerance within 0.01mm{{ else }}تصنيع CNC، دقة في حدود 0.01 مم{{ end }}{{ end }}</p>
                     </div>
                     <div class="material-item">
                         <div class="material-icon">✨</div>
-                        <h4>{{ if eq .Site.Language.Lang "zh" }}表面处理{{ else if eq .Site.Language.Lang "en" }}Surface Treatment{{ else }}معالجة السطح{{ end }}</h4>
-                        <p>{{ if eq .Site.Language.Lang "zh" }}拉丝/抛光/电镀/喷塑，多种表面处理可选{{ else if eq .Site.Language.Lang "en" }}Brushed/Polished/Plated/Powder Coated{{ end }}</p>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}表面处理{{ else }}{{ if eq .Site.Language.Lang "en" }}Surface Treatment{{ else }}معالجة السطح{{ end }}{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}拉丝/抛光/电镀/喷塑，多种表面处理可选{{ else }}{{ if eq .Site.Language.Lang "en" }}Brushed/Polished/Plated/Powder Coated{{ else }}مصقول/مطلي/مسحوق مطلي{{ end }}{{ end }}</p>
                     </div>
                     <div class="material-item">
                         <div class="material-icon">🔬</div>
-                        <h4>{{ if eq .Site.Language.Lang "zh" }}质量检测{{ else if eq .Site.Language.Lang "en" }}Quality Testing{{ else }}اختبار الجودة{{ end }}</h4>
-                        <p>{{ if eq .Site.Language.Lang "zh" }}50,000+ 次开关测试，100% 出厂检验{{ else if eq .Site.Language.Lang "en" }}50,000+ cycles test, 100% inspection{{ end }}</p>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}质量检测{{ else }}{{ if eq .Site.Language.Lang "en" }}Quality Testing{{ else }}اختبار الجودة{{ end }}{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}50,000+ 次开关测试，100% 出厂检验{{ else }}{{ if eq .Site.Language.Lang "en" }}50,000+ cycles test, 100% inspection{{ else }}اختبار 50,000+ دورة، فحص 100%{{ end }}{{ end }}</p>
                     </div>
                 </div>
             </div>
 
             <div class="tab-content" id="dimensions">
-                <h3>{{ if eq .Site.Language.Lang "zh" }}尺寸与包装{{ else if eq .Site.Language.Lang "en" }}Dimensions & Packaging{{ else }}الأبعاد والتعبئة{{ end }}</h3>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}尺寸与包装{{ else }}{{ if eq .Site.Language.Lang "en" }}Dimensions & Packaging{{ else }}الأبعاد والتعبئة{{ end }}{{ end }}</h3>
                 <table class="specs-table">
                     <tr>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}产品尺寸{{ else if eq .Site.Language.Lang "en" }}Product Size{{ else }}حجم المنتج{{ end }}</td>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}根据型号定制（请联系获取详细尺寸）{{ else if eq .Site.Language.Lang "en" }}Custom sizes available (contact for details){{ else }}أحجام مخصصة{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}产品尺寸{{ else }}{{ if eq .Site.Language.Lang "en" }}Product Size{{ else }}حجم المنتج{{ end }}{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}根据型号定制（请联系获取详细尺寸）{{ else }}{{ if eq .Site.Language.Lang "en" }}Custom sizes available (contact for details){{ else }}أحجام مخصصة{{ end }}{{ end }}</td>
                     </tr>
                     <tr>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}包装方式{{ else if eq .Site.Language.Lang "en" }}Packaging{{ else }}التعبئة{{ end }}</td>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}独立纸盒 + 出口纸箱{{ else if eq .Site.Language.Lang "en" }}Individual box + Export carton{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}包装方式{{ else }}{{ if eq .Site.Language.Lang "en" }}Packaging{{ else }}التعبئة{{ end }}{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}独立纸盒 + 出口纸箱{{ else }}{{ if eq .Site.Language.Lang "en" }}Individual box + Export carton{{ else }}صندوق فردي + كرتون تصدير{{ end }}{{ end }}</td>
                     </tr>
                     <tr>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}装箱数量{{ else if eq .Site.Language.Lang "en" }}Qty per Carton{{ else }}الكمية في الكرتون{{ end }}</td>
-                        <td>根据产品尺寸，通常 20-50 件/箱</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}装箱数量{{ else }}{{ if eq .Site.Language.Lang "en" }}Qty per Carton{{ else }}الكمية في الكرتون{{ end }}{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}根据产品尺寸，通常 20-50 件/箱{{ else }}{{ if eq .Site.Language.Lang "en" }}Custom per size, typically 20-50 pcs/carton{{ else }}حسب حجم المنتج، عادة 20-50 قطعة/كرتون{{ end }}{{ end }}</td>
                     </tr>
                     <tr>
-                        <td>{{ if eq .Site.Language.Lang "zh" }} carton 尺寸{{ else if eq .Site.Language.Lang "en" }}Carton Size{{ else }}حجم الكرتون{{ end }}</td>
-                        <td>根据订单定制最优装箱方案</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}纸箱尺寸{{ else }}{{ if eq .Site.Language.Lang "en" }}Carton Size{{ else }}حجم الكرتون{{ end }}{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}根据订单定制最优装箱方案{{ else }}{{ if eq .Site.Language.Lang "en" }}Customized optimal packing per order{{ else }}تعبئة مثالية مخصصة حسب الطلب{{ end }}{{ end }}</td>
                     </tr>
                     <tr>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}交货期{{ else if eq .Site.Language.Lang "en" }}Lead Time{{ else }}وقت التسليم{{ end }}</td>
-                        <td>{{ if eq .Site.Language.Lang "zh" }}样品 3-5 天，批量订单 15-25 天{{ else if eq .Site.Language.Lang "en" }}Samples: 3-5 days, Bulk: 15-25 days{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}交货期{{ else }}{{ if eq .Site.Language.Lang "en" }}Lead Time{{ else }}وقت التسليم{{ end }}{{ end }}</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}样品 3-5 天，批量订单 15-25 天{{ else }}{{ if eq .Site.Language.Lang "en" }}Samples: 3-5 days, Bulk: 15-25 days{{ end }}{{ end }}</td>
                     </tr>
                 </table>
             </div>
 
             <div class="tab-content" id="application">
-                <h3>{{ if eq .Site.Language.Lang "zh" }}应用场景{{ else if eq .Site.Language.Lang "en" }}Applications{{ else }}التطبيقات{{ end }}</h3>
+                <h3>{{ if eq .Site.Language.Lang "zh" }}应用场景{{ else }}{{ if eq .Site.Language.Lang "en" }}Applications{{ else }}التطبيقات{{ end }}{{ end }}</h3>
                 <div class="application-grid">
                     <div class="app-item">
                         <div class="app-icon">🏠</div>
-                        <h4>{{ if eq .Site.Language.Lang "zh" }}住宅建筑{{ else if eq .Site.Language.Lang "en" }}Residential{{ end }}</h4>
-                        <p>{{ if eq .Site.Language.Lang "zh" }}家庭门、室内门、入户门{{ else if eq .Site.Language.Lang "en" }}Home doors, interior doors{{ end }}</p>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}住宅建筑{{ else }}{{ if eq .Site.Language.Lang "en" }}Residential{{ else }}سكني{{ end }}{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}家庭门、室内门、入户门{{ else }}{{ if eq .Site.Language.Lang "en" }}Home doors, interior doors{{ else }}أبواب المنزل، الأبواب الداخلية{{ end }}{{ end }}</p>
                     </div>
                     <div class="app-item">
                         <div class="app-icon">🏢</div>
-                        <h4>{{ if eq .Site.Language.Lang "zh" }}商业建筑{{ else if eq .Site.Language.Lang "en" }}Commercial{{ end }}</h4>
-                        <p>{{ if eq .Site.Language.Lang "zh" }}办公室、酒店、商场{{ else if eq .Site.Language.Lang "en" }}Offices, hotels, malls{{ end }}</p>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}商业建筑{{ else }}{{ if eq .Site.Language.Lang "en" }}Commercial{{ else }}تجاري{{ end }}{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}办公室、酒店、商场{{ else }}{{ if eq .Site.Language.Lang "en" }}Offices, hotels, malls{{ else }}مكاتب، فنادق، مراكز تسوق{{ end }}{{ end }}</p>
                     </div>
                     <div class="app-item">
                         <div class="app-icon">🏭</div>
-                        <h4>{{ if eq .Site.Language.Lang "zh" }}工业设施{{ else if eq .Site.Language.Lang "en" }}Industrial{{ end }}</h4>
-                        <p>{{ if eq .Site.Language.Lang "zh" }}工厂、仓库、机房{{ else if eq .Site.Language.Lang "en" }}Factories, warehouses{{ end }}</p>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}工业设施{{ else }}{{ if eq .Site.Language.Lang "en" }}Industrial{{ else }}صناعي{{ end }}{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}工厂、仓库、机房{{ else }}{{ if eq .Site.Language.Lang "en" }}Factories, warehouses{{ else }}مصانع، مستودعات{{ end }}{{ end }}</p>
                     </div>
                     <div class="app-item">
                         <div class="app-icon">🏥</div>
-                        <h4>{{ if eq .Site.Language.Lang "zh" }}公共设施{{ else if eq .Site.Language.Lang "en" }}Public Facilities{{ end }}</h4>
-                        <p>{{ if eq .Site.Language.Lang "zh" }}医院、学校、政府大楼{{ else if eq .Site.Language.Lang "en" }}Hospitals, schools{{ end }}</p>
+                        <h4>{{ if eq .Site.Language.Lang "zh" }}公共设施{{ else }}{{ if eq .Site.Language.Lang "en" }}Public Facilities{{ else }}مرافق عامة{{ end }}{{ end }}</h4>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}医院、学校、政府大楼{{ else }}{{ if eq .Site.Language.Lang "en" }}Hospitals, schools{{ end }}{{ end }}</p>
                     </div>
                 </div>
             </div>
@@ -206,7 +206,7 @@
 
         <!-- 相关产品 -->
         <section class="related-products">
-            <h2>{{ if eq .Site.Language.Lang "zh" }}相关产品{{ else if eq .Site.Language.Lang "en" }}Related Products{{ else }}المنتجات ذات الصلة{{ end }}</h2>
+            <h2>{{ if eq .Site.Language.Lang "zh" }}相关产品{{ else }}{{ if eq .Site.Language.Lang "en" }}Related Products{{ else }}المنتجات ذات الصلة{{ end }}{{ end }}</h2>
             <div class="products-grid">
                 {{ $currentLang := .Site.Language.Lang }}
                 {{ $currentPage := .RelPermalink }}
@@ -219,7 +219,7 @@
                     <h3>{{ .Title }}</h3>
                     <p>{{ .Params.product_name | default .Description | truncate 50 }}</p>
                     <a href="{{ .RelPermalink }}" class="btn btn-primary">
-                        {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}
+                        {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else }}{{ if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}{{ end }}
                     </a>
                 </div>
                 {{ end }}
@@ -229,8 +229,8 @@
 
         <!-- 联系 CTA -->
         <div class="contact-cta">
-            <h2>{{ if eq .Site.Language.Lang "zh" }}获取免费样品和报价{{ else if eq .Site.Language.Lang "en" }}Get Free Samples & Quote{{ else }}احصل على عينات مجانية{{ end }}</h2>
-            <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else if eq .Site.Language.Lang "en" }}Contact now, reply within 2 hours{{ else }}اتصل الآن{{ end }}</p>
+            <h2>{{ if eq .Site.Language.Lang "zh" }}获取免费样品和报价{{ else }}{{ if eq .Site.Language.Lang "en" }}Get Free Samples & Quote{{ else }}احصل على عينات مجانية{{ end }}{{ end }}</h2>
+            <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else }}{{ if eq .Site.Language.Lang "en" }}Contact now, reply within 2 hours{{ else }}اتصل الآن{{ end }}{{ end }}</p>
             <div class="contact-methods">
                 <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="contact-btn whatsapp" target="_blank">
                     💬 WhatsApp: {{ .Site.Params.whatsapp }}

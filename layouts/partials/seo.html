@@ -368,7 +368,7 @@
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "{{ if eq .Site.Language.Lang "zh" }}首页{{ else if eq .Site.Language.Lang "ar" }}الرئيسية{{ else }}Home{{ end }}",
+      "name": "{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}{{ if eq .Site.Language.Lang "ar" }}الرئيسية{{ else }}Home{{ end }}{{ end }}",
       "item": "{{ site.BaseURL }}"
     }
     {{- $sections := .Ancestors -}}

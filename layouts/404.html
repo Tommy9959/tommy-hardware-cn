@@ -7,17 +7,17 @@
         <div style="font-size: 6rem; margin-bottom: 1rem;">🔍</div>
         <h1 style="font-size: 3rem; color: #667eea; margin-bottom: 1rem;">404</h1>
         <h2 style="font-size: 1.5rem; color: #333; margin-bottom: 1rem;">
-            {{ if eq $lang "zh" }}页面未找到{{ else if eq $lang "ar" }}الصفحة غير موجودة{{ else }}Page Not Found{{ end }}
+            {{ if eq $lang "zh" }}页面未找到{{ else }}{{ if eq $lang "ar" }}الصفحة غير موجودة{{ else }}Page Not Found{{ end }}{{ end }}
         </h2>
         <p style="color: #666; margin-bottom: 2rem;">
-            {{ if eq $lang "zh" }}抱歉，您访问的页面不存在。{{ else if eq $lang "ar" }}عذراً، الصفحة التي تبحث عنها غير موجودة.{{ else }}Sorry, the page you're looking for doesn't exist.{{ end }}
+            {{ if eq $lang "zh" }}抱歉，您访问的页面不存在。{{ else }}{{ if eq $lang "ar" }}عذراً، الصفحة التي تبحث عنها غير موجودة.{{ else }}Sorry, the page you're looking for doesn't exist.{{ end }}{{ end }}
         </p>
         <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
             <a href="{{ "/" | relLangURL }}" class="btn btn-primary">
-                {{ if eq $lang "zh" }}返回首页{{ else if eq $lang "ar" }}العودة للرئيسية{{ else }}Back to Home{{ end }}
+                {{ if eq $lang "zh" }}返回首页{{ else }}{{ if eq $lang "ar" }}العودة للرئيسية{{ else }}Back to Home{{ end }}{{ end }}
             </a>
             <a href="{{ "/products/" | relLangURL }}" class="btn btn-primary" style="background: #333;">
-                {{ if eq $lang "zh" }}查看产品{{ else if eq $lang "ar" }}عرض المنتجات{{ else }}View Products{{ end }}
+                {{ if eq $lang "zh" }}查看产品{{ else }}{{ if eq $lang "ar" }}عرض المنتجات{{ else }}View Products{{ end }}{{ end }}
             </a>
         </div>
     </div>

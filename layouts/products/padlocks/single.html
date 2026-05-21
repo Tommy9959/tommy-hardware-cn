@@ -2,9 +2,9 @@
 <article class="padlock-series">
     <div class="container">
         <nav class="breadcrumb">
-            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}</a>
+            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}{{ if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}{{ end }}</a>
             <span> / </span>
-            <a href="{{ "/products/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}产品中心{{ else if eq .Site.Language.Lang "en" }}Products{{ else }}المنتجات{{ end }}</a>
+            <a href="{{ "/products/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}产品中心{{ else }}{{ if eq .Site.Language.Lang "en" }}Products{{ else }}المنتجات{{ end }}{{ end }}</a>
             <span> / </span>
             <a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a>
             <span> / </span>
@@ -32,18 +32,18 @@
                 <h1 class="product-title">{{ .Title }}</h1>
 
                 <div class="product-highlights">
-                    <h3>{{ if eq .Site.Language.Lang "zh" }}产品亮点{{ else if eq .Site.Language.Lang "en" }}Product Highlights{{ else }}مميزات المنتج{{ end }}</h3>
+                    <h3>{{ if eq .Site.Language.Lang "zh" }}产品亮点{{ else }}{{ if eq .Site.Language.Lang "en" }}Product Highlights{{ else }}مميزات المنتج{{ end }}{{ end }}</h3>
                     <ul>
-                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}工厂直销，价格优惠{{ else if eq .Site.Language.Lang "en" }}Factory direct, best prices{{ else }}المصنع مباشرة{{ end }}</li>
-                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}高质量材料，耐用可靠{{ else if eq .Site.Language.Lang "en" }}High quality materials{{ else }}جودة عالية{{ end }}</li>
-                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}支持定制，OEM/ODM{{ else if eq .Site.Language.Lang "en" }}Custom design accepted{{ else }}تصميم مخصص{{ end }}</li>
-                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}快速交货 15-25 天{{ else if eq .Site.Language.Lang "en" }}Fast delivery 15-25 days{{ else }}تسليم سريع{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}工厂直销，价格优惠{{ else }}{{ if eq .Site.Language.Lang "en" }}Factory direct, best prices{{ else }}المصنع مباشرة{{ end }}{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}高质量材料，耐用可靠{{ else }}{{ if eq .Site.Language.Lang "en" }}High quality materials{{ else }}جودة عالية{{ end }}{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}支持定制，OEM/ODM{{ else }}{{ if eq .Site.Language.Lang "en" }}Custom design accepted{{ else }}تصميم مخصص{{ end }}{{ end }}</li>
+                        <li>✓ {{ if eq .Site.Language.Lang "zh" }}快速交货 15-25 天{{ else }}{{ if eq .Site.Language.Lang "en" }}Fast delivery 15-25 days{{ else }}تسليم سريع{{ end }}{{ end }}</li>
                     </ul>
                 </div>
 
                 <div class="inquiry-buttons">
                     <a href="https://wa.me/{{ .Site.Params.whatsapp }}?text=I'm interested in {{ .Title }}" class="btn btn-primary" target="_blank">💬 WhatsApp</a>
-                    <a href="{{ "/contact/" | relLangURL }}" class="btn btn-secondary">{{ if eq .Site.Language.Lang "zh" }}询价{{ else if eq .Site.Language.Lang "en" }}Inquire Now{{ else }}استفسار{{ end }}</a>
+                    <a href="{{ "/contact/" | relLangURL }}" class="btn btn-secondary">{{ if eq .Site.Language.Lang "zh" }}询价{{ else }}{{ if eq .Site.Language.Lang "en" }}Inquire Now{{ else }}استفسار{{ end }}{{ end }}</a>
                 </div>
             </div>
         </div>
@@ -53,8 +53,8 @@
         </div>
 
         <div class="contact-cta">
-            <h2>{{ if eq .Site.Language.Lang "zh" }}获取免费样品和报价{{ else if eq .Site.Language.Lang "en" }}Get Free Samples & Quote{{ else }}احصل على عينات مجانية{{ end }}</h2>
-            <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else if eq .Site.Language.Lang "en" }}Contact now, reply within 2 hours{{ else }}اتصل الآن{{ end }}</p>
+            <h2>{{ if eq .Site.Language.Lang "zh" }}获取免费样品和报价{{ else }}{{ if eq .Site.Language.Lang "en" }}Get Free Samples & Quote{{ else }}احصل على عينات مجانية{{ end }}{{ end }}</h2>
+            <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else }}{{ if eq .Site.Language.Lang "en" }}Contact now, reply within 2 hours{{ else }}اتصل الآن{{ end }}{{ end }}</p>
             <div class="contact-methods">
                 <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="contact-btn whatsapp" target="_blank">💬 WhatsApp: {{ .Site.Params.whatsapp }}</a>
                 <a href="mailto:{{ .Site.Params.email }}" class="contact-btn email">📧 {{ .Site.Params.email }}</a>

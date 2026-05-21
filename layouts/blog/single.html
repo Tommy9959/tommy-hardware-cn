@@ -3,9 +3,9 @@
     <div class="container">
         <!-- Breadcrumb -->
         <nav class="breadcrumb">
-            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}</a>
+            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}{{ if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}{{ end }}</a>
             <span> / </span>
-            <a href="{{ "/blog/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}博客{{ else if eq .Site.Language.Lang "en" }}Blog{{ else }}مدونة{{ end }}</a>
+            <a href="{{ "/blog/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}博客{{ else }}{{ if eq .Site.Language.Lang "en" }}Blog{{ else }}مدونة{{ end }}{{ end }}</a>
             <span> / </span>
             <span>{{ .Title }}</span>
         </nav>
@@ -14,8 +14,8 @@
         <header class="blog-header">
             <h1 class="blog-title">{{ .Title }}</h1>
             <div class="blog-meta">
-                <span class="meta-item">📅 {{ .Date.Format "January 2, 2006" }}</span>
-                <span class="meta-item">✍️ {{ .Params.author | default .Site.Title }}</span>
+                <span class="meta-item">📅 {{ if eq .Site.Language.Lang "zh" }}{{ .Date.Format "2006年1月2日" }}{{ else }}{{ if eq .Site.Language.Lang "ar" }}{{ .Date.Format "2006-01-02" }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}{{ end }}</span>
+                <span class="meta-item">✍️ {{ if eq .Site.Language.Lang "zh" }}{{ .Params.author | default "义乌水汇进出口有限公司" }}{{ else }}{{ if eq .Site.Language.Lang "ar" }}{{ .Params.author | default "شركة ييو شويهوي للاستيراد والتصدير" }}{{ else }}{{ .Params.author | default .Site.Title }}{{ end }}{{ end }}</span>
                 {{ if .Params.tags }}
                 <span class="meta-item">
                     🏷️
@@ -35,7 +35,7 @@
 
         <!-- Social Share -->
         <div class="share-section">
-            <span class="share-label">{{ if eq .Site.Language.Lang "zh" }}分享这篇文章：{{ else if eq .Site.Language.Lang "en" }}Share this article:{{ else }}شارك هذا المقال:{{ end }}</span>
+            <span class="share-label">{{ if eq .Site.Language.Lang "zh" }}分享这篇文章：{{ else }}{{ if eq .Site.Language.Lang "en" }}Share this article:{{ else }}شارك هذا المقال:{{ end }}{{ end }}</span>
             <div class="share-buttons">
                 <a href="https://wa.me/?text={{ .Title }} - {{ .Site.BaseURL }}{{ .RelPermalink }}" target="_blank" class="share-btn share-whatsapp" title="WhatsApp">💬</a>
                 <a href="mailto:?subject={{ .Title }}&body=Check out {{ .Site.BaseURL }}{{ .RelPermalink }}" class="share-btn share-email" title="Email">📧</a>
@@ -49,14 +49,14 @@
             <div class="author-avatar">👤</div>
             <div class="author-info">
                 <h3>{{ .name | default $.Site.Title }}</h3>
-                <p>{{ .bio | default "Expert in hardware solutions for the Nigerian market." }}</p>
+                <p>{{ if eq $.Site.Language.Lang "zh" }}{{ .bio_zh | default "尼日利亚市场五金解决方案专家" }}{{ else }}{{ if eq $.Site.Language.Lang "ar" }}{{ .bio_ar | default "خبير في حلول الأجهزة لسوق نيجيريا" }}{{ else }}{{ .bio | default "Expert in hardware solutions for the Nigerian market." }}{{ end }}{{ end }}</p>
             </div>
         </div>
         {{ end }}
 
         <!-- Related Products -->
         <section class="related-products">
-            <h2>{{ if eq .Site.Language.Lang "zh" }}相关产品{{ else if eq .Site.Language.Lang "en" }}Related Products{{ else }}المنتجات ذات الصلة{{ end }}</h2>
+            <h2>{{ if eq .Site.Language.Lang "zh" }}相关产品{{ else }}{{ if eq .Site.Language.Lang "en" }}Related Products{{ else }}المنتجات ذات الصلة{{ end }}{{ end }}</h2>
             <div class="products-grid">
                 {{ $currentLang := .Site.Language.Lang }}
                 {{ $relatedProducts := where .Site.RegularPages "Section" "products" }}
@@ -78,7 +78,7 @@
                     <p class="product-price">{{ .Params.price_range }}</p>
                     {{ end }}
                     <a href="{{ .RelPermalink }}" class="btn btn-primary">
-                        {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}
+                        {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else }}{{ if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}{{ end }}
                     </a>
                 </div>
                 {{ end }}
@@ -88,8 +88,8 @@
 
         <!-- Contact CTA -->
         <div class="contact-cta">
-            <h2>{{ if eq .Site.Language.Lang "zh" }}获取免费样品和报价{{ else if eq .Site.Language.Lang "en" }}Get Free Samples & Quote{{ else }}احصل على عينات مجانية{{ end }}</h2>
-            <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else if eq .Site.Language.Lang "en" }}Contact now, reply within 2 hours{{ else }}اتصل الآن{{ end }}</p>
+            <h2>{{ if eq .Site.Language.Lang "zh" }}获取免费样品和报价{{ else }}{{ if eq .Site.Language.Lang "en" }}Get Free Samples & Quote{{ else }}احصل على عينات مجانية{{ end }}{{ end }}</h2>
+            <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else }}{{ if eq .Site.Language.Lang "en" }}Contact now, reply within 2 hours{{ else }}اتصل الآن{{ end }}{{ end }}</p>
             <div class="contact-methods">
                 <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="contact-btn whatsapp" target="_blank">
                     💬 WhatsApp: {{ .Site.Params.whatsapp }}

@@ -5,9 +5,9 @@
     <div class="container">
         <!-- 面包屑导航 -->
         <nav class="breadcrumb">
-            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}</a>
+            <a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}{{ if eq .Site.Language.Lang "en" }}Home{{ else }}الرئيسية{{ end }}{{ end }}</a>
             <span> / </span>
-            <a href="{{ "/clients/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}客户案例{{ else if eq .Site.Language.Lang "en" }}Client Cases{{ else }}عملائنا{{ end }}</a>
+            <a href="{{ "/clients/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}客户案例{{ else }}{{ if eq .Site.Language.Lang "en" }}Client Cases{{ else }}عملائنا{{ end }}{{ end }}</a>
             <span> / </span>
             <span>{{ .Title }}</span>
         </nav>
@@ -30,7 +30,7 @@
         <!-- 关键词标签 -->
         {{ if .Params.industry_categories }}
         <div class="client-tags">
-            <h4>{{ if eq .Site.Language.Lang "zh" }}相关类别{{ else if eq .Site.Language.Lang "en" }}Related Categories{{ else }}الفئات ذات الصلة{{ end }}:</h4>
+            <h4>{{ if eq .Site.Language.Lang "zh" }}相关类别{{ else }}{{ if eq .Site.Language.Lang "en" }}Related Categories{{ else }}الفئات ذات الصلة{{ end }}{{ end }}:</h4>
             <div class="tags-list">
                 {{ range .Params.industry_categories }}
                 <span class="tag">{{ . }}</span>
@@ -41,7 +41,7 @@
 
         <!-- 相关产品推荐 -->
         <section class="related-products">
-            <h2>{{ if eq .Site.Language.Lang "zh" }}相关产品{{ else if eq .Site.Language.Lang "en" }}Related Products{{ else }}المنتجات ذات الصلة{{ end }}</h2>
+            <h2>{{ if eq .Site.Language.Lang "zh" }}相关产品{{ else }}{{ if eq .Site.Language.Lang "en" }}Related Products{{ else }}المنتجات ذات الصلة{{ end }}{{ end }}</h2>
             <div class="products-grid">
                 {{ $currentLang := .Site.Language.Lang }}
                 {{ $count := 0 }}
@@ -53,7 +53,7 @@
                     <h3>{{ .Title }}</h3>
                     <p>{{ .Params.product_name | default .Description | truncate 50 }}</p>
                     <a href="{{ .RelPermalink }}" class="btn btn-primary">
-                        {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}
+                        {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else }}{{ if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}{{ end }}
                     </a>
                 </div>
                 {{ end }}
@@ -63,8 +63,8 @@
 
         <!-- 联系 CTA -->
         <div class="contact-cta">
-            <h2>{{ if eq .Site.Language.Lang "zh" }}获取类似解决方案{{ else if eq .Site.Language.Lang "en" }}Get a Similar Solution{{ else }}احصل على حل مماثل{{ end }}</h2>
-            <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else if eq .Site.Language.Lang "en" }}Contact now, reply within 2 hours{{ else }}اتصل الآن{{ end }}</p>
+            <h2>{{ if eq .Site.Language.Lang "zh" }}获取类似解决方案{{ else }}{{ if eq .Site.Language.Lang "en" }}Get a Similar Solution{{ else }}احصل على حل مماثل{{ end }}{{ end }}</h2>
+            <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else }}{{ if eq .Site.Language.Lang "en" }}Contact now, reply within 2 hours{{ else }}اتصل الآن{{ end }}{{ end }}</p>
             <div class="contact-methods">
                 <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="contact-btn whatsapp" target="_blank">
                     💬 WhatsApp: {{ .Site.Params.whatsapp }}

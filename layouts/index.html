@@ -12,10 +12,10 @@
             <p class="hero-subtitle">{{ .Params.description }}</p>
             <div class="hero-buttons">
                 <a href="{{ relLangURL "products/" }}" class="btn btn-primary">
-                    {{ if eq $lang "zh" }}查看产品{{ else if eq $lang "ar" }}عرض المنتجات{{ else }}View Products{{ end }}
+                    {{ if eq $lang "zh" }}查看产品{{ else }}{{ if eq $lang "ar" }}عرض المنتجات{{ else }}View Products{{ end }}{{ end }}
                 </a>
                 <a href="{{ relLangURL "contact/" }}" class="btn btn-secondary">
-                    {{ if eq $lang "zh" }}联系我们{{ else if eq $lang "ar" }}اتصل بنا{{ else }}Contact Us{{ end }}
+                    {{ if eq $lang "zh" }}联系我们{{ else }}{{ if eq $lang "ar" }}اتصل بنا{{ else }}Contact Us{{ end }}{{ end }}
                 </a>
             </div>
         </div>
@@ -27,19 +27,19 @@
     <div class="stats-container">
         <div class="stat-card">
             <div class="stat-number">10+</div>
-            <div class="stat-label">{{ if eq $lang "zh" }}年行业经验{{ else if eq $lang "ar" }}سنوات من الخبرة{{ else }}Years Experience{{ end }}</div>
+            <div class="stat-label">{{ if eq $lang "zh" }}年行业经验{{ else }}{{ if eq $lang "ar" }}سنوات من الخبرة{{ else }}Years Experience{{ end }}{{ end }}</div>
         </div>
         <div class="stat-card">
             <div class="stat-number">50+</div>
-            <div class="stat-label">{{ if eq $lang "zh" }}出口国家{{ else if eq $lang "ar" }}دولة تصدير{{ else }}Export Countries{{ end }}</div>
+            <div class="stat-label">{{ if eq $lang "zh" }}出口国家{{ else }}{{ if eq $lang "ar" }}دولة تصدير{{ else }}Export Countries{{ end }}{{ end }}</div>
         </div>
         <div class="stat-card">
             <div class="stat-number">1000+</div>
-            <div class="stat-label">{{ if eq $lang "zh" }}满意客户{{ else if eq $lang "ar" }}عميل سعيد{{ else }}Happy Clients{{ end }}</div>
+            <div class="stat-label">{{ if eq $lang "zh" }}满意客户{{ else }}{{ if eq $lang "ar" }}عميل سعيد{{ else }}Happy Clients{{ end }}{{ end }}</div>
         </div>
         <div class="stat-card">
             <div class="stat-number">100%</div>
-            <div class="stat-label">{{ if eq $lang "zh" }}质量全检{{ else if eq $lang "ar" }}فحص الجودة{{ else }}Quality Inspection{{ end }}</div>
+            <div class="stat-label">{{ if eq $lang "zh" }}质量全检{{ else }}{{ if eq $lang "ar" }}فحص الجودة{{ else }}Quality Inspection{{ end }}{{ end }}</div>
         </div>
     </div>
 </section>
@@ -47,7 +47,7 @@
 <!-- Products Section -->
 <section class="products-section">
     <div class="container">
-        <h2 class="section-title">{{ if eq $lang "zh" }}核心产品{{ else if eq $lang "ar" }}منتجاتنا الأساسية{{ else }}Our Core Products{{ end }}</h2>
+        <h2 class="section-title">{{ if eq $lang "zh" }}核心产品{{ else }}{{ if eq $lang "ar" }}منتجاتنا الأساسية{{ else }}Our Core Products{{ end }}{{ end }}</h2>
         <div class="products-grid">
             {{ $allProducts := where $.Site.RegularPages ".Section" "products" }}
             {{ $padlockProducts := slice }}
@@ -71,8 +71,8 @@
                     {{ else }}
                     <div class="product-icon">🔒</div>
                     {{ end }}
-                    <h3>{{ if eq $lang "zh" }}挂锁{{ else if eq $lang "ar" }}أقفال{{ else }}Padlocks{{ end }}</h3>
-                    <p>{{ if eq $lang "zh" }}高安全性重型挂锁，适用于工业和商业用途{{ else if eq $lang "ar" }}أقفال عالية الأمان للاستخدام الصناعي والتجاري{{ else }}High Security Padlocks, Heavy Duty Locks for Industrial &amp; Commercial Use{{ end }}</p>
+                    <h3>{{ if eq $lang "zh" }}挂锁{{ else }}{{ if eq $lang "ar" }}أقفال{{ else }}Padlocks{{ end }}{{ end }}</h3>
+                    <p>{{ if eq $lang "zh" }}高安全性重型挂锁，适用于工业和商业用途{{ else }}{{ if eq $lang "ar" }}أقفال عالية الأمان للاستخدام الصناعي والتجاري{{ else }}High Security Padlocks, Heavy Duty Locks for Industrial &amp; Commercial Use{{ end }}{{ end }}</p>
                 </a>
             </div>
             <div class="product-card">
@@ -84,44 +84,44 @@
                     {{ else }}
                     <div class="product-icon">🔐</div>
                     {{ end }}
-                    <h3>{{ if eq $lang "zh" }}门锁{{ else if eq $lang "ar" }}أقفال الأبواب{{ else }}Door Locks{{ end }}</h3>
-                    <p>{{ if eq $lang "zh" }}插芯锁、智能锁、铁板锁，适用于安全门{{ else if eq $lang "ar" }}أقفال مقبس، أقفال ذكية، أقفال حديدية للأبواب الأمنية{{ else }}Mortise Locks, Smart Locks, Iron Plate Locks for security doors{{ end }}</p>
+                    <h3>{{ if eq $lang "zh" }}门锁{{ else }}{{ if eq $lang "ar" }}أقفال الأبواب{{ else }}Door Locks{{ end }}{{ end }}</h3>
+                    <p>{{ if eq $lang "zh" }}插芯锁、智能锁、铁板锁，适用于安全门{{ else }}{{ if eq $lang "ar" }}أقفال مقبس، أقفال ذكية، أقفال حديدية للأبواب الأمنية{{ else }}Mortise Locks, Smart Locks, Iron Plate Locks for security doors{{ end }}{{ end }}</p>
                 </a>
             </div>
             <div class="product-card">
                 <a href="{{ relLangURL "products/door-hinges/" }}">
                     <div class="product-icon">🔧</div>
-                    <h3>{{ if eq $lang "zh" }}门铰链{{ else if eq $lang "ar" }}مفصلات الأبواب{{ else }}Door Hinges{{ end }}</h3>
-                    <p>{{ if eq $lang "zh" }}合页铰链、天地轴铰链、隐藏式铰链{{ else if eq $lang "ar" }}مفصلات عادية، مفصلات محورية، مفصلات مخفية{{ else }}Butt Hinges, Pivot Hinges, Concealed Hinges{{ end }}</p>
+                    <h3>{{ if eq $lang "zh" }}门铰链{{ else }}{{ if eq $lang "ar" }}مفصلات الأبواب{{ else }}Door Hinges{{ end }}{{ end }}</h3>
+                    <p>{{ if eq $lang "zh" }}合页铰链、天地轴铰链、隐藏式铰链{{ else }}{{ if eq $lang "ar" }}مفصلات عادية، مفصلات محورية، مفصلات مخفية{{ else }}Butt Hinges, Pivot Hinges, Concealed Hinges{{ end }}{{ end }}</p>
                 </a>
             </div>
             <div class="product-card">
                 <a href="{{ relLangURL "products/sliding-tracks/" }}">
                     <div class="product-icon">🚀</div>
-                    <h3>{{ if eq $lang "zh" }}滑轨{{ else if eq $lang "ar" }}مسارات منزلقة{{ else }}Sliding Tracks{{ end }}</h3>
-                    <p>{{ if eq $lang "zh" }}抽屉滑轨、衣柜轨道、谷仓门五金{{ else if eq $lang "ar" }}مسارات أدراج، مسارات خزائن، أجهزة أبواب الحظائر{{ else }}Drawer Slides, Wardrobe Tracks, Barn Door Hardware{{ end }}</p>
+                    <h3>{{ if eq $lang "zh" }}滑轨{{ else }}{{ if eq $lang "ar" }}مسارات منزلقة{{ else }}Sliding Tracks{{ end }}{{ end }}</h3>
+                    <p>{{ if eq $lang "zh" }}抽屉滑轨、衣柜轨道、谷仓门五金{{ else }}{{ if eq $lang "ar" }}مسارات أدراج، مسارات خزائن، أجهزة أبواب الحظائر{{ else }}Drawer Slides, Wardrobe Tracks, Barn Door Hardware{{ end }}{{ end }}</p>
                 </a>
             </div>
             <div class="product-card">
                 <a href="{{ relLangURL "products/sofa-legs/" }}">
                     <div class="product-icon">🪑</div>
-                    <h3>{{ if eq $lang "zh" }}沙发脚{{ else if eq $lang "ar" }}أرجل الأرائك{{ else }}Sofa Legs{{ end }}</h3>
-                    <p>{{ if eq $lang "zh" }}金属脚、木脚、塑料脚，适用于各类家具{{ else if eq $lang "ar" }}أرجل معدنية، خشبية، بلاستيكية للأثاث{{ else }}Metal Legs, Wooden Legs, Plastic Legs for furniture{{ end }}</p>
+                    <h3>{{ if eq $lang "zh" }}沙发脚{{ else }}{{ if eq $lang "ar" }}أرجل الأرائك{{ else }}Sofa Legs{{ end }}{{ end }}</h3>
+                    <p>{{ if eq $lang "zh" }}金属脚、木脚、塑料脚，适用于各类家具{{ else }}{{ if eq $lang "ar" }}أرجل معدنية، خشبية، بلاستيكية للأثاث{{ else }}Metal Legs, Wooden Legs, Plastic Legs for furniture{{ end }}{{ end }}</p>
                 </a>
             </div>
             <div class="product-card">
                 <a href="{{ relLangURL "products/cabinet-hardware/" }}">
                     <div class="product-icon">🗄️</div>
-                    <h3>{{ if eq $lang "zh" }}橱柜五金{{ else if eq $lang "ar" }}أجهزة الخزائن{{ else }}Cabinet Hardware{{ end }}</h3>
-                    <p>{{ if eq $lang "zh" }}橱柜拉手、连接件、气压撑杆{{ else if eq $lang "ar" }}مقابض خزائن، موصلات، دعامات غاز{{ else }}Cabinet Handles, Connectors, Gas Struts{{ end }}</p>
+                    <h3>{{ if eq $lang "zh" }}橱柜五金{{ else }}{{ if eq $lang "ar" }}أجهزة الخزائن{{ else }}Cabinet Hardware{{ end }}{{ end }}</h3>
+                    <p>{{ if eq $lang "zh" }}橱柜拉手、连接件、气压撑杆{{ else }}{{ if eq $lang "ar" }}مقابض خزائن، موصلات، دعامات غاز{{ else }}Cabinet Handles, Connectors, Gas Struts{{ end }}{{ end }}</p>
                 </a>
             </div>
             <div class="product-card more-products-card">
                 <a href="{{ relLangURL "products/" }}">
                     <div class="product-icon">📦</div>
-                    <h3>{{ if eq $lang "zh" }}更多产品{{ else if eq $lang "ar" }}المزيد من المنتجات{{ else }}More Products{{ end }}</h3>
-                    <p>{{ if eq $lang "zh" }}钢管、建材、门配件、家具配件等{{ else if eq $lang "ar" }}أنابيب الصلب، مواد البناء، إكسسوارات الأبواب، تجهيزات الأثاث والمزيد{{ else }}Steel Pipes, Building Materials, Door Accessories, Furniture Fittings & More{{ end }}</p>
-                    <div class="more-products-btn">{{ if eq $lang "zh" }}查看全部 →{{ else if eq $lang "ar" }}عرض الكل ←{{ else }}View All →{{ end }}</div>
+                    <h3>{{ if eq $lang "zh" }}更多产品{{ else }}{{ if eq $lang "ar" }}المزيد من المنتجات{{ else }}More Products{{ end }}{{ end }}</h3>
+                    <p>{{ if eq $lang "zh" }}钢管、建材、门配件、家具配件等{{ else }}{{ if eq $lang "ar" }}أنابيب الصلب، مواد البناء، إكسسوارات الأبواب، تجهيزات الأثاث والمزيد{{ else }}Steel Pipes, Building Materials, Door Accessories, Furniture Fittings & More{{ end }}{{ end }}</p>
+                    <div class="more-products-btn">{{ if eq $lang "zh" }}查看全部 →{{ else }}{{ if eq $lang "ar" }}عرض الكل ←{{ else }}View All →{{ end }}{{ end }}</div>
                 </a>
             </div>
         </div>
@@ -131,46 +131,46 @@
 <!-- Why Choose Us -->
 <section class="features-section">
     <div class="container">
-        <h2 class="section-title">{{ if eq $lang "zh" }}为什么选择我们{{ else if eq $lang "ar" }}لماذا تختارنا{{ else }}Why Choose Us{{ end }}</h2>
+        <h2 class="section-title">{{ if eq $lang "zh" }}为什么选择我们{{ else }}{{ if eq $lang "ar" }}لماذا تختارنا{{ else }}Why Choose Us{{ end }}{{ end }}</h2>
         <div class="features-grid">
             <div class="feature-card">
                 <div class="feature-icon">🏆</div>
-                <h3>{{ if eq $lang "zh" }}质量保证{{ else if eq $lang "ar" }}ضمان الجودة{{ else }}Quality Assurance{{ end }}</h3>
+                <h3>{{ if eq $lang "zh" }}质量保证{{ else }}{{ if eq $lang "ar" }}ضمان الجودة{{ else }}Quality Assurance{{ end }}{{ end }}</h3>
                 <ul>
-                    <li>{{ if eq $lang "zh" }}ISO 9001:2015 认证{{ else if eq $lang "ar" }}شهادة ISO 9001:2015{{ else }}ISO 9001:2015 Certified{{ end }}</li>
-                    <li>{{ if eq $lang "zh" }}CE 认证{{ else if eq $lang "ar" }}شهادة CE{{ else }}CE Certified{{ end }}</li>
-                    <li>{{ if eq $lang "zh" }}SGS 第三方检测{{ else if eq $lang "ar" }}فحص طرف ثالث SGS{{ else }}SGS Third-Party Testing{{ end }}</li>
-                    <li>{{ if eq $lang "zh" }}50,000+ 次循环测试{{ else if eq $lang "ar" }}اختبار 50,000+ دورة{{ else }}50,000+ Cycles Test{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}ISO 9001:2015 认证{{ else }}{{ if eq $lang "ar" }}شهادة ISO 9001:2015{{ else }}ISO 9001:2015 Certified{{ end }}{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}CE 认证{{ else }}{{ if eq $lang "ar" }}شهادة CE{{ else }}CE Certified{{ end }}{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}SGS 第三方检测{{ else }}{{ if eq $lang "ar" }}فحص طرف ثالث SGS{{ else }}SGS Third-Party Testing{{ end }}{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}50,000+ 次循环测试{{ else }}{{ if eq $lang "ar" }}اختبار 50,000+ دورة{{ else }}50,000+ Cycles Test{{ end }}{{ end }}</li>
                 </ul>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">💰</div>
-                <h3>{{ if eq $lang "zh" }}工厂直供价格{{ else if eq $lang "ar" }}أسعار المصنع المباشرة{{ else }}Factory Direct Pricing{{ end }}</h3>
+                <h3>{{ if eq $lang "zh" }}工厂直供价格{{ else }}{{ if eq $lang "ar" }}أسعار المصنع المباشرة{{ else }}Factory Direct Pricing{{ end }}{{ end }}</h3>
                 <ul>
-                    <li>{{ if eq $lang "zh" }}无中间商加价{{ else if eq $lang "ar" }}بدون وسطاء{{ else }}No Middlemen Markup{{ end }}</li>
-                    <li>{{ if eq $lang "zh" }}价格低 30-50%{{ else if eq $lang "ar" }}سعر أقل 30-50%{{ else }}30-50% Lower Price{{ end }}</li>
-                    <li>{{ if eq $lang "zh" }}灵活起订量{{ else if eq $lang "ar" }}كمية طلب مرنة{{ else }}Flexible MOQ{{ end }}</li>
-                    <li>{{ if eq $lang "zh" }}免费样品{{ else if eq $lang "ar" }}عينات مجانية{{ else }}Free Samples{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}无中间商加价{{ else }}{{ if eq $lang "ar" }}بدون وسطاء{{ else }}No Middlemen Markup{{ end }}{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}价格低 30-50%{{ else }}{{ if eq $lang "ar" }}سعر أقل 30-50%{{ else }}30-50% Lower Price{{ end }}{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}灵活起订量{{ else }}{{ if eq $lang "ar" }}كمية طلب مرنة{{ else }}Flexible MOQ{{ end }}{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}免费样品{{ else }}{{ if eq $lang "ar" }}عينات مجانية{{ else }}Free Samples{{ end }}{{ end }}</li>
                 </ul>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🚢</div>
-                <h3>{{ if eq $lang "zh" }}快速交付{{ else if eq $lang "ar" }}تسليم سريع{{ else }}Fast Delivery{{ end }}</h3>
+                <h3>{{ if eq $lang "zh" }}快速交付{{ else }}{{ if eq $lang "ar" }}تسليم سريع{{ else }}Fast Delivery{{ end }}{{ end }}</h3>
                 <ul>
-                    <li>{{ if eq $lang "zh" }}现货：3-5 天{{ else if eq $lang "ar" }}المخزون: 3-5 أيام{{ else }}Stock: 3-5 Days{{ end }}</li>
-                    <li>{{ if eq $lang "zh" }}定制：15-25 天{{ else if eq $lang "ar" }}مخصص: 15-25 يوم{{ else }}Custom: 15-25 Days{{ end }}</li>
-                    <li>{{ if eq $lang "zh" }}可靠货代{{ else if eq $lang "ar" }}وكلاء شحن موثوقون{{ else }}Reliable Forwarders{{ end }}</li>
-                    <li>{{ if eq $lang "zh" }}清关支持{{ else if eq $lang "ar" }}دعم التخليص الجمركي{{ else }}Customs Support{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}现货：3-5 天{{ else }}{{ if eq $lang "ar" }}المخزون: 3-5 أيام{{ else }}Stock: 3-5 Days{{ end }}{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}定制：15-25 天{{ else }}{{ if eq $lang "ar" }}مخصص: 15-25 يوم{{ else }}Custom: 15-25 Days{{ end }}{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}可靠货代{{ else }}{{ if eq $lang "ar" }}وكلاء شحن موثوقون{{ else }}Reliable Forwarders{{ end }}{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}清关支持{{ else }}{{ if eq $lang "ar" }}دعم التخليص الجمركي{{ else }}Customs Support{{ end }}{{ end }}</li>
                 </ul>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🌍</div>
-                <h3>{{ if eq $lang "zh" }}出口经验{{ else if eq $lang "ar" }}خبرة التصدير{{ else }}Export Experience{{ end }}</h3>
+                <h3>{{ if eq $lang "zh" }}出口经验{{ else }}{{ if eq $lang "ar" }}خبرة التصدير{{ else }}Export Experience{{ end }}{{ end }}</h3>
                 <ul>
-                    <li>{{ if eq $lang "zh" }}非洲市场 10+ 年{{ else if eq $lang "ar" }}10+ سنوات في أفريقيا{{ else }}10+ Years in Africa{{ end }}</li>
-                    <li>{{ if eq $lang "zh" }}尼日利亚/迪拜专家{{ else if eq $lang "ar" }}خبراء نيجيريا/دبي{{ else }}Nigeria/Dubai Expert{{ end }}</li>
-                    <li>{{ if eq $lang "zh" }}1000+ 客户{{ else if eq $lang "ar" }}1000+ عميل{{ else }}1000+ Clients{{ end }}</li>
-                    <li>{{ if eq $lang "zh" }}多语言支持{{ else if eq $lang "ar" }}دعم متعدد اللغات{{ else }}Multilingual Support{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}非洲市场 10+ 年{{ else }}{{ if eq $lang "ar" }}10+ سنوات في أفريقيا{{ else }}10+ Years in Africa{{ end }}{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}尼日利亚/迪拜专家{{ else }}{{ if eq $lang "ar" }}خبراء نيجيريا/دبي{{ else }}Nigeria/Dubai Expert{{ end }}{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}1000+ 客户{{ else }}{{ if eq $lang "ar" }}1000+ عميل{{ else }}1000+ Clients{{ end }}{{ end }}</li>
+                    <li>{{ if eq $lang "zh" }}多语言支持{{ else }}{{ if eq $lang "ar" }}دعم متعدد اللغات{{ else }}Multilingual Support{{ end }}{{ end }}</li>
                 </ul>
             </div>
         </div>
@@ -181,29 +181,29 @@
 <section class="best-sellers-section">
     <div class="container">
         <h2 class="section-title">
-            {{ if eq $lang "zh" }}尼日利亚市场热销榜{{ else if eq $lang "ar" }}الأكثر مبيعًا في سوق نيجيريا{{ else }}Nigeria Market Best Sellers{{ end }}
+            {{ if eq $lang "zh" }}尼日利亚市场热销榜{{ else }}{{ if eq $lang "ar" }}الأكثر مبيعًا في سوق نيجيريا{{ else }}Nigeria Market Best Sellers{{ end }}{{ end }}
         </h2>
         <p class="section-subtitle">
-            {{ if eq $lang "zh" }}基于10年销售数据，最受尼日利亚客户欢迎的产品{{ else if eq $lang "ar" }}المنتجات الأكثر شعبية في نيجيريا بناءً على بيانات مبيعات 10 سنوات{{ else }}Based on 10+ years of sales data, most popular products for Nigerian clients{{ end }}
+            {{ if eq $lang "zh" }}基于10年销售数据，最受尼日利亚客户欢迎的产品{{ else }}{{ if eq $lang "ar" }}المنتجات الأكثر شعبية في نيجيريا بناءً على بيانات مبيعات 10 سنوات{{ else }}Based on 10+ years of sales data, most popular products for Nigerian clients{{ end }}{{ end }}
         </p>
         <div class="best-sellers-grid">
             <div class="best-seller-card">
-                <h3>🔐 {{ if eq $lang "zh" }}插芯锁{{ else if eq $lang "ar" }}أقفال مقبس{{ else }}Mortise Locks{{ end }}</h3>
-                <p class="best-seller-price">{{ if eq $lang "zh" }}价格区间：${ else if eq $lang "ar" }}نطاق الأسعار: ${ else }}Price Range: ${{ end }}3.00-$6.00</p>
-                <p class="best-seller-detail">{{ if eq $lang "zh" }}销量占比：45%{{ else if eq $lang "ar" }}نسبة المبيعات: 45%{{ else }}Sales Volume: 45%{{ end }}</p>
-                <p class="best-seller-note">{{ if eq $lang "zh" }}最受欢迎：单锁芯，拉丝镍表面{{ else if eq $lang "ar" }}الأكثر شعبية: أسطوانة واحدة، ملموس ساتنيك{{ else }}Most Popular: Single cylinder, satin nickel finish{{ end }}</p>
+                <h3>🔐 {{ if eq $lang "zh" }}插芯锁{{ else }}{{ if eq $lang "ar" }}أقفال مقبس{{ else }}Mortise Locks{{ end }}{{ end }}</h3>
+                <p class="best-seller-price">{{ if eq $lang "zh" }}价格区间：${{ else }}{{ if eq $lang "ar" }}نطاق الأسعار: ${{ else }}Price Range: ${{ end }}{{ end }}3.00-$6.00</p>
+                <p class="best-seller-detail">{{ if eq $lang "zh" }}销量占比：45%{{ else }}{{ if eq $lang "ar" }}نسبة المبيعات: 45%{{ else }}Sales Volume: 45%{{ end }}{{ end }}</p>
+                <p class="best-seller-note">{{ if eq $lang "zh" }}最受欢迎：单锁芯，拉丝镍表面{{ else }}{{ if eq $lang "ar" }}الأكثر شعبية: أسطوانة واحدة، ملموس ساتنيك{{ else }}Most Popular: Single cylinder, satin nickel finish{{ end }}{{ end }}</p>
             </div>
             <div class="best-seller-card">
-                <h3>🔒 {{ if eq $lang "zh" }}50mm标准挂锁{{ else if eq $lang "ar" }}قفل قياسي 50mm{{ else }}50mm Standard Padlocks{{ end }}</h3>
-                <p class="best-seller-price">{{ if eq $lang "zh" }}价格区间：${ else if eq $lang "ar" }}نطاق الأسعار: ${ else }}Price Range: ${{ end }}1.00-$3.00</p>
-                <p class="best-seller-detail">{{ if eq $lang "zh" }}销量占比：35%{{ else if eq $lang "ar" }}نسبة المبيعات: 35%{{ else }}Sales Volume: 35%{{ end }}</p>
-                <p class="best-seller-note">{{ if eq $lang "zh" }}沿海地区选不锈钢款！{{ else if eq $lang "ar" }}اختر الفولاذ المقاوم للصدأ للمناطق الساحلية!{{ else }}Choose stainless steel for coastal areas!{{ end }}</p>
+                <h3>🔒 {{ if eq $lang "zh" }}50mm标准挂锁{{ else }}{{ if eq $lang "ar" }}قفل قياسي 50mm{{ else }}50mm Standard Padlocks{{ end }}{{ end }}</h3>
+                <p class="best-seller-price">{{ if eq $lang "zh" }}价格区间：${{ else }}{{ if eq $lang "ar" }}نطاق الأسعار: ${{ else }}Price Range: ${{ end }}{{ end }}1.00-$3.00</p>
+                <p class="best-seller-detail">{{ if eq $lang "zh" }}销量占比：35%{{ else }}{{ if eq $lang "ar" }}نسبة المبيعات: 35%{{ else }}Sales Volume: 35%{{ end }}{{ end }}</p>
+                <p class="best-seller-note">{{ if eq $lang "zh" }}沿海地区选不锈钢款！{{ else }}{{ if eq $lang "ar" }}اختر الفولاذ المقاوم للصدأ للمناطق الساحلية!{{ else }}Choose stainless steel for coastal areas!{{ end }}{{ end }}</p>
             </div>
             <div class="best-seller-card">
-                <h3>🚪 {{ if eq $lang "zh" }}锌合金杠杆门把手{{ else if eq $lang "ar" }}مقابض أبواب منسبيكة الزنك{{ else }}Zinc Alloy Lever Handles{{ end }}</h3>
-                <p class="best-seller-price">{{ if eq $lang "zh" }}价格区间：${ else if eq $lang "ar" }}نطاق الأسعار: ${ else }}Price Range: ${{ end }}1.50-$5.00</p>
-                <p class="best-seller-detail">{{ if eq $lang "zh" }}销量占比：50%{{ else if eq $lang "ar" }}نسبة المبيعات: 50%{{ else }}Sales Volume: 50%{{ end }}</p>
-                <p class="best-seller-note">{{ if eq $lang "zh" }}最受欢迎：拉丝镍，杠杆式！{{ else if eq $lang "ar" }}الأكثر شعبية: ملموس ساتنيك، نوع رافعة!{{ else }}Most Popular: Satin nickel, lever style!{{ end }}</p>
+                <h3>🚪 {{ if eq $lang "zh" }}锌合金杠杆门把手{{ else }}{{ if eq $lang "ar" }}مقابض أبواب منسبيكة الزنك{{ else }}Zinc Alloy Lever Handles{{ end }}{{ end }}</h3>
+                <p class="best-seller-price">{{ if eq $lang "zh" }}价格区间：${{ else }}{{ if eq $lang "ar" }}نطاق الأسعار: ${{ else }}Price Range: ${{ end }}{{ end }}1.50-$5.00</p>
+                <p class="best-seller-detail">{{ if eq $lang "zh" }}销量占比：50%{{ else }}{{ if eq $lang "ar" }}نسبة المبيعات: 50%{{ else }}Sales Volume: 50%{{ end }}{{ end }}</p>
+                <p class="best-seller-note">{{ if eq $lang "zh" }}最受欢迎：拉丝镍，杠杆式！{{ else }}{{ if eq $lang "ar" }}الأكثر شعبية: ملموس ساتنيك، نوع رافعة!{{ else }}Most Popular: Satin nickel, lever style!{{ end }}{{ end }}</p>
             </div>
         </div>
     </div>
@@ -213,47 +213,47 @@
 <section class="faq-section">
     <div class="container">
         <h2 class="section-title">
-            {{ if eq $lang "zh" }}常见问题FAQ{{ else if eq $lang "ar" }}الأسئلة المتكررة{{ else }}Frequently Asked Questions{{ end }}
+            {{ if eq $lang "zh" }}常见问题FAQ{{ else }}{{ if eq $lang "ar" }}الأسئلة المتكررة{{ else }}Frequently Asked Questions{{ end }}{{ end }}
         </h2>
         <div class="faq-grid">
             <div class="faq-item">
                 <h3 class="faq-question">
-                    {{ if eq $lang "zh" }}Q: 什么产品在尼日利亚卖得最好？{{ else if eq $lang "ar" }}Q: ما هي المنتجات الأكثر مبيعًا في نيجيريا؟{{ else }}Q: What hardware sells best in Nigeria?{{ end }}
+                    {{ if eq $lang "zh" }}Q: 什么产品在尼日利亚卖得最好？{{ else }}{{ if eq $lang "ar" }}Q: ما هي المنتجات الأكثر مبيعًا في نيجيريا؟{{ else }}Q: What hardware sells best in Nigeria?{{ end }}{{ end }}
                 </h3>
                 <p class="faq-answer">
-                    {{ if eq $lang "zh" }}A: 基于10年销售数据，插芯锁（$3.00-$6.00）和50mm标准挂锁（$1.00-$3.00）是最受欢迎的产品。杠杆式门把手（拉丝镍）也卖得很好，占把手销量75%！{{ else if eq $lang "ar" }}A: بناءً على بيانات مبيعات 10 سنوات، الأقفال المقبس (3.00-6.00 دولار) والأقفال القياسية 50mm (1.00-3.00 دولار) هي المنتجات الأكثر شعبية. المقابض الأبواب ذات الطراز الرافعة (الممط) تبيع أيضًا بشكل جيد وتشكل 75% من مبيعات المقابض!{{ else }}A: Based on 10+ years of sales data, mortise locks ($3.00-$6.00) and 50mm standard padlocks ($1.00-$3.00) are the most popular. Lever-style door handles in satin nickel also sell well, making up 75% of handle sales!{{ end }}
+                    {{ if eq $lang "zh" }}A: 基于10年销售数据，插芯锁（$3.00-$6.00）和50mm标准挂锁（$1.00-$3.00）是最受欢迎的产品。杠杆式门把手（拉丝镍）也卖得很好，占把手销量75%！{{ else }}{{ if eq $lang "ar" }}A: بناءً على بيانات مبيعات 10 سنوات، الأقفال المقبس (3.00-6.00 دولار) والأقفال القياسية 50mm (1.00-3.00 دولار) هي المنتجات الأكثر شعبية. المقابض الأبواب ذات الطراز الرافعة (الممط) تبيع أيضًا بشكل جيد وتشكل 75% من مبيعات المقابض!{{ else }}A: Based on 10+ years of sales data, mortise locks ($3.00-$6.00) and 50mm standard padlocks ($1.00-$3.00) are the most popular. Lever-style door handles in satin nickel also sell well, making up 75% of handle sales!{{ end }}{{ end }}
                 </p>
             </div>
             <div class="faq-item">
                 <h3 class="faq-question">
-                    {{ if eq $lang "zh" }}Q: SS201和SS304有什么区别，尼日利亚怎么选？{{ else if eq $lang "ar" }}Q: ما الفرق بين SS201 و SS304، وكيف اختار لنيجيريا؟{{ else }}Q: What's the difference between SS201 and SS304, and which one should I choose for Nigeria?{{ end }}
+                    {{ if eq $lang "zh" }}Q: SS201和SS304有什么区别，尼日利亚怎么选？{{ else }}{{ if eq $lang "ar" }}Q: ما الفرق بين SS201 و SS304، وكيف اختار لنيجيريا؟{{ else }}Q: What's the difference between SS201 and SS304, and which one should I choose for Nigeria?{{ end }}{{ end }}
                 </h3>
                 <p class="faq-answer">
-                    {{ if eq $lang "zh" }}A: SS201适合内陆城市（阿布贾、卡诺），干燥气候。SS304必须用于沿海地区（拉各斯、哈科特港），否则会生锈！{{ else if eq $lang "ar" }}A: SS201 مناسب للمدن الداخلية (أبوجا، كانو)، مناخ جاف. SS304 ضروري للمناطق الساحلية (لاغوس، بورت هاركورت)، وإلا سوف تصدأ!{{ else }}A: SS201 is good for inland cities (Abuja, Kano), dry climate. SS304 is a must for coastal areas (Lagos, Port Harcourt), otherwise it will rust!{{ end }}
+                    {{ if eq $lang "zh" }}A: SS201适合内陆城市（阿布贾、卡诺），干燥气候。SS304必须用于沿海地区（拉各斯、哈科特港），否则会生锈！{{ else }}{{ if eq $lang "ar" }}A: SS201 مناسب للمدن الداخلية (أبوجا، كانو)، مناخ جاف. SS304 ضروري للمناطق الساحلية (لاغوس، بورت هاركورت)، وإلا سوف تصدأ!{{ else }}A: SS201 is good for inland cities (Abuja, Kano), dry climate. SS304 is a must for coastal areas (Lagos, Port Harcourt), otherwise it will rust!{{ end }}{{ end }}
                 </p>
             </div>
             <div class="faq-item">
                 <h3 class="faq-question">
-                    {{ if eq $lang "zh" }}Q: 你们提供SONCAP和Form M支持吗？{{ else if eq $lang "ar" }}Q: هل تقدم دعم SONCAP وForm M؟{{ else }}Q: Do you provide SONCAP and Form M support?{{ end }}
+                    {{ if eq $lang "zh" }}Q: 你们提供SONCAP和Form M支持吗？{{ else }}{{ if eq $lang "ar" }}Q: هل تقدم دعم SONCAP وForm M؟{{ else }}Q: Do you provide SONCAP and Form M support?{{ end }}{{ end }}
                 </h3>
                 <p class="faq-answer">
-                    {{ if eq $lang "zh" }}A: 是的！我们为尼日利亚客户100%免费处理SONCAP，还可以指导您办理Form M！{{ else if eq $lang "ar" }}A: نعم! نحن نتولى 100% من SONCAP مجانًا لعملائنا النيجيريين، ويمكننا أيضًا إرشادك خلال عملية Form M!{{ else }}A: Yes! We handle 100% of SONCAP for our Nigerian clients for FREE, and we can also guide you through the Form M process!{{ end }}
+                    {{ if eq $lang "zh" }}A: 是的！我们为尼日利亚客户100%免费处理SONCAP，还可以指导您办理Form M！{{ else }}{{ if eq $lang "ar" }}A: نعم! نحن نتولى 100% من SONCAP مجانًا لعملائنا النيجيريين، ويمكننا أيضًا إرشادك خلال عملية Form M!{{ else }}A: Yes! We handle 100% of SONCAP for our Nigerian clients for FREE, and we can also guide you through the Form M process!{{ end }}{{ end }}
                 </p>
             </div>
             <div class="faq-item">
                 <h3 class="faq-question">
-                    {{ if eq $lang "zh" }}Q: 你们接受拼柜订单吗？有没有免费样品？{{ else if eq $lang "ar" }}Q: هل تقبل طلبات الحاويات المختلطة؟ هل تقدم عينات مجانية؟{{ else }}Q: Do you accept mixed container orders and free samples?{{ end }}
+                    {{ if eq $lang "zh" }}Q: 你们接受拼柜订单吗？有没有免费样品？{{ else }}{{ if eq $lang "ar" }}Q: هل تقبل طلبات الحاويات المختلطة؟ هل تقدم عينات مجانية؟{{ else }}Q: Do you accept mixed container orders and free samples?{{ end }}{{ end }}
                 </h3>
                 <p class="faq-answer">
-                    {{ if eq $lang "zh" }}A: 是的！我们接受拼柜订单（可以混装不同产品），我们提供免费样品（您只需支付运费）！{{ else if eq $lang "ar" }}A: نعم! نحن نقبل طلبات الحاويات المختلطة (يمكن خلط منتجات مختلفة)، ونحن نقدم عينات مجانية (تدفع فقط تكلفة الشحن)!{{ else }}A: Yes! We accept mixed container orders (mix different products together), and we offer free samples (you only pay for shipping)!{{ end }}
+                    {{ if eq $lang "zh" }}A: 是的！我们接受拼柜订单（可以混装不同产品），我们提供免费样品（您只需支付运费）！{{ else }}{{ if eq $lang "ar" }}A: نعم! نحن نقبل طلبات الحاويات المختلطة (يمكن خلط منتجات مختلفة)، ونحن نقدم عينات مجانية (تدفع فقط تكلفة الشحن)!{{ else }}A: Yes! We accept mixed container orders (mix different products together), and we offer free samples (you only pay for shipping)!{{ end }}{{ end }}
                 </p>
             </div>
             <div class="faq-item">
                 <h3 class="faq-question">
-                    {{ if eq $lang "zh" }}Q: 有什么付款方式？{{ else if eq $lang "ar" }}Q: ما طرق الدفع المتاحة؟{{ else }}Q: What payment terms do you accept?{{ end }}
+                    {{ if eq $lang "zh" }}Q: 有什么付款方式？{{ else }}{{ if eq $lang "ar" }}Q: ما طرق الدفع المتاحة؟{{ else }}Q: What payment terms do you accept?{{ end }}{{ end }}
                 </h3>
                 <p class="faq-answer">
-                    {{ if eq $lang "zh" }}A: 标准是T/T（30%定金，见提单副本70%尾款）。$50k以上订单可以用信用证L/C。{{ else if eq $lang "ar" }}A: المعيار هو T/T (30% عربون، 70% مقابل نسخة B/L). يمكن استخدام خطاب الاعتماد L/C لأوامر أكثر من 50k دولار.{{ else }}A: Standard is T/T (30% deposit, 70% against B/L copy). We can do L/C for orders over $50k.{{ end }}
+                    {{ if eq $lang "zh" }}A: 标准是T/T（30%定金，见提单副本70%尾款）。$50k以上订单可以用信用证L/C。{{ else }}{{ if eq $lang "ar" }}A: المعيار هو T/T (30% عربون، 70% مقابل نسخة B/L). يمكن استخدام خطاب الاعتماد L/C لأوامر أكثر من 50k دولار.{{ else }}A: Standard is T/T (30% deposit, 70% against B/L copy). We can do L/C for orders over $50k.{{ end }}{{ end }}
                 </p>
             </div>
         </div>
@@ -263,14 +263,14 @@
 <!-- CTA Section -->
 <section class="cta-section">
     <div class="container">
-        <h2>{{ if eq $lang "zh" }}准备好开始了吗？{{ else if eq $lang "ar" }}هل أنت مستعد للبدء؟{{ else }}Ready to Get Started?{{ end }}</h2>
-        <p>{{ if eq $lang "zh" }}立即联系我们，2 小时内获取免费报价！{{ else if eq $lang "ar" }}اتصل بنا اليوم للحصول على عرض سعر مجاني خلال ساعتين!{{ else }}Contact us today for a free quote within 2 hours!{{ end }}</p>
+        <h2>{{ if eq $lang "zh" }}准备好开始了吗？{{ else }}{{ if eq $lang "ar" }}هل أنت مستعد للبدء؟{{ else }}Ready to Get Started?{{ end }}{{ end }}</h2>
+        <p>{{ if eq $lang "zh" }}立即联系我们，2 小时内获取免费报价！{{ else }}{{ if eq $lang "ar" }}اتصل بنا اليوم للحصول على عرض سعر مجاني خلال ساعتين!{{ else }}Contact us today for a free quote within 2 hours!{{ end }}{{ end }}</p>
         <div class="cta-buttons">
             <a href="https://wa.me/8618358008400" class="btn btn-primary">
-                <span>📱</span> {{ if eq $lang "zh" }}WhatsApp 咨询{{ else if eq $lang "ar" }}واتساب{{ else }}WhatsApp Us{{ end }}
+                <span>📱</span> {{ if eq $lang "zh" }}WhatsApp 咨询{{ else }}{{ if eq $lang "ar" }}واتساب{{ else }}WhatsApp Us{{ end }}{{ end }}
             </a>
             <a href="/contact/" class="btn btn-secondary">
-                <span>📧</span> {{ if eq $lang "zh" }}发送询盘{{ else if eq $lang "ar" }}إرسال استفسار{{ else }}Send Inquiry{{ end }}
+                <span>📧</span> {{ if eq $lang "zh" }}发送询盘{{ else }}{{ if eq $lang "ar" }}إرسال استفسار{{ else }}Send Inquiry{{ end }}{{ end }}
             </a>
         </div>
     </div>
@@ -279,31 +279,31 @@
 <!-- Map Section -->
 <section class="map-section">
     <div class="container">
-        <h2 class="section-title">{{ if eq $lang "zh" }}我们的位置{{ else if eq $lang "ar" }}موقعنا{{ else }}Our Location{{ end }}</h2>
+        <h2 class="section-title">{{ if eq $lang "zh" }}我们的位置{{ else }}{{ if eq $lang "ar" }}موقعنا{{ else }}Our Location{{ end }}{{ end }}</h2>
         <p class="section-subtitle">
-            {{ if eq $lang "zh" }}中国浙江省金华市义乌市丹溪北路18号雪峰商务大厦2018室{{ else if eq $lang "ar" }}غرفة 2018، مبنى شيويفنغ التجاري، رقم 18 طريق دانشي الشمالي، مدينة ييوو، جينهوا، تشجيانغ، الصين{{ else }}Room 2018, Xuefeng Business Building, No.18 Danxi North Road, Yiwu City, Jinhua, Zhejiang, China{{ end }}
+            {{ if eq $lang "zh" }}中国浙江省金华市义乌市丹溪北路18号雪峰商务大厦2018室{{ else }}{{ if eq $lang "ar" }}غرفة 2018، مبنى شيويفنغ التجاري، رقم 18 طريق دانشي الشمالي، مدينة ييوو، جينهوا، تشجيانغ، الصين{{ else }}Room 2018, Xuefeng Business Building, No.18 Danxi North Road, Yiwu City, Jinhua, Zhejiang, China{{ end }}{{ end }}
         </p>
         <div class="map-container" id="map-container">
             <div class="map-placeholder" id="map-placeholder" onclick="loadMap()">
                 <div class="map-placeholder-icon">📍</div>
-                <div class="map-placeholder-text">{{ if eq $lang "zh" }}点击加载地图{{ else if eq $lang "ar" }}انقر لتحميل الخريطة{{ else }}Click to load map{{ end }}</div>
+                <div class="map-placeholder-text">{{ if eq $lang "zh" }}点击加载地图{{ else }}{{ if eq $lang "ar" }}انقر لتحميل الخريطة{{ else }}Click to load map{{ end }}{{ end }}</div>
             </div>
         </div>
         <div class="map-info">
             <div class="info-card">
                 <div class="info-icon">📍</div>
-                <h3>{{ if eq $lang "zh" }}公司地址{{ else if eq $lang "ar" }}عنوان الشركة{{ else }}Company Address{{ end }}</h3>
-                <p>{{ if eq $lang "zh" }}浙江省金华市义乌市<br>丹溪北路18号雪峰商务大厦2018室{{ else if eq $lang "ar" }}غرفة 2018، مبنى شيويفنغ التجاري<br>رقم 18 طريق دانشي الشمالي، مدينة ييوو<br>جينهوا، تشجيانغ، الصين{{ else }}Room 2018, Xuefeng Business Building<br>No.18 Danxi North Road, Yiwu City<br>Jinhua, Zhejiang, China{{ end }}</p>
+                <h3>{{ if eq $lang "zh" }}公司地址{{ else }}{{ if eq $lang "ar" }}عنوان الشركة{{ else }}Company Address{{ end }}{{ end }}</h3>
+                <p>{{ if eq $lang "zh" }}浙江省金华市义乌市<br>丹溪北路18号雪峰商务大厦2018室{{ else }}{{ if eq $lang "ar" }}غرفة 2018، مبنى شيويفنغ التجاري<br>رقم 18 طريق دانشي الشمالي، مدينة ييوو<br>جينهوا، تشجيانغ، الصين{{ else }}Room 2018, Xuefeng Business Building<br>No.18 Danxi North Road, Yiwu City<br>Jinhua, Zhejiang, China{{ end }}{{ end }}</p>
             </div>
             <div class="info-card">
                 <div class="info-icon">🏭</div>
-                <h3>{{ if eq $lang "zh" }}业务范围{{ else if eq $lang "ar" }}نطاق العمل{{ else }}Business Scope{{ end }}</h3>
-                <p>{{ if eq $lang "zh" }}门五金、建材<br>出口非洲、中东<br>ISO 9001 认证{{ else if eq $lang "ar" }}أجهزة الأبواب، مواد البناء<br>تصدير إلى أفريقيا والشرق الأوسط<br>شهادة ISO 9001{{ else }}Door Hardware, Building Materials<br>Export to Africa, Middle East<br>ISO 9001 Certified{{ end }}</p>
+                <h3>{{ if eq $lang "zh" }}业务范围{{ else }}{{ if eq $lang "ar" }}نطاق العمل{{ else }}Business Scope{{ end }}{{ end }}</h3>
+                <p>{{ if eq $lang "zh" }}门五金、建材<br>出口非洲、中东<br>ISO 9001 认证{{ else }}{{ if eq $lang "ar" }}أجهزة الأبواب، مواد البناء<br>تصدير إلى أفريقيا والشرق الأوسط<br>شهادة ISO 9001{{ else }}Door Hardware, Building Materials<br>Export to Africa, Middle East<br>ISO 9001 Certified{{ end }}{{ end }}</p>
             </div>
             <div class="info-card">
                 <div class="info-icon">🚢</div>
-                <h3>{{ if eq $lang "zh" }}最近港口{{ else if eq $lang "ar" }}أقرب ميناء{{ else }}Nearest Port{{ end }}</h3>
-                <p>{{ if eq $lang "zh" }}宁波港（100公里）<br>上海港（300公里）<br>全球快速发货{{ else if eq $lang "ar" }}ميناء نينغبو (100 كم)<br>ميناء شنغهاي (300 كم)<br>شحن سريع worldwide{{ else }}Ningbo Port (100km)<br>Shanghai Port (300km)<br>Fast delivery worldwide{{ end }}</p>
+                <h3>{{ if eq $lang "zh" }}最近港口{{ else }}{{ if eq $lang "ar" }}أقرب ميناء{{ else }}Nearest Port{{ end }}{{ end }}</h3>
+                <p>{{ if eq $lang "zh" }}宁波港（100公里）<br>上海港（300公里）<br>全球快速发货{{ else }}{{ if eq $lang "ar" }}ميناء نينغبو (100 كم)<br>ميناء شنغهاي (300 كم)<br>شحن سريع worldwide{{ else }}Ningbo Port (100km)<br>Shanghai Port (300km)<br>Fast delivery worldwide{{ end }}{{ end }}</p>
             </div>
         </div>
     </div>

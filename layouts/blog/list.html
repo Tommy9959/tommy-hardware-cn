@@ -6,13 +6,13 @@
         <div class="page-header">
             <h1 class="page-title">
                 {{ if eq .Site.Language.Lang "zh" }}博客中心
-                {{ else if eq .Site.Language.Lang "en" }}Blog
-                {{ else }}المدونة{{ end }}
+                {{ else }}{{ if eq .Site.Language.Lang "en" }}Blog
+                {{ else }}المدونة{{ end }}{{ end }}
             </h1>
             <p class="page-subtitle">
                 {{ if eq .Site.Language.Lang "zh" }}门控五金行业知识、产品指南、市场趋势
-                {{ else if eq .Site.Language.Lang "en" }}Door hardware industry insights, product guides, market trends
-                {{ else }}رؤى صناعة أجهزة الأبواب، أدلة المنتج، اتجاهات السوق{{ end }}
+                {{ else }}{{ if eq .Site.Language.Lang "en" }}Door hardware industry insights, product guides, market trends
+                {{ else }}رؤى صناعة أجهزة الأبواب، أدلة المنتج، اتجاهات السوق{{ end }}{{ end }}
             </p>
         </div>
 
@@ -32,7 +32,7 @@
                     </div>
                     <p class="blog-excerpt">{{ .Summary | truncate 200 }}</p>
                     <a href="{{ .RelPermalink }}" class="btn btn-primary">
-                        {{ if eq $.Site.Language.Lang "zh" }}阅读全文 →{{ else if eq $.Site.Language.Lang "en" }}Read More →{{ else }}اقرأ المزيد →{{ end }}
+                        {{ if eq $.Site.Language.Lang "zh" }}阅读全文 →{{ else }}{{ if eq $.Site.Language.Lang "en" }}Read More →{{ else }}اقرأ المزيد →{{ end }}{{ end }}
                     </a>
                 </div>
             </article>
@@ -42,16 +42,16 @@
         {{/* 如果没有文章 */}}
         {{ if eq (len .RegularPages) 0 }}
         <div class="no-posts">
-            <p>{{ if eq .Site.Language.Lang "zh" }}博客文章即将上线，敬请期待！{{ else if eq .Site.Language.Lang "en" }}Blog posts coming soon, stay tuned!{{ else }}مقالات المدونة قريبا{{ end }}</p>
+            <p>{{ if eq .Site.Language.Lang "zh" }}博客文章即将上线，敬请期待！{{ else }}{{ if eq .Site.Language.Lang "en" }}Blog posts coming soon, stay tuned!{{ else }}مقالات المدونة قريبا{{ end }}{{ end }}</p>
         </div>
         {{ end }}
 
         <!-- 订阅板块 -->
         <div class="blog-subscribe">
-            <h3>{{ if eq .Site.Language.Lang "zh" }}订阅我们的博客{{ else if eq .Site.Language.Lang "en" }}Subscribe to Our Blog{{ else }}اشترك في مدونتنا{{ end }}</h3>
-            <p>{{ if eq .Site.Language.Lang "zh" }}获取最新的行业洞察和产品指南{{ else if eq .Site.Language.Lang "en" }}Get latest industry insights and product guides{{ else }}احصل على أحدث رؤى الصناعة{{ end }}</p>
+            <h3>{{ if eq .Site.Language.Lang "zh" }}订阅我们的博客{{ else }}{{ if eq .Site.Language.Lang "en" }}Subscribe to Our Blog{{ else }}اشترك في مدونتنا{{ end }}{{ end }}</h3>
+            <p>{{ if eq .Site.Language.Lang "zh" }}获取最新的行业洞察和产品指南{{ else }}{{ if eq .Site.Language.Lang "en" }}Get latest industry insights and product guides{{ else }}احصل على أحدث رؤى الصناعة{{ end }}{{ end }}</p>
             <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="btn btn-whatsapp" target="_blank">
-                💬 {{ if eq .Site.Language.Lang "zh" }}WhatsApp 订阅{{ else if eq .Site.Language.Lang "en" }}Subscribe via WhatsApp{{ else }}واتساب{{ end }}
+                💬 {{ if eq .Site.Language.Lang "zh" }}WhatsApp 订阅{{ else }}{{ if eq .Site.Language.Lang "en" }}Subscribe via WhatsApp{{ else }}واتساب{{ end }}{{ end }}
             </a>
         </div>
     </div>

@@ -1,13 +1,13 @@
 <!-- 语言切换器 -->
 <div class="lang-switcher">
     <span class="lang-label">
-        {{ if eq .Site.Language.Lang "zh" }}🇨🇳 中文{{ else if eq .Site.Language.Lang "en" }}🇬🇧 EN{{ else }}🇸🇦 AR{{ end }}
+        {{ if eq .Site.Language.Lang "zh" }}🇨🇳 中文{{ else }}{{ if eq .Site.Language.Lang "en" }}🇬🇧 EN{{ else }}🇸🇦 AR{{ end }}{{ end }}
     </span>
     <div class="lang-dropdown">
         {{ $currentPage := . }}
         {{ range .Site.Home.AllTranslations }}
         <a href="{{ .Permalink }}" class="lang-option{{ if eq $currentPage.Lang .Lang }} active{{ end }}">
-            {{ if eq .Lang "zh" }}🇨🇳 中文{{ else if eq .Lang "en" }}🇬🇧 English{{ else }}🇸🇦 العربية{{ end }}
+            {{ if eq .Lang "zh" }}🇨🇳 中文{{ else }}{{ if eq .Lang "en" }}🇬🇧 English{{ else }}🇸🇦 العربية{{ end }}{{ end }}
         </a>
         {{ end }}
     </div>
