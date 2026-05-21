@@ -1,4 +1,43 @@
 {{ define "main" }}
+<!-- BlogPosting Schema for AI search engines -->
+{{ $datePublished := .Date | time.Format "2006-01-02" }}
+{{ $dateModified := .Lastmod | default .Date | time.Format "2006-01-02" }}
+{{ $keywords := "" }}
+{{ with .Params.tags }}{{ $keywords = delimit . ", " }}{{ end }}
+
+{{ $authorName := cond (eq .Site.Language.Lang "zh") "义乌水汇进出口有限公司" (cond (eq .Site.Language.Lang "ar") "شركة ييو شويهوي للاستيراد والتصدير" "Yiwu Shuihui Import & Export Co., Ltd.") }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "datePublished": "{{ $datePublished }}",
+  "dateModified": "{{ $dateModified }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ $authorName }}",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ $authorName }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.BaseURL }}images/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "image": "{{ .Site.BaseURL }}images/products/door-locks/dl-001.jpg",
+  "keywords": "{{ $keywords }}",
+  "inLanguage": "{{ .Site.Language.Lang }}"
+}
+</script>
+
 <article class="blog-post">
     <div class="container">
         <!-- Breadcrumb -->

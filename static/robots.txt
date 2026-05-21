@@ -49,8 +49,9 @@ Allow: /
 User-agent: Microsoft-Preview
 Allow: /
 
-# LLMs.txt
+# LLMs - AI Knowledge Directories
 LLMs.txt: https://jh-hardware.com/llms.txt
+LLMs-Full.txt: https://jh-hardware.com/llms-full.txt
 
 # Block bad bots (optional)
 # User-agent: AhrefsBot
