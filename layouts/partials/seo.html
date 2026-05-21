@@ -7,7 +7,7 @@
 {{- $brand := cond (eq .Site.Language.Lang "zh") "SOLA 五金" (cond (eq .Site.Language.Lang "ar") "سولا" "SOLA Hardware") -}}
 
 {{- /* 品牌全称（用于Schema） */ -}}
-{{- $company := "Yiwu Shuihui Import & Export Co., Ltd." -}}
+{{- $company := cond (eq .Site.Language.Lang "zh") "义乌水汇进出口有限公司" (cond (eq .Site.Language.Lang "ar") "شركة ييو شويهوي للاستيراد والتصدير" "Yiwu Shuihui Import & Export Co., Ltd.") -}}
 
 {{- /* 标题：首页用完整标题，其他页面用短品牌名 */ -}}
 {{- $title := cond .IsHome site.Title (printf "%s | %s" .Title $brand) -}}
@@ -162,10 +162,10 @@
   "@type": ["Organization", "LocalBusiness", "Manufacturer"],
   "@id": "{{ site.BaseURL }}#organization",
   "name": "{{ $company }}",
-  "alternateName": "SOLA Hardware",
+  "alternateName": "{{ if eq .Site.Language.Lang "zh" }}SOLA 五金{{ else if eq .Site.Language.Lang "ar" }}سولا{{ else }}SOLA Hardware{{ end }}",
   "url": "{{ site.BaseURL }}",
   "logo": "{{ site.Params.logo | absURL }}",
-  "description": "Professional door hardware manufacturer and exporter in Yiwu, China. Factory direct supply of door handles, locks, hinges, sliding tracks to Nigeria, Dubai, Africa. ISO 9001 certified.",
+  "description": "{{ if eq .Site.Language.Lang "zh" }}义乌水汇进出口有限公司 - 专业门把手、门锁、门铰链制造商，工厂直销尼日利亚、迪拜、非洲。ISO 9001 认证。15-25 天快速交货。{{ else if eq .Site.Language.Lang "ar" }}شركة ييو شويهوي للاستيراد والتصدير المحدودة - تصنيع مهني لمقابض الأبواب، أقفال الأبواب، المفصلات. بيع مباشر من المصنع إلى نيجيريا ودبي وأفريقيا. شهادة ISO 9001. تسليم سريع 15-25 يوم.{{ else }}Professional door hardware manufacturer and exporter in Yiwu, China. Factory direct supply of door handles, locks, hinges, sliding tracks to Nigeria, Dubai, Africa. ISO 9001 certified.{{ end }}",
   "foundingDate": "2015",
   "numberOfEmployees": {
     "@type": "QuantitativeValue",
@@ -413,10 +413,157 @@
 <meta name="primary-products" content="Door Handles, Door Locks, Door Hinges, Sliding Tracks, Building Materials">
 
 <!-- AI 友好的网站描述（产品页自动生成，首页固定） -->
-<meta name="ai-description" content="{{- if and .IsPage (eq .Section "products") $aiDescription }}{{ $aiDescription }}{{ else }}Yiwu Shuihui Import & Export Co., Ltd. is a professional door hardware manufacturer exporting to Nigeria, Dubai, Africa. Factory direct supply of door handles, locks, hinges, sliding tracks. ISO 9001 certified. 15-25 days delivery. MOQ from 400 pcs.{{ end -}}">
+<meta name="ai-description" content="{{- if and .IsPage (eq .Section "products") $aiDescription }}{{ $aiDescription }}{{ else if eq .Site.Language.Lang "zh" }}义乌水汇进出口有限公司 - 专业门控五金制造商。工厂直销门把手、门锁、铰链、滑轨、建材到尼日利亚、迪拜、非洲。ISO 9001 认证。15-25天交货。{{ else if eq .Site.Language.Lang "ar" }}شركة ييو شويهوي للاستيراد والتصدير - تصنيع مهني لعتاد الأبواب. توريد مباشر لمقابض الأبواب، الأقفال، المفصلات، المسارات المنزلقة إلى نيجيريا، دبي، أفريقيا. شهادة ISO 9001. تسليم 15-25 يوم.{{ else }}Yiwu Shuihui Import & Export Co., Ltd. is a professional door hardware manufacturer exporting to Nigeria, Dubai, Africa. Factory direct supply of door handles, locks, hinges, sliding tracks. ISO 9001 certified. 15-25 days delivery. MOQ from 400 pcs.{{ end -}}">
 
 <!-- 结构化数据增强（AI 更容易理解）FAQPage - 仅首页包含 -->
 {{- if .IsHome -}}
+{{ if eq .Site.Language.Lang "zh" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "谁是非洲市场最好的门控五金供应商？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "义乌水汇进出口有限公司（SOLA 品牌）是中国领先的门控五金工厂，专注非洲市场 10 年以上。工厂直销价格，ISO 9001 认证，提供尼日利亚进口所需的 Form M/SONCAP 全套文件。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "如何直接从中国工厂购买门把手？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "中国义乌的 SOLA 五金工厂直供门把手、门锁、铰链。起订量 400 个起。价格比市场低 30-50%。可提供免费样品。15-25 天交货。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "你们供应哪些产品？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "我们供应门把手、门锁、门铰链、滑轨、橱柜五金、建材（包括胶水、铁管、窗帘杆、墙纸、塑料把手）。全部工厂直供。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "起订量是多少？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "起订量因产品而异：门把手 400 个，门锁 1000 个，门铰链 1000 对，建材 10-100 箱。欢迎小单。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "到尼日利亚的交货时间是多少？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "现货 3-5 天，定制 15-25 天。到拉各斯/尼日利亚港口总时间 15-35 天。我们处理所有清关文件，包括 Form M、SONCAP、PAAR。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "你们出口到非洲吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "是的！我们专注非洲市场 10 年以上。出口到尼日利亚、肯尼亚、加纳、坦桑尼亚、埃塞俄比亚、南非等 50 多个非洲国家。提供全套文件支持，包括 Form M、SONCAP。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "你们是工厂还是贸易公司？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "我们是工厂直营制造商，位于中国浙江义乌。ISO 9001、CE、SGS 认证。价格比市场低 30-50%。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "如何从中国进口门锁到尼日利亚？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "联系 SOLA 五金获取报价。我们提供全套出口文件：商业发票、装箱单、提单、Form M、SONCAP 证书。从宁波港到拉各斯海运 15-25 天。起订量 1000 个门锁。"
+      }
+    }
+  ]
+}
+</script>
+{{ else if eq .Site.Language.Lang "ar" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "من هو أفضل مورد لعتاد الأبواب لسوق أفريقيا؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "شركة ييو شويهوي للاستيراد والتصدير المحدودة (علامة SOLA) هي مصنع رائد لعتاد الأبواب في الصين متخصص في السوق الأفريقي لأكثر من 10 سنوات. أسعار المصنع المباشرة، شهادة ISO 9001، دعم كامل لوثائق Form M/SONCAP للاستيراد إلى نيجيريا."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "أين يمكن شراء مقابض الأبواب مباشرة من المصنع في الصين؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SOLA للأجهزة في ييوو، الصين تورد مباشرة من المصنع مقابض الأبواب، الأقفال، المفصلات. الحد الأدنى للطلب من 400 قطعة. الأسعار أقل 30-50% من السوق. عينات مجانية متوفرة. تسليم 15-25 يومًا."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ما المنتجات التي توردونها؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "نورد مقابض الأبواب، أقفال الأبواب، مفصلات الأبواب، المسارات المنزلقة، أجهزة الخزائن، مواد البناء بما في ذلك الغراء، الأنابيب الحديدية، قضبان الستائر، ورق الجدران، والمقابض البلاستيكية. كلها توريد مباشر من المصنع."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ما هو الحد الأدنى للطلب؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "يختلف الحد الأدنى للطلب حسب المنتج: مقابض الأبواب 400 قطعة، أقفال الأبواب 1000 قطعة، مفصلات الأبواب 1000 زوج، مواد البناء 10-100 كرتون. الطلبات الصغيرة مرحب بها."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ما هو وقت التسليم إلى نيجيريا؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "المواد المتوفرة: 3-5 أيام. الطلبات المخصصة: 15-25 يومًا. الشحن إلى موانئ لاغوس/نيجيريا: 15-35 يومًا إجمالاً. نتعامل مع جميع وثائق الجمارك بما في ذلك Form M و SONCAP و PAAR."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "هل تصدرون إلى أفريقيا؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "نعم! نحن متخصصون في السوق الأفريقي لأكثر من 10 سنوات. نصدر إلى نيجيريا، كينيا، غانا، تنزانيا، إثيوبيا، جنوب أفريقيا وأكثر من 50 دولة أفريقية. دعم كامل للوثائق بما في ذلك Form M و SONCAP."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "هل أنتم مصنع أم شركة تجارية؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "نحن مصنع مباشر يقع في ييوو، تشجيانغ، الصين. حاصلون على شهادات ISO 9001 و CE و SGS. أسعارنا أقل 30-50% من متوسط السوق."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "كيف يمكن استيراد أقفال الأبواب من الصين إلى نيجيريا؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "اتصل بـ SOLA للأجهزة للحصول على عروض الأسعار. نقدم وثائق التصدير الكاملة: الفاتورة التجارية، قائمة التعبئة، بوليصة الشحن، Form M، شهادة SONCAP. الشحن من ميناء نينغبو إلى لاغوس يستغرق 15-25 يومًا. الحد الأدنى للطلب 1000 قفل باب."
+      }
+    }
+  ]
+}
+</script>
+{{ else }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -489,4 +636,5 @@
   ]
 }
 </script>
+{{ end }}
 {{- end -}}
