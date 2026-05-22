@@ -61,10 +61,10 @@
                 {{ if and (strings.Contains .File.Dir "products/door-locks/") .Params.image }}
                     {{ $doorlockProducts = $doorlockProducts | append . }}
                 {{ end }}
-                {{ if and (strings.Contains .File.Dir "products/door-hinges/") .Params.image }}
+                {{ if and (strings.Contains .File.Dir "products/door-hinges/") (and .Params.image (not (strings.Contains .Params.image "placeholder"))) }}
                     {{ $hingeProducts = $hingeProducts | append . }}
                 {{ end }}
-                {{ if and (strings.Contains .File.Dir "products/door-accessories/") .Params.image }}
+                {{ if and (strings.Contains .File.Dir "products/door-accessories/") (and .Params.image (not (strings.Contains .Params.image "placeholder"))) }}
                     {{ $accessoryProducts = $accessoryProducts | append . }}
                 {{ end }}
             {{ end }}
