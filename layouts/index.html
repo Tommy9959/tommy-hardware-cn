@@ -52,6 +52,8 @@
             {{ $allProducts := where $.Site.RegularPages ".Section" "products" }}
             {{ $padlockProducts := slice }}
             {{ $doorlockProducts := slice }}
+            {{ $hingeProducts := slice }}
+            {{ $accessoryProducts := slice }}
             {{ range $allProducts }}
                 {{ if and (strings.Contains .File.Dir "products/padlocks/") .Params.image }}
                     {{ $padlockProducts = $padlockProducts | append . }}
@@ -59,9 +61,17 @@
                 {{ if and (strings.Contains .File.Dir "products/door-locks/") .Params.image }}
                     {{ $doorlockProducts = $doorlockProducts | append . }}
                 {{ end }}
+                {{ if and (strings.Contains .File.Dir "products/door-hinges/") .Params.image }}
+                    {{ $hingeProducts = $hingeProducts | append . }}
+                {{ end }}
+                {{ if and (strings.Contains .File.Dir "products/door-accessories/") .Params.image }}
+                    {{ $accessoryProducts = $accessoryProducts | append . }}
+                {{ end }}
             {{ end }}
             {{ $randomPadlock := index (first 1 (shuffle $padlockProducts)) 0 }}
             {{ $randomDoorlock := index (first 1 (shuffle $doorlockProducts)) 0 }}
+            {{ $randomHinge := index (first 1 (shuffle $hingeProducts)) 0 }}
+            {{ $randomAccessory := index (first 1 (shuffle $accessoryProducts)) 0 }}
             <div class="product-card">
                 <a href="{{ relLangURL "products/padlocks/" }}">
                     {{ if $randomPadlock }}
@@ -90,37 +100,42 @@
             </div>
             <div class="product-card">
                 <a href="{{ relLangURL "products/door-hinges/" }}">
+                    {{ if $randomHinge }}
+                    <div class="product-img-wrapper">
+                        <img src="{{ $randomHinge.Params.image }}" alt="Door Hinges" class="product-card-img" loading="lazy">
+                    </div>
+                    {{ else }}
                     <div class="product-icon">🔧</div>
+                    {{ end }}
                     <h3>{{ if eq $lang "zh" }}门铰链{{ else }}{{ if eq $lang "ar" }}مفصلات الأبواب{{ else }}Door Hinges{{ end }}{{ end }}</h3>
                     <p>{{ if eq $lang "zh" }}合页铰链、天地轴铰链、隐藏式铰链{{ else }}{{ if eq $lang "ar" }}مفصلات عادية، مفصلات محورية، مفصلات مخفية{{ else }}Butt Hinges, Pivot Hinges, Concealed Hinges{{ end }}{{ end }}</p>
                 </a>
             </div>
             <div class="product-card">
-                <a href="{{ relLangURL "products/sliding-tracks/" }}">
-                    <div class="product-icon">🚀</div>
-                    <h3>{{ if eq $lang "zh" }}滑轨{{ else }}{{ if eq $lang "ar" }}مسارات منزلقة{{ else }}Sliding Tracks{{ end }}{{ end }}</h3>
-                    <p>{{ if eq $lang "zh" }}抽屉滑轨、衣柜轨道、谷仓门五金{{ else }}{{ if eq $lang "ar" }}مسارات أدراج، مسارات خزائن، أجهزة أبواب الحظائر{{ else }}Drawer Slides, Wardrobe Tracks, Barn Door Hardware{{ end }}{{ end }}</p>
+                <a href="{{ relLangURL "products/door-accessories/" }}">
+                    {{ if $randomAccessory }}
+                    <div class="product-img-wrapper">
+                        <img src="{{ $randomAccessory.Params.image }}" alt="Door Accessories" class="product-card-img" loading="lazy">
+                    </div>
+                    {{ else }}
+                    <div class="product-icon">🔩</div>
+                    {{ end }}
+                    <h3>{{ if eq $lang "zh" }}门配件{{ else }}{{ if eq $lang "ar" }}إكسسوارات الأبواب{{ else }}Door Accessories{{ end }}{{ end }}</h3>
+                    <p>{{ if eq $lang "zh" }}门碰、闭门器、角码、猫眼等配件{{ else }}{{ if eq $lang "ar" }}مصدات أبواب، أقفال، زوايا تثبيت، مناظير أبواب{{ else }}Door Stoppers, Closers, Angle Brackets, Viewers{{ end }}{{ end }}</p>
                 </a>
             </div>
             <div class="product-card">
-                <a href="{{ relLangURL "products/sofa-legs/" }}">
+                <a href="{{ relLangURL "products/furniture-fittings/" }}">
                     <div class="product-icon">🪑</div>
-                    <h3>{{ if eq $lang "zh" }}沙发脚{{ else }}{{ if eq $lang "ar" }}أرجل الأرائك{{ else }}Sofa Legs{{ end }}{{ end }}</h3>
-                    <p>{{ if eq $lang "zh" }}金属脚、木脚、塑料脚，适用于各类家具{{ else }}{{ if eq $lang "ar" }}أرجل معدنية، خشبية، بلاستيكية للأثاث{{ else }}Metal Legs, Wooden Legs, Plastic Legs for furniture{{ end }}{{ end }}</p>
-                </a>
-            </div>
-            <div class="product-card">
-                <a href="{{ relLangURL "products/cabinet-hardware/" }}">
-                    <div class="product-icon">🗄️</div>
-                    <h3>{{ if eq $lang "zh" }}橱柜五金{{ else }}{{ if eq $lang "ar" }}أجهزة الخزائن{{ else }}Cabinet Hardware{{ end }}{{ end }}</h3>
-                    <p>{{ if eq $lang "zh" }}橱柜拉手、连接件、气压撑杆{{ else }}{{ if eq $lang "ar" }}مقابض خزائن، موصلات، دعامات غاز{{ else }}Cabinet Handles, Connectors, Gas Struts{{ end }}{{ end }}</p>
+                    <h3>{{ if eq $lang "zh" }}家具配件{{ else }}{{ if eq $lang "ar" }}تجهيزات الأثاث{{ else }}Furniture Fittings{{ end }}{{ end }}</h3>
+                    <p>{{ if eq $lang "zh" }}沙发脚、橱柜拉手、连接件、气压撑杆{{ else }}{{ if eq $lang "ar" }}أرجل أثاث، مقابض خزائن، موصلات، دعامات غاز{{ else }}Sofa Legs, Cabinet Handles, Connectors, Gas Struts{{ end }}{{ end }}</p>
                 </a>
             </div>
             <div class="product-card more-products-card">
                 <a href="{{ relLangURL "products/" }}">
                     <div class="product-icon">📦</div>
-                    <h3>{{ if eq $lang "zh" }}更多产品{{ else }}{{ if eq $lang "ar" }}المزيد من المنتجات{{ else }}More Products{{ end }}{{ end }}</h3>
-                    <p>{{ if eq $lang "zh" }}钢管、建材、门配件、家具配件等{{ else }}{{ if eq $lang "ar" }}أنابيب الصلب، مواد البناء، إكسسوارات الأبواب، تجهيزات الأثاث والمزيد{{ else }}Steel Pipes, Building Materials, Door Accessories, Furniture Fittings & More{{ end }}{{ end }}</p>
+                    <h3>{{ if eq $lang "zh" }}更多分类{{ else }}{{ if eq $lang "ar" }}المزيد{{ else }}More Categories{{ end }}{{ end }}</h3>
+                    <p>{{ if eq $lang "zh" }}滑轨、钢管、建材、沙发脚等{{ else }}{{ if eq $lang "ar" }}مسارات منزلقة، أنابيب فولاذية، مواد بناء، أرجل أثاث{{ else }}Sliding Tracks, Steel Pipes, Building Materials, Sofa Legs{{ end }}{{ end }}</p>
                     <div class="more-products-btn">{{ if eq $lang "zh" }}查看全部 →{{ else }}{{ if eq $lang "ar" }}عرض الكل ←{{ else }}View All →{{ end }}{{ end }}</div>
                 </a>
             </div>

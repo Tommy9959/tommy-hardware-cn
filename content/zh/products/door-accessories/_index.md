@@ -26,4 +26,8 @@ products:
     name: "防夹手指条"
     material: "铝合金+橡胶"
     finish: "银色/灰色"
+  - model: "DA-007"
+    name: "角码 30×30"
+    material: "钢/不锈钢"
+    finish: "镀锌/喷漆"
 ---

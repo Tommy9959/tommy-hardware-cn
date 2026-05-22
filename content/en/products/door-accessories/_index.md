@@ -26,4 +26,8 @@ products:
     name: "Door Finger Guard"
     material: "Aluminum + Rubber"
     finish: "Silver / Gray"
+  - model: "DA-007"
+    name: "Angle Bracket 30×30"
+    material: "Steel / Stainless Steel"
+    finish: "Galvanized / Painted"
 ---
