@@ -1,0 +1,33 @@
+{{- /* Custom sitemap template v2 - 精细控制哪些页面入sitemap */ -}}
+{{- $excludedPaths := slice "/thanks/" "/zh/thanks/" "/ar/thanks/" "/ar/ar/" "/zh/zh/" "/en/en/" -}}
+{{- /* 只包含有独立内容、非薄内容的页面 */ -}}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{{- range .Site.Pages }}
+  {{- /* 跳过禁用sitemap的页面 */ -}}
+  {{- if .Sitemap.Disable }}{{ continue }}{{ end -}}
+  {{- /* 跳过空/薄内容页面 */ -}}
+  {{- if not .Content }}{{ continue }}{{ end -}}
+  {{- /* 跳过排除路径 */ -}}
+  {{- $exclude := false -}}
+  {{- range $excludedPaths -}}
+    {{- if hasPrefix . $.RelPermalink }}{{ $exclude = true }}{{ break }}{{ end -}}
+  {{- end -}}
+  {{- if $exclude }}{{ continue }}{{ end -}}
+  {{- /* 跳过非内容页面 */ -}}
+  {{- if .IsNode }}
+    {{- /* 只包含有_index.md的section页面 */ -}}
+    {{- if not .Content }}{{ continue }}{{ end -}}
+  {{- end -}}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    <changefreq>{{ if .IsHome }}daily{{ else if eq .Section "blog" }}weekly{{ else if eq .Section "products" }}weekly{{ else }}monthly{{ end }}</changefreq>
+    <priority>{{ if .IsHome }}1.0{{ else if eq .Section "products" }}0.8{{ else if eq .Section "blog" }}0.7{{ else }}0.6{{ end }}</priority>
+    {{- if .IsTranslated -}}
+    {{- range .Translations }}
+    <xhtml:link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}"/>
+    {{- end -}}
+    {{- end -}}
+  </url>
+{{- end -}}
+</urlset>

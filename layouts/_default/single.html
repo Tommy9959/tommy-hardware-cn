@@ -227,6 +227,43 @@
             </div>
         </section>
 
+        <!-- FAQ Section (SEO) -->
+        <section class="product-faq">
+            <h2>{{ if eq .Site.Language.Lang "zh" }}常见问题{{ else }}{{ if eq .Site.Language.Lang "en" }}Frequently Asked Questions{{ else }}الأسئلة الشائعة{{ end }}{{ end }}</h2>
+            <div class="faq-list" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <div class="faq-item">
+                    <h3 itemprop="name">{{ if eq .Site.Language.Lang "zh" }}贵公司是工厂还是贸易公司？{{ else }}{{ if eq .Site.Language.Lang "en" }}Are you a factory or trading company?{{ else }}هل أنتم مصنع أم شركة تجارية؟{{ end }}{{ end }}</h3>
+                    <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text">{{ if eq .Site.Language.Lang "zh" }}我们是专业生产商，拥有自己的工厂和研发团队。10年以上五金出口经验，产品远销非洲、中东等50多个国家。{{ else }}{{ if eq .Site.Language.Lang "en" }}We are a professional manufacturer with our own factory and R&D team. 10+ years of hardware export experience to 50+ countries across Africa and Middle East.{{ else }}نحن مصنع محترف مع مصنعنا وفريق البحث والتطوير الخاص بنا. أكثر من 10 سنوات من الخبرة في تصدير الأجهزة.{{ end }}{{ end }}</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 itemprop="name">{{ if eq .Site.Language.Lang "zh" }}产品的起订量（MOQ）是多少？{{ else }}{{ if eq .Site.Language.Lang "en" }}What is the MOQ?{{ else }}ما هو الحد الأدنى لكمية الطلب؟{{ end }}{{ end }}</h3>
+                    <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text">{{ if eq .Site.Language.Lang "zh" }}常规产品起订量为400个/型号，欢迎小批量试单。样品订单可低至10个。{{ else }}{{ if eq .Site.Language.Lang "en" }}Regular MOQ is 400 pcs per model. Trial orders welcome. Sample orders as low as 10 pcs.{{ else }}الحد الأدنى للطلب المعتاد هو 400 قطعة لكل موديل. نرحب بطلبات التجربة.{{ end }}{{ end }}</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 itemprop="name">{{ if eq .Site.Language.Lang "zh" }}可以提供免费样品吗？{{ else }}{{ if eq .Site.Language.Lang "en" }}Can I get free samples?{{ else }}هل يمكنني الحصول على عينات مجانية؟{{ end }}{{ end }}</h3>
+                    <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text">{{ if eq .Site.Language.Lang "zh" }}是的，我们为潜在客户提供免费样品。您只需承担运费，样品免费提供。{{ else }}{{ if eq .Site.Language.Lang "en" }}Yes, we provide free samples for potential clients. You only need to cover shipping cost.{{ else }}نعم، نقدم عينات مجانية للعملاء المحتملين.{{ end }}{{ end }}</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 itemprop="name">{{ if eq .Site.Language.Lang "zh" }}交货时间是多长？{{ else }}{{ if eq .Site.Language.Lang "en" }}What is the delivery time?{{ else }}ما هو وقت التسليم؟{{ end }}{{ end }}</h3>
+                    <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text">{{ if eq .Site.Language.Lang "zh" }}样品订单3-5天，批量订单15-25天，视订单量而定。{{ else }}{{ if eq .Site.Language.Lang "en" }}Samples: 3-5 days, Bulk orders: 15-25 days depending on quantity.{{ else }}العينات: 3-5 أيام، الطلبات الكبيرة: 15-25 يومًا حسب الكمية.{{ end }}{{ end }}</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 itemprop="name">{{ if eq .Site.Language.Lang "zh" }}你们支持尼日利亚的 SONCAP 认证吗？{{ else }}{{ if eq .Site.Language.Lang "en" }}Do you support SONCAP certification for Nigeria?{{ else }}هل تدعمون شهادة SONCAP لنيجيريا؟{{ end }}{{ end }}</h3>
+                    <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text">{{ if eq .Site.Language.Lang "zh" }}是的，我们所有出口尼日利亚的订单都免费提供 SONCAP、Form M 和 PAAR 文件，让您清关无忧。{{ else }}{{ if eq .Site.Language.Lang "en" }}Yes, we provide free SONCAP, Form M, and PAAR documentation for ALL Nigerian clients.{{ else }}نعم، نقدم مستندات SONCAP و Form M و PAAR مجانًا لجميع العملاء النيجيريين.{{ end }}{{ end }}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- 联系 CTA -->
         <div class="contact-cta">
             <h2>{{ if eq .Site.Language.Lang "zh" }}获取免费样品和报价{{ else }}{{ if eq .Site.Language.Lang "en" }}Get Free Samples & Quote{{ else }}احصل على عينات مجانية{{ end }}{{ end }}</h2>

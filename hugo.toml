@@ -143,12 +143,17 @@ disableKinds = ["taxonomy", "term"]
     [markup.goldmark.renderer]
       unsafe = true
 
-# SEO 优化配置（2026-04-13 优化）
+# SEO 优化配置（2026-05-22 优化 - sitemap精细化）
 [sitemap]
-  changefreq = 'daily'  # 改为每日更新，提高抓取频率
+  changefreq = 'daily'
   filename = 'sitemap.xml'
-  priority = 0.9  # 提高优先级
+  priority = 0.9
   disable = false
+
+# 精确控制sitemap中哪些页面类型出现
+[mediaTypes]
+  [mediaTypes.'application/sitemap']
+    suffixes = ['xml']
 
 # 搜索引擎验证
 [verification]
@@ -197,6 +202,4 @@ disableKinds = ["taxonomy", "term"]
       version = 2022
 
 # 禁用分类和标签避免空页面
-# [taxonomies]
-# category = "categories"
-# tag = "tags"
+taxonomies = []
