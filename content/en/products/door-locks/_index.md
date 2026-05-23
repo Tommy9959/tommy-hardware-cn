@@ -1,6 +1,6 @@
 ---
 title: "Door Lock Price in Nigeria | Buy Wholesale Door Locks from Factory China"
-description: "Door lock price in Nigeria — factory direct from $2.50/pc. Iron plate aluminum handle mortise locks. Wholesale supply to Lagos, Abuja, Port Harcourt. Free SONCAP support."
+description: "Door lock price in Nigeria — factory direct from $2.50/pc. Iron plate aluminum handle mortise locks. Wholesale supply to Lagos, Abuja, Port Harcourt. Free SONCAP support. Suitable for Middle East and African markets."
 products:
   - model: "DL-001"
     name: "Iron Plate Aluminum Handle Door Lock 755-151"

@@ -113,9 +113,22 @@
     </script>
     
     
+    
+    
+    
     <link rel="dns-prefetch" href="//www.googletagmanager.com">
 <link rel="dns-prefetch" href="//www.google-analytics.com">
-<link rel="dns-prefetch" href="//wa.me"><link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="dns-prefetch" href="//wa.me">
+<link rel="dns-prefetch" href="//upload.wikimedia.org"><link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="preconnect" href="https://wa.me" crossorigin><link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+<link rel="preconnect" href="https://region1.google-analytics.com" crossorigin><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"><script>
+  window.addEventListener('load', function() {
+    var gtagScript = document.createElement('script');
+    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-EW8MR1LQWY';
+    gtagScript.async = true;
+    document.head.appendChild(gtagScript);
+  });
+  </script>
     
     
     <link rel="icon" type="image/jpeg" href="/images/logo/logo.jpeg">
@@ -212,7 +225,7 @@
     <main class="site-main">
         
 
-<link rel="stylesheet" href="/css/homepage.css">
+<link rel="stylesheet" href="/css/homepage.min.css">
 
 <section style="min-height: 80vh; display: flex; align-items: center; justify-content: center; padding: 2rem;">
     <div style="text-align: center; max-width: 600px;">
@@ -221,19 +234,50 @@
         <h2 style="font-size: 1.5rem; color: #333; margin-bottom: 1rem;">
             页面未找到
         </h2>
-        <p style="color: #666; margin-bottom: 2rem;">
-            抱歉，您访问的页面不存在。
+        <p style="color: #666; margin-bottom: 1.5rem;">
+            抱歉，您访问的页面可能已被移动或删除。
         </p>
+
+        
+        <div style="background: #f8f9fa; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; text-align: left;">
+            <p style="font-weight: 600; margin-bottom: 0.8rem; color: #333;">💡 您可能想找：</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="padding: 0.4rem 0;">• <a href="/zh/products/" style="color: #667eea;">产品中心</a> — 浏览我们所有的门控五金产品</li>
+                <li style="padding: 0.4rem 0;">• <a href="/zh/" style="color: #667eea;">首页</a> — 了解义乌水汇进出口有限公司</li>
+                <li style="padding: 0.4rem 0;">• <a href="/zh/blog/" style="color: #667eea;">博客</a> — 行业资讯和技术文章</li>
+                <li style="padding: 0.4rem 0;">• <a href="/zh/contact/" style="color: #667eea;">联系我们</a> — 获取报价或咨询</li>
+            </ul>
+        </div>
+        
+
+        <p style="color: #999; font-size: 0.9rem; margin-bottom: 1.5rem;">
+            如果您认为这是我们的错误，请<a href="/zh/contact/" style="color: #667eea;">联系我们</a>告知。
+        </p>
+
         <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
             <a href="/zh/" class="btn btn-primary">
-                返回首页
+                🏠 返回首页
             </a>
             <a href="/zh/products/" class="btn btn-primary" style="background: #333;">
-                查看产品
+                🔧 查看产品
+            </a>
+            <a href="/zh/contact/" class="btn btn-primary" style="background: #e74c3c;">
+                📧 联系我们
             </a>
         </div>
     </div>
-</section>
+</section><script>
+(function() {
+    console.log('404 page viewed from:', document.referrer || 'direct');
+    if (typeof gtag === 'function') {
+        gtag('event', 'page_view', {
+            page_title: '404 - Page Not Found',
+            page_location: window.location.href,
+            page_referrer: document.referrer
+        });
+    }
+})();
+</script>
 
     </main>
 
@@ -264,6 +308,6 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="60" height="60">
     </a>
 
-    <script src="/js/main.js" defer></script>
+    <script src="/js/main.min.js" defer></script>
 </body>
 </html>

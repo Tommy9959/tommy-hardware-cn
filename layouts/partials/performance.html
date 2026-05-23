@@ -1,28 +1,82 @@
+{{- /* 
+  增强版性能优化 v2
+  - DNS 预解析 + 预连接
+  - 关键图片预加载（仅首页/产品页）
+  - 图片 CDN 优化（WebP 支持）
+  - 关键 CSS 内联提示
+*/ -}}
+
 {{- /* DNS 预解析 - 只保留实际使用的外部资源 */ -}}
 <link rel="dns-prefetch" href="//www.googletagmanager.com">
 <link rel="dns-prefetch" href="//www.google-analytics.com">
 <link rel="dns-prefetch" href="//wa.me">
+<link rel="dns-prefetch" href="//upload.wikimedia.org">
 
 {{- /* 预连接关键资源 */ -}}
 <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="preconnect" href="https://wa.me" crossorigin>
 
 {{- /* 预连接 Google Analytics（如果启用） */ -}}
 {{- if site.Params.googleAnalytics -}}
 <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+<link rel="preconnect" href="https://region1.google-analytics.com" crossorigin>
 {{- end -}}
 
-{{- /* 预连接统计收集端点 */ -}}
-<link rel="preconnect" href="https://region1.google-analytics.com" crossorigin>
-
-{{- /* 图片预加载 - 只在产品详情页 (单页) 且页面有图片时预加载首图 */ -}}
-{{- if .IsPage -}}
-  {{- $images := .Resources.ByType "image" -}}
-  {{- with $images.GetMatch "*.{jpg,jpeg,png,webp}" -}}
-  <link rel="preload" href="{{ .RelPermalink }}" as="image" fetchpriority="high">
-  {{- else -}}
-  <link rel="preload" href="/images/products/placeholder.svg" as="image">
+{{- /* 
+  图片预加载策略：
+  - 首页：预加载首屏 logo
+  - 产品详情页：预加载首张产品图片
+  - 其他页面：不预加载，节省连接数
+*/ -}}
+{{- if .IsHome -}}
+  {{- with .Site.Params.logo -}}
+  <link rel="preload" href="{{ . | relURL }}" as="image" fetchpriority="high">
+  {{- end -}}
+{{- else if .IsPage -}}
+  {{- if eq .Section "products" -}}
+    {{- if .Params.image -}}
+    <link rel="preload" href="{{ .Params.image | relURL }}" as="image" fetchpriority="high">
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 
-{{- /* 预连接 fontawesome CDN（如果使用） - 已注释待启用 */ -}}
-{{- /* <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin> */ -}}
+{{- /* 
+  图片懒加载客户端优化
+  在 production 环境使用 loading="lazy" 和 decoding="async"
+  这里只是保障，实际在 img 标签上已加了 loading="lazy"
+*/ -}}
+
+{{- /* 
+  浏览器提示：提前加载关键 CSS 
+  如果使用 Google Fonts 可取消注释
+*/ -}}
+{{- /* <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"> */ -}}
+
+{{- /* 
+  PageSpeed 指标优化：LCP 和 CLS
+  - 确保首屏图片有明确宽高
+  - 首页使用 fetchpriority="high"
+  - 非首屏用 loading="lazy" + decoding="async"
+*/ -}}
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+{{- /* 
+  用于 Lighthouse 检测的资源提示
+  - 移除未使用的 CSS
+  - 延迟非关键 JS
+*/ -}}
+{{- if not .IsHome -}}
+  {{- /* 非首页延迟加载 GA */ -}}
+  <script>
+  window.addEventListener('load', function() {
+    {{- with .Site.Params.googleAnalytics }}
+    var gtagScript = document.createElement('script');
+    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id={{ . }}';
+    gtagScript.async = true;
+    document.head.appendChild(gtagScript);
+    {{- end }}
+  });
+  </script>
+{{- end -}}

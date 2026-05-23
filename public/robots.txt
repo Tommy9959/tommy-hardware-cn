@@ -1,61 +1,164 @@
 # robots.txt for Yiwu Shuihui Import & Export Co., Ltd.
 # https://jh-hardware.com
+# Last updated: 2026-05-23
 
+# === MAIN RULES ===
+
+# Default: Allow everything, but block noise paths
 User-agent: *
 Allow: /
+Disallow: /*?*                # Block URL parameters
+Disallow: /*.pdf$             # Block PDFs from general crawlers
+Disallow: /*.zip$             # Block zip files
+Disallow: /thanks/            # Thank you page (no value)
+Disallow: /ar/thanks/         # Arabic thanks page
+Disallow: /zh/thanks/         # Chinese thanks page
+Disallow: /tags/              # Tags pages (disabled but ensure blocked)
+Disallow: /categories/        # Categories pages (disabled but ensure blocked)
+Disallow: /en/tags/           # Old English tag pages
+Disallow: /en/categories/     # Old English category pages
+Disallow: /zh/tags/           # Old Chinese tag pages
+Disallow: /zh/categories/     # Old Chinese category pages
+Disallow: /ar/tags/           # Old Arabic tag pages
+Disallow: /ar/categories/     # Old Arabic category pages
 
-# Sitemap location
+# === Sitemaps ===
 Sitemap: https://jh-hardware.com/sitemap.xml
+Sitemap: https://jh-hardware.com/llms.txt
 
-# Crawl-delay (optional, polite crawling)
-Crawl-delay: 1
+# === CRAWL BUDGET ===
+Crawl-delay: 2
 
-# Disallow admin/private areas (if any)
-# Disallow: /admin/
-# Disallow: /private/
-
-# Allow all major search engines
+# === MAJOR SEARCH ENGINES ===
 User-agent: Googlebot
 Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: Googlebot-Image
 Allow: /
 
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
 User-agent: Bingbot
 Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: Slurp
 Allow: /
 
-# AI / LLM crawlers - explicitly allowed
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# === AI / LLM CRAWLERS - Explicitly ALLOWED ===
 User-agent: GPTBot
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: ChatGPT-User
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Crawl-delay: 5
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: ClaudeBot
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Crawl-delay: 5
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: Claude-Web
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: PerplexityBot
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: Google-Extended
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
-User-agent: Microsoft-Preview
+User-agent: CohereAI-Bot
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
-# LLMs - AI Knowledge Directories
+User-agent: Bytespider
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Crawl-delay: 5
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: Applebot-Extended
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+# === AI Knowledge Directories ===
 LLMs.txt: https://jh-hardware.com/llms.txt
 LLMs-Full.txt: https://jh-hardware.com/llms-full.txt
 
-# Block bad bots (optional)
+# === AGGREGATORS / BAD BOTS (commented out, add if needed) ===
 # User-agent: AhrefsBot
 # Disallow: /
-
+# 
 # User-agent: SemrushBot
+# Disallow: /
+# 
+# User-agent: DotBot
+# Disallow: /
+# 
+# User-agent: MJ12Bot
 # Disallow: /

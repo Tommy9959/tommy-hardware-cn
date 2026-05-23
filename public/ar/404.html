@@ -113,9 +113,22 @@
     </script>
     
     
+    
+    
+    
     <link rel="dns-prefetch" href="//www.googletagmanager.com">
 <link rel="dns-prefetch" href="//www.google-analytics.com">
-<link rel="dns-prefetch" href="//wa.me"><link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="dns-prefetch" href="//wa.me">
+<link rel="dns-prefetch" href="//upload.wikimedia.org"><link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="preconnect" href="https://wa.me" crossorigin><link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+<link rel="preconnect" href="https://region1.google-analytics.com" crossorigin><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"><script>
+  window.addEventListener('load', function() {
+    var gtagScript = document.createElement('script');
+    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-EW8MR1LQWY';
+    gtagScript.async = true;
+    document.head.appendChild(gtagScript);
+  });
+  </script>
     
     
     <link rel="icon" type="image/jpeg" href="/images/logo/logo.jpeg">
@@ -214,7 +227,7 @@
     <main class="site-main">
         
 
-<link rel="stylesheet" href="/css/homepage.css">
+<link rel="stylesheet" href="/css/homepage.min.css">
 
 <section style="min-height: 80vh; display: flex; align-items: center; justify-content: center; padding: 2rem;">
     <div style="text-align: center; max-width: 600px;">
@@ -223,19 +236,50 @@
         <h2 style="font-size: 1.5rem; color: #333; margin-bottom: 1rem;">
             الصفحة غير موجودة
         </h2>
-        <p style="color: #666; margin-bottom: 2rem;">
-            عذراً، الصفحة التي تبحث عنها غير موجودة.
+        <p style="color: #666; margin-bottom: 1.5rem;">
+            عذراً، ربما تم نقل الصفحة التي تبحث عنها أو حذفها.
         </p>
+
+        
+        <div style="background: #f8f9fa; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; text-align: right;">
+            <p style="font-weight: 600; margin-bottom: 0.8rem; color: #333;">💡 قد تبحث عن:</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="padding: 0.4rem 0;">• <a href="/ar/products/" style="color: #667eea;">المنتجات</a> — تصفح جميع منتجاتنا</li>
+                <li style="padding: 0.4rem 0;">• <a href="/ar/" style="color: #667eea;">الرئيسية</a> — تعرف على شركتنا</li>
+                <li style="padding: 0.4rem 0;">• <a href="/ar/blog/" style="color: #667eea;">المدونة</a> — المقالات والأخبار</li>
+                <li style="padding: 0.4rem 0;">• <a href="/ar/contact/" style="color: #667eea;">اتصل بنا</a> — للحصول على عرض سعر</li>
+            </ul>
+        </div>
+        
+
+        <p style="color: #999; font-size: 0.9rem; margin-bottom: 1.5rem;">
+            إذا كنت تعتقد أن هذا خطأ منا، يرجى <a href="/ar/contact/" style="color: #667eea;">الاتصال بنا</a>.
+        </p>
+
         <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
             <a href="/ar/" class="btn btn-primary">
-                العودة للرئيسية
+                🏠 العودة للرئيسية
             </a>
             <a href="/ar/products/" class="btn btn-primary" style="background: #333;">
-                عرض المنتجات
+                🔧 عرض المنتجات
+            </a>
+            <a href="/ar/contact/" class="btn btn-primary" style="background: #e74c3c;">
+                📧 اتصل بنا
             </a>
         </div>
     </div>
-</section>
+</section><script>
+(function() {
+    console.log('404 page viewed from:', document.referrer || 'direct');
+    if (typeof gtag === 'function') {
+        gtag('event', 'page_view', {
+            page_title: '404 - Page Not Found',
+            page_location: window.location.href,
+            page_referrer: document.referrer
+        });
+    }
+})();
+</script>
 
     </main>
 
@@ -266,6 +310,6 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="60" height="60">
     </a>
 
-    <script src="/js/main.js" defer></script>
+    <script src="/js/main.min.js" defer></script>
 </body>
 </html>

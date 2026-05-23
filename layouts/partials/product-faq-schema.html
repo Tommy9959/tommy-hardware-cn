@@ -1,0 +1,62 @@
+{{- /* 
+  产品页 FAQ Schema 
+  每个产品页自动生成 5 个 B2B 常见问题
+  从产品 frontmatter 中提取信息动态生成
+*/ -}}
+{{- if and (eq .Section "products") .IsPage -}}
+{{- $productName := .Params.product_name | default .Title -}}
+{{- $model := .Title -}}
+{{- $material := .Params.material | default "high quality materials" -}}
+{{- $moq := .Params.moq | default "400 pcs" -}}
+{{- $priceRange := .Params.price_range | default "competitive factory price" -}}
+{{- $application := .Params.application | default "residential and commercial doors" -}}
+{{- $leadTime := .Params.lead_time | default "15-25 days" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the price of {{ $productName }} {{ $model }}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The factory direct price of {{ $productName }} (model {{ $model }}) is {{ $priceRange }}. For bulk orders, please contact us for volume discounts. We offer the best wholesale prices for Nigeria and African markets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the MOQ for {{ $productName }} {{ $model }}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The minimum order quantity for {{ $productName }} {{ $model }} is {{ $moq }}. We accept sample orders for quality testing before bulk purchase. Contact us for sample availability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What material is {{ $productName }} {{ $model }} made of?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $productName }} (model {{ $model }}) is made of {{ $material }}. It is designed for {{ $application }} with durable construction suitable for long-term use in residential and commercial buildings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is the delivery time for {{ $productName }} {{ $model }} to Nigeria?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The delivery time for {{ $productName }} {{ $model }} is {{ $leadTime }}. Shipping from Ningbo port to Lagos takes approximately 15-35 days. We handle all export documentation including Bill of Lading and Form M support for Nigeria customs clearance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can {{ $productName }} {{ $model }} be customized?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we support OEM/ODM customization for {{ $productName }} {{ $model }} including custom packaging with your brand logo, custom finish/color options, and custom carton design. MOQ for custom orders may vary. Contact our sales team for customization details."
+      }
+    }
+  ]
+}
+</script>
+{{- end -}}
