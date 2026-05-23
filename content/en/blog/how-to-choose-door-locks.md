@@ -1,6 +1,6 @@
 ---
-title: "What Door Locks Actually Sell in Nigeria (10 Years of Sales Data)"
-description: "After 10 years selling door locks in Nigeria, here's what actually works — mortise locks, padlocks, smart locks — with real data from Lagos, Port Harcourt, and Abuja."
+title: "Door Lock Price in Nigeria 2026 | Best Selling Locks with Real Prices"
+description: "Door lock price in Nigeria — factory direct from $2.50/pc. Real sales data shows the best selling mortise locks, padlocks, cylinder locks. Wholesale door lock prices for Lagos, Abuja, Port Harcourt buyers."
 keywords: "door locks Nigeria, what sells Nigeria, mortise locks, padlocks, smart locks, SOLA locks, JH Hardware, Lagos hardware market"
 author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-04-29"
@@ -180,6 +180,19 @@ This is our top seller in this category. Builders and hardware shops like it bec
 
 ---
 
+## Quick Door Lock Price Reference (FOB Yiwu)
+
+| Lock Type | Model | Price (FOB Yiwu) |
+|----------|-------|-----------------|
+| Mortise Lock | 755-151 (DL-001) | $2.50 - $3.50/pc |
+| Mortise Lock | 955-231 (DL-004) | $3.00 - $4.50/pc |
+| Mortise Lock | 837-352 (DL-003) | $3.00 - $4.00/pc |
+| Padlock 50mm | Iron body + Brass cylinder | $1.20 - $2.00/pc |
+| Padlock 60mm | Iron body + Brass cylinder | $1.80 - $3.00/pc |
+| Cylinder Lock | Standard 60mm/70mm | $1.00 - $2.50/pc |
+
+*Get the best door lock price in Nigeria by buying factory direct. Shipping to Lagos (Apapa/Tincan) available. Free SONCAP and Form M support for all Nigerian clients.*
+
 ## Conclusion (10 Years of Experience in 3 Sentences)
 
 Mortise locks and padlocks pay the bills — they make up 80% of our sales for a reason. Smart locks are growing, but they're still niche. Climate matters — what sells in Lagos doesn't always sell in Kano.
@@ -194,9 +207,9 @@ If you're not sure what to order, just ask us — we've seen what works in Niger
 💬 **WhatsApp:** +86 183 5800 8400  
 🌐 **Website:** https://jh-hardware.com
 
-**We can send you our 2025 Nigeria Sales Report** (what actually sold last year, by city and product). It's the same data we use to decide what to stock.
+**We can send you our 2025 Nigeria Sales Report** (what actually sold last year, by city and product). It's the same data we use to decide what to stock. **Ask us for the current door lock price to your port in Nigeria.**
 
 ---
 
-*Published: April 29, 2026*  
+*Published: April 29, 2026 — Updated: May 23, 2026*  
 *Written by Tommy, JH Hardware — 10 years of Nigerian sales data*

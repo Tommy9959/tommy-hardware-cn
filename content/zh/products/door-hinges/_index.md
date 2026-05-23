@@ -1,6 +1,6 @@
 ---
-title: "门铰链"
-description: "耐用的门铰链，包括合页、隐藏式铰链和旋转铰链"
+title: "门铰链价格 | 源头工厂直供 尼日利亚铰链批发"
+description: "门铰链价格 — 工厂直销，合页/隐藏式铰链/旋转铰链，SS304不锈钢，$0.50起。批发供应拉各斯、阿布贾、哈科特港。"
 products:
   - model: "HH-001"
     name: "Door Hinge HH-001"

@@ -1,7 +1,25 @@
 ---
-title: "LTN - Imitate Brass Hammer Padlock"
-description: "High quality Imitate Brass Hammer Padlock. Factory direct supply, competitive prices."
-image: "/images/products/padlocks/ltn.jpg"
+title: 'LTN - Imitate Brass Hammer Padlock'
+description: 'Quality Long Shackle Iron Padlock. Factory direct wholesale price for Nigerian and African importers. ISO 9001 certified. long shackle padlock, extended shackle padlock, hasp padlock, chain padlock, special application padlock, long shackle lock wholesale. MOQ from 400 pcs. Free samples available.'
+image: /images/products/padlocks/ltn.jpg
+tags:
+  - 'LTN padlock'
+  - 'wholesale padlock'
+  - 'padlock Nigeria'
+  - 'padlock Africa'
+  - 'China padlock factory'
+  - 'SOLA Hardware'
+  - 'solid brass padlock'
+features:
+  - 'Factory direct pricing'
+  - 'High quality materials, durable'
+  - 'Custom design accepted (OEM/ODM)'
+  - 'Fast delivery 15-25 days'
+  - 'ISO 9001, CE, SGS certified'
+specifications:
+  - 'Material: Premium material'
+  - 'Finish: Standard finish'
+  - 'Application: Various applications'
 ---
 # Imitate Brass Hammer Padlock
 

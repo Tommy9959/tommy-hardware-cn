@@ -46,3 +46,21 @@ Contact us for professional advice on the right padlock type for your market. We
 
 📧 **Email:** z946487044@icloud.com  
 📱 **WhatsApp:** +86 183 5800 8400
+
+### Padlock FAQ
+
+**Q: Which padlock is best for outdoor use in coastal areas?**
+A: HLV (Waterproof Shell) series with chrome plating is our #1 seller for coastal areas like Lagos. It offers excellent rust resistance.
+
+**Q: Do you offer keyed alike sets?**
+A: Yes, our YGTK series offers keyed alike padlocks — one key opens multiple locks. Ideal for schools, hotels, and multi-unit buildings.
+
+**Q: What padlock sizes sell best in Nigeria?**
+A: 50mm-70mm sizes are most popular for general use. 80mm+ for heavy-duty applications.
+
+**Q: What certifications do you have?**
+A: ISO 9001, CE, SGS certified. We provide full documentation for Nigerian import including SONCAP and Form M.
+
+**Q: What is your MOQ for padlocks?**
+A: Standard MOQ is 400 pcs per model. Mixed container orders welcome.
+

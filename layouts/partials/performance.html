@@ -6,7 +6,23 @@
 {{- /* 预连接关键资源 */ -}}
 <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
 
-{{- /* 图片懒加载优化 */ -}}
-{{- if eq .Section "products" -}}
-<link rel="preload" href="/images/products/placeholder.svg" as="image">
+{{- /* 预连接 Google Analytics（如果启用） */ -}}
+{{- if site.Params.googleAnalytics -}}
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
 {{- end -}}
+
+{{- /* 预连接统计收集端点 */ -}}
+<link rel="preconnect" href="https://region1.google-analytics.com" crossorigin>
+
+{{- /* 图片预加载 - 只在产品详情页 (单页) 且页面有图片时预加载首图 */ -}}
+{{- if .IsPage -}}
+  {{- $images := .Resources.ByType "image" -}}
+  {{- with $images.GetMatch "*.{jpg,jpeg,png,webp}" -}}
+  <link rel="preload" href="{{ .RelPermalink }}" as="image" fetchpriority="high">
+  {{- else -}}
+  <link rel="preload" href="/images/products/placeholder.svg" as="image">
+  {{- end -}}
+{{- end -}}
+
+{{- /* 预连接 fontawesome CDN（如果使用） - 已注释待启用 */ -}}
+{{- /* <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin> */ -}}

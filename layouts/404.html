@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $lang := .Site.Language.Lang }}
-<link rel="stylesheet" href="{{ "css/homepage.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/homepage.min.css" | relURL }}">
 
 <section style="min-height: 80vh; display: flex; align-items: center; justify-content: center; padding: 2rem;">
     <div style="text-align: center; max-width: 600px;">
@@ -9,17 +9,71 @@
         <h2 style="font-size: 1.5rem; color: #333; margin-bottom: 1rem;">
             {{ if eq $lang "zh" }}页面未找到{{ else }}{{ if eq $lang "ar" }}الصفحة غير موجودة{{ else }}Page Not Found{{ end }}{{ end }}
         </h2>
-        <p style="color: #666; margin-bottom: 2rem;">
-            {{ if eq $lang "zh" }}抱歉，您访问的页面不存在。{{ else }}{{ if eq $lang "ar" }}عذراً، الصفحة التي تبحث عنها غير موجودة.{{ else }}Sorry, the page you're looking for doesn't exist.{{ end }}{{ end }}
+        <p style="color: #666; margin-bottom: 1.5rem;">
+            {{ if eq $lang "zh" }}抱歉，您访问的页面可能已被移动或删除。{{ else }}{{ if eq $lang "ar" }}عذراً، ربما تم نقل الصفحة التي تبحث عنها أو حذفها.{{ else }}Sorry, the page you're looking for may have been moved or deleted.{{ end }}{{ end }}
         </p>
+
+        {{ if eq $lang "zh" }}
+        <div style="background: #f8f9fa; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; text-align: left;">
+            <p style="font-weight: 600; margin-bottom: 0.8rem; color: #333;">💡 您可能想找：</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="padding: 0.4rem 0;">• <a href="{{ "/products/" | relLangURL }}" style="color: #667eea;">产品中心</a> — 浏览我们所有的门控五金产品</li>
+                <li style="padding: 0.4rem 0;">• <a href="{{ "/" | relLangURL }}" style="color: #667eea;">首页</a> — 了解义乌水汇进出口有限公司</li>
+                <li style="padding: 0.4rem 0;">• <a href="{{ "/blog/" | relLangURL }}" style="color: #667eea;">博客</a> — 行业资讯和技术文章</li>
+                <li style="padding: 0.4rem 0;">• <a href="{{ "/contact/" | relLangURL }}" style="color: #667eea;">联系我们</a> — 获取报价或咨询</li>
+            </ul>
+        </div>
+        {{ else }}{{ if eq $lang "ar" }}
+        <div style="background: #f8f9fa; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; text-align: right;">
+            <p style="font-weight: 600; margin-bottom: 0.8rem; color: #333;">💡 قد تبحث عن:</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="padding: 0.4rem 0;">• <a href="{{ "/products/" | relLangURL }}" style="color: #667eea;">المنتجات</a> — تصفح جميع منتجاتنا</li>
+                <li style="padding: 0.4rem 0;">• <a href="{{ "/" | relLangURL }}" style="color: #667eea;">الرئيسية</a> — تعرف على شركتنا</li>
+                <li style="padding: 0.4rem 0;">• <a href="{{ "/blog/" | relLangURL }}" style="color: #667eea;">المدونة</a> — المقالات والأخبار</li>
+                <li style="padding: 0.4rem 0;">• <a href="{{ "/contact/" | relLangURL }}" style="color: #667eea;">اتصل بنا</a> — للحصول على عرض سعر</li>
+            </ul>
+        </div>
+        {{ else }}
+        <div style="background: #f8f9fa; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; text-align: left;">
+            <p style="font-weight: 600; margin-bottom: 0.8rem; color: #333;">💡 You might be looking for:</p>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="padding: 0.4rem 0;">• <a href="{{ "/products/" | relLangURL }}" style="color: #667eea;">Products</a> — Browse all door hardware products</li>
+                <li style="padding: 0.4rem 0;">• <a href="{{ "/" | relLangURL }}" style="color: #667eea;">Home</a> — About Shuihui Import & Export Co., Ltd.</li>
+                <li style="padding: 0.4rem 0;">• <a href="{{ "/blog/" | relLangURL }}" style="color: #667eea;">Blog</a> — Industry insights and technical articles</li>
+                <li style="padding: 0.4rem 0;">• <a href="{{ "/contact/" | relLangURL }}" style="color: #667eea;">Contact Us</a> — Get a quote or ask a question</li>
+            </ul>
+        </div>
+        {{ end }}{{ end }}
+
+        <p style="color: #999; font-size: 0.9rem; margin-bottom: 1.5rem;">
+            {{ if eq $lang "zh" }}如果您认为这是我们的错误，请<a href="{{ "/contact/" | relLangURL }}" style="color: #667eea;">联系我们</a>告知。{{ else }}{{ if eq $lang "ar" }}إذا كنت تعتقد أن هذا خطأ منا، يرجى <a href="{{ "/contact/" | relLangURL }}" style="color: #667eea;">الاتصال بنا</a>.{{ else }}If you believe this is an error, please <a href="{{ "/contact/" | relLangURL }}" style="color: #667eea;">contact us</a> and let us know.{{ end }}{{ end }}
+        </p>
+
         <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
             <a href="{{ "/" | relLangURL }}" class="btn btn-primary">
-                {{ if eq $lang "zh" }}返回首页{{ else }}{{ if eq $lang "ar" }}العودة للرئيسية{{ else }}Back to Home{{ end }}{{ end }}
+                {{ if eq $lang "zh" }}🏠 返回首页{{ else }}{{ if eq $lang "ar" }}🏠 العودة للرئيسية{{ else }}🏠 Back to Home{{ end }}{{ end }}
             </a>
             <a href="{{ "/products/" | relLangURL }}" class="btn btn-primary" style="background: #333;">
-                {{ if eq $lang "zh" }}查看产品{{ else }}{{ if eq $lang "ar" }}عرض المنتجات{{ else }}View Products{{ end }}{{ end }}
+                {{ if eq $lang "zh" }}🔧 查看产品{{ else }}{{ if eq $lang "ar" }}🔧 عرض المنتجات{{ else }}🔧 View Products{{ end }}{{ end }}
+            </a>
+            <a href="{{ "/contact/" | relLangURL }}" class="btn btn-primary" style="background: #e74c3c;">
+                {{ if eq $lang "zh" }}📧 联系我们{{ else }}{{ if eq $lang "ar" }}📧 اتصل بنا{{ else }}📧 Contact Us{{ end }}{{ end }}
             </a>
         </div>
     </div>
 </section>
+
+{{- /* 404 页面跟踪（分析流量） */ -}}
+<script>
+(function() {
+    console.log('404 page viewed from:', document.referrer || 'direct');
+    if (typeof gtag === 'function') {
+        gtag('event', 'page_view', {
+            page_title: '404 - Page Not Found',
+            page_location: window.location.href,
+            page_referrer: document.referrer
+        });
+    }
+})();
+</script>
 {{ end }}

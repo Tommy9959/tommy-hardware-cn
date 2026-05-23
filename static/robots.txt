@@ -1,6 +1,6 @@
 # robots.txt for Yiwu Shuihui Import & Export Co., Ltd.
 # https://jh-hardware.com
-# Last updated: 2026-05-22
+# Last updated: 2026-05-23
 
 # === MAIN RULES ===
 
@@ -27,7 +27,7 @@ Sitemap: https://jh-hardware.com/sitemap.xml
 Sitemap: https://jh-hardware.com/llms.txt
 
 # === CRAWL BUDGET ===
-Crawl-delay: 1
+Crawl-delay: 2
 
 # === MAJOR SEARCH ENGINES ===
 User-agent: Googlebot
@@ -72,27 +72,79 @@ Allow: /
 # === AI / LLM CRAWLERS - Explicitly ALLOWED ===
 User-agent: GPTBot
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: ChatGPT-User
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Crawl-delay: 5
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: ClaudeBot
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Crawl-delay: 5
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: Claude-Web
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: PerplexityBot
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: Google-Extended
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: CohereAI-Bot
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: Bytespider
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Crawl-delay: 5
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: Applebot-Extended
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 # === AI Knowledge Directories ===
 LLMs.txt: https://jh-hardware.com/llms.txt

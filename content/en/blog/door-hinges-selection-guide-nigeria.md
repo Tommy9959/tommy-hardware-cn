@@ -1,7 +1,7 @@
 ---
-title: "Door Hinges for Nigeria: What Type to Use for Aluminum, Wooden, and Metal Doors"
+title: "Door Hinge Price in Nigeria 2026 | Best Hinges for Nigerian Doors"
 date: 2026-05-22T21:55:00+08:00
-description: "Complete guide to choosing door hinges for Nigerian homes, offices, and construction projects. Butt hinges, pivot hinges, or self-closing? Which hinge for aluminum doors? Expert advice from a China hardware manufacturer."
+description: "Door hinge price in Nigeria — factory direct from China. Know the best hinge types for aluminum, wooden, and metal doors. SS304 price vs galvanized steel. Wholesale hinges to Lagos, Abuja, Port Harcourt."
 tags: ["door hinges", "Nigeria construction", "hardware guide", "butt hinges", "pivot hinges", "self-closing hinges"]
 ---
 
@@ -80,6 +80,21 @@ Many Nigerian cleaning products contain bleach or strong acids. These corrode hi
 | Commercial metal door | Pivot hinge | 2 per door+floor spring |
 | Kitchen door | Self-closing spring hinge | 3 hinges |
 
+## Door Hinge Price List 2026 — Factory Direct
+
+Below are indicative FOB Yiwu prices for wholesale buyers in Nigeria:
+
+| Hinge Type | Material | Size | Price (FOB Yiwu) |
+|-----------|----------|------|-----------------|
+| Butt Hinge HH-001 | SS304 Stainless Steel | 4\"x3\" | $0.50 - $1.20/pc |
+| Butt Hinge HH-004 | SS304 Stainless Steel | 4\"x4\" | $0.80 - $1.80/pc |
+| Butt Hinge HH-002 | Brass | 4\"x3\" | $1.20 - $2.50/pc |
+| Butt Hinge HH-003 | Galvanized Steel | 4\"x3\" | $0.35 - $0.80/pc |
+| Concealed Hinge HH-005 | Zinc Alloy | 3.5\"x3.5\" | $0.60 - $1.50/pc |
+| Pivot Hinge | Heavy Duty Steel | Various | $2.00 - $3.50/pc |
+
+*Door hinge prices vary by quantity. Larger orders get better pricing. Contact us for door hinge price to Lagos, Apapa, or Tincan Island port.*
+
 ## Why Buy Direct from SOLA Hardware?
 
 We manufacture door hinges in our ISO 9001 certified factory with strict material control:
@@ -88,6 +103,6 @@ We manufacture door hinges in our ISO 9001 certified factory with strict materia
 - **Factory direct pricing** — no middleman markup
 - **Stock in Yiwu + Ningbo** — fast export to Apapa, Tin Can Island, and Tincan ports
 
-**Contact us for wholesale pricing.** Sample orders available for quality testing before bulk commitment.
+**Contact us for wholesale pricing and current door hinge price.** Sample orders available for quality testing before bulk commitment.
 
-*Have questions about which hinge for your specific project? Send us a message. We also help with combined shipping—mix hinges with handles, locks, and other hardware in one container.*
+*Have questions about which hinge for your specific project? Send us a message. We also help with combined shipping—mix hinges with handles, locks, and other hardware in one container. Get the best door hinge price in Nigeria by buying factory direct.*

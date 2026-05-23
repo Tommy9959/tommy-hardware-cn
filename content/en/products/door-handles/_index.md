@@ -27,3 +27,38 @@ products:
     material: "Zinc Alloy + SS304"
     finish: "Multiple Colors Available"
 ---
+
+### Door Handle FAQ
+
+**Q: What materials are available for door handles?**
+A: We offer SS304 stainless steel, aluminum alloy 6063, solid brass, and zinc alloy options.
+
+**Q: What is the MOQ for door handles?**
+A: Standard MOQ is 400 pcs per model. Sample orders available.
+
+**Q: Can you customize with my logo?**
+A: Yes, OEM/ODM services available. Custom logo engraving and custom packaging accepted.
+
+**Q: Are these suitable for exterior doors?**
+A: Yes, our SS304 stainless steel handles are perfect for both interior and exterior doors with excellent weather resistance.
+
+**Q: What is the lead time?**
+A: 15-20 days for bulk orders. 3-5 days for samples.
+
+### Door Handle FAQ
+
+**Q: What materials are available for door handles?**
+A: We offer SS304 stainless steel, aluminum alloy 6063, solid brass, and zinc alloy options.
+
+**Q: What is the MOQ for door handles?**
+A: Standard MOQ is 400 pcs per model. Sample orders available.
+
+**Q: Can you customize with my logo?**
+A: Yes, OEM/ODM services available. Custom logo engraving and custom packaging accepted.
+
+**Q: Are these suitable for exterior doors?**
+A: Yes, our SS304 stainless steel handles are perfect for both interior and exterior doors with excellent weather resistance.
+
+**Q: What is the lead time?**
+A: 15-20 days for bulk orders. 3-5 days for samples.
+

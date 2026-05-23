@@ -27,3 +27,38 @@ products:
     material: "Galvanized Steel"
     finish: "Silver"
 ---
+
+### Steel Pipe & Flange FAQ
+
+**Q: What steel pipe grades are available?**
+A: We supply carbon steel A106 seamless pipes. Other grades available upon request.
+
+**Q: What finishes are available?**
+A: Black finish and galvanized finish are standard options.
+
+**Q: Do you supply flanges with pipes?**
+A: Yes, we supply both steel pipes and matching flanges as a complete package.
+
+**Q: Are these suitable for structural applications?**
+A: Yes, our steel pipes are suitable for both pipeline and structural applications.
+
+**Q: What certifications do you have?**
+A: ISO 9001 certified. Material test certificates available.
+
+### Steel Pipe & Flange FAQ
+
+**Q: What steel pipe grades are available?**
+A: We supply carbon steel A106 seamless pipes. Other grades available upon request.
+
+**Q: What finishes are available?**
+A: Black finish and galvanized finish are standard options.
+
+**Q: Do you supply flanges with pipes?**
+A: Yes, we supply both steel pipes and matching flanges as a complete package.
+
+**Q: Are these suitable for structural applications?**
+A: Yes, our steel pipes are suitable for both pipeline and structural applications.
+
+**Q: What certifications do you have?**
+A: ISO 9001 certified. Material test certificates available.
+

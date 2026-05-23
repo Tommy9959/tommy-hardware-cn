@@ -1,7 +1,25 @@
 ---
-title: "GTK - WaterProof Padlock With Plastic Cover"
-description: "High quality WaterProof Padlock With Plastic Cover. Factory direct supply, competitive prices."
-image: "/images/products/padlocks/gtk.jpg"
+title: 'GTK - WaterProof Padlock With Plastic Cover'
+description: 'Quality WaterProof Padlock With Plastic Cover. Factory direct wholesale price for Nigerian and African importers. ISO 9001 certified. waterproof padlock with plastic cover, laminated padlock, plastic covered padlock, outdoor padlock waterproof, weatherproof padlock wholesale. MOQ from 400 pcs. Free samples available.'
+image: /images/products/padlocks/gtk.jpg
+tags:
+  - 'waterproof padlock'
+  - 'GTK padlock'
+  - 'wholesale padlock'
+  - 'padlock Nigeria'
+  - 'padlock Africa'
+  - 'China padlock factory'
+  - 'SOLA Hardware'
+features:
+  - 'Factory direct pricing'
+  - 'High quality materials, durable'
+  - 'Custom design accepted (OEM/ODM)'
+  - 'Fast delivery 15-25 days'
+  - 'ISO 9001, CE, SGS certified'
+specifications:
+  - 'Material: Premium material'
+  - 'Finish: Standard finish'
+  - 'Application: Various applications'
 ---
 # WaterProof Padlock With Plastic Cover
 

@@ -1,6 +1,6 @@
 ---
-title: "门锁"
-description: "铁板铝把手门锁，仿古青铜色，适用于住宅和商业门"
+title: "门锁价格 | 源头工厂直供 尼日利亚门锁批发"
+description: "门锁价格 — 工厂直销，铁板铝把手执手锁，$2.50起。批发供应拉各斯、阿布贾、哈科特港。免费SONCAP认证支持。"
 products:
   - model: "DL-001"
     name: "Iron Plate Aluminum Handle Door Lock 755-151"

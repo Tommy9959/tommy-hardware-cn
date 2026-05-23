@@ -1,7 +1,26 @@
 ---
-title: "HHL - Heavy Duty Rectangle Iron Padlock"
-description: "High quality Heavy Duty Rectangle Iron Padlock. Factory direct supply, competitive prices."
-image: "/images/products/padlocks/hhl.jpg"
+title: 'HHL - Heavy Duty Rectangle Iron Padlock'
+description: 'Quality Heavy Duty Rectangle Iron Padlock. Factory direct wholesale price for Nigerian and African importers. ISO 9001 certified. heavy duty iron padlock, rectangle padlock wholesale, iron padlock Nigeria, heavy duty padlock factory China, warehouse padlock, gate padlock. MOQ from 400 pcs. Free samples available.'
+image: /images/products/padlocks/hhl.jpg
+tags:
+  - 'heavy duty padlock'
+  - 'HHL padlock'
+  - 'wholesale padlock'
+  - 'padlock Nigeria'
+  - 'padlock Africa'
+  - 'China padlock factory'
+  - 'SOLA Hardware'
+  - 'iron padlock'
+features:
+  - 'Factory direct pricing'
+  - 'High quality materials, durable'
+  - 'Custom design accepted (OEM/ODM)'
+  - 'Fast delivery 15-25 days'
+  - 'ISO 9001, CE, SGS certified'
+specifications:
+  - 'Material: Premium material'
+  - 'Finish: Standard finish'
+  - 'Application: Various applications'
 ---
 # Heavy Duty Rectangle Iron Padlock
 

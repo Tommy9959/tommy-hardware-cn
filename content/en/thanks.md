@@ -1,6 +1,7 @@
 ---
 title: "Thank You for Your Inquiry!"
 description: "We've received your message and will respond within 24 hours."
+noindex: true
 ---
 
 # Thank You for Your Inquiry! 🙏

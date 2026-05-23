@@ -1,7 +1,25 @@
 ---
-title: "YJN - Nickle Round Side Iron Padlock"
-description: "High quality Nickle Round Side Iron Padlock. Factory direct supply, competitive prices."
-image: "/images/products/padlocks/yjn.jpg"
+title: 'YJN - Nickle Round Side Iron Padlock'
+description: 'Quality Iron Padlock With Brass Cylinder. Factory direct wholesale price for Nigerian and African importers. ISO 9001 certified. iron padlock brass cylinder, strong iron padlock, brass cylinder padlock, heavy padlock, security padlock wholesale. MOQ from 400 pcs. Free samples available.'
+image: /images/products/padlocks/yjn.jpg
+tags:
+  - 'YJN padlock'
+  - 'wholesale padlock'
+  - 'padlock Nigeria'
+  - 'padlock Africa'
+  - 'China padlock factory'
+  - 'SOLA Hardware'
+  - 'iron padlock'
+features:
+  - 'Factory direct pricing'
+  - 'High quality materials, durable'
+  - 'Custom design accepted (OEM/ODM)'
+  - 'Fast delivery 15-25 days'
+  - 'ISO 9001, CE, SGS certified'
+specifications:
+  - 'Material: Premium material'
+  - 'Finish: Standard finish'
+  - 'Application: Various applications'
 ---
 # Nickle Round Side Iron Padlock
 

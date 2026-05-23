@@ -56,7 +56,7 @@
 <meta name="description" content="{{ $description }}">
 <meta name="keywords" content="{{ $keywords }}">
 <meta name="author" content="{{ site.Params.author | default "Yiwu Shuihui Import & Export Co., Ltd." }}">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="{{ if .Params.noindex }}noindex, nofollow{{ else }}index, follow{{ end }}">
 
 <!-- AI/LLM 知识库链接 -->
 <link rel="llms" href="https://jh-hardware.com/llms.txt" title="SOLA Hardware AI Knowledge Base">
