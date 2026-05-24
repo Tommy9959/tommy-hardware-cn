@@ -1,5 +1,5 @@
 ---
-title: "SF - 镀铬四方叶片锁"
+title: "SF - 镀铬四方叶片锁 - 挂锁 | 批发 尼日利亚 非洲"
 description: "高品质镀铬四方叶片锁。工厂直供，价格优惠。"
 image: "/images/products/padlocks/sf.png"
 ---

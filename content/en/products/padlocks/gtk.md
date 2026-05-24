@@ -1,5 +1,5 @@
 ---
-title: 'GTK - WaterProof Padlock With Plastic Cover'
+title: 'GTK - WaterProof Padlock With Plastic Cover - Padlock | Wholesale Nigeria Africa'
 description: 'Quality WaterProof Padlock With Plastic Cover. Factory direct wholesale price for Nigerian and African importers. ISO 9001 certified. waterproof padlock with plastic cover, laminated padlock, plastic covered padlock, outdoor padlock waterproof, weatherproof padlock wholesale. MOQ from 400 pcs. Free samples available.'
 image: /images/products/padlocks/gtk.jpg
 tags:

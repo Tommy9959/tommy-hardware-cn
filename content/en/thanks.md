@@ -1,25 +1,22 @@
 ---
-title: "Thank You for Your Inquiry!"
-description: "We've received your message and will respond within 24 hours."
+title: "Thank You - SOLA Hardware"
+description: "Thank you for contacting SOLA Hardware. We will respond to your inquiry within 2 hours."
 noindex: true
 ---
 
-# Thank You for Your Inquiry! 🙏
+## Thank You! 🎉
 
-We've successfully received your message and will respond to you within **24 hours** (urgent inquiries within **2 hours**).
+Your message has been sent successfully. We will get back to you **within 2 hours** during business hours.
 
-## What happens next?
+### While you wait:
 
-- ✅ **Email confirmation**: You'll receive an automatic confirmation email shortly
-- ⏱️ **Response time**: Our sales team will review your inquiry and respond within 24 hours
-- 💬 **WhatsApp support**: You can also reach us directly on [WhatsApp](https://wa.me/8618358008400) for urgent matters
+- 📋 [View our product catalog →](https://jh-hardware.com/products/)
+- 💬 [Contact us on WhatsApp →](https://wa.me/8618358008400)
+- 📧 Or email us directly: z946487044@icloud.com
 
-## Need immediate assistance?
+### Our commitment to you:
 
-- **WhatsApp**: [+86 183 5800 8400](https://wa.me/8618358008400)
-- **Email**: [z946487044@icloud.com](mailto:z946487044@icloud.com)
-- **Phone**: +86 183 5800 8400
-
-We appreciate your interest in Yiwu Shuihui Import & Export Co., Ltd. and look forward to serving you!
-
-[← Back to Home](/)
+- ✅ Factory direct pricing — save 30-50%
+- ✅ Free samples for quality testing
+- ✅ Complete export documentation (Form M, SONCAP)
+- ✅ Fast delivery from China to Nigeria (15-25 days)

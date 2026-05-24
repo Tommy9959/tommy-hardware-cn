@@ -1,5 +1,5 @@
 ---
-title: 'SF - CR-Plated Square Iron Padlock (Vane Key)'
+title: 'SF - CR-Plated Square Iron Padlock (Vane Key) - Padlock | Wholesale Nigeria Africa'
 description: 'Quality Solid Brass Padlock. Factory direct wholesale price for Nigerian and African importers. ISO 9001 certified. solid brass padlock, brass padlock wholesale, premium padlock Nigeria, marine padlock, brass padlock factory China, anti corrosion padlock. MOQ from 400 pcs. Free samples available.'
 image: /images/products/padlocks/sf.jpg
 tags:

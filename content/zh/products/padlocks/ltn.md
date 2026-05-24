@@ -1,5 +1,5 @@
 ---
-title: "LTN - 仿铜榔头挂锁"
+title: "LTN - 仿铜榔头挂锁 - 挂锁 | 批发 尼日利亚 非洲"
 description: "高品质仿铜榔头挂锁。工厂直供，价格优惠。"
 image: "/images/products/padlocks/ltn.png"
 ---

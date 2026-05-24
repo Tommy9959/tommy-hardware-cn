@@ -1,5 +1,5 @@
 ---
-title: 'SFN - Golden Square Iron Padlock'
+title: 'SFN - Golden Square Iron Padlock - Padlock | Wholesale Nigeria Africa'
 description: 'Quality Golden Square Iron Padlock. Factory direct wholesale price for Nigerian and African importers. ISO 9001 certified. golden square iron padlock, square padlock wholesale, iron padlock golden finish, affordable padlock Nigeria, budget padlock factory. MOQ from 400 pcs. Free samples available.'
 image: /images/products/padlocks/sfn.jpg
 tags:
