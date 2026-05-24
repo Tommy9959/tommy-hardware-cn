@@ -1,101 +1,110 @@
 #!/usr/bin/env python3
 """
-Google Search Console API 集成脚本
-用于自动拉取 jh-hardware.com 的 GSC 数据
+Google Search Console API v2 — 支持 OAuth 桌面应用授权
+用主人自己的 Google 账号授权，不需要 service account
 
-使用方式：
-1. 按照下方指引创建 Google Cloud 服务账号
-2. 下载 JSON 密钥放到 ~/.openclaw/service-env/gsc-credentials.json
-3. 运行本脚本获取数据
+首次使用：
+  python3 gsc-api-setup.py --auth     # 浏览器打开授权页面，点允许即可
+之后：
+  python3 gsc-api-setup.py --report   # 直接拉数据
+  
+每周日 09:00 crontab 自动运行
 """
 
 import os
 import json
 import argparse
+import webbrowser
 from datetime import datetime, timedelta
+from http.server import HTTPServer, BaseHTTPRequestHandler
+from urllib.parse import urlparse, parse_qs
 
-SITE_URL = "https://jh-hardware.com"
-CREDENTIALS_FILE = os.path.expanduser("~/.openclaw/service-env/gsc-credentials.json")
-VENV_PYTHON = "/tmp/gsc-venv/bin/python3"
+SITE_URL = "sc-domain:jh-hardware.com"
+SITE_URL_HTTP = "https://jh-hardware.com"
+TOKEN_FILE = os.path.expanduser("~/.openclaw/service-env/gsc-oauth-token.json")
+CLIENT_ID = "1007540485512-1234567890abcdef.apps.googleusercontent.com"
+CLIENT_SECRET = "GOCSPX-xxxxxxxxxxxx"
 
-GUIDE = f"""
-╔══════════════════════════════════════════════════════════════╗
-║  🚀 GSC API 快速设置指南                                    ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║  1️⃣  打开 Google Cloud Console                              ║
-║     → https://console.cloud.google.com/                      ║
-║                                                              ║
-║  2️⃣  新建项目（或选已有项目）                                ║
-║     → 项目名称：jh-hardware-gsc（随意）                     ║
-║                                                              ║
-║  3️⃣  启用 Search Console API                                ║
-║     → API 和服务 → 启用 API 和服务                           ║
-║     → 搜索 "Search Console API" → 启用                       ║
-║                                                              ║
-║  4️⃣  创建服务账号                                           ║
-║     → API 和服务 → 凭据 → 创建凭据 → 服务账号               ║
-║     → 名称：gsc-reader                                       ║
-║     → 角色：基本 > 查看者（或者跳过，不重要）                ║
-║                                                              ║
-║  5️⃣  下载密钥                                               ║
-║     → 进入刚创建的服务账号 → 密钥 → 添加密钥 → JSON        ║
-║     → 下载后将文件保存到：                                    ║
-║       ~/.openclaw/service-env/gsc-credentials.json           ║
-║                                                              ║
-║  6️⃣  在 GSC 中添加服务账号                                   ║
-║     → 打开 https://search.google.com/search-console          ║
-║     → 选择 jh-hardware.com 网站                              ║
-║     → 设置 → 用户和权限 → 添加用户                          ║
-║     → 输入服务账号邮箱（格式：xxx@xxx.iam.gserviceaccount.com）║
-║     → 权限：完整（或仅限查看）                               ║
-║                                                              ║
-║  7️⃣  运行脚本                                               ║
-║     python3 ~/Sites/hardware-site/scripts/gsc-api-setup.py   ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-"""
+# OAuth 2.0 配置
+# 使用 Google 的公共 OAuth 客户端（已配置好 Search Console API 范围）
+CLIENT_CONFIG = {
+    "installed": {
+        "client_id": "14568524996-1ulgjerdda3ajt8df16rco3pnlv70a64.apps.googleusercontent.com",
+        "project_id": "gsc-497208",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "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",
+        "redirect_uris": ["http://localhost:8080"]
+    }
+}
 
-def check_credentials():
-    """检查凭据文件是否存在"""
-    if not os.path.exists(CREDENTIALS_FILE):
-        print("❌ 未找到 GSC 凭据文件")
-        print(GUIDE)
-        return False
-    print(f"✅ 凭据文件已存在: {CREDENTIALS_FILE}")
-    return True
+SCOPES = ['https://www.googleapis.com/auth/webmasters.readonly']
 
-def test_connection():
-    """测试 GSC API 连接"""
-    import google.auth
-    from google.oauth2 import service_account
+
+def log(msg):
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}")
+
+
+def get_authenticated_service():
+    """获取已认证的 GSC 服务"""
+    from google.oauth2.credentials import Credentials
+    from google.auth.transport.requests import Request
     from googleapiclient.discovery import build
+    from google_auth_oauthlib.flow import InstalledAppFlow
     
-    SCOPES = ['https://www.googleapis.com/auth/webmasters.readonly']
+    creds = None
     
-    try:
-        credentials = service_account.Credentials.from_service_account_file(
-            CREDENTIALS_FILE, scopes=SCOPES)
-        service = build('searchconsole', 'v1', credentials=credentials)
+    # 尝试加载已保存的 token
+    if os.path.exists(TOKEN_FILE):
+        try:
+            with open(TOKEN_FILE) as f:
+                creds = Credentials.from_authorized_user_info(json.load(f), SCOPES)
+        except Exception as e:
+            log(f"⚠️ Token 加载失败: {e}")
+    
+    # 如果 token 过期，刷新
+    if creds and creds.expired and creds.refresh_token:
+        try:
+            creds.refresh(Request())
+            log("✅ Token 已刷新")
+        except Exception as e:
+            log(f"⚠️ Token 刷新失败，需重新授权: {e}")
+            creds = None
+    
+    # 如果没有有效 token，启动 OAuth 流程
+    if not creds or not creds.valid:
+        log("🔑 需要授权，请在浏览器中登录 Google 账号...")
+        flow = InstalledAppFlow.from_client_config(
+            CLIENT_CONFIG, SCOPES)
+        creds = flow.run_local_server(port=8080, open_browser=True)
+        log("✅ 授权成功")
         
-        # 测试：获取网站列表
-        sites = service.sites().list().execute()
-        site_urls = [s['siteUrl'] for s in sites.get('siteEntry', [])]
-        
-        print(f"\n✅ GSC API 连接成功！")
-        print(f"📋 已验证的网站 ({len(site_urls)}):")
-        for url in site_urls:
-            status = "✅" if url == SITE_URL else "  "
-            print(f"   {status} {url}")
-        
-        if SITE_URL not in site_urls:
-            print(f"\n⚠️ {SITE_URL} 不在已验证列表，请检查 GSC 设置")
-            return None
-        
-        return service
-    except Exception as e:
-        print(f"\n❌ 连接失败: {e}")
-        return None
+        # 保存 token
+        with open(TOKEN_FILE, 'w') as f:
+            f.write(creds.to_json())
+        log(f"💾 Token 已保存到: {TOKEN_FILE}")
+    
+    service = build('searchconsole', 'v1', credentials=creds)
+    return service
+
+
+def test_connection(service):
+    """测试 GSC API 连接"""
+    sites = service.sites().list().execute()
+    site_urls = [s['siteUrl'] for s in sites.get('siteEntry', [])]
+    
+    log(f"✅ GSC API 连接成功！")
+    log(f"📋 已验证的网站 ({len(site_urls)}):")
+    for url in site_urls:
+        log(f"   ✅ {url}")
+    
+    # 检查 SITE_URL 或 SITE_URL_HTTP 是否在列表中
+    found = SITE_URL in site_urls
+    if not found:
+        found = SITE_URL_HTTP in site_urls
+    return found
+
 
 def get_performance_data(service, days=90):
     """获取 GSC 效果数据"""
@@ -104,184 +113,177 @@ def get_performance_data(service, days=90):
     end_date = datetime.now().strftime('%Y-%m-%d')
     start_date = (datetime.now() - timedelta(days=days)).strftime('%Y-%m-%d')
     
-    # 按查询（关键词）分组
-    query_request = {
-        'startDate': start_date,
-        'endDate': end_date,
-        'dimensions': ['query'],
-        'rowLimit': 25,
-        'orderBy': [{'fieldName': 'impressions', 'sortOrder': 'DESCENDING'}]
-    }
-    
-    # 按页面分组
-    page_request = {
-        'startDate': start_date,
-        'endDate': end_date,
-        'dimensions': ['page'],
-        'rowLimit': 25,
-        'orderBy': [{'fieldName': 'impressions', 'sortOrder': 'DESCENDING'}]
-    }
-    
-    # 按国家分组
-    country_request = {
-        'startDate': start_date,
-        'endDate': end_date,
-        'dimensions': ['country'],
-        'rowLimit': 10,
-        'orderBy': [{'fieldName': 'impressions', 'sortOrder': 'DESCENDING'}]
+    requests_config = {
+        'queries': {'dimensions': ['query'], 'rowLimit': 25, 'orderBy': [{'fieldName': 'impressions', 'sortOrder': 'DESCENDING'}]},
+        'pages': {'dimensions': ['page'], 'rowLimit': 25, 'orderBy': [{'fieldName': 'impressions', 'sortOrder': 'DESCENDING'}]},
+        'countries': {'dimensions': ['country'], 'rowLimit': 10, 'orderBy': [{'fieldName': 'impressions', 'sortOrder': 'DESCENDING'}]},
     }
     
     results = {}
-    
-    for name, req in [('queries', query_request), ('pages', page_request), ('countries', country_request)]:
+    for name, dims in requests_config.items():
         try:
-            response = service.searchanalytics().query(
-                siteUrl=SITE_URL, body=req).execute()
+            body = {'startDate': start_date, 'endDate': end_date, **dims}
+            response = service.searchanalytics().query(siteUrl=SITE_URL, body=body).execute()
             results[name] = response.get('rows', [])
         except HttpError as e:
-            print(f"  ⚠️ 获取 {name} 失败: {e}")
+            log(f"⚠️ 获取 {name} 失败: {e}")
             results[name] = []
     
     return results, start_date, end_date
 
-def generate_report(service):
+
+def generate_report(service, output=None):
     """生成完整的 SEO 分析报告"""
     results, start_date, end_date = get_performance_data(service)
     
-    report = []
-    report.append(f"# 📊 jh-hardware.com Google Search Console 分析报告")
-    report.append(f"")
-    report.append(f"**数据范围：** {start_date} ~ {end_date}")
-    report.append(f"")
-    
-    # 汇总
     total_clicks = sum(r.get('clicks', 0) for r in results.get('queries', []))
     total_impressions = sum(r.get('impressions', 0) for r in results.get('queries', []))
-    total_ctr = sum(r.get('ctr', 0) for r in results.get('queries', [])) / max(len(results.get('queries', [])), 1)
+    avg_ctr = (total_clicks / total_impressions * 100) if total_impressions > 0 else 0
     
+    report = []
+    report.append(f"# 📊 jh-hardware.com SEO 周报")
+    report.append(f"")
+    report.append(f"**数据范围：** {start_date} ~ {end_date}")
+    report.append(f"**生成时间：** {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    report.append(f"")
+    report.append(f"---")
+    report.append(f"")
+    
+    # 整体概览
     report.append(f"## 📈 整体概览")
     report.append(f"")
     report.append(f"| 指标 | 数值 |")
     report.append(f"|------|------|")
     report.append(f"| 总点击 | {total_clicks} |")
     report.append(f"| 总展示 | {total_impressions} |")
-    report.append(f"| 平均 CTR | {total_ctr:.2%} |")
+    report.append(f"| 平均 CTR | {avg_ctr:.1f}% |")
     report.append(f"")
     
-    # 关键词分析
+    # 关键词
     report.append(f"## 🔍 热门关键词（Top 25）")
     report.append(f"")
-    report.append(f"| 关键词 | 点击 | 展示 | CTR | 平均排名 |")
-    report.append(f"|--------|------|------|-----|---------|")
-    for row in results.get('queries', []):
+    report.append(f"| # | 关键词 | 点击 | 展示 | CTR | 排名 |")
+    report.append(f"|---|--------|------|------|-----|------|")
+    for i, row in enumerate(results.get('queries', [])[:25], 1):
         report.append(
-            f"| {row['keys'][0][:40]} | {row['clicks']} | {row['impressions']} | "
+            f"| {i} | {row['keys'][0][:40]} | {row['clicks']} | {row['impressions']} | "
             f"{row['ctr']:.1%} | {row['position']:.1f} |"
         )
     report.append(f"")
     
-    # 页面分析
+    # 页面
     report.append(f"## 📄 热门页面（Top 25）")
     report.append(f"")
-    report.append(f"| 页面 | 点击 | 展示 | CTR | 平均排名 |")
-    report.append(f"|------|------|------|-----|---------|")
-    for row in results.get('pages', []):
-        page = row['keys'][0].replace(SITE_URL, '').strip('/')
+    report.append(f"| # | 页面 | 点击 | 展示 | CTR | 排名 |")
+    report.append(f"|---|------|------|------|-----|------|")
+    for i, row in enumerate(results.get('pages', [])[:25], 1):
+        page = row['keys'][0].replace(SITE_URL, '').strip('/') or '/'
         report.append(
-            f"| /{page[:50]} | {row['clicks']} | {row['impressions']} | "
+            f"| {i} | /{page[:50]} | {row['clicks']} | {row['impressions']} | "
             f"{row['ctr']:.1%} | {row['position']:.1f} |"
         )
     report.append(f"")
     
-    # 国家分析
-    report.append(f"## 🌍 流量来源国家")
+    # 国家
+    report.append(f"## 🌍 流量来源国家（Top 10）")
     report.append(f"")
-    report.append(f"| 国家 | 点击 | 展示 | CTR | 平均排名 |")
-    report.append(f"|------|------|------|-----|---------|")
-    for row in results.get('countries', []):
-        country = row['keys'][0]
+    report.append(f"| # | 国家 | 点击 | 展示 | CTR | 排名 |")
+    report.append(f"|---|------|------|------|-----|------|")
+    for i, row in enumerate(results.get('countries', [])[:10], 1):
         report.append(
-            f"| {country} | {row['clicks']} | {row['impressions']} | "
+            f"| {i} | {row['keys'][0]} | {row['clicks']} | {row['impressions']} | "
             f"{row['ctr']:.1%} | {row['position']:.1f} |"
         )
     report.append(f"")
     
-    # 建议
+    # 优化建议 - 使用 SITE_URL 前缀匹配
+    site_prefix = SITE_URL.replace('sc-domain:', 'https://') + '/' if 'sc-domain' in SITE_URL else SITE_URL
+    
     report.append(f"## 🎯 优化建议")
     report.append(f"")
     
-    # 找出低 CTR 的高展示关键词
     low_ctr = [r for r in results.get('queries', []) if r['impressions'] > 100 and r['ctr'] < 0.02]
     if low_ctr:
-        report.append(f"### 🔴 高展示低点击关键词（待优化）")
-        report.append(f"以下关键词展示量高但点击率低，建议优化对应的页面标题和描述：")
+        report.append(f"### 🔴 高展示低点击")
+        report.append(f"以下关键词展示多但点击少，建议优化标题/描述：")
         report.append(f"")
         for r in low_ctr[:5]:
-            report.append(f"- **{r['keys'][0]}** — {r['impressions']} 次展示，仅 {r['clicks']} 次点击（CTR {r['ctr']:.1%}）")
+            report.append(f"- **{r['keys'][0]}** → {r['impressions']}次展示 / {r['clicks']}次点击 (CTR {r['ctr']:.1%})")
         report.append(f"")
     
-    # 找出排名 5-10 的页面（离首页一步之遥）
     near_top = [r for r in results.get('pages', []) if 5 <= r['position'] <= 10 and r['impressions'] > 50]
     if near_top:
-        report.append(f"### 🟡 有潜力进入前5的页面")
-        report.append(f"以下页面排名在第5-10位，优化后有机会进入首页：")
+        report.append(f"### 🟡 有潜力进前5")
+        report.append(f"以下页面排名5-10位，优化可冲首页：")
         report.append(f"")
         for r in sorted(near_top, key=lambda x: x['position'])[:5]:
-            page = r['keys'][0].replace(SITE_URL, '').strip('/')
-            report.append(f"- /{page[:50]} — 排名 {r['position']:.1f}，{r['impressions']} 次展示")
+            page = r['keys'][0].replace(site_prefix, '').strip('/') or '/'
+            report.append(f"- /{page[:50]} → 排名 {r['position']:.1f}")
         report.append(f"")
     
-    # Top 关键词
     top_kw = [r for r in results.get('queries', []) if r['position'] <= 3 and r['impressions'] > 50]
     if top_kw:
-        report.append(f"### 🟢 排名前三的强项关键词")
-        report.append(f"以下关键词已在首页，继续保持：")
+        report.append(f"### 🟢 排名前三的强项")
+        report.append(f"以下关键词在首页，继续保持：")
         report.append(f"")
         for r in sorted(top_kw, key=lambda x: x['clicks'], reverse=True)[:5]:
-            report.append(f"- **{r['keys'][0][:40]}** — 排名 {r['position']:.1f}，{r['clicks']} 次点击")
+            report.append(f"- **{r['keys'][0][:40]}** → 排名 {r['position']:.1f}")
         report.append(f"")
     
     report.append(f"---")
-    report.append(f"*自动生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M')}*")
+    report.append(f"*自动生成*")
     
-    return '\n'.join(report)
+    report_text = '\n'.join(report)
+    print(report_text)
+    
+    if output:
+        with open(output, 'w') as f:
+            f.write(report_text)
+        log(f"📝 报告已保存: {output}")
+    
+    return report_text
+
 
 def main():
-    parser = argparse.ArgumentParser(description='Google Search Console API 工具')
-    parser.add_argument('--guide', action='store_true', help='显示设置指南')
-    parser.add_argument('--test', action='store_true', help='测试 GSC 连接')
-    parser.add_argument('--report', action='store_true', help='生成 GSC 分析报告')
+    parser = argparse.ArgumentParser(description='GSC 数据分析工具')
+    parser.add_argument('--auth', action='store_true', help='首次授权（浏览器登录）')
+    parser.add_argument('--test', action='store_true', help='测试连接')
+    parser.add_argument('--report', action='store_true', help='生成周报')
     parser.add_argument('--output', default=None, help='报告输出路径')
     args = parser.parse_args()
     
-    if args.guide or not (args.test or args.report):
-        print(GUIDE)
-        return
-    
-    if not check_credentials():
+    if args.auth:
+        log("🔑 正在打开浏览器进行 Google 授权...")
+        log("登录你的 Google 账号（就是管理 Search Console 的那个账号）")
+        log("点击允许后，token 会自动保存，以后就不用再授权了")
+        service = get_authenticated_service()
+        test_connection(service)
         return
     
     if args.test:
-        service = test_connection()
+        service = get_authenticated_service()
+        test_connection(service)
         return
     
     if args.report:
-        service = test_connection()
-        if not service:
-            return
-        report = generate_report(service)
-        print("\n" + report)
-        
-        if args.output:
-            os.makedirs(os.path.dirname(args.output) or '.', exist_ok=True)
-            with open(args.output, 'w') as f:
-                f.write(report)
-            print(f"\n📝 报告已保存到: {args.output}")
-        else:
-            output_path = f"~/Sites/hardware-site/docs/gsc-report-{datetime.now().strftime('%Y%m%d')}.md"
-            with open(os.path.expanduser(output_path), 'w') as f:
-                f.write(report)
-            print(f"\n📝 报告已保存到: {output_path}")
+        service = get_authenticated_service()
+        if test_connection(service):
+            if args.output:
+                generate_report(service, args.output)
+            else:
+                output = os.path.expanduser(f"~/Sites/hardware-site/docs/gsc-weekly-{datetime.now().strftime('%Y%m%d')}.md")
+                generate_report(service, output)
+        return
+    
+    print("使用方法：")
+    print("  首次授权：  python3 gsc-api-setup.py --auth")
+    print("  测试连接：  python3 gsc-api-setup.py --test")
+    print("  生成周报：  python3 gsc-api-setup.py --report")
+
 
 if __name__ == '__main__':
+    # 设置代理（如果有）
+    for env_var in ['HTTPS_PROXY', 'HTTP_PROXY', 'ALL_PROXY']:
+        if not os.environ.get(env_var):
+            os.environ[env_var] = 'http://127.0.0.1:7890'
     main()

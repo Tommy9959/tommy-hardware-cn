@@ -95,17 +95,19 @@ check_schema() {
 
 # 检查 GSC 凭据
 check_gsc_credentials() {
-    if [ -f "$HOME/.openclaw/service-env/gsc-credentials.json" ]; then
-        echo "| GSC API 凭据 | ✅ | 已配置 |"
-        # 尝试获取 GSC 数据（超时 5 秒）
-        local gsc_output=$(timeout 8 python3 "$SCRIPT_DIR/gsc-api-setup.py" --report --output /tmp/gsc-weekly-latest.md 2>/dev/null)
+    if [ -f "$HOME/.openclaw/service-env/gsc-oauth-token.json" ]; then
+        echo "| GSC API 凭据 | ✅ | OAuth Token 已配置 |"
+        # 尝试获取 GSC 数据（超时 15 秒，因为需要刷新 token）
+        local gsc_output=$(timeout 15 python3 "$SCRIPT_DIR/gsc-api-setup.py" --report --output /tmp/gsc-weekly-latest.md 2>/dev/null)
         if [ -f /tmp/gsc-weekly-latest.md ] && [ -s /tmp/gsc-weekly-latest.md ]; then
             echo "| GSC 数据拉取 | ✅ | 成功 |"
         else
-            echo "| GSC 数据拉取 | ⚠️ | API 调用超时或失败 |"
+            echo "| GSC 数据拉取 | ⚠️ | API 调用失败 |"
         fi
+    elif [ -f "$HOME/.openclaw/service-env/gsc-credentials.json" ]; then
+        echo "| GSC API 凭据 | ⏸️ | 旧版 service account 凭据，建议用 OAuth 重授权 |"
     else
-        echo "| GSC API 凭据 | ⏸️ | 未配置（可运行 gsc-api-setup.py --guide 设置） |"
+        echo "| GSC API 凭据 | ⏸️ | 未配置（运行 gsc-api-setup.py --auth 授权） |"
     fi
 }
 
