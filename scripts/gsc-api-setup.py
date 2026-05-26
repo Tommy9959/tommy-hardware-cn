@@ -177,9 +177,9 @@ def generate_report(service, output=None):
     report.append(f"| # | 页面 | 点击 | 展示 | CTR | 排名 |")
     report.append(f"|---|------|------|------|-----|------|")
     for i, row in enumerate(results.get('pages', [])[:25], 1):
-        page = row['keys'][0].replace(SITE_URL, '').strip('/') or '/'
+        page = row['keys'][0].replace('sc-domain:jh-hardware.com/', '/').replace('sc-domain:jh-hardware.com', '/').replace('https://jh-hardware.com', '/').replace('https://www.jh-hardware.com', '/').strip('/') or '/'
         report.append(
-            f"| {i} | /{page[:50]} | {row['clicks']} | {row['impressions']} | "
+            f"| {i} | {'/' + page[:50] if page != '/' else page} | {row['clicks']} | {row['impressions']} | "
             f"{row['ctr']:.1%} | {row['position']:.1f} |"
         )
     report.append(f"")
@@ -217,8 +217,8 @@ def generate_report(service, output=None):
         report.append(f"以下页面排名5-10位，优化可冲首页：")
         report.append(f"")
         for r in sorted(near_top, key=lambda x: x['position'])[:5]:
-            page = r['keys'][0].replace(site_prefix, '').strip('/') or '/'
-            report.append(f"- /{page[:50]} → 排名 {r['position']:.1f}")
+            page = r['keys'][0].replace('sc-domain:jh-hardware.com/', '/').replace('sc-domain:jh-hardware.com', '/').replace('https://jh-hardware.com', '/').replace('https://www.jh-hardware.com', '/').strip('/') or '/'
+            report.append(f"- {'/' + page[:50] if page != '/' else page} → 排名 {r['position']:.1f}")
         report.append(f"")
     
     top_kw = [r for r in results.get('queries', []) if r['position'] <= 3 and r['impressions'] > 50]
@@ -282,7 +282,18 @@ def main():
 
 
 if __name__ == '__main__':
-    # 设置代理（如果有）
+    # 尝试加载 custom.env 代理配置
+    custom_env_path = os.path.expanduser('~/.openclaw/service-env/custom.env')
+    if os.path.exists(custom_env_path):
+        with open(custom_env_path) as f:
+            for line in f:
+                line = line.strip()
+                if line.startswith('export '):
+                    parts = line[7:].split('=', 1)
+                    if len(parts) == 2 and parts[0] in ['HTTP_PROXY', 'HTTPS_PROXY', 'http_proxy', 'https_proxy']:
+                        if not os.environ.get(parts[0]):
+                            os.environ[parts[0]] = parts[1].strip('"\'')
+    # 备用：仍无代理则使用默认端口
     for env_var in ['HTTPS_PROXY', 'HTTP_PROXY', 'ALL_PROXY']:
         if not os.environ.get(env_var):
             os.environ[env_var] = 'http://127.0.0.1:7890'

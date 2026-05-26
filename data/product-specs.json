@@ -1,0 +1,4165 @@
+{
+  "door-locks": {
+    "dl-001": {
+      "model": "755-151",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.6 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-002": {
+      "model": "755-113",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "23.6 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-003": {
+      "model": "755-181",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.0 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-004": {
+      "model": "755-261",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.5 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-005": {
+      "model": "755-171",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.2 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-006": {
+      "model": "755-172",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.3 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-007": {
+      "model": "755-281",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.8 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-008": {
+      "model": "755-191",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.4 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-009": {
+      "model": "755-192",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.6 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-010": {
+      "model": "755-121",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "23.8 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-011": {
+      "model": "755-251",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.1 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-012": {
+      "model": "755-131",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.0 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-013": {
+      "model": "755-141",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.4 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-014": {
+      "model": "755-152",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.7 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-015": {
+      "model": "755-162",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.5 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-016": {
+      "model": "837-352",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "210 x 95 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "145 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "20 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "26.1 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-017": {
+      "model": "837-353",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "210 x 95 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "145 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "20 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "26.0 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-018": {
+      "model": "837-362",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB / BN/SN / MAE"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "210 x 95 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "145 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "20 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "26.3 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-019": {
+      "model": "837-371",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "210 x 95 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "145 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "20 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "25.8 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-020": {
+      "model": "837-381",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB / BN/SN / MAE"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "210 x 95 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "145 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "20 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "26.5 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-021": {
+      "model": "955-118",
+      "type": "Iron Plate + Aluminum Handle Door Lock (Large)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB / BN/SN / MAE"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "40-55 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "230 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "20 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "21.86 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-022": {
+      "model": "955-128",
+      "type": "Iron Plate + Aluminum Handle Door Lock (Large)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB / BN/SN / MAE"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "40-55 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "230 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "20 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "22.0 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-023": {
+      "model": "955-138",
+      "type": "Iron Plate + Aluminum Handle Door Lock (Large)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB / BN/SN / MAE"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "40-55 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "230 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "20 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "22.5 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-024": {
+      "model": "955-148",
+      "type": "Iron Plate + Aluminum Handle Door Lock (Large)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB / BN/SN / MAE"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "40-55 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "230 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "20 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "22.3 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-025": {
+      "model": "955-158",
+      "type": "Iron Plate + Aluminum Handle Door Lock (Large)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB / BN/SN / MAE"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "40-55 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "230 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "20 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "22.8 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    },
+    "dl-026": {
+      "model": "705-126",
+      "type": "Iron Plate Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available (AB, BN, SN)"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "190 x 85 x 22 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "135 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-027": {
+      "model": "705-136",
+      "type": "Iron Plate Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available (AB, BN, SN)"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "190 x 85 x 22 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "135 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-028": {
+      "model": "705-146",
+      "type": "Iron Plate Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available (AB, BN, SN)"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "190 x 85 x 22 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "135 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-029": {
+      "model": "7129-107",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-030": {
+      "model": "7129-181",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-031": {
+      "model": "7129-231",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-032": {
+      "model": "7129-237",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-033": {
+      "model": "7129-271",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-034": {
+      "model": "7129-117",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-035": {
+      "model": "7129-127",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-036": {
+      "model": "7129-137",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-037": {
+      "model": "7129-147",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-038": {
+      "model": "7129-157",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-039": {
+      "model": "7129-167",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-040": {
+      "model": "7129-177",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-041": {
+      "model": "7129-187",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-042": {
+      "model": "7129-197",
+      "type": "Iron Plate Door Lock (Security)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.0 - 3.5 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-043": {
+      "model": "7340-375",
+      "type": "Iron Plate Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "215 x 95 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "145 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-044": {
+      "model": "7340-385",
+      "type": "Iron Plate Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "215 x 95 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "145 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-045": {
+      "model": "9129-107",
+      "type": "Iron Plate Door Lock (Heavy Duty)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "220 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-046": {
+      "model": "9129-126",
+      "type": "Iron Plate Door Lock (Heavy Duty)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "220 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-047": {
+      "model": "9129-136",
+      "type": "Iron Plate Door Lock (Heavy Duty)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "220 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-048": {
+      "model": "9129-236",
+      "type": "Iron Plate Door Lock (Heavy Duty)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "220 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-049": {
+      "model": "9129-146",
+      "type": "Iron Plate Door Lock (Heavy Duty)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "220 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-050": {
+      "model": "9129-156",
+      "type": "Iron Plate Door Lock (Heavy Duty)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "220 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-051": {
+      "model": "9129-166",
+      "type": "Iron Plate Door Lock (Heavy Duty)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "220 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-052": {
+      "model": "9129-176",
+      "type": "Iron Plate Door Lock (Heavy Duty)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "220 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-053": {
+      "model": "9129-186",
+      "type": "Iron Plate Door Lock (Heavy Duty)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "220 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-054": {
+      "model": "9129-196",
+      "type": "Iron Plate Door Lock (Heavy Duty)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "220 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-055": {
+      "model": "9129-206",
+      "type": "Iron Plate Door Lock (Heavy Duty)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "220 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-056": {
+      "model": "9129-216",
+      "type": "Iron Plate Door Lock (Heavy Duty)",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "Various finishes available"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "220 x 100 x 28 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "150 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "70 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "Individual box + export carton"
+        },
+        {
+          "label": "Weight",
+          "value": "2.5 - 4.0 kg/set"
+        },
+        {
+          "label": "MOQ",
+          "value": "100 sets"
+        },
+        {
+          "label": "Lead Time",
+          "value": "Samples: 5-7 days, Bulk: 15-25 days"
+        }
+      ]
+    },
+    "dl-057": {
+      "model": "755-SERIES",
+      "type": "Iron Plate + Aluminum Handle Door Lock",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Mortise Rim Lock (Handle Type)"
+        },
+        {
+          "label": "Material",
+          "value": "Iron Plate Body + Aluminum Handle"
+        },
+        {
+          "label": "Finish",
+          "value": "AB Antique Bronze"
+        },
+        {
+          "label": "Suitable Door Thickness",
+          "value": "35-50 mm"
+        },
+        {
+          "label": "Lock Body Size",
+          "value": "200 x 90 x 25 mm"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Backset",
+          "value": "60 mm"
+        },
+        {
+          "label": "Packing",
+          "value": "24 pcs/carton"
+        },
+        {
+          "label": "Weight",
+          "value": "24.0 - 25.0 kg/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-25 days"
+        }
+      ]
+    }
+  },
+  "door-hinges": {
+    "hh-001": {
+      "model": "HH-001",
+      "type": "Standard Door Hinge (4\")",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Stainless Steel / Steel / Brass"
+        },
+        {
+          "label": "Finish",
+          "value": "Satin / Polished / Zinc Plated"
+        },
+        {
+          "label": "Size",
+          "value": "100 x 75 x 2.5 mm (4 x 3 inch)"
+        },
+        {
+          "label": "Thickness",
+          "value": "2.5 mm (Steel), 3.0 mm (SS/Brass)"
+        },
+        {
+          "label": "Knuckles",
+          "value": "4"
+        },
+        {
+          "label": "Screw Holes",
+          "value": "6 (3 per leaf)"
+        },
+        {
+          "label": "Load Capacity",
+          "value": "40 kg per pair"
+        },
+        {
+          "label": "Packing",
+          "value": "100 pcs/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "1000 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "12-20 days"
+        }
+      ]
+    },
+    "hh-002": {
+      "model": "HH-002",
+      "type": "Heavy Duty Door Hinge (4\")",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Stainless Steel / Steel / Brass"
+        },
+        {
+          "label": "Finish",
+          "value": "Satin / Polished / Zinc Plated"
+        },
+        {
+          "label": "Size",
+          "value": "100 x 75 x 3.0 mm (4 x 3 inch)"
+        },
+        {
+          "label": "Thickness",
+          "value": "3.0 mm"
+        },
+        {
+          "label": "Knuckles",
+          "value": "4"
+        },
+        {
+          "label": "Screw Holes",
+          "value": "6 (3 per leaf)"
+        },
+        {
+          "label": "Load Capacity",
+          "value": "50 kg per pair"
+        },
+        {
+          "label": "Packing",
+          "value": "100 pcs/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "1000 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "12-20 days"
+        }
+      ]
+    },
+    "hh-003": {
+      "model": "HH-003",
+      "type": "Standard Door Hinge (3.5\")",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Stainless Steel / Steel / Brass"
+        },
+        {
+          "label": "Finish",
+          "value": "Satin / Polished / Zinc Plated"
+        },
+        {
+          "label": "Size",
+          "value": "87 x 65 x 2.5 mm (3.5 x 2.5 inch)"
+        },
+        {
+          "label": "Thickness",
+          "value": "2.5 mm"
+        },
+        {
+          "label": "Knuckles",
+          "value": "4"
+        },
+        {
+          "label": "Screw Holes",
+          "value": "6 (3 per leaf)"
+        },
+        {
+          "label": "Load Capacity",
+          "value": "35 kg per pair"
+        },
+        {
+          "label": "Packing",
+          "value": "100 pcs/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "1000 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "12-20 days"
+        }
+      ]
+    },
+    "hh-004": {
+      "model": "HH-004",
+      "type": "Heavy Duty Door Hinge (5\")",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Stainless Steel / Steel / Brass"
+        },
+        {
+          "label": "Finish",
+          "value": "Satin / Polished / Zinc Plated"
+        },
+        {
+          "label": "Size",
+          "value": "125 x 80 x 3.0 mm (5 x 3.25 inch)"
+        },
+        {
+          "label": "Thickness",
+          "value": "3.0 mm"
+        },
+        {
+          "label": "Knuckles",
+          "value": "5"
+        },
+        {
+          "label": "Screw Holes",
+          "value": "8 (4 per leaf)"
+        },
+        {
+          "label": "Load Capacity",
+          "value": "60 kg per pair"
+        },
+        {
+          "label": "Packing",
+          "value": "80 pcs/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "1000 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "12-20 days"
+        }
+      ]
+    },
+    "hh-005": {
+      "model": "HH-005",
+      "type": "Spring Door Hinge (Self-Closing)",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Stainless Steel / Steel"
+        },
+        {
+          "label": "Finish",
+          "value": "Satin / Zinc Plated"
+        },
+        {
+          "label": "Size",
+          "value": "100 x 75 x 3.0 mm (4 x 3 inch)"
+        },
+        {
+          "label": "Thickness",
+          "value": "3.0 mm"
+        },
+        {
+          "label": "Type",
+          "value": "Spring-loaded self-closing"
+        },
+        {
+          "label": "Spring Tension",
+          "value": "Adjustable"
+        },
+        {
+          "label": "Load Capacity",
+          "value": "45 kg per pair"
+        },
+        {
+          "label": "Packing",
+          "value": "80 pcs/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "1000 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "12-20 days"
+        }
+      ]
+    },
+    "hh-006": {
+      "model": "HH-006",
+      "type": "Decorative Door Hinge (3\")",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Brass / Stainless Steel"
+        },
+        {
+          "label": "Finish",
+          "value": "Polished Brass / Satin Chrome / Antique Bronze"
+        },
+        {
+          "label": "Size",
+          "value": "75 x 55 x 2.5 mm (3 x 2.25 inch)"
+        },
+        {
+          "label": "Thickness",
+          "value": "2.5 mm"
+        },
+        {
+          "label": "Knuckles",
+          "value": "4"
+        },
+        {
+          "label": "Screw Holes",
+          "value": "6 (3 per leaf)"
+        },
+        {
+          "label": "Load Capacity",
+          "value": "25 kg per pair"
+        },
+        {
+          "label": "Packing",
+          "value": "120 pcs/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "1000 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "12-20 days"
+        }
+      ]
+    }
+  },
+  "door-handles": {
+    "dh-001": {
+      "model": "DH-001",
+      "type": "Stainless Steel Lever Handle",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "SS304 Stainless Steel"
+        },
+        {
+          "label": "Finish",
+          "value": "Satin / Chrome / Polished"
+        },
+        {
+          "label": "Handle Length",
+          "value": "135 mm"
+        },
+        {
+          "label": "Center Distance",
+          "value": "38 mm (UK Standard)"
+        },
+        {
+          "label": "Spindle Size",
+          "value": "8 x 8 mm"
+        },
+        {
+          "label": "Rose Diameter",
+          "value": "52 mm"
+        },
+        {
+          "label": "Application",
+          "value": "Interior/Exterior doors"
+        },
+        {
+          "label": "Packing",
+          "value": "100 sets/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-20 days"
+        }
+      ]
+    },
+    "dh-002": {
+      "model": "DH-002",
+      "type": "Aluminum Alloy Lever Handle",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Aluminum Alloy 6063"
+        },
+        {
+          "label": "Finish",
+          "value": "Anodized / Powder Coated"
+        },
+        {
+          "label": "Handle Length",
+          "value": "130 mm"
+        },
+        {
+          "label": "Center Distance",
+          "value": "38 mm (UK Standard)"
+        },
+        {
+          "label": "Spindle Size",
+          "value": "8 x 8 mm"
+        },
+        {
+          "label": "Rose Diameter",
+          "value": "50 mm"
+        },
+        {
+          "label": "Application",
+          "value": "Interior doors, Office doors"
+        },
+        {
+          "label": "Packing",
+          "value": "100 sets/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "500 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "12-18 days"
+        }
+      ]
+    },
+    "dh-003": {
+      "model": "DH-003",
+      "type": "Premium Lever Handle (Heavy Duty)",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Zinc Alloy / Stainless Steel"
+        },
+        {
+          "label": "Finish",
+          "value": "Satin Chrome / Polished Chrome / Matt Black / Antique Bronze"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Center Distance",
+          "value": "38 mm (UK Standard)"
+        },
+        {
+          "label": "Spindle Size",
+          "value": "8 x 8 mm"
+        },
+        {
+          "label": "Rose Diameter",
+          "value": "55 mm"
+        },
+        {
+          "label": "Application",
+          "value": "Interior/Exterior doors"
+        },
+        {
+          "label": "Packing",
+          "value": "80 sets/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-20 days"
+        }
+      ]
+    },
+    "dh-004": {
+      "model": "DH-004",
+      "type": "Modern Lever Handle (Privacy)",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Zinc Alloy / Stainless Steel"
+        },
+        {
+          "label": "Finish",
+          "value": "Satin Chrome / Matt Black / Brushed Nickel"
+        },
+        {
+          "label": "Handle Length",
+          "value": "135 mm"
+        },
+        {
+          "label": "Center Distance",
+          "value": "38 mm (UK Standard)"
+        },
+        {
+          "label": "Spindle Size",
+          "value": "8 x 8 mm"
+        },
+        {
+          "label": "Rose Diameter",
+          "value": "53 mm"
+        },
+        {
+          "label": "Function",
+          "value": "Privacy lock (turn button on inside)"
+        },
+        {
+          "label": "Application",
+          "value": "Bathroom / Bedroom doors"
+        },
+        {
+          "label": "Packing",
+          "value": "80 sets/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-20 days"
+        }
+      ]
+    },
+    "dh-005": {
+      "model": "DH-005",
+      "type": "Premium Privacy Lever Handle",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Zinc Alloy / Stainless Steel"
+        },
+        {
+          "label": "Finish",
+          "value": "Polished Chrome / Satin Chrome / Matt Black / Antique Brass"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Center Distance",
+          "value": "38 mm (UK Standard)"
+        },
+        {
+          "label": "Spindle Size",
+          "value": "8 x 8 mm"
+        },
+        {
+          "label": "Rose Diameter",
+          "value": "55 mm"
+        },
+        {
+          "label": "Function",
+          "value": "Privacy lock (turn button, emergency release)"
+        },
+        {
+          "label": "Application",
+          "value": "Bathroom / Bedroom doors"
+        },
+        {
+          "label": "Packing",
+          "value": "80 sets/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-20 days"
+        }
+      ]
+    },
+    "dh-006": {
+      "model": "DH-006",
+      "type": "Premium Passage Lever Handle",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Zinc Alloy / Stainless Steel"
+        },
+        {
+          "label": "Finish",
+          "value": "Polished Chrome / Satin Chrome / Matt Black / Antique Brass"
+        },
+        {
+          "label": "Handle Length",
+          "value": "140 mm"
+        },
+        {
+          "label": "Center Distance",
+          "value": "38 mm (UK Standard)"
+        },
+        {
+          "label": "Spindle Size",
+          "value": "8 x 8 mm"
+        },
+        {
+          "label": "Rose Diameter",
+          "value": "55 mm"
+        },
+        {
+          "label": "Function",
+          "value": "Passage set (turn to open, no lock)"
+        },
+        {
+          "label": "Application",
+          "value": "Hallway / Living room / Office doors"
+        },
+        {
+          "label": "Packing",
+          "value": "80 sets/carton"
+        },
+        {
+          "label": "MOQ",
+          "value": "400 pcs"
+        },
+        {
+          "label": "Lead Time",
+          "value": "15-20 days"
+        }
+      ]
+    }
+  },
+  "padlocks": {
+    "gtk": {
+      "type": "WaterProof Padlock With Plastic Cover",
+      "specs": [
+        [
+          "Lock Body Material",
+          "Iron Body"
+        ],
+        [
+          "Cylinder Material",
+          "Solid Brass Cylinder"
+        ],
+        [
+          "Shackle Material",
+          "A3 Steel Shackle"
+        ],
+        [
+          "Surface Finish",
+          "Plastic Cover (Waterproof)"
+        ],
+        [
+          "Type",
+          "Laminated Padlock (Plastic Coated)"
+        ],
+        [
+          "Keys per Lock",
+          "3"
+        ],
+        [
+          "Size Range",
+          "45 mm - 80 mm"
+        ],
+        [
+          "Available Models",
+          "RD-GTK45, RD-GTK55, RD-GTK70"
+        ],
+        [
+          "Packing",
+          "Double Blister"
+        ],
+        [
+          "MOQ",
+          "400 pcs"
+        ],
+        [
+          "Certification",
+          "ISO 9001, CE, SGS"
+        ]
+      ],
+      "variants": [
+        [
+          "RD-GTK45",
+          "45 mm",
+          "46x40x24 mm",
+          "6.8 mm",
+          "165 g",
+          "96 pcs",
+          "$0.94"
+        ],
+        [
+          "RD-GTK55",
+          "55 mm",
+          "57x48x28 mm",
+          "8.5 mm",
+          "315 g",
+          "72 pcs",
+          "$1.32"
+        ],
+        [
+          "RD-GTK70",
+          "70 mm",
+          "71x56x32 mm",
+          "10 mm",
+          "541 g",
+          "48 pcs",
+          "$1.79"
+        ]
+      ]
+    },
+    "hhl": {
+      "type": "Heavy Duty Rectangle Iron Padlock",
+      "specs": [
+        [
+          "Lock Body Material",
+          "Iron Body"
+        ],
+        [
+          "Cylinder Material",
+          "Solid Brass Cylinder"
+        ],
+        [
+          "Shackle Material",
+          "A3 Steel Shackle (12.8 mm dia)"
+        ],
+        [
+          "Surface Finish",
+          "Nickel Painting"
+        ],
+        [
+          "Type",
+          "Heavy Duty Rectangle Padlock"
+        ],
+        [
+          "Keys per Lock",
+          "3 or 5"
+        ],
+        [
+          "Size Range",
+          "74 mm - 94 mm"
+        ],
+        [
+          "Available Models",
+          "RD-HHL74, RD-HHL84, RD-HHL94"
+        ],
+        [
+          "Packing",
+          "Gift Packing / Double Blister"
+        ],
+        [
+          "MOQ",
+          "400 pcs"
+        ],
+        [
+          "Certification",
+          "ISO 9001, CE, SGS"
+        ]
+      ],
+      "variants": [
+        [
+          "RD-HHL74",
+          "74 mm",
+          "74x70x29 mm",
+          "12.8 mm",
+          "-",
+          "24 pcs",
+          "$2.40"
+        ],
+        [
+          "RD-HHL84",
+          "84 mm",
+          "84x70x29 mm",
+          "12.8 mm",
+          "956 g",
+          "24 pcs",
+          "$2.59"
+        ],
+        [
+          "RD-HHL94",
+          "94 mm",
+          "94x70x29 mm",
+          "12.8 mm",
+          "1050 g",
+          "24 pcs",
+          "$2.71"
+        ]
+      ]
+    },
+    "hlv": {
+      "type": "Cr-Plated Rectangular Iron Padlock (Vane Key)",
+      "specs": [
+        [
+          "Lock Body Material",
+          "Iron Body"
+        ],
+        [
+          "Cylinder Material",
+          "Iron Discs Cylinder (Vane Key)"
+        ],
+        [
+          "Shackle Material",
+          "A3 Steel Shackle"
+        ],
+        [
+          "Surface Finish",
+          "Chrome Plated"
+        ],
+        [
+          "Type",
+          "Rectangular Padlock with Vane Key"
+        ],
+        [
+          "Keys per Lock",
+          "3"
+        ],
+        [
+          "Size Range",
+          "50 mm - 100 mm"
+        ],
+        [
+          "Available Models",
+          "RD-HLV50, RD-HLV60, RD-HLV70, RD-HLV80, RD-HLV90, RD-HLV100"
+        ],
+        [
+          "Packing",
+          "Double Blister"
+        ],
+        [
+          "MOQ",
+          "400 pcs"
+        ],
+        [
+          "Certification",
+          "ISO 9001, CE, SGS"
+        ]
+      ],
+      "variants": [
+        [
+          "RD-HLV50",
+          "50 mm",
+          "50x46x17 mm",
+          "8 mm",
+          "215 g",
+          "72 pcs",
+          "$0.94"
+        ],
+        [
+          "RD-HLV60",
+          "60 mm",
+          "60x46x17 mm",
+          "8 mm",
+          "246 g",
+          "72 pcs",
+          "$1.08"
+        ],
+        [
+          "RD-HLV70",
+          "70 mm",
+          "69x50x18 mm",
+          "10 mm",
+          "343 g",
+          "72 pcs",
+          "$1.28"
+        ],
+        [
+          "RD-HLV80",
+          "80 mm",
+          "78x50x18 mm",
+          "10 mm",
+          "370 g",
+          "48 pcs",
+          "$1.46"
+        ],
+        [
+          "RD-HLV90",
+          "90 mm",
+          "87x55x20 mm",
+          "11 mm",
+          "548 g",
+          "48 pcs",
+          "$1.70"
+        ],
+        [
+          "RD-HLV100",
+          "100 mm",
+          "93x55x20 mm",
+          "11 mm",
+          "575 g",
+          "48 pcs",
+          "$1.81"
+        ]
+      ]
+    },
+    "ltn": {
+      "type": "Imitate Brass Hammer Padlock",
+      "specs": [
+        [
+          "Lock Body Material",
+          "Iron Body"
+        ],
+        [
+          "Cylinder Material",
+          "Solid Brass Cylinder"
+        ],
+        [
+          "Shackle Material",
+          "A3 Steel Shackle"
+        ],
+        [
+          "Surface Finish",
+          "Imitate Brass Painting"
+        ],
+        [
+          "Type",
+          "Long Shackle Hammer Padlock"
+        ],
+        [
+          "Keys per Lock",
+          "3"
+        ],
+        [
+          "Size Range",
+          "30 mm - 80 mm"
+        ],
+        [
+          "Available Models",
+          "RD-LTN30, RD-LTN40, RD-LTN50, RD-LTN60, RD-LTN70, RD-LTN80"
+        ],
+        [
+          "Packing",
+          "Double Blister"
+        ],
+        [
+          "MOQ",
+          "400 pcs"
+        ],
+        [
+          "Certification",
+          "ISO 9001, CE, SGS"
+        ]
+      ],
+      "variants": [
+        [
+          "RD-LTN30",
+          "30 mm",
+          "30x20x20 mm",
+          "4.3 mm",
+          "-",
+          "144 pcs",
+          "$0.64"
+        ],
+        [
+          "RD-LTN40",
+          "40 mm",
+          "40x24x24 mm",
+          "6.3 mm",
+          "134 g",
+          "96 pcs",
+          "$0.83"
+        ],
+        [
+          "RD-LTN50",
+          "50 mm",
+          "50x27x27 mm",
+          "7.7 mm",
+          "210 g",
+          "72 pcs",
+          "$1.02"
+        ],
+        [
+          "RD-LTN60",
+          "60 mm",
+          "60x30x30 mm",
+          "8.5 mm",
+          "315 g",
+          "48 pcs",
+          "$1.25"
+        ],
+        [
+          "RD-LTN70",
+          "70 mm",
+          "70x34x34 mm",
+          "9.5 mm",
+          "435 g",
+          "36 pcs",
+          "$1.51"
+        ],
+        [
+          "RD-LTN80",
+          "80 mm",
+          "80x38x38 mm",
+          "10.5 mm",
+          "565 g",
+          "24 pcs",
+          "$1.78"
+        ]
+      ]
+    },
+    "sf": {
+      "type": "CR-Plated Square Iron Padlock (Vane Key)",
+      "specs": [
+        [
+          "Lock Body Material",
+          "Iron Body"
+        ],
+        [
+          "Cylinder Material",
+          "Iron Discs Cylinder (Vane Key)"
+        ],
+        [
+          "Shackle Material",
+          "A3 Steel Shackle"
+        ],
+        [
+          "Surface Finish",
+          "Chrome Plated"
+        ],
+        [
+          "Type",
+          "Square Padlock with Vane Key"
+        ],
+        [
+          "Keys per Lock",
+          "3"
+        ],
+        [
+          "Size Range",
+          "30 mm - 70 mm"
+        ],
+        [
+          "Available Models",
+          "RD-SF30-3, RD-BSF40-3, RD-BSF50-3, RD-BSF60-3, RD-BSF70-3"
+        ],
+        [
+          "Packing",
+          "Double Blister"
+        ],
+        [
+          "MOQ",
+          "400 pcs"
+        ],
+        [
+          "Certification",
+          "ISO 9001, CE, SGS"
+        ]
+      ],
+      "variants": [
+        [
+          "RD-SF30-3",
+          "30 mm",
+          "30x26x15 mm",
+          "5 mm",
+          "84 g",
+          "144 pcs",
+          "$0.42"
+        ],
+        [
+          "RD-BSF40-3",
+          "40 mm",
+          "38x32x17 mm",
+          "6.7 mm",
+          "155 g",
+          "96 pcs",
+          "$0.60"
+        ],
+        [
+          "RD-BSF50-3",
+          "50 mm",
+          "46x37x17 mm",
+          "7.8 mm",
+          "211 g",
+          "96 pcs",
+          "$0.76"
+        ],
+        [
+          "RD-BSF60-3",
+          "60 mm",
+          "59x46x20 mm",
+          "9.5 mm",
+          "340 g",
+          "48 pcs",
+          "$1.00"
+        ],
+        [
+          "RD-BSF70-3",
+          "70 mm",
+          "69x50x20 mm",
+          "10.5 mm",
+          "490 g",
+          "48 pcs",
+          "$1.24"
+        ]
+      ]
+    },
+    "sfn": {
+      "type": "Golden Square Iron Padlock",
+      "specs": [
+        [
+          "Lock Body Material",
+          "Iron Body"
+        ],
+        [
+          "Cylinder Material",
+          "Half Brass Cylinder"
+        ],
+        [
+          "Shackle Material",
+          "A3 Steel Shackle"
+        ],
+        [
+          "Surface Finish",
+          "Golden Painting"
+        ],
+        [
+          "Type",
+          "Square Padlock (Golden Finish)"
+        ],
+        [
+          "Keys per Lock",
+          "3"
+        ],
+        [
+          "Size Range",
+          "32 mm - 70 mm"
+        ],
+        [
+          "Available Models",
+          "RD-SFN32, RD-SFN38, RD-SFN50, RD-SFN60, RD-SFN70, RD-SFN32L, RD-SFN38L, RD-SFN50L"
+        ],
+        [
+          "Packing",
+          "Double Blister"
+        ],
+        [
+          "MOQ",
+          "400 pcs"
+        ],
+        [
+          "Certification",
+          "ISO 9001, CE, SGS"
+        ]
+      ],
+      "variants": [
+        [
+          "RD-SFN32",
+          "32 mm",
+          "32x29x14 mm",
+          "5 mm",
+          "97 g",
+          "192 pcs",
+          "$0.50"
+        ],
+        [
+          "RD-SFN38",
+          "38 mm",
+          "38x35x15 mm",
+          "6 mm",
+          "144 g",
+          "144 pcs",
+          "$0.62"
+        ],
+        [
+          "RD-SFN50",
+          "50 mm",
+          "48x40x18 mm",
+          "8 mm",
+          "263 g",
+          "96 pcs",
+          "$0.89"
+        ],
+        [
+          "RD-SFN60",
+          "60 mm",
+          "60x45x20 mm",
+          "9.8 mm",
+          "415 g",
+          "48 pcs",
+          "$1.18"
+        ],
+        [
+          "RD-SFN70",
+          "70 mm",
+          "70x50x20 mm",
+          "10.5 mm",
+          "540 g",
+          "48 pcs",
+          "$1.43"
+        ],
+        [
+          "RD-SFN32L",
+          "L32 mm",
+          "32x29x14 mm",
+          "5 mm",
+          "-",
+          "192 pcs",
+          "$0.52"
+        ],
+        [
+          "RD-SFN38L",
+          "L38 mm",
+          "38x35x15 mm",
+          "6 mm",
+          "-",
+          "144 pcs",
+          "$0.65"
+        ],
+        [
+          "RD-SFN50L",
+          "L50 mm",
+          "48x40x18 mm",
+          "8 mm",
+          "-",
+          "96 pcs",
+          "$0.94"
+        ]
+      ]
+    },
+    "ygtk": {
+      "type": "WaterProof Round Steel Padlock",
+      "specs": [
+        [
+          "Lock Body Material",
+          "Iron Body"
+        ],
+        [
+          "Cylinder Material",
+          "Solid Brass Cylinder"
+        ],
+        [
+          "Shackle Material",
+          "A3 Steel Shackle"
+        ],
+        [
+          "Surface Finish",
+          "Plastic Cover (Waterproof)"
+        ],
+        [
+          "Type",
+          "Round Steel Padlock (Waterproof)"
+        ],
+        [
+          "Keys per Lock",
+          "3"
+        ],
+        [
+          "Size Range",
+          "70 mm"
+        ],
+        [
+          "Available Models",
+          "RD-YGTK70L"
+        ],
+        [
+          "Packing",
+          "Double Blister"
+        ],
+        [
+          "MOQ",
+          "400 pcs"
+        ],
+        [
+          "Certification",
+          "ISO 9001, CE, SGS"
+        ]
+      ],
+      "variants": [
+        [
+          "RD-YGTK70L",
+          "L70 mm",
+          "71x56x31 mm",
+          "10.5 mm",
+          "568 g",
+          "36 pcs",
+          "$2.32"
+        ]
+      ]
+    },
+    "yjn": {
+      "type": "Nickel Round Side Iron Padlock",
+      "specs": [
+        [
+          "Lock Body Material",
+          "Iron Body"
+        ],
+        [
+          "Cylinder Material",
+          "Half Brass Cylinder"
+        ],
+        [
+          "Shackle Material",
+          "A3 Steel Shackle"
+        ],
+        [
+          "Surface Finish",
+          "Nickel Painting"
+        ],
+        [
+          "Type",
+          "Round Side Padlock (Nickel Finish)"
+        ],
+        [
+          "Keys per Lock",
+          "3"
+        ],
+        [
+          "Size Range",
+          "32 mm - 70 mm"
+        ],
+        [
+          "Available Models",
+          "RD-YJN32, RD-YJN38, RD-YJN50, RD-YJN60, RD-YJN70"
+        ],
+        [
+          "Packing",
+          "Double Blister"
+        ],
+        [
+          "MOQ",
+          "400 pcs"
+        ],
+        [
+          "Certification",
+          "ISO 9001, CE, SGS"
+        ]
+      ],
+      "variants": [
+        [
+          "RD-YJN32",
+          "32 mm",
+          "32x29x14 mm",
+          "5 mm",
+          "90 g",
+          "192 pcs",
+          "$0.50"
+        ],
+        [
+          "RD-YJN38",
+          "38 mm",
+          "38x35x15 mm",
+          "6 mm",
+          "137 g",
+          "144 pcs",
+          "$0.62"
+        ],
+        [
+          "RD-YJN50",
+          "50 mm",
+          "48x40x18 mm",
+          "8 mm",
+          "246 g",
+          "96 pcs",
+          "$0.89"
+        ],
+        [
+          "RD-YJN60",
+          "60 mm",
+          "60x45x20 mm",
+          "9.8 mm",
+          "381 g",
+          "48 pcs",
+          "$1.18"
+        ],
+        [
+          "RD-YJN70",
+          "70 mm",
+          "70x50x20 mm",
+          "10.5 mm",
+          "500 g",
+          "48 pcs",
+          "$1.43"
+        ]
+      ]
+    }
+  }
+}
