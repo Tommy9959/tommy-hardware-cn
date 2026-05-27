@@ -1,6 +1,6 @@
 #!/bin/bash
-# jh-hardware.com 部署脚本 v2.0 — 2026-05-27
-# 修复：统一部署路径到 ~/Sites/docs/，替换 sitemapindex 为扁平 sitemap
+# jh-hardware.com 部署脚本 v3.0 — 2026-05-27
+# Hugo v0.160 默认输出 sitemapindex，不需要额外合并脚本
 set -e
 
 SITE_DIR=~/Sites/hardware-site
@@ -14,8 +14,6 @@ hugo --destination "$DEPLOY_DIR"
 # llms.txt（Hugo 不复制 .txt 文件）
 cp static/llms.txt "$DEPLOY_DIR/llms.txt" 2>/dev/null && echo "📄 llms.txt copied" || true
 
-# 合并多语言 sitemap 为扁平格式（Google 习惯）
-python3 "$SITE_DIR/scripts/rebuild-sitemap.py" --deploy-dir "$DEPLOY_DIR"
 
 echo "📤 Committing source..."
 git add -A
