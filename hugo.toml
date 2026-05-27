@@ -1,7 +1,7 @@
 # Hugo 多语言网站配置文件
 baseURL = 'https://jh-hardware.com/'
 languageCode = 'zh-cn'
-title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
+title = 'SOLA门控五金 - 工厂直销尼日利亚·非洲 | 义乌水汇进出口有限公司'
 
 # 默认语言为英文
 defaultContentLanguage = 'en'
@@ -13,7 +13,7 @@ disableKinds = ["taxonomy", "term"]
 # 多语言配置
 [languages]
   [languages.en]
-    title = 'Yiwu Shuihui Import & Export Co., Ltd. - Professional Door Hardware Manufacturer'
+    title = 'SOLA Door Hardware | Factory Direct to Nigeria & Africa | Yiwu Shuihui Import & Export Co., Ltd.'
     weight = 1
     languageName = 'English'
     languageCode = 'en-us'
@@ -21,7 +21,7 @@ disableKinds = ["taxonomy", "term"]
     description = 'Factory direct supply of door handles, hinges, locks, and sliding tracks. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
     
   [languages.zh]
-    title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
+    title = 'SOLA门控五金 | 工厂直销尼日利亚·非洲 | 义乌水汇进出口'
     weight = 2
     languageName = '中文'
     languageCode = 'zh-cn'
@@ -29,7 +29,7 @@ disableKinds = ["taxonomy", "term"]
     description = '工厂直销门把手、铰链、门锁、导轨。ISO 9001 认证制造商。出口尼日利亚、迪拜、非洲。'
     
   [languages.ar]
-    title = 'شركة ييو شويهوي للاستيراد والتصدير - تصنيع مهني لعتاد الأبواب'
+    title = 'SOLA لعتاد الأبواب | بيع مباشر من المصنع إلى نيجيريا | ييو شويهوي' 
     weight = 3
     languageName = 'العربية'
     languageCode = 'ar'
