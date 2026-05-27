@@ -35,7 +35,7 @@ We supply wholesale quantities of:
 - **Sliding Tracks** — Drawer slides, wardrobe tracks
 - **Building Materials** — Angle brackets, glue, wallpaper
 - **Cabinet Hardware** — Knobs, handles, connectors
-- **Steel Pipes & Flanges** — For construction and industrial use
+- **Iron Casing Pipes** — Casing pipes 16mm and 25mm for building embedded pipe and conduit
 
 ### Export to Nigeria
 
