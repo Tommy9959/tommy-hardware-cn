@@ -18,23 +18,26 @@ import webbrowser
 from datetime import datetime, timedelta
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
+from dotenv import load_dotenv
+
+# 从 ~/.gsc.env 加载凭据（不在 Git 中）
+gsc_env = os.path.expanduser("~/.gsc.env")
+if os.path.exists(gsc_env):
+    load_dotenv(gsc_env)
 
 SITE_URL = "sc-domain:jh-hardware.com"
 SITE_URL_HTTP = "https://jh-hardware.com"
 TOKEN_FILE = os.path.expanduser("~/.openclaw/service-env/gsc-oauth-token.json")
-CLIENT_ID = "1007540485512-1234567890abcdef.apps.googleusercontent.com"
-CLIENT_SECRET = "GOCSPX-xxxxxxxxxxxx"
 
-# OAuth 2.0 配置
-# 使用 Google 的公共 OAuth 客户端（已配置好 Search Console API 范围）
+# OAuth 2.0 配置 — 从环境变量读取，不在代码中硬编码
 CLIENT_CONFIG = {
     "installed": {
-        "client_id": "14568524996-1ulgjerdda3ajt8df16rco3pnlv70a64.apps.googleusercontent.com",
-        "project_id": "gsc-497208",
+        "client_id": os.environ.get("GSC_INSTALLED_CLIENT_ID", ""),
+        "project_id": os.environ.get("GSC_PROJECT_ID", "gsc-497208"),
         "auth_uri": "https://accounts.google.com/o/oauth2/auth",
         "token_uri": "https://oauth2.googleapis.com/token",
         "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_secret": "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",
+        "client_secret": os.environ.get("GSC_INSTALLED_CLIENT_SECRET", ""),
         "redirect_uris": ["http://localhost:8080"]
     }
 }
