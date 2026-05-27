@@ -143,12 +143,13 @@ disableKinds = ["taxonomy", "term"]
     [markup.goldmark.renderer]
       unsafe = true
 
-# SEO 优化配置（2026-05-22 优化 - sitemap精细化）
+# SEO 优化配置 — Hugo v0.160 输出 sitemapindex（拆分为 en/zh/ar 子sitemap）
+# 在 deploy.sh 中使用 scripts/rebuild-sitemap.py 合并为扁平 sitemap.xml
+# 这样 Google 看到的仍然是扁平结构，不受 Hugo 版本影响
 [sitemap]
   changefreq = 'daily'
   filename = 'sitemap.xml'
   priority = 0.9
-  disable = false
 
 # 精确控制sitemap中哪些页面类型出现
 [mediaTypes]
