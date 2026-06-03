@@ -126,6 +126,7 @@ disableKinds = ["taxonomy", "term"]
   addressEn = 'Room 2018, Xuefeng Business Building, No.18 Danxi North Road, Yiwu, China'
   addressAr = 'غرفة 2018، مبنى شوفينج التجاري، رقم 18 طريق دانجي الشمالي، مدينة ييو، الصين'
   googleAnalytics = 'G-EW8MR1LQWY'
+  logo = '/images/logo/logo.jpeg'
   latitude = '29.3089'
   longitude = '120.0741'
   description = 'Factory direct supply of door handles, hinges, locks, and sliding tracks. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
