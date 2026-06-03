@@ -135,7 +135,7 @@ disableKinds = ["taxonomy", "term"]
   bingVerification = ''
   
   # SEO 关键词（2026-04-13 扩展关键词库 - 200+ 关键词）
-  keywords = 'SOLA, door handles, door locks, door hinges, sliding tracks, drawer slides, furniture hardware, cabinet hardware, cabinet accessories, cabinet handles, cabinet knobs, drawer pulls, kitchen hardware, wardrobe hardware, bathroom hardware, architectural hardware, building hardware, construction hardware, stainless steel hardware, zinc alloy hardware, aluminum hardware, brass hardware, iron pipes, steel tubes, galvanized pipes'
+  keywords = 'SOLA, door handles, door locks, door hinges, sliding tracks, drawer slides, furniture hardware, cabinet hardware, cabinet accessories, cabinet handles, cabinet knobs, drawer pulls, kitchen hardware, wardrobe hardware, architectural hardware, building hardware, construction hardware, stainless steel hardware, zinc alloy hardware, aluminum hardware, brass hardware'
 
 # Markdown 配置
 [markup]
@@ -162,10 +162,10 @@ disableKinds = ["taxonomy", "term"]
 
 # 社交媒体 SEO
 [social]
-  twitter = '@YourTwitter'  # 添加 Twitter 账号
-  facebook = 'YourFacebookPage'  # 添加 Facebook 页面
-  linkedin = 'your-company-linkedin'  # 添加 LinkedIn
-  instagram = 'YourInstagram'  # 添加 Instagram
+  twitter = ''
+  facebook = ''
+  linkedin = ''
+  instagram = ''
 
 # 输出配置
 [outputs]
