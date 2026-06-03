@@ -5,7 +5,7 @@
 {{ $keywords := "" }}
 {{ with .Params.tags }}{{ $keywords = delimit . ", " }}{{ end }}
 
-{{ $authorName := cond (eq .Site.Language.Lang "zh") "义乌水汇进出口有限公司" (cond (eq .Site.Language.Lang "ar") "شركة ييو شويهوي للاستيراد والتصدير" "Yiwu Shuihui Import & Export Co., Ltd.") }}
+{{ $authorName := cond (eq .Site.Language.Lang "zh") "JH HARDWARE（钧瀚五金）" (cond (eq .Site.Language.Lang "ar") "JH HARDWARE" "JH HARDWARE") }}
 
 <script type="application/ld+json">
 {
@@ -54,7 +54,7 @@
             <h1 class="blog-title">{{ .Title }}</h1>
             <div class="blog-meta">
                 <span class="meta-item">📅 {{ if eq .Site.Language.Lang "zh" }}{{ .Date.Format "2006年1月2日" }}{{ else }}{{ if eq .Site.Language.Lang "ar" }}{{ .Date.Format "2006-01-02" }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}{{ end }}</span>
-                <span class="meta-item">✍️ {{ if eq .Site.Language.Lang "zh" }}{{ .Params.author | default "义乌水汇进出口有限公司" }}{{ else }}{{ if eq .Site.Language.Lang "ar" }}{{ .Params.author | default "شركة ييو شويهوي للاستيراد والتصدير" }}{{ else }}{{ .Params.author | default .Site.Title }}{{ end }}{{ end }}</span>
+                <span class="meta-item">✍️ {{ if eq .Site.Language.Lang "zh" }}{{ .Params.author | default "JH HARDWARE（钧瀚五金）" }}{{ else }}{{ if eq .Site.Language.Lang "ar" }}{{ .Params.author | default "JH HARDWARE" }}{{ else }}{{ .Params.author | default "JH HARDWARE" }}{{ end }}{{ end }}</span>
                 {{ if .Params.tags }}
                 <span class="meta-item">
                     🏷️

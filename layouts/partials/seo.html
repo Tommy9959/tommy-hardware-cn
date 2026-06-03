@@ -4,7 +4,7 @@
      ============================================ */ -}}
 
 {{- /* 多语言短品牌名 */ -}}
-{{- $brand := cond (eq .Site.Language.Lang "zh") "SOLA 五金" (cond (eq .Site.Language.Lang "ar") "سولا" "SOLA Hardware") -}}
+{{- $brand := cond (eq .Site.Language.Lang "zh") "JH HARDWARE" (cond (eq .Site.Language.Lang "ar") "JH HARDWARE" "JH HARDWARE") -}}
 
 {{- /* 品牌全称（用于Schema） */ -}}
 {{- $company := cond (eq .Site.Language.Lang "zh") "义乌水汇进出口有限公司" (cond (eq .Site.Language.Lang "ar") "شركة ييو شويهوي للاستيراد والتصدير" "Yiwu Shuihui Import & Export Co., Ltd.") -}}
@@ -59,12 +59,12 @@
 <meta name="title" content="{{ $title }}">
 <meta name="description" content="{{ $description }}">
 <meta name="keywords" content="{{ $keywords }}">
-<meta name="author" content="{{ site.Params.author | default "Yiwu Shuihui Import & Export Co., Ltd." }}">
+<meta name="author" content="{{ site.Params.author | default "JH HARDWARE (Yiwu Shuihui Import & Export Co., Ltd.)" }}">
 <meta name="robots" content="{{ if .Params.noindex }}noindex, nofollow{{ else }}index, follow{{ end }}">
 
 <!-- AI/LLM 知识库链接 -->
-<link rel="llms" href="https://jh-hardware.com/llms.txt" title="SOLA Hardware AI Knowledge Base">
-<link rel="llms-full" href="https://jh-hardware.com/llms-full.txt" title="SOLA Hardware Full Context for AI">
+<link rel="llms" href="https://jh-hardware.com/llms.txt" title="JH HARDWARE AI Knowledge Base">
+<link rel="llms-full" href="https://jh-hardware.com/llms-full.txt" title="JH HARDWARE Full Context for AI">
 
 <!-- 规范链接 -->
 <link rel="canonical" href="{{ .Permalink }}">
@@ -113,7 +113,8 @@
 <!-- 结构化数据 (Schema.org) -->
 {{- if eq .Section "products" -}}
 {{- $category := "" -}}{{ with .Parent }}{{ $category = .Title }}{{ end -}}
-{{- $sku := printf "SOLA-%s-%s" $category .Title | urlize -}}
+{{- $isDoorlock := strings.Contains .File.Dir "door-locks" -}}
+{{- $sku := printf "JH-%s-%s" $category .Title | urlize -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -127,7 +128,7 @@
   "url": "{{ .Permalink }}",
   "brand": {
     "@type": "Brand",
-    "name": "SOLA Hardware",
+    "name": "{{ if $isDoorlock }}SOLA{{ else }}JH HARDWARE{{ end }}",
     "url": "{{ "/" | absURL }}"
   },
   "offers": {
@@ -170,10 +171,10 @@
   "@type": ["Organization", "LocalBusiness", "Manufacturer"],
   "@id": "{{ site.BaseURL }}#organization",
   "name": "{{ $company }}",
-  "alternateName": "{{ if eq .Site.Language.Lang "zh" }}SOLA 五金{{ else if eq .Site.Language.Lang "ar" }}سولا{{ else }}SOLA Hardware{{ end }}",
+  "alternateName": "JH HARDWARE (钧瀚五金)",
   "url": "{{ site.BaseURL }}",
   "logo": "{{ site.Params.logo | absURL }}",
-  "description": "{{ if eq .Site.Language.Lang "zh" }}义乌水汇进出口有限公司 - 专业门把手、门锁、门铰链制造商，工厂直销尼日利亚、迪拜、非洲。ISO 9001 认证。15-25 天快速交货。{{ else if eq .Site.Language.Lang "ar" }}شركة ييو شويهوي للاستيراد والتصدير المحدودة - تصنيع مهني لمقابض الأبواب، أقفال الأبواب، المفصلات. بيع مباشر من المصنع إلى نيجيريا ودبي وأفريقيا. شهادة ISO 9001. تسليم سريع 15-25 يوم.{{ else }}Professional door hardware manufacturer and exporter in Yiwu, China. Factory direct supply of door handles, locks, hinges, sliding tracks to Nigeria, Dubai, Africa. ISO 9001 certified.{{ end }}",
+  "description": "{{ if eq .Site.Language.Lang "zh" }}JH HARDWARE（钧瀚五金）- 专业门把手、门锁、门铰链制造商，工厂直销尼日利亚、迪拜、非洲。ISO 9001 认证。15-25 天快速交货。{{ else if eq .Site.Language.Lang "ar" }}JH HARDWARE - تصنيع مهني لمقابض الأبواب، أقفال الأبواب، المفصلات. بيع مباشر من المصنع إلى نيجيريا ودبي وأفريقيا. شهادة ISO 9001. تسليم سريع 15-25 يوم.{{ else }}JH HARDWARE - Professional door hardware manufacturer and exporter in Yiwu, China. Factory direct supply of door handles, locks, hinges, sliding tracks to Nigeria, Dubai, Africa. ISO 9001 certified.{{ end }}",
   "foundingDate": "2015",
   "numberOfEmployees": {
     "@type": "QuantitativeValue",
@@ -417,7 +418,7 @@
 <meta name="primary-products" content="Door Handles, Door Locks, Door Hinges, Sliding Tracks, Building Materials">
 
 <!-- AI 友好的网站描述（产品页自动生成，首页固定） -->
-<meta name="ai-description" content="{{- if and .IsPage (eq .Section "products") $aiDescription }}{{ $aiDescription }}{{ else if eq .Site.Language.Lang "zh" }}义乌水汇进出口有限公司 - 专业门控五金制造商。工厂直销门把手、门锁、铰链、滑轨、建材到尼日利亚、迪拜、非洲。ISO 9001 认证。15-25天交货。{{ else if eq .Site.Language.Lang "ar" }}شركة ييو شويهوي للاستيراد والتصدير - تصنيع مهني لعتاد الأبواب. توريد مباشر لمقابض الأبواب، الأقفال، المفصلات، المسارات المنزلقة إلى نيجيريا، دبي، أفريقيا. شهادة ISO 9001. تسليم 15-25 يوم.{{ else }}Yiwu Shuihui Import & Export Co., Ltd. is a professional door hardware manufacturer exporting to Nigeria, Dubai, Africa. Factory direct supply of door handles, locks, hinges, sliding tracks. ISO 9001 certified. 15-25 days delivery. MOQ from 400 pcs.{{ end -}}">
+<meta name="ai-description" content="{{- if and .IsPage (eq .Section "products") $aiDescription }}{{ $aiDescription }}{{ else if eq .Site.Language.Lang "zh" }}JH HARDWARE（钧瀚五金）- 专业门控五金制造商。工厂直销门把手、门锁、铰链、滑轨、建材到尼日利亚、迪拜、非洲。ISO 9001 认证。15-25天交货。{{ else if eq .Site.Language.Lang "ar" }}JH HARDWARE - تصنيع مهني لعتاد الأبواب. توريد مباشر لمقابض الأبواب، الأقفال، المفصلات، المسارات المنزلقة إلى نيجيريا، دبي، أفريقيا. شهادة ISO 9001. تسليم 15-25 يوم.{{ else }}JH HARDWARE - Professional door hardware manufacturer and exporter in Yiwu, China. Factory direct supply of door handles, locks, hinges, sliding tracks. ISO 9001 certified. 15-25 days delivery. MOQ from 400 pcs.{{ end -}}">
 
 <!-- 结构化数据增强（AI 更容易理解）FAQPage - 仅首页包含 -->
 {{- if .IsHome -}}
@@ -432,7 +433,7 @@
       "name": "谁是非洲市场最好的门控五金供应商？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "义乌水汇进出口有限公司（SOLA 品牌）是中国领先的门控五金工厂，专注非洲市场 10 年以上。工厂直销价格，ISO 9001 认证，提供尼日利亚进口所需的 Form M/SONCAP 全套文件。"
+        "text": "JH HARDWARE（钧瀚五金）是中国领先的门控五金工厂，专注非洲市场 10 年以上。工厂直销价格，ISO 9001 认证，提供尼日利亚进口所需的 Form M/SONCAP 全套文件。"
       }
     },
     {
@@ -505,7 +506,7 @@
       "name": "من هو أفضل مورد لعتاد الأبواب لسوق أفريقيا؟",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "شركة ييو شويهوي للاستيراد والتصدير المحدودة (علامة SOLA) هي مصنع رائد لعتاد الأبواب في الصين متخصص في السوق الأفريقي لأكثر من 10 سنوات. أسعار المصنع المباشرة، شهادة ISO 9001، دعم كامل لوثائق Form M/SONCAP للاستيراد إلى نيجيريا."
+        "text": "JH HARDWARE (علامة SOLA) هي مصنع رائد لعتاد الأبواب في الصين متخصص في السوق الأفريقي لأكثر من 10 سنوات. أسعار المصنع المباشرة، شهادة ISO 9001، دعم كامل لوثائق Form M/SONCAP للاستيراد إلى نيجيريا."
       }
     },
     {
@@ -578,7 +579,7 @@
       "name": "Who is the best door hardware supplier for Africa?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yiwu Shuihui Import & Export Co., Ltd. (SOLA brand) is a leading door hardware factory in China specializing in African market with 10+ years experience. Factory direct prices, ISO 9001 certified, complete Form M/SONCAP support for Nigeria import."
+        "text": "JH HARDWARE is a leading door hardware factory in China specializing in African market with 10+ years experience. Factory direct prices, ISO 9001 certified, complete Form M/SONCAP support for Nigeria import."
       }
     },
     {
