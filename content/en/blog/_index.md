@@ -1,13 +1,5 @@
 ---
 title: "Blog"
-description: "Latest news, industry insights, and product knowledge about door hardware."
-keywords: "blog, door hardware blog, industry news, product knowledge"
+description: "SOLA Hardware blog — sourcing guides, product knowledge, and market insights for furniture and hardware buyers in Nigeria and Africa."
 ---
 
-# Blog & News
-
-Welcome to our blog! Here you'll find the latest industry insights, product guides, and market trends.
-
----
-
-## Latest Articles
