@@ -18,7 +18,7 @@ disableKinds = ["taxonomy", "term"]
     languageName = 'English'
     languageCode = 'en-us'
     contentDir = 'content/en'
-    description = 'Factory direct supply of door handles, hinges, locks, and sliding tracks. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
+    description = 'Factory direct supply of door handles, locks, hinges, and sliding tracks. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
     
   [languages.zh]
     title = 'SOLA门控五金 | 工厂直销尼日利亚·非洲 | 义乌水汇进出口'
