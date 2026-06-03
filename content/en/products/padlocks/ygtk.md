@@ -1,5 +1,5 @@
 ---
-title: 'YGTK - WaterProof Round Steel Padlock - Padlock | Wholesale Nigeria Africa'
+title: 'YGTK - WaterProof Round Steel Padlock'
 description: 'Quality Keyed Alike Laminated Padlock Set. Factory direct wholesale price for Nigerian and African importers. ISO 9001 certified. keyed alike padlock set, master key padlock, same key padlock multiple locks, hotel padlock set, school padlock set, building padlock system. MOQ from 400 pcs. Free samples available.'
 image: /images/products/padlocks/ygtk.jpg
 tags:

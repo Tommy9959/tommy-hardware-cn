@@ -34,13 +34,17 @@
     {{- $material := .Params.material | default "High Quality Material" -}}
     {{- $finish := .Params.finish | default "" -}}
     {{- $application := .Params.application | default "" -}}
-    {{- if eq .Title $productName -}}
-        {{- $title = printf "%s | %s" .Title $brand -}}
+    {{- /* 标题用已清理过的 .Title（去掉冗余后缀），直接加品牌 */ -}}
+    {{- $title = printf "%s | %s" .Title $brand -}}
+    {{- /* 增强的产品描述：含价格、材质、用途、MOQ，提高CTR */ -}}
+    {{- $priceHint := .Params.price_range | default "Factory Direct Price" -}}
+    {{- $descCore := .Description | default "" -}}
+    {{- if $descCore -}}
+        {{- /* 如果 frontmatter 有 description，用它，补充关键信息 */ -}}
+        {{- $description = printf "%s MOQ %s, %s. Factory direct from China. Export to Nigeria, Africa." $descCore (.Params.moq | default "400 pcs") $priceHint -}}
     {{- else -}}
-        {{- $title = printf "%s - %s | %s" .Title $productName $brand -}}
+        {{- $description = printf "%s - %s. Made of %s%s. Application: %s. MOQ %s, %s. Factory direct, ISO 9001. Export to Nigeria, Dubai, Africa." .Title $productName $material (cond (ne $finish "") (printf ", %s finish" $finish) "") $application (.Params.moq | default "400 pcs") $priceHint -}}
     {{- end -}}
-    {{- /* 增强的产品描述：含品牌、材质、用途、MOQ，对AI搜索引擎更友好 */ -}}
-    {{- $description = printf "%s %s - %s SOLA Brand. Made of %s%s. Application: %s. Factory direct price, MOQ %s, ISO 9001 certified. Export to Nigeria, Dubai, Africa. Contact us for quote." .Title $productName $brand $material (cond (ne $finish "") (printf ", %s finish" $finish) "") $application (.Params.moq | default "400 pcs") -}}
     {{- $materialStr := .Params.material | default "Stainless Steel" -}}
     {{- $keywords = printf "%s, %s, %s, door hardware, building materials, construction, factory china, %s" $productName .Title $application $materialStr -}}
     {{- /* AI优化描述：用于ChatGPT直接提取 */ -}}

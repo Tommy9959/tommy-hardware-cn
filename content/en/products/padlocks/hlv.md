@@ -1,5 +1,5 @@
 ---
-title: 'HLV - Cr-Plated Rectangular Iron Padlock (Vane Key) - Padlock | Wholesale Nigeria Africa'
+title: 'HLV - Cr-Plated Rectangular Iron Padlock (Vane Key)'
 description: 'Quality Cr-Plated Rectangular Iron Padlock (Vane Key). Factory direct wholesale price for Nigerian and African importers. ISO 9001 certified. waterproof padlock, chrome plated padlock, vane key padlock, weather resistant padlock, outdoor padlock, rust proof padlock Nigeria. MOQ from 400 pcs. Free samples available.'
 image: /images/products/padlocks/hlv.jpg
 tags:
