@@ -8,7 +8,7 @@ tags: ["door handles", "Nigeria market", "what sells", "product tips", "SOLA bra
 categories: ["From Our Experience"]
 ---
 
-# Door Handle Materials Guide: What Actually Sells in Nigeria (From 10 Years of Experience)
+## Door Handle Materials Guide: What Actually Sells in Nigeria (From 10 Years of Experience)
 
 Let me start with a story from 2019, when I made a costly mistake. A new customer from Port Harcourt ordered 2,000 SS201 handles for a beachfront estate project. I warned him SS201 would rust, but he said "it looks the same and saves money."
 

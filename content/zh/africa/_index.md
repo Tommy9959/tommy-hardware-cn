@@ -7,7 +7,7 @@ canonical: "https://jh-hardware.com/zh/africa/"
 robots: "index, follow"
 ---
 
-# 非洲市场 - 门控五金供应商
+## 非洲市场 - 门控五金供应商
 
 ## 🌍 专业门控五金对非出口商
 

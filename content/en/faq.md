@@ -4,7 +4,7 @@ description: "Common questions about our door hardware products, MOQ, delivery, 
 keywords: "FAQ, door hardware FAQ, MOQ, delivery time, payment terms, samples"
 ---
 
-# Frequently Asked Questions (FAQ)
+## Frequently Asked Questions (FAQ)
 
 ## 📦 Products & Quality
 

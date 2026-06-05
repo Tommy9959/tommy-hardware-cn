@@ -8,7 +8,7 @@ tags: ["door handles", "what sells", "Nigeria market", "mistakes to avoid", "fro
 categories: ["From Our Experience"]
 ---
 
-# What Door Handles Actually Sell in Nigeria (And What Doesn't) — 10 Years of Experience
+## What Door Handles Actually Sell in Nigeria (And What Doesn't) — 10 Years of Experience
 
 Let me show you our top 3 finishes from 2025:
 

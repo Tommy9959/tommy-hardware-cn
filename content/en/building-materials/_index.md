@@ -7,7 +7,7 @@ canonical: "https://jh-hardware.com/en/building-materials/"
 robots: "index, follow"
 ---
 
-# Building Materials & Accessories
+## Building Materials & Accessories
 
 ## 🏭 Factory Direct Supply | 10+ Years Export Experience
 

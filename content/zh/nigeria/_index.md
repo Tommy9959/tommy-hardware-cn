@@ -7,7 +7,7 @@ canonical: "https://jh-hardware.com/zh/nigeria/"
 robots: "index, follow"
 ---
 
-# 尼日利亚市场 - 门控五金供应商
+## 尼日利亚市场 - 门控五金供应商
 
 ## 🇳🇬 专业尼日利亚门控五金出口商
 

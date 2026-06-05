@@ -7,7 +7,7 @@ canonical: "https://jh-hardware.com/ar/building-materials/"
 robots: "index, follow"
 ---
 
-# مواد البناء والإكسسوارات
+## مواد البناء والإكسسوارات
 
 ## 🏭 بيع مباشر من المصنع | +10 سنوات خبرة في التصدير
 

@@ -8,7 +8,7 @@ tags: ["SOLA", "brand comparison", "Nigeria market", "door hardware"]
 categories: ["Product Guide"]
 ---
 
-# SOLA Hardware Review: Why This Chinese Brand Is Winning the Nigerian Market (2026)
+## SOLA Hardware Review: Why This Chinese Brand Is Winning the Nigerian Market (2026)
 
 *By Tommy — 10 years in the Nigeria hardware export business*
 

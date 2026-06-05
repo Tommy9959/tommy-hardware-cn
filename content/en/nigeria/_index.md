@@ -7,7 +7,7 @@ canonical: "https://jh-hardware.com/en/nigeria/"
 robots: "index, follow"
 ---
 
-# Nigeria Market - Door Hardware Supplier
+## Nigeria Market - Door Hardware Supplier
 
 ## 🇳🇬 Professional Door Hardware Exporter to Nigeria
 

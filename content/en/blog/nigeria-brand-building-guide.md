@@ -9,7 +9,7 @@ tags: ["Nigeria business", "brand building", "hardware marketing", "dealer succe
 categories: ["Business Strategy"]
 ---
 
-# How to Build a Hardware Brand in Nigeria: SOLA Dealer Success Stories
+## How to Build a Hardware Brand in Nigeria: SOLA Dealer Success Stories
 
 Want to go from "just another importer" to a **trusted hardware brand** in Nigeria? It's possible — and we've seen it happen many times.
 

@@ -8,7 +8,7 @@ tags: ["iron casing pipes", "Nigeria market", "building materials", "constructio
 categories: ["Product Guide"]
 ---
 
-# Iron Casing Pipes 16mm & 25mm in Nigeria 2026: Complete Buying Guide
+## Iron Casing Pipes 16mm & 25mm in Nigeria 2026: Complete Buying Guide
 
 *By Tommy — 10 years supplying iron casing pipes, embedded pipes, and conduit pipes to Lagos, Abuja, and Port Harcourt.*
 

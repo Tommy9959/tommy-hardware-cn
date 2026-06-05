@@ -7,7 +7,7 @@ canonical: "https://jh-hardware.com/zh/building-materials/"
 robots: "index, follow"
 ---
 
-# 建材与配件
+## 建材与配件
 
 ## 🏭 工厂直销 | 10+ 年出口经验
 

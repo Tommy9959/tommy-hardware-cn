@@ -8,7 +8,7 @@ tags: ["customs clearance", "Nigeria tips", "certifications", "quality control",
 categories: ["From Our Experience"]
 ---
 
-# Certifications That Matter (And Ones That Don't) — From 10 Years of Nigerian Customs Nightmares
+## Certifications That Matter (And Ones That Don't) — From 10 Years of Nigerian Customs Nightmares
 
 Let me start with 2018. A new customer ordered a container of locks and paid extra for "CE certification." The supplier sent a nice PDF certificate, and off we went.
 

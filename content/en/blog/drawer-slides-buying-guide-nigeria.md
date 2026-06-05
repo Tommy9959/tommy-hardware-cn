@@ -17,7 +17,7 @@ categories:
   - Product Guide
 ---
 
-# The Complete Drawer Slides Buying Guide for Nigeria
+## The Complete Drawer Slides Buying Guide for Nigeria
 
 *I've been exporting hardware to Africa for over a decade, and if there's one thing I've learned, it's this: nobody thinks about drawer slides until the drawer jams.*
 

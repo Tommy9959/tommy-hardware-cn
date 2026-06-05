@@ -14,7 +14,7 @@ categories:
   - Product Guide
 ---
 
-# Sofa Legs Wholesale Guide for Nigeria: Types, Materials & Sourcing Tips
+## Sofa Legs Wholesale Guide for Nigeria: Types, Materials & Sourcing Tips
 
 Last month I got a call from a furniture maker in Onitsha. He'd been building sofas for fifteen years — good ones, the kind that last — but he was stuck on one thing: the legs.
 

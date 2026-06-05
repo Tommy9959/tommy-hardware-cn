@@ -22,7 +22,7 @@ specifications:
   - 'Finish: Standard finish'
   - 'Application: Various applications'
 ---
-# Heavy Duty Rectangle Iron Padlock
+## Heavy Duty Rectangle Iron Padlock
 
 High quality Heavy Duty Rectangle Iron Padlock. Factory direct supply, competitive prices.
 

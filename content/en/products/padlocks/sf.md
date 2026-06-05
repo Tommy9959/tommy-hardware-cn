@@ -21,7 +21,7 @@ specifications:
   - 'Finish: Standard finish'
   - 'Application: Various applications'
 ---
-# CR-Plated Square Iron Padlock - Vane Key
+## CR-Plated Square Iron Padlock - Vane Key
 
 High quality CR-Plated Square Iron Padlock - Vane Key. Factory direct supply, competitive prices.
 

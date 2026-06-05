@@ -7,7 +7,7 @@ canonical: "https://jh-hardware.com/en/africa/"
 robots: "index, follow"
 ---
 
-# Africa Market - Door Hardware Supplier
+## Africa Market - Door Hardware Supplier
 
 ## 🌍 Professional Door Hardware Exporter to Africa
 

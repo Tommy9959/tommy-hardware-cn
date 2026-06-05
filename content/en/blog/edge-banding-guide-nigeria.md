@@ -18,7 +18,7 @@ categories:
   - Product Guide
 ---
 
-# The Complete Edge Banding Guide for Nigeria
+## The Complete Edge Banding Guide for Nigeria
 
 *I remember walking through a furniture workshop in Nnewi a few years ago, watching a crew finish a batch of office desks bound for a government contract. The panels were decent — medium-density fibreboard with a dark laminate surface. But when I ran my hand along the edges, I felt it immediately. Rough, uneven, raw particle board peeking through the laminate.*
 

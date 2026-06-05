@@ -8,7 +8,7 @@ tags: ["SONCAP", "Form M", "PAAR", "尼日利亚海关", "进口认证", "阿帕
 categories: ["尼日利亚进口指南"]
 ---
 
-# SONCAP、Form M 与 PAAR — 2026 年尼日利亚进口认证完整指南
+## SONCAP、Form M 与 PAAR — 2026 年尼日利亚进口认证完整指南
 
 *作者：Tommy — 10 年向尼日利亚出口门控五金经验。SOLA Hardware / JH Hardware 创始人。*
 

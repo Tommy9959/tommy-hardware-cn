@@ -5,7 +5,7 @@ keywords: "padlocks wholesale, waterproof padlock, laminated padlock, brass padl
 canonical: "https://jh-hardware.com/products/padlocks/"
 ---
 
-# Padlocks — Wholesale Prices from China Factory
+## Padlocks — Wholesale Prices from China Factory
 
 Discover our complete collection of **padlocks** across 8 series, including heavy-duty waterproof shell padlocks, laminated padlocks, solid brass padlocks, iron padlocks, and keyed-alike sets. All products are **factory-direct** from SOLA Hardware in Yiwu, China, with competitive wholesale prices for Nigerian and African importers.
 

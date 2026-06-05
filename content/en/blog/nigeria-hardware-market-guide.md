@@ -8,7 +8,7 @@ tags: ["Nigeria market", "what I've learned", "key cities", "currency tips", "tr
 categories: ["From Our Experience"]
 ---
 
-# Nigeria Hardware Market 2026 — What I've Learned After 10 Years of Selling There
+## Nigeria Hardware Market 2026 — What I've Learned After 10 Years of Selling There
 
 Let me start with a number: **527**. That's how many Nigerian customers we've worked with since 2016. Some ordered once and disappeared. Some have ordered every 3 months for 8 years.
 

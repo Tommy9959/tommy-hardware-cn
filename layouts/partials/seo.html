@@ -51,6 +51,16 @@
     {{- $aiDescription = printf "%s %s model %s. Material: %s, Finish: %s, Application: %s. MOQ: %s, Price: %s. Factory direct from Yiwu, China. Export to Nigeria." $brand $productName .Title $material $finish $application (.Params.moq | default "400 pcs") (.Params.price_range | default "Contact for price") -}}
 {{- end -}}
 
+{{- /* ============================================
+     Title 截断：控制在 55-60 字符以内
+     ============================================ */ -}}
+{{- $maxTitleLen := 60 -}}
+{{- if and (not .IsHome) (gt (len $title) $maxTitleLen) -}}
+  {{- /* 直接截断到 60 字符，保留 " | JH" 这样看起来不奇怪 */ -}}
+  {{- $title = substr $title 0 57 -}}
+  {{- $title = printf "%s..." $title -}}
+{{- end -}}
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -88,6 +98,8 @@
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JH_HARDWARE">
+<meta name="twitter:creator" content="JH HARDWARE">
 <meta property="twitter:url" content="{{ .Permalink }}">
 <meta property="twitter:title" content="{{ $title }}">
 <meta property="twitter:description" content="{{ $description }}">

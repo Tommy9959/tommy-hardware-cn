@@ -8,7 +8,7 @@ tags: ["SONCAP", "Form M", "PAAR", "Nigeria customs", "import certification", "A
 categories: ["Nigeria Import Guide"]
 ---
 
-# SONCAP, Form M & PAAR — Complete Nigeria Import Certification Guide 2026
+## SONCAP, Form M & PAAR — Complete Nigeria Import Certification Guide 2026
 
 *By Tommy — 10 years exporting door hardware to Nigeria. Founder of SOLA Hardware / JH Hardware.*
 

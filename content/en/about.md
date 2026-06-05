@@ -4,7 +4,7 @@ description: "JH HARDWARE is your trusted hardware partner for the African marke
 keywords: "JH HARDWARE, hardware manufacturer, door hardware, door locks, door handles, yiwu hardware, china hardware export, nigeria hardware, africa hardware, SOLA door locks, Yiwu Shuihui"
 ---
 
-# JH HARDWARE — Your Trusted Hardware Partner for Africa
+## JH HARDWARE — Your Trusted Hardware Partner for Africa
 
 **JH HARDWARE** is a professional hardware supply brand serving African markets. We are operated by **Yiwu Shuihui Import & Export Co., Ltd.**, a registered Chinese import & export company with over 10 years of experience exporting to Nigeria, Ghana, Kenya, and across Africa.
 

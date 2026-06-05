@@ -9,7 +9,7 @@ tags: ["Nigeria import", "payment methods", "logistics", "SONCAP", "shipping", "
 categories: ["Import Guide"]
 ---
 
-# Nigeria Hardware Import: Payment Methods & Logistics Complete Guide 2026
+## Nigeria Hardware Import: Payment Methods & Logistics Complete Guide 2026
 
 Importing door hardware from China to Nigeria can be highly profitable — but only if you master the payment and logistics details. As a supplier with **10+ years exporting to Nigeria**, **[SOLA Hardware](https://jh-hardware.com/about/)** has seen every mistake and every success story.
 

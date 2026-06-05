@@ -8,7 +8,7 @@ tags: ["door locks", "what sells", "Nigeria market", "sales data", "from our exp
 categories: ["From Our Experience"]
 ---
 
-# What Door Locks Actually Sell in Nigeria (10 Years of Sales Data)
+## What Door Locks Actually Sell in Nigeria (10 Years of Sales Data)
 
 Let me show you something — here's our actual sales breakdown from 2025:
 

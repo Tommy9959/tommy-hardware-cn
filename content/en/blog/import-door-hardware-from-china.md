@@ -8,7 +8,7 @@ tags: ["import guide", "mistakes to avoid", "customs tips", "Nigeria trade", "fr
 categories: ["From Our Experience"]
 ---
 
-# How to Import Door Hardware from China Without Losing Your Shirt — 10 Years of Mistakes I've Seen
+## How to Import Door Hardware from China Without Losing Your Shirt — 10 Years of Mistakes I've Seen
 
 Let me start with a story from 2017. A new Nigerian customer ordered a 20GP container of locks from a "cheap" supplier he found on Alibaba. The price was 20% lower than ours, and he thought he got a great deal.
 

@@ -21,7 +21,7 @@ specifications:
   - 'Finish: Standard finish'
   - 'Application: Various applications'
 ---
-# Golden Square Iron Padlock
+## Golden Square Iron Padlock
 
 High quality Golden Square Iron Padlock. Factory direct supply, competitive prices.
 

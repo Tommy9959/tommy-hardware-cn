@@ -21,7 +21,7 @@ specifications:
   - 'Finish: Standard finish'
   - 'Application: Various applications'
 ---
-# WaterProof Round Steel Padlock
+## WaterProof Round Steel Padlock
 
 High quality WaterProof Round Steel Padlock. Factory direct supply, competitive prices.
 
