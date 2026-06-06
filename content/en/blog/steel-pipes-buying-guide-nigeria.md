@@ -1,5 +1,5 @@
 ---
-title: "Iron Casing Pipes 16mm & 25mm in Nigeria 2026: Complete Buying Guide"
+title: "Iron Casing Pipe 16mm & 25mm Price in Nigeria 2026: Embedded Pipe Buying Guide"
 description: "Complete guide to iron casing pipes 16mm and 25mm for Nigerian construction — embedded pipes, conduit pipes, structural reinforcement. Sizes, prices, quality tips from 10 years exporting to Lagos, Abuja, and Port Harcourt."
 keywords: "iron casing pipes Nigeria, 16mm pipe, 25mm pipe, casing pipe Nigeria, iron pipes for construction, embedded pipes, conduit pipes, building materials Nigeria"
 author: "Yiwu Shuihui Import & Export Co., Ltd."
@@ -8,7 +8,7 @@ tags: ["iron casing pipes", "Nigeria market", "building materials", "constructio
 categories: ["Product Guide"]
 ---
 
-## Iron Casing Pipes 16mm & 25mm in Nigeria 2026: Complete Buying Guide
+## Iron Casing Pipe 16mm & 25mm Price in Nigeria 2026: Embedded Pipe Buying Guide
 
 *By Tommy — 10 years supplying iron casing pipes, embedded pipes, and conduit pipes to Lagos, Abuja, and Port Harcourt.*
 
@@ -201,6 +201,8 @@ If you need **iron casing pipes 16mm and 25mm** for your next project in Nigeria
 
 **📧 Email us:** yiwushuihui@163.com  
 **📱 WhatsApp / Call:** +86 151 5793 1111
+
+👉 **View our iron casing pipe specs:** [Iron Casing Pipes](https://jh-hardware.com/products/iron-casing-pipes/) — 16mm & 25mm, various wall thicknesses
 
 Tell Tommy what you need — size (16mm or 25mm), quantity, wall thickness, and destination port — and I'll send you a detailed quote with full specs and landed cost breakdown within 24 hours.
 

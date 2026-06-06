@@ -241,6 +241,8 @@ We supply padlocks from all 9 SOLA series — from budget laminated to premium s
 - 📱 **WhatsApp:** [+86 153 5672 3037](https://wa.me/8615356723037)
 - 🌐 **Website:** [jh-hardware.com](https://jh-hardware.com)
 
+👉 **Browse our padlock collection:** [Padlocks](https://jh-hardware.com/products/padlocks/) — waterproof, laminated, brass, heavy duty iron padlocks
+
 *Free samples available for serious buyers. Custom branding available for bulk orders (500+ pcs per model).*
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: "What Door Handles Actually Sell in Nigeria (And What Doesn't) — 10 Years of Experience"
+title: "Door Handle Price in Nigeria 2026: Which Types & Materials Sell Best? (10 Years Data)"
 description: "After 10 years selling door handles to Nigeria, here's what works — lever vs knob, finishes that sell, what mistakes to avoid, and real data from 500+ customers."
 keywords: "door handles Nigeria, what sells Nigeria, lever vs knob, satin nickel, matte black, JH Hardware, SOLA handles"
 author: "Tommy — JH Hardware (10 Years in Nigeria)"
@@ -191,6 +191,8 @@ If you're not sure what to order, just ask us — we've seen what works in Niger
 📧 **Email:** z946487044@icloud.com  
 💬 **WhatsApp:** +86 183 5800 8400  
 🌐 **Website:** https://jh-hardware.com
+
+👉 **Check door handle prices:** [Door Handles Collection](https://jh-hardware.com/products/door-handles/) — lever handles, knob handles, pull handles
 
 **We can send you our full 2025 Door Handle Sales Report** — finish by finish, city by city. It's the same data we use to decide what to stock.
 

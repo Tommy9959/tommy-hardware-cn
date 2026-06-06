@@ -1,5 +1,5 @@
 ---
-title: "Certifications That Matter (And Ones That Don't) — From 10 Years of Nigerian Customs Nightmares"
+title: "Nigeria Import Certifications 2026: SONCAP, Form M, PAAR — What You Actually Need (10 Years of Experience)"
 description: "After 10 years of getting goods stuck in Lagos and Port Harcourt ports, here's what certifications you actually need — ISO 9001, CE, SGS, SONCAP — and how to spot fake ones."
 keywords: "Nigeria customs certification, SONCAP, ISO 9001, SGS, CE, customs clearance Nigeria, fake certificates, JH Hardware"
 author: "Tommy — JH Hardware (10 Years in Nigeria)"
@@ -8,7 +8,7 @@ tags: ["customs clearance", "Nigeria tips", "certifications", "quality control",
 categories: ["From Our Experience"]
 ---
 
-## Certifications That Matter (And Ones That Don't) — From 10 Years of Nigerian Customs Nightmares
+## Nigeria Import Certifications 2026: SONCAP, Form M, PAAR — What You Actually Need (10 Years of Experience)
 
 Let me start with 2018. A new customer ordered a container of locks and paid extra for "CE certification." The supplier sent a nice PDF certificate, and off we went.
 
@@ -217,6 +217,8 @@ And if you're not sure about a certificate, just send it to me on WhatsApp — I
 📧 **Email:** z946487044@icloud.com  
 💬 **WhatsApp:** +86 183 5800 8400  
 🌐 **Website:** https://jh-hardware.com
+
+👉 **Browse our certified products:** [Door Locks](https://jh-hardware.com/products/door-locks/) | [Door Handles](https://jh-hardware.com/products/door-handles/) | [Padlocks](https://jh-hardware.com/products/padlocks/)
 
 **We handle 100% of SONCAP for our customers** — no extra work for you, no extra cost. Just send us your order, and we take care of the rest.
 

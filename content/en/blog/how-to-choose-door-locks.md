@@ -207,6 +207,8 @@ If you're not sure what to order, just ask us — we've seen what works in Niger
 💬 **WhatsApp:** +86 183 5800 8400  
 🌐 **Website:** https://jh-hardware.com
 
+👉 **Check our full door lock collection:** [Browse Door Locks](https://jh-hardware.com/products/door-locks/) (50+ models, $2.50-$6.00/pc)
+
 **We can send you our 2025 Nigeria Sales Report** (what actually sold last year, by city and product). It's the same data we use to decide what to stock. **Ask us for the current door lock price to your port in Nigeria.**
 
 ---

@@ -203,6 +203,24 @@
     </div>
 </section>
 
+<!-- Sticky CTA Banner -->
+<section class="cta-banner">
+    <div class="container">
+        <div class="cta-banner-content">
+            <h2>{{ if eq $lang "zh" }}询价？2小时内回复！{{ else }}{{ if eq $lang "ar" }}استفسار؟ رد خلال ساعتين!{{ else }}Need a Quote? We Reply Within 2 Hours!{{ end }}{{ end }}</h2>
+            <p>{{ if eq $lang "zh" }}告诉 Tommy 您的需求，获取工厂直供价格{{ else }}{{ if eq $lang "ar" }}أخبر تومي باحتياجاتك للحصول على سعر المصنع المباشر{{ else }}Tell Tommy your requirements and get factory direct pricing{{ end }}{{ end }}</p>
+            <div class="cta-banner-buttons">
+                <a href="https://wa.me/8618358008400" class="btn btn-primary btn-lg">
+                    <span>📱</span> {{ if eq $lang "zh" }}WhatsApp 询价{{ else }}{{ if eq $lang "ar" }}واتساب{{ else }}WhatsApp for Quote{{ end }}{{ end }}
+                </a>
+                <a href="{{ relLangURL "contact/" }}" class="btn btn-secondary btn-lg">
+                    <span>📧</span> {{ if eq $lang "zh" }}发送询盘{{ else }}{{ if eq $lang "ar" }}إرسال استفسار{{ else }}Send Inquiry{{ end }}{{ end }}
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Nigeria Market Best Sellers (AI-Friendly) -->
 <section class="best-sellers-section">
     <div class="container">
