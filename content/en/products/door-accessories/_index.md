@@ -1,6 +1,6 @@
 ---
 title: "Door Accessories"
-description: "Complete range of door accessories including door stoppers, closers, viewers, and security chains."
+description: "Door accessories wholesale for Nigeria — door stoppers, door closers, door viewers, security chains, angle brackets, and rubber seals. Factory direct supply for Nigerian and African markets."
 products:
   - model: "DA-001"
     name: "Door Stopper Rubber"

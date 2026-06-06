@@ -1,6 +1,6 @@
 ---
 title: "Sliding Tracks"
-description: "Smooth sliding tracks and rails for drawers, wardrobes, and sliding doors. Heavy-duty construction with quiet operation."
+description: "Sliding tracks and rails wholesale for Nigeria — drawer slides, wardrobe rails, sliding door tracks, and barn door hardware. Heavy-duty construction with quiet ball-bearing operation. Factory direct. Free SONCAP support."
 products:
   - model: "ST-001"
     name: "Drawer Slide Full Extension"

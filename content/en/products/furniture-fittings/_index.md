@@ -1,6 +1,6 @@
 ---
 title: "Furniture Fittings"
-description: "Professional furniture fittings including handles, connectors, supports, and accessories."
+description: "Furniture fittings wholesale for furniture makers in Nigeria and Africa — furniture handles, cam connectors, dowel pins, shelf supports, gas struts, and hinges. Factory direct from China."
 products:
   - model: "FF-001"
     name: "Furniture Handle Aluminum"

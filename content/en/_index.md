@@ -5,7 +5,8 @@ keywords: "door handles manufacturer, door handles supplier, door handles factor
 author: "Yiwu Shuihui Import & Export Co., Ltd."
 canonical: "https://jh-hardware.com/"
 robots: "index, follow"
-image: "https://jh-hardware.com/images/logo/logo.jpeg"
+og_image: "/images/logo/logo.jpeg"
+image: "/images/products/door-locks/9129-113.jpg"
 ---
 
 # SOLA - Professional Door Hardware Manufacturer

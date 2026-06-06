@@ -92,7 +92,7 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $description }}">
-<meta property="og:image" content="{{ cond .Params.image (.Params.image | absURL) (site.Params.logo | absURL) }}">
+<meta property="og:image" content="{{ cond .Params.og_image (.Params.og_image | absURL) (cond .Params.image (.Params.image | absURL) (site.Params.logo | absURL)) }}">
 <meta property="og:locale" content="{{ .Site.Language.Lang }}">
 <meta property="og:site_name" content="{{ site.Title }}">
 
@@ -103,7 +103,7 @@
 <meta property="twitter:url" content="{{ .Permalink }}">
 <meta property="twitter:title" content="{{ $title }}">
 <meta property="twitter:description" content="{{ $description }}">
-<meta property="twitter:image" content="{{ cond .Params.image (.Params.image | absURL) (site.Params.logo | absURL) }}">
+<meta property="twitter:image" content="{{ cond .Params.og_image (.Params.og_image | absURL) (cond .Params.image (.Params.image | absURL) (site.Params.logo | absURL)) }}">
 
 <!-- 多语言替代链接 -->
 {{- if .IsTranslated -}}

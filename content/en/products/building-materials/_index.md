@@ -1,6 +1,6 @@
 ---
 title: "Building Materials"
-description: "Professional building materials including adhesives, wallpapers, and construction chemicals."
+description: "Building materials wholesale for Nigeria and Africa — tile adhesives, ceramic wallpaper, construction chemicals, angle brackets, and more. Factory direct from China. Fast shipping to Lagos, Port Harcourt, and Onne ports."
 products:
   - model: "BM-001"
     name: "Tile Adhesive Standard"

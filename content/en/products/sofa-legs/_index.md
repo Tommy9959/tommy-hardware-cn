@@ -1,6 +1,6 @@
 ---
 title: "Sofa Legs"
-description: "Stylish and durable sofa legs and furniture feet. Various materials and finishes to match any furniture design."
+description: "Sofa legs wholesale for Nigeria and Africa — wooden sofa legs, metal furniture legs, plastic furniture feet, and adjustable glides. Factory direct pricing for bulk orders. Popular models for furniture makers in Lagos, Onitsha, and Nnewi."
 products:
   - model: "SL-001"
     name: "Wooden Sofa Leg"

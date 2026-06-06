@@ -5,7 +5,7 @@ aliases:
   - /products/steel-pipes-flanges/
   - /en/products/steel-pipes-flanges
   - /en/products/steel-pipes-flanges/
-description: "Iron casing pipes 16mm and 25mm for building embedded pipes, conduit, and structural reinforcement in Nigeria. Factory direct from SOLA Hardware."
+description: "Iron casing pipes 16mm and 25mm price in Nigeria 2026 — factory direct from China. Embedded pipes, conduit pipes, and structural reinforcement for building projects. Wholesale supply to Lagos, Abuja, Onitsha. Bulk order welcome."
 products:
   - model: "IP-001"
     name: "Iron Casing Pipe 16mm × 1.5mm Wall"

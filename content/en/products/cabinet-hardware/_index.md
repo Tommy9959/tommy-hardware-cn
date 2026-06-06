@@ -1,6 +1,6 @@
 ---
 title: "Cabinet Hardware"
-description: "Complete cabinet hardware solutions including knobs, pulls, and accessories. Modern and classic styles for kitchen and bathroom cabinets."
+description: "Cabinet hardware wholesale for Nigeria and Africa — cabinet knobs, pull handles, hinges, drawer slides, and accessories. Modern and classic styles for kitchen and bathroom cabinets. Factory direct pricing."
 products:
   - model: "CH-001"
     name: "Cabinet Knob Round"
