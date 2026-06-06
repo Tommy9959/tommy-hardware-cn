@@ -5,7 +5,7 @@ keywords: "door handles manufacturer, door handles supplier, door handles factor
 author: "Yiwu Shuihui Import & Export Co., Ltd."
 canonical: "https://jh-hardware.com/"
 robots: "index, follow"
-og_image: "/images/logo/logo.jpeg"
+og_image: "/images/products/door-locks/9129-113.jpg"
 image: "/images/products/door-locks/9129-113.jpg"
 ---
 
