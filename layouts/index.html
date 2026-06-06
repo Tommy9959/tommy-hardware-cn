@@ -253,6 +253,56 @@
     </div>
 </section>
 
+<!-- Client Success Story Section -->
+<section class="home-client-section">
+    <div class="container">
+        <h2 class="section-title">
+            {{ if eq $lang "zh" }}真实客户故事{{ else }}{{ if eq $lang "ar" }}قصة عميل حقيقية{{ else }}Real Client Story{{ end }}{{ end }}
+        </h2>
+        <p class="section-subtitle">
+            {{ if eq $lang "zh" }}来自尼日利亚Onne港的五金批发商，月月走柜，年采购200万+{{ else }}{{ if eq $lang "ar" }}موزع أجهزة من أوني، نيجيريا — حاويات شهرية، مشتريات سنوية 200 ألف+{{ else }}A hardware wholesaler from Onne, Nigeria — monthly containers, $200K+ annual purchasing{{ end }}{{ end }}
+        </p>
+        <div class="home-client-card">
+            <div class="home-client-left">
+                <div class="home-client-emoji">📦</div>
+                <div class="home-client-meta">
+                    <span class="home-client-badge location">📍 Onne, Rivers State, Nigeria</span>
+                    <span class="home-client-badge type">👥 Bulk Distributor</span>
+                </div>
+                <h3>Okafor</h3>
+                <p class="home-client-desc">
+                    {{ if eq $lang "zh" }}"一开始我只试了一个柜子。现在JH Hardware供给我卖的大部分产品——门锁、把手、铰链、铁管套管、连沙发脚都是他们的。质量稳定、价格比我在本地拿的任何渠道都便宜、Tommy从来没有耽误过交期。我的生意比预想中发展得快多了。"
+                    {{ else }}{{ if eq $lang "ar" }}"بدأت بحاوية واحدة لاختبار المياه. الآن JH Hardware تورد تقريباً كل ما أبيع - الأقفال والمقابض والمفاصل وأنابيب الحديد وحتى أرجل الأرائك. الجودة ثابتة، الأسعار أفضل من أي شيء أجده محلياً، وتومي لا يفوت المواعيد أبداً. عملي نما أسرع مما توقعت."
+                    {{ else }}"I started with one container to test the waters. Now JH Hardware supplies almost everything I sell — locks, handles, hinges, casing pipes, even sofa legs. The quality is consistent, the prices beat anything I can find locally, and Tommy never misses a deadline. My business has grown faster than I ever expected."
+                    {{ end }}{{ end }}
+                </p>
+                <cite>— Okafor</cite>
+            </div>
+            <div class="home-client-right">
+                <div class="home-client-stat">
+                    <span class="hcs-number">💰 30%</span>
+                    <span class="hcs-label">{{ if eq $lang "zh" }}成本节省{{ else }}{{ if eq $lang "ar" }}توفير التكاليف{{ else }}Cost Savings{{ end }}{{ end }}</span>
+                </div>
+                <div class="home-client-stat">
+                    <span class="hcs-number">🚚 18-22天</span>
+                    <span class="hcs-label">{{ if eq $lang "zh" }}交货时间{{ else }}{{ if eq $lang "ar" }}مهلة التسليم{{ else }}Lead Time{{ end }}{{ end }}</span>
+                </div>
+                <div class="home-client-stat">
+                    <span class="hcs-number">📋 月月走柜</span>
+                    <span class="hcs-label">{{ if eq $lang "zh" }}合作频率{{ else }}{{ if eq $lang "ar" }}وتيرة الطلب{{ else }}Order Frequency{{ end }}{{ end }}</span>
+                </div>
+                <div class="home-client-stat">
+                    <span class="hcs-number">📦 10+品类</span>
+                    <span class="hcs-label">{{ if eq $lang "zh" }}产品覆盖{{ else }}{{ if eq $lang "ar" }}تغطية المنتجات{{ else }}Product Range{{ end }}{{ end }}</span>
+                </div>
+                <a href="{{ relLangURL "clients/case-okafor-onne-wholesale/" }}" class="home-client-cta-link">
+                    {{ if eq $lang "zh" }}查看完整案例 →{{ else }}{{ if eq $lang "ar" }}عرض القصة الكاملة ←{{ else }}Read Full Story →{{ end }}{{ end }}
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- FAQ Section (AI-Friendly) -->
 <section class="faq-section">
     <div class="container">
