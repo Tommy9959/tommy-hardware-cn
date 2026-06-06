@@ -1,11 +1,11 @@
 
 ---
-title: "Client Cases"
-description: "Real success stories from our clients in Nigeria and Africa. See how JH Hardware helps businesses save costs and improve efficiency with quality door hardware products."
-date: 2026-05-13T20:00:00+08:00
+title: "Client Success Stories"
+description: "Real success stories from hardware wholesalers and construction companies in Nigeria. See how JH Hardware helps Nigerian businesses grow with factory-direct pricing."
+date: 2026-06-06T10:00:00+08:00
 draft: false
 ---
 
-## Client Success Stories
+## Real Stories from Real Partners
 
-Discover how our clients in Nigeria and across Africa are achieving better results with JH Hardware's factory-direct door hardware solutions.
+Every order tells a story. From Onne to Palestine, our clients trust JH Hardware for consistent quality, competitive factory-direct pricing, and reliable delivery that keeps their businesses running.

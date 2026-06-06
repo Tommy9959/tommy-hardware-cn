@@ -1,45 +1,98 @@
-
 {{ define "main" }}
-<!-- 客户案例列表页 -->
+<!-- 客户案例列表页 v2 — 专业可信 -->
 <section class="clients-page">
     <div class="container">
-        <!-- 页面标题 -->
+
+        <!-- 页面标题 + 介绍 -->
         <div class="page-header">
-            <h1 class="page-title">
+            <h1 class="page-title clients-title-glow">
                 {{ if eq .Site.Language.Lang "zh" }}客户案例
-                {{ else }}{{ if eq .Site.Language.Lang "en" }}Client Cases
-                {{ else }}عملائنا{{ end }}{{ end }}
+                {{ else }}{{ if eq .Site.Language.Lang "en" }}Client Success Stories
+                {{ else }}قصص نجاح العملاء{{ end }}{{ end }}
             </h1>
             <p class="page-subtitle">
-                {{ if eq .Site.Language.Lang "zh" }}来自尼日利亚和非洲的真实成功案例，见证JH Hardware如何帮助企业成长
-                {{ else }}{{ if eq .Site.Language.Lang "en" }}Real success stories from Nigeria and Africa, see how JH Hardware helps businesses grow
-                {{ else }}قصص نجاح حقيقية من نيجيريا وأفريقيا{{ end }}{{ end }}
+                {{ if eq .Site.Language.Lang "zh" }}每一张订单背后都是一个真实的故事。来自尼日利亚、中东和非洲的客户，正在用 JH Hardware 的产品改变他们的生意。
+                {{ else }}{{ if eq .Site.Language.Lang "en" }}Every order tells a real story. Businesses across Nigeria, Middle East, and Africa are growing with JH Hardware products.
+                {{ else }}كل طلب يروي قصة حقيقية. الشركات في نيجيريا والشرق الأوسط وأفريقيا تنمو مع منتجات JH Hardware.{{ end }}{{ end }}
             </p>
         </div>
 
-        <!-- 案例文章列表 -->
+        <!-- 统计数据条 — 信任信号 -->
+        <div class="clients-stats-bar">
+            <div class="stat-item">
+                <span class="stat-number">4+</span>
+                <span class="stat-label">
+                    {{ if eq .Site.Language.Lang "zh" }}成功案例
+                    {{ else }}{{ if eq .Site.Language.Lang "en" }}Success Stories
+                    {{ else }}قصص نجاح{{ end }}{{ end }}
+                </span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">
+                    {{ if eq .Site.Language.Lang "zh" }}合作客户
+                    {{ else }}{{ if eq .Site.Language.Lang "en" }}Active Clients
+                    {{ else }}عملاء نشطون{{ end }}{{ end }}
+                </span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">
+                    {{ if eq .Site.Language.Lang "zh" }}年出口经验
+                    {{ else }}{{ if eq .Site.Language.Lang "en" }}Years Exporting
+                    {{ else }}سنوات التصدير{{ end }}{{ end }}
+                </span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">80+</span>
+                <span class="stat-label">
+                    {{ if eq .Site.Language.Lang "zh" }}产品品类
+                    {{ else }}{{ if eq .Site.Language.Lang "en" }}Product Lines
+                    {{ else }}خطوط إنتاج{{ end }}{{ end }}
+                </span>
+            </div>
+        </div>
+
+        <!-- 案例文章列表 — 增强卡片 -->
         <div class="clients-grid">
             {{ range .RegularPages.ByDate.Reverse }}
             <article class="client-card">
-                <div class="client-icon">🏢</div>
-                <div class="client-content">
+                <div class="client-card-header">
+                    {{ $emoji := "🏢" }}
+                    {{ if eq .Params.client_type "Bulk Distributor" }}{{ $emoji = "📦" }}{{ end }}
+                    {{ if eq .Params.client_type "Construction Company" }}{{ $emoji = "🏗️" }}{{ end }}
+                    {{ if eq .Params.client_type "Furniture Manufacturer" }}{{ $emoji = "🪑" }}{{ end }}
+                    {{ if eq .Params.client_type "Building Hardware Importer" }}{{ $emoji = "🌍" }}{{ end }}
+                    <span class="client-card-emoji">{{ $emoji }}</span>
+                    <div class="client-card-meta-top">
+                        <span class="client-location-badge">📍 {{ .Params.location }}</span>
+                        <span class="client-type-badge">{{ .Params.client_type }}</span>
+                    </div>
+                </div>
+                <div class="client-card-body">
                     <h2 class="client-title">
                         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                     </h2>
-                    <div class="client-meta">
-                        <span class="client-date">📅 {{ .Date.Format "2006-01-02" }}</span>
-                        {{ if .Params.client_type }}
-                        <span class="client-type">👥 {{ .Params.client_type }}</span>
-                        {{ end }}
-                        {{ if .Params.location }}
-                        <span class="client-location">📍 {{ .Params.location }}</span>
+                    <p class="client-excerpt">{{ .Summary | truncate 200 }}</p>
+
+                    <!-- 成果亮点标签 -->
+                    {{ $results := slice }}
+                    {{ if .Params.results_savings }}{{ $results = $results | append (printf "💰 %s" .Params.results_savings) }}{{ end }}
+                    {{ if .Params.results_leadtime }}{{ $results = $results | append (printf "🚚 %s" .Params.results_leadtime) }}{{ end }}
+                    {{ if .Params.results_orders }}{{ $results = $results | append (printf "📋 %s" .Params.results_orders) }}{{ end }}
+                    {{ if gt (len $results) 0 }}
+                    <div class="client-results-tags">
+                        {{ range $results }}
+                        <span class="result-tag">{{ . }}</span>
                         {{ end }}
                     </div>
-                    <p class="client-excerpt">{{ .Summary | truncate 250 }}</p>
-                    <a href="{{ .RelPermalink }}" class="btn btn-primary">
-                        {{ if eq $.Site.Language.Lang "zh" }}查看详情 →
-                        {{ else }}{{ if eq $.Site.Language.Lang "en" }}Read More →
-                        {{ else }}اقرأ المزيد →{{ end }}{{ end }}
+                    {{ end }}
+                </div>
+                <div class="client-card-footer">
+                    <a href="{{ .RelPermalink }}" class="read-more-link">
+                        {{ if eq $.Site.Language.Lang "zh" }}查看完整案例 →
+                        {{ else }}{{ if eq $.Site.Language.Lang "en" }}Read Full Story →
+                        {{ else }}اقرأ القصة كاملة ←{{ end }}{{ end }}
                     </a>
                 </div>
             </article>
@@ -49,169 +102,366 @@
         {{/* 如果没有案例 */}}
         {{ if eq (len .RegularPages) 0 }}
         <div class="no-posts">
+            <span class="no-posts-icon">📝</span>
             <p>{{ if eq .Site.Language.Lang "zh" }}客户案例即将上线，敬请期待！{{ else }}{{ if eq .Site.Language.Lang "en" }}Client cases coming soon, stay tuned!{{ else }}قصص العملاء قريبا{{ end }}{{ end }}</p>
         </div>
         {{ end }}
 
-        <!-- 联系 CTA -->
-        <div class="clients-cta">
-            <h3>{{ if eq .Site.Language.Lang "zh" }}成为下一个成功案例{{ else }}{{ if eq .Site.Language.Lang "en" }}Be Our Next Success Story{{ else }}كن قصتنا الناجحة القادمة{{ end }}{{ end }}</h3>
-            <p>{{ if eq .Site.Language.Lang "zh" }}联系我们，获取专属解决方案{{ else }}{{ if eq .Site.Language.Lang "en" }}Contact us for a custom solution{{ else }}اتصل بنا للحصول على حل مخصص{{ end }}{{ end }}</p>
-            <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="btn btn-whatsapp" target="_blank">
-                💬 {{ if eq .Site.Language.Lang "zh" }}WhatsApp 咨询{{ else }}{{ if eq .Site.Language.Lang "en" }}Consult via WhatsApp{{ else }}واتساب{{ end }}{{ end }}
-            </a>
+        <!-- CTA — 邀请成为下一个案例 -->
+        <div class="clients-cta-section">
+            <div class="cta-content">
+                <h2>
+                    {{ if eq .Site.Language.Lang "zh" }}下一个案例就是你
+                    {{ else }}{{ if eq .Site.Language.Lang "en" }}Be Our Next Success Story
+                    {{ else }}كن قصتنا الناجحة التالية{{ end }}{{ end }}
+                </h2>
+                <p>
+                    {{ if eq .Site.Language.Lang "zh" }}无论你在拉各斯、阿布贾还是哈科特港，我们都是尼日利亚最大的五金工厂直供商之一。2小时内给你报价。
+                    {{ else }}{{ if eq .Site.Language.Lang "en" }}Whether you're in Lagos, Abuja, or Port Harcourt — we're one of the largest direct factory suppliers to Nigeria. Get a quote within 2 hours.
+                    {{ else }}سواء كنت في لاغوس أو أبوجا أو بورت هاركورت، نحن أحد أكبر موردي المصانع المباشرة إلى نيجيريا. احصل على عرض سعر خلال ساعتين.{{ end }}{{ end }}
+                </p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/8618358008400" class="btn btn-whatsapp" target="_blank">
+                        💬 {{ if eq .Site.Language.Lang "zh" }}WhatsApp 立即询价{{ else }}{{ if eq .Site.Language.Lang "en" }}WhatsApp for Quote Now{{ else }}واتساب للحصول على عرض سعر{{ end }}{{ end }}
+                    </a>
+                    <a href="mailto:z946487044@icloud.com" class="btn btn-email">
+                        📧 {{ if eq .Site.Language.Lang "zh" }}发送邮件{{ else }}{{ if eq .Site.Language.Lang "en" }}Send Email{{ else }}إرسال بريد إلكتروني{{ end }}{{ end }}
+                    </a>
+                </div>
+            </div>
         </div>
+
     </div>
 </section>
 
 <style>
 .clients-page {
-    padding: 5rem 0;
-    min-height: 60vh;
-    background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+    padding: 4rem 0 6rem;
+    background: linear-gradient(180deg, #f5f7ff 0%, #ffffff 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ===== 页面标题 ===== */
 .page-header {
     text-align: center;
-    margin-bottom: 4rem;
-    padding-top: 2rem;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
 }
-.page-title {
-    font-size: 2.8rem;
-    color: var(--secondary-color);
+.clients-title-glow {
+    font-size: 3rem;
+    background: linear-gradient(135deg, #2563eb 0%, #7c3aed 60%, #db2777 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     margin-bottom: 1rem;
-    font-weight: 700;
+    font-weight: 800;
+    letter-spacing: -0.02em;
 }
 .page-subtitle {
-    font-size: 1.2rem;
-    color: var(--text-light);
-    max-width: 700px;
+    font-size: 1.15rem;
+    color: #64748b;
+    max-width: 720px;
     margin: 0 auto;
+    line-height: 1.6;
 }
+
+/* ===== 统计条 ===== */
+.clients-stats-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto 4rem;
+    background: white;
+    border-radius: 20px;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    border: 1px solid #e2e8f0;
+}
+.stat-item {
+    text-align: center;
+}
+.stat-number {
+    display: block;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #2563eb;
+    line-height: 1.2;
+}
+.stat-label {
+    display: block;
+    font-size: 0.85rem;
+    color: #94a3b8;
+    margin-top: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+/* ===== 案例卡片网格 ===== */
 .clients-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-    gap: 2.5rem;
-    margin-bottom: 5rem;
+    gap: 2rem;
+    margin-bottom: 4rem;
 }
+
+/* ===== 单张卡片 ===== */
 .client-card {
     background: white;
-    border-radius: var(--radius-lg);
-    padding: 2.5rem;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    transition: all 0.3s;
-    border: 1px solid var(--border-color);
-    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    border: 1px solid #e2e8f0;
+    transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
-}
-.client-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 4px;
-    height: 100%;
-    background: linear-gradient(180deg, var(--primary-color), var(--secondary-color));
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-.client-card:hover::before {
-    opacity: 1;
+    position: relative;
 }
 .client-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 40px rgba(37, 99, 235, 0.12);
+    border-color: #93c5fd;
 }
-.client-icon {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+
+/* 卡片头部 — emoji + 位置/类型 */
+.client-card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem 0;
+}
+.client-card-emoji {
+    font-size: 2.8rem;
+    line-height: 1;
+}
+.client-card-meta-top {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.client-location-badge,
+.client-type-badge {
+    font-size: 0.78rem;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.client-location-badge {
+    background: #dbeafe;
+    color: #1d4ed8;
+}
+.client-type-badge {
+    background: #f3e8ff;
+    color: #7c3aed;
+}
+
+/* 卡片身体 */
+.client-card-body {
+    padding: 1rem 1.5rem 1rem;
+    flex: 1;
 }
 .client-title {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
     line-height: 1.4;
+    margin-bottom: 0.75rem;
 }
 .client-title a {
-    color: var(--secondary-color);
+    color: #1e293b;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: color 0.2s;
 }
 .client-title a:hover {
-    color: var(--primary-color);
-}
-.client-meta {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-    font-size: 0.9rem;
-    color: var(--text-light);
-    flex-wrap: wrap;
+    color: #2563eb;
 }
 .client-excerpt {
-    color: var(--text-color);
-    line-height: 1.8;
-    margin-bottom: 2rem;
-    font-size: 1rem;
-}
-.clients-cta {
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    color: white;
-    padding: 3rem 2rem;
-    border-radius: var(--radius-lg);
-    text-align: center;
-    margin-top: 3rem;
-}
-.clients-cta h3 {
-    font-size: 2rem;
+    font-size: 0.95rem;
+    color: #64748b;
+    line-height: 1.65;
     margin-bottom: 1rem;
 }
-.clients-cta p {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-    opacity: 0.95;
+
+/* 成果标签 */
+.client-results-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
-.clients-cta .btn {
-    padding: 1rem 2.5rem;
-    font-size: 1rem;
+.result-tag {
+    font-size: 0.82rem;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background: #f0fdf4;
+    color: #15803d;
+    font-weight: 500;
+    border: 1px solid #bbf7d0;
+}
+
+/* 卡片底部 */
+.client-card-footer {
+    padding: 0 1.5rem 1.5rem;
+}
+.read-more-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
     font-weight: 600;
+    font-size: 0.95rem;
+    color: #2563eb;
+    text-decoration: none;
+    transition: gap 0.2s;
 }
-.clients-cta .btn-whatsapp {
-    background: white;
-    color: var(--primary-color);
+.read-more-link:hover {
+    gap: 0.7rem;
+    color: #1d4ed8;
 }
-.clients-cta .btn-whatsapp:hover {
-    background: #25D366;
-    color: white;
-}
+
+/* ===== 无案例占位 ===== */
 .no-posts {
     text-align: center;
     padding: 5rem 2rem;
     background: white;
-    border-radius: var(--radius-lg);
-    font-size: 1.2rem;
-    color: var(--text-light);
+    border-radius: 20px;
+    border: 2px dashed #cbd5e1;
 }
+.no-posts-icon {
+    font-size: 4rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+.no-posts p {
+    font-size: 1.2rem;
+    color: #94a3b8;
+}
+
+/* ===== CTA 区块 ===== */
+.clients-cta-section {
+    background: linear-gradient(135deg, #1e40af 0%, #7c3aed 100%);
+    color: white;
+    border-radius: 24px;
+    padding: 3.5rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.clients-cta-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 400px;
+    height: 400px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 50%;
+}
+.cta-content {
+    position: relative;
+    z-index: 1;
+}
+.cta-content h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.cta-content p {
+    font-size: 1.05rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cta-buttons .btn {
+    padding: 1rem 2.2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+.btn-whatsapp {
+    background: #25D366;
+    color: white !important;
+}
+.btn-whatsapp:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
+}
+.btn-email {
+    background: rgba(255,255,255,0.15);
+    color: white !important;
+    border: 2px solid rgba(255,255,255,0.3);
+}
+.btn-email:hover {
+    background: white;
+    color: #7c3aed !important;
+}
+
+/* ===== 响应式 ===== */
 @media (max-width: 768px) {
     .clients-page {
-        padding: 3rem 0;
+        padding: 2rem 0 4rem;
     }
-    .page-title {
-        font-size: 2.2rem;
+    .clients-title-glow {
+        font-size: 2rem;
     }
     .page-subtitle {
         font-size: 1rem;
     }
+    .clients-stats-bar {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1.5rem 1rem;
+        margin-bottom: 2.5rem;
+    }
+    .stat-number {
+        font-size: 1.8rem;
+    }
     .clients-grid {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1.5rem;
     }
-    .client-card {
-        padding: 2rem;
+    .client-card-header {
+        padding: 1.2rem 1.2rem 0;
     }
-    .clients-cta {
-        padding: 2rem 1.5rem;
+    .client-card-body {
+        padding: 0.8rem 1.2rem;
     }
-    .clients-cta h3 {
-        font-size: 1.5rem;
+    .client-card-footer {
+        padding: 0 1.2rem 1.2rem;
+    }
+    .client-title {
+        font-size: 1.1rem;
+    }
+    .cta-content h2 {
+        font-size: 1.6rem;
+    }
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cta-buttons .btn {
+        width: 100%;
+        max-width: 320px;
+        justify-content: center;
     }
 }
 </style>

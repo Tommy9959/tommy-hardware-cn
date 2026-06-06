@@ -3,7 +3,7 @@
 title: "توريد عتاد أبواب كامل لمشروع بناء في أبوجا"
 description: "كيف قدمت JH Hardware حزم عتاد أبواب كاملة لمشروع سكني يضم أكثر من 200 وحدة في أبوجا، نيجيريا، مما أدى إلى طلب متكرر للمرحلة الثانية."
 date: 2026-03-20T14:30:00+08:00
-draft: false
+draft: true
 industry_categories: ["door_locks", "door_handles", "door_hinges", "door_accessories"]
 client_type: "شركة بناء"
 location: "أبوجا، نيجيريا"

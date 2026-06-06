@@ -3,7 +3,7 @@
 title: "拉各斯经销商批量门控五金供应，成本降低40%"
 description: "拉各斯的一家五金经销商如何通过改用JH Hardware的工厂直供门把手、铰链和抽屉滑轨，将成本降低40%。"
 date: 2026-04-15T10:00:00+08:00
-draft: false
+draft: true
 industry_categories: ["furniture", "cabinet_hardware", "door_handles", "door_hinges"]
 client_type: "批量经销商"
 location: "尼日利亚拉各斯"

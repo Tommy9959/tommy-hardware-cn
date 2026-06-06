@@ -3,7 +3,7 @@
 title: "阿布贾建筑项目的完整门控五金供应"
 description: "JH Hardware如何为尼日利亚阿布贾的200多套住宅项目提供完整的门控五金配套，并获得二期的重复订单。"
 date: 2026-03-20T14:30:00+08:00
-draft: false
+draft: true
 industry_categories: ["door_locks", "door_handles", "door_hinges", "door_accessories"]
 client_type: "建筑公司"
 location: "尼日利亚阿布贾"
