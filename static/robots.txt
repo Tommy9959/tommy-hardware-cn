@@ -242,6 +242,51 @@ Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
+User-agent: KimiBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: 360Bot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: BaichuanBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: YiBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: SkyworkBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
 # === AI Knowledge Directories ===
 LLMs.txt: https://jh-hardware.com/llms.txt
 LLMs-Full.txt: https://jh-hardware.com/llms-full.txt
