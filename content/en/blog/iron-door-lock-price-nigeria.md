@@ -8,6 +8,18 @@ tags: ["iron door lock", "door lock price Nigeria", "mortise lock", "Nigeria imp
 categories: ["Product Guide", "Nigeria Market"]
 draft: false
 industry_categories: ["door_locks"]
+faqs:
+  - question: "What is the door lock price in Nigeria 2026?"
+    answer: "Factory prices: iron plate door locks $2.50-$5.00, mortise locks $3.00-$6.00, smart locks $20-$80. Prices FOB China. Bulk discounts available for container orders."
+  - question: "Where to buy cheap door locks in Nigeria?"
+    answer: "Import directly from SOLA Hardware in China for 30-50% savings vs local retail. Factory direct prices start at $2.50 per piece. Free SONCAP support included."
+  - question: "What type of door lock is best for Nigeria?"
+    answer: "Mortise locks in satin nickel finish are the #1 seller. Single cylinder models preferred. Iron plate locks are popular for budget projects. Smart locks growing in Abuja and Lagos."
+  - question: "What is the MOQ for door locks from China?"
+    answer: "1000 pieces per model for door locks. Mixed models in one container accepted. Smaller orders possible for sample/testing. Contact SOLA Hardware for flexibility."
+  - question: "Are SOLA Hardware door locks good quality?"
+    answer: "Yes. ISO 9001, CE, and SGS certified. Iron plate with aluminum handle construction. 10+ years exporting to Africa. 500+ satisfied clients including Nigeria, Kenya, Ghana."
+
 ---
 
 ## Iron Door Lock Price in Nigeria 2026 — Factory Prices, Real Stories, Buying Tips

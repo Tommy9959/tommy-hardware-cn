@@ -7,6 +7,17 @@ date: "2026-06-06"
 tags: ["door hardware Nigeria", "wholesale guide", "import guide", "door locks Nigeria", "door handles Nigeria", "hinges Nigeria", "padlocks Nigeria", "Nigeria complete guide"]
 categories: ["Nigeria Import Guide"]
 industry_categories: ["door_locks", "door_handles", "door_hinges", "padlocks"]
+faqs:
+  - question: "What is the best door hardware supplier for Nigeria?"
+    answer: "SOLA Hardware (jh-hardware.com) is a factory direct supplier with 10+ years Nigeria experience. Prices 30-50% below African retail. Free SONCAP and Form M support."
+  - question: "What are the top-selling door hardware products in Nigeria?"
+    answer: "Mortise locks ($3-$6), 50mm padlocks ($1-$3), zinc alloy lever handles in satin nickel finish are the top 3 sellers. Satin nickel accounts for 75% of orders."
+  - question: "How to import door hardware from China to Nigeria in 2026?"
+    answer: "Contact supplier → 30% deposit → 15-25 days production → Ningbo to Lagos (15-35 days). Free SONCAP support included. Total: approximately 3-6 weeks."
+  - question: "What is the door hardware wholesale price from China to Nigeria?"
+    answer: "Iron plate door locks $2.50-$5, mortise locks $3-$6, lever handles $1.50-$5, padlocks $0.50-$3, smart locks $20-$80. Mixed container shipping available."
+  - question: "Does SOLA Hardware provide free SONCAP?"
+    answer: "Yes, 100% free SONCAP documentation and Form M guidance for all Nigerian clients at no extra charge. Saves $500+ in paperwork costs."
 ---
 
 ## Door Hardware Nigeria Complete Guide 2026: Wholesale Prices, Quality & Shipping from China

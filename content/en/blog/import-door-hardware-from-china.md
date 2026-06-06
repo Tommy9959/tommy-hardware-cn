@@ -6,6 +6,18 @@ author: "Tommy — JH Hardware (10 Years Exporting to Africa)"
 date: "2026-04-29"
 tags: ["import guide", "mistakes to avoid", "customs tips", "Nigeria trade", "from our experience"]
 categories: ["From Our Experience"]
+faqs:
+  - question: "How to import door hardware from China to Nigeria?"
+    answer: "Contact supplier → get quote → 30% deposit → production 15-25 days → sea shipping Ningbo to Lagos (15-35 days) → clearance with free SONCAP support. Total: 3-6 weeks."
+  - question: "What documents needed to import hardware to Nigeria?"
+    answer: "SONCAP certificate, Form M, PAAR, Bill of Lading, Commercial Invoice, Packing List. SOLA Hardware provides free SONCAP and Form M guidance for all Nigerian clients."
+  - question: "How much does it cost to import door locks from China to Nigeria?"
+    answer: "Door lock prices: $2.50-$6.00 per piece FOB. Shipping to Lagos: approximately $100-$150 per cubic meter. Customs duties: 5-20% depending on HS code. Total cost varies by volume."
+  - question: "What is the shipping time from China to Nigeria?"
+    answer: "Stock items: 3-5 days dispatch. Custom production: 15-25 days. Sea freight: 15-35 days to Lagos. Total: approximately 3-6 weeks from order to arrival."
+  - question: "Can I mix different hardware products in one container?"
+    answer: "Yes, mixed containers accepted. Combine door locks, handles, hinges, building materials, and more in one shipment. Contact SOLA Hardware for a consolidated quote."
+
 ---
 
 ## How to Import Door Hardware from China Without Losing Your Shirt — 10 Years of Mistakes I've Seen

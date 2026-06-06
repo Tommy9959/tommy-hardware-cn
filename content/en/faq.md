@@ -1,7 +1,24 @@
 ---
 title: "Frequently Asked Questions"
-description: "Common questions about our door hardware products, MOQ, delivery, payment, and more."
-keywords: "FAQ, door hardware FAQ, MOQ, delivery time, payment terms, samples"
+description: "SOLA Hardware FAQ — door hardware supplier for Nigeria and Africa. Answers about MOQ, pricing, shipping, payment terms, samples, SONCAP, and quality."
+keywords: "FAQ, door hardware FAQ, MOQ, delivery time, payment terms, samples, SONCAP, Form M, Nigeria import"
+faqs:
+  - question: "What is SOLA Hardware's MOQ for door hardware?"
+    answer: "Door handles: 400-500 pcs per model. Door locks: 200-400 pcs per model. Door hinges: 500-1000 pairs. Mixed container orders accepted."
+  - question: "What payment methods do you accept?"
+    answer: "T/T bank transfer (30% deposit + 70% before shipment) is standard. L/C for $50K+ orders. Western Union for under $5K. PayPal for samples (buyer pays fees)."
+  - question: "How long does shipping from China to Nigeria take?"
+    answer: "Stock items: 3-5 days. Production: 15-25 days. Sea freight to Lagos: 15-35 days. Total: 3-6 weeks."
+  - question: "Do you provide free samples?"
+    answer: "Yes, free samples for most products. Buyer pays shipping only. Delivery: 3-5 days by express."
+  - question: "Do you provide SONCAP and Form M support for Nigeria?"
+    answer: "Yes, 100% free. SOLA Hardware handles all SONCAP documentation and Form M guidance for Nigerian clients at no extra charge."
+  - question: "Can I mix different products in one container?"
+    answer: "Yes, mixed container orders welcome. Combine door locks, handles, hinges, building materials in one shipment."
+  - question: "What is the door lock price range?"
+    answer: "Iron plate $2.50-$5, mortise locks $3-$6, lever handles $1.50-$5, padlocks $0.50-$3, smart locks $20-$80. FOB China."
+  - question: "Do you offer OEM/ODM customization?"
+    answer: "Yes. Custom logo, finishes, packaging, and product development. Custom MOQ: 500-1000 pcs."
 ---
 
 ## Frequently Asked Questions (FAQ)

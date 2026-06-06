@@ -7,6 +7,18 @@ author: "Yiwu Shuihui Import & Export Co., Ltd."
 date: "2026-05-18"
 tags: ["Nigeria import", "payment methods", "logistics", "SONCAP", "shipping", "customs clearance"]
 categories: ["Import Guide"]
+faqs:
+  - question: "What payment methods for importing hardware from China to Nigeria?"
+    answer: "T/T bank transfer (30% deposit + 70% before shipment) is standard. Some suppliers offer L/C for large orders. PayPal and Western Union can be used for small sample orders."
+  - question: "How long does shipping take from China to Nigeria?"
+    answer: "Ningbo to Lagos: 15-35 days by sea. Stock items dispatch in 3-5 days. Custom production adds 15-25 days. Total: 3-6 weeks depending on product type."
+  - question: "What are the shipping costs from China to Nigeria?"
+    answer: "Approximately $100-$150 per cubic meter for sea freight to Lagos. Container rates vary. Port charges, customs clearance, and local delivery extra. Contact for exact quote."
+  - question: "What ports in Nigeria handle hardware imports?"
+    answer: "Apapa Port (Lagos) and Tin Can Island Port (Lagos) handle most hardware imports. Onne Port in Port Harcourt is growing. SOLA Hardware ships to all major Nigerian ports."
+  - question: "How to handle customs clearance in Nigeria?"
+    answer: "Work with a licensed clearing agent. Ensure SONCAP and Form M are prepared before shipment. SOLA Hardware provides free documentation support to help streamline clearance."
+
 ---
 
 ## Nigeria Hardware Import: Payment Methods & Logistics Complete Guide 2026

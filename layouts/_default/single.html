@@ -280,6 +280,7 @@
     </div>
 </article>
 
+{{ if eq .Section "products" }}
 <!-- Product Schema.org Structured Data -->
 <script type="application/ld+json">
 {
@@ -310,6 +311,7 @@
   "gtin": ""
 }
 </script>
+{{ end }}
 
 <style>
 .product-detail {
@@ -656,5 +658,26 @@ document.querySelectorAll('.thumbnail').forEach(thumb => {
         {{ .Content }}
     </div>
 </article>
+{{ end }}
+
+<!-- FAQPage Schema for all pages with faqs frontmatter -->
+{{ if .Params.faqs }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{{ range $i, $faq := .Params.faqs }}
+    {{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": "{{ $faq.question }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $faq.answer }}"
+      }
+    }{{ end }}
+  ]
+}
+</script>
 {{ end }}
 {{ end }}

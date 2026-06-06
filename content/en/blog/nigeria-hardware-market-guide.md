@@ -6,6 +6,18 @@ author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-04-29"
 tags: ["Nigeria market", "what I've learned", "key cities", "currency tips", "trust building"]
 categories: ["From Our Experience"]
+faqs:
+  - question: "How big is the Nigeria hardware market?"
+    answer: "Nigeria imports over $500M worth of hardware annually. The market grows 8-12% year-over-year. Top products: door locks, handles, hinges, padlocks, and building materials."
+  - question: "What hardware sells best in Nigeria?"
+    answer: "Mortise locks ($3-$6), 50mm padlocks ($1-$3), zinc alloy lever handles in satin nickel. Waterproof padlocks for coastal areas. Smart locks growing in Lagos high-end market."
+  - question: "Is door hardware demand growing in Nigeria?"
+    answer: "Yes. Construction and real estate sectors are expanding. Hardware market growing 8-12% annually. Dealers can earn ₦30-50M per year selling quality imported hardware."
+  - question: "What finish is best for Nigeria hardware market?"
+    answer: "Satin nickel is most popular (75%+ of orders). SS304 for coastal humidity (Lagos, Port Harcourt). SS201 for dry inland (Abuja, Kano). Matte black growing in popularity."
+  - question: "How to start a hardware business in Nigeria?"
+    answer: "Find a reliable factory direct supplier (like SOLA Hardware), order mixed container, stock top-selling items like mortise locks and padlocks, price competitively, build local dealer network."
+
 ---
 
 ## Nigeria Hardware Market 2026 — What I've Learned After 10 Years of Selling There

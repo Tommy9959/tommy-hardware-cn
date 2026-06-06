@@ -6,6 +6,18 @@ author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-04-29"
 tags: ["door handles", "Nigeria market", "what sells", "product tips", "SOLA brand"]
 categories: ["From Our Experience"]
+faqs:
+  - question: "What door handle material is best for Nigeria?"
+    answer: "SS304 for coastal areas (Lagos, Port Harcourt) to prevent rust. SS201 for inland (Abuja, Kano) — more affordable. Zinc alloy is popular for interiors but avoid coastal use."
+  - question: "SS304 vs SS201 door handles — what's the difference?"
+    answer: "SS304: higher corrosion resistance, best for humid climates, costs more. SS201: good for dry areas, more budget-friendly. Both widely used in Nigeria depending on location."
+  - question: "What is the most popular door handle finish in Nigeria?"
+    answer: "Satin nickel is #1 (75%+ of all orders). Matte black growing fast. Bright chrome for commercial. Polished brass declining. Choose satin nickel for best resale."
+  - question: "What type of door handle sells best in Nigeria?"
+    answer: "Zinc alloy lever handles $1.50-$5.00 in satin nickel finish. Best for residential and commercial use. 65+ models available. Single cylinder lever sets most popular."
+  - question: "Do door handles from China fit Nigerian doors?"
+    answer: "Yes. Standard sizes: 60/70/80mm backset, 54mm or 72mm latch centers. SOLA Hardware stocks sizes compatible with Nigerian door specifications."
+
 ---
 
 ## Stainless Steel vs Zinc Alloy Door Handles for Nigeria: Which is Better? [2026 Guide]

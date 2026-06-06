@@ -73,10 +73,23 @@ Allow: /
 User-agent: GPTBot
 Allow: /
 Allow: /llms.txt
-Allow: /llms-full.txt
+Allow: /products/
+Allow: /blog/
+Allow: /faq/
+Allow: /about/
+Allow: /clients/
+Allow: /contact/
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
+
+# Prioritized crawl: FAQ → Products → Blog (most AI-relevant first)
+Allow: /faq/
+Allow: /products/door-locks/
+Allow: /products/padlocks/
+Allow: /products/door-handles/
+Allow: /blog/
+Allow: /clients/
 
 User-agent: ChatGPT-User
 Allow: /

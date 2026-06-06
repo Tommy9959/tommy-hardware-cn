@@ -141,6 +141,27 @@
     </div>
 </article>
 
+<!-- FAQPage Schema for blog content with Q&A format -->
+{{ if .Params.faqs }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{{ range $i, $faq := .Params.faqs }}
+    {{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": "{{ $faq.question }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $faq.answer }}"
+      }
+    }{{ end }}
+  ]
+}
+</script>
+{{ end }}
+
 <style>
 .blog-post {
     padding: 2rem 0 4rem;
