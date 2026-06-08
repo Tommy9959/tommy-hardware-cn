@@ -1,10 +1,5 @@
 ---
 title: "Iron Casing Pipes 16mm & 25mm"
-aliases:
-  - /products/steel-pipes-flanges
-  - /products/steel-pipes-flanges/
-  - /en/products/steel-pipes-flanges
-  - /en/products/steel-pipes-flanges/
 description: "Iron casing pipes 16mm and 25mm price in Nigeria 2026 — factory direct from China. Embedded pipes, conduit pipes, and structural reinforcement for building projects. Wholesale supply to Lagos, Abuja, Onitsha. Bulk order welcome."
 products:
   - model: "IP-001"
@@ -32,23 +27,42 @@ products:
     material: "Iron / Galvanized"
     finish: "Galvanized"
 ---
+## Why Choose Our Iron Casing Pipes for Your Nigerian Building Projects?
 
-### Iron Casing Pipe FAQ
+At **JH HARDWARE**, we supply high-quality **iron casing pipes** in two standard diameters — **16mm and 25mm** — with wall thickness options from **1.5mm to 2.5mm**. These pipes are designed for **building embedded piping, electrical conduits, and structural reinforcement** in residential and commercial construction projects across Nigeria.
 
-**Q: What sizes of iron casing pipes are available?**
-A: We supply 16mm and 25mm outer diameter iron casing pipes in various wall thicknesses (1.5mm, 2.0mm, 2.5mm). Standard lengths: 3m and 6m. Custom lengths available upon request.
+### Key Specifications
 
-**Q: What finishes are available?**
-A: Black finish and galvanized finish are standard options. Galvanized offers better corrosion resistance for outdoor and embedded applications.
+| Model | Diameter | Wall Thickness | Application | Price Range |
+|-------|----------|---------------|-------------|-------------|
+| IP-001 | 16mm | 1.5mm | Embedded pipes, light conduit | $0.80 - $1.50/m |
+| IP-002 | 16mm | 2.0mm | Structural reinforcement | $1.00 - $1.80/m |
+| IP-003 | 25mm | 1.5mm | Large conduit, embedded pipes | $1.20 - $2.00/m |
+| IP-004 | 25mm | 2.0mm | Heavy structural reinforcement | $1.50 - $2.50/m |
+| IP-005 | 25mm | 2.5mm | Heavy-load foundation | $2.00 - $3.00/m |
+| IP-006 | Connector | 16mm/25mm | Pipe joining | $0.30 - $0.60/pc |
 
-**Q: Are these pipes suitable for building embedded conduit?**
-A: Yes, our 16mm and 25mm iron casing pipes are ideal for building embedded pipes and electrical conduit. The 25mm size also works for larger cable routing.
+### Applications in Nigeria Construction
 
-**Q: Do you supply connectors with the pipes?**
-A: Yes, we supply matching iron casing pipe connectors (IP-006) for both 16mm and 25mm sizes, making installation seamless.
+- **Building Embedded Pipes Pre-buried** in concrete slabs and walls for electrical and plumbing conduits
+- **Electrical Conduit Pipes** protecting wiring in commercial and residential buildings
+- **Structural Reinforcement** for foundations, columns, and load-bearing walls
+- **Fence Posts and Framework** for construction sites and property boundaries
 
-**Q: What are the typical applications in Nigeria?**
-A: Common applications include building embedded pipes for electrical conduit, structural reinforcement in concrete columns/beams, fence posts, handrails, and general construction framework.
+### Why Nigerian Builders Choose JH HARDWARE
 
-**Q: What certifications do you have?**
-A: ISO 9001 certified. Material test certificates available. All products meet standard construction specifications for the Nigerian market.
+✅ **Factory Direct Pricing** — No middleman markup. Get wholesale prices directly from our manufacturing base in Yiwu, China.
+
+✅ **Bulk Orders Welcome** — MOQ from 500 pieces. We supply to Lagos, Abuja, Port Harcourt, Onitsha, Kano, and all major Nigerian cities.
+
+✅ **Fast Delivery 15-25 Days** — Efficient logistics network ensures your casing pipes arrive on schedule.
+
+✅ **Black or Galvanized Finish** — Choose based on your project requirements. Galvanized pipes offer superior corrosion resistance for outdoor and high-humidity applications.
+
+✅ **Custom Lengths** — Standard lengths or custom cutting available for large orders.
+
+> **Need a quote for your next building project?** [Contact us](/contact/) or message us on [WhatsApp](https://wa.me/8618358008400) for bulk pricing and delivery details.
+
+### Shipping to Nigeria
+
+We ship iron casing pipes to major Nigerian seaports including **Apapa Port (Lagos)**, **Onne Port (Port Harcourt)**. Transit time: approximately **20-30 days** by sea. Container loading available for large bulk orders.

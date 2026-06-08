@@ -9,6 +9,7 @@ defaultContentLanguageInSubdir = false
 
 # 禁用空标签/分类页面（避免产生404）
 disableKinds = ["taxonomy", "term"]
+disableAliases = true
 
 # 多语言配置
 [languages]
