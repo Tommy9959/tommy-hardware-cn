@@ -1,6 +1,6 @@
 ---
-title: "Sofa Legs"
-description: "Sofa legs wholesale for Nigeria and Africa — wooden sofa legs, metal furniture legs, plastic furniture feet, and adjustable glides. Factory direct pricing for bulk orders. Popular models for furniture makers in Lagos, Onitsha, and Nnewi."
+title: "Sofa Legs Wholesale | Sofa Hardware Factory China | JH Hardware"
+description: "Sofa legs wholesale from China factory — wooden sofa legs, metal furniture legs, plastic furniture feet, adjustable glides. Sofa hardware for furniture makers in Lagos, Onitsha, Nnewi. Factory direct pricing."
 products:
   - model: "SL-001"
     name: "Wooden Sofa Leg"

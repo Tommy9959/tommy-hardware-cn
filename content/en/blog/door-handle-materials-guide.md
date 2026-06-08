@@ -1,6 +1,6 @@
 ---
-title: "Stainless Steel vs Zinc Alloy Door Handles for Nigeria: Which is Better? [2026 Guide]"
-description: "After 10 years selling door handles in Nigeria, here's what actually works — stainless steel (304/201), zinc alloy, aluminum, brass — with real stories from Lagos, Port Harcourt, and Abuja customers."
+title: "Best Material for Door Handles: Stainless Steel vs Zinc Alloy [2026 Guide]"
+description: "Which material for door handles are best — stainless steel, zinc alloy or aluminum? Complete comparison for Nigeria market. Steel vs alloy vs brass price, durability, and what sells in Lagos, Abuja."
 keywords: "door handle materials, Nigeria hardware, what sells in Nigeria, stainless steel door handle, zinc alloy handle, SOLA hardware, Lagos hardware, Port Harcourt hardware"
 author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-04-29"

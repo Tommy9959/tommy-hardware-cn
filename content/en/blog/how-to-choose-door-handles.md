@@ -1,6 +1,6 @@
 ---
-title: "Door Handle Price in Nigeria 2026: Which Types & Materials Sell Best? (10 Years Data)"
-description: "After 10 years selling door handles to Nigeria, here's what works — lever vs knob, finishes that sell, what mistakes to avoid, and real data from 500+ customers."
+title: "Door Handle Price in Nigeria 2026 | Complete Buying Guide"
+description: "Door handle price in Nigeria from $1.20/pc. Complete guide to door handles types, materials, finishes that sell in Nigeria. Door knobs vs lever handles — what Lagos and Abuja buyers prefer."
 keywords: "door handles Nigeria, what sells Nigeria, lever vs knob, satin nickel, matte black, JH Hardware, SOLA handles"
 author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-04-10"

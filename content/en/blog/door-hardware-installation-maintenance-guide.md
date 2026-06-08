@@ -1,7 +1,7 @@
 ---
-title: "Door Hardware Installation & Maintenance in Nigeria: Tips from a 10-Year Exporter"
+title: "Door Hardware Installation and Maintenance Guide for Nigeria"
 date: 2026-05-27T10:24:00+08:00
-description: "Practical guide for installing and maintaining door locks, hinges, and handles in Nigeria. How to handle rust, misalignment, and poor-quality installations. Tips for contractors and hardware dealers in Lagos, Abuja, and beyond."
+description: "Door hardware installation and maintenance guide for Nigeria. How to install door locks, hinges and handles properly. Prevent rust, fix misalignment. Tips for contractors in Lagos, Abuja, Port Harcourt."
 tags: ["installation guide", "maintenance", "Nigeria market", "door hardware", "door lock installation Nigeria", "hinge maintenance", "door handle repair"]
 categories: ["Product Guide"]
 ---
