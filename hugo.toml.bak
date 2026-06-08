@@ -1,24 +1,27 @@
 # Hugo 多语言网站配置文件
 baseURL = 'https://jh-hardware.com/'
 languageCode = 'zh-cn'
-title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
+title = 'JH HARDWARE | 钧瀚五金 - 工厂直销尼日利亚·非洲'
 
 # 默认语言为英文
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 
+# 禁用空标签/分类页面（避免产生404）
+disableKinds = ["taxonomy", "term"]
+
 # 多语言配置
 [languages]
   [languages.en]
-    title = 'Yiwu Shuihui Import & Export Co., Ltd. - Professional Door Hardware Manufacturer'
+    title = 'JH HARDWARE | Factory Direct Hardware to Nigeria & Africa'
     weight = 1
     languageName = 'English'
     languageCode = 'en-us'
     contentDir = 'content/en'
-    description = 'Factory direct supply of door handles, hinges, locks, and sliding tracks. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
+    description = 'Factory direct supply of door handles, locks, hinges, and sliding tracks. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
     
   [languages.zh]
-    title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
+    title = 'JH HARDWARE | 钧瀚五金 - 工厂直销尼日利亚·非洲'
     weight = 2
     languageName = '中文'
     languageCode = 'zh-cn'
@@ -26,7 +29,7 @@ defaultContentLanguageInSubdir = false
     description = '工厂直销门把手、铰链、门锁、导轨。ISO 9001 认证制造商。出口尼日利亚、迪拜、非洲。'
     
   [languages.ar]
-    title = 'شركة ييو شويهوي للاستيراد والتصدير - تصنيع مهني لعتاد الأبواب'
+    title = 'JH HARDWARE | أجهزة الأبواب والمباني | بيع مباشر لنيجيريا وأفريقيا' 
     weight = 3
     languageName = 'العربية'
     languageCode = 'ar'
@@ -45,17 +48,21 @@ defaultContentLanguageInSubdir = false
     pageRef = '/products/'
     weight = 20
   [[languages.zh.menu.main]]
+    name = '客户案例'
+    pageRef = '/clients/'
+    weight = 25
+  [[languages.zh.menu.main]]
     name = '博客'
     pageRef = '/blog/'
-    weight = 25
+    weight = 30
   [[languages.zh.menu.main]]
     name = '关于'
     pageRef = '/about/'
-    weight = 30
+    weight = 40
   [[languages.zh.menu.main]]
     name = '联系'
     pageRef = '/contact/'
-    weight = 40
+    weight = 50
 
 [languages.en.menu]
   [[languages.en.menu.main]]
@@ -67,17 +74,21 @@ defaultContentLanguageInSubdir = false
     pageRef = '/products/'
     weight = 20
   [[languages.en.menu.main]]
+    name = 'Client Cases'
+    pageRef = '/clients/'
+    weight = 25
+  [[languages.en.menu.main]]
     name = 'Blog'
     pageRef = '/blog/'
-    weight = 25
+    weight = 30
   [[languages.en.menu.main]]
     name = 'About'
     pageRef = '/about/'
-    weight = 30
+    weight = 40
   [[languages.en.menu.main]]
     name = 'Contact'
     pageRef = '/contact/'
-    weight = 40
+    weight = 50
 
 [languages.ar.menu]
   [[languages.ar.menu.main]]
@@ -89,17 +100,21 @@ defaultContentLanguageInSubdir = false
     pageRef = '/products/'
     weight = 20
   [[languages.ar.menu.main]]
+    name = 'عملائنا'
+    pageRef = '/clients/'
+    weight = 25
+  [[languages.ar.menu.main]]
     name = 'المدونة'
     pageRef = '/blog/'
-    weight = 25
+    weight = 30
   [[languages.ar.menu.main]]
     name = 'حول'
     pageRef = '/about/'
-    weight = 30
+    weight = 40
   [[languages.ar.menu.main]]
     name = 'اتصل'
     pageRef = '/contact/'
-    weight = 40
+    weight = 50
 
 # 网站参数
 [params]
@@ -111,6 +126,7 @@ defaultContentLanguageInSubdir = false
   addressEn = 'Room 2018, Xuefeng Business Building, No.18 Danxi North Road, Yiwu, China'
   addressAr = 'غرفة 2018، مبنى شوفينج التجاري، رقم 18 طريق دانجي الشمالي، مدينة ييو، الصين'
   googleAnalytics = 'G-EW8MR1LQWY'
+  logo = '/images/logo/logo.jpeg'
   latitude = '29.3089'
   longitude = '120.0741'
   description = 'Factory direct supply of door handles, hinges, locks, and sliding tracks. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
@@ -120,7 +136,7 @@ defaultContentLanguageInSubdir = false
   bingVerification = ''
   
   # SEO 关键词（2026-04-13 扩展关键词库 - 200+ 关键词）
-  keywords = 'SOLA, door handles, door locks, door hinges, sliding tracks, drawer slides, furniture hardware, cabinet hardware, cabinet accessories, cabinet handles, cabinet knobs, drawer pulls, kitchen hardware, wardrobe hardware, bathroom hardware, architectural hardware, building hardware, construction hardware, stainless steel hardware, zinc alloy hardware, aluminum hardware, brass hardware, iron pipes, steel tubes, galvanized pipes'
+  keywords = 'SOLA, door handles, door locks, door hinges, sliding tracks, drawer slides, furniture hardware, cabinet hardware, cabinet accessories, cabinet handles, cabinet knobs, drawer pulls, kitchen hardware, wardrobe hardware, architectural hardware, building hardware, construction hardware, stainless steel hardware, zinc alloy hardware, aluminum hardware, brass hardware'
 
 # Markdown 配置
 [markup]
@@ -128,12 +144,17 @@ defaultContentLanguageInSubdir = false
     [markup.goldmark.renderer]
       unsafe = true
 
-# SEO 优化配置（2026-04-13 优化）
+# SEO 优化配置 — Hugo v0.160 默认输出 sitemapindex（en/zh/ar 子sitemap）
+# Google 原生支持 sitemapindex，不需要拼回扁平
 [sitemap]
-  changefreq = 'daily'  # 改为每日更新，提高抓取频率
+  changefreq = 'daily'
   filename = 'sitemap.xml'
-  priority = 0.9  # 提高优先级
-  disable = false
+  priority = 0.9
+
+# 精确控制sitemap中哪些页面类型出现
+[mediaTypes]
+  [mediaTypes.'application/sitemap']
+    suffixes = ['xml']
 
 # 搜索引擎验证
 [verification]
@@ -142,16 +163,29 @@ defaultContentLanguageInSubdir = false
 
 # 社交媒体 SEO
 [social]
-  twitter = '@YourTwitter'  # 添加 Twitter 账号
-  facebook = 'YourFacebookPage'  # 添加 Facebook 页面
-  linkedin = 'your-company-linkedin'  # 添加 LinkedIn
-  instagram = 'YourInstagram'  # 添加 Instagram
+  twitter = ''
+  facebook = ''
+  linkedin = ''
+  instagram = ''
 
 # 输出配置
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
   page = ['HTML']
   section = ['HTML', 'RSS']
+  llms = ['TXT']
+
+# 自定义输出格式
+[outputFormats]
+  [outputFormats.TXT]
+    name = 'TXT'
+    baseName = 'llms'
+    path = '/'
+    mediaType = 'text/plain'
+    isPlainText = true
+    isHTML = false
+    rel = 'alternate'
+    permalinkable = false
 
 # 性能优化 - 压缩配置
 [minify]
@@ -169,6 +203,4 @@ defaultContentLanguageInSubdir = false
       version = 2022
 
 # 禁用分类和标签避免空页面
-# [taxonomies]
-# category = "categories"
-# tag = "tags"
+taxonomies = []

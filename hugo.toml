@@ -5,7 +5,7 @@ title = 'JH HARDWARE | 钧瀚五金 - 工厂直销尼日利亚·非洲'
 
 # 默认语言为英文
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 # 禁用空标签/分类页面（避免产生404）
 disableKinds = ["taxonomy", "term"]
