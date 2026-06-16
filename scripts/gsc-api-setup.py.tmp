@@ -42,7 +42,7 @@ CLIENT_CONFIG = {
     }
 }
 
-SCOPES = ['https://www.googleapis.com/auth/webmasters']
+SCOPES = ['https://www.googleapis.com/auth/webmasters.readonly']
 
 
 def log(msg):

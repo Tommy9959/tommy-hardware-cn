@@ -1,54 +1,106 @@
 #!/usr/bin/env python3
-"""Hugo 构建后合并多语言 sitemap"""
-import os, re
-from xml.sax.saxutils import escape
+"""
+合并多语言 sitemap → 单个扁平 sitemap.xml
+解决：en/sitemap.xml 被 Cloudflare 301 到 sitemap.xml 导致的循环引用问题
 
-SITE_DIR = os.path.expanduser("~/Sites/hardware-site")
-DOCS_DIR = os.path.join(SITE_DIR, "..", "docs")
-BASE_URL = "https://jh-hardware.com"
+策略：将 en/zh/ar 子 sitemap 的所有 <url> 条目合并到根 sitemap.xml
+使用纯文本操作避免 XML 序列化带来的命名空间问题
 
-def extract_urls(filepath):
-    """从 sitemap XML 中提取所有 URL"""
-    urls = []
-    with open(filepath, "r") as f:
-        content = f.read()
-    for match in re.finditer(r"<loc>(.*?)</loc>", content):
-        urls.append(match.group(1))
-    return urls
+用法：python3 scripts/merge-sitemap.py <deploy_dir>
+"""
 
-def build_sitemap(urls):
-    """构建合并后的 sitemap XML"""
-    from datetime import datetime
-    today = datetime.now().strftime("%Y-%m-%d")
+import sys, os, re
+
+SITE_URL = 'https://jh-hardware.com'
+
+def merge_sitemaps(deploy_dir: str) -> bool:
+    root_sitemap = os.path.join(deploy_dir, 'sitemap.xml')
+    if not os.path.exists(root_sitemap):
+        print(f"❌ 未找到 {root_sitemap}")
+        return False
+
+    # 读取各语言子 sitemap 的 <url> 块
+    languages = ['en', 'zh', 'ar']
+    all_url_blocks = []
+    urls_seen = set()
     
-    lines = ['<?xml version="1.0" encoding="utf-8" standalone="yes"?>']
-    lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
-    for url in urls:
-        lines.append(f"  <url><loc>{escape(url)}</loc><lastmod>{today}</lastmod></url>")
-    lines.append("</urlset>")
-    return "\n".join(lines)
+    for lang in languages:
+        sitemap_path = os.path.join(deploy_dir, lang, 'sitemap.xml')
+        if not os.path.exists(sitemap_path):
+            print(f"⚠️  跳过 {lang}: 未找到 {sitemap_path}")
+            continue
+        
+        with open(sitemap_path, 'r') as f:
+            content = f.read()
+        
+        # 提取所有 <url>...</url> 块
+        url_blocks = re.findall(r'<url>(.*?)</url>', content, re.DOTALL)
+        print(f"  {lang}: {len(url_blocks)} URLs")
+        
+        for block in url_blocks:
+            # 提取 <loc>
+            loc_match = re.search(r'<loc>(.*?)</loc>', block)
+            if loc_match:
+                loc = loc_match.group(1).rstrip('/')
+                if loc not in urls_seen:
+                    urls_seen.add(loc)
+                    all_url_blocks.append(block)
+    
+    print(f"\n  去重后: {len(all_url_blocks)} URLs")
+    
+    # 构建新的 sitemap
+    lines = []
+    lines.append('<?xml version="1.0" encoding="utf-8" standalone="yes"?>')
+    lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"')
+    lines.append('        xmlns:xhtml="http://www.w3.org/1999/xhtml">')
+    
+    for block in all_url_blocks:
+        lines.append('<url>')
+        for line in block.split('\n'):
+            stripped = line.strip()
+            if stripped:
+                lines.append(f'  {stripped}')
+        lines.append('</url>')
+    
+    lines.append('</urlset>')
+    lines.append('')
+    
+    output = '\n'.join(lines)
+    
+    with open(root_sitemap, 'w') as f:
+        f.write(output)
+    
+    print(f"✅ 合并完成: {root_sitemap}")
+    print(f"  总 URL 数: {len(all_url_blocks)}")
+    
+    # 统计各语言
+    en_count = sum(1 for loc in urls_seen if not '/zh/' in loc and not '/ar/' in loc)
+    zh_count = sum(1 for loc in urls_seen if '/zh/' in loc)
+    ar_count = sum(1 for loc in urls_seen if '/ar/' in loc)
+    print(f"  英文: {en_count} | 中文: {zh_count} | 阿拉伯: {ar_count}")
+    
+    # 验证可解析性
+    with open(root_sitemap, 'r') as f:
+        content = f.read()
+    url_count = content.count('<url>')
+    loc_count = content.count('<loc>')
+    print(f"  验证: {url_count} 个 <url>, {loc_count} 个 <loc>")
+    
+    return True
 
-# 收集所有语言页面的 URL（不含 en/ 后缀的）
-all_urls = []
-for lang in ['en', 'zh', 'ar']:
-    sitemap_path = os.path.join(DOCS_DIR, lang, 'sitemap.xml')
-    if os.path.exists(sitemap_path):
-        urls = extract_urls(sitemap_path)
-        all_urls.extend(urls)
-        print(f"  {lang}: {len(urls)} 条URL")
-    else:
-        print(f"  {lang}: 不存在")
 
-# 去重
-all_urls = list(dict.fromkeys(all_urls))  # 保持顺序去重
-
-# 写回主 sitemap
-output_path = os.path.join(DOCS_DIR, 'sitemap.xml')
-with open(output_path, "w") as f:
-    f.write(build_sitemap(all_urls))
-
-print(f"\n合并后: {len(all_urls)} 条URL")
-print(f"输出: {output_path}")
-print(f"前5条:")
-for u in all_urls[:5]:
-    print(f"  {u}")
+if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        print("用法: python3 merge-sitemap.py <deploy_dir>")
+        sys.exit(1)
+    
+    deploy_dir = os.path.expanduser(sys.argv[1])
+    if not os.path.isdir(deploy_dir):
+        print(f"❌ 目录不存在: {deploy_dir}")
+        sys.exit(1)
+    
+    print(f"📄 合并 sitemap...")
+    print(f"  源目录: {deploy_dir}")
+    
+    success = merge_sitemaps(deploy_dir)
+    sys.exit(0 if success else 1)
