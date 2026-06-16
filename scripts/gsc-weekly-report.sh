@@ -97,8 +97,8 @@ check_schema() {
 check_gsc_credentials() {
     if [ -f "$HOME/.openclaw/service-env/gsc-oauth-token.json" ]; then
         echo "| GSC API 凭据 | ✅ | OAuth Token 已配置 |"
-        # 尝试获取 GSC 数据（超时 15 秒，因为需要刷新 token）
-        local gsc_output=$(timeout 15 python3 "$SCRIPT_DIR/gsc-api-setup.py" --report --output /tmp/gsc-weekly-latest.md 2>/dev/null)
+        # 尝试获取 GSC 数据（使用 perl 做跨平台超时，兼容 macOS 无 timeout 命令）
+        local gsc_output=$(perl -e 'alarm shift @ARGV; exec @ARGV' 15 python3 "$SCRIPT_DIR/gsc-api-setup.py" --report --output /tmp/gsc-weekly-latest.md 2>/dev/null)
         if [ -f /tmp/gsc-weekly-latest.md ] && [ -s /tmp/gsc-weekly-latest.md ]; then
             echo "| GSC 数据拉取 | ✅ | 成功 |"
         else
