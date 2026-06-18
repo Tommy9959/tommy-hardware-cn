@@ -1,5 +1,5 @@
 ---
-title: "Furniture Fittings"
+title: "Furniture Fittings Wholesale — Cam Connectors & Hinges Supplier China"
 description: "Furniture fittings wholesale for furniture makers in Nigeria and Africa — furniture handles, cam connectors, dowel pins, shelf supports, gas struts, and hinges. Factory direct from China."
 products:
   - model: "FF-001"
@@ -44,21 +44,3 @@ A: Standard MOQ is 500 pcs per model. Mixed container orders welcome.
 
 **Q: Do you offer OEM/ODM services?**
 A: Yes, we accept custom designs, custom logo engraving, and custom packaging.
-
-### Furniture Fittings FAQ
-
-**Q: What types of furniture fittings do you supply?**
-A: We supply handles, connectors, support brackets, brackets, shelf supports, and other furniture hardware.
-
-**Q: Are these suitable for kitchen furniture?**
-A: Yes, our furniture fittings are perfect for kitchen cabinets, wardrobes, and other furniture.
-
-**Q: What materials are available?**
-A: Aluminum alloy, zinc alloy, stainless steel, and steel options with various finishes.
-
-**Q: What is the MOQ?**
-A: Standard MOQ is 500 pcs per model. Mixed container orders welcome.
-
-**Q: Do you offer OEM/ODM services?**
-A: Yes, we accept custom designs, custom logo engraving, and custom packaging.
-

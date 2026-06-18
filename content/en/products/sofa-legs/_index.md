@@ -1,5 +1,5 @@
 ---
-title: "Sofa Legs Wholesale | Sofa Hardware Factory China | JH Hardware"
+title: "Sofa Legs Wholesale — Wooden & Metal Furniture Leg Supplier China"
 description: "Sofa legs wholesale from China factory — wooden sofa legs, metal furniture legs, plastic furniture feet, adjustable glides. Sofa hardware for furniture makers in Lagos, Onitsha, Nnewi. Factory direct pricing."
 products:
   - model: "SL-001"
@@ -44,21 +44,3 @@ A: Yes, our sofa legs feature universal mounting plates compatible with most fur
 
 **Q: What is the MOQ?**
 A: Standard MOQ is 500 pcs per model.
-
-### Sofa Leg FAQ
-
-**Q: What height options are available?**
-A: Available heights range from 50mm to 200mm. Custom heights available for bulk orders.
-
-**Q: What materials are best for sofa legs?**
-A: Metal legs offer maximum durability, wooden legs provide classic aesthetic, and plastic legs are budget-friendly.
-
-**Q: What is the maximum load capacity?**
-A: Up to 100kg per leg depending on material and design.
-
-**Q: Do you offer universal fit?**
-A: Yes, our sofa legs feature universal mounting plates compatible with most furniture.
-
-**Q: What is the MOQ?**
-A: Standard MOQ is 500 pcs per model.
-

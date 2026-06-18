@@ -54,11 +54,31 @@
 {{- /* ============================================
      Title 截断：控制在 55-60 字符以内
      ============================================ */ -}}
-{{- $maxTitleLen := 60 -}}
+{{- /* 智能截断：尽量保持完整品牌后缀，不切单词中间 */ -}}
+{{- $maxTitleLen := 65 -}}
 {{- if and (not .IsHome) (gt (len $title) $maxTitleLen) -}}
-  {{- /* 直接截断到 60 字符，保留 " | JH" 这样看起来不奇怪 */ -}}
-  {{- $title = substr $title 0 57 -}}
-  {{- $title = printf "%s..." $title -}}
+  {{- $brandSuffix := $brand -}}
+  {{- $brandSep := " | " -}}
+  {{- $titleCoreLen := sub (len $title) (len (printf "%s%s" $brandSep $brandSuffix)) -}}
+  {{- /* 核心部分最多 55 字符 */ -}}
+  {{- $maxCoreLen := 55 -}}
+  {{- if gt $titleCoreLen $maxCoreLen -}}
+    {{- $shortCore := substr $title 0 $maxCoreLen -}}
+    {{- /* 找最后一个空格切 */ -}}
+    {{- $shortLen := len $shortCore -}}
+    {{- $lastSpace := $shortLen -}}
+    {{- range $i := seq $shortLen 1 -}}
+      {{- $ch := substr $shortCore (sub $i 1) 1 -}}
+      {{- if eq $ch " " -}}
+        {{- $lastSpace = sub $i 1 -}}
+        {{- break -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if and (gt $lastSpace 35) (lt $lastSpace $shortLen) -}}
+      {{- $shortCore = substr $shortCore 0 $lastSpace -}}
+    {{- end -}}
+    {{- $title = printf "%s...%s%s" $shortCore $brandSep $brand -}}
+  {{- end -}}
 {{- end -}}
 
 <meta charset="UTF-8">
@@ -146,7 +166,7 @@
   "offers": {
     "@type": "Offer",
     "priceCurrency": "USD",
-    "price": "{{ index (split (index (split .Params.price_range "$") 1) " ") 0 }}",
+    "price": {{ if .Params.price_range }}{{ $priceStr := index (split (index (split .Params.price_range "$") 1) " ") 0 }}{{ if $priceStr }}{{ $priceStr }}{{ else }}"0"{{ end }}{{ else }}"0"{{ end }},
 
     "priceValidUntil": "2027-12-31",
     "availability": "https://schema.org/InStock",

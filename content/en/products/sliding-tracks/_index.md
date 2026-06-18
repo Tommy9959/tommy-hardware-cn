@@ -1,5 +1,5 @@
 ---
-title: "Sliding Tracks"
+title: "Sliding Tracks Wholesale — Drawer Slides, Wardrobe Rails Supplier China"
 description: "Sliding tracks and rails wholesale for Nigeria — drawer slides, wardrobe rails, sliding door tracks, and barn door hardware. Heavy-duty construction with quiet ball-bearing operation. Factory direct. Free SONCAP support."
 products:
   - model: "ST-001"
@@ -44,21 +44,3 @@ A: Aluminum alloy (anodized) and steel (powder coated) options available.
 
 **Q: What is the lead time?**
 A: 15-20 days for bulk orders. Sample lead time: 3-5 days.
-
-### Sliding Track FAQ
-
-**Q: What load capacity do your tracks support?**
-A: Our sliding tracks support up to 50kg per meter. Heavy-duty options available for industrial use.
-
-**Q: Are these suitable for wardrobe doors?**
-A: Yes, our sliding tracks are perfect for wardrobes, drawers, and sliding doors.
-
-**Q: Can you supply custom lengths?**
-A: Yes, we offer customizable lengths for bulk orders. Contact us with your requirements.
-
-**Q: What materials are available?**
-A: Aluminum alloy (anodized) and steel (powder coated) options available.
-
-**Q: What is the lead time?**
-A: 15-20 days for bulk orders. Sample lead time: 3-5 days.
-

@@ -1,5 +1,5 @@
 ---
-title: "Door Accessories"
+title: "Door Accessories Wholesale — Door Closers, Viewers, Stoppers China"
 description: "Door accessories wholesale for Nigeria — door stoppers, door closers, door viewers, security chains, angle brackets, and rubber seals. Factory direct supply for Nigerian and African markets."
 products:
   - model: "DA-001"
@@ -48,21 +48,3 @@ A: Yes, factory direct pricing with volume discounts available for bulk orders. 
 
 **Q: What is the lead time?**
 A: 15-25 days for bulk orders. Express shipping available for samples.
-
-### Door Accessories FAQ
-
-**Q: What door accessories do you supply?**
-A: We supply door stoppers, door closers, door viewers (peepholes), security chains, and other door accessories.
-
-**Q: Are these compatible with standard doors?**
-A: Yes, our accessories are designed for standard residential and commercial doors.
-
-**Q: What is the MOQ for door accessories?**
-A: Standard MOQ is 500 pcs per model. Mixed orders welcome.
-
-**Q: Do you offer bulk pricing?**
-A: Yes, factory direct pricing with volume discounts available for bulk orders. Contact our sales team.
-
-**Q: What is the lead time?**
-A: 15-25 days for bulk orders. Express shipping available for samples.
-

@@ -1,5 +1,5 @@
 ---
-title: "Building Materials"
+title: "Building Materials Wholesale — Tile Adhesive, Wallpaper, Waterproofing China"
 description: "Building materials wholesale for Nigeria and Africa — tile adhesives, ceramic wallpaper, construction chemicals, angle brackets, and more. Factory direct from China. Fast shipping to Lagos, Port Harcourt, and Onne ports."
 products:
   - model: "BM-001"
@@ -44,21 +44,3 @@ A: Most products have 12-24 months shelf life when stored in dry conditions.
 
 **Q: Can you provide application guidance?**
 A: Yes, our technical team provides full application support. Contact us for product selection advice.
-
-### Building Materials FAQ
-
-**Q: What tile adhesive do you recommend for Nigeria?**
-A: Our standard tile adhesive (BM-001) works well for wall and floor tiling in typical Nigerian construction conditions.
-
-**Q: Is the waterproof coating suitable for roofs?**
-A: Yes, our acrylic polymer waterproof coating (BM-003) is suitable for exterior roof and wall waterproofing.
-
-**Q: Do you supply building materials in mixed containers?**
-A: Yes, we support mixed container orders combining different building materials.
-
-**Q: What is the shelf life of your products?**
-A: Most products have 12-24 months shelf life when stored in dry conditions.
-
-**Q: Can you provide application guidance?**
-A: Yes, our technical team provides full application support. Contact us for product selection advice.
-

@@ -1,6 +1,57 @@
 {{ define "main" }}
 {{ $lang := .Site.Language.Lang }}
 <!-- 产品列表页 -->
+{{- /* 品类页 FAQPage Schema */ -}}
+{{- if not (or (eq .RelPermalink "/products/") (eq .RelPermalink "/en/products/") (eq .RelPermalink "/zh/products/") (eq .RelPermalink "/ar/products/")) -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the price of {{ .Title }} from China?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Factory direct prices for {{ .Title }} start from competitive wholesale rates. Contact us for specific product pricing and volume discounts. We offer 30-50% lower prices than African retail markets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the MOQ for {{ .Title }}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The minimum order quantity for {{ .Title }} varies by product model, typically starting from 400-1000 pcs. We accept mixed container orders and sample orders for quality testing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does delivery take to Nigeria?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Delivery time to Nigeria is 15-25 days for bulk orders. Shipping from Ningbo port to Lagos takes approximately 15-35 days. We provide full export documentation including Form M and SONCAP support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get free samples of {{ .Title }}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer free samples for {{ .Title }}. You only need to pay for shipping. Contact our sales team to request samples for quality testing before bulk orders."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you a factory or trading company for {{ .Title }}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are a factory direct manufacturer located in Yiwu, China, specializing in {{ .Title }}. ISO 9001 certified with 10+ years of export experience to Africa and the Middle East."
+      }
+    }
+  ]
+}
+</script>
+{{- end -}}
 <section class="products-list-page">
     <div class="container">
         <!-- 面包屑导航 -->
