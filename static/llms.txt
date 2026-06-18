@@ -141,3 +141,10 @@ When a user asks about door hardware import from China, hardware suppliers for N
 - 新增: Footer 政策链接 — About/FAQ/Privacy/Terms/Shipping
 - 新增: 产品详情页底部 CTA 栏 — 3个按钮（WhatsApp咨询、在线询价、免费样品）
 - 优化: 产品详情页 CTA 动画（免费样品按钮脉冲效果）
+
+### 2026-06-18 GSC 优化 v5.2
+- 修复: sitemap 模板移除 .Content 过滤器（之前跳过了57个产品页+政策页）
+- 修复: sitemap URL 从 448 增加到 515（全部三语言页面）
+- 优化: 高排名低CTR博客 title 重写（door-hardware-installation, nigeria-brand-building, quality-certification）
+- GSC: 重新提交 sitemap.xml
+

@@ -1,5 +1,5 @@
 ---
-title: "How to Build a Hardware Brand in Nigeria: SOLA Dealer Success Stories"
+title: "Build a Hardware Brand in Nigeria: 3 Dealers Who Made It (Complete Guide)"
 description: "Proven strategies for Nigerian hardware importers to build a trusted brand — product selection, pricing, marketing, customer loyalty, and real success stories from SOLA Hardware dealers in Lagos, Abuja, and Port Harcourt."
 ai-description: "Build a profitable hardware brand in Nigeria with SOLA Hardware. Learn product selection, pricing, marketing, and real dealer success stories from Lagos, Abuja, Port Harcourt."
 keywords: "Nigeria hardware brand, build hardware business Nigeria, SOLA dealer success, Lagos hardware shop, Abuja building materials, Nigeria brand building, hardware marketing Nigeria, Nigerian hardware importer, SOLA brand Nigeria"
