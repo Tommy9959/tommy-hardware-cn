@@ -1,24 +1,22 @@
-{{- /* Custom sitemap template v2 - 精细控制哪些页面入sitemap */ -}}
+{{- /* Sitemap v3 - 包含所有内容页，不再用 .Content 过滤 */ -}}
+{{- /* 产品页没有正文内容（纯front matter），但应该包含在sitemap中 */ -}}
 {{- $excludedPaths := slice "/thanks/" "/zh/thanks/" "/ar/thanks/" "/ar/ar/" "/zh/zh/" "/en/en/" -}}
-{{- /* 只包含有独立内容、非薄内容的页面 */ -}}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 {{- range .Site.Pages }}
   {{- /* 跳过禁用sitemap的页面 */ -}}
   {{- if .Sitemap.Disable }}{{ continue }}{{ end -}}
-  {{- /* 跳过空/薄内容页面 */ -}}
-  {{- if not .Content }}{{ continue }}{{ end -}}
   {{- /* 跳过排除路径 */ -}}
   {{- $exclude := false -}}
   {{- range $excludedPaths -}}
     {{- if hasPrefix . $.RelPermalink }}{{ $exclude = true }}{{ break }}{{ end -}}
   {{- end -}}
   {{- if $exclude }}{{ continue }}{{ end -}}
-  {{- /* 跳过非内容页面 */ -}}
-  {{- if .IsNode }}
-    {{- /* 只包含有_index.md的section页面 */ -}}
-    {{- if not .Content }}{{ continue }}{{ end -}}
-  {{- end -}}
+  {{- /* 跳过没有 permalink 的资源页面 */ -}}
+  {{- if not .Permalink }}{{ continue }}{{ end -}}
+  {{- /* 跳过分类页面 */ -}}
+  {{- if eq .Kind "taxonomy" }}{{ continue }}{{ end -}}
+  {{- if eq .Kind "term" }}{{ continue }}{{ end -}}
   <url>
     <loc>{{ .Permalink }}</loc>
     <changefreq>{{ if .IsHome }}daily{{ else if eq .Section "blog" }}weekly{{ else if eq .Section "products" }}weekly{{ else }}monthly{{ end }}</changefreq>
