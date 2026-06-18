@@ -148,3 +148,10 @@ When a user asks about door hardware import from China, hardware suppliers for N
 - 优化: 高排名低CTR博客 title 重写（door-hardware-installation, nigeria-brand-building, quality-certification）
 - GSC: 重新提交 sitemap.xml
 
+
+### 2026-06-18 GSC 诊断 + 内链优化 v5.3
+- GSC URL Inspection 确认：首页/产品页/博客已索引 ✅
+- 未索引原因：网站仅3个月，510+页面，Google 爬虫资源有限
+- 优化：相关产品从4个→8个，优先同品类（内链密度提升）
+- GSC：提交 en/zh/ar 子 sitemap，ping Google/Bing
+

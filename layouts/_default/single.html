@@ -199,16 +199,34 @@
             </div>
         </div>
 
-        <!-- 相关产品 -->
+        <!-- 相关产品 - 优先同品类 -->
         <section class="related-products">
-            <h2>{{ if eq .Site.Language.Lang "zh" }}相关产品{{ else }}{{ if eq .Site.Language.Lang "en" }}Related Products{{ else }}المنتجات ذات الصلة{{ end }}{{ end }}</h2>
+            <h2>{{ if eq .Site.Language.Lang "zh" }}同品类产品{{ else }}{{ if eq .Site.Language.Lang "en" }}More Products in This Category{{ else }}المزيد من المنتجات في هذه الفئة{{ end }}{{ end }}</h2>
             <div class="products-grid">
                 {{ $currentLang := .Site.Language.Lang }}
                 {{ $currentPage := .RelPermalink }}
+                {{ $currentParent := .Parent }}
                 {{ $count := 0 }}
+                {{ $totalShown := 0 }}
+                {{ $maxToShow := 8 }}
+                {{/* 先显示同品类的产品 */}}
                 {{ range .Site.RegularPages }}
-                {{ if and (eq .Section "products") (ne .RelPermalink $currentPage) (eq .Site.Language.Lang $currentLang) (lt $count 4) }}
-                {{ $count = add $count 1 }}
+                {{ if and (eq .Section "products") (ne .RelPermalink $currentPage) (eq .Site.Language.Lang $currentLang) (eq .Parent $currentParent) (lt $totalShown $maxToShow) }}
+                {{ $totalShown = add $totalShown 1 }}
+                <div class="product-card">
+                    <div class="product-icon">🔧</div>
+                    <h3>{{ .Title }}</h3>
+                    <p>{{ .Params.product_name | default .Description | truncate 50 }}</p>
+                    <a href="{{ .RelPermalink }}" class="btn btn-primary">
+                        {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else }}{{ if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}{{ end }}
+                    </a>
+                </div>
+                {{ end }}
+                {{ end }}
+                {{/* 如果同品类不足8个，补充其他品类 */}}
+                {{ range .Site.RegularPages }}
+                {{ if and (eq .Section "products") (ne .RelPermalink $currentPage) (eq .Site.Language.Lang $currentLang) (ne .Parent $currentParent) (lt $totalShown $maxToShow) }}
+                {{ $totalShown = add $totalShown 1 }}
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
                     <h3>{{ .Title }}</h3>
