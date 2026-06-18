@@ -205,6 +205,62 @@ img[loading="lazy"]:not([src]) { opacity: 0; }
     font-size: 0.9rem;
 }
 
+/* ===== 产品页底部 CTA 栏 ===== v20260618 ===== */
+.product-cta-bar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+.product-cta-bar .cta-content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+.product-cta-bar .cta-content p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+.product-cta-bar .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product-cta-bar .btn-whatsapp {
+    background: #25D366;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+.product-cta-bar .btn-whatsapp:hover {
+    background: #1da851;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+}
+.product-cta-bar .btn-sample {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    font-weight: 600;
+    animation: pulse-sample 2s infinite;
+}
+.product-cta-bar .btn-sample:hover {
+    background: #ee5a24;
+    transform: translateY(-3px);
+}
+@keyframes pulse-sample {
+    0% { box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.6); }
+    70% { box-shadow: 0 0 0 12px rgba(255, 107, 107, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 107, 107, 0); }
+}
+@media (max-width: 768px) {
+    .product-cta-bar .cta-content h3 { font-size: 1.3rem; }
+    .product-cta-bar { padding: 2rem 1rem; }
+}
+
 /* ===== Hero 区域 ===== v202604111708 ===== */
 .hero-section {
     background: var(--bg-gradient);
@@ -599,6 +655,23 @@ img[loading="lazy"]:not([src]) { opacity: 0; }
     color: var(--primary-color);
 }
 .footer-section p { opacity: 0.9; margin-bottom: 0.5rem; }
+.footer-links {
+    text-align: center;
+    padding: 1rem 0;
+}
+.footer-links a {
+    display: inline-block;
+    color: rgba(255,255,255,0.7);
+    margin: 0 0.8rem;
+    font-size: 0.85rem;
+    transition: color 0.3s;
+}
+.footer-links a:hover {
+    color: white;
+}
+@media (max-width: 768px) {
+    .footer-links a { display: block; margin: 0.4rem 0; }
+}
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;

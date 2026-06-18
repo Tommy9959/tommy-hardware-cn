@@ -125,6 +125,13 @@
                     <p>📍 {{ if eq .Site.Language.Lang "zh" }}{{ .Site.Params.address }}{{ else }}{{ if eq .Site.Language.Lang "en" }}{{ .Site.Params.addressEn }}{{ else }}{{ .Site.Params.addressAr }}{{ end }}{{ end }}</p>
                 </div>
             </div>
+            <div class="footer-links">
+                <a href="{{ "/about/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}关于我们{{ else }}{{ if eq .Site.Language.Lang "en" }}About{{ else }}من نحن{{ end }}{{ end }}</a>
+                <a href="{{ "/faq/" | relLangURL }}">FAQ</a>
+                <a href="{{ "/privacy-policy/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}隐私政策{{ else }}{{ if eq .Site.Language.Lang "en" }}Privacy Policy{{ else }}سياسة الخصوصية{{ end }}{{ end }}</a>
+                <a href="{{ "/terms/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}条款与条件{{ else }}{{ if eq .Site.Language.Lang "en" }}Terms{{ else }}الشروط{{ end }}{{ end }}</a>
+                <a href="{{ "/shipping-returns/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}运输与退换{{ else }}{{ if eq .Site.Language.Lang "en" }}Shipping &amp; Returns{{ else }}الشحن والإرجاع{{ end }}{{ end }}</a>
+            </div>
             <div class="footer-bottom">
                 <p>&copy; {{ now.Year }}
                 {{- if eq .Site.Language.Lang "zh" }} JH HARDWARE（钧瀚五金） | 运营主体：义乌水汇进出口有限公司

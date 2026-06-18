@@ -40,12 +40,7 @@
 
             <!-- 右侧：产品信息 -->
             <div class="product-info">
-                {{ $productName := .Params.product_name | default .Title }}
-                {{ if eq .Title $productName }}
                 <h1 class="product-title">{{ .Title }}</h1>
-                {{ else }}
-                <h1 class="product-title">{{ .Title }} - {{ $productName }}</h1>
-                {{ end }}
                 
                 {{ if .Params.price_range }}
                 <div class="price-box">
@@ -279,6 +274,27 @@
         </div>
     </div>
 </article>
+
+<!-- 产品页底部 CTA 栏 -->
+<section class="product-cta-bar">
+    <div class="container">
+        <div class="cta-content">
+            <h3>{{ if eq .Site.Language.Lang "zh" }}立即询价，获取工厂直供货源{{ else }}{{ if eq .Site.Language.Lang "en" }}Get Factory Direct Pricing Today{{ else }}احصل على سعر المصنع المباشر اليوم{{ end }}{{ end }}</h3>
+            <p>{{ if eq .Site.Language.Lang "zh" }}免费样品 • 15-25天交货 • ISO 9001 认证{{ else }}{{ if eq .Site.Language.Lang "en" }}Free samples • 15-25 day delivery • ISO 9001 certified{{ else }}عينات مجانية • تسليم 15-25 يوم • شهادة ISO 9001{{ end }}{{ end }}</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/{{ .Site.Params.whatsapp }}?text=I'm interested in {{ .Title }} ({{ .File.ContentBaseName }})" class="btn btn-whatsapp" target="_blank" rel="noopener">
+                    💬 {{ if eq .Site.Language.Lang "zh" }}WhatsApp 咨询{{ else }}{{ if eq .Site.Language.Lang "en" }}WhatsApp Inquiry{{ else }}استفسار واتساب{{ end }}{{ end }}
+                </a>
+                <a href="{{ "/contact/" | relLangURL }}" class="btn btn-secondary">
+                    📧 {{ if eq .Site.Language.Lang "zh" }}在线询价{{ else }}{{ if eq .Site.Language.Lang "en" }}Inquire Now{{ else }}استفسار الآن{{ end }}{{ end }}
+                </a>
+                <a href="https://wa.me/{{ .Site.Params.whatsapp }}?text=I want FREE samples of {{ .Title }} ({{ .File.ContentBaseName }})" class="btn btn-sample" target="_blank" rel="noopener">
+                    🎁 {{ if eq .Site.Language.Lang "zh" }}免费样品{{ else }}{{ if eq .Site.Language.Lang "en" }}FREE Samples{{ else }}عينة مجانية{{ end }}{{ end }}
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
 {{ if eq .Section "products" }}
 <!-- Product Schema.org Structured Data -->
