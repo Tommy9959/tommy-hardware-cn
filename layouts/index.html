@@ -87,7 +87,7 @@
                 <a href="{{ relLangURL "products/padlocks/" }}">
                     {{ if $randomPadlock }}
                     <div class="product-img-wrapper">
-                        <img src="{{ $randomPadlock.Params.image }}" alt="Padlocks" class="product-card-img" loading="lazy">
+                        {{ partial "img-webp" (dict "src" $randomPadlock.Params.image "alt" "Padlocks" "class" "product-card-img" "loading" "lazy") }}
                     </div>
                     {{ else }}
                     <div class="product-icon">🔒</div>
@@ -100,7 +100,7 @@
                 <a href="{{ relLangURL "products/door-locks/" }}">
                     {{ if $randomDoorlock }}
                     <div class="product-img-wrapper">
-                        <img src="{{ $randomDoorlock.Params.image }}" alt="Door Locks" class="product-card-img" loading="lazy">
+                        {{ partial "img-webp" (dict "src" $randomDoorlock.Params.image "alt" "Door Locks" "class" "product-card-img" "loading" "lazy") }}
                     </div>
                     {{ else }}
                     <div class="product-icon">🔐</div>
@@ -113,7 +113,7 @@
                 <a href="{{ relLangURL "products/door-hinges/" }}">
                     {{ if $randomHinge }}
                     <div class="product-img-wrapper">
-                        <img src="{{ $randomHinge.Params.image }}" alt="Door Hinges" class="product-card-img" loading="lazy">
+                        {{ partial "img-webp" (dict "src" $randomHinge.Params.image "alt" "Door Hinges" "class" "product-card-img" "loading" "lazy") }}
                     </div>
                     {{ else }}
                     <div class="product-icon">🔧</div>
@@ -126,7 +126,7 @@
                 <a href="{{ relLangURL "products/door-accessories/" }}">
                     {{ if $randomAccessory }}
                     <div class="product-img-wrapper">
-                        <img src="{{ $randomAccessory.Params.image }}" alt="Door Accessories" class="product-card-img" loading="lazy">
+                        {{ partial "img-webp" (dict "src" $randomAccessory.Params.image "alt" "Door Accessories" "class" "product-card-img" "loading" "lazy") }}
                     </div>
                     {{ else }}
                     <div class="product-icon">🔩</div>

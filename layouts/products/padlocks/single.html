@@ -15,7 +15,7 @@
             <div class="product-images">
                 <div class="main-image">
                     {{ if .Params.image }}
-                    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" title="{{ .Title }}" loading="lazy" style="max-width: 100%; height: auto;">
+                    {{ partial "img-webp" (dict "src" (.Params.image | relURL) "alt" .Title "title" .Title "loading" "lazy" "style" "max-width: 100%; height: auto;") }}
                     {{ else }}
                     <img src="/images/products/placeholder.svg" alt="{{ .Title }}" title="{{ .Title }}" loading="lazy" style="max-width: 100%; height: auto;">
                     {{ end }}

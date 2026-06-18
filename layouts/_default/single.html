@@ -25,7 +25,7 @@
                     {{ $category := "" }}
                     {{ with .Parent }}{{ $category = .Title }}{{ end }}
                     {{ if .Params.image }}
-                    <img src="{{ .Params.image | relURL }}" alt="{{ $productName }} - {{ $material }} {{ $category }} for {{ .Site.Title }} - Model {{ .Title }}" title="{{ $productName }}" loading="lazy" style="max-width: 100%; height: auto;">
+                    {{ partial "img-webp" (dict "src" (.Params.image | relURL) "alt" (printf "%s - %s %s for %s - Model %s" $productName $material $category .Site.Title .Title) "title" $productName "loading" "lazy" "style" "max-width: 100%; height: auto;") }}
                     {{ else }}
                     <img src="/images/products/placeholder.svg" alt="{{ $productName }} - {{ $material }} {{ $category }} - Factory Direct from {{ .Site.Title }} - Model {{ .Title }}" title="{{ $productName }} - Image Coming Soon" loading="lazy" style="max-width: 100%; height: auto;">
                     {{ end }}

@@ -93,13 +93,15 @@
         {{ end }}
         {{ $randomPadlock := index (first 1 (shuffle $padlockProducts)) 0 }}
         {{ $randomDoorlock := index (first 1 (shuffle $doorlockProducts)) 0 }}
+        {{- $doorLocksAlt := cond (eq $lang "zh") "门锁" (cond (eq $lang "ar") "أقفال الأبواب" "Door Locks") -}}
+        {{- $padlocksAlt := cond (eq $lang "zh") "挂锁" (cond (eq $lang "ar") "أقفال" "Padlocks") -}}
         <div class="categories-grid">
             <!-- 门锁（真实产品图） -->
             <div class="category-card">
                 <a href="{{ "/products/door-locks/" | relLangURL }}">
                     {{ if $randomDoorlock }}
                     <div class="category-img-wrapper">
-                        <img src="{{ $randomDoorlock.Params.image }}" alt="{{ if eq $lang "zh" }}门锁{{ else }}{{ if eq $lang "ar" }}أقفال الأبواب{{ else }}Door Locks{{ end }}{{ end }}" class="category-card-img" loading="lazy">
+                        {{ partial "img-webp" (dict "src" $randomDoorlock.Params.image "alt" $doorLocksAlt "class" "category-card-img" "loading" "lazy") }}
                     </div>
                     {{ else }}
                     <div class="category-icon">🔒</div>
@@ -115,7 +117,7 @@
                 <a href="{{ "/products/padlocks/" | relLangURL }}">
                     {{ if $randomPadlock }}
                     <div class="category-img-wrapper">
-                        <img src="{{ $randomPadlock.Params.image }}" alt="{{ if eq $lang "zh" }}挂锁{{ else }}{{ if eq $lang "ar" }}أقفال{{ else }}Padlocks{{ end }}{{ end }}" class="category-card-img" loading="lazy">
+                        {{ partial "img-webp" (dict "src" $randomPadlock.Params.image "alt" $padlocksAlt "class" "category-card-img" "loading" "lazy") }}
                     </div>
                     {{ else }}
                     <div class="category-icon">🔐</div>
@@ -205,7 +207,7 @@
             {{ range .RegularPages }}
             <div class="model-card">
                 {{ if .Params.image }}
-                <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy" style="width: 100%; height: 200px; object-fit: contain; margin-bottom: 1rem;">
+                {{ partial "img-webp" (dict "src" (.Params.image | relURL) "alt" .Title "class" "" "loading" "lazy" "style" "width: 100%; height: 200px; object-fit: contain; margin-bottom: 1rem;") }}
                 {{ else }}
                 <div class="model-icon">🔧</div>
                 {{ end }}

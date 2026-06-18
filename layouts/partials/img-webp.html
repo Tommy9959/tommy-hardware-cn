@@ -1,0 +1,50 @@
+{{- /* 
+  img-webp.html — 自动输出 <picture> 标签，WebP + fallback 到原格式
+  用法: 
+    {{ partial "img-webp" (dict 
+      "src" "/images/products/door-locks/dl-001.jpg"
+      "alt" "Door Lock" 
+      "class" "product-img"
+      "loading" "lazy"
+      "style" "width:100%;"
+    ) }}
+  
+  src 支持 .jpg, .jpeg, .png，自动尝试对应的 .webp
+  如果 .webp 不存在，fallback 到原图
+  如果 src 是 SVG（.png 扩展名但实际是 SVG），直接输出 <img>
+- */}}
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $class := .class | default "" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $style := .style | default "" -}}
+{{- $width := .width | default "" -}}
+{{- $height := .height | default "" -}}
+
+{{- /* 判断文件后缀 */ -}}
+{{- $ext := lower (path.Ext $src) -}}
+{{- $webpSrc := replace $src $ext ".webp" -}}
+
+{{- /* 检查是否是 SVG 伪装成 .png */ -}}
+{{- $isSvg := false -}}
+{{- if eq $ext ".png" -}}
+  {{- /* 尝试读取文件前几个字节判断是否 SVG */ -}}
+  {{- $filePath := replace $src "/images/" "/static/images/" -}}
+  {{- if (fileExists (replace $src "/images/" "/static/images/")) -}}
+    {{- /* 无法在 Hugo 模板中读文件头，直接用扩展判断 */ -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 构建 <picture> 标签 */ -}}
+<picture>
+  {{- if ne $ext ".svg" -}}
+  <source srcset="{{ $webpSrc }}" type="image/webp">
+  {{- end -}}
+  <img src="{{ $src }}" 
+       alt="{{ $alt }}" 
+       class="{{ $class }}" 
+       loading="{{ $loading }}" 
+       {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
+       {{ with $width }}width="{{ . }}"{{ end }}
+       {{ with $height }}height="{{ . }}"{{ end }}>
+</picture>

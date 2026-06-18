@@ -30,11 +30,17 @@
 */ -}}
 {{- if .IsHome -}}
   {{- with .Site.Params.logo -}}
+  {{- $webpLogo := replace . ".jpeg" ".webp" -}}
+  {{- $webpLogo = replace $webpLogo ".jpg" ".webp" -}}
+  <link rel="preload" href="{{ $webpLogo | relURL }}" as="image" fetchpriority="high">
   <link rel="preload" href="{{ . | relURL }}" as="image" fetchpriority="high">
   {{- end -}}
 {{- else if .IsPage -}}
   {{- if eq .Section "products" -}}
     {{- if .Params.image -}}
+    {{- $webpImg := replace .Params.image ".jpeg" ".webp" -}}
+    {{- $webpImg = replace $webpImg ".jpg" ".webp" -}}
+    <link rel="preload" href="{{ $webpImg | relURL }}" as="image" fetchpriority="high">
     <link rel="preload" href="{{ .Params.image | relURL }}" as="image" fetchpriority="high">
     {{- end -}}
   {{- end -}}
