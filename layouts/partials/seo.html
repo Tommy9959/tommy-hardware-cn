@@ -183,6 +183,8 @@
   },
   "material": "{{ .Params.material | default "Stainless Steel" }}",
   "category": "{{ $category }}",
+  {{- if .Params.finish }}"color": "{{ .Params.finish }}",{{ end }}
+  {{- if .Params.colors }}"color": "{{ .Params.colors }}",{{ end }}
   "manufacturer": {
     "@type": "Organization",
     "name": "{{ $company }}",

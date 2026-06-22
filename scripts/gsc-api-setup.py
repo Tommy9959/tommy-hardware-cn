@@ -80,7 +80,7 @@ def get_authenticated_service():
         log("🔑 需要授权，请在浏览器中登录 Google 账号...")
         flow = InstalledAppFlow.from_client_config(
             CLIENT_CONFIG, SCOPES)
-        creds = flow.run_local_server(port=8080, open_browser=True)
+        creds = flow.run_local_server(port=8082, open_browser=True)
         log("✅ 授权成功")
         
         # 保存 token
