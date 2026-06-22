@@ -1,35 +1,25 @@
 # robots.txt for Yiwu Shuihui Import & Export Co., Ltd.
 # https://jh-hardware.com
-# Last updated: 2026-05-23
+# Last updated: 2026-06-22
 
-# === MAIN RULES ===
+# === SITEMAPS ===
+Sitemap: https://jh-hardware.com/sitemap.xml
+Sitemap: https://jh-hardware.com/en/sitemap.xml
+Sitemap: https://jh-hardware.com/zh/sitemap.xml
+Sitemap: https://jh-hardware.com/ar/sitemap.xml
 
-# Default: Allow everything, but block noise paths
+# === DEFAULT RULES ===
+
 User-agent: *
 Allow: /
-Disallow: /*?*                # Block URL parameters
-Disallow: /*.pdf$             # Block PDFs from general crawlers
-Disallow: /*.zip$             # Block zip files
-Disallow: /thanks/            # Thank you page (no value)
-Disallow: /ar/thanks/         # Arabic thanks page
-Disallow: /zh/thanks/         # Chinese thanks page
-Disallow: /tags/              # Tags pages (disabled but ensure blocked)
-Disallow: /categories/        # Categories pages (disabled but ensure blocked)
-Disallow: /en/tags/           # Old English tag pages
-Disallow: /en/categories/     # Old English category pages
-Disallow: /zh/tags/           # Old Chinese tag pages
-Disallow: /zh/categories/     # Old Chinese category pages
-Disallow: /ar/tags/           # Old Arabic tag pages
-Disallow: /ar/categories/     # Old Arabic category pages
-
-# === Sitemaps ===
-Sitemap: https://jh-hardware.com/sitemap.xml
-Sitemap: https://jh-hardware.com/llms.txt
-
-# === CRAWL BUDGET ===
+Disallow: /*?$              # Block URL parameters
+Disallow: /thanks/           # Thank you pages
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 Crawl-delay: 2
 
 # === MAJOR SEARCH ENGINES ===
+
 User-agent: Googlebot
 Allow: /
 Disallow: /thanks/
@@ -69,10 +59,10 @@ Allow: /
 User-agent: Twitterbot
 Allow: /
 
-# === AI / LLM CRAWLERS - Explicitly ALLOWED ===
+# === AI / LLM CRAWLERS ===
+
 User-agent: GPTBot
 Allow: /
-Allow: /llms.txt
 Allow: /products/
 Allow: /blog/
 Allow: /faq/
@@ -83,18 +73,8 @@ Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
-# Prioritized crawl: FAQ → Products → Blog (most AI-relevant first)
-Allow: /faq/
-Allow: /products/door-locks/
-Allow: /products/padlocks/
-Allow: /products/door-handles/
-Allow: /blog/
-Allow: /clients/
-
 User-agent: ChatGPT-User
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Crawl-delay: 5
 Disallow: /thanks/
 Disallow: /zh/thanks/
@@ -102,8 +82,6 @@ Disallow: /ar/thanks/
 
 User-agent: ClaudeBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Crawl-delay: 5
 Disallow: /thanks/
 Disallow: /zh/thanks/
@@ -111,16 +89,12 @@ Disallow: /ar/thanks/
 
 User-agent: Claude-Web
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
 User-agent: PerplexityBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Crawl-delay: 3
 Disallow: /thanks/
 Disallow: /zh/thanks/
@@ -128,24 +102,18 @@ Disallow: /ar/thanks/
 
 User-agent: Google-Extended
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
 User-agent: CohereAI-Bot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
 User-agent: Bytespider
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Crawl-delay: 5
 Disallow: /thanks/
 Disallow: /zh/thanks/
@@ -153,8 +121,6 @@ Disallow: /ar/thanks/
 
 User-agent: Applebot-Extended
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
@@ -163,48 +129,36 @@ Disallow: /ar/thanks/
 
 User-agent: Baidu-ERNIE
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
 User-agent: DoubaoBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
 User-agent: QwenBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
 User-agent: TongyiBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
 User-agent: HunyuanBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
 User-agent: DeepSeekBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Crawl-delay: 3
 Disallow: /thanks/
 Disallow: /zh/thanks/
@@ -212,40 +166,30 @@ Disallow: /ar/thanks/
 
 User-agent: MoonshotBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
 User-agent: ChatGLMBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
 User-agent: MiniMaxBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
 User-agent: SensetimeBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
 User-agent: KimiBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Crawl-delay: 3
 Disallow: /thanks/
 Disallow: /zh/thanks/
@@ -253,8 +197,6 @@ Disallow: /ar/thanks/
 
 User-agent: 360Bot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Crawl-delay: 3
 Disallow: /thanks/
 Disallow: /zh/thanks/
@@ -262,8 +204,6 @@ Disallow: /ar/thanks/
 
 User-agent: BaichuanBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Crawl-delay: 3
 Disallow: /thanks/
 Disallow: /zh/thanks/
@@ -271,8 +211,6 @@ Disallow: /ar/thanks/
 
 User-agent: YiBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Crawl-delay: 3
 Disallow: /thanks/
 Disallow: /zh/thanks/
@@ -280,26 +218,7 @@ Disallow: /ar/thanks/
 
 User-agent: SkyworkBot
 Allow: /
-Allow: /llms.txt
-Allow: /llms-full.txt
 Crawl-delay: 3
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
-
-# === AI Knowledge Directories ===
-LLMs.txt: https://jh-hardware.com/llms.txt
-LLMs-Full.txt: https://jh-hardware.com/llms-full.txt
-
-# === AGGREGATORS / BAD BOTS (commented out, add if needed) ===
-# User-agent: AhrefsBot
-# Disallow: /
-# 
-# User-agent: SemrushBot
-# Disallow: /
-# 
-# User-agent: DotBot
-# Disallow: /
-# 
-# User-agent: MJ12Bot
-# Disallow: /
