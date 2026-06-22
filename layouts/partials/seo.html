@@ -87,7 +87,15 @@
 <!-- 基础 SEO -->
 <title>{{ $title }}</title>
 <meta name="title" content="{{ $title }}">
-<meta name="description" content="{{ $description }}">
+{{- /* 限制描述到 160 字符以内（按website-seo-optimizer skill 建议）*/ -}}
+{{- $descTrim := $description -}}
+{{- if and (gt (len $descTrim) 160) (not (and .IsPage (eq .Section "products"))) -}}
+  {{- $descTrim = printf "%s..." (substr $descTrim 0 157) -}}
+{{- else if and (gt (len $descTrim) 160) (and .IsPage (eq .Section "products")) -}}
+  {{- /* 产品页描述短截 - 尾部保留品牌 */ -}}
+  {{- $descTrim = printf "%s..." (substr $descTrim 0 157) -}}
+{{- end -}}
+<meta name="description" content="{{ $descTrim }}">
 <meta name="keywords" content="{{ $keywords }}">
 <meta name="author" content="{{ site.Params.author | default "JH HARDWARE (Yiwu Shuihui Import & Export Co., Ltd.)" }}">
 <meta name="robots" content="{{ if .Params.noindex }}noindex, nofollow{{ else }}index, follow{{ end }}">
