@@ -1,6 +1,6 @@
 ---
-title: "Door Hardware Nigeria Complete Guide 2026: Wholesale Prices, Quality & Shipping from China"
-description: "Complete 2026 guide to importing door hardware to Nigeria — door locks, handles, hinges, and padlocks. Wholesale prices, supplier selection, SONCAP/Form M/PAAR, and shipping to Lagos from a 10-year veteran."
+title: "Door Hardware Nigeria 2026: Wholesale Prices, Shipping & Supplier Tips from 10-Year Exporter"
+description: "Complete door hardware import guide for Nigeria 2026 — door locks, handles, hinges, padlocks. Factory wholesale prices, supplier red flags, SONCAP clearance tips, and shipping costs to Lagos. From a 10-year China exporter."
 keywords: "door hardware nigeria complete guide, hardware supplier nigeria wholesale, door hardware wholesale nigeria, Chinese hardware supplier nigeria, door locks nigeria prices, door handles nigeria, hinges nigeria, padlocks nigeria, import hardware to Lagos, SONCAP door hardware, Form M hardware import"
 author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-06-06"

@@ -1,6 +1,6 @@
 ---
-title: "SONCAP、Form M 与 PAAR — 2026 年尼日利亚进口认证完整指南"
-description: "尼日利亚五金进口商需要了解的所有关于 SONCAP、Form M 和 PAAR 认证的知识。逐步流程、费用、阿帕帕港常见错误，以及 JH Hardware 如何免费为所有客户提供这些文件。"
+title: "SONCAP、Form M、PAAR 尼日利亚 2026：免费认证指南——避免清关罚款"
+description: "不想让货柜在阿帕帕港烂掉？10年五金出口商的完整SONCAP、Form M、PAAR操作指南。常见错误、费用明细、为什么我们给每个客户免费提供这些文件。"
 keywords: "SONCAP尼日利亚，Form M尼日利亚，PAAR尼日利亚，尼日利亚进口认证，尼日利亚清关，阿帕帕港清关，五金进口尼日利亚，SONCAP证书费用，Form M申请，预评估报告，JH Hardware，SOLA Hardware"
 author: "Tommy — JH Hardware（10 年对非出口经验）"
 date: "2026-06-03"

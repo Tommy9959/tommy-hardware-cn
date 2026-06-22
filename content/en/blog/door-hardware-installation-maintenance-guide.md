@@ -1,7 +1,7 @@
 ---
-title: "Door Lock Installation Guide: Stop Jamming, Rust & Misalignment in Nigeria's Climate"
+title: "Door Hardware Installation Guide — Stop Rust & Jamming in Nigeria's Climate (2026)"
 date: 2026-05-27T10:24:00+08:00
-description: "Door hardware installation and maintenance guide for Nigeria. How to install door locks, hinges and handles properly. Prevent rust, fix misalignment. Tips for contractors in Lagos, Abuja, Port Harcourt."
+description: "Don't let Nigeria's humidity destroy your door hardware. Pro installation guide for door locks, hinges, handles. Anti-rust tricks, alignment fixes, tools needed. Tips for contractors in Lagos, Abuja & Port Harcourt from 10-year exporter."
 tags: ["installation guide", "maintenance", "Nigeria market", "door hardware", "door lock installation Nigeria", "hinge maintenance", "door handle repair"]
 categories: ["Product Guide"]
 ---
