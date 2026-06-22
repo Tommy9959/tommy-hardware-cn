@@ -314,38 +314,7 @@
     </div>
 </section>
 
-{{ if eq .Section "products" }}
-<!-- Product Schema.org Structured Data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "{{ .Params.product_name | default .Title }}",
-  "description": "{{ .Description }}",
-  {{ if .Params.image }}"image": "{{ .Params.image | absURL }}",{{ end }}
-  "sku": "{{ .File.ContentBaseName }}",
-  "mpn": "{{ .File.ContentBaseName }}",
-  {{ if .Params.brand }}"brand": { "@type": "Brand", "name": "{{ .Params.brand }}" },{{ else }}"brand": { "@type": "Brand", "name": "{{ .Site.Title }}" },{{ end }}
-  {{ if .Params.price_range -}}
-  "offers": {
-    "@type": "Offer",
-    "price": "{{ .Params.price_range }}",
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/InStock",
-    "priceValidUntil": "2027-12-31",
-    "url": "{{ .Permalink }}",
-    "seller": {
-      "@type": "Organization",
-      "name": "{{ .Site.Title }}"
-    }
-  },
-  {{- end }}
-  "material": "{{ .Params.material | default "Metal" }}",
-  "category": "{{ .Parent.Title | default .Section | default "Hardware" }}",
-  "gtin": ""
-}
-</script>
-{{ end }}
+
 
 <style>
 .product-detail {

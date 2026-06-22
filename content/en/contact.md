@@ -12,6 +12,7 @@ SOLA Hardware (Yiwu Shuihui Import & Export Co., Ltd.) is a leading manufacturer
 - 🏭 **Factory Direct Manufacturer** — No middlemen, best prices
 - 🌍 **10+ Years Exporting to Africa** — We understand your market
 - 📋 **Full Documentation Support** — Form M, SONCAP, Bill of Lading, PAAR
+- 🇳🇬 **[Nigeria Market Specialized](/nigeria/)** — 10+ years serving Lagos, Abuja, Port Harcourt
 - 🚢 **Fast Shipping** — 15-25 days from Ningbo to Lagos
 - ✅ **ISO 9001, CE, SGS Certified**
 - 🆓 **Free Samples Available** for quality testing

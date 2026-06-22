@@ -3,35 +3,7 @@
 <head>
     <!-- SEO Partial - 包含所有 SEO 优化元数据 -->
     {{ partial "seo.html" . }}
-    <!-- JSON-LD Structured Data for AI and Search Engines -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "JH HARDWARE",
-        "alternateName": "Yiwu Shuihui Import & Export Co., Ltd. (钧瀚五金)",
-        "url": "https://jh-hardware.com",
-        "logo": "https://jh-hardware.com/images/logo/logo.webp",
-        "founder": "Tommy",
-        "foundingDate": "2015",
-        "description": "Factory direct manufacturer of door hardware and building materials. 10+ years exporting to Nigeria, Dubai, and Africa.",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Room 2018, Xuefeng Business Building, No.18 Danxi North Road",
-            "addressLocality": "Yiwu",
-            "addressRegion": "Zhejiang",
-            "addressCountry": "CN",
-            "postalCode": "322000"
-        },
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+86 183 5800 8400",
-            "email": "z946487044@icloud.com",
-            "availableLanguage": ["English", "Chinese"]
-        },
-        "sameAs": ["https://wa.me/8618358008400", "mailto:z946487044@icloud.com"]
-    }
-    </script>
+<!-- seo.html 已包含完整的 Organization Schema（含多语言），此处不再重复 -->
     
     <!-- 产品页 FAQ Schema -->
     {{ partial "product-faq-schema.html" . }}

@@ -23,6 +23,7 @@ image: "/images/products/door-locks/9129-113.jpg"
 - **Sliding Tracks** - Drawer Slides, Wardrobe Tracks, Barn Door Hardware
 - **Sofa Legs** - Metal Legs, Wooden Legs, Plastic Legs
 - **Cabinet Hardware** - Cabinet Handles, Connectors, Gas Struts
+- **[Building Materials](/building-materials/)** - Glue, Iron Pipes, Curtain Rods, Wallpaper & More
 
 ### ✅ Why Choose Us?
 

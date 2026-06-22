@@ -162,7 +162,7 @@
   "@context": "https://schema.org",
   "@type": "Product",
   "@id": "{{ .Permalink }}#product",
-  "name": "{{ $company }} {{ .Params.product_name | default .Title }}",
+  "name": "{{ .Params.product_name | default .Title }}",
   "sku": "{{ $sku }}",
   "mpn": "{{ .Title }}",
   "description": "{{ $description }}",
@@ -176,7 +176,7 @@
   "offers": {
     "@type": "Offer",
     "priceCurrency": "USD",
-    "price": {{ if .Params.price_range }}{{ $priceStr := index (split (index (split .Params.price_range "$") 1) " ") 0 }}{{ if $priceStr }}{{ $priceStr }}{{ else }}"0"{{ end }}{{ else }}"0"{{ end }},
+    "price": {{ if .Params.price_range }}{{ $priceStr := index (split (index (split .Params.price_range "$") 1) " ") 0 | default "0" }}{{ $priceNum := float $priceStr }}{{ if gt $priceNum 0.0 }}{{ $priceNum }}{{ else }}0{{ end }}{{ else }}0{{ end }},
 
     "priceValidUntil": "2027-12-31",
     "availability": "https://schema.org/InStock",
