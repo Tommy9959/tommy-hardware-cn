@@ -35,6 +35,10 @@
   <link rel="preload" href="{{ $webpLogo | relURL }}" as="image" fetchpriority="high">
   <link rel="preload" href="{{ . | relURL }}" as="image" fetchpriority="high">
   {{- end -}}
+  {{- /* 首页 LCP 优化：提前加载关键背景渐变 + 移除渲染阻塞 */ -}}
+  <style>
+    .hero-section { content-visibility: auto; contain-intrinsic-size: 200px; }
+  </style>
 {{- else if .IsPage -}}
   {{- if eq .Section "products" -}}
     {{- if .Params.image -}}
