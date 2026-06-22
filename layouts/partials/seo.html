@@ -87,13 +87,15 @@
 <!-- 基础 SEO -->
 <title>{{ $title }}</title>
 <meta name="title" content="{{ $title }}">
-{{- /* 限制描述到 160 字符以内（按website-seo-optimizer skill 建议）*/ -}}
+{{- /* 限制描述到推荐长度以内：英文160字，中文250字 */ -}}
 {{- $descTrim := $description -}}
-{{- if and (gt (len $descTrim) 160) (not (and .IsPage (eq .Section "products"))) -}}
-  {{- $descTrim = printf "%s..." (substr $descTrim 0 157) -}}
-{{- else if and (gt (len $descTrim) 160) (and .IsPage (eq .Section "products")) -}}
-  {{- /* 产品页描述短截 - 尾部保留品牌 */ -}}
-  {{- $descTrim = printf "%s..." (substr $descTrim 0 157) -}}
+{{- $maxDescLen := 160 -}}
+{{- if or (eq .Site.Language.Lang "zh") (eq .Site.Language.Lang "ar") -}}
+  {{- /* 中文/阿拉伯语每个字符携带更多信息，可略长 */ -}}
+  {{- $maxDescLen = 250 -}}
+{{- end -}}
+{{- if gt (len $descTrim) $maxDescLen -}}
+  {{- $descTrim = printf "%s..." (substr $descTrim 0 (sub $maxDescLen 3)) -}}
 {{- end -}}
 <meta name="description" content="{{ $descTrim }}">
 <meta name="keywords" content="{{ $keywords }}">

@@ -27,7 +27,7 @@ disableAliases = true
     languageName = '中文'
     languageCode = 'zh-cn'
     contentDir = 'content/zh'
-    description = '工厂直销门把手、铰链、门锁、导轨。ISO 9001 认证制造商。出口尼日利亚、迪拜、非洲。'
+    description = 'SOLA门控五金 — 中国工厂直销门把手、门锁、门铰链、滑动轨。ISO 9001认证。10年尼日利亚出口经验，提供Form M/SONCAP全套文件支持。批发价格，15-25天交货，免费样品。'
     
   [languages.ar]
     title = 'JH HARDWARE | أجهزة الأبواب والمباني | بيع مباشر لنيجيريا وأفريقيا' 
