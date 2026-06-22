@@ -156,7 +156,9 @@
 {{- if eq .Section "products" -}}
 {{- $category := "" -}}{{ with .Parent }}{{ $category = .Title }}{{ end -}}
 {{- $isDoorlock := strings.Contains .File.Dir "door-locks" -}}
-{{- $sku := printf "JH-%s-%s" $category .Title | urlize -}}
+{{- /* 真实分类名称：从 Dir 路径提取最后一段 */ -}}
+{{- $skuID := .File.ContentBaseName -}}
+{{- $sku := printf "JH-%s" $skuID | upper -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
