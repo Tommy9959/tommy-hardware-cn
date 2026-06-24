@@ -3,10 +3,8 @@
 # Last updated: 2026-06-22
 
 # === SITEMAPS ===
+# Hugo v0.160 自动生成 sitemapindex（含 en/zh/ar 子 sitemap）
 Sitemap: https://jh-hardware.com/sitemap.xml
-Sitemap: https://jh-hardware.com/en/sitemap.xml
-Sitemap: https://jh-hardware.com/zh/sitemap.xml
-Sitemap: https://jh-hardware.com/ar/sitemap.xml
 
 # === DEFAULT RULES ===
 
