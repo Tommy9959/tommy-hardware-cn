@@ -11,8 +11,8 @@ industry_categories: ["iron_casing_pipes"]
 faqs:
   - question: "What is iron casing pipe used for in construction?"
     answer: "Iron casing pipe (also called conduit pipe) is used in building construction for embedding electrical wires, structural reinforcement, plumbing applications, and as protective tubing in concrete structures. Common sizes in Nigeria are 16mm and 25mm."
-  - question: "What is the price of iron casing pipe in Nigeria 2026?"
-    answer: "Factory direct prices from SOLA Hardware: 16mm casing pipe $0.30-$0.80/meter FOB, 25mm casing pipe $0.50-$1.50/meter FOB. Prices depend on wall thickness (1.5mm-3.0mm) and grade. Bulk container discounts available."
+  - question: "What is the iron casing pipe price in Nigeria 2026?"
+    answer: "The iron casing pipe price in Nigeria 2026 varies by size and wall thickness. Factory direct FOB prices from SOLA Hardware: 16mm iron casing pipe $0.30-$0.80/meter, 25mm iron casing pipe $0.50-$1.50/meter. In Nigeria local markets, the same pipe costs ₦1,500-₦3,500/meter — importing direct from China saves 50-70%. Price depends on wall thickness (1.5mm-3.0mm) and grade. Bulk container discounts available."
   - question: "How much casing pipe do I need for a building in Nigeria?"
     answer: "A standard 3-bedroom bungalow typically needs 200-400 meters of casing pipe. A 2-story building needs 500-1000 meters. Always add 15% waste allowance. Professional electrical engineers can provide exact quantities."
   - question: "What wall thickness is best for casing pipe in Nigeria?"

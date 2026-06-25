@@ -1,6 +1,6 @@
 ---
-title: "Door Handles Wholesale — Stainless Steel Lever Handle Supplier China"
-description: "High-quality stainless steel, aluminum alloy, and brass door handles for interior and exterior doors. Factory direct supply with custom design options."
+title: "Door Handle Wholesale Price — Stainless Steel, Aluminum & Brass | China Supplier"
+description: "Door handle wholesale price from China factory. Stainless steel, aluminum alloy, and brass door handles. Types include lever handles, flush pulls, and rosette handles. Best price for Nigerian importers. Door kabza supplier."
 products:
   - model: "DH-001"
     name: "Stainless Steel Lever Handle"
@@ -26,6 +26,23 @@ products:
     name: "Interior Door Rosette Handle"
     material: "Zinc Alloy + SS304"
     finish: "Multiple Colors Available"
+---
+
+### Door Handle Price & Types
+
+**Door handle wholesale prices (FOB Yiwu):**
+
+| Type | Material | Price Range | Best For |
+|------|----------|-------------|----------|
+| [Lever Handle (DH-001)](/products/door-handles/dh-001/) | SS304 Stainless Steel | $1.50 - $3.00/pc | Interior/exterior doors |
+| [Aluminum Handle (DH-002)](/products/door-handles/dh-002/) | Aluminum Alloy 6063 | $1.00 - $2.50/pc | Modern interiors |
+| [Brass Handle (DH-003)](/products/door-handles/dh-003/) | Solid Brass | $2.50 - $5.00/pc | Premium, hotels |
+| [Flush Pull (DH-004)](/products/door-handles/dh-004/) | Zinc Alloy | $1.50 - $3.50/pc | Sliding doors |
+| [Commercial Handle (DH-005)](/products/door-handles/dh-005/) | SS304 | $3.00 - $6.00/pc | High-traffic |
+| [Rosette Handle (DH-006)](/products/door-handles/dh-006/) | Zinc + SS304 | $1.50 - $3.00/pc | Interior doors |
+
+> In Nigeria, door handles are also called **door kabza** or **door hand kabza**. What type are you looking for? Contact us for the best price.
+
 ---
 
 ### Door Handle FAQ

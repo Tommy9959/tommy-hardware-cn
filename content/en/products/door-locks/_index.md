@@ -1,6 +1,6 @@
 ---
-title: "Iron Door Lock Price in Nigeria from $2.50 | Factory Direct Prices"
-description: "Iron door lock price in Nigeria starts at $2.50/pc. How much is a door lock? Factory direct prices for bulk door locks. Wholesale supply to Lagos, Abuja, Port Harcourt. Free SONCAP support."
+title: "Door Lock Price in Nigeria from $2.50 | How Much is Door Lock? China Factory Direct"
+description: "Door lock price in Nigeria — how much is a door lock? Factory direct prices from $2.50/pc. Also known as door kabza in Nigeria, we supply iron door locks wholesale to Lagos, Abuja, Port Harcourt, Onitsha. China lock price with free SONCAP support."
 products:
   - model: "DL-001"
     name: "Iron Plate Aluminum Handle Door Lock 755-151"
@@ -32,10 +32,26 @@ products:
     finish: "AB Antique Bronze"
 ---
 
+### Door Lock Price in Nigeria — Quick Overview
+
+**🇳🇬 Nigeria door lock prices at a glance:**
+
+| Product Type | Price (FOB Yiwu) | Nigeria Market Price |
+|-------------|-----------------|--------------------|
+| Iron Door Lock (basic) | **$2.50 - $3.50/pc** | ₦5,000 - ₦7,000 |
+| Iron Door Lock (standard) | **$3.00 - $4.50/pc** | ₦6,000 - ₦9,000 |
+| Iron Door Lock (heavy duty) | **$3.50 - $5.00/pc** | ₦7,000 - ₦10,000 |
+
+> **How much is a door lock in Nigeria?** Buying factory direct from China, iron door lock prices start at just **$2.50/pc (about ₦3,700)**, compared to ₦5,000-10,000 in the local market. That's **up to 50% savings** on the same quality.
+
+*Exchange rate: ~₦1,480/USD. Local prices vary by city and retailer.*
+
+---
+
 ### Door Lock Price in Nigeria & FAQ
 
 **Q: What is the door lock price in Nigeria?**
-A: Factory direct prices start from **$2.50/pc** (iron plate aluminum handle mortise lock) to $8.00/pc (heavy duty lock). Prices FOB Yiwu. Shipping to Lagos (Apapa/Tincan) available. Contact us for door lock price quotes to your port in Nigeria.
+A: Factory direct prices start from **$2.50/pc** (iron plate aluminum handle mortise lock) to $8.00/pc (heavy duty lock). In Nigeria, the same quality door lock (also known as **kabza**) typically costs ₦5,000-₦10,000 in Lagos markets. By importing direct from China, you save 40-50%. Prices FOB Yiwu. Contact us for door lock price quotes to your port in Nigeria.
 
 **Q: What is the MOQ for door locks?**
 A: Standard MOQ is 400 pcs per model. Trial orders of 100 pcs may be accepted for first-time buyers.

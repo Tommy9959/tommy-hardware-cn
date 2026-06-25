@@ -1,6 +1,6 @@
 ---
-title: "Iron Casing Pipes 16mm & 25mm"
-description: "Iron casing pipes 16mm and 25mm price in Nigeria 2026 — factory direct from China. Embedded pipes, conduit pipes, and structural reinforcement for building projects. Wholesale supply to Lagos, Abuja, Onitsha. Bulk order welcome."
+title: "Iron Casing Pipe Price in Nigeria 2026 — 16mm & 25mm | China Factory Direct"
+description: "Iron casing pipe price in Nigeria 2026 for 16mm and 25mm sizes. Also known as conduit pipe or threaded steel pipe. Factory direct from China. Wholesale supply to Lagos, Abuja, Onitsha, Port Harcourt. Get iron casing pipe price quotes free."
 products:
   - model: "IP-001"
     name: "Iron Casing Pipe 16mm × 1.5mm Wall"
