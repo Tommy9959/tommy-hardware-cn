@@ -6,10 +6,12 @@
 {{- range .Site.Pages }}
   {{- /* 跳过禁用sitemap的页面 */ -}}
   {{- if .Sitemap.Disable }}{{ continue }}{{ end -}}
+  {{- /* 跳过 noindex 页面 */ -}}
+  {{- if .Params.noindex }}{{ continue }}{{ end -}}
   {{- /* 跳过排除路径 */ -}}
   {{- $exclude := false -}}
   {{- range $excludedPaths -}}
-    {{- if hasPrefix . $.RelPermalink }}{{ $exclude = true }}{{ break }}{{ end -}}
+    {{- if hasPrefix $.RelPermalink . }}{{ $exclude = true }}{{ break }}{{ end -}}
   {{- end -}}
   {{- if $exclude }}{{ continue }}{{ end -}}
   {{- /* 跳过没有 permalink 的资源页面 */ -}}
