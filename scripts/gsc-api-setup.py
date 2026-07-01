@@ -285,19 +285,11 @@ def main():
 
 
 if __name__ == '__main__':
-    # 尝试加载 custom.env 代理配置
-    custom_env_path = os.path.expanduser('~/.openclaw/service-env/custom.env')
-    if os.path.exists(custom_env_path):
-        with open(custom_env_path) as f:
-            for line in f:
-                line = line.strip()
-                if line.startswith('export '):
-                    parts = line[7:].split('=', 1)
-                    if len(parts) == 2 and parts[0] in ['HTTP_PROXY', 'HTTPS_PROXY', 'http_proxy', 'https_proxy']:
-                        if not os.environ.get(parts[0]):
-                            os.environ[parts[0]] = parts[1].strip('"\'')
-    # 备用：仍无代理则使用默认端口
-    for env_var in ['HTTPS_PROXY', 'HTTP_PROXY', 'ALL_PROXY']:
-        if not os.environ.get(env_var):
-            os.environ[env_var] = 'http://127.0.0.1:7890'
+    # 代理配置：确保所有 API 调用和 curl 都走代理
+    PROXY = 'http://127.0.0.1:7890'
+    os.environ.setdefault('HTTP_PROXY', PROXY)
+    os.environ.setdefault('HTTPS_PROXY', PROXY)
+    os.environ.setdefault('http_proxy', PROXY)
+    os.environ.setdefault('https_proxy', PROXY)
+    os.environ.setdefault('ALL_PROXY', 'socks5://127.0.0.1:7890')
     main()

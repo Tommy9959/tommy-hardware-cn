@@ -4,6 +4,14 @@
 # 每周一运行，检查索引状态和错误
 # ==========================================================
 
+# 代理配置
+PROXY="http://127.0.0.1:7890"
+export HTTP_PROXY="$PROXY"
+export HTTPS_PROXY="$PROXY"
+export http_proxy="$PROXY"
+export https_proxy="$PROXY"
+export ALL_PROXY="socks5://127.0.0.1:7890"
+
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 LOG_DIR="/Users/zhuxiaolei/.openclaw/workspace/logs"
 TIMESTAMP=$(date "+%Y-%m-%d %H:%M:%S")
@@ -19,7 +27,7 @@ log "📊 开始 GSC 索引健康检查"
 log "=========================================="
 
 # 1. 网站可访问性
-HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" "https://jh-hardware.com")
+HTTP_CODE=$(curl -s -x "$PROXY" -o /dev/null -w "%{http_code}" "https://jh-hardware.com")
 if [ "$HTTP_CODE" = "200" ]; then
     log "✅ 网站正常 (HTTP 200)"
 else
@@ -27,7 +35,7 @@ else
 fi
 
 # 2. sitemap 检查
-SITEMAP_URLS=$(curl -s "https://jh-hardware.com/sitemap.xml" | grep -c "<loc>" 2>/dev/null)
+SITEMAP_URLS=$(curl -s -x "$PROXY" "https://jh-hardware.com/sitemap.xml" | grep -c "<loc>" 2>/dev/null)
 log "📄 sitemap 包含 $SITEMAP_URLS 个 URL"
 
 # 3. GSC 数据拉取（更新 token 并获取最新性能数据）

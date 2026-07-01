@@ -10,6 +10,15 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SITE_DIR="$(dirname "$SCRIPT_DIR")"
 REPORT_DIR="$SITE_DIR/docs"
 LOG_DIR="/Users/zhuxiaolei/.openclaw/workspace/logs"
+
+# 代理配置（统一走 clash mixed-port）
+PROXY="http://127.0.0.1:7890"
+
+export HTTP_PROXY="$PROXY"
+export HTTPS_PROXY="$PROXY"
+export http_proxy="$PROXY"
+export https_proxy="$PROXY"
+export ALL_PROXY="socks5://127.0.0.1:7890"
 TIMESTAMP=$(date "+%Y-%m-%d %H:%M:%S")
 WEEK_START=$(date -v -6d "+%Y-%m-%d")
 WEEK_END=$(date -v +0d "+%Y-%m-%d")
@@ -26,29 +35,29 @@ log() {
 basic_seo_check() {
     local report_section=""
     
-    local http_code=$(curl -s -o /dev/null -w "%{http_code}" "$WEBSITE" 2>/dev/null)
+    local http_code=$(curl -s -x "$PROXY" -o /dev/null -w "%{http_code}" "$WEBSITE" 2>/dev/null)
     if [ "$http_code" = "200" ]; then
         report_section+="| 网站可访问性 | ✅ | HTTP 200 正常 |\\n"
     else
         report_section+="| 网站可访问性 | ❌ | HTTP $http_code |\\n"
     fi
     
-    local sitemap_code=$(curl -s -o /dev/null -w "%{http_code}" "$WEBSITE/sitemap.xml" 2>/dev/null)
-    local url_count=$(curl -s "$WEBSITE/sitemap.xml" 2>/dev/null | grep -c "<loc>" || echo "0")
+    local sitemap_code=$(curl -s -x "$PROXY" -o /dev/null -w "%{http_code}" "$WEBSITE/sitemap.xml" 2>/dev/null)
+    local url_count=$(curl -s -x "$PROXY" "$WEBSITE/sitemap.xml" 2>/dev/null | grep -c "<loc>" || echo "0")
     if [ "$sitemap_code" = "200" ]; then
         report_section+="| sitemap.xml | ✅ | 可访问，$url_count 个 URL |\\n"
     else
         report_section+="| sitemap.xml | ❌ | HTTP $sitemap_code |\\n"
     fi
     
-    local robots_code=$(curl -s -o /dev/null -w "%{http_code}" "$WEBSITE/robots.txt" 2>/dev/null)
+    local robots_code=$(curl -s -x "$PROXY" -o /dev/null -w "%{http_code}" "$WEBSITE/robots.txt" 2>/dev/null)
     if [ "$robots_code" = "200" ]; then
         report_section+="| robots.txt | ✅ | 可访问 |\\n"
     else
         report_section+="| robots.txt | ⚠️ | HTTP $robots_code |\\n"
     fi
     
-    local load_time=$(curl -s -o /dev/null -w "%{time_total}" "$WEBSITE" 2>/dev/null)
+    local load_time=$(curl -s -x "$PROXY" -o /dev/null -w "%{time_total}" "$WEBSITE" 2>/dev/null)
     local load_fmt=$(printf "%.2f" "$load_time" 2>/dev/null || echo "?.??")
     if [ -n "$load_time" ] && [ "$(echo "$load_time < 2" | bc 2>/dev/null)" = "1" ]; then
         report_section+="| 页面加载速度 | ✅ | ${load_fmt}s |\\n"
@@ -56,7 +65,7 @@ basic_seo_check() {
         report_section+="| 页面加载速度 | ⚠️ | ${load_fmt}s（建议 <2s） |\\n"
     fi
     
-    local ga_found=$(curl -s "$WEBSITE" 2>/dev/null | grep -c "G-EW8MR1LQWY" || echo "0")
+    local ga_found=$(curl -s -x "$PROXY" "$WEBSITE" 2>/dev/null | grep -c "G-EW8MR1LQWY" || echo "0")
     if [ "$ga_found" -gt 0 ]; then
         report_section+="| Google Analytics | ✅ | 已集成 |\\n"
     fi
