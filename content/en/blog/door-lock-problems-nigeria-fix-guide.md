@@ -1,6 +1,6 @@
 ---
-title: "Door Locks Keep Jamming in Nigeria? Common Problems and How to Fix Them"
-description: "Why do door locks jam, stick, and break in Nigeria? 10 years of real experience — Harmattan dust, coastal humidity, poor-quality imports, and what actually works."
+title: "Door Locks Jamming in Nigeria? 5 Fixes That Work (Harmattan Dust & Humidity)"
+description: "Why door locks jam in Nigeria — Harmattan dust, coastal humidity solutions. 5 common lock problems fixed with graphite powder & simple tools. SOLA hardware expert guide."
 keywords: "door lock problems Nigeria, door lock jamming fix, door lock stuck Nigeria, Harmattan dust door lock, door lock repair Nigeria, Nigeria door hardware maintenance, door lock lubrication, padlock rust Nigeria"
 author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-06-09"
@@ -210,13 +210,15 @@ After 10 years in this business, I've learned that prevention beats repair every
 
 Stop replacing cheap locks every 6 months. We've been supplying hardware to the Nigerian market for 10 years — we know what works in Lagos humidity, Abuja dry heat, and everywhere in between.
 
-**📧 Email:** z946487044@icloud.com  
+**📧 Email:** info@jh-hardware.com  
 **💬 WhatsApp:** +86 183 5800 8400  
 **🌐 Website:** https://jh-hardware.com
 
 **Send us a message with your requirements, and we'll recommend the right products for your specific location and use case.** Samples available. Bulk pricing for dealers and distributors. Free SONCAP support for importers.
 
 ---
+
+👉 **Related guides:** [Best padlock in Nigeria 2026 — price guide →](/en/blog/padlock-buying-guide/) · [Door hinge selection guide with prices →](/en/blog/door-hinges-selection-guide-nigeria/)
 
 *Published: June 9, 2026*  
 *Written by Tommy, JH Hardware — 10 years selling hardware to Nigeria*
