@@ -22,6 +22,12 @@ mkdir -p "$LOG_DIR"
 
 log() { echo "[$TIMESTAMP] $1" | tee -a "$LOG_FILE"; }
 
+# iMessage 推送
+notify() {
+    local msg="$1"
+    echo "$msg" | /opt/homebrew/bin/imsg rpc +8618358008400 2>/dev/null || true
+}
+
 log "=========================================="
 log "📊 开始 GSC 索引健康检查"
 log "=========================================="
@@ -32,6 +38,7 @@ if [ "$HTTP_CODE" = "200" ]; then
     log "✅ 网站正常 (HTTP 200)"
 else
     log "❌ 网站异常 (HTTP $HTTP_CODE)"
+    notify "❌ GSC 检查失败：网站返回 HTTP $HTTP_CODE（$TIMESTAMP）"
 fi
 
 # 2. sitemap 检查
@@ -53,6 +60,7 @@ if [ -f /tmp/gsc-latest.md ]; then
     log "✅ 报告已保存: $REPORT_FILE"
 else
     log "⚠️ GSC 数据拉取失败"
+    notify "⚠️ GSC 数据拉取失败 - 索引检查未完成（$TIMESTAMP）"
     echo "# ⚠️ GSC 数据拉取失败" > "$REPORT_FILE"
     echo "时间: $TIMESTAMP" >> "$REPORT_FILE"
     echo "请在 GSC 后台手动检查索引状态: https://search.google.com/search-console" >> "$REPORT_FILE"
