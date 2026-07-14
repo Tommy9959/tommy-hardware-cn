@@ -121,7 +121,7 @@ The best fix for padlock problems in Nigeria is **buying the right padlock in th
 - **For Abuja and Kano:** Good-quality zinc-alloy or brass padlocks work fine. The dry climate means rust is less of a problem.
 - **For outdoor use:** Look for padlocks with a rubber cover over the keyway. This simple feature keeps dust and rain out, triple the lifespan.
 
-👉 **[Browse our stainless steel padlocks →](/en/products/#padlocks)**
+👉 **[Browse our stainless steel padlocks →](/products/#padlocks)**
 
 ---
 
@@ -201,8 +201,8 @@ After 10 years in this business, I've learned that prevention beats repair every
 
 **3. Quality mid-range mortise locks** — Don't buy the cheapest lock on the market. A good mid-range mortise lock ($3-$6) from a reputable brand like SOLA will last 5-10 years with basic maintenance. A $1.50 no-name lock might not survive the first Harmattan.
 
-👉 **[Check out our best-selling mortise locks →](/en/products/)**  
-👉 **[Browse SS304 padlocks for coastal areas →](/en/products/#padlocks)**
+👉 **[Check out our best-selling mortise locks →](/products/)**  
+👉 **[Browse SS304 padlocks for coastal areas →](/products/#padlocks)**
 
 ---
 
@@ -218,7 +218,7 @@ Stop replacing cheap locks every 6 months. We've been supplying hardware to the 
 
 ---
 
-👉 **Related guides:** [Best padlock in Nigeria 2026 — price guide →](/en/blog/padlock-buying-guide/) · [Door hinge selection guide with prices →](/en/blog/door-hinges-selection-guide-nigeria/)
+👉 **Related guides:** [Best padlock in Nigeria 2026 — price guide →](/blog/padlock-buying-guide/) · [Door hinge selection guide with prices →](/blog/door-hinges-selection-guide-nigeria/)
 
 *Published: June 9, 2026*  
 *Written by Tommy, JH Hardware — 10 years selling hardware to Nigeria*

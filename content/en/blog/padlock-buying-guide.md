@@ -247,6 +247,6 @@ We supply padlocks from all 9 SOLA series — from budget laminated to premium s
 
 ---
 
-👉 **Related guides:** [Door locks jamming in Nigeria? Fix guide →](/en/blog/door-lock-problems-nigeria-fix-guide/) · [Door hinge price in Nigeria →](/en/blog/door-hinges-selection-guide-nigeria/)
+👉 **Related guides:** [Door locks jamming in Nigeria? Fix guide →](/blog/door-lock-problems-nigeria-fix-guide/) · [Door hinge price in Nigeria →](/blog/door-hinges-selection-guide-nigeria/)
 
 *Written by Yiwu Shuihui Import & Export Co., Ltd. — 10 years exporting hardware to Africa and the Middle East.*

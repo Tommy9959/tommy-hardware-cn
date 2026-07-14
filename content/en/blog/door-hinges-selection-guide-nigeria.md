@@ -112,6 +112,6 @@ We manufacture door hinges in our ISO 9001 certified factory with strict materia
 
 ---
 
-👉 **Related guides:** [Best padlock in Nigeria 2026 — price guide →](/en/blog/padlock-buying-guide/) · [Door locks jamming in Nigeria? Fix guide →](/en/blog/door-lock-problems-nigeria-fix-guide/)
+👉 **Related guides:** [Best padlock in Nigeria 2026 — price guide →](/blog/padlock-buying-guide/) · [Door locks jamming in Nigeria? Fix guide →](/blog/door-lock-problems-nigeria-fix-guide/)
 
 *Written by Yiwu Shuihui Import & Export Co., Ltd. — 10 years exporting hardware to Africa and the Middle East.*

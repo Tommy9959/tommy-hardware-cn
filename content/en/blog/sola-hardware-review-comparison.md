@@ -143,7 +143,7 @@ That's the kind of partner worth betting on.
 
 ---
 
-👉 **[Browse SOLA Hardware Products →](/en/products/)**  
+👉 **[Browse SOLA Hardware Products →](/products/)**  
 📧 **Email us for dealer pricing: [sales@yourcompany.com]**
 
 ---

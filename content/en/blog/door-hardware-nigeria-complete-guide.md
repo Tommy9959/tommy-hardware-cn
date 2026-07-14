@@ -109,7 +109,7 @@ Padlocks are a huge market in Nigeria — everyone needs them for gates, warehou
 
 **Pro tip:** Padlocks have the highest repeat rate of any product. Once a customer finds one they like, they buy it in bulk every 2–3 months.
 
-> 📖 **Related:** [How to Choose Door Locks for Nigeria](/en/blog/how-to-choose-door-locks/) — a deeper dive on lock types and quality checks.
+> 📖 **Related:** [How to Choose Door Locks for Nigeria](/blog/how-to-choose-door-locks/) — a deeper dive on lock types and quality checks.
 
 ---
 
@@ -134,7 +134,7 @@ Door handles are the most visible part of any door hardware installation. Aesthe
 - **Best sellers:** Aluminum pulls, 600mm–1200mm length for glass doors
 - **Volume:** 200–1,000 pieces per order
 
-> 📖 **Related:** [Door Handle Materials Guide](/en/blog/door-handle-materials-guide/) — SS201 vs SS304 vs zinc alloy explained.
+> 📖 **Related:** [Door Handle Materials Guide](/blog/door-handle-materials-guide/) — SS201 vs SS304 vs zinc alloy explained.
 
 ---
 
@@ -159,7 +159,7 @@ Hinges are the unsung heroes of door hardware. Nobody notices them until they br
 
 **Important for Nigeria:** SS304 hinges are essential for Lagos and Port Harcourt (coastal humidity). For Abuja and Kano (dry inland), SS201 is sufficient.
 
-> 📖 **Related:** [Door Hinges Selection Guide for Nigeria](/en/blog/door-hinges-selection-guide-nigeria/)
+> 📖 **Related:** [Door Hinges Selection Guide for Nigeria](/blog/door-hinges-selection-guide-nigeria/)
 
 ---
 
@@ -176,7 +176,7 @@ Padlocks deserve their own section because they're such a consistent seller.
 
 **Padlock sales tip:** The average Nigerian hardware store restocks padlocks every 6–8 weeks. If you can offer a reliable supply at a consistent price, you'll have customers for life.
 
-> 📖 **More detail:** [Padlock Buying Guide for Nigeria](/en/blog/padlock-buying-guide/)
+> 📖 **More detail:** [Padlock Buying Guide for Nigeria](/blog/padlock-buying-guide/)
 
 ### 5. Other Door Accessories
 
@@ -333,7 +333,7 @@ When you ship door hardware from JH Hardware, here's everything you get:
 4. **Import duties** — 20–35% of CIF value (depending on product)
 5. **Clearing agent** — licensed customs agent to handle clearance
 
-> 📖 **Detailed guide:** [SONCAP, Form M & PAAR — Complete Nigeria Import Certification Guide](/en/blog/soncap-form-m-paar-nigeria-import-certification/)
+> 📖 **Detailed guide:** [SONCAP, Form M & PAAR — Complete Nigeria Import Certification Guide](/blog/soncap-form-m-paar-nigeria-import-certification/)
 
 ---
 

@@ -144,7 +144,7 @@ This is the #1 thing new importers miss. Two iron door locks can look identical 
 
 If your supplier doesn't know SONCAP, run. We handle SONCAP for all our Nigerian customers — free of charge.
 
-👉 More on Nigerian import requirements: [SONCAP, Form M & PAAR Guide](https://jh-hardware.com/en/blog/soncap-form-m-paar-nigeria-import-certification/)
+👉 More on Nigerian import requirements: [SONCAP, Form M & PAAR Guide](https://jh-hardware.com/blog/soncap-form-m-paar-nigeria-import-certification/)
 
 ### Tip 5: Think About Total Cost, Not Just the Iron Door Lock Price Per Piece
 
@@ -260,7 +260,7 @@ He's been our customer since 2022. Last year he ordered 3,500 locks.
 **3. Calculate your total delivered cost.** Don't just look at the FOB iron door lock price. Include shipping, duties, SONCAP, and local transport. Then decide which price point gives you the best margin with the least customer complaints.
 
 **👉 See our full range:** [Door Locks Collection](https://jh-hardware.com/products/door-locks/) — 50+ models from $2.50 to $6.00/pc  
-**👉 Also need iron casing pipes for your projects?** [Iron Casing Pipes 16mm & 25mm Guide](https://jh-hardware.com/en/blog/steel-pipes-buying-guide-nigeria/)
+**👉 Also need iron casing pipes for your projects?** [Iron Casing Pipes 16mm & 25mm Guide](https://jh-hardware.com/blog/steel-pipes-buying-guide-nigeria/)
 
 ---
 
