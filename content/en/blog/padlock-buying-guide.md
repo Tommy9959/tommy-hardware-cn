@@ -7,6 +7,120 @@ date: "2026-05-21"
 tags: ["padlocks", "Nigeria market", "product guide", "what sells"]
 categories: ["Product Guide"]
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What type of padlock sells best in Nigeria?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Waterproof shell padlocks (like SOLA GTK series) are the #1 seller in Nigeria, accounting for 35% of sales. They outperform laminated locks in humidity-heavy regions like Lagos and Port Harcourt. Solid brass padlocks are a growing premium segment, especially in northern states like Kano. Laminated padlocks still hold 30% market share but are steadily declining as buyers switch to waterproof options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are waterproof padlocks better than laminated padlocks for Africa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Waterproof padlocks have fully sealed bodies (typically zinc alloy or stainless steel) that prevent moisture, salt air, and dust from entering the lock mechanism. Laminated padlocks, built from stacked metal plates, rust quickly in humid coastal conditions. For outdoor applications in Lagos, Port Harcourt, and other humid African regions, waterproof padlocks last 5x longer than laminated ones and command better margins for distributors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the price range for padlocks in the African market?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Entry-level padlocks (SFN, YJN laminated): $0.50–$0.80. Mid-range waterproof options (GTK small, HHL, SF mid-grade): $0.80–$1.50 — this is the sweet spot where 60% of sales occur. Premium padlocks (large GTK, HLV/LTN solid brass): $1.50–$3.00. Iron padlocks at $0.30–$0.60 exist but are not recommended due to rapid rust and high failure rates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the quality differences between cheap and mid-range padlocks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A $0.40 padlock versus a $1.20 padlock differs in four critical areas: steel quality (higher-grade stainless resists corrosion vs untreated iron), mechanism precision (springs that fail after 50 uses vs lasting years), finish quality (coating that peels in 3 months vs durable finish), and QC standards (20% defect rate vs 2%). Two locks can look identical but be completely different inside — a cheap lock may pack a tiny 2-pin mechanism inside a big shell."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which padlock is recommended for Lagos coastal areas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For Lagos coastal areas like Apapa, Ikoyi, and Lekki, waterproof shell padlocks (SOLA GTK series) are the only reliable choice. Salt air from the Atlantic Ocean combined with year-round high humidity causes laminated and iron padlocks to rust within months. GTK padlocks with fully sealed bodies and corrosion-resistant materials withstand these conditions, making them the best padlock for outdoor use in coastal Nigeria."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to choose a padlock supplier from China?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When choosing a Chinese padlock supplier, look for: (1) Experience exporting to Africa — ideally 5+ years with references from Nigerian buyers. (2) Product range that covers waterproof, laminated, and brass options so you can diversify your inventory. (3) Willingness to provide free samples for real-condition testing. (4) Support for SONCAP certification and custom branding (500+ pcs per model). (5) Ability to ship mixed containers combining padlocks with door handles, hinges, and other hardware to spread shipping costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Solid brass vs waterproof padlocks — which is better for Nigerian buyers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the application. Solid brass padlocks (HLV, LTN) never rust, offer a premium appearance, and serve as status symbols for main gates — they sell well in Kano and northern Nigerian markets at $1.80–$3.00. Waterproof shell padlocks (GTK, YGTK) offer superior all-weather protection at $1.00–$2.20 and are better for outdoor storage, warehouses, and shipping containers. For a balanced inventory, stock both: waterproof for function, brass for prestige."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the MOQ and shipping considerations for padlock imports to Nigeria?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typical MOQ for custom branding is 500+ pieces per model. Standard orders start from 1,000–5,000 pieces per series. Ocean freight to Apapa or Tincan Island ports costs approximately $3,000–$5,000 per 20ft container (rates fluctuate). Nigerian port charges add 20–30% on top of CIF value. To optimize costs, ship mixed containers combining padlocks with door handles, hinges, and other hardware. Free samples are available for serious buyers to test before committing to bulk orders."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "SOLA Padlock Collection — Wholesale for African Market",
+  "description": "Premium padlocks for the African market — waterproof shell, laminated, and solid brass padlocks. Factory direct from China since 2016. SONCAP certified, free samples available.",
+  "brand": {
+    "@type": "Brand",
+    "name": "SOLA"
+  },
+  "category": "Hardware > Padlocks",
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "USD",
+    "lowPrice": "0.50",
+    "highPrice": "3.00",
+    "offerCount": "9",
+    "availability": "https://schema.org/InStock",
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingDestination": [
+        {
+          "@type": "DefinedRegion",
+          "addressCountry": "NG"
+        },
+        {
+          "@type": "DefinedRegion",
+          "addressCountry": "GH"
+        },
+        {
+          "@type": "DefinedRegion",
+          "addressCountry": "KE"
+        },
+        {
+          "@type": "DefinedRegion",
+          "addressCountry": "TZ"
+        }
+      ]
+    }
+  }
+}
+</script>
 
 ## Padlocks for Africa: Which Type Actually Sells Best in Nigeria? (2026 Data)
 
@@ -22,11 +136,11 @@ Here's the hard-won truth about padlocks in Africa.
 
 ## The Four Main Types of Padlocks (And What You Need to Know)
 
-There are basically four types of padlocks you'll come across in the China-export market. Each has a different audience in Africa.
+There are basically four types of padlocks you'll come across in the China-export market. Each has a different audience in Africa. For a full overview of our complete range, [browse our padlock collection](/products/padlocks/).
 
 ### 1. Waterproof Padlocks (The "Heavy Duty" Favorites)
 
-These are the padlocks with a sleek, sealed body — usually made of zinc alloy or stainless steel with a rubber/plastic cover or a fully sealed casing. In our lineup, this means **GTK (Waterproof Shell Lock)** and **YGTK** series.
+These are the padlocks with a sleek, sealed body — usually made of zinc alloy or stainless steel with a rubber/plastic cover or a fully sealed casing. In our lineup, this means [**GTK (Waterproof Shell Lock)**](/products/padlocks/gtk/) and **YGTK** series.
 
 **Price range:** $0.80–$2.50
 
@@ -55,7 +169,7 @@ Laminated padlocks are the ones that look like a stack of metal plates riveted t
 
 **Pros:** Very strong for the price, widely recognized, can be rekeyed
 **Cons:** Rusts in wet conditions, the "old" look, not very corrosion-resistant
-**Our data:** SFN and SF series still move about **30% of our volume**, but sales are slowly declining as buyers switch to waterproof options.
+**Our data:** SF and SFN series still move about **30% of our volume**, but sales are slowly declining as buyers switch to waterproof options.
 
 ### 3. Solid Brass Padlocks (The Premium Choice)
 
@@ -71,7 +185,7 @@ Brass padlocks are heavy, solid, and look like money. They're made from solid br
 **Pros:** Won't rust, beautiful appearance, excellent corrosion resistance, feels premium
 **Cons:** Expensive, heavy for shipping, softer metal (can be cut with a bolt cutter, but so can others)
 
-**Our data:** HLV and LTN series are our brass padlock line. They account for **~15% of sales**, but these are the customers who order consistently for years. Low return rate.
+**Our data:** [HLV](/products/padlocks/hlv/) and [LTN](/products/padlocks/ltn/) series are our brass padlock line. They account for **~15% of sales**, but these are the customers who order consistently for years. Low return rate.
 
 ### 4. Iron Padlocks (The Controversial One)
 
@@ -151,7 +265,7 @@ Padlocks are heavy. A container of padlocks costs more to ship per unit than a c
 - **Port charges** in Nigeria: add 20–30% on top of CIF value
 - **Land transport** to Kano or Onitsha: significant domestic shipping costs
 
-**Advice:** Ship mixed containers. Combine padlocks with door handles, hinges, or other hardware to spread the shipping cost.
+**Advice:** Ship mixed containers. Combine padlocks with door handles, hinges, or other hardware to spread the shipping cost. Check out our full [product range](/products/) for compatible hardware items to mix in your container.
 
 ---
 
@@ -206,11 +320,11 @@ Here's a quick reference to the 9 padlock series we produce and export:
 
 | Series | Type | Price Range | Best For |
 |---|---|---|---|
-| **GTK** | Waterproof Shell | $1.00–$2.20 | Outdoor, coastal, general bestseller |
+| [**GTK**](/products/padlocks/gtk/) | Waterproof Shell | $1.00–$2.20 | Outdoor, coastal, general bestseller |
 | **YGTK** | Waterproof Shell (enhanced) | $1.50–$2.50 | Heavy-duty outdoor, industrial |
 | **HHL** | Waterproof Laminated | $0.80–$1.50 | Mid-range, best value |
-| **HLV** | Solid Brass | $1.80–$2.80 | Premium residential, commercial |
-| **LTN** | Solid Brass (long shackle) | $2.00–$3.00 | Gates, large applications |
+| [**HLV**](/products/padlocks/hlv/) | Solid Brass | $1.80–$2.80 | Premium residential, commercial |
+| [**LTN**](/products/padlocks/ltn/) | Solid Brass (long shackle) | $2.00–$3.00 | Gates, large applications |
 | **SF** | Standard Laminated | $0.50–$1.00 | Budget, indoor, general |
 | **SFN** | Standard Laminated (nickel) | $0.60–$1.20 | Indoor, slightly better finish |
 | **YJN** | Standard Laminated (value) | $0.50–$0.80 | Lowest cost option |
@@ -236,6 +350,8 @@ If you're importing padlocks for your African market:
 
 We supply padlocks from all 9 SOLA series — from budget laminated to premium solid brass to best-selling waterproof shell locks.
 
+**Thinking of starting?** We've been exporting to Africa since 2016. We know what SONCAP requires, what paperwork your shipment needs, and how to pack a mixed container so nothing rattles loose. **Free samples are available** — test the locks yourself in your specific environment before committing to a full container. We also support SONCAP certification and can arrange mixed-container shipping (padlocks + door handles + hinges) to help you save on freight costs. Our GTK waterproof series has become the go‑to choice for importers in Lagos, Kano, and Port Harcourt — let us help you make it your next bestseller.
+
 **Contact us:**
 - 📧 **Email:** info@jh-hardware.com
 - 📱 **WhatsApp:** [+86 153 5672 3037](https://wa.me/8615356723037)
@@ -247,6 +363,6 @@ We supply padlocks from all 9 SOLA series — from budget laminated to premium s
 
 ---
 
-👉 **Related guides:** [Door locks jamming in Nigeria? Fix guide →](/blog/door-lock-problems-nigeria-fix-guide/) · [Door hinge price in Nigeria →](/blog/door-hinges-selection-guide-nigeria/)
+👉 **Related guides:** [Door locks jamming in Nigeria? Fix guide →](/blog/door-lock-problems-nigeria-fix-guide/) · [Door hinge price in Nigeria →](/blog/door-hinges-selection-guide-nigeria/) · [About JH Hardware →](/about/) · [All products →](/products/)
 
 *Written by Yiwu Shuihui Import & Export Co., Ltd. — 10 years exporting hardware to Africa and the Middle East.*

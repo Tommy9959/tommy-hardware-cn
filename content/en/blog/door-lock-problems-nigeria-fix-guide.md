@@ -8,6 +8,79 @@ tags: ["door lock problems", "door lock repair", "Nigeria maintenance", "Harmatt
 categories: ["Maintenance Guide", "From Our Experience"]
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why do door locks jam in Nigeria?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Door locks jam in Nigeria mainly due to the 'Nigeria Triple Threat': Harmattan dust (November–March) that clogs the pin tumblers, coastal humidity (especially in Lagos and Port Harcourt) that rusts internal springs and latch bolts, and poor installation that causes misaligned strike plates. Cheap locks with low-grade materials fail much faster under these conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to fix a door lock that won't turn?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use graphite powder — never WD-40 or oil. Insert the graphite nozzle into the keyhole, give two short puffs, then insert and remove the key 5-6 times to distribute the graphite. This fixes 90% of stuck locks caused by Harmattan dust. If the lock is still stuck, use contact cleaner to flush the cylinder, let it dry, then reapply graphite. As a last resort, replace the cylinder (₦1,500-3,000 for standard mortise locks)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best lubricant for door locks in Nigeria?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Graphite powder is the best lubricant for door locks in Nigeria. Unlike WD-40 (a solvent that strips existing lubrication) or cooking oil (which gets sticky and attracts dust), graphite is a dry lubricant that won't trap Harmattan dust or degrade in Nigeria's heat. It costs about ₦500-1,000 at most hardware stores in Lagos, Abuja, and Port Harcourt, and a single tube lasts for years of regular lock maintenance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to remove a broken key from a lock?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If part of the key is sticking out, use needle-nose pliers to grip it and pull straight out — do not twist. If the key is fully inside, use a broken key extractor tool (₦500-1,000 at hardware or auto parts shops), insert the hooked end alongside the broken key, hook the teeth, and pull. As a last resort, drill a small hole in the broken key, insert a bent paperclip as a hook, and pull gently. After removal, replace the lock cylinder as it is likely damaged."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why won't my door close properly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most often the issue is not the lock but either wood swelling from Nigeria's high humidity (80-90% in Lagos and Port Harcourt) or a shifted strike plate from settling door frames. Fix swollen doors by sanding 1-2mm from the door edge where the latch meets the strike plate. Fix misaligned strike plates by loosening the screws, shifting the plate 2-3mm, and retightening. About 80% of 'broken lock' complaints are actually just misaligned strike plates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to prevent Harmattan dust from damaging locks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Apply graphite powder to every lock in your house before Harmattan season starts (before November). This prevents the dust from mixing with factory lubricant to form a gritty paste that jams the pins. For outdoor padlocks, choose models with rubber covers over the keyway to keep dust out. Clean the lock cylinders with compressed air or contact cleaner before applying fresh graphite if the locks were already exposed to dust without protection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which padlock type is best for coastal areas in Nigeria?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stainless steel (SS304) padlocks are the best choice for coastal Nigerian cities like Lagos and Port Harcourt where humidity regularly hits 80-90%. Standard zinc-plated padlocks start rusting within 3-6 months in these conditions, while SS304 padlocks last 5+ years. Though SS304 padlocks cost about ₦1,000-2,000 more upfront, they deliver much better long-term value. Look for models with rubber dust covers over the keyway for added protection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to choose the right door lock for Nigeria?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choose mid-range mortise locks from reputable brands like SOLA ($3-$6 range) rather than ultra-cheap $1.50 no-name locks — quality locks last 5-10 years with basic maintenance. For coastal areas, prioritize SS304 or zinc-phosphate coated hardware that resists rust. For outdoor padlocks, always choose stainless steel over zinc-plated options. Look for locks with reinforced steel spring cartridges (like the SOLA ST-3000 series) for high-use environments. Consider buying from suppliers who offer free sample verification and SONCAP support to ensure quality before bulk purchase."
+      }
+    }
+  ]
+}
+</script>
+
 ## Door Locks Keep Jamming in Nigeria? Common Problems and How to Fix Them
 
 *By Tommy — 10 years exporting door hardware to Nigeria*
@@ -18,7 +91,7 @@ Let me paint you a picture. It's 7:30 AM in Lagos. You're already late for work.
 
 I've heard this story hundreds of times from customers across Nigeria. And the frustrating part? Most of the time, the lock isn't actually broken. It's just suffering from something I call the "Nigeria Triple Threat" — dust, humidity, and poor installation.
 
-In this guide, I'll walk you through the five most common door lock problems I've seen in Nigeria over the past decade, what causes them, and exactly how to fix them — without calling a locksmith.
+In this guide, I'll walk you through the five most common [door lock problems](https://jh-hardware.com/products/door-locks/) I've seen in Nigeria over the past decade, what causes them, and exactly how to fix them — without calling a locksmith.
 
 ---
 
@@ -62,7 +135,7 @@ If the lock is still stuck after graphite, the dust buildup might be severe. Try
 
 **Step 3: Replace the cylinder**
 
-If neither of these works, the pins inside might be worn out or a spring might have broken. A replacement cylinder for standard mortise locks costs ₦1,500-3,000. It's cheaper and faster than calling a locksmith.
+If neither of these works, the pins inside might be worn out or a spring might have broken. A replacement cylinder for standard [mortise locks](https://jh-hardware.com/products/door-locks/) costs ₦1,500-3,000. It's cheaper and faster than calling a locksmith.
 
 > **Real story:** In early 2024, a customer in Kano called me panicking because ALL 50 locks in his new apartment building were jamming. I walked him through the graphite powder fix. He spent ₦2,500 on graphite. Every lock worked again. That's ₦50 per lock.
 
@@ -96,7 +169,7 @@ Padlocks are everywhere in Nigeria — on shop doors, warehouse gates, storage c
 
 ### What Causes It
 
-**Rust and corrosion.** This is the #1 killer of padlocks in Nigeria. A standard zinc-plated padlock in Lagos or Port Harcourt can start showing rust within 3-6 months. Within a year, the shackle might be locked in place permanently.
+**Rust and corrosion.** This is the #1 killer of [padlocks in Nigeria](https://jh-hardware.com/products/padlocks/). A standard zinc-plated padlock in Lagos or Port Harcourt can start showing rust within 3-6 months. Within a year, the shackle might be locked in place permanently.
 
 **Dirt in the keyway.** Padlocks live outside. They get rained on, covered in dust, and generally abused. The keyway fills with debris, and over time the key won't even enter.
 
@@ -144,6 +217,29 @@ This is the problem that makes a house look "cheap." A door handle that's loose,
 **Step 3: If the handle is really cheap, just replace it.** Some handles are designed to fail. If the handle cost less than ₦2,000 new, it's probably not worth repairing.
 
 > **My recommendation:** The SOLA ST-3000 series uses a reinforced steel spring cartridge specifically designed for high-use environments. We've been selling them for 3 years, and spring failure rate is under 0.5%.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "SOLA ST-3000 Mortise Door Lock",
+  "description": "Reinforced steel spring cartridge mortise lock designed for high-use environments in Nigeria — resists Harmattan dust and humidity.",
+  "brand": {
+    "@type": "Brand",
+    "name": "SOLA"
+  },
+  "category": "Door Locks",
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "USD",
+    "lowPrice": "3",
+    "highPrice": "6",
+    "offerCount": "10",
+    "availability": "https://schema.org/InStock",
+    "url": "https://jh-hardware.com/products/door-locks/"
+  }
+}
+</script>
 
 ---
 
@@ -199,16 +295,34 @@ After 10 years in this business, I've learned that prevention beats repair every
 
 **2. SS304 padlocks for outdoor use** — Yes, they cost more. But a ₦3,000 SS304 padlock lasts 5+ years in Lagos. A ₦1,500 zinc padlock might last 6 months. Do the math.
 
-**3. Quality mid-range mortise locks** — Don't buy the cheapest lock on the market. A good mid-range mortise lock ($3-$6) from a reputable brand like SOLA will last 5-10 years with basic maintenance. A $1.50 no-name lock might not survive the first Harmattan.
+**3. Quality mid-range mortise locks** — Don't buy the cheapest lock on the market. A good mid-range mortise lock ($3-$6) from a reputable brand like SOLA will last 5-10 years with basic maintenance. A $1.50 no-name lock might not survive the first Harmattan. For a complete overview of our lock offerings, check our [SS304 padlock buying guide](https://jh-hardware.com/blog/padlock-buying-guide/) and our [door hinge selection guide for Nigerian homes](https://jh-hardware.com/blog/door-hinges-selection-guide-nigeria/).
 
 👉 **[Check out our best-selling mortise locks →](/products/)**  
 👉 **[Browse SS304 padlocks for coastal areas →](/products/#padlocks)**
 
----
-
-## CTA: Need Hardware That Actually Works in Nigeria?
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "SS304 Stainless Steel Padlock for Coastal Areas",
+  "description": "Stainless steel SS304 padlock designed for Nigeria's coastal humidity. Resists rust in Lagos and Port Harcourt conditions for 5+ years.",
+  "brand": {
+    "@type": "Brand",
+    "name": "SOLA"
+  },
+  "category": "Padlocks",
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "USD",
+    "lowPrice": "2",
+    "highPrice": "5",
+    "offerCount": "15",
+    "availability": "https://schema.org/InStock",
+    ## CTA: Need Hardware That Actually Works in Nigeria?
 
 Stop replacing cheap locks every 6 months. We've been supplying hardware to the Nigerian market for 10 years — we know what works in Lagos humidity, Abuja dry heat, and everywhere in between.
+
+Whether you're a homeowner tired of jammed doors, a contractor building a new property, or a distributor looking for reliable stock, we have the right products for your specific needs. **We offer free samples** so you can test the quality before committing to bulk orders. All our products come with **full SONCAP certification support** for smooth import clearance, and as a **factory-direct supplier**, we give you wholesale pricing without middleman markups.
 
 **📧 Email:** info@jh-hardware.com  
 **💬 WhatsApp:** +86 183 5800 8400  

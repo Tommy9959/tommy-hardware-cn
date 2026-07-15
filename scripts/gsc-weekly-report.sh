@@ -31,6 +31,11 @@ log() {
     echo "[$TIMESTAMP] $1" | tee -a "$LOG_FILE"
 }
 
+notify() {
+    local msg="$1"
+    echo "$msg" | /opt/homebrew/bin/imsg rpc +8618358008400 2>/dev/null || true
+}
+
 # 基本 SEO 检测
 basic_seo_check() {
     local report_section=""
@@ -111,6 +116,7 @@ check_gsc_credentials() {
         if [ -f /tmp/gsc-weekly-latest.md ] && [ -s /tmp/gsc-weekly-latest.md ]; then
             echo "| GSC 数据拉取 | ✅ | 成功 |"
         else
+            notify "⚠️ GSC 周报数据拉取失败（$TIMESTAMP）"
             echo "| GSC 数据拉取 | ⚠️ | API 调用失败 |"
         fi
     elif [ -f "$HOME/.openclaw/service-env/gsc-credentials.json" ]; then
