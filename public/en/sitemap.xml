@@ -5,16 +5,21 @@
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/blog/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/blog/"/></url><url>
-    <loc>https://jh-hardware.com/blog/iron-casing-pipe-guide-nigeria/</loc>
+    <loc>https://jh-hardware.com/blog/nigeria-housing-deficit-hardware-opportunity/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/blog/iron-casing-pipe-guide-nigeria/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/blog/iron-casing-pipe-guide-nigeria/"/></url><url>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/blog/nigeria-housing-deficit-hardware-opportunity/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/blog/nigeria-housing-deficit-hardware-opportunity/"/></url><url>
     <loc>https://jh-hardware.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/"/></url><url>
+    <loc>https://jh-hardware.com/blog/iron-casing-pipe-guide-nigeria/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/blog/iron-casing-pipe-guide-nigeria/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/blog/iron-casing-pipe-guide-nigeria/"/></url><url>
     <loc>https://jh-hardware.com/blog/steel-pipes-flanges-buying-guide-nigeria/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -23,7 +28,8 @@
     <loc>https://jh-hardware.com/blog/cabinet-door-hinges-slides-for-africa/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/blog/cabinet-door-hinges-slides-for-africa/"/></url><url>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/blog/cabinet-door-hinges-slides-for-africa/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/blog/cabinet-door-hinges-slides-for-africa/"/></url><url>
     <loc>https://jh-hardware.com/blog/hardware-rust-coastal-nigeria-prevention/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -294,6 +300,11 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-hinges/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-hinges/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-locks/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-locks/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-locks/"/></url><url>
     <loc>https://jh-hardware.com/products/door-accessories/da-004/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -399,11 +410,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/iron-casing-pipes/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/iron-casing-pipes/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-locks/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-locks/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-locks/"/></url><url>
     <loc>https://jh-hardware.com/products/door-locks/dl-002/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -839,11 +845,6 @@
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/terms/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/terms/"/></url><url>
-    <loc>https://jh-hardware.com/thanks/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/thanks/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/thanks/"/></url><url>
     <loc>https://jh-hardware.com/products/building-materials/bm-001/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

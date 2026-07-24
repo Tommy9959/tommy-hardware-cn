@@ -1,5 +1,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://jh-hardware.com/zh/blog/nigeria-housing-deficit-hardware-opportunity/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jh-hardware.com/blog/nigeria-housing-deficit-hardware-opportunity/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/blog/nigeria-housing-deficit-hardware-opportunity/"/></url><url>
     <loc>https://jh-hardware.com/zh/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -23,7 +28,8 @@
     <loc>https://jh-hardware.com/zh/blog/cabinet-door-hinges-slides-for-africa/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://jh-hardware.com/blog/cabinet-door-hinges-slides-for-africa/"/></url><url>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jh-hardware.com/blog/cabinet-door-hinges-slides-for-africa/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/blog/cabinet-door-hinges-slides-for-africa/"/></url><url>
     <loc>https://jh-hardware.com/zh/blog/hardware-rust-coastal-nigeria-prevention/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -329,11 +335,6 @@
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://jh-hardware.com/africa/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/africa/"/></url><url>
-    <loc>https://jh-hardware.com/zh/thanks/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://jh-hardware.com/thanks/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/thanks/"/></url><url>
     <loc>https://jh-hardware.com/zh/products/padlocks/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
