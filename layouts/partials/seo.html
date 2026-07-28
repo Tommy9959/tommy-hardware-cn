@@ -135,21 +135,26 @@
 <meta property="twitter:description" content="{{ $description }}">
 <meta property="twitter:image" content="{{ cond .Params.og_image (.Params.og_image | absURL) (cond .Params.image (.Params.image | absURL) (site.Params.logo | absURL)) }}">
 
-<!-- 多语言替代链接 -->
+<!-- 多语言替代链接 - 只链接到确实存在的翻译 -->
 {{- if .IsTranslated -}}
+{{- /* 有明确翻译的页面：列出实际存在的翻译版本 + x-default */ -}}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
 {{- range .Translations }}
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
 {{- end }}
+{{- /* x-default 指向英文首页 */ -}}
 <link rel="alternate" hreflang="x-default" href="{{ site.BaseURL }}">
-{{- else -}}
-{{- /* 即使没有翻译，也提供其他语言版本的链接 */ -}}
-{{- $currentLang := .Language.Lang -}}
+{{- else if .IsHome -}}
+{{- /* 首页：所有语言版本肯定都存在 */ -}}
 {{- range site.Languages -}}
-{{- if ne $currentLang .Lang -}}
-{{- $link := printf "/%s%s" .Lang $.RelPermalink -}}
-<link rel="alternate" hreflang="{{ .Lang }}" href="{{ $link | absURL }}">
-{{- end -}}
-{{- end -}}
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ $.Site.BaseURL }}{{ if eq .Lang "en" }}{{ else }}{{ .Lang }}{{ end }}">
+{{- end }}
+<link rel="alternate" hreflang="x-default" href="{{ site.BaseURL }}">
+{{- else if and (eq .Section "blog") (not .IsTranslated) -}}
+{{- /* 博客没有翻译的版本：只声明自己的语言，不加不存在的替代 */ -}}
+{{- /* 不加任何 alternate，避免指向不存在的页面 */ -}}
+{{- else if not .IsTranslated -}}
+{{- /* 其他没有翻译的页面（产品页等）：只声明自己的语言 */ -}}
 {{- end -}}
 
 <!-- 结构化数据 (Schema.org) -->

@@ -90,10 +90,12 @@ check_product_pages() {
 
 # 检查 llms.txt
 check_llms_txt() {
-    if [ -f "$SITE_DIR/static/llms.txt" ]; then
-        echo "| llms.txt | ✅ | 已配置（服务 AI 搜索引擎） |"
+    # 线上检查更可靠
+    local llms_code=$(curl -s -x "$PROXY" -o /dev/null -w "%{http_code}" "$WEBSITE/llms.txt" 2>/dev/null)
+    if [ "$llms_code" = "200" ]; then
+        echo "| llms.txt / .well-known/llms.txt | ✅ | 线上可访问 |"
     else
-        echo "| llms.txt | ⚠️ | 未配置 |"
+        echo "| llms.txt | ⚠️ | HTTP $llms_code（线上检查） |"
     fi
 }
 
@@ -112,8 +114,8 @@ check_gsc_credentials() {
     if [ -f "$HOME/.openclaw/service-env/gsc-oauth-token.json" ]; then
         echo "| GSC API 凭据 | ✅ | OAuth Token 已配置 |"
         # 尝试获取 GSC 数据（使用 perl 做跨平台超时，兼容 macOS 无 timeout 命令）
-        local gsc_output=$(perl -e 'alarm shift @ARGV; exec @ARGV' 15 python3 "$SCRIPT_DIR/gsc-api-setup.py" --report --output /tmp/gsc-weekly-latest.md 2>/dev/null)
-        if [ -f /tmp/gsc-weekly-latest.md ] && [ -s /tmp/gsc-weekly-latest.md ]; then
+        python3 "$SCRIPT_DIR/gsc-api-setup.py" --raw --days 7 > /tmp/gsc-weekly-data.json 2>/dev/null
+        if [ -f /tmp/gsc-weekly-data.json ] && [ -s /tmp/gsc-weekly-data.json ] && grep -q "total_impressions" /tmp/gsc-weekly-data.json 2>/dev/null; then
             echo "| GSC 数据拉取 | ✅ | 成功 |"
         else
             notify "⚠️ GSC 周报数据拉取失败（$TIMESTAMP）"
