@@ -154,14 +154,14 @@ disableAliases = true
   logo = '/images/logo/logo.jpeg'
   latitude = '29.3089'
   longitude = '120.0741'
-  description = 'Factory direct supply of door handles, hinges, locks, and sliding tracks. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
-  descriptionEn = 'Factory direct supply of door handles, hinges, and locks. ISO 9001 certified. Export to Nigeria, Dubai, Africa.'
-  descriptionAr = 'توريد مباشر لمقابض الأبواب والمفاصل والأقفال. مصنع حاصل على شهادة ISO 9001. تصدير إلى نيجيريا ودبي وأفريقيا.'
+  description = 'Factory direct supply of door handles, hinges, locks, sliding tracks, and iron casing pipes. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
+  descriptionEn = 'Factory direct supply of door handles, hinges, locks, sliding tracks, and iron casing pipes. ISO 9001 certified. Export to Nigeria, Dubai, Africa.'
+  descriptionAr = 'توريد مباشر لمقابض الأبواب والمفاصل والأقفال وأنابيب الكاسينغ الحديدية. مصنع حاصل على شهادة ISO 9001. تصدير إلى نيجيريا ودبي وأفريقيا.'
   googleVerification = ''
   bingVerification = ''
   
   # SEO 关键词（2026-04-13 扩展关键词库 - 200+ 关键词）
-  keywords = 'SOLA, door handles, door locks, door hinges, sliding tracks, drawer slides, furniture hardware, cabinet hardware, cabinet accessories, cabinet handles, cabinet knobs, drawer pulls, kitchen hardware, wardrobe hardware, architectural hardware, building hardware, construction hardware, stainless steel hardware, zinc alloy hardware, aluminum hardware, brass hardware'
+  keywords = 'SOLA, door handles, door locks, door hinges, sliding tracks, drawer slides, furniture hardware, cabinet hardware, iron casing pipe, casing pipe Nigeria, steel pipe, building materials, construction hardware, cabinet accessories, cabinet handles, cabinet knobs, drawer pulls, kitchen hardware, wardrobe hardware, architectural hardware, stainless steel hardware, zinc alloy hardware, aluminum hardware'
 
 # Markdown 配置
 [markup]
