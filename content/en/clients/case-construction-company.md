@@ -3,7 +3,7 @@
 title: "Complete Door Hardware Supply for Abuja Construction Project"
 description: "How JH Hardware supplied complete door hardware packages for a 200+ unit residential project in Abuja, Nigeria, leading to a repeat order for phase 2."
 date: 2026-03-20T14:30:00+08:00
-draft: true
+draft: false
 industry_categories: ["door_locks", "door_handles", "door_hinges", "door_accessories"]
 client_type: "Construction Company"
 location: "Abuja, Nigeria"

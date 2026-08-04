@@ -3,7 +3,7 @@
 title: "توريد عتاد الأبواب بالجملة لموزع في لاغوس يوفر 40% من التكاليف"
 description: "كيف خفض موزع أجهزة في لاغوس التكاليف بنسبة 40% من خلال التحول إلى توريد مباشر من المصنع لJH Hardware لمقابض الأبواب والمفاصل ومسارات الدرج."
 date: 2026-04-15T10:00:00+08:00
-draft: true
+draft: false
 industry_categories: ["furniture", "cabinet_hardware", "door_handles", "door_hinges"]
 client_type: "موزع بالجملة"
 location: "لاغوس، نيجيريا"

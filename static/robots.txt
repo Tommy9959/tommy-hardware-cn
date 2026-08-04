@@ -14,7 +14,8 @@ Disallow: /*?$              # Block URL parameters
 Disallow: /thanks/           # Thank you pages
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
-Crawl-delay: 2
+# Crawl-delay removed for general crawlers (Google/Bing etc.)
+# to speed up indexing of new pages. AI-crawler delays kept below.
 
 # === MAJOR SEARCH ENGINES ===
 

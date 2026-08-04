@@ -3,7 +3,7 @@
 title: "توريد أجهزة خزائن مخصصة لمصنع أثاث في أونيتشا"
 description: "كيف تحول مصنع أثاث في أونيتشا من موردين تايوانيين إلى JH Hardware، مما خفض التكاليف بنسبة 35% ووقت التسليم من 45 يومًا إلى 20 يومًا."
 date: 2026-02-28T09:15:00+08:00
-draft: true
+draft: false
 industry_categories: ["furniture_fittings", "sofa_legs", "cabinet_hardware"]
 client_type: "مصنع أثاث"
 location: "أونيتشا، نيجيريا"

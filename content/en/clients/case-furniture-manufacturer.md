@@ -3,7 +3,7 @@
 title: "Custom Cabinet Hardware Supply for Onitsha Furniture Factory"
 description: "How an Onitsha-based furniture manufacturer switched from Taiwanese suppliers to JH Hardware, reducing costs by 35% and delivery time from 45 to 20 days."
 date: 2026-02-28T09:15:00+08:00
-draft: true
+draft: false
 industry_categories: ["furniture_fittings", "sofa_legs", "cabinet_hardware"]
 client_type: "Furniture Manufacturer"
 location: "Onitsha, Nigeria"

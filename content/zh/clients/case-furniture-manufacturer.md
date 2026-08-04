@@ -3,7 +3,7 @@
 title: "Onitsha家具厂的定制橱柜五金供应"
 description: "Onitsha的一家家具制造商如何从台湾供应商转向JH Hardware，将成本降低35%，交货时间从45天缩短至20天。"
 date: 2026-02-28T09:15:00+08:00
-draft: true
+draft: false
 industry_categories: ["furniture_fittings", "sofa_legs", "cabinet_hardware"]
 client_type: "家具制造商"
 location: "尼日利亚Onitsha"
