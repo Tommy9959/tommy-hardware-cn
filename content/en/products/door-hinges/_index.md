@@ -1,6 +1,6 @@
 ---
-title: "Door Hinges Price | Black & Stainless Steel Hinges Supplier China"
-description: "Door hinges price from $0.50/pc — black door hinges, SS304 stainless steel hinges, swinging door hinges. China supplier factory direct. Wholesale door hinges to Nigeria, Africa, Middle East. Butt, concealed, pivot hinges."
+title: "Door Hinges Price in Nigeria 2026 from $0.50 | SS304 & Butt Hinges"
+description: "Door hinge price in Nigeria from $0.50/pc (FOB Yiwu). SS304 stainless, butt, concealed & pivot hinges for wooden, metal & aluminum doors. Factory direct wholesale with free SONCAP — trusted by Lagos, Abuja & Port Harcourt importers."
 products:
   - model: "HH-001"
     name: "Door Hinge HH-001"

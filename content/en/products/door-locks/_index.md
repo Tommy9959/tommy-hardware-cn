@@ -1,6 +1,6 @@
 ---
-title: "Door Lock Price in Nigeria from $2.50 | How Much is Door Lock? China Factory Direct"
-description: "Door lock price in Nigeria — how much is a door lock? Factory direct prices from $2.50/pc. Also known as door kabza in Nigeria, we supply iron door locks wholesale to Lagos, Abuja, Port Harcourt, Onitsha. China lock price with free SONCAP support."
+title: "Door Lock Price in Nigeria 2026 from $2.50 | Wholesale with Free SONCAP"
+description: "Door lock price in Nigeria from $2.50/pc (FOB Yiwu). Wholesale iron & aluminum door locks (kabza) shipped to Lagos, Abuja, Port Harcourt, Onitsha. Free SONCAP + container mixed loading accepted. Factory direct prices for Nigerian importers — view the 2026 price list & MOQ."
 products:
   - model: "DL-001"
     name: "Iron Plate Aluminum Handle Door Lock 755-151"
