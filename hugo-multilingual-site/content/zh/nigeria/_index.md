@@ -2,7 +2,7 @@
 title: "尼日利亚市场 - 门控五金供应商"
 description: "专业尼日利亚门控五金供应商。工厂直销门把手、门锁、铰链到拉各斯、阿布贾、哈科特港。15-25 天快速交货。Form M、SONCAP 文件支持。"
 keywords: "尼日利亚门控五金，拉各斯门把手，阿布贾建材，哈科特港五金，尼日利亚进口商，门锁尼日利亚，Form M, SONCAP, 尼日利亚建筑，拉各斯市场"
-author: "义乌水汇进出口有限公司"
+author: "JH HARDWARE（钧瀚五金）"
 canonical: "https://jh-hardware.com/zh/nigeria/"
 robots: "index, follow"
 ---

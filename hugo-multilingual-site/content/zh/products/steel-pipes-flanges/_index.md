@@ -2,7 +2,7 @@
 title: "钢管与法兰 - 建筑五金供应商"
 description: "高品质钢管和法兰，用于建筑和工业。工厂直销，出口尼日利亚、迪拜、非洲。"
 keywords: "钢管，法兰，建筑管材，工业管材，建筑材料，尼日利亚进口，迪拜五金，非洲出口"
-author: "义乌水汇进出口有限公司"
+author: "JH HARDWARE（钧瀚五金）"
 canonical: "https://jh-hardware.com/zh/products/steel-pipes-flanges/"
 robots: "index, follow"
 ---

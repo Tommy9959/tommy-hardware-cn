@@ -1,7 +1,7 @@
 # Hugo 多语言网站配置文件
 baseURL = 'https://jh-hardware.com/'
 languageCode = 'zh-cn'
-title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
+title = 'JH HARDWARE（钧瀚五金） - 专业门控五金制造商'
 
 # 默认语言为英文
 defaultContentLanguage = 'en'
@@ -10,7 +10,7 @@ defaultContentLanguageInSubdir = false
 # 多语言配置
 [languages]
   [languages.en]
-    title = 'Yiwu Shuihui Import & Export Co., Ltd. - Professional Door Hardware Manufacturer'
+    title = 'JH HARDWARE | Factory Direct Door Hardware to Nigeria & Africa'
     weight = 1
     languageName = 'English'
     languageCode = 'en-us'
@@ -18,7 +18,7 @@ defaultContentLanguageInSubdir = false
     description = 'Factory direct supply of door handles, hinges, locks, and sliding tracks. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
     
   [languages.zh]
-    title = '义乌水汇进出口有限公司 - 专业门控五金制造商'
+    title = 'JH HARDWARE（钧瀚五金） - 专业门控五金制造商'
     weight = 2
     languageName = '中文'
     languageCode = 'zh-cn'
@@ -33,6 +33,9 @@ defaultContentLanguageInSubdir = false
     contentDir = 'content/ar'
     languageDirection = 'rtl'
     description = 'توريد مباشر من المصنع لمقابض الأبواب، والمفاصل، والأقفال، والمسارات المنزلقة. تصنيع مهني لعتاد الأبواب.'
+    # SEO: 阿拉伯语版为自动翻译，Google 0收录且拖累域名权重，noindex止损（保留给中东真人客户访问）
+    [languages.ar.params]
+      noindex = true
 
 # 菜单配置 - 每种语言独立
 [languages.zh.menu]

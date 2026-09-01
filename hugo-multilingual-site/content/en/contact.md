@@ -1,6 +1,6 @@
 ---
 title: "Contact Us"
-description: "Contact Yiwu Shuihui Import & Export Co., Ltd."
+description: "Contact JH HARDWARE"
 ---
 
 ## Contact Information

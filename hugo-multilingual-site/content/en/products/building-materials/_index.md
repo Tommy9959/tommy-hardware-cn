@@ -2,7 +2,7 @@
 title: "Building Materials - Adhesives & Wallpapers Supplier"
 description: "Professional building materials including adhesives, wallpapers, and construction chemicals. Factory direct supply to Nigeria, Dubai, Africa."
 keywords: "building materials, adhesives, wallpapers, construction chemicals, tile adhesive, wall putty, Nigeria importer, Dubai building materials"
-author: "Yiwu Shuihui Import & Export Co., Ltd."
+author: "JH HARDWARE"
 canonical: "https://jh-hardware.com/en/products/building-materials/"
 robots: "index, follow"
 ---

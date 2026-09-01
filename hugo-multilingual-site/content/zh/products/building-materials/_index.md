@@ -2,7 +2,7 @@
 title: "建材 - 胶粘剂与墙纸供应商"
 description: "专业建筑材料，包括胶粘剂、墙纸和建筑化学品。工厂直销，出口尼日利亚、迪拜、非洲。"
 keywords: "建筑材料，胶粘剂，墙纸，建筑化学品，瓷砖胶，腻子粉，尼日利亚进口，迪拜建材"
-author: "义乌水汇进出口有限公司"
+author: "JH HARDWARE（钧瀚五金）"
 canonical: "https://jh-hardware.com/zh/products/building-materials/"
 robots: "index, follow"
 ---

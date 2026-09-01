@@ -2,7 +2,7 @@
 title: "Building Materials & Accessories - Glue, Iron Pipes, Curtain Rods, Wallpaper"
 description: "Factory direct supply of building materials: glue adhesive, iron pipes steel tubes, curtain rods, wallpaper, cabinet accessories, plastic handles. Export to Nigeria, Dubai, Africa. Wholesale prices, fast delivery."
 keywords: "glue adhesive, iron pipes steel tubes, curtain rods, wallpaper wall covering, cabinet accessories, plastic handles knobs, building materials, construction materials, Nigeria importer, Dubai building materials, Africa export, factory direct, wholesale building materials"
-author: "Yiwu Shuihui Import & Export Co., Ltd."
+author: "JH HARDWARE"
 canonical: "https://jh-hardware.com/en/building-materials/"
 robots: "index, follow"
 ---

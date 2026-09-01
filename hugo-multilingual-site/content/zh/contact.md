@@ -1,6 +1,6 @@
 ---
 title: "联系我们"
-description: "联系义乌水汇进出口有限公司"
+description: "联系JH HARDWARE（钧瀚五金）"
 ---
 
 ## 联系方式

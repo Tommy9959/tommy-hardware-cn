@@ -2,7 +2,7 @@
 title: "Furniture Fittings - Complete Furniture Hardware Solutions"
 description: "Professional furniture fittings including handles, connectors, supports, and accessories. Factory direct supply to Nigeria, Dubai, Africa."
 keywords: "furniture fittings, furniture handles, furniture connectors, furniture legs, cabinet accessories, furniture hardware, Nigeria importer, Dubai furniture parts"
-author: "Yiwu Shuihui Import & Export Co., Ltd."
+author: "JH HARDWARE"
 canonical: "https://jh-hardware.com/en/products/furniture-fittings/"
 robots: "index, follow"
 ---

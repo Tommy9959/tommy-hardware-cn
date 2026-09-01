@@ -19,6 +19,6 @@ We've successfully received your message and will respond to you within **24 hou
 - **Email**: [z946487044@icloud.com](mailto:z946487044@icloud.com)
 - **Phone**: +86 183 5800 8400
 
-We appreciate your interest in Yiwu Shuihui Import & Export Co., Ltd. and look forward to serving you!
+We appreciate your interest in JH HARDWARE and look forward to serving you!
 
 [← Back to Home](/)

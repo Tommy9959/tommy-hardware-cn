@@ -2,7 +2,7 @@
 title: "Steel Pipes & Flanges - Building Hardware Supplier"
 description: "High-quality steel pipes and flanges for construction and industrial use. Factory direct pricing, export to Nigeria, Dubai, Africa."
 keywords: "steel pipes, flanges, construction pipes, industrial pipes, building materials, Nigeria importer, Dubai hardware, Africa export"
-author: "Yiwu Shuihui Import & Export Co., Ltd."
+author: "JH HARDWARE"
 canonical: "https://jh-hardware.com/en/products/steel-pipes-flanges/"
 robots: "index, follow"
 ---

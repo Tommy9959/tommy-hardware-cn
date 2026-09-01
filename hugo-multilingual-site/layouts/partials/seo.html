@@ -25,8 +25,12 @@
 <meta name="title" content="{{ $title }}">
 <meta name="description" content="{{ $description }}">
 <meta name="keywords" content="{{ $keywords }}">
-<meta name="author" content="{{ site.Params.author | default "Yiwu Shuihui Import & Export Co., Ltd." }}">
+<meta name="author" content="{{ site.Params.author | default "JH HARDWARE" }}">
+{{- if site.Params.noindex -}}
+<meta name="robots" content="noindex, follow">
+{{- else -}}
 <meta name="robots" content="index, follow">
+{{- end -}}
 
 <!-- 规范链接 -->
 <link rel="canonical" href="{{ .Permalink }}">
@@ -75,7 +79,7 @@
   "image": "{{ cond .Params.image (.Params.image | absURL) ("/images/products/placeholder.svg" | absURL) }}",
   "brand": {
     "@type": "Brand",
-    "name": "Yiwu Shuihui Hardware"
+    "name": "JH HARDWARE"
   },
   "offers": {
     "@type": "Offer",
@@ -84,7 +88,7 @@
     "availability": "https://schema.org/InStock",
     "seller": {
       "@type": "Organization",
-      "name": "Yiwu Shuihui Import & Export Co., Ltd."
+      "name": "JH HARDWARE"
     },
     "minOrderQuantity": {{ index (split .Params.moq " ") 0 | default 400 }},
     "businessOperation": "B2B",
@@ -100,7 +104,7 @@
   "category": "{{ with .Parent }}{{ .Title }}{{ end }}",
   "manufacturer": {
     "@type": "Organization",
-    "name": "Yiwu Shuihui Import & Export Co., Ltd.",
+    "name": "JH HARDWARE",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Yiwu",
@@ -115,7 +119,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Yiwu Shuihui Import & Export Co., Ltd.",
+  "name": "JH HARDWARE",
   "url": "{{ site.BaseURL }}",
   "logo": "{{ site.Params.logo | absURL }}",
   "description": "{{ site.Params.description }}",
@@ -179,7 +183,7 @@
 <meta name="primary-products" content="Door Handles, Door Locks, Door Hinges, Sliding Tracks, Building Materials">
 
 <!-- AI 友好的网站描述 -->
-<meta name="ai-description" content="Yiwu Shuihui Import & Export Co., Ltd. is a professional door hardware manufacturer exporting to Nigeria, Dubai, Africa. Factory direct supply of door handles, locks, hinges, sliding tracks. ISO 9001 certified. 15-25 days delivery. MOQ from 400 pcs.">
+<meta name="ai-description" content="JH HARDWARE is a professional door hardware manufacturer exporting to Nigeria, Dubai, Africa. Factory direct supply of door handles, locks, hinges, sliding tracks. ISO 9001 certified. 15-25 days delivery. MOQ from 400 pcs.">
 
 <!-- 结构化数据增强（AI 更容易理解） -->
 <script type="application/ld+json">

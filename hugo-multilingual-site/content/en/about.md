@@ -6,7 +6,7 @@ keywords: "SOLA, SOLA hardware, SOLA brand, door locks, door handles, interior l
 
 ## 🏆 SOLA Brand - Professional Door Hardware for African Market
 
-**SOLA** is a professional door hardware brand owned by Yiwu Shuihui Import & Export Co., Ltd. With over 10 years of export experience, SOLA has become a trusted name in the African door hardware market, specializing in **interior door locks** and **door handles**.
+**SOLA** is a professional door hardware brand owned by JH HARDWARE. With over 10 years of export experience, SOLA has become a trusted name in the African door hardware market, specializing in **interior door locks** and **door handles**.
 
 ---
 

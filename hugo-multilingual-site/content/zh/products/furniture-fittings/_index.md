@@ -2,7 +2,7 @@
 title: "家具配件 - 完整家具五金解决方案"
 description: "专业家具配件，包括把手、连接件、支撑件等。工厂直销，出口尼日利亚、迪拜、非洲。"
 keywords: "家具配件，家具把手，家具连接件，家具脚，橱柜配件，家具五金，尼日利亚进口，迪拜家具配件"
-author: "义乌水汇进出口有限公司"
+author: "JH HARDWARE（钧瀚五金）"
 canonical: "https://jh-hardware.com/zh/products/furniture-fittings/"
 robots: "index, follow"
 ---

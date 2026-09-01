@@ -2,7 +2,7 @@
 title: "门配件 - 完整门控五金解决方案"
 description: "完整的门配件系列，包括门吸、闭门器、猫眼、安全链等。出口尼日利亚、迪拜、非洲。"
 keywords: "门配件，门吸，闭门器，猫眼，安全链，门栓，尼日利亚五金，迪拜门配件"
-author: "义乌水汇进出口有限公司"
+author: "JH HARDWARE（钧瀚五金）"
 canonical: "https://jh-hardware.com/zh/products/door-accessories/"
 robots: "index, follow"
 ---

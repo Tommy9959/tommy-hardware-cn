@@ -2,7 +2,7 @@
 title: "Nigeria Market - Door Hardware Supplier & Exporter"
 description: "Professional door hardware supplier for Nigeria market. Factory direct supply of door handles, locks, hinges to Lagos, Abuja, Port Harcourt. Fast delivery 15-25 days. Form M, SONCAP documentation support."
 keywords: "Nigeria door hardware, Lagos door handles, Abuja building materials, Port Harcourt hardware, Nigeria importer, door locks Nigeria, Form M, SONCAP, Nigeria construction, Lagos market, Abuja market"
-author: "Yiwu Shuihui Import & Export Co., Ltd."
+author: "JH HARDWARE"
 canonical: "https://jh-hardware.com/en/nigeria/"
 robots: "index, follow"
 ---

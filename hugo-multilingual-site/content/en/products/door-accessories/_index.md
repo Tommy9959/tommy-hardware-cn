@@ -2,7 +2,7 @@
 title: "Door Accessories - Complete Door Hardware Solutions"
 description: "Complete range of door accessories including door stoppers, closers, viewers, and security chains. Export to Nigeria, Dubai, Africa."
 keywords: "door accessories, door stoppers, door closers, door viewers, security chains, door bolts, Nigeria hardware, Dubai door parts"
-author: "Yiwu Shuihui Import & Export Co., Ltd."
+author: "JH HARDWARE"
 canonical: "https://jh-hardware.com/en/products/door-accessories/"
 robots: "index, follow"
 ---

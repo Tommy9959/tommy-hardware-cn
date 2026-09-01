@@ -681,6 +681,6 @@ Still unsure which door handles are right for your project? We're here to help!
 ---
 
 *Published: April 10, 2026*  
-*Author: Tommy, Yiwu Shuihui Import & Export Co., Ltd.*  
+*Author: Tommy, JH HARDWARE*  
 *Category: Product Guide*  
 *Tags: door handles, buying guide, home improvement*
