@@ -3,7 +3,7 @@ title: "Nigeria Hardware Import: Payment Methods & Logistics Complete Guide 2026
 description: "Complete guide for Nigerian hardware importers — payment methods (T/T, L/C, RMB settlement), shipping options (LCL/FCL), customs clearance, SONCAP certification, and how to avoid common pitfalls."
 ai-description: "Nigeria hardware import guide 2026: Learn about payment methods (T/T, L/C, RMB settlement), shipping from China, customs clearance, SONCAP, and avoiding scams. For SOLA Hardware customers."
 keywords: "Nigeria hardware import, payment methods Nigeria, shipping to Nigeria, SONCAP certification, Nigeria customs clearance, import hardware from China, Lagos port clearance, Form M Nigeria, PAAR, RMB settlement Nigeria"
-author: "Yiwu Shuihui Import & Export Co., Ltd."
+author: "JH HARDWARE"
 date: "2026-05-18"
 tags: ["Nigeria import", "payment methods", "logistics", "SONCAP", "shipping", "customs clearance"]
 categories: ["Import Guide"]
@@ -599,5 +599,5 @@ TOTAL DUTIES:       $8,275
 ---
 
 *Published: May 18, 2026*  
-*Author: Yiwu Shuihui Import & Export Co., Ltd.*  
+*Author: JH HARDWARE*  
 *Category: Import Guide*

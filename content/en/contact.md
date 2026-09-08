@@ -5,7 +5,7 @@ description: "Contact SOLA Hardware for factory direct door hardware, padlocks, 
 
 ## Get in Touch with SOLA Hardware
 
-SOLA Hardware (Yiwu Shuihui Import & Export Co., Ltd.) is a leading manufacturer and exporter of door hardware and building materials in China. We serve Nigeria, Dubai, and African markets with factory direct prices and fast delivery.
+SOLA Hardware (JH HARDWARE) is a leading manufacturer and exporter of door hardware and building materials in China. We serve Nigeria, Dubai, and African markets with factory direct prices and fast delivery.
 
 ### Why Choose SOLA Hardware?
 

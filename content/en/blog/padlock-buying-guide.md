@@ -2,7 +2,7 @@
 title: "Best Padlock in Nigeria 2026: Waterproof vs Laminated vs Brass — Wholesale Price Guide"
 description: "Best padlock in Nigeria from China factory — waterproof GTK, laminated & solid brass padlock wholesale prices 2026. Which type sells best in Lagos, Kano, PH? Free samples for importers."
 keywords: "padlocks for Africa, padlocks Nigeria, waterproof padlock, laminated padlock, brass padlock, Nigeria hardware import, SOLA padlock, padlock prices China, best padlock for outdoor use"
-author: "Yiwu Shuihui Import & Export Co., Ltd."
+author: "JH HARDWARE"
 date: "2026-05-21"
 tags: ["padlocks", "Nigeria market", "product guide", "what sells"]
 categories: ["Product Guide"]
@@ -365,4 +365,4 @@ We supply padlocks from all 9 SOLA series — from budget laminated to premium s
 
 👉 **Related guides:** [Door locks jamming in Nigeria? Fix guide →](/blog/door-lock-problems-nigeria-fix-guide/) · [Door hinge price in Nigeria →](/blog/door-hinges-selection-guide-nigeria/) · [About JH Hardware →](/about/) · [All products →](/products/)
 
-*Written by Yiwu Shuihui Import & Export Co., Ltd. — 10 years exporting hardware to Africa and the Middle East.*
+*Written by JH HARDWARE — 10 years exporting hardware to Africa and the Middle East.*

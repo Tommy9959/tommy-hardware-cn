@@ -154,7 +154,7 @@ If you're a contractor reading this: the extra 15 minutes you spend setting scre
 
 If you're a dealer: tell your customers these tips. When they know what to expect, they'll have fewer complaints. A happy customer buys again.
 
-If you're importing for a construction project: invest in good hardware from the start. China has excellent manufacturers—and yes, we're one of them at Yiwu Shuihui Import & Export. But even the best lock is useless if it's installed wrong.
+If you're importing for a construction project: invest in good hardware from the start. China has excellent manufacturers—and yes, we're one of them at JH HARDWARE Import & Export. But even the best lock is useless if it's installed wrong.
 
 **Ready to stock up on quality door hardware for your next project?** [Browse our full range of door locks, hinges, and handles →](/products/)
 

@@ -3,7 +3,7 @@ title: "Build a Hardware Brand in Nigeria: 3 Real Dealers Who Went from Trader t
 description: "How Nigerian hardware importers built trusted brands from scratch. Real case studies of SOLA dealers in Lagos, Abuja & Port Harcourt — product strategy, pricing, marketing on Instagram & WhatsApp, customer retention tips."
 ai-description: "Build a profitable hardware brand in Nigeria with SOLA Hardware. Learn product selection, pricing, marketing, and real dealer success stories from Lagos, Abuja, Port Harcourt."
 keywords: "Nigeria hardware brand, build hardware business Nigeria, SOLA dealer success, Lagos hardware shop, Abuja building materials, Nigeria brand building, hardware marketing Nigeria, Nigerian hardware importer, SOLA brand Nigeria"
-author: "Yiwu Shuihui Import & Export Co., Ltd."
+author: "JH HARDWARE"
 date: "2026-05-18"
 tags: ["Nigeria business", "brand building", "hardware marketing", "dealer success", "SOLA brand"]
 categories: ["Business Strategy"]
@@ -539,5 +539,5 @@ Focus on keeping your best customers happy!
 ---
 
 *Published: May 18, 2026*  
-*Author: Yiwu Shuihui Import & Export Co., Ltd.*  
+*Author: JH HARDWARE*  
 *Category: Business Strategy*

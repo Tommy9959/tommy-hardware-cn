@@ -2,7 +2,7 @@
 title: "非洲市场 - 门控五金供应商与出口商"
 description: "专业门控五金供应商，面向非洲市场。工厂直供尼日利亚、肯尼亚、加纳、坦桑尼亚、埃塞俄比亚、南非等国家。15-30天交货，提供全套清关文件支持。"
 keywords: "非洲门控五金, 非洲进口商, 西非, 东非, 尼日利亚门把手, 肯尼亚建材, 加纳五金, 坦桑尼亚建筑, 埃塞俄比亚进口, 南非五金, 拉各斯, 蒙巴萨, 阿克拉, 达累斯萨拉姆"
-author: "义乌水汇进出口有限公司"
+author: "JH HARDWARE（钧瀚五金）"
 canonical: "https://jh-hardware.com/zh/africa/"
 robots: "index, follow"
 ---

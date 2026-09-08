@@ -3,7 +3,7 @@ title: "Door Hinge Price in Nigeria 2026: SS304 vs Galvanized — Factory Prices
 date: 2026-05-22T21:55:00+08:00
 description: "Door hinge price in Nigeria 2026 — factory direct SS304 from $0.50/pc. Best hinge type for aluminum, wooden & metal doors. Wholesale prices to Lagos, Abuja, Port Harcourt."
 tags: ["door hinges", "Nigeria construction", "hardware guide", "butt hinges", "pivot hinges", "self-closing hinges"]
-author: "Yiwu Shuihui Import & Export Co., Ltd."
+author: "JH HARDWARE"
 ---
 
 <script type="application/ld+json">
@@ -191,4 +191,4 @@ We manufacture door hinges in our ISO 9001 certified factory with strict materia
 
 👉 **Related guides:** [Best padlock in Nigeria 2026 — price guide →](/blog/padlock-buying-guide/) · [Door locks jamming in Nigeria? Fix guide →](/blog/door-lock-problems-nigeria-fix-guide/) · [Browse all hardware products →](/products/)
 
-*Written by Yiwu Shuihui Import & Export Co., Ltd. — 10 years exporting hardware to Africa and the Middle East.*
+*Written by JH HARDWARE — 10 years exporting hardware to Africa and the Middle East.*

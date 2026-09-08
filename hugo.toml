@@ -37,6 +37,9 @@ disableAliases = true
     contentDir = 'content/ar'
     languageDirection = 'rtl'
     description = 'توريد مباشر من المصنع لمقابض الأبواب، والمفاصل، والأقفال، والمسارات المنزلقة. تصنيع مهني لعتاد الأبواب.'
+    # SEO: 阿拉伯语版为自动翻译，Google 0收录且拖累域名权重，noindex止损（保留给中东真人客户访问）
+    [languages.ar.params]
+      noindex = true
 
 # 菜单配置 - 每种语言独立
 [languages.zh.menu]

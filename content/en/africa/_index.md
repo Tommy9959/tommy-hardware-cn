@@ -2,7 +2,7 @@
 title: "Africa Market - Door Hardware Supplier & Exporter"
 description: "Professional door hardware supplier for African market. Factory direct supply to Nigeria, Kenya, Ghana, Tanzania, Ethiopia, South Africa. 15-30 days delivery. Complete documentation support."
 keywords: "Africa door hardware, African importer, West Africa, East Africa, Nigeria door handles, Kenya building materials, Ghana hardware, Tanzania construction, Ethiopia import, South Africa hardware, Lagos, Mombasa, Accra, Dar es Salaam"
-author: "Yiwu Shuihui Import & Export Co., Ltd."
+author: "JH HARDWARE"
 canonical: "https://jh-hardware.com/en/africa/"
 robots: "index, follow"
 ---

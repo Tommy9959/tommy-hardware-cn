@@ -2,7 +2,7 @@
 title: "SOLA Hardware Review: Why This Chinese Brand Is Winning the Nigerian Market (2026)"
 description: "An honest review of SOLA hardware products for the Nigerian market — door locks, handles, hinges, and padlocks. How SOLA compares to budget brands and Turkish hardware. From a 10-year exporter to Nigeria."
 keywords: "SOLA hardware, SOLA door locks Nigeria, SOLA door handles, hardware brand comparison, China door hardware brands, SOLA dealer, Nigeria construction brands, door hardware review"
-author: "Yiwu Shuihui Import & Export Co., Ltd."
+author: "JH HARDWARE"
 date: "2026-05-27"
 tags: ["SOLA", "brand comparison", "Nigeria market", "door hardware"]
 categories: ["Product Guide"]
@@ -148,4 +148,4 @@ That's the kind of partner worth betting on.
 
 ---
 
-*Tommy is a 10-year veteran of China-West Africa hardware trade. Based in Yiwu, he works with Yiwu Shuihui Import & Export Co., Ltd. on SOLA brand distribution to the Nigerian market. All opinions are his own, based on hands-on product testing and customer feedback across 500+ containers shipped since 2016.*
+*Tommy is a 10-year veteran of China-West Africa hardware trade. Based in Yiwu, he works with JH HARDWARE on SOLA brand distribution to the Nigerian market. All opinions are his own, based on hands-on product testing and customer feedback across 500+ containers shipped since 2016.*

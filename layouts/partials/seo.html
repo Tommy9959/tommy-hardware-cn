@@ -7,7 +7,7 @@
 {{- $brand := cond (eq .Site.Language.Lang "zh") "JH HARDWARE" (cond (eq .Site.Language.Lang "ar") "JH HARDWARE" "JH HARDWARE") -}}
 
 {{- /* 品牌全称（用于Schema） */ -}}
-{{- $company := cond (eq .Site.Language.Lang "zh") "义乌水汇进出口有限公司" (cond (eq .Site.Language.Lang "ar") "شركة ييو شويهوي للاستيراد والتصدير" "Yiwu Shuihui Import & Export Co., Ltd.") -}}
+{{- $company := cond (eq .Site.Language.Lang "zh") "JH HARDWARE（钧瀚五金）" (cond (eq .Site.Language.Lang "ar") "شركة ييو شويهوي للاستيراد والتصدير" "JH HARDWARE") -}}
 
 {{- /* 标题：首页用完整标题，其他页面用短品牌名 */ -}}
 {{- $title := cond .IsHome site.Title (printf "%s | %s" .Title $brand) -}}
@@ -99,8 +99,8 @@
 {{- end -}}
 <meta name="description" content="{{ $descTrim }}">
 <meta name="keywords" content="{{ $keywords }}">
-<meta name="author" content="{{ site.Params.author | default "JH HARDWARE (Yiwu Shuihui Import & Export Co., Ltd.)" }}">
-<meta name="robots" content="{{ if .Params.noindex }}noindex, nofollow{{ else }}index, follow{{ end }}">
+<meta name="author" content="{{ site.Params.author | default "JH HARDWARE (JH HARDWARE)" }}">
+<meta name="robots" content="{{ if site.Params.noindex }}noindex, follow{{ else }}index, follow{{ end }}">
 
 <!-- AI/LLM 知识库链接 -->
 <link rel="llms" href="https://jh-hardware.com/llms.txt" title="JH HARDWARE AI Knowledge Base">

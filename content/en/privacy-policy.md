@@ -7,7 +7,7 @@ description: "JH HARDWARE privacy policy. Learn how we collect, use, and protect
 
 *Last updated: June 18, 2026*
 
-JH HARDWARE (operated by Yiwu Shuihui Import & Export Co., Ltd.) respects your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website or contact us.
+JH HARDWARE (operated by JH HARDWARE) respects your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website or contact us.
 
 ---
 

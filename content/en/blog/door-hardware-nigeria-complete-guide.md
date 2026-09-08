@@ -523,4 +523,4 @@ No pressure. No sales pitch. Just real advice from someone who's been doing this
 ---
 
 *Published: June 6, 2026*  
-*Written by Tommy, JH Hardware — 10 years exporting door hardware to Nigeria. Founder of SOLA Hardware / Yiwu Shuihui Import & Export Co., Ltd.*
+*Written by Tommy, JH Hardware — 10 years exporting door hardware to Nigeria. Founder of SOLA Hardware / JH HARDWARE*

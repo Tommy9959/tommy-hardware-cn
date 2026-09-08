@@ -2,7 +2,7 @@
 title: "建材与配件 - 胶水、铁管、窗帘杆、墙纸、橱柜配件"
 description: "工厂直销建材产品：胶水粘合剂、铁管钢管、窗帘杆、墙纸壁纸、橱柜配件、塑料拉手。出口尼日利亚、迪拜、非洲。批发价格，快速交货。"
 keywords: "胶水粘合剂，铁管钢管，窗帘杆，墙纸壁纸，橱柜配件，塑料拉手，建材，建筑材料，尼日利亚进口商，迪拜建材，非洲出口，工厂直销，建材批发"
-author: "义乌水汇进出口有限公司"
+author: "JH HARDWARE（钧瀚五金）"
 canonical: "https://jh-hardware.com/zh/building-materials/"
 robots: "index, follow"
 ---

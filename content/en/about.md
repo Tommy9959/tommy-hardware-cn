@@ -1,12 +1,12 @@
 ---
 title: "JH Hardware - SOLA | Your Trusted Hardware Partner for Africa"
 description: "JH Hardware (SOLA brand) — your trusted hardware partner for Africa. China factory direct door locks, handles, hinges, sliding tracks since 2016. We supply hardware to Nigeria, Ghana, Kenya and across Africa."
-keywords: "JH HARDWARE, hardware manufacturer, door hardware, door locks, door handles, yiwu hardware, china hardware export, nigeria hardware, africa hardware, SOLA door locks, Yiwu Shuihui"
+keywords: "JH HARDWARE, hardware manufacturer, door hardware, door locks, door handles, yiwu hardware, china hardware export, nigeria hardware, africa hardware, SOLA door locks, JH HARDWARE"
 ---
 
 ## JH HARDWARE — Your Trusted Hardware Partner for Africa
 
-**JH HARDWARE** is a professional hardware supply brand serving African markets. We are operated by **Yiwu Shuihui Import & Export Co., Ltd.**, a registered Chinese import & export company with over 10 years of experience exporting to Nigeria, Ghana, Kenya, and across Africa.
+**JH HARDWARE** is a professional hardware supply brand serving African markets. We are operated by **JH HARDWARE**, a registered Chinese import & export company with over 10 years of experience exporting to Nigeria, Ghana, Kenya, and across Africa.
 
 ---
 
@@ -16,7 +16,7 @@ keywords: "JH HARDWARE, hardware manufacturer, door hardware, door locks, door h
 |-------|------|
 | **JH HARDWARE** | Main business brand — all products, website, and communications |
 | **SOLA™** | Premium door lock brand — our specialized door lock product line |
-| **Yiwu Shuihui** | Legal entity — the company behind JH HARDWARE |
+| **JH HARDWARE** | Legal entity — the company behind JH HARDWARE |
 
 ---
 
@@ -54,7 +54,7 @@ keywords: "JH HARDWARE, hardware manufacturer, door hardware, door locks, door h
 
 **SOLA™** is our premium door lock brand under JH HARDWARE. Specializing in high-quality **interior door locks**, **door handles**, and **door accessories**, SOLA products are designed and tested for the African market. When you see SOLA on a door lock, you know it's JH HARDWARE quality.
 
-*SOLA is a registered trademark of Yiwu Shuihui Import & Export Co., Ltd.*
+*SOLA is a registered trademark of JH HARDWARE*
 
 ---
 
@@ -93,4 +93,4 @@ Ready to get started? Get a free quote!
 
 ---
 
-*JH HARDWARE is operated by Yiwu Shuihui Import & Export Co., Ltd. | SOLA™ is a registered trademark of Yiwu Shuihui Import & Export Co., Ltd.*
+*JH HARDWARE is operated by JH HARDWARE | SOLA™ is a registered trademark of JH HARDWARE*

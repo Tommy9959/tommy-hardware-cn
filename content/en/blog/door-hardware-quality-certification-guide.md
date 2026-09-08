@@ -166,7 +166,7 @@ Real certificates look professional. Fakes often have:
 
 ### 2. Company Name Doesn't Match
 
-If the certificate says "Yiwu Hardware Co., Ltd." but your supplier is "Yiwu Shuihui Import & Export Co., Ltd.," it's fake.
+If the certificate says "Yiwu Hardware Co., Ltd." but your supplier is "JH HARDWARE," it's fake.
 
 ### 3. They Refuse to Send the Original
 

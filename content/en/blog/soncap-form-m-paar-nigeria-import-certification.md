@@ -423,4 +423,4 @@ No hidden fees. No surprises. No "oh sorry, your container is stuck."
 ---
 
 *Published: June 3, 2026*  
-*Written by Tommy, JH Hardware — 10 years exporting hardware to Nigeria. Founder of SOLA Hardware / Yiwu Shuihui Import & Export Co., Ltd.*
+*Written by Tommy, JH Hardware — 10 years exporting hardware to Nigeria. Founder of SOLA Hardware / JH HARDWARE*

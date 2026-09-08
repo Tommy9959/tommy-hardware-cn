@@ -423,4 +423,4 @@ David 在清关后给我打了电话。"Tommy，"他笑着说，"我跟旧供应
 ---
 
 *发布：2026 年 6 月 3 日*
-*作者：Tommy，JH Hardware — 10 年向尼日利亚出口五金经验。SOLA Hardware / 义乌水汇进出口有限公司创始人。*
+*作者：Tommy，JH Hardware — 10 年向尼日利亚出口五金经验。SOLA Hardware / JH HARDWARE（钧瀚五金）创始人。*

@@ -7,7 +7,7 @@ description: "JH HARDWARE terms and conditions for product sales, orders, and we
 
 *Last updated: June 18, 2026*
 
-These Terms & Conditions govern the use of the JH HARDWARE website and the purchase of products from Yiwu Shuihui Import & Export Co., Ltd.
+These Terms & Conditions govern the use of the JH HARDWARE website and the purchase of products from JH HARDWARE
 
 ---
 
@@ -67,7 +67,7 @@ JH HARDWARE's liability is limited to the purchase value of the products in ques
 
 ### 8. Intellectual Property
 
-- "JH HARDWARE" and "SOLA™" are trademarks of Yiwu Shuihui Import & Export Co., Ltd.
+- "JH HARDWARE" and "SOLA™" are trademarks of JH HARDWARE
 - Website content, images, and materials may not be reproduced without permission
 
 ---

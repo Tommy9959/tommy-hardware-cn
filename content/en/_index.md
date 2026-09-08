@@ -1,8 +1,8 @@
 ---
 title: "SOLA Door Hardware Manufacturer | Factory Direct to Nigeria & Africa"
 description: "SOLA door hardware — factory direct door handles, locks, hinges, sliding tracks. ISO 9001 certified. 10+ years exporting to Nigeria. Wholesale prices, fast 15-25 day delivery, free samples."
-keywords: "door hardware Nigeria, door handles, door locks, door hinges, JH Hardware, SOLA, Yiwu Shuihui, China factory, hardware wholesale Africa"
-author: "Yiwu Shuihui Import & Export Co., Ltd."
+keywords: "door hardware Nigeria, door handles, door locks, door hinges, JH Hardware, SOLA, JH HARDWARE, China factory, hardware wholesale Africa"
+author: "JH HARDWARE"
 canonical: "https://jh-hardware.com/"
 robots: "index, follow"
 og_image: "/images/products/door-locks/9129-113.jpg"
