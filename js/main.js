@@ -124,3 +124,23 @@ if (header) {
         }
     });
 }
+
+// Click-to-load Google Maps
+function loadMap() {
+    var container = document.getElementById('map-container');
+    if (!container) return;
+    
+    var iframe = document.createElement('iframe');
+    iframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3446.516948370974!2d120.06772831508257!3d29.30135528206846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3446516f4c3b0c9f%3A0x4b5e0a9e0c0e0a0!2z44CSMjAxOCwg5bGx5YyX5L2T6Ieq5Y2X5LmL6Z2S5Y2X5LmL6LWE5Liq5Y2X5LmL6LWE5YiG5Lq65Y2X5LmL6LWE5YiG77yS5Lit5Zu95riF6Ieq5Y2X5LmL77yS5rGf6Ieq5Y2X5LmM77yS5Lit5YyX5riF6Ieq5Y2X5LmM77yS5riF6Ieq5Y2X5LmM44CB44Gv44GZ44CC!5e0!3m2!1sen!2s!4v1713513600000!5m2!1sen!2s';
+    iframe.width = '100%';
+    iframe.height = '450';
+    iframe.style.border = '0';
+    iframe.style.borderRadius = '12px';
+    iframe.allowFullscreen = true;
+    iframe.loading = 'lazy';
+    iframe.referrerPolicy = 'no-referrer-when-downgrade';
+    
+    var placeholder = document.getElementById('map-placeholder');
+    if (placeholder) placeholder.remove();
+    container.appendChild(iframe);
+}

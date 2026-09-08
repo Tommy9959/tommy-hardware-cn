@@ -1,0 +1,200 @@
+{
+  "name": "Yiwu Shuihui Import & Export Co., Ltd. / SOLA Hardware",
+  "short_name": "SOLA Hardware",
+  "website": "https://jh-hardware.com",
+  "summary": "Factory-direct door hardware & building materials for Africa & Middle East. 10+ years Africa export experience, ISO 9001 certified.",
+  "llms_full_url": "https://jh-hardware.com/llms-full.txt",
+  "categories": [
+    {
+      "title": "Products",
+      "url": "https://jh-hardware.com/products/",
+      "items": [
+        {
+          "url": "https://jh-hardware.com/products/door-locks/",
+          "description": "65+ door lock models including mortise locks, night latches, deadbolts, smart locks",
+          "price_range": "$2.50-$80"
+        },
+        {
+          "url": "https://jh-hardware.com/products/padlocks/",
+          "description": "9 padlock series: waterproof, heavy duty, laminated, long shackle",
+          "price_range": "$0.50-$3"
+        },
+        {
+          "url": "https://jh-hardware.com/products/door-handles/",
+          "description": "65+ door handle models: zinc alloy, SS201, SS304, aluminum",
+          "price_range": "$1.50-$15"
+        },
+        {
+          "url": "https://jh-hardware.com/products/door-hinges/",
+          "description": "Butt hinges, spring hinges, T-hinges, heavy duty, ball bearing",
+          "price_range": "$0.30-$8"
+        },
+        {
+          "url": "https://jh-hardware.com/products/sliding-tracks/",
+          "description": "Drawer slides, sliding door tracks, barn door hardware",
+          "price_range": "$1-$20"
+        },
+        {
+          "url": "https://jh-hardware.com/products/cabinet-hardware/",
+          "description": "Cabinet handles, knobs, drawer pulls, kitchen/bathroom hardware"
+        },
+        {
+          "url": "https://jh-hardware.com/products/sofa-legs/",
+          "description": "Metal, wooden and plastic sofa legs in various finishes"
+        },
+        {
+          "url": "https://jh-hardware.com/products/building-materials/",
+          "description": "Iron casing pipes 16mm & 25mm, glue, iron pipes, fittings, wallpaper"
+        },
+        {
+          "url": "https://jh-hardware.com/products/furniture-fittings/",
+          "description": "Furniture connectors, hinges, locks, table legs, shelf brackets, casters"
+        },
+        {
+          "url": "https://jh-hardware.com/products/steel-pipes-flanges/",
+          "description": "Steel pipes and flanges for construction and industrial use"
+        },
+        {
+          "url": "https://jh-hardware.com/products/door-accessories/",
+          "description": "Door stoppers, door viewers, door chains, floor springs"
+        },
+        {
+          "url": "https://jh-hardware.com/products/iron-casing-pipes/",
+          "description": "Iron casing pipes 16mm & 25mm for construction, conduit and structural reinforcement"
+        }
+      ]
+    },
+    {
+      "title": "Blog — Market & Technical Guides",
+      "url": "https://jh-hardware.com/blog/",
+      "items": [
+        {
+          "url": "https://jh-hardware.com/blog/door-hardware-nigeria-complete-guide/",
+          "description": "Complete door hardware guide for Nigeria 2026"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/nigeria-hardware-market-guide/",
+          "description": "$500M annual hardware import market analysis"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/import-door-hardware-from-china/",
+          "description": "Complete guide importing hardware from China to Nigeria"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/nigeria-payment-logistics-guide/",
+          "description": "Payment methods, shipping, SONCAP, customs clearance"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/iron-door-lock-price-nigeria/",
+          "description": "Door lock prices in Nigeria 2026 with factory pricing"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/how-to-choose-door-locks/",
+          "description": "Mortise vs rim vs smart locks for African climate"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/padlock-buying-guide/",
+          "description": "Waterproof vs laminated vs solid brass padlocks"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/door-handle-materials-guide/",
+          "description": "Zinc alloy vs SS201 vs SS304 door handle materials"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/iron-casing-pipe-guide-nigeria/",
+          "description": "Iron casing pipe 16mm & 25mm guide for construction industry"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/door-hinges-selection-guide-nigeria/",
+          "description": "Door hinges selection guide for Nigerian market"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/door-lock-problems-nigeria-fix-guide/",
+          "description": "Common door lock problems in Nigeria and how to fix them"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/hardware-rust-coastal-nigeria-prevention/",
+          "description": "Hardware rust prevention for coastal Nigeria (Lagos/Port Harcourt)"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/sofa-legs-wholesale-guide-nigeria/",
+          "description": "Sofa legs wholesale guide for Nigerian furniture makers"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/cabinet-door-hinges-slides-for-africa/",
+          "description": "Cabinet hinges and slides for African furniture manufacturers"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/edge-banding-guide-nigeria/",
+          "description": "Edge banding guide for Nigerian furniture production"
+        },
+        {
+          "url": "https://jh-hardware.com/blog/sola-hardware-review-comparison/",
+          "description": "SOLA Hardware review and comparison with other suppliers"
+        }
+      ]
+    },
+    {
+      "title": "Client Success Stories",
+      "url": "https://jh-hardware.com/clients/",
+      "items": [
+        {
+          "url": "https://jh-hardware.com/clients/case-bulk-hardware-distributor/",
+          "description": "Nigeria bulk hardware distributor: ₦50M+ annual turnover"
+        },
+        {
+          "url": "https://jh-hardware.com/clients/case-construction-company/",
+          "description": "Abuja construction company with government contracts"
+        },
+        {
+          "url": "https://jh-hardware.com/clients/case-furniture-manufacturer/",
+          "description": "Port Harcourt furniture manufacturer quality story"
+        },
+        {
+          "url": "https://jh-hardware.com/clients/case-palestine-first-order/",
+          "description": "First major order from Palestine: ¥19,600 door locks"
+        },
+        {
+          "url": "https://jh-hardware.com/clients/case-okafor-onne-wholesale/",
+          "description": "Onne Port distributor partnership (new)"
+        }
+      ]
+    },
+    {
+      "title": "Company Pages",
+      "url": "https://jh-hardware.com/about/",
+      "items": [
+        {
+          "url": "https://jh-hardware.com/about/",
+          "description": "About Yiwu Shuihui Import & Export Co., Ltd."
+        },
+        {
+          "url": "https://jh-hardware.com/contact/",
+          "description": "Contact SOLA Hardware"
+        },
+        {
+          "url": "https://jh-hardware.com/faq/",
+          "description": "Frequently asked questions about hardware import"
+        },
+        {
+          "url": "https://jh-hardware.com/privacy-policy/",
+          "description": "Privacy policy"
+        },
+        {
+          "url": "https://jh-hardware.com/terms/",
+          "description": "Terms and conditions"
+        },
+        {
+          "url": "https://jh-hardware.com/shipping-returns/",
+          "description": "Shipping and returns policy"
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-06-23",
+  "contact": {
+    "whatsapp": "+86-183-5800-8400",
+    "email": "z946487044@icloud.com",
+    "location": "Room 2018, Xuefeng Business Building, No.18 Danxi North Road, Yiwu, China"
+  }
+}

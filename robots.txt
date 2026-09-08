@@ -1,35 +1,266 @@
 # robots.txt for Yiwu Shuihui Import & Export Co., Ltd.
 # https://jh-hardware.com
+# Last updated: 2026-06-22
+
+# === SITEMAPS ===
+# Hugo v0.160 自动生成 sitemapindex（含 en/zh/ar 子 sitemap）
+Sitemap: https://jh-hardware.com/sitemap.xml
+
+# === DEFAULT RULES ===
 
 User-agent: *
 Allow: /
+Disallow: /*?$              # Block URL parameters
+Disallow: /thanks/           # Thank you pages
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+# Crawl-delay removed for general crawlers (Google/Bing etc.)
+# to speed up indexing of new pages. AI-crawler delays kept below.
 
-# Sitemap location
-Sitemap: https://jh-hardware.com/sitemap.xml
+# === MAJOR SEARCH ENGINES ===
 
-# Crawl-delay (optional, polite crawling)
-Crawl-delay: 1
-
-# Disallow admin/private areas (if any)
-# Disallow: /admin/
-# Disallow: /private/
-
-# Allow all major search engines
 User-agent: Googlebot
 Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: Googlebot-Image
 Allow: /
 
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
 User-agent: Bingbot
 Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
 
 User-agent: Slurp
 Allow: /
 
-# Block bad bots (optional)
-# User-agent: AhrefsBot
-# Disallow: /
+User-agent: DuckDuckBot
+Allow: /
 
-# User-agent: SemrushBot
-# Disallow: /
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# === AI / LLM CRAWLERS ===
+
+User-agent: GPTBot
+Allow: /
+Allow: /products/
+Allow: /blog/
+Allow: /faq/
+Allow: /about/
+Allow: /clients/
+Allow: /contact/
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 5
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: ClaudeBot
+Allow: /
+Crawl-delay: 5
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: CohereAI-Bot
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: Bytespider
+Allow: /
+Crawl-delay: 5
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+# === CHINESE AI / LLM CRAWLERS ===
+
+User-agent: Baidu-ERNIE
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: DoubaoBot
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: QwenBot
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: TongyiBot
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: HunyuanBot
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: DeepSeekBot
+Allow: /
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: MoonshotBot
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: ChatGLMBot
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: MiniMaxBot
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: SensetimeBot
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: KimiBot
+Allow: /
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: 360Bot
+Allow: /
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: BaichuanBot
+Allow: /
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: YiBot
+Allow: /
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: SkyworkBot
+Allow: /
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+# === NEW AI CRAWLERS 2026 ===
+
+User-agent: GrokBot            # xAI
+Allow: /
+Crawl-delay: 5
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: GeminiBot          # Google Gemini
+Allow: /
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: MistralBot         # Mistral AI
+Allow: /
+Crawl-delay: 5
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: Amazonbot          # Amazon AI / Alexa
+Allow: /
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: LingBot            # 腾讯混元
+Allow: /
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
+
+User-agent: StepBot            # 阶跃星辰
+Allow: /
+Crawl-delay: 3
+Disallow: /thanks/
+Disallow: /zh/thanks/
+Disallow: /ar/thanks/
