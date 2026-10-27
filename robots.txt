@@ -1,4 +1,4 @@
-# robots.txt for Yiwu Shuihui Import & Export Co., Ltd.
+# robots.txt for JH HARDWARE (jh-hardware.com)
 # https://jh-hardware.com
 # Last updated: 2026-06-22
 
