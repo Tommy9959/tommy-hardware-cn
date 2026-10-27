@@ -1,7 +1,7 @@
 ---
 title: قفل حديدي مربع مذهب - SFN - قفل | جملة نيجيريا أفريقيا
 description: قفل عالي الجودة قفل حديدي مربع مذهب. توريد مباشر من المصنع.
-image: /images/products/padlocks/sfn.png
+image: /images/products/padlocks/sfn.jpg
 features:
   - 'سعر المصنع المباشر'
   - 'مواد عالية الجودة، متينة'

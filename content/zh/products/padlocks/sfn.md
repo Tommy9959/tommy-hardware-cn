@@ -1,7 +1,7 @@
 ---
 title: SFN - 四方直开喷金挂锁 - 挂锁 | 批发 尼日利亚 非洲
 description: 高品质四方直开喷金挂锁。工厂直供，价格优惠。
-image: /images/products/padlocks/sfn.png
+image: /images/products/padlocks/sfn.jpg
 features:
   - '工厂直销价格'
   - '高品质材料、经久耐用'

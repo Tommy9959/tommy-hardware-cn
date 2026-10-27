@@ -1,7 +1,7 @@
 ---
 title: قفل حديدي دائري نيكل - YJN - قفل | جملة نيجيريا أفريقيا
 description: قفل عالي الجودة قفل حديدي دائري نيكل. توريد مباشر من المصنع.
-image: /images/products/padlocks/yjn.png
+image: /images/products/padlocks/yjn.jpg
 features:
   - 'سعر المصنع المباشر'
   - 'مواد عالية الجودة، متينة'

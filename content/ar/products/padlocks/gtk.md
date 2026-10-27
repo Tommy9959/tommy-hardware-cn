@@ -1,7 +1,7 @@
 ---
 title: قفل مقاوم للماء - GTK - قفل | جملة نيجيريا أفريقيا
 description: قفل عالي الجودة قفل مقاوم للماء مع غطاء بلاستيكي. توريد مباشر من المصنع.
-image: /images/products/padlocks/gtk.png
+image: /images/products/padlocks/gtk.jpg
 features:
   - 'سعر المصنع المباشر'
   - 'مواد عالية الجودة، متينة'

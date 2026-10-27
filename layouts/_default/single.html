@@ -1,6 +1,13 @@
 {{ define "main" }}
 {{ if eq .Section "products" }}
 <!-- 产品详情页 -->
+{{ $productName := .Params.product_name | default .Title }}
+{{ $material := .Params.material | default "Quality Material" }}
+{{ $catPath := strings.TrimSuffix "/" .Parent.RelPermalink }}
+{{ $catHuman := title (humanize (index (split $catPath "/") (sub (len (split $catPath "/")) 1))) }}
+{{ $catLabel := .Parent.Title }}
+{{ if eq .Site.Language.Lang "en" }}{{ $catLabel = $catHuman }}{{ else }}{{ $catLabel = trim (index (split .Parent.Title "|") 0) " " }}{{ end }}
+{{ $imgAlt := printf "%s - %s wholesale from China factory" $productName $material }}
 <article class="product-detail">
     <div class="container">
         <!-- 面包屑导航 -->
@@ -9,8 +16,7 @@
             <span> / </span>
             <a href="{{ "/products/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}产品中心{{ else }}{{ if eq .Site.Language.Lang "en" }}Products{{ else }}المنتجات{{ end }}{{ end }}</a>
             <span> / </span>
-            {{ $parentTitle := "" }}
-            {{ with .Parent }}{{ $parentTitle = .Title }}{{ end }}
+            {{ $parentTitle := $catLabel }}
             <a href="{{ .Parent.RelPermalink }}">{{ $parentTitle }}</a>
             <span> / </span>
             <span>{{ .Title }}</span>
@@ -20,14 +26,10 @@
             <!-- 左侧：产品图片 -->
             <div class="product-images">
                 <div class="main-image">
-                    {{ $productName := .Params.product_name | default .Title }}
-                    {{ $material := .Params.material | default "High Quality Material" }}
-                    {{ $category := "" }}
-                    {{ with .Parent }}{{ $category = .Title }}{{ end }}
                     {{ if .Params.image }}
-                    {{ partial "img-webp" (dict "src" (.Params.image | relURL) "alt" (printf "%s - %s %s for %s - Model %s" $productName $material $category .Site.Title .Title) "title" $productName "loading" "lazy" "style" "max-width: 100%; height: auto;") }}
+                    {{ partial "img-webp" (dict "src" (.Params.image | relURL) "alt" $imgAlt "title" $productName "loading" "lazy" "style" "max-width: 100%; height: auto;") }}
                     {{ else }}
-                    <img src="/images/products/placeholder.svg" alt="{{ $productName }} - {{ $material }} {{ $category }} - Factory Direct from {{ .Site.Title }} - Model {{ .Title }}" title="{{ $productName }} - Image Coming Soon" loading="lazy" style="max-width: 100%; height: auto;">
+                    <img src="/images/products/placeholder.svg" alt="{{ $imgAlt }}" title="{{ $productName }} - Image Coming Soon" loading="lazy" style="max-width: 100%; height: auto;">
                     {{ end }}
                 </div>
                 <div class="thumbnail-grid">

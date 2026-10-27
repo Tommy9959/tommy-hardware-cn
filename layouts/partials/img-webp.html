@@ -25,19 +25,13 @@
 {{- $ext := lower (path.Ext $src) -}}
 {{- $webpSrc := replace $src $ext ".webp" -}}
 
-{{- /* 检查是否是 SVG 伪装成 .png */ -}}
-{{- $isSvg := false -}}
-{{- if eq $ext ".png" -}}
-  {{- /* 尝试读取文件前几个字节判断是否 SVG */ -}}
-  {{- $filePath := replace $src "/images/" "/static/images/" -}}
-  {{- if (fileExists (replace $src "/images/" "/static/images/")) -}}
-    {{- /* 无法在 Hugo 模板中读文件头，直接用扩展判断 */ -}}
-  {{- end -}}
-{{- end -}}
+{{- /* 只有在 .webp 文件真实存在时才输出 <source>，避免 404 裂图 */ -}}
+{{- $localWebp := replace $webpSrc "/images/" "/static/images/" -}}
+{{- $hasWebp := and (ne $ext ".svg") (fileExists $localWebp) -}}
 
 {{- /* 构建 <picture> 标签 */ -}}
 <picture>
-  {{- if ne $ext ".svg" -}}
+  {{- if $hasWebp -}}
   <source srcset="{{ $webpSrc }}" type="image/webp">
   {{- end -}}
   <img src="{{ $src }}" 

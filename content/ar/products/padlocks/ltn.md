@@ -1,7 +1,7 @@
 ---
 title: قفل مطرقة نحاسي مقلد - LTN - قفل | جملة نيجيريا أفريقيا
 description: قفل عالي الجودة قفل مطرقة نحاسي مقلد. توريد مباشر من المصنع.
-image: /images/products/padlocks/ltn.png
+image: /images/products/padlocks/ltn.jpg
 features:
   - 'سعر المصنع المباشر'
   - 'مواد عالية الجودة، متينة'

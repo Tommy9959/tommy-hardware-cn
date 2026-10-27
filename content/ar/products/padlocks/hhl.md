@@ -1,7 +1,7 @@
 ---
 title: قفل حديدي مستطيل ثقيل - HHL - قفل | جملة نيجيريا أفريقيا
 description: قفل عالي الجودة قفل حديدي مستطيل ثقيل. توريد مباشر من المصنع.
-image: /images/products/padlocks/hhl.png
+image: /images/products/padlocks/hhl.jpg
 features:
   - 'سعر المصنع المباشر'
   - 'مواد عالية الجودة، متينة'

@@ -1,7 +1,7 @@
 ---
 title: قفل فولاذي دائري مقاوم للماء - YGTK - قفل | جملة نيجيريا أفريقيا
 description: قفل عالي الجودة قفل فولاذي دائري مقاوم للماء. توريد مباشر من المصنع.
-image: /images/products/padlocks/ygtk.png
+image: /images/products/padlocks/ygtk.jpg
 features:
   - 'سعر المصنع المباشر'
   - 'مواد عالية الجودة، متينة'

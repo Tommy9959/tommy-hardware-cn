@@ -14,6 +14,10 @@ LOG_DIR="/Users/zhuxiaolei/.openclaw/workspace/logs"
 # 代理配置（统一走 clash mixed-port）
 PROXY="http://127.0.0.1:7890"
 
+# Python 解释器（系统 python3 缺 dotenv/google 依赖，优先用 hermes venv）
+PYTHON="/Users/zhuxiaolei/.hermes/hermes-agent/venv/bin/python"
+[ -x "$PYTHON" ] || PYTHON="python3"
+
 export HTTP_PROXY="$PROXY"
 export HTTPS_PROXY="$PROXY"
 export http_proxy="$PROXY"
@@ -33,7 +37,7 @@ log() {
 
 notify() {
     local msg="$1"
-    echo "$msg" | /opt/homebrew/bin/imsg rpc +8618358008400 2>/dev/null || true
+    echo "$msg" | /opt/homebrew/bin/imsg rpc +8618358008400 >/dev/null 2>&1 || true
 }
 
 # 基本 SEO 检测
@@ -48,9 +52,22 @@ basic_seo_check() {
     fi
     
     local sitemap_code=$(curl -s -x "$PROXY" -o /dev/null -w "%{http_code}" "$WEBSITE/sitemap.xml" 2>/dev/null)
-    local url_count=$(curl -s -x "$PROXY" "$WEBSITE/sitemap.xml" 2>/dev/null | grep -c "<loc>" || echo "0")
+    # sitemap.xml 是 sitemapindex（en/zh/ar 三个子 sitemap），必须累加子 sitemap 的 URL 数
+    local sm_root=$(curl -s -x "$PROXY" "$WEBSITE/sitemap.xml" 2>/dev/null)
+    local url_count=0
+    local sitemap_desc=""
+    if echo "$sm_root" | grep -q "<sitemapindex"; then
+        for _lang in en zh ar; do
+            local _n=$(curl -s -x "$PROXY" "$WEBSITE/$_lang/sitemap.xml" 2>/dev/null | grep -o "<loc>" | wc -l | tr -d " ")
+            url_count=$((url_count + ${_n:-0}))
+        done
+        sitemap_desc="$url_count 个 URL（en/zh/ar 三语言合计）"
+    else
+        url_count=$(echo "$sm_root" | grep -o "<loc>" | wc -l | tr -d " ")
+        sitemap_desc="$url_count 个 URL"
+    fi
     if [ "$sitemap_code" = "200" ]; then
-        report_section+="| sitemap.xml | ✅ | 可访问，$url_count 个 URL |\\n"
+        report_section+="| sitemap.xml | ✅ | 可访问，$sitemap_desc |\\n"
     else
         report_section+="| sitemap.xml | ❌ | HTTP $sitemap_code |\\n"
     fi
@@ -111,20 +128,39 @@ check_schema() {
 
 # 检查 GSC 凭据
 check_gsc_credentials() {
-    if [ -f "$HOME/.openclaw/service-env/gsc-oauth-token.json" ]; then
-        echo "| GSC API 凭据 | ✅ | OAuth Token 已配置 |"
-        # 尝试获取 GSC 数据（使用 perl 做跨平台超时，兼容 macOS 无 timeout 命令）
-        python3 "$SCRIPT_DIR/gsc-api-setup.py" --raw --days 7 > /tmp/gsc-weekly-data.json 2>/dev/null
-        if [ -f /tmp/gsc-weekly-data.json ] && [ -s /tmp/gsc-weekly-data.json ] && grep -q "total_impressions" /tmp/gsc-weekly-data.json 2>/dev/null; then
-            echo "| GSC 数据拉取 | ✅ | 成功 |"
+    local token="$HOME/.openclaw/service-env/gsc-oauth-token.json"
+    if [ ! -f "$token" ]; then
+        echo "| GSC API 凭据 | ⏸️ | 未配置（运行 scripts/gsc-api-setup.py 授权） |"
+        return
+    fi
+
+    # Token 过期日期（refresh token 失效后必须重新授权，不会自动恢复）
+    local exp=$("$PYTHON" -c "import json,sys;print(json.load(open(sys.argv[1])).get('expiry','')[:10])" "$token" 2>/dev/null)
+    if [ -n "$exp" ]; then
+        if [ "$exp" \< "$(date +%Y-%m-%d)" ]; then
+            echo "| GSC API 凭据 | ❌ | Token 已于 $exp 过期 |"
         else
-            notify "⚠️ GSC 周报数据拉取失败（$TIMESTAMP）"
-            echo "| GSC 数据拉取 | ⚠️ | API 调用失败 |"
+            echo "| GSC API 凭据 | ✅ | Token 有效至 $exp |"
         fi
-    elif [ -f "$HOME/.openclaw/service-env/gsc-credentials.json" ]; then
-        echo "| GSC API 凭据 | ⏸️ | 旧版 service account 凭据，建议用 OAuth 重授权 |"
+    fi
+
+    rm -f /tmp/gsc-weekly-data.json /tmp/gsc-weekly-err.log
+    "$PYTHON" "$SCRIPT_DIR/gsc-api-setup.py" --raw --days 7 > /tmp/gsc-weekly-data.json 2>/tmp/gsc-weekly-err.log
+
+    if grep -q "total_impressions" /tmp/gsc-weekly-data.json 2>/dev/null; then
+        echo "| GSC 数据拉取 | ✅ | 成功 |"
     else
-        echo "| GSC API 凭据 | ⏸️ | 未配置（运行 gsc-api-setup.py --auth 授权） |"
+        local reason="未知错误"
+        if grep -q "invalid_grant" /tmp/gsc-weekly-err.log /tmp/gsc-weekly-data.json 2>/dev/null; then
+            reason="refresh token 失效(invalid_grant) → 必须重新授权"
+        elif grep -q "Max retries\|ProxyError\|Connection" /tmp/gsc-weekly-err.log 2>/dev/null; then
+            reason="网络/代理不通（检查 Clash 7890 端口）"
+        elif grep -q "No module named" /tmp/gsc-weekly-err.log 2>/dev/null; then
+            reason="Python 依赖缺失"
+        fi
+        echo "| GSC 数据拉取 | ❌ | $reason |"
+        echo "| 处理办法 | 🔧 | $PYTHON $SCRIPT_DIR/gsc-api-setup.py --auth |"
+        notify "⚠️ GSC 周报数据拉取失败：$reason（$TIMESTAMP）"
     fi
 }
 
@@ -182,6 +218,40 @@ REPORTHEADER
     echo "- ✅ 持续更新客户案例和博客内容" >> "$REPORT_FILE"
     echo "- ✅ 检查产品页面是否保持最新" >> "$REPORT_FILE"
     echo "" >> "$REPORT_FILE"
+    if grep -q "total_impressions" /tmp/gsc-weekly-data.json 2>/dev/null; then
+        echo "## 6. 📈 搜索表现（近 7 天）" >> "$REPORT_FILE"
+        echo "" >> "$REPORT_FILE"
+        "$PYTHON" - /tmp/gsc-weekly-data.json >> "$REPORT_FILE" <<'PYEOF'
+import json, sys
+d = json.load(open(sys.argv[1]))
+print("| 指标 | 数值 |")
+print("|------|------|")
+print(f"| 点击 | {d.get('total_clicks', 0)} |")
+print(f"| 展示 | {d.get('total_impressions', 0)} |")
+print(f"| CTR | {d.get('avg_ctr_percent', 0)}% |")
+print(f"| 平均排名 | {d.get('avg_position', 0)} |")
+rows = d.get('top_queries', [])[:10]
+if rows:
+    print("")
+    print("**Top 关键词**")
+    print("")
+    print("| 关键词 | 展示 | 点击 | 排名 |")
+    print("|--------|------|------|------|")
+    for r in rows:
+        print(f"| {r['keyword']} | {r['impressions']} | {r['clicks']} | {r['position']} |")
+pages = d.get('top_pages', [])[:8]
+if pages:
+    print("")
+    print("**Top 页面**")
+    print("")
+    print("| 页面 | 展示 | 点击 | 排名 |")
+    print("|------|------|------|------|")
+    for r in pages:
+        print(f"| {r['page']} | {r['impressions']} | {r['clicks']} | {r['position']} |")
+PYEOF
+        echo "" >> "$REPORT_FILE"
+    fi
+
     echo "---" >> "$REPORT_FILE"
     echo "" >> "$REPORT_FILE"
     local report_date=$(date '+%Y-%m-%d %H:%M')

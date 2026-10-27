@@ -1,7 +1,7 @@
 ---
 title: قفل حديدي مربع مطلي بالكروم - SF - قفل | جملة نيجيريا أفريقيا
 description: قفل عالي الجودة قفل حديدي مربع مطلي بالكروم. توريد مباشر من المصنع.
-image: /images/products/padlocks/sf.png
+image: /images/products/padlocks/sf.jpg
 features:
   - 'سعر المصنع المباشر'
   - 'مواد عالية الجودة، متينة'

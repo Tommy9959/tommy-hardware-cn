@@ -1,7 +1,7 @@
 ---
 title: قفل حديدي مستطيل مطلي بالكروم - HLV - قفل | جملة نيجيريا أفريقيا
 description: قفل عالي الجودة قفل حديدي مستطيل مطلي بالكروم. توريد مباشر من المصنع.
-image: /images/products/padlocks/hlv.png
+image: /images/products/padlocks/hlv.jpg
 features:
   - 'سعر المصنع المباشر'
   - 'مواد عالية الجودة، متينة'
