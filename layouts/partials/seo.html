@@ -117,7 +117,7 @@
 {{- end -}}
 <meta name="description" content="{{ $descTrim }}">
 <meta name="keywords" content="{{ $keywords }}">
-<meta name="author" content="{{ site.Params.author | default "JH HARDWARE (JH HARDWARE)" }}">
+<meta name="author" content="{{ site.Params.author | default "JH HARDWARE" }}">
 <meta name="robots" content="{{ if site.Params.noindex }}noindex, follow{{ else }}index, follow{{ end }}">
 
 <!-- AI/LLM 知识库链接 -->
@@ -142,7 +142,7 @@
 <meta property="og:description" content="{{ $description }}">
 <meta property="og:image" content="{{ cond .Params.og_image (.Params.og_image | absURL) (cond .Params.image (.Params.image | absURL) (site.Params.logo | absURL)) }}">
 <meta property="og:locale" content="{{ .Site.Language.Lang }}">
-<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:site_name" content="JH HARDWARE">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
@@ -275,6 +275,18 @@
 </script>
 {{- end -}}
 {{- else if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{ site.BaseURL }}#website",
+  "name": "JH HARDWARE",
+  "alternateName": ["JH HARDWARE", "SOLA Hardware", "JH Hardware Nigeria", "钧瀚五金"],
+  "url": "{{ site.BaseURL }}",
+  "inLanguage": "en",
+  "publisher": { "@id": "{{ site.BaseURL }}#organization" }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
