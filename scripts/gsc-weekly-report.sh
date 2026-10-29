@@ -145,7 +145,7 @@ check_gsc_credentials() {
     fi
 
     rm -f /tmp/gsc-weekly-data.json /tmp/gsc-weekly-err.log
-    "$PYTHON" "$SCRIPT_DIR/gsc-api-setup.py" --raw --days 7 > /tmp/gsc-weekly-data.json 2>/tmp/gsc-weekly-err.log
+    "$PYTHON" "$SCRIPT_DIR/gsc_fetch.py" --raw --days 7 > /tmp/gsc-weekly-data.json 2>/tmp/gsc-weekly-err.log
 
     if grep -q "total_impressions" /tmp/gsc-weekly-data.json 2>/dev/null; then
         echo "| GSC 数据拉取 | ✅ | 成功 |"
@@ -159,7 +159,7 @@ check_gsc_credentials() {
             reason="Python 依赖缺失"
         fi
         echo "| GSC 数据拉取 | ❌ | $reason |"
-        echo "| 处理办法 | 🔧 | $PYTHON $SCRIPT_DIR/gsc-api-setup.py --auth |"
+        echo "| 处理办法 | 🔧 | $PYTHON $SCRIPT_DIR/gsc-api-setup.py --auth（浏览器重新授权） |"
         notify "⚠️ GSC 周报数据拉取失败：$reason（$TIMESTAMP）"
     fi
 }

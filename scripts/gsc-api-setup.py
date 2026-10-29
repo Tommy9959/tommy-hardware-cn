@@ -70,7 +70,19 @@ def get_service():
             f.write(creds.to_json())
         log(f"💾 Token 已保存")
 
-    return build('searchconsole', 'v1', credentials=creds, static_discovery=False)
+    # 走 Clash 代理：httplib2 不读 HTTP_PROXY 环境变量，必须显式传 proxy_info
+    # 且 www.googleapis.com 在代理里不通（discovery 会超时），改用内置 static discovery
+    try:
+        import httplib2
+        from google_auth_httplib2 import AuthorizedHttp
+        proxy_info = httplib2.ProxyInfo(httplib2.socks.PROXY_TYPE_HTTP, '127.0.0.1', 7890)
+        http_obj = httplib2.Http(proxy_info=proxy_info, timeout=60)
+        auth_http = AuthorizedHttp(creds, http=http_obj)
+        return build('searchconsole', 'v1', http=auth_http,
+                     static_discovery=True, cache_discovery=False)
+    except Exception as e:
+        log(f"⚠️ 代理/静态发现失败({e})，回退默认方式")
+        return build('searchconsole', 'v1', credentials=creds, static_discovery=False)
 
 
 def fetch_gsc_data(service, days=90, dims=None, row_limit=25):
