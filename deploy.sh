@@ -26,7 +26,7 @@ git push origin main
 echo "🌐 Deploying to gh-pages..."
 git worktree add /tmp/deploy gh-pages
 rm -rf /tmp/deploy/*
-cp -r "$DEPLOY_DIR"/* /tmp/deploy/
+cp -a "$DEPLOY_DIR"/. /tmp/deploy/   # 用 /. 才能带上 .well-known 这类点目录
 echo "jh-hardware.com" > /tmp/deploy/CNAME
 cp static/llms.txt /tmp/deploy/llms.txt 2>/dev/null || true
 
