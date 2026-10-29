@@ -1,6 +1,6 @@
 ---
-title: "Door Locks Jamming in Nigeria? 5 Fixes That Work (Harmattan Dust & Humidity)"
-description: "Why door locks jam in Nigeria — Harmattan dust, coastal humidity solutions. 5 common lock problems fixed with graphite powder & simple tools. SOLA hardware expert guide."
+title: "Door Locks Jamming? 5 Fixes for Nigeria"
+description: "Why door locks jam in Nigeria - Harmattan dust and coastal humidity. 5 fixes with graphite powder and simple tools, plus how to pick a lock that lasts."
 keywords: "door lock problems Nigeria, door lock jamming fix, door lock stuck Nigeria, Harmattan dust door lock, door lock repair Nigeria, Nigeria door hardware maintenance, door lock lubrication, padlock rust Nigeria"
 author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-06-09"

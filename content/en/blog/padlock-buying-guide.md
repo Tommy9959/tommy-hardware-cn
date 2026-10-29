@@ -1,6 +1,6 @@
 ---
-title: "Best Padlock in Nigeria 2026: Waterproof vs Laminated vs Brass — Wholesale Price Guide"
-description: "Best padlock in Nigeria from China factory — waterproof GTK, laminated & solid brass padlock wholesale prices 2026. Which type sells best in Lagos, Kano, PH? Free samples for importers."
+title: "Padlock Wholesale Nigeria – Brass, Laminated"
+description: "Padlock wholesale prices in Nigeria 2026: waterproof GTK, laminated and solid brass padlocks from $0.80/pc. Which type sells best in Lagos and Onitsha."
 keywords: "padlocks for Africa, padlocks Nigeria, waterproof padlock, laminated padlock, brass padlock, Nigeria hardware import, SOLA padlock, padlock prices China, best padlock for outdoor use"
 author: "JH HARDWARE"
 date: "2026-05-21"

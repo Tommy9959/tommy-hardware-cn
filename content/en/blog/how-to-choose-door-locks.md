@@ -1,6 +1,6 @@
 ---
-title: "Door Lock Price in Nigeria 2026 | Best Selling Locks with Real Prices"
-description: "Door lock price in Nigeria — factory direct from $2.50/pc. Real sales data shows the best selling mortise locks, padlocks, cylinder locks. Wholesale door lock prices for Lagos, Abuja, Port Harcourt buyers."
+title: "Door Lock Types & Prices in Nigeria 2026"
+description: "Door lock price in Nigeria from $2.50/pc - mortise, cylinder and rim locks compared, with best-selling types for Nigerian homes and wholesale prices."
 keywords: "door locks Nigeria, what sells Nigeria, mortise locks, padlocks, smart locks, SOLA locks, JH Hardware, Lagos hardware market"
 author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-04-29"

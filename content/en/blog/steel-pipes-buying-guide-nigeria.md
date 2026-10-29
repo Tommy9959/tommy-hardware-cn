@@ -1,6 +1,6 @@
 ---
-title: "Iron Casing Pipe 16mm & 25mm Price Nigeria 2026 — Get Factory Price Now"
-description: "Don't overpay for iron casing pipes in Nigeria. 16mm and 25mm embedded/conduit pipes at factory-direct prices. Complete sizing guide, quality checks, price table with MOQ — 10 years supplying Lagos, Abuja & Port Harcourt."
+title: "Iron Casing Pipe Price Nigeria 16mm & 25mm"
+description: "Iron casing pipe price in Nigeria 2026: 16mm and 25mm embedded and conduit pipes at factory-direct cost. Sizing guide, weight per bundle, quality checks."
 keywords: "iron casing pipes Nigeria, 16mm pipe, 25mm pipe, casing pipe Nigeria, iron pipes for construction, embedded pipes, conduit pipes, building materials Nigeria"
 author: "JH HARDWARE"
 date: "2026-05-27"

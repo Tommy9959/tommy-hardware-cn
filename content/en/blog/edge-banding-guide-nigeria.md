@@ -1,6 +1,6 @@
 ---
-title: "Edge Banding Guide for Nigeria: Types, Thickness & Buying Tips (2026)"
-description: "Everything Nigerian furniture makers and importers need to know about edge banding — PVC vs ABS vs melamine, thickness from 0.4mm to 3mm, adhesive types, color matching, and how to buy factory direct from SOLA Hardware."
+title: "Edge Banding Types & Price in Nigeria"
+description: "Edge banding for Nigerian furniture makers: PVC vs ABS vs melamine, 0.4mm-3mm thickness, adhesive choice and 2026 wholesale prices per roll from China."
 keywords: "edge banding Nigeria, PVC edge banding, ABS edge banding, melamine edge banding, wood veneer edge banding, furniture edge finishing Nigeria, SOLA edge banding, edge banding thickness, hot melt glue edge banding, pre-glued edge banding, edge banding rolls Nigeria, furniture hardware Nigeria"
 author: "Tommy — JH Hardware (10 Years Exporting to Africa)"
 date: "2026-06-03"

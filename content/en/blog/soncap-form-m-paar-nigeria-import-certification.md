@@ -1,6 +1,6 @@
 ---
-title: "SONCAP, Form M & PAAR Nigeria 2026: Free Certificate Guide — Avoid Customs Fines"
-description: "Don't let your container rot at Apapa port. Complete step-by-step SONCAP, Form M & PAAR guide from 10-year hardware exporter. Common mistakes, costs, and why we provide these documents FREE for every customer."
+title: "SONCAP, Form M & PAAR Nigeria 2026 Guide"
+description: "Step-by-step SONCAP, Form M and PAAR guide for Nigeria imports 2026 - costs, timelines and the mistakes that leave containers stuck at Apapa."
 keywords: "SONCAP Nigeria, Form M Nigeria, PAAR Nigeria, Nigeria import certification, Nigeria customs clearance, Apapa port clearance, import hardware to Nigeria, SONCAP certificate cost, Form M application, Pre-Arrival Assessment Report, JH Hardware, SOLA Hardware"
 author: "Tommy — JH Hardware (10 Years Exporting to Africa)"
 date: "2026-06-03"

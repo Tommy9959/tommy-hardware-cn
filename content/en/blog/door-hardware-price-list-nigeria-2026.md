@@ -1,6 +1,6 @@
 ---
-title: "How Much Does Door Hardware Cost in Nigeria 2026? Full Price List for Locks, Hinges & Handles"
-description: "Complete 2026 price list for door locks, hinges, handles & padlocks in Nigeria. Real wholesale FOB prices from a China factory — door lock $1.50–$6.00/pc, hinges from $0.20. How to avoid overpaying at the market."
+title: "Door Hardware Price List Nigeria 2026"
+description: "Full 2026 price list for door locks, hinges, handles and padlocks in Nigeria - real factory FOB prices from $0.50/pc. Free samples, ship in 15-25 days."
 keywords: "door hardware price Nigeria 2026, door lock price in Nigeria, door hinge price Nigeria, door handle price Nigeria, padlock price Nigeria, wholesale hardware Nigeria, buy door locks in Nigeria, hardware supplier Lagos"
 author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-08-04"

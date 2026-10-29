@@ -1,6 +1,6 @@
 ---
-title: "Door Lock Price in Nigeria 2026 from $2.50 | Wholesale with Free SONCAP"
-description: "Door lock price in Nigeria from $2.50/pc (FOB Yiwu). Wholesale iron & aluminum door locks (kabza) shipped to Lagos, Abuja, Port Harcourt, Onitsha. Free SONCAP + container mixed loading accepted. Factory direct prices for Nigerian importers — view the 2026 price list & MOQ."
+title: "Door Lock Price in Nigeria 2026 – From $2.50"
+description: "Door lock price in Nigeria 2026: mortise, cylinder and rim locks from $2.50/pc, 50+ models. Wholesale to Lagos and Onitsha, free samples, SONCAP ready."
 products:
   - model: "DL-001"
     name: "Iron Plate Aluminum Handle Door Lock 755-151"
