@@ -7,7 +7,7 @@
 {{- $brand := cond (eq .Site.Language.Lang "zh") "JH HARDWARE" (cond (eq .Site.Language.Lang "ar") "JH HARDWARE" "JH HARDWARE") -}}
 
 {{- /* 品牌全称（用于Schema） */ -}}
-{{- $company := cond (eq .Site.Language.Lang "zh") "JH HARDWARE（钧瀚五金）" (cond (eq .Site.Language.Lang "ar") "شركة ييو شويهوي للاستيراد والتصدير" "JH HARDWARE") -}}
+{{- $company := cond (eq .Site.Language.Lang "zh") "JH HARDWARE（钧瀚五金）" (cond (eq .Site.Language.Lang "ar") "JH HARDWARE" "JH HARDWARE") -}}
 
 {{- /* 标题：首页用完整标题，其他页面用短品牌名 */ -}}
 {{- $title := cond .IsHome site.Title (printf "%s | %s" .Title $brand) -}}
@@ -40,12 +40,12 @@
     {{- $priceHint := .Params.price_range | default "Factory Direct Price" -}}
     {{- $descCore := .Description | default "" -}}
     {{- if $descCore -}}
-        {{- /* 如果 frontmatter 有 description，用它，补充关键信息 */ -}}
-        {{- $tail := printf " MOQ %s, %s. Factory direct from China. Export to Nigeria, Africa." (.Params.moq | default "400 pcs") $priceHint -}}
-        {{- if le (add (len $descCore) (len $tail)) 155 -}}
-            {{- $description = printf "%s%s" $descCore $tail -}}
+        {{- /* 结构化生成（不含截断残句）：材质/工艺/用途/MOQ/价格，便于 AI 直接引用 */ -}}
+        {{- $descClean := printf "%s — %s%s. MOQ %s, %s. Factory direct to Nigeria & Africa." $productName $material (cond (ne $finish "") (printf ", %s finish" $finish) "") (.Params.moq | default "400 pcs") $priceHint -}}
+        {{- if gt (len $descClean) 150 -}}
+            {{- $description = printf "%s — %s%s. %s." $productName $material (cond (ne $finish "") (printf ", %s finish" $finish) "") $priceHint -}}
         {{- else -}}
-            {{- $description = $descCore -}}
+            {{- $description = $descClean -}}
         {{- end -}}
     {{- else -}}
         {{- $description = printf "%s - %s. Made of %s%s. Application: %s. MOQ %s, %s. Factory direct, ISO 9001. Export to Nigeria, Dubai, Africa." .Title $productName $material (cond (ne $finish "") (printf ", %s finish" $finish) "") $application (.Params.moq | default "400 pcs") $priceHint -}}
@@ -177,7 +177,9 @@
 
 <!-- 结构化数据 (Schema.org) -->
 {{- if eq .Section "products" -}}
-{{- $category := "" -}}{{ with .Parent }}{{ $category = .Title }}{{ end -}}
+{{- if .IsPage -}}
+{{- $category := "" -}}
+{{- with .Parent }}{{ $category = title (humanize (path.Base (strings.TrimSuffix "/" $.File.Dir))) }}{{ end -}}
 {{- $isDoorlock := strings.Contains .File.Dir "door-locks" -}}
 {{- /* 真实分类名称：从 Dir 路径提取最后一段 */ -}}
 {{- $skuID := .File.ContentBaseName -}}
@@ -198,11 +200,19 @@
     "name": "{{ if $isDoorlock }}SOLA{{ else }}JH HARDWARE{{ end }}",
     "url": "{{ "/" | absURL }}"
   },
+  {{- $priceNum := 0.0 -}}
+  {{- with .Params.price_range -}}
+    {{- $parts := split . "$" -}}
+    {{- if gt (len $parts) 1 -}}
+      {{- $numStr := index (split (index $parts 1) " ") 0 -}}
+      {{- if $numStr -}}{{- $priceNum = float $numStr -}}{{- end -}}
+    {{- end -}}
+  {{- end }}
+  {{- if gt $priceNum 0.0 }}
   "offers": {
     "@type": "Offer",
     "priceCurrency": "USD",
-    "price": {{ if .Params.price_range }}{{ $priceStr := index (split (index (split .Params.price_range "$") 1) " ") 0 | default "0" }}{{ $priceNum := float $priceStr }}{{ if gt $priceNum 0.0 }}{{ $priceNum }}{{ else }}0{{ end }}{{ else }}0{{ end }},
-
+    "price": {{ $priceNum }},
     "priceValidUntil": "2027-12-31",
     "availability": "https://schema.org/InStock",
     "seller": {
@@ -216,6 +226,7 @@
       "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
     }
   },
+  {{- end }}
   "material": "{{ .Params.material | default "Stainless Steel" }}",
   "category": "{{ $category }}",
   {{- if .Params.finish }}"color": "{{ .Params.finish }}",{{ end }}
@@ -233,6 +244,36 @@
   }
 }
 </script>
+{{- else -}}
+{{- /* 分类页：不要用 Product(price:0)，改成 CollectionPage + ItemList */ -}}
+{{- $catName := title (humanize .File.ContentBaseName) -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "{{ .Permalink }}#collection",
+  "name": {{ .Title | jsonify | safeJS }},
+  "url": "{{ .Permalink }}",
+  "description": {{ $description | jsonify | safeJS }},
+  "isPartOf": { "@type": "WebSite", "name": "JH HARDWARE", "url": "{{ site.BaseURL }}" },
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": {{ printf "%s products" $catName | jsonify | safeJS }},
+    "numberOfItems": {{ len .Pages }},
+    "itemListElement": [
+      {{- range $idx, $pg := first 24 .Pages }}
+      {
+        "@type": "ListItem",
+        "position": {{ add $idx 1 }},
+        "name": {{ $pg.Params.product_name | default $pg.Title | jsonify | safeJS }},
+        "url": "{{ $pg.Permalink }}"
+      }{{ if lt (add $idx 1) (len (first 24 $.Pages)) }},{{ end }}
+      {{- end }}
+    ]
+  }
+}
+</script>
+{{- end -}}
 {{- else if .IsHome -}}
 <script type="application/ld+json">
 {
@@ -369,21 +410,27 @@
       "name": "{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}{{ if eq .Site.Language.Lang "ar" }}الرئيسية{{ else }}Home{{ end }}{{ end }}",
       "item": "{{ site.BaseURL }}"
     }
-    {{- $sections := .Ancestors -}}
-    {{- range $i, $section := $sections.Reverse }}
-    {{- if not $section.IsHome }}
-    ,{
-      "@type": "ListItem",
-      "position": {{ add $i 2 }},
-      "name": "{{ $section.Title }}",
-      "item": "{{ $section.Permalink }}"
-    }
-    {{- end -}}
+    {{- $pos := 1 -}}
+    {{- range .Ancestors.Reverse }}
+    {{- if not .IsHome }}
+    {{- $pos = add $pos 1 }}
+    {{- $bname := .Title -}}
+    {{- if and (eq .Section "products") .File -}}
+      {{- $bname = title (humanize (path.Base (strings.TrimSuffix "/" .File.Dir))) -}}
     {{- end }}
     ,{
       "@type": "ListItem",
-      "position": {{ add (len $sections) 1 }},
-      "name": "{{ .Title }}"
+      "position": {{ $pos }},
+      "name": {{ $bname | jsonify | safeJS }},
+      "item": "{{ .Permalink }}"
+    }
+    {{- end -}}
+    {{- end }}
+    {{- $pos = add $pos 1 }}
+    ,{
+      "@type": "ListItem",
+      "position": {{ $pos }},
+      "name": {{ .Title | jsonify | safeJS }}
     }
   ]
 }

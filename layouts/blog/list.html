@@ -30,7 +30,9 @@
                         <span class="blog-author">✍️ {{ .Params.author }}</span>
                         {{ end }}
                     </div>
-                    <p class="blog-excerpt">{{ .Summary | truncate 200 }}</p>
+                    {{- /* 摘要里如果夹着内联 JSON-LD 脚本，会渲染成"坏掉的代码"，先剥掉 */ -}}
+                    {{- $excerpt := .Summary | replaceRE "(?s)<script.*?</script>" "" | truncate 200 -}}
+                    <p class="blog-excerpt">{{ $excerpt }}</p>
                     <a href="{{ .RelPermalink }}" class="btn btn-primary">
                         {{ if eq $.Site.Language.Lang "zh" }}阅读全文 →{{ else }}{{ if eq $.Site.Language.Lang "en" }}Read More →{{ else }}اقرأ المزيد →{{ end }}{{ end }}
                     </a>

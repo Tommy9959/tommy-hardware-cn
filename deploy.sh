@@ -10,6 +10,8 @@ DEPLOY_DIR=~/Sites/docs
 cd "$SITE_DIR"
 
 echo "🔨 Building..."
+# 重新生成 llms.txt / llms-full.txt（数字来自 content/，避免过期）
+python3 scripts/gen_llms.py || echo "⚠️ gen_llms.py 失败，沿用旧文件"
 rm -rf "$DEPLOY_DIR"/*
 hugo --destination "$DEPLOY_DIR"
 

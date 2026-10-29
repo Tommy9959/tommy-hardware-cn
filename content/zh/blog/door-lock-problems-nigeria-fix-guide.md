@@ -8,79 +8,6 @@ tags: ["门锁问题", "门锁维修", "尼日利亚五金保养", "Harmattan沙
 categories: ["维保指南", "实战经验"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "尼日利亚门锁为什么卡住？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "尼日利亚门锁卡住主要是由于"三重威胁"：Harmattan风沙（11月至3月）堵塞锁芯弹子、沿海高湿度（拉各斯和哈科特港湿度常达80-90%）导致内部弹簧锈蚀，以及安装不当造成的锁扣板偏移。使用劣质锁具会加速这些问题。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "门锁转不动怎么修？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "用石墨粉——绝对不要用WD-40或食用油。把石墨粉喷嘴插进锁孔喷两下，然后插拔钥匙5-6次让石墨分布均匀。这个方法能解决90%由Harmattan风沙导致的卡锁问题。如果还卡，用电子触点清洁剂冲洗锁芯，晾干后再上石墨粉。最后的手段是更换锁芯（标准插芯门锁锁芯₦1,500-3,000）。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "尼日利亚门锁用什么润滑剂最好？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "石墨粉是尼日利亚门锁最好的润滑剂。WD-40是溶剂会洗掉原有润滑，食用油会变黏吸附沙尘。石墨粉是干性润滑剂，不会吸附Harmattan风沙，也不会在高温下降解。拉各斯、阿布贾、哈科特港五金店都有卖，约₦500-1,000一罐，能用好几年。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "断在锁里的钥匙怎么取？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "如果断钥匙露在外面，用尖嘴钳夹住直着拔出来——不要拧。如果完全断在里面，用断钥匙取出器（五金店约₦500-1,000），把带钩的一端插进去钩住钥匙齿往外拉。最后的手段是在断钥匙上钻个小孔，用弯成钩的细铁丝或回形针勾出来。取出后建议直接更换锁芯。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "门关不严怎么办？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "大多数情况不是锁的问题。原因要么是木门在尼日利亚高湿度下膨胀（拉各斯和哈科特港湿度80-90%），导致锁舌对不准锁扣板；要么是门框沉降导致偏移。膨胀的门用砂纸或手刨磨掉1-2mm；锁扣板偏移则拧松螺丝移动2-3mm再拧紧。过去10年接到的"锁坏了"投诉中，80%其实只是锁扣板偏了。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "怎么防止哈马丹风沙损坏门锁？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "在Harmattan季（11月）之前给家里每把锁上石墨粉，防止沙尘和润滑油混合成研磨膏。户外挂锁选带橡胶防尘盖的型号。如果锁已经接触沙尘了，先用压缩空气或触点清洁剂清理锁芯，再上新鲜石墨粉。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "沿海地区用什么锁好？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "尼日利亚沿海城市（拉各斯、哈科特港）湿度常达80-90%，标准镀锌挂锁3-6个月就开始生锈，而SS304不锈钢挂锁能用5年以上。虽然SS304挂锁贵₦1,000-2,000，但长期来看更划算。同时建议选带橡胶防尘盖的型号，延长使用寿命。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "怎么选择适合尼日利亚的门锁？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "选择知名品牌（如SOLA）的中端插芯门锁（$3-$6），正常维护能用5-10年，不要买$1.5的无名便宜锁。沿海地区优先选择SS304不锈钢或磷化处理五金件。户外挂锁选不锈钢而非镀锌。建议找提供免费样品验证和SONCAP支持的供应商，确保批量采购前的品质。"
-      }
-    }
-  ]
-}
-</script>
-
 ## 尼日利亚门锁老是卡住？常见问题与解决方法
 
 *作者：Tommy — 10年向尼日利亚出口五金门锁经验*
@@ -218,29 +145,6 @@ categories: ["维保指南", "实战经验"]
 
 > **我的推荐：** SOLA ST-3000系列采用加厚钢制弹簧套筒，专门针对高频使用场景设计。我们卖了3年，弹簧故障率不到0.5%。
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "SOLA ST-3000 插芯门锁",
-  "description": "专为尼日利亚高频率使用环境设计的加厚钢制弹簧套筒插芯门锁，抗Harmattan沙尘和潮湿。",
-  "brand": {
-    "@type": "Brand",
-    "name": "SOLA"
-  },
-  "category": "门锁",
-  "offers": {
-    "@type": "AggregateOffer",
-    "priceCurrency": "USD",
-    "lowPrice": "3",
-    "highPrice": "6",
-    "offerCount": "10",
-    "availability": "https://schema.org/InStock",
-    "url": "https://jh-hardware.com/zh/products/door-locks/"
-  }
-}
-</script>
-
 ---
 
 ## 问题五：钥匙断在锁里
@@ -299,30 +203,6 @@ categories: ["维保指南", "实战经验"]
 
 👉 **[看看我们畅销的插芯门锁 →](/zh/products/)**  
 👉 **[浏览沿海用SS304挂锁 →](/zh/products/#padlocks)**
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "SS304不锈钢沿海挂锁",
-  "description": "专为尼日利亚沿海潮湿环境设计的不锈钢SS304挂锁，在拉各斯和哈科特港耐锈蚀，使用寿命5年以上。",
-  "brand": {
-    "@type": "Brand",
-    "name": "SOLA"
-  },
-  "category": "挂锁",
-  "offers": {
-    "@type": "AggregateOffer",
-    "priceCurrency": "USD",
-    "lowPrice": "2",
-    "highPrice": "5",
-    "offerCount": "15",
-    "availability": "https://schema.org/InStock",
-    ## 需要真正适合尼日利亚环境的锁具吗？
-
-别再每隔6个月换一次便宜锁了。我们向尼日利亚市场供应五金已经10年了——我们知道在拉各斯的潮湿、阿布贾的干热，以及各种气候条件下什么产品才真正好用。
-
-不管你是受够了门锁卡死烦恼的房主、正在盖楼的工程承包商，还是寻找稳定货源的分销商，我们都有适合你具体需求的产品。**我们提供免费样品**，让你在大量采购前先验证品质。所有产品均提供**全套SONCAP认证资料**，确保清关顺畅。作为**工厂直供供应商**，我们去掉中间商差价，给你实打实的批发价格。
 
 **📧 邮箱：** z946487044@icloud.com  
 **💬 WhatsApp：** +86 183 5800 8400  

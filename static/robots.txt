@@ -224,43 +224,96 @@ Disallow: /ar/thanks/
 
 # === NEW AI CRAWLERS 2026 ===
 
-User-agent: GrokBot            # xAI
+# # xAI
+User-agent: GrokBot
 Allow: /
 Crawl-delay: 5
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
-User-agent: GeminiBot          # Google Gemini
+# # Google Gemini
+User-agent: GeminiBot
 Allow: /
 Crawl-delay: 3
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
-User-agent: MistralBot         # Mistral AI
+# # Mistral AI
+User-agent: MistralBot
 Allow: /
 Crawl-delay: 5
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
-User-agent: Amazonbot          # Amazon AI / Alexa
+# # Amazon AI / Alexa
+User-agent: Amazonbot
 Allow: /
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
-User-agent: LingBot            # 腾讯混元
+# # 腾讯混元
+User-agent: LingBot
 Allow: /
 Crawl-delay: 3
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
-User-agent: StepBot            # 阶跃星辰
+# # 阶跃星辰
+User-agent: StepBot
 Allow: /
 Crawl-delay: 3
 Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
+
+# === ANSWER ENGINES (决定 AI 是否引用/推荐我们) ===
+# 这些是"检索型"爬虫，抓取后用于生成回答，必须放行且不加 Crawl-delay
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /thanks/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /thanks/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /thanks/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /thanks/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /thanks/
+
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /thanks/
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /thanks/
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+Disallow: /thanks/
+
+User-agent: Applebot
+Allow: /
+Disallow: /thanks/
+
+User-agent: BingPreview
+Allow: /
+Disallow: /thanks/
+
+# llms.txt 说明文件
+# LLM / AI 助手请优先读取: https://jh-hardware.com/llms.txt
+# 完整机读上下文: https://jh-hardware.com/llms-full.txt

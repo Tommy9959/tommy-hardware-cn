@@ -8,79 +8,6 @@ tags: ["door lock problems", "door lock repair", "Nigeria maintenance", "Harmatt
 categories: ["Maintenance Guide", "From Our Experience"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Why do door locks jam in Nigeria?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Door locks jam in Nigeria mainly due to the 'Nigeria Triple Threat': Harmattan dust (November–March) that clogs the pin tumblers, coastal humidity (especially in Lagos and Port Harcourt) that rusts internal springs and latch bolts, and poor installation that causes misaligned strike plates. Cheap locks with low-grade materials fail much faster under these conditions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How to fix a door lock that won't turn?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use graphite powder — never WD-40 or oil. Insert the graphite nozzle into the keyhole, give two short puffs, then insert and remove the key 5-6 times to distribute the graphite. This fixes 90% of stuck locks caused by Harmattan dust. If the lock is still stuck, use contact cleaner to flush the cylinder, let it dry, then reapply graphite. As a last resort, replace the cylinder (₦1,500-3,000 for standard mortise locks)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the best lubricant for door locks in Nigeria?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Graphite powder is the best lubricant for door locks in Nigeria. Unlike WD-40 (a solvent that strips existing lubrication) or cooking oil (which gets sticky and attracts dust), graphite is a dry lubricant that won't trap Harmattan dust or degrade in Nigeria's heat. It costs about ₦500-1,000 at most hardware stores in Lagos, Abuja, and Port Harcourt, and a single tube lasts for years of regular lock maintenance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How to remove a broken key from a lock?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If part of the key is sticking out, use needle-nose pliers to grip it and pull straight out — do not twist. If the key is fully inside, use a broken key extractor tool (₦500-1,000 at hardware or auto parts shops), insert the hooked end alongside the broken key, hook the teeth, and pull. As a last resort, drill a small hole in the broken key, insert a bent paperclip as a hook, and pull gently. After removal, replace the lock cylinder as it is likely damaged."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why won't my door close properly?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most often the issue is not the lock but either wood swelling from Nigeria's high humidity (80-90% in Lagos and Port Harcourt) or a shifted strike plate from settling door frames. Fix swollen doors by sanding 1-2mm from the door edge where the latch meets the strike plate. Fix misaligned strike plates by loosening the screws, shifting the plate 2-3mm, and retightening. About 80% of 'broken lock' complaints are actually just misaligned strike plates."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How to prevent Harmattan dust from damaging locks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Apply graphite powder to every lock in your house before Harmattan season starts (before November). This prevents the dust from mixing with factory lubricant to form a gritty paste that jams the pins. For outdoor padlocks, choose models with rubber covers over the keyway to keep dust out. Clean the lock cylinders with compressed air or contact cleaner before applying fresh graphite if the locks were already exposed to dust without protection."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which padlock type is best for coastal areas in Nigeria?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stainless steel (SS304) padlocks are the best choice for coastal Nigerian cities like Lagos and Port Harcourt where humidity regularly hits 80-90%. Standard zinc-plated padlocks start rusting within 3-6 months in these conditions, while SS304 padlocks last 5+ years. Though SS304 padlocks cost about ₦1,000-2,000 more upfront, they deliver much better long-term value. Look for models with rubber dust covers over the keyway for added protection."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How to choose the right door lock for Nigeria?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choose mid-range mortise locks from reputable brands like SOLA ($3-$6 range) rather than ultra-cheap $1.50 no-name locks — quality locks last 5-10 years with basic maintenance. For coastal areas, prioritize SS304 or zinc-phosphate coated hardware that resists rust. For outdoor padlocks, always choose stainless steel over zinc-plated options. Look for locks with reinforced steel spring cartridges (like the SOLA ST-3000 series) for high-use environments. Consider buying from suppliers who offer free sample verification and SONCAP support to ensure quality before bulk purchase."
-      }
-    }
-  ]
-}
-</script>
-
 ## Door Locks Keep Jamming in Nigeria? Common Problems and How to Fix Them
 
 *By Tommy — 10 years exporting door hardware to Nigeria*
@@ -218,29 +145,6 @@ This is the problem that makes a house look "cheap." A door handle that's loose,
 
 > **My recommendation:** The SOLA ST-3000 series uses a reinforced steel spring cartridge specifically designed for high-use environments. We've been selling them for 3 years, and spring failure rate is under 0.5%.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "SOLA ST-3000 Mortise Door Lock",
-  "description": "Reinforced steel spring cartridge mortise lock designed for high-use environments in Nigeria — resists Harmattan dust and humidity.",
-  "brand": {
-    "@type": "Brand",
-    "name": "SOLA"
-  },
-  "category": "Door Locks",
-  "offers": {
-    "@type": "AggregateOffer",
-    "priceCurrency": "USD",
-    "lowPrice": "3",
-    "highPrice": "6",
-    "offerCount": "10",
-    "availability": "https://schema.org/InStock",
-    "url": "https://jh-hardware.com/products/door-locks/"
-  }
-}
-</script>
-
 ---
 
 ## Problem #5: Key Breaks Off Inside the Lock
@@ -299,30 +203,6 @@ After 10 years in this business, I've learned that prevention beats repair every
 
 👉 **[Check out our best-selling mortise locks →](/products/)**  
 👉 **[Browse SS304 padlocks for coastal areas →](/products/#padlocks)**
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "SS304 Stainless Steel Padlock for Coastal Areas",
-  "description": "Stainless steel SS304 padlock designed for Nigeria's coastal humidity. Resists rust in Lagos and Port Harcourt conditions for 5+ years.",
-  "brand": {
-    "@type": "Brand",
-    "name": "SOLA"
-  },
-  "category": "Padlocks",
-  "offers": {
-    "@type": "AggregateOffer",
-    "priceCurrency": "USD",
-    "lowPrice": "2",
-    "highPrice": "5",
-    "offerCount": "15",
-    "availability": "https://schema.org/InStock",
-    ## CTA: Need Hardware That Actually Works in Nigeria?
-
-Stop replacing cheap locks every 6 months. We've been supplying hardware to the Nigerian market for 10 years — we know what works in Lagos humidity, Abuja dry heat, and everywhere in between.
-
-Whether you're a homeowner tired of jammed doors, a contractor building a new property, or a distributor looking for reliable stock, we have the right products for your specific needs. **We offer free samples** so you can test the quality before committing to bulk orders. All our products come with **full SONCAP certification support** for smooth import clearance, and as a **factory-direct supplier**, we give you wholesale pricing without middleman markups.
 
 **📧 Email:** info@jh-hardware.com  
 **💬 WhatsApp:** +86 183 5800 8400  
