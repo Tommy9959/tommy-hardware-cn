@@ -26,6 +26,7 @@ products:
     name: "Heavy Duty Sofa Leg"
     material: "Solid Steel"
     finish: "Powder Coated"
+seotitle: "Sofa Legs Wholesale: Wooden & Metal Legs"
 ---
 
 ### Sofa Leg FAQ

@@ -21,6 +21,7 @@ faqs:
     answer: "Yes. SOLA Hardware handles all SONCAP, Form M, and PAAR documentation for Nigerian clearance. Shipping via sea takes 25-35 days to Lagos/Tincan Port. Standard 20ft container holds approximately 8,000-12,000 meters of 16mm pipe."
   - question: "What's the difference between iron casing pipe and galvanized steel pipe?"
     answer: "Iron casing pipe is lighter, cheaper, and specifically designed for embedding in concrete as conduit. Galvanized steel pipe is heavier, corrosion-resistant, and used for structural/plumbing applications where it stays exposed."
+seotitle: "Iron Casing Pipe Price Nigeria 2026"
 ---
 ## Iron Casing Pipe for Construction in Nigeria — Complete Buyer's Guide
 

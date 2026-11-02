@@ -15,6 +15,7 @@ tags:
   - undermount slides
 categories:
   - Product Guide
+seotitle: "Drawer Slides Buying Guide for Nigeria 2026"
 ---
 
 ## The Complete Drawer Slides Buying Guide for Nigeria

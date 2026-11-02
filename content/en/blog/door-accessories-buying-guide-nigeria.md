@@ -5,6 +5,7 @@ draft: false
 tags: ["door accessories", "door closers", "door stoppers", "door viewers", "building hardware", "Nigeria"]
 categories: ["Products", "Buying Guide"]
 description: "Door accessories wholesale guide for Nigeria — door closers, stoppers, viewers, security chains. Factory prices, quality levels explained, import tips. Free SONCAP support."
+seotitle: "Door Accessories Price Nigeria 2026"
 ---
 
 When building a house or office in Nigeria, the door gets all the attention — but it's the **accessories** that make it work properly.

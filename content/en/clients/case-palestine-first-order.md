@@ -24,6 +24,7 @@ schema_review:
     "@type": "Organization"
     name: "Palestinian Building Hardware Importer"
   reviewBody: "Excellent product quality and professional service. The SOLA mortise locks meet our market standards perfectly. Fast delivery and great communication throughout."
+seotitle: "First Palestine Order: SOLA Door Locks"
 ---
 
 ## Client Background

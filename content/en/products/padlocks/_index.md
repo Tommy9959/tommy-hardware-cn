@@ -3,6 +3,7 @@ title: "Padlock Wholesale Price in Nigeria | Waterproof, Brass & Laminated"
 description: "Padlock wholesale price in Nigeria from $0.40/pc (FOB Yiwu). Waterproof shell, solid brass, laminated & heavy duty iron padlocks — factory direct with free SONCAP. Bulk & wholesale pricing for Lagos, Abuja & Onitsha importers."
 keywords: "padlocks wholesale, waterproof padlock, laminated padlock, brass padlock, heavy duty padlock, padlock Nigeria, padlock Africa, padlock factory China, padlock supplier SOLA, keyed alike padlock, bulk padlock, heavy duty padlock price"
 canonical: "https://jh-hardware.com/products/padlocks/"
+seotitle: "Padlock Wholesale Nigeria: Brass & Steel"
 ---
 
 ## Padlocks — Wholesale Prices from China Factory

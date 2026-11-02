@@ -6,6 +6,7 @@ author: "Tommy — JH Hardware (10 Years Exporting to Africa)"
 date: "2026-06-03"
 tags: ["cabinet hardware", "hinges", "Nigeria", "buying guide", "wholesale", "kitchen cabinets", "furniture hardware"]
 categories: ["Product Guide"]
+seotitle: "Cabinet Hardware Buying Guide for Nigeria"
 ---
 
 > **Tommy's Note:** I've been exporting cabinet hardware to Nigeria for over a decade. This guide is everything I wish my customers knew on day one.

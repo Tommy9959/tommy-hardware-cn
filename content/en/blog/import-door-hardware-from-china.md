@@ -18,6 +18,7 @@ faqs:
   - question: "Can I mix different hardware products in one container?"
     answer: "Yes, mixed containers accepted. Combine door locks, handles, hinges, building materials, and more in one shipment. Contact SOLA Hardware for a consolidated quote."
 
+seotitle: "Import Door Hardware from China: 2026 Guide"
 ---
 
 ## How to Import Door Hardware from China Without Losing Your Shirt — 10 Years of Mistakes I've Seen

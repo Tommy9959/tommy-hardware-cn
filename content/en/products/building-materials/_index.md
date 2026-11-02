@@ -26,6 +26,7 @@ products:
     name: "PVC Ceiling Panel"
     material: "PVC + Additives"
     finish: "White / Wood Grain"
+seotitle: "Building Materials Wholesale China Supplier"
 ---
 
 ### Building Materials FAQ

@@ -1,6 +1,7 @@
 ---
 title: "Contact Us - SOLA Hardware"
 description: "Contact SOLA Hardware for factory direct door hardware, padlocks, hinges, and building materials. Get wholesale quotes and free samples for Nigeria and African markets. Reply within 2 hours."
+seotitle: "Contact Us - Door Hardware Supplier China"
 ---
 
 ## Get in Touch with SOLA Hardware

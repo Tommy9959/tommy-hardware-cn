@@ -5,6 +5,7 @@ keywords: "Nigeria door hardware, Lagos door handles, Abuja building materials, 
 author: "JH HARDWARE"
 canonical: "https://jh-hardware.com/en/nigeria/"
 robots: "index, follow"
+seotitle: "Nigeria Market: Door Hardware Supplier"
 ---
 
 ## Nigeria Market - Door Hardware Supplier

@@ -26,6 +26,7 @@ products:
     name: "Concealed Cabinet Knob"
     material: "Plastic + Metal"
     finish: "White / Black"
+seotitle: "Cabinet Hardware Wholesale: Knobs & Pulls"
 ---
 
 ### Cabinet Hardware FAQ

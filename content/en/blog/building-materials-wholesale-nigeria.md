@@ -5,6 +5,7 @@ draft: false
 tags: ["building materials", "tile adhesive", "waterproofing", "wallpaper", "PVC ceiling", "Nigeria", "construction"]
 categories: ["Products", "Buying Guide"]
 description: "Building materials wholesale from China to Nigeria — tile adhesive, waterproof coating, wallpaper, PVC ceiling panels. Factory prices, shipping costs, import regulations. SONCAP included."
+seotitle: "Building Materials Wholesale Nigeria 2026"
 ---
 
 If you're in the Nigerian construction industry, you know the struggle: **quality building materials are expensive locally**, and finding reliable suppliers from China is a minefield of fake products and broken promises.

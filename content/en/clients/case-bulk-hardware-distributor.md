@@ -1,4 +1,3 @@
-
 ---
 title: "Bulk Door Hardware Distribution for Lagos Distributor Saves 40% on Costs"
 description: "How a Lagos-based hardware distributor reduced costs by 40% by switching to JH Hardware's direct factory supply for door handles, hinges, and drawer slides."
@@ -7,6 +6,7 @@ draft: false
 industry_categories: ["furniture", "cabinet_hardware", "door_handles", "door_hinges"]
 client_type: "Bulk Distributor"
 location: "Lagos, Nigeria"
+seotitle: "Case: Bulk Hardware for Lagos Distributor"
 ---
 
 ## Client Background

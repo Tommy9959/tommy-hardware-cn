@@ -4,6 +4,7 @@ date: 2026-05-22T21:55:00+08:00
 description: "2026 door hinge prices in Nigeria: SS304 from $0.50/pc, galvanized, concealed and ball-bearing types with real wholesale prices. Free samples, 15-25 days."
 tags: ["door hinges", "Nigeria construction", "hardware guide", "butt hinges", "pivot hinges", "self-closing hinges"]
 author: "JH HARDWARE"
+seotitle: "Door Hinge Price Nigeria 2026: $0.50 SS304"
 ---
 
 If you're building or renovating in Nigeria—whether it's a residential compound in Lekki, a commercial building in Ikeja, or a school project in Abuja—door hinges are one of those small components that can make or break the whole installation.

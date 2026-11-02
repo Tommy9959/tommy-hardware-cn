@@ -18,6 +18,7 @@ faqs:
     answer: "Iron plate door locks $2.50-$5, mortise locks $3-$6, lever handles $1.50-$5, padlocks $0.50-$3, smart locks $20-$80. Mixed container shipping available."
   - question: "Does SOLA Hardware provide free SONCAP?"
     answer: "Yes, 100% free SONCAP documentation and Form M guidance for all Nigerian clients at no extra charge. Saves $500+ in paperwork costs."
+seotitle: "Door Hardware Nigeria 2026: Wholesale Guide"
 ---
 
 ## Door Hardware Nigeria Complete Guide 2026: Wholesale Prices, Quality & Shipping from China

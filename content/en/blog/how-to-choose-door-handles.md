@@ -6,6 +6,7 @@ author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-04-10"
 tags: ["door handles", "what sells", "Nigeria market", "mistakes to avoid", "from our experience"]
 categories: ["From Our Experience"]
+seotitle: "Door Handle Price Nigeria 2026: Buying Guide"
 ---
 
 ## What Door Handles Actually Sell in Nigeria (And What Doesn't) — 10 Years of Experience

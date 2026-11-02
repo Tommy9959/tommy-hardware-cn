@@ -12,6 +12,7 @@ tags:
   - Wholesale
 categories:
   - Product Guide
+seotitle: "Sofa Legs Wholesale Nigeria: Sourcing Guide"
 ---
 
 ## Sofa Legs Wholesale Guide for Nigeria: Types, Materials & Sourcing Tips

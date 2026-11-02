@@ -5,6 +5,7 @@ keywords: "Africa door hardware, African importer, West Africa, East Africa, Nig
 author: "JH HARDWARE"
 canonical: "https://jh-hardware.com/en/africa/"
 robots: "index, follow"
+seotitle: "Africa Market: Door Hardware Supplier"
 ---
 
 ## Africa Market - Door Hardware Supplier

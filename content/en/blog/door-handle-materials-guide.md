@@ -18,6 +18,7 @@ faqs:
   - question: "Do door handles from China fit Nigerian doors?"
     answer: "Yes. Standard sizes: 60/70/80mm backset, 54mm or 72mm latch centers. SOLA Hardware stocks sizes compatible with Nigerian door specifications."
 
+seotitle: "Door Handle Material: SS304 vs Zinc Alloy"
 ---
 
 ## Stainless Steel vs Zinc Alloy Door Handles for Nigeria: Which is Better? [2026 Guide]

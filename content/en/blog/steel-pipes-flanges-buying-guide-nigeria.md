@@ -14,6 +14,7 @@ tags:
 image: "/images/products/steel-pipes-flanges/hero-guide.jpg"
 author: "SOLA Hardware"
 draft: false
+seotitle: "Steel Pipes & Flanges Price Nigeria 2026"
 ---
 
 If you're importing **steel pipes and flanges to Nigeria in 2026**, this is the most comprehensive guide you'll find. From pricing and sizes to shipping logistics and SONCAP certification — everything you need to source these essential building materials from China.

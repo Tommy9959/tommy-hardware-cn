@@ -15,6 +15,7 @@ faqs:
     answer: "Three-section full-extension ball-bearing slides in 300mm–500mm lengths cover about 80% of demand. 45mm wide side-mount slides are the most popular. Soft-close drawer slides are growing fast in the mid-to-premium segment (hotels, offices, high-end homes), but standard ball-bearing slides still dominate the affordable housing and mass-market furniture segment."
   - question: "How much weight should cabinet hinges and slides handle?"
     answer: "For hinges: standard kitchen cabinet doors weigh 3–8 kg, so hinges rated for 20–30 kg are sufficient. For drawer slides: 35–45 kg dynamic load is the sweet spot for the African market — enough for kitchen drawers loaded with utensils, pots, and pantry items. Heavy-duty slides (70+ kg) are only needed for filing cabinets and commercial kitchens."
+seotitle: "Cabinet Hinges & Slides Wholesale Africa"
 ---
 
 ## Cabinet Door Hinges & Slides for Africa: How to Choose the Right Kitchen Hardware for Your Market

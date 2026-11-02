@@ -13,6 +13,7 @@ results_orders: "Monthly"
 results_products: "10+"
 client_quote: "I started with one container to test the waters. Now JH Hardware supplies almost everything I sell — locks, handles, hinges, casing pipes, even sofa legs. The quality is consistent, the prices beat anything I can find locally, and Tommy never misses a deadline. My business has grown faster than I ever expected."
 client_quote_author: "Okafor — Hardware Wholesaler, Onne, Nigeria"
+seotitle: "Case: Onne Wholesaler Okafor - $200K/Year"
 ---
 
 ## Client Background

@@ -5,6 +5,7 @@ keywords: "glue adhesive, iron pipes steel tubes, curtain rods, wallpaper wall c
 author: "JH HARDWARE"
 canonical: "https://jh-hardware.com/en/building-materials/"
 robots: "index, follow"
+seotitle: "Building Materials: Glue, Pipes, Rods"
 ---
 
 ## Building Materials & Accessories

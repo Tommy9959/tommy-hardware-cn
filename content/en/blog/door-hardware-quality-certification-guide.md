@@ -6,6 +6,7 @@ author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-04-29"
 tags: ["customs clearance", "Nigeria tips", "certifications", "quality control", "what matters"]
 categories: ["From Our Experience"]
+seotitle: "SONCAP, Form M & PAAR Guide Nigeria 2026"
 ---
 
 ## Nigeria Import Certifications 2026: SONCAP, Form M, PAAR — What You Actually Need (10 Years of Experience)

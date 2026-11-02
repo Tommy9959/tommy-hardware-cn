@@ -14,7 +14,7 @@ disableAliases = true
 # 多语言配置
 [languages]
   [languages.en]
-    title = 'JH HARDWARE | Factory Direct Hardware to Nigeria & Africa'
+    title = 'JH HARDWARE | Door Hardware Wholesale Nigeria & Africa'
     weight = 1
     languageName = 'English'
     languageCode = 'en-us'

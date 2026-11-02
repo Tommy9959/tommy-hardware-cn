@@ -3,6 +3,7 @@ title: "Why Hardware Rusts Fast in Nigeria (And How to Prevent It)"
 date: 2026-05-22T21:56:00+08:00
 description: "Learn why door hardware rusts so quickly in Nigeria's coastal climate and how to choose, install, and maintain hardware for maximum lifespan. Practical guide for homeowners, builders, and hardware importers."
 tags: ["rust prevention", "hardware maintenance", "stainless steel vs galvanized", "Nigeria climate", "door hardware care"]
+seotitle: "Why Hardware Rusts in Nigeria & Fix"
 ---
 
 If you've noticed door handles, hinges, and locks rusting within months of installation in Nigeria, you're not alone. This is one of the most common complaints we hear from customers in Lagos, Port Harcourt, and other coastal cities.

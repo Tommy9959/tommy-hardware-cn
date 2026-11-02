@@ -9,8 +9,8 @@
 {{- /* 品牌全称（用于Schema） */ -}}
 {{- $company := cond (eq .Site.Language.Lang "zh") "JH HARDWARE（钧瀚五金）" (cond (eq .Site.Language.Lang "ar") "JH HARDWARE" "JH HARDWARE") -}}
 
-{{- /* 标题：首页用完整标题，其他页面用短品牌名 */ -}}
-{{- $title := cond .IsHome site.Title (printf "%s | %s" .Title $brand) -}}
+{{- /* 标题：首页用完整标题，其他页面用短品牌名（支持 seoTitle 覆盖，避免与页面H1重复） */ -}}
+{{- $title := cond .IsHome site.Title (printf "%s | %s" (or .Params.seotitle .Title) $brand) -}}
 
 {{- /* 描述：优先用页面 frontmatter 的 description，再用站点参数 */ -}}
 {{- $description := or .Description site.Params.description -}}
@@ -34,8 +34,8 @@
     {{- $material := .Params.material | default "High Quality Material" -}}
     {{- $finish := .Params.finish | default "" -}}
     {{- $application := .Params.application | default "" -}}
-    {{- /* 标题用已清理过的 .Title（去掉冗余后缀），直接加品牌 */ -}}
-    {{- $title = printf "%s | %s" .Title $brand -}}
+    {{- /* 标题用 seotitle 优先（已清理过），否则用 .Title，直接加品牌 */ -}}
+    {{- $title = printf "%s | %s" (or .Params.seotitle .Title) $brand -}}
     {{- /* 增强的产品描述：含价格、材质、用途、MOQ，提高CTR */ -}}
     {{- $priceHint := .Params.price_range | default "Factory Direct Price" -}}
     {{- $descCore := .Description | default "" -}}

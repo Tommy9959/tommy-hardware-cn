@@ -26,6 +26,7 @@ products:
     name: "Interior Door Rosette Handle"
     material: "Zinc Alloy + SS304"
     finish: "Multiple Colors Available"
+seotitle: "Door Handle Wholesale: SS, Aluminum & Brass"
 ---
 
 ### Door Handle Price & Types

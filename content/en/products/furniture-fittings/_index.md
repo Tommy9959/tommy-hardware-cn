@@ -26,6 +26,7 @@ products:
     name: "Furniture Magnet Catch"
     material: "Magnet + Plastic"
     finish: "White / Brown"
+seotitle: "Furniture Fittings Wholesale: Cams & Hinges"
 ---
 
 ### Furniture Fittings FAQ

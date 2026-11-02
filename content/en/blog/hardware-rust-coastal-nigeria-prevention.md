@@ -18,6 +18,7 @@ faqs:
   - question: "Can cheap hardware be protected from rust?"
     answer: "Somewhat. Regular oiling, keeping hardware dry, and avoiding salty environments can help. But in Lagos or Port Harcourt's humidity, no amount of maintenance will make cheap plated steel last long term."
 
+seotitle: "Hardware Rust in Nigeria: Prevention Guide"
 ---
 
 ## Why Hardware Rusts in Nigeria's Coastal Cities (And How to Prevent It) — 10 Years of Lessons

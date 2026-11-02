@@ -19,6 +19,7 @@ faqs:
   - question: "How to handle customs clearance in Nigeria?"
     answer: "Work with a licensed clearing agent. Ensure SONCAP and Form M are prepared before shipment. SOLA Hardware provides free documentation support to help streamline clearance."
 
+seotitle: "Nigeria Import Payment & Logistics 2026"
 ---
 
 ## Nigeria Hardware Import: Payment Methods & Logistics Complete Guide 2026

@@ -18,6 +18,7 @@ faqs:
   - question: "How to start a hardware business in Nigeria?"
     answer: "Find a reliable factory direct supplier (like SOLA Hardware), order mixed container, stock top-selling items like mortise locks and padlocks, price competitively, build local dealer network."
 
+seotitle: "Nigeria Hardware Market Guide 2026"
 ---
 
 ## Nigeria Hardware Market 2026 — What I've Learned After 10 Years of Selling There

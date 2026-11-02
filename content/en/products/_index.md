@@ -5,4 +5,5 @@ keywords: "door handles, door locks, door hinges, sliding tracks, drawer slides,
 author: "JH HARDWARE"
 canonical: "https://jh-hardware.com/products/"
 robots: "index, follow"
+seotitle: "Door Hardware Wholesale Price List 2026"
 ---

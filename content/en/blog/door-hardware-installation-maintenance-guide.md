@@ -4,6 +4,7 @@ date: 2026-05-27T10:24:00+08:00
 description: "Don't let Nigeria's humidity destroy your door hardware. Pro installation guide for door locks, hinges, handles. Anti-rust tricks, alignment fixes, tools needed. Tips for contractors in Lagos, Abuja & Port Harcourt from 10-year exporter."
 tags: ["installation guide", "maintenance", "Nigeria market", "door hardware", "door lock installation Nigeria", "hinge maintenance", "door handle repair"]
 categories: ["Product Guide"]
+seotitle: "Door Hardware Installation & Rust Prevention"
 ---
 
 My name is Tommy. I've been shipping door hardware to Nigeria for ten years—Lagos, Abuja, Port Harcourt, Onitsha, Kano, you name it. I've seen beautiful doors ruined by bad installation, and I've seen cheap hardware last years when fitted right.

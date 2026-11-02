@@ -26,6 +26,7 @@ products:
     name: "Door Hinge HH-006"
     material: "Aluminum Alloy"
     finish: "Anodized Silver"
+seotitle: "Door Hinges Wholesale Nigeria from $0.50"
 ---
 
 ### Door Hinge Price in Nigeria & FAQ

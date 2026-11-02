@@ -26,6 +26,7 @@ products:
     name: "Iron Casing Pipe Connector 16mm/25mm"
     material: "Iron / Galvanized"
     finish: "Galvanized"
+seotitle: "Iron Casing Pipe Price Nigeria 2026 16/25mm"
 ---
 ## Why Choose Our Iron Casing Pipes for Your Nigerian Building Projects?
 

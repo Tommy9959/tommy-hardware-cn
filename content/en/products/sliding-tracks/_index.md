@@ -26,6 +26,7 @@ products:
     name: "Barn Door Hardware Track"
     material: "Steel"
     finish: "Matte Black / Rustic"
+seotitle: "Sliding Tracks Wholesale: Slides & Rails"
 ---
 
 ### Sliding Track FAQ

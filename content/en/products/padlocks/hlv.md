@@ -20,6 +20,7 @@ specifications:
   - 'Material: Premium material'
   - 'Finish: Standard finish'
   - 'Application: Various applications'
+seotitle: "HLV Cr-Plated Rectangular Iron Padlock"
 ---
 ## Cr-Plated Rectangular Iron Padlock - Vane Key
 

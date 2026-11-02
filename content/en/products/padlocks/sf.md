@@ -20,6 +20,7 @@ specifications:
   - 'Material: Premium material'
   - 'Finish: Standard finish'
   - 'Application: Various applications'
+seotitle: "SF CR-Plated Square Iron Padlock Vane Key"
 ---
 ## CR-Plated Square Iron Padlock - Vane Key
 

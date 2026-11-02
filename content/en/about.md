@@ -2,6 +2,7 @@
 title: "JH Hardware - SOLA | Your Trusted Hardware Partner for Africa"
 description: "JH Hardware (SOLA brand) — your trusted hardware partner for Africa. China factory direct door locks, handles, hinges, sliding tracks since 2016. We supply hardware to Nigeria, Ghana, Kenya and across Africa."
 keywords: "JH HARDWARE, hardware manufacturer, door hardware, door locks, door handles, yiwu hardware, china hardware export, nigeria hardware, africa hardware, SOLA door locks, JH HARDWARE"
+seotitle: "About SOLA Door Hardware Brand & Factory"
 ---
 
 ## JH HARDWARE — Your Trusted Hardware Partner for Africa

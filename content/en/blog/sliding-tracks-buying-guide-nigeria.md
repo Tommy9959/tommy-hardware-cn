@@ -5,6 +5,7 @@ draft: false
 tags: ["sliding tracks", "drawer slides", "wardrobe rails", "door hardware", "Nigeria"]
 categories: ["Products", "Buying Guide"]
 description: "Sliding tracks wholesale guide for Nigeria — drawer slides, wardrobe rails, barn door tracks. Factory prices from China, quality differences explained, import tips. Free SONCAP included."
+seotitle: "Sliding Tracks Price Nigeria 2026 Wholesale"
 ---
 
 When you walk into a hardware store in Lagos, Onitsha, or Kano, you'll see dozens of sliding tracks and drawer slides stacked on the shelves — but **most of them are low-quality** and will fail within months.

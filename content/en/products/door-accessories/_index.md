@@ -30,6 +30,7 @@ products:
     name: "Angle Bracket 30×30"
     material: "Steel / Stainless Steel"
     finish: "Galvanized / Painted"
+seotitle: "Door Accessories Wholesale: Closers"
 ---
 
 ### Door Accessories FAQ

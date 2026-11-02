@@ -18,6 +18,7 @@ faqs:
   - question: "How much cabinet hardware fits in a 20GP container?"
     answer: "A 20GP container holds approximately 50,000-70,000 hinges or 8,000-10,000 sets of drawer slides. Mixed containers accepted — combine hinges, slides, handles, and other hardware."
 
+seotitle: "Cabinet Hardware for Nigerian Makers"
 ---
 
 ## Cabinet Hardware for Africa: What Nigerian Furniture Makers Actually Need
