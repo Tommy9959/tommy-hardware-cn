@@ -21,6 +21,7 @@
   {{- if eq .Kind "term" }}{{ continue }}{{ end -}}
   <url>
     <loc>{{ .Permalink }}</loc>
+    <lastmod>{{ .Lastmod.Format "2006-01-02" }}</lastmod>
     <changefreq>{{ if .IsHome }}daily{{ else if eq .Section "blog" }}weekly{{ else if eq .Section "products" }}weekly{{ else }}monthly{{ end }}</changefreq>
     <priority>{{ if .IsHome }}1.0{{ else if eq .Section "products" }}0.8{{ else if eq .Section "blog" }}0.7{{ else }}0.6{{ end }}</priority>
     {{- if .IsTranslated -}}
