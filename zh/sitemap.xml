@@ -1,15 +1,5 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://jh-hardware.com/zh/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://jh-hardware.com/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/"/></url><url>
-    <loc>https://jh-hardware.com/zh/blog/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://jh-hardware.com/blog/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/blog/"/></url><url>
     <loc>https://jh-hardware.com/zh/blog/door-hardware-price-list-nigeria-2026/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -240,6 +230,11 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://jh-hardware.com/products/padlocks/sfn/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/padlocks/sfn/"/></url><url>
+    <loc>https://jh-hardware.com/zh/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jh-hardware.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/"/></url><url>
     <loc>https://jh-hardware.com/zh/products/padlocks/ygtk/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -260,6 +255,11 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://jh-hardware.com/products/building-materials/bm-001/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/building-materials/bm-001/"/></url><url>
+    <loc>https://jh-hardware.com/zh/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jh-hardware.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/blog/"/></url><url>
     <loc>https://jh-hardware.com/zh/products/door-handles/dh-001/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

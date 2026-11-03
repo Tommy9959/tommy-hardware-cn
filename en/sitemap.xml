@@ -1,20 +1,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://jh-hardware.com/blog/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/blog/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/blog/"/></url><url>
+    <loc>https://jh-hardware.com/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/about/"/></url><url>
     <loc>https://jh-hardware.com/blog/door-hardware-price-list-nigeria-2026/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/blog/door-hardware-price-list-nigeria-2026/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/blog/door-hardware-price-list-nigeria-2026/"/></url><url>
-    <loc>https://jh-hardware.com/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/"/></url><url>
     <loc>https://jh-hardware.com/blog/building-materials-wholesale-nigeria/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -215,6 +210,11 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-007/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-007/"/></url><url>
+    <loc>https://jh-hardware.com/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/blog/"/></url><url>
     <loc>https://jh-hardware.com/building-materials/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -730,11 +730,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-locks/dl-057/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-locks/dl-057/"/></url><url>
-    <loc>https://jh-hardware.com/about/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/about/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/about/"/></url><url>
     <loc>https://jh-hardware.com/products/padlocks/ltn/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -870,6 +865,11 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/sofa-legs/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/sofa-legs/"/></url><url>
+    <loc>https://jh-hardware.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/"/></url><url>
     <loc>https://jh-hardware.com/products/door-handles/dh-001/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

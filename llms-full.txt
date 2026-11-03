@@ -1,6 +1,6 @@
 # JH HARDWARE — full machine-readable context (llms-full.txt)
 
-_Generated 2026-10-29 from site content. Companion to https://jh-hardware.com/llms.txt_
+_Generated 2026-11-03 from site content. Companion to https://jh-hardware.com/llms.txt_
 
 ## Company
 
@@ -220,7 +220,7 @@ _Generated 2026-10-29 from site content. Companion to https://jh-hardware.com/ll
 - **Door Hardware Nigeria 2026: Wholesale Prices, Shipping & Supplier Tips from 10-Year Exporter** — https://jh-hardware.com/blog/door-hardware-nigeria-complete-guide/
   Complete door hardware import guide for Nigeria 2026 — door locks, handles, hinges, padlocks. Factory wholesale prices, supplier red flags, SONCAP clearance tips, and shipping costs to Lagos. From a 1
 - **Door Hardware Price List Nigeria 2026** — https://jh-hardware.com/blog/door-hardware-price-list-nigeria-2026/
-  Full 2026 price list for door locks, hinges, handles and padlocks in Nigeria - real factory FOB prices from $0.50/pc. Free samples, ship in 15-25 days.
+  Nigeria door hardware price list 2026: real factory FOB ranges for locks ($2.50-$30), hinges ($1.50-$4.00), handles ($2.80-$5.50). MOQ from 100 sets, 15-25 days.
 - **SONCAP, Form M & PAAR for Nigeria 2026: Free Guide From a Hardware Exporter** — https://jh-hardware.com/blog/door-hardware-quality-certification-guide/
   After 10 years of getting goods stuck in Lagos and Port Harcourt ports, here's what certifications you actually need — ISO 9001, CE, SGS, SONCAP — and how to spot fake ones.
 - **Door Hinges Price in Nigeria 2026 – $0.50/pc** — https://jh-hardware.com/blog/door-hinges-selection-guide-nigeria/
@@ -276,4 +276,4 @@ _Generated 2026-10-29 from site content. Companion to https://jh-hardware.com/ll
 - "How long does shipping from China to Nigeria take for hardware?" → 15-25 days production + 25-40 days sea freight to Apapa, Tin Can or Onne.
 - "What documents are needed to import hardware into Nigeria?" → SONCAP certificate, Form M and PAAR; JH HARDWARE assists free of charge.
 
-_End of file · 2026-10-29_
+_End of file · 2026-11-03_
