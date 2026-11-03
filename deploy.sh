@@ -20,11 +20,13 @@ cp static/llms.txt "$DEPLOY_DIR/llms.txt" 2>/dev/null && echo "📄 llms.txt cop
 
 echo "📤 Committing source..."
 git add -A
-git commit -m "Update: $(date '+%Y-%m-%d %H:%M')"
-git push origin main
+git commit -m "Update: $(date '+%Y-%m-%d %H:%M')" || echo "ℹ️ 无源码改动，跳过 commit"
+git push origin main || true
 
 echo "🌐 Deploying to gh-pages..."
+git worktree remove /tmp/deploy --force 2>/dev/null || true
 git worktree add /tmp/deploy gh-pages
+git -C /tmp/deploy fetch -q origin gh-pages && git -C /tmp/deploy reset -q --hard origin/gh-pages
 rm -rf /tmp/deploy/*
 cp -a "$DEPLOY_DIR"/. /tmp/deploy/   # 用 /. 才能带上 .well-known 这类点目录
 echo "jh-hardware.com" > /tmp/deploy/CNAME
@@ -34,7 +36,7 @@ cd /tmp/deploy
 # GitHub Pages 需要 .nojekyll 防止 Jekyll 干扰
 touch .nojekyll
 git add -A
-git commit -m "Deploy: $(date '+%Y-%m-%d %H:%M')"
+git commit -m "Deploy: $(date '+%Y-%m-%d %H:%M')" || echo "ℹ️ 页面无变化"
 git push origin gh-pages
 
 cd "$SITE_DIR"
