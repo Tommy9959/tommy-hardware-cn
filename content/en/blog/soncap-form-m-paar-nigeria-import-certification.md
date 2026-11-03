@@ -6,9 +6,12 @@ author: "Tommy — JH Hardware (10 Years Exporting to Africa)"
 date: "2026-06-03"
 tags: ["SONCAP", "Form M", "PAAR", "Nigeria customs", "import certification", "Apapa port", "Nigeria clearance", "import guide"]
 categories: ["Nigeria Import Guide"]
+lastmod: 2026-11-03
 ---
 
 ## SONCAP, Form M & PAAR — Complete Nigeria Import Certification Guide 2026
+
+*Last reviewed: November 2026 — process steps and document names re-checked against current Nigerian import practice.*
 
 *By Tommy — 10 years exporting door hardware to Nigeria. Founder of SOLA Hardware / JH Hardware.*
 

@@ -39,16 +39,24 @@
     {{- /* 增强的产品描述：含价格、材质、用途、MOQ，提高CTR */ -}}
     {{- $priceHint := .Params.price_range | default "Factory Direct Price" -}}
     {{- $descCore := .Description | default "" -}}
-    {{- if $descCore -}}
-        {{- /* 结构化生成（不含截断残句）：材质/工艺/用途/MOQ/价格，便于 AI 直接引用 */ -}}
-        {{- $descClean := printf "%s — %s%s. MOQ %s, %s. Factory direct to Nigeria & Africa." $productName $material (cond (ne $finish "") (printf ", %s finish" $finish) "") (.Params.moq | default "400 pcs") $priceHint -}}
+    {{- /* 修 finish 重复：finish 文案本身已含 finish 时不再追加，避免 "Various finishes available finish" */ -}}
+    {{- $finishTxt := "" -}}
+    {{- if $finish -}}
+        {{- $finishTxt = cond (in (lower $finish) "finish") (printf ", %s" $finish) (printf ", %s finish" $finish) -}}
+    {{- end -}}
+    {{- /* 优先用 front matter 已润色且长度合适的差异化描述，避免 120 个产品共用同一句式 */ -}}
+    {{- $coreOK := and $descCore (ge (len $descCore) 90) (le (len $descCore) 158) (not (strings.HasSuffix $descCore "...")) -}}
+    {{- if $coreOK -}}
+        {{- $description = $descCore -}}
+    {{- else if $descCore -}}
+        {{- $descClean := printf "%s — %s%s. MOQ %s, %s. Factory direct to Nigeria & Africa." $productName $material $finishTxt (.Params.moq | default "400 pcs") $priceHint -}}
         {{- if gt (len $descClean) 150 -}}
-            {{- $description = printf "%s — %s%s. %s." $productName $material (cond (ne $finish "") (printf ", %s finish" $finish) "") $priceHint -}}
+            {{- $description = printf "%s — %s%s. %s." $productName $material $finishTxt $priceHint -}}
         {{- else -}}
             {{- $description = $descClean -}}
         {{- end -}}
     {{- else -}}
-        {{- $description = printf "%s - %s. Made of %s%s. Application: %s. MOQ %s, %s. Factory direct, ISO 9001. Export to Nigeria, Dubai, Africa." .Title $productName $material (cond (ne $finish "") (printf ", %s finish" $finish) "") $application (.Params.moq | default "400 pcs") $priceHint -}}
+        {{- $description = printf "%s - %s. Made of %s%s. Application: %s. MOQ %s, %s. Factory direct, ISO 9001. Export to Nigeria, Dubai, Africa." .Title $productName $material $finishTxt $application (.Params.moq | default "400 pcs") $priceHint -}}
     {{- end -}}
     {{- $materialStr := .Params.material | default "Stainless Steel" -}}
     {{- $keywords = printf "%s, %s, %s, door hardware, building materials, construction, factory china, %s" $productName .Title $application $materialStr -}}
@@ -366,32 +374,61 @@
   "sameAs": [
     "https://wa.me/8618358008400"
   ],
+  "brand": {
+    "@type": "Brand",
+    "name": "SOLA",
+    "description": "SOLA is the door lock and door hardware brand of JH HARDWARE."
+  },
+  "founder": {
+    "@type": "Person",
+    "@id": "{{ "/about/" | absURL }}#founder",
+    "name": "Zhu Xiaolei",
+    "alternateName": "Tommy",
+    "jobTitle": "Founder & Export Manager",
+    "description": "Founder of JH HARDWARE. Has sourced and exported door hardware, locks and building materials to Nigeria and West Africa since 2015.",
+    "worksFor": { "@id": "{{ site.BaseURL }}#organization" }
+  },
   "priceRange": "$$",
   "currenciesAccepted": "USD, EUR, CNY",
   "paymentAccepted": "Bank Transfer, T/T, L/C",
   "openingHours": "Mo-Fr 09:00-18:00",
-  "duns": "123456789",
-  "taxID": "91330782MAABC1234X",
   "isicV4": "2599",
   "naics": "332510"
 }
 </script>
 {{- else if eq .Section "blog" -}}
 {{- $blogDate := .Date.Format "2006-01-02" -}}
+{{- $modDate := (.Lastmod | default .Date).Format "2006-01-02" -}}
+{{- $authorRaw := .Params.author | default "Tommy — JH Hardware" -}}
+{{- $authorName := trim (index (split $authorRaw "—") 0) " " -}}
+{{- $isOrgAuthor := or (eq $authorName "JH HARDWARE") (eq $authorName "SOLA Hardware") (eq $authorName "") -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": ["Article", "BlogPosting"],
   "@id": "{{ .Permalink }}#article",
   "headline": "{{ .Title }}",
   "description": "{{ $description }}",
   "image": "{{ cond .Params.image (.Params.image | absURL) ("/images/logo/logo.jpeg" | absURL) }}",
   "datePublished": "{{ $blogDate }}",
-  "dateModified": "{{ $blogDate }}",
-  "author": {
+  "dateModified": "{{ $modDate }}",
+  "inLanguage": "{{ .Site.Language.LanguageCode }}",
+  "author": {{ if $isOrgAuthor }}{
     "@type": "Organization",
-    "name": "{{ $company }}"
-  },
+    "name": "{{ $company }}",
+    "url": "{{ site.BaseURL }}"
+  }{{ else }}{
+    "@type": "Person",
+    "name": "{{ $authorName }}",
+    "jobTitle": "Founder & Export Manager",
+    "description": "Founder of JH HARDWARE (SOLA brand). Sourcing and exporting door hardware to Nigeria since 2015.",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "{{ $company }}",
+      "url": "{{ site.BaseURL }}"
+    },
+    "url": "{{ "/about/" | absURL }}#founder"
+  }{{ end }},
   "publisher": {
     "@type": "Organization",
     "name": "{{ $company }}",
@@ -406,9 +443,43 @@
   }
 }
 </script>
+{{- else if and .File (eq .File.ContentBaseName "about") -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": "{{ .Permalink }}#webpage",
+  "url": "{{ .Permalink }}",
+  "name": "About JH HARDWARE & the SOLA door hardware brand",
+  "description": {{ $description | jsonify | safeJS }},
+  "isPartOf": { "@id": "{{ site.BaseURL }}#website" },
+  "about": { "@id": "{{ site.BaseURL }}#organization" },
+  "mainEntity": { "@id": "{{ site.BaseURL }}#organization" },
+  "inLanguage": "{{ .Site.Language.LanguageCode }}"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ .Permalink }}#founder",
+  "name": "Zhu Xiaolei",
+  "alternateName": "Tommy",
+  "jobTitle": "Founder & Export Manager",
+  "description": "Founder of JH HARDWARE (SOLA brand). Has sourced and exported door hardware, locks, hinges and building materials from China to Nigeria, Ghana, Kenya and the Middle East since 2015.",
+  "url": "{{ .Permalink }}#founder",
+  "worksFor": { "@id": "{{ site.BaseURL }}#organization" },
+  "knowsAbout": [
+    "Door hardware sourcing from China",
+    "Wholesale export to Nigeria",
+    "SONCAP and Form M import documentation",
+    "Door lock and hinge quality testing",
+    "Furniture fittings and cabinet hardware"
+  ],
+  "knowsLanguage": ["en", "zh"]
+}
+</script>
 {{- end -}}
-
-<!-- 面包屑导航结构化数据 - 非首页页面 -->
 {{- if not .IsHome }}
 {{- $pos := 1 -}}
 <script type="application/ld+json">

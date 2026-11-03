@@ -11,6 +11,9 @@ defaultContentLanguageInSubdir = false
 disableKinds = ["taxonomy", "term"]
 disableAliases = true
 
+# 用 git 提交时间作为页面最后更新时间（给 AI/搜索引擎的真实新鲜度信号）
+enableGitInfo = true
+
 # 多语言配置
 [languages]
   [languages.en]

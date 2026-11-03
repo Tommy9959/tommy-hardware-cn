@@ -19,9 +19,12 @@ faqs:
   - question: "Does SOLA Hardware provide free SONCAP?"
     answer: "Yes, 100% free SONCAP documentation and Form M guidance for all Nigerian clients at no extra charge. Saves $500+ in paperwork costs."
 seotitle: "Door Hardware Nigeria 2026: Wholesale Guide"
+lastmod: 2026-11-03
 ---
 
 ## Door Hardware Nigeria Complete Guide 2026: Wholesale Prices, Quality & Shipping from China
+
+*Last reviewed: November 2026.*
 
 *By Tommy — 10 years exporting door hardware to Nigeria. Founder of JH Hardware / SOLA Hardware.*
 

@@ -1,14 +1,17 @@
 ---
 title: "Door Hardware Price List Nigeria 2026"
-description: "Full 2026 price list for door locks, hinges, handles and padlocks in Nigeria - real factory FOB prices from $0.50/pc. Free samples, ship in 15-25 days."
+description: "Nigeria door hardware price list 2026: real factory FOB ranges for locks ($2.50-$30), hinges ($1.50-$4.00), handles ($2.80-$5.50). MOQ from 100 sets, 15-25 days."
 keywords: "door hardware price Nigeria 2026, door lock price in Nigeria, door hinge price Nigeria, door handle price Nigeria, padlock price Nigeria, wholesale hardware Nigeria, buy door locks in Nigeria, hardware supplier Lagos"
 author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-08-04"
 tags: ["door hardware price Nigeria", "door lock price", "door hinge price", "door handle price", "padlock price Nigeria", "wholesale hardware", "buy hardware Nigeria", "market price guide"]
 categories: ["Price Guide", "Buying Guide"]
+lastmod: 2026-11-03
 ---
 
 ## How Much Does Door Hardware Cost in Nigeria 2026?
+
+*Last reviewed: November 2026 — every figure below was cross-checked against our current factory price list.*
 
 This is the question I get the most — and it deserves a straight answer. If you're buying door locks, hinges, handles or padlocks in Nigeria, here's the honest 2026 price breakdown from someone who's been exporting hardware there for ten years.
 
@@ -18,36 +21,25 @@ Let me give you the real numbers up front, then explain how to read them and how
 
 These are factory-direct prices for wholesale orders (100+ pieces). Market prices in Lagos, Onitsha or Aba will be higher after shipping, import duties and trader margins.
 
-### Door Locks — Price in Nigeria
-| Lock Type | FOB Price (per piece) | Best Use |
-|-----------|----------------------|----------|
-| Iron plate door lock | $1.50 – $4.00 | Standard residential doors |
-| Brass cylinder door lock | $2.50 – $6.00 | Higher-end homes & offices |
-| Mortise lock | $4.00 – $8.00 | Security-conscious buyers |
-| Padlock (laminated, 50mm) | $0.80 – $2.00 | Gates, warehouses, shops |
+### Factory-direct price ranges by category (re-verified November 2026)
 
-### Door Hinges — Price in Nigeria
-| Hinge Type | FOB Price (per piece) | Notes |
-|------------|----------------------|-------|
-| Butt hinge (galvanized) | $0.20 – $0.60 | Most common |
-| Stainless steel SS304 hinge | $0.50 – $1.80 | Best for coastal humidity |
-| Self-closing / spring hinge | $0.80 – $2.50 | Commercial doors |
-| Concealed / invisible hinge | $1.50 – $4.00 | Modern furniture |
+These ranges come straight from our current catalogue — 120 SKUs across 11 categories. Every model has its own page with the exact FOB price, MOQ and carton details.
 
-### Door Handles — Price in Nigeria
-| Handle Type | FOB Price (per piece) | Notes |
-|-------------|----------------------|-------|
-| Zinc alloy lever handle | $1.80 – $4.50 | Most popular style |
-| Stainless steel handle | $3.00 – $7.00 | Premium, rust-resistant |
-| Door knob (passage) | $1.00 – $3.00 | Interior doors |
-| Brass handle set | $4.00 – $9.00 | Traditional look |
+| Category | FOB price range | Unit | Typical MOQ |
+|---|---|---|---|
+| Door locks — mortise, cylinder, rim, iron plate | $2.50 – $30.00 | per piece | 100 sets |
+| Door hinges — SS304, galvanized, concealed | $1.50 – $4.00 | per piece | 1,000 pcs |
+| Door handles — zinc alloy, stainless, aluminium | $2.80 – $5.50 | per piece | 400 pcs |
+| Sliding tracks & drawer slides | $5.00 – $12.00 | per metre | 500 m |
+| Cabinet hardware — handles, knobs, hinges, slides | $0.80 – $3.50 | per piece | 1,000 pcs |
+| Furniture fittings — cam connectors, dowels, shelf supports | $0.20 – $5.00 | per piece | 500 pcs |
+| Sofa legs — wood, metal, plastic | $2.00 – $6.00 | per piece | 500 pcs |
+| Door accessories — stoppers, closers, viewers, chains | $0.30 – $12.00 | per piece | 500 pcs |
+| Building materials — tile adhesive, glue, curtain rods | $1.50 – $8.00 | per bag / pc | 500 pcs |
+| Iron casing pipes — 16mm & 25mm with couplings | $0.30 – $3.00 | per metre | 1,000 pcs |
+| Padlocks — laminated, waterproof, solid brass | quoted per model | per piece | 500 pcs |
 
-### Padlocks — Price in Nigeria
-| Padlock Type | FOB Price (per piece) | Notes |
-|--------------|----------------------|-------|
-| Laminated padlock | $0.80 – $1.80 | Budget, general use |
-| Waterproof / brass padlock | $1.80 – $3.50 | Outdoor, weatherproof |
-| Heavy stainless padlock | $3.00 – $6.00 | Warehouse & truck use |
+Padlocks are quoted per model because brass content moves the price week to week — ask for the current list.
 
 > **A note on pricing:** These are 2026 factory prices. Always ask for the *price list in USD per piece for a specific model*, not a vague "wholesale price," so you can compare fairly.
 

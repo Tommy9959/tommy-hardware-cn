@@ -19,9 +19,12 @@ faqs:
     answer: "Find a reliable factory direct supplier (like SOLA Hardware), order mixed container, stock top-selling items like mortise locks and padlocks, price competitively, build local dealer network."
 
 seotitle: "Nigeria Hardware Market Guide 2026"
+lastmod: 2026-11-03
 ---
 
 ## Nigeria Hardware Market 2026 — What I've Learned After 10 Years of Selling There
+
+*Last reviewed: November 2026.*
 
 Let me start with a number: **527**. That's how many Nigerian customers we've worked with since 2016. Some ordered once and disappeared. Some have ordered every 3 months for 8 years.
 
