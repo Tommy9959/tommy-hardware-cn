@@ -500,14 +500,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Iron Plate Aluminum Handle Door Lock 755-113</h3>
+                    <h3>Door Closer Automatic DA-002 — Wholesale</h3>
                     
-                    <p>Iron Plate Aluminum Handle Door Lock 755-113</p>
+                    <p>Door Closer Automatic DA-002</p>
                     
                     
-                    <p class="product-price">$2.50 - $5.00 USD / piece</p>
+                    <p class="product-price">$5.00 - $12.00 USD / pc</p>
                     
-                    <a href="/products/door-locks/dl-002/" class="btn btn-primary">
+                    <a href="/products/door-accessories/da-002/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -517,14 +517,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Sofa Leg SL-001</h3>
+                    <h3>Iron Plate Aluminum Handle Door Lock 955-118</h3>
                     
-                    <p>Sofa Leg SL-001</p>
+                    <p>Iron Plate Aluminum Handle Door Lock 955-118</p>
                     
                     
-                    <p class="product-price">$2.00 - $6.00 USD / piece</p>
+                    <p class="product-price">$3.00 - $5.00 USD / piece</p>
                     
-                    <a href="/products/sofa-legs/sl-001/" class="btn btn-primary">
+                    <a href="/products/door-locks/dl-005/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -534,14 +534,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Iron Casing Pipe 25mm × 1.5mm Wall IP-003 - Iron Casing Pipe | Wholesale Nigeria Africa</h3>
+                    <h3>Iron Plate Door Lock 9379-183</h3>
                     
-                    <p>Iron Casing Pipe 25mm × 1.5mm Wall</p>
+                    <p>Iron Plate Door Lock 9379-183</p>
                     
                     
-                    <p class="product-price">$1.20 - $2.00 USD / m</p>
+                    <p class="product-price">$3.00 - $5.00 USD / piece</p>
                     
-                    <a href="/products/iron-casing-pipes/sp-003/" class="btn btn-primary">
+                    <a href="/products/door-locks/dl-045/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -551,14 +551,12 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Waterproof Coating BM-003</h3>
+                    <h3>GTK - WaterProof Padlock With Plastic Cover</h3>
                     
-                    <p>Waterproof Coating</p>
+                    <p>Quality WaterProof Padlock With Plastic Cover. …</p>
                     
                     
-                    <p class="product-price">$5.00 - $8.00 USD / kg</p>
-                    
-                    <a href="/products/building-materials/bm-003/" class="btn btn-primary">
+                    <a href="/products/padlocks/gtk/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -1154,5 +1152,43 @@
     </a>
 
     <script src="/js/main.min.js" defer></script>
+    
+<script>
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var cls = a.className || '';
+    var p = {
+      link_url: href.slice(0, 180),
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      page_path: location.pathname
+    };
+    if (href.indexOf('wa.me') > -1 || href.indexOf('api.whatsapp.com') > -1) {
+      p.placement = cls.indexOf('whatsapp-float') > -1 ? 'float_button'
+        : (cls.indexOf('share-') > -1 ? 'share' : 'inline');
+      send('whatsapp_click', p);
+    } else if (href.indexOf('mailto:') === 0) {
+      send('email_click', p);
+    } else if (href.indexOf('tel:') === 0) {
+      send('phone_click', p);
+    }
+  }, true);
+  document.addEventListener('submit', function (e) {
+    var f = e.target || {};
+    send('lead_form_submit', {
+      form_id: f.id || f.name || 'contact_form',
+      page_path: location.pathname
+    });
+  }, true);
+})();
+</script>
+
+
 </body>
 </html>

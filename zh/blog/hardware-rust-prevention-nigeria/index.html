@@ -446,14 +446,48 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>铁面板铝执手门锁 837-352 - 门锁 | 批发 尼日利亚 非洲</h3>
+                    <h3>防水涂料 BM-003 — 工厂批发</h3>
                     
-                    <p>铁面板铝执手门锁</p>
+                    <p>防水涂料 BM-003</p>
                     
                     
-                    <p class="product-price">3.85 美元/个</p>
+                    <p class="product-price">5.00 - 8.00 美元/公斤</p>
                     
-                    <a href="/zh/products/door-locks/dl-003/" class="btn btn-primary">
+                    <a href="/zh/products/building-materials/bm-003/" class="btn btn-primary">
+                        查看详情
+                    </a>
+                </div>
+                
+                
+                
+                
+                <div class="product-card">
+                    <div class="product-icon">🔧</div>
+                    <h3>角码 30×30 DA-007 — 工厂批发</h3>
+                    
+                    <p>角码 30×30 DA-007</p>
+                    
+                    
+                    <p class="product-price">0.30 - 0.80 美元/件</p>
+                    
+                    <a href="/zh/products/door-accessories/da-007/" class="btn btn-primary">
+                        查看详情
+                    </a>
+                </div>
+                
+                
+                
+                
+                <div class="product-card">
+                    <div class="product-icon">🔧</div>
+                    <h3>门铰链 HH-006 - 门铰链 | 批发 尼日利亚 非洲</h3>
+                    
+                    <p>门铰链 HH-006</p>
+                    
+                    
+                    <p class="product-price">1.50 - 4.00 美元/件</p>
+                    
+                    <a href="/zh/products/door-hinges/hh-006/" class="btn btn-primary">
                         查看详情
                     </a>
                 </div>
@@ -471,40 +505,6 @@
                     <p class="product-price">1.50 - 4.00 美元/件</p>
                     
                     <a href="/zh/products/door-hinges/hh-001/" class="btn btn-primary">
-                        查看详情
-                    </a>
-                </div>
-                
-                
-                
-                
-                <div class="product-card">
-                    <div class="product-icon">🔧</div>
-                    <h3>铁面板铝执手门锁 9420-431 - 门锁 | 批发 尼日利亚 非洲</h3>
-                    
-                    <p>铁面板铝执手门锁</p>
-                    
-                    
-                    <p class="product-price">3.00 - 5.00 美元/个</p>
-                    
-                    <a href="/zh/products/door-locks/dl-048/" class="btn btn-primary">
-                        查看详情
-                    </a>
-                </div>
-                
-                
-                
-                
-                <div class="product-card">
-                    <div class="product-icon">🔧</div>
-                    <h3>橱柜五金 CH-005 - 橱柜五金 | 批发 尼日利亚 非洲</h3>
-                    
-                    <p>橱柜五金 CH-005</p>
-                    
-                    
-                    <p class="product-price">0.80 - 3.50 美元/件</p>
-                    
-                    <a href="/zh/products/cabinet-hardware/ch-005/" class="btn btn-primary">
                         查看详情
                     </a>
                 </div>
@@ -1100,5 +1100,43 @@
     </a>
 
     <script src="/js/main.min.js" defer></script>
+    
+<script>
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var cls = a.className || '';
+    var p = {
+      link_url: href.slice(0, 180),
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      page_path: location.pathname
+    };
+    if (href.indexOf('wa.me') > -1 || href.indexOf('api.whatsapp.com') > -1) {
+      p.placement = cls.indexOf('whatsapp-float') > -1 ? 'float_button'
+        : (cls.indexOf('share-') > -1 ? 'share' : 'inline');
+      send('whatsapp_click', p);
+    } else if (href.indexOf('mailto:') === 0) {
+      send('email_click', p);
+    } else if (href.indexOf('tel:') === 0) {
+      send('phone_click', p);
+    }
+  }, true);
+  document.addEventListener('submit', function (e) {
+    var f = e.target || {};
+    send('lead_form_submit', {
+      form_id: f.id || f.name || 'contact_form',
+      page_path: location.pathname
+    });
+  }, true);
+})();
+</script>
+
+
 </body>
 </html>

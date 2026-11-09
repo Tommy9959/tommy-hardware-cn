@@ -444,13 +444,18 @@
                 
                 
                 
-                    
+            
+                
+                
+                
                 
             
                 
                 
                 
                 
+                    
+                
             
                 
                 
@@ -601,15 +606,11 @@
                 
                 
             
-                
-                    
                 
                 
                 
                 
             
-                
-                    
                 
                 
                 
@@ -633,14 +634,18 @@
                 
             
                 
+                    
+                
                 
                 
                 
             
                 
+                    
                 
                 
                 
+                
             
                 
                 
@@ -652,30 +657,22 @@
                 
                 
             
-                
                 
-                    
                 
                 
                 
             
                 
-                
-                    
                 
                 
                 
             
                 
                 
-                    
                 
                 
-                
             
-                
                 
-                    
                 
                 
                 
@@ -1052,28 +1049,29 @@
                 
             
                 
-                    
                 
+                    
                 
                 
                 
             
-                
-                
                 
                 
-            
-                
+                    
                 
                 
                 
             
                 
                 
+                    
                 
                 
+                
             
+                
                 
+                    
                 
                 
                 
@@ -1090,8 +1088,6 @@
                 
                 
             
-                
-                    
                 
                 
                 
@@ -1127,15 +1123,19 @@
                 
                 
             
+                
+                    
                 
                 
                 
                 
             
                 
+                    
                 
                 
                 
+                
             
                 
                 
@@ -1172,6 +1172,8 @@
                 
                 
             
+                
+                    
                 
                 
                 
@@ -1184,8 +1186,6 @@
                 
                 
             
-                
-                    
                 
                 
                 
@@ -1199,7 +1199,7 @@
                 <a href="/products/padlocks/">
                     
                     <div class="product-img-wrapper">
-                        <picture><source srcset="/images/products/padlocks/hlv.webp" type="image/webp"><img src="/images/products/padlocks/hlv.jpg" 
+                        <picture><source srcset="/images/products/padlocks/ltn.webp" type="image/webp"><img src="/images/products/padlocks/ltn.jpg" 
        alt="Padlocks" 
        class="product-card-img" 
        loading="lazy" 
@@ -1218,7 +1218,7 @@
                 <a href="/products/door-locks/">
                     
                     <div class="product-img-wrapper">
-                        <picture><source srcset="/images/products/door-locks/7129-113.webp" type="image/webp"><img src="/images/products/door-locks/7129-113.jpg" 
+                        <picture><source srcset="/images/products/door-locks/705-231.webp" type="image/webp"><img src="/images/products/door-locks/705-231.jpg" 
        alt="Door Locks" 
        class="product-card-img" 
        loading="lazy" 
@@ -1237,7 +1237,7 @@
                 <a href="/products/door-hinges/">
                     
                     <div class="product-img-wrapper">
-                        <picture><img src="/images/products/door-hinges/default.svg" 
+                        <picture><source srcset="/images/products/door-hinges/hinge-261.webp" type="image/webp"><img src="/images/products/door-hinges/hinge-261.jpg" 
        alt="Door Hinges" 
        class="product-card-img" 
        loading="lazy" 
@@ -1256,7 +1256,7 @@
                 <a href="/products/door-accessories/">
                     
                     <div class="product-img-wrapper">
-                        <picture><img src="/images/products/door-accessories/da-002.svg" 
+                        <picture><img src="/images/products/door-accessories/da-006.svg" 
        alt="Door Accessories" 
        class="product-card-img" 
        loading="lazy" 
@@ -1574,5 +1574,43 @@
     </a>
 
     <script src="/js/main.min.js" defer></script>
+    
+<script>
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var cls = a.className || '';
+    var p = {
+      link_url: href.slice(0, 180),
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      page_path: location.pathname
+    };
+    if (href.indexOf('wa.me') > -1 || href.indexOf('api.whatsapp.com') > -1) {
+      p.placement = cls.indexOf('whatsapp-float') > -1 ? 'float_button'
+        : (cls.indexOf('share-') > -1 ? 'share' : 'inline');
+      send('whatsapp_click', p);
+    } else if (href.indexOf('mailto:') === 0) {
+      send('email_click', p);
+    } else if (href.indexOf('tel:') === 0) {
+      send('phone_click', p);
+    }
+  }, true);
+  document.addEventListener('submit', function (e) {
+    var f = e.target || {};
+    send('lead_form_submit', {
+      form_id: f.id || f.name || 'contact_form',
+      page_path: location.pathname
+    });
+  }, true);
+})();
+</script>
+
+
 </body>
 </html>

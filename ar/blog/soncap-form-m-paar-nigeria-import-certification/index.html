@@ -776,63 +776,63 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>قفل باب بلوحة حديدية 7129-352 - قفل باب | جملة نيجيريا أفريقيا</h3>
+                    <h3>مسار منزلق ST-004 - مسار منزلق | جملة نيجيريا أفريقيا</h3>
                     
-                    <p>قفل باب بلوحة حديدية</p>
-                    
-                    
-                    <p class="product-price">2.50 - 5.00 دولار أمريكي / قطعة</p>
-                    
-                    <a href="/ar/products/door-locks/dl-021/" class="btn btn-primary">
-                        عرض التفاصيل
-                    </a>
-                </div>
-                
-                
-                
-                
-                <div class="product-card">
-                    <div class="product-icon">🔧</div>
-                    <h3>قفل مقاوم للماء - GTK - قفل | جملة نيجيريا أفريقيا</h3>
-                    
-                    <p>قفل عالي الجودة قفل مقاوم للماء مع غطاء بلاستيكي. …</p>
-                    
-                    
-                    <a href="/ar/products/padlocks/gtk/" class="btn btn-primary">
-                        عرض التفاصيل
-                    </a>
-                </div>
-                
-                
-                
-                
-                <div class="product-card">
-                    <div class="product-icon">🔧</div>
-                    <h3>مقبض باب عالي الجودة DH-006 - مقبض باب | جملة نيجيريا أفريقيا</h3>
-                    
-                    <p>مقبض باب عالي الجودة</p>
-                    
-                    
-                    <p class="product-price">3.00 - 5.50 دولار أمريكي / قطعة</p>
-                    
-                    <a href="/ar/products/door-handles/dh-006/" class="btn btn-primary">
-                        عرض التفاصيل
-                    </a>
-                </div>
-                
-                
-                
-                
-                <div class="product-card">
-                    <div class="product-icon">🔧</div>
-                    <h3>مسار منزلق ST-006 - مسار منزلق | جملة نيجيريا أفريقيا</h3>
-                    
-                    <p>مسار منزلق ST-006</p>
+                    <p>مسار منزلق ST-004</p>
                     
                     
                     <p class="product-price">5.00 - 12.00 دولار أمريكي / متر</p>
                     
-                    <a href="/ar/products/sliding-tracks/st-006/" class="btn btn-primary">
+                    <a href="/ar/products/sliding-tracks/st-004/" class="btn btn-primary">
+                        عرض التفاصيل
+                    </a>
+                </div>
+                
+                
+                
+                
+                <div class="product-card">
+                    <div class="product-icon">🔧</div>
+                    <h3>لوح سقف PVC BM-006 - مواد بناء | جملة نيجيريا أفريقيا</h3>
+                    
+                    <p>لوح سقف PVC</p>
+                    
+                    
+                    <p class="product-price">$4.00 - $7.00 دولار/م²</p>
+                    
+                    <a href="/ar/products/building-materials/bm-006/" class="btn btn-primary">
+                        عرض التفاصيل
+                    </a>
+                </div>
+                
+                
+                
+                
+                <div class="product-card">
+                    <div class="product-icon">🔧</div>
+                    <h3>أنبوب حديد كاسينغ 16 مم × 1.5 مم IP-001 - أنبوب حديد كاسينغ | جملة نيجيريا أفريقيا</h3>
+                    
+                    <p>أنبوب حديد كاسينغ 16 مم × 1.5 مم</p>
+                    
+                    
+                    <p class="product-price">0.80 - 1.50 دولار/م</p>
+                    
+                    <a href="/ar/products/iron-casing-pipes/sp-001/" class="btn btn-primary">
+                        عرض التفاصيل
+                    </a>
+                </div>
+                
+                
+                
+                
+                <div class="product-card">
+                    <div class="product-icon">🔧</div>
+                    <h3>قفل حديدي دائري نيكل - YJN - قفل | جملة نيجيريا أفريقيا</h3>
+                    
+                    <p>قفل عالي الجودة قفل حديدي دائري نيكل. توريد مباشر …</p>
+                    
+                    
+                    <a href="/ar/products/padlocks/yjn/" class="btn btn-primary">
                         عرض التفاصيل
                     </a>
                 </div>
@@ -1428,5 +1428,43 @@
     </a>
 
     <script src="/js/main.min.js" defer></script>
+    
+<script>
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var cls = a.className || '';
+    var p = {
+      link_url: href.slice(0, 180),
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      page_path: location.pathname
+    };
+    if (href.indexOf('wa.me') > -1 || href.indexOf('api.whatsapp.com') > -1) {
+      p.placement = cls.indexOf('whatsapp-float') > -1 ? 'float_button'
+        : (cls.indexOf('share-') > -1 ? 'share' : 'inline');
+      send('whatsapp_click', p);
+    } else if (href.indexOf('mailto:') === 0) {
+      send('email_click', p);
+    } else if (href.indexOf('tel:') === 0) {
+      send('phone_click', p);
+    }
+  }, true);
+  document.addEventListener('submit', function (e) {
+    var f = e.target || {};
+    send('lead_form_submit', {
+      form_id: f.id || f.name || 'contact_form',
+      page_path: location.pathname
+    });
+  }, true);
+})();
+</script>
+
+
 </body>
 </html>

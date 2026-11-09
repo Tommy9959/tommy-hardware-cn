@@ -266,54 +266,7 @@
     <main class="site-main">
         
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the price of أجهزة الخزانة from China?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Factory direct prices for أجهزة الخزانة start from competitive wholesale rates. Contact us for specific product pricing and volume discounts. We offer 30-50% lower prices than African retail markets."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the MOQ for أجهزة الخزانة?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The minimum order quantity for أجهزة الخزانة varies by product model, typically starting from 400-1000 pcs. We accept mixed container orders and sample orders for quality testing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does delivery take to Nigeria?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Delivery time to Nigeria is 15-25 days for bulk orders. Shipping from Ningbo port to Lagos takes approximately 15-35 days. We provide full export documentation including Form M and SONCAP support."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I get free samples of أجهزة الخزانة?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we offer free samples for أجهزة الخزانة. You only need to pay for shipping. Contact our sales team to request samples for quality testing before bulk orders."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are you a factory or trading company for أجهزة الخزانة?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We are a factory direct manufacturer located in Yiwu, China, specializing in أجهزة الخزانة. ISO 9001 certified with 10+ years of export experience to Africa and the Middle East."
-      }
-    }
-  ]
-}
-</script><section class="products-list-page">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Factory direct prices for أجهزة الخزانة start at the FOB Yiwu range shown on this page. Contact us for a carton-level quotation with volume discounts to Nigeria."},"name":"What is the price of أجهزة الخزانة from China?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"MOQ is typically 500 to 1000 pcs per model depending on the item. Mixed-model and mixed-container orders are accepted for first orders."},"name":"What is the MOQ for أجهزة الخزانة?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Production takes 15-25 days after deposit, then 30-45 days sea freight to Lagos, Onne or Port Harcourt. Form M, SONCAP and PAAR documents are prepared by us."},"name":"How long does delivery to Nigeria take?"}]}</script><section class="products-list-page">
     <div class="container">
         
         
@@ -580,5 +533,43 @@
     </a>
 
     <script src="/js/main.min.js" defer></script>
+    
+<script>
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var cls = a.className || '';
+    var p = {
+      link_url: href.slice(0, 180),
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      page_path: location.pathname
+    };
+    if (href.indexOf('wa.me') > -1 || href.indexOf('api.whatsapp.com') > -1) {
+      p.placement = cls.indexOf('whatsapp-float') > -1 ? 'float_button'
+        : (cls.indexOf('share-') > -1 ? 'share' : 'inline');
+      send('whatsapp_click', p);
+    } else if (href.indexOf('mailto:') === 0) {
+      send('email_click', p);
+    } else if (href.indexOf('tel:') === 0) {
+      send('phone_click', p);
+    }
+  }, true);
+  document.addEventListener('submit', function (e) {
+    var f = e.target || {};
+    send('lead_form_submit', {
+      form_id: f.id || f.name || 'contact_form',
+      page_path: location.pathname
+    });
+  }, true);
+})();
+</script>
+
+
 </body>
 </html>

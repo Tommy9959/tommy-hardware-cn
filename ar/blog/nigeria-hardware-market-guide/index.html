@@ -669,14 +669,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>سلسلة أمان باب DA-004 - إكسسوار باب | جملة نيجيريا أفريقيا</h3>
+                    <h3>قفل باب بلوحة حديدية 705-43 - قفل باب | جملة نيجيريا أفريقيا</h3>
                     
-                    <p>سلسلة أمان باب</p>
+                    <p>قفل باب بلوحة حديدية</p>
                     
                     
-                    <p class="product-price">$0.80 - $2.00 دولار/قطعة</p>
+                    <p class="product-price">2.50 - 5.00 دولار أمريكي / قطعة</p>
                     
-                    <a href="/ar/products/door-accessories/da-004/" class="btn btn-primary">
+                    <a href="/ar/products/door-locks/dl-014/" class="btn btn-primary">
                         عرض التفاصيل
                     </a>
                 </div>
@@ -686,14 +686,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>رجل أريكة SL-001 - رجل أريكة | جملة نيجيريا أفريقيا</h3>
+                    <h3>قفل باب بلوحة حديدية 955A-151 - قفل باب | جملة نيجيريا أفريقيا</h3>
                     
-                    <p>رجل أريكة SL-001</p>
+                    <p>قفل باب بلوحة حديدية</p>
                     
                     
-                    <p class="product-price">2.00 - 6.00 دولار أمريكي / قطعة</p>
+                    <p class="product-price">3.00 - 5.00 دولار أمريكي / قطعة</p>
                     
-                    <a href="/ar/products/sofa-legs/sl-001/" class="btn btn-primary">
+                    <a href="/ar/products/door-locks/dl-057/" class="btn btn-primary">
                         عرض التفاصيل
                     </a>
                 </div>
@@ -703,14 +703,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>مفصل باب HH-004 - مفصلة باب | جملة نيجيريا أفريقيا</h3>
+                    <h3>ماسك مغناطيسي للأثاث FF-006 - تجهيزات أثاث | جملة نيجيريا أفريقيا</h3>
                     
-                    <p>مفصل باب HH-004</p>
+                    <p>ماسك مغناطيسي للأثاث</p>
                     
                     
-                    <p class="product-price">1.50 - 4.00 دولار أمريكي / قطعة</p>
+                    <p class="product-price">$0.20 - $0.60 دولار/قطعة</p>
                     
-                    <a href="/ar/products/door-hinges/hh-004/" class="btn btn-primary">
+                    <a href="/ar/products/furniture-fittings/ff-006/" class="btn btn-primary">
                         عرض التفاصيل
                     </a>
                 </div>
@@ -720,14 +720,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>حارس أصابع الباب DA-006 - إكسسوار باب | جملة نيجيريا أفريقيا</h3>
+                    <h3>قفل باب بلوحة حديدية 705-113 - قفل باب | جملة نيجيريا أفريقيا</h3>
                     
-                    <p>حارس أصابع الباب</p>
+                    <p>قفل باب بلوحة حديدية</p>
                     
                     
-                    <p class="product-price">$1.00 - $3.50 دولار/قطعة</p>
+                    <p class="product-price">2.50 - 5.00 دولار أمريكي / قطعة</p>
                     
-                    <a href="/ar/products/door-accessories/da-006/" class="btn btn-primary">
+                    <a href="/ar/products/door-locks/dl-008/" class="btn btn-primary">
                         عرض التفاصيل
                     </a>
                 </div>
@@ -1323,5 +1323,43 @@
     </a>
 
     <script src="/js/main.min.js" defer></script>
+    
+<script>
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var cls = a.className || '';
+    var p = {
+      link_url: href.slice(0, 180),
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      page_path: location.pathname
+    };
+    if (href.indexOf('wa.me') > -1 || href.indexOf('api.whatsapp.com') > -1) {
+      p.placement = cls.indexOf('whatsapp-float') > -1 ? 'float_button'
+        : (cls.indexOf('share-') > -1 ? 'share' : 'inline');
+      send('whatsapp_click', p);
+    } else if (href.indexOf('mailto:') === 0) {
+      send('email_click', p);
+    } else if (href.indexOf('tel:') === 0) {
+      send('phone_click', p);
+    }
+  }, true);
+  document.addEventListener('submit', function (e) {
+    var f = e.target || {};
+    send('lead_form_submit', {
+      form_id: f.id || f.name || 'contact_form',
+      page_path: location.pathname
+    });
+  }, true);
+})();
+</script>
+
+
 </body>
 </html>

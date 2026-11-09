@@ -469,14 +469,14 @@ Rust expands—it can crack porcelain basins, jam locks, and stain marble floors
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Furniture Hinge Concealed FF-004</h3>
+                    <h3>Door Hinge HH-001</h3>
                     
-                    <p>Furniture Hinge Concealed</p>
+                    <p>Door Hinge HH-001</p>
                     
                     
-                    <p class="product-price">$1.00 - $3.50 USD / pc</p>
+                    <p class="product-price">$1.50 - $4.00 USD / piece</p>
                     
-                    <a href="/products/furniture-fittings/ff-004/" class="btn btn-primary">
+                    <a href="/products/door-hinges/hh-001/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -486,14 +486,14 @@ Rust expands—it can crack porcelain basins, jam locks, and stain marble floors
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Iron Casing Pipe 16mm × 2.0mm Wall IP-002 - Iron Casing Pipe | Wholesale Nigeria Africa</h3>
+                    <h3>Iron Plate Door Lock 905-352</h3>
                     
-                    <p>Iron Casing Pipe 16mm × 2.0mm Wall</p>
+                    <p>Iron Plate Door Lock 905-352</p>
                     
                     
-                    <p class="product-price">$1.00 - $1.80 USD / m</p>
+                    <p class="product-price">$3.00 - $5.00 USD / piece</p>
                     
-                    <a href="/products/iron-casing-pipes/sp-002/" class="btn btn-primary">
+                    <a href="/products/door-locks/dl-036/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -503,14 +503,14 @@ Rust expands—it can crack porcelain basins, jam locks, and stain marble floors
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Premium Door Handle Model DH-006</h3>
+                    <h3>Metal Furniture Leg SL-002 — Wholesale</h3>
                     
-                    <p>Premium Door Handle Model DH-006</p>
+                    <p>Metal Furniture Leg SL-002</p>
                     
                     
-                    <p class="product-price">$3.00 - $5.50 USD / piece</p>
+                    <p class="product-price">$2.00 - $6.00 USD / piece</p>
                     
-                    <a href="/products/door-handles/dh-006/" class="btn btn-primary">
+                    <a href="/products/sofa-legs/sl-002/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -520,14 +520,14 @@ Rust expands—it can crack porcelain basins, jam locks, and stain marble floors
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Construction Adhesive BM-005</h3>
+                    <h3>Angle Bracket 30×30 DA-007 — Wholesale</h3>
                     
-                    <p>Construction Adhesive</p>
+                    <p>Angle Bracket 30×30 DA-007</p>
                     
                     
-                    <p class="product-price">$2.00 - $4.50 USD / tube</p>
+                    <p class="product-price">$0.30 - $0.80 USD / pc</p>
                     
-                    <a href="/products/building-materials/bm-005/" class="btn btn-primary">
+                    <a href="/products/door-accessories/da-007/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -1123,5 +1123,43 @@ Rust expands—it can crack porcelain basins, jam locks, and stain marble floors
     </a>
 
     <script src="/js/main.min.js" defer></script>
+    
+<script>
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var cls = a.className || '';
+    var p = {
+      link_url: href.slice(0, 180),
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      page_path: location.pathname
+    };
+    if (href.indexOf('wa.me') > -1 || href.indexOf('api.whatsapp.com') > -1) {
+      p.placement = cls.indexOf('whatsapp-float') > -1 ? 'float_button'
+        : (cls.indexOf('share-') > -1 ? 'share' : 'inline');
+      send('whatsapp_click', p);
+    } else if (href.indexOf('mailto:') === 0) {
+      send('email_click', p);
+    } else if (href.indexOf('tel:') === 0) {
+      send('phone_click', p);
+    }
+  }, true);
+  document.addEventListener('submit', function (e) {
+    var f = e.target || {};
+    send('lead_form_submit', {
+      form_id: f.id || f.name || 'contact_form',
+      page_path: location.pathname
+    });
+  }, true);
+})();
+</script>
+
+
 </body>
 </html>

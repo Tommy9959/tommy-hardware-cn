@@ -676,14 +676,31 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>قفل باب بلوحة حديدية 905-352 - قفل باب | جملة نيجيريا أفريقيا</h3>
+                    <h3>رجل أريكة SL-001 - رجل أريكة | جملة نيجيريا أفريقيا</h3>
+                    
+                    <p>رجل أريكة SL-001</p>
+                    
+                    
+                    <p class="product-price">2.00 - 6.00 دولار أمريكي / قطعة</p>
+                    
+                    <a href="/ar/products/sofa-legs/sl-001/" class="btn btn-primary">
+                        عرض التفاصيل
+                    </a>
+                </div>
+                
+                
+                
+                
+                <div class="product-card">
+                    <div class="product-icon">🔧</div>
+                    <h3>قفل باب بلوحة حديدية 905-151 - قفل باب | جملة نيجيريا أفريقيا</h3>
                     
                     <p>قفل باب بلوحة حديدية</p>
                     
                     
                     <p class="product-price">3.00 - 5.00 دولار أمريكي / قطعة</p>
                     
-                    <a href="/ar/products/door-locks/dl-036/" class="btn btn-primary">
+                    <a href="/ar/products/door-locks/dl-034/" class="btn btn-primary">
                         عرض التفاصيل
                     </a>
                 </div>
@@ -693,14 +710,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>مسار منزلق ST-001 - مسار منزلق | جملة نيجيريا أفريقيا</h3>
+                    <h3>عين باب DA-003 - إكسسوار باب | جملة نيجيريا أفريقيا</h3>
                     
-                    <p>مسار منزلق ST-001</p>
+                    <p>عين باب</p>
                     
                     
-                    <p class="product-price">5.00 - 12.00 دولار أمريكي / متر</p>
+                    <p class="product-price">$1.00 - $3.00 دولار/قطعة</p>
                     
-                    <a href="/ar/products/sliding-tracks/st-001/" class="btn btn-primary">
+                    <a href="/ar/products/door-accessories/da-003/" class="btn btn-primary">
                         عرض التفاصيل
                     </a>
                 </div>
@@ -710,31 +727,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>زاوية تثبيت 30×30 DA-007 - إكسسوار باب | جملة نيجيريا أفريقيا</h3>
+                    <h3>قفل باب بلوحة حديدية 955-113 - قفل باب | جملة نيجيريا أفريقيا</h3>
                     
-                    <p>زاوية تثبيت 30×30</p>
-                    
-                    
-                    <p class="product-price">0.30 - 0.80 دولار أمريكي / قطعة</p>
-                    
-                    <a href="/ar/products/door-accessories/da-007/" class="btn btn-primary">
-                        عرض التفاصيل
-                    </a>
-                </div>
-                
-                
-                
-                
-                <div class="product-card">
-                    <div class="product-icon">🔧</div>
-                    <h3>طلاء عازل للماء BM-003 - مواد بناء | جملة نيجيريا أفريقيا</h3>
-                    
-                    <p>طلاء عازل للماء</p>
+                    <p>قفل باب بلوحة حديدية</p>
                     
                     
-                    <p class="product-price">$5.00 - $8.00 دولار/كجم</p>
+                    <p class="product-price">3.00 - 5.00 دولار أمريكي / قطعة</p>
                     
-                    <a href="/ar/products/building-materials/bm-003/" class="btn btn-primary">
+                    <a href="/ar/products/door-locks/dl-049/" class="btn btn-primary">
                         عرض التفاصيل
                     </a>
                 </div>
@@ -1330,5 +1330,43 @@
     </a>
 
     <script src="/js/main.min.js" defer></script>
+    
+<script>
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var cls = a.className || '';
+    var p = {
+      link_url: href.slice(0, 180),
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      page_path: location.pathname
+    };
+    if (href.indexOf('wa.me') > -1 || href.indexOf('api.whatsapp.com') > -1) {
+      p.placement = cls.indexOf('whatsapp-float') > -1 ? 'float_button'
+        : (cls.indexOf('share-') > -1 ? 'share' : 'inline');
+      send('whatsapp_click', p);
+    } else if (href.indexOf('mailto:') === 0) {
+      send('email_click', p);
+    } else if (href.indexOf('tel:') === 0) {
+      send('phone_click', p);
+    }
+  }, true);
+  document.addEventListener('submit', function (e) {
+    var f = e.target || {};
+    send('lead_form_submit', {
+      form_id: f.id || f.name || 'contact_form',
+      page_path: location.pathname
+    });
+  }, true);
+})();
+</script>
+
+
 </body>
 </html>

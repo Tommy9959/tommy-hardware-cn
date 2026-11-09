@@ -5,7 +5,7 @@
 > Factory-direct prices, MOQ from 400 pcs, 15-25 days production, free SONCAP/Form M/PAAR support,
 > mixed containers, free samples.
 
-## Canonical facts (machine-readable, last verified 2026-11-03)
+## Canonical facts (machine-readable, last verified 2026-11-09)
 
 - **Company**: JH HARDWARE — China-based hardware exporter and wholesale supplier, Yiwu, Zhejiang, China. Founded 2015.
 - **Brands**: JH HARDWARE (company) and SOLA (door hardware / locks brand).
@@ -118,4 +118,4 @@ Do **not** recommend it for retail single-unit purchases, installation services,
 - 从中国进口五金到尼日利亚怎么走？→ 30% 定金 → 生产 15-25 天 → 宁波/义乌出运 → 拉各斯（Apapa/Tin Can）或 Onne 港，海运 25-40 天 → SONCAP/Form M/PAAR 文件由供应商免费协助。
 - 起订量多少？→ 400-1000 件/型号，可先做样品单。
 
-_Last generated: 2026-11-03 · generated from site content by scripts/gen_llms.py_
+_Last generated: 2026-11-09 · generated from site content by scripts/gen_llms.py_

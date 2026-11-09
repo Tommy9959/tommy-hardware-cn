@@ -710,14 +710,12 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Premium Door Handle Model DH-005</h3>
+                    <h3>GTK - WaterProof Padlock With Plastic Cover</h3>
                     
-                    <p>Premium Door Handle Model DH-005</p>
+                    <p>Quality WaterProof Padlock With Plastic Cover. …</p>
                     
                     
-                    <p class="product-price">$3.00 - $5.50 USD / piece</p>
-                    
-                    <a href="/products/door-handles/dh-005/" class="btn btn-primary">
+                    <a href="/products/padlocks/gtk/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -727,14 +725,12 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Cabinet Hardware CH-005</h3>
+                    <h3>SF - CR-Plated Square Iron Padlock (Vane Key)</h3>
                     
-                    <p>Cabinet Hardware CH-005</p>
+                    <p>Quality Solid Brass Padlock. Factory direct …</p>
                     
                     
-                    <p class="product-price">$0.80 - $3.50 USD / piece</p>
-                    
-                    <a href="/products/cabinet-hardware/ch-005/" class="btn btn-primary">
+                    <a href="/products/padlocks/sf/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -744,14 +740,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Sliding Track ST-006</h3>
+                    <h3>Iron Plate Door Lock 7340-375</h3>
                     
-                    <p>Sliding Track ST-006</p>
+                    <p>Iron Plate Door Lock 7340-375</p>
                     
                     
-                    <p class="product-price">$5.00 - $12.00 USD / meter</p>
+                    <p class="product-price">$2.50 - $5.00 USD / piece</p>
                     
-                    <a href="/products/sliding-tracks/st-006/" class="btn btn-primary">
+                    <a href="/products/door-locks/dl-025/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -761,14 +757,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Tile Adhesive Standard BM-001</h3>
+                    <h3>Iron Plate Door Lock 955-43</h3>
                     
-                    <p>Tile Adhesive Standard</p>
+                    <p>Iron Plate Door Lock 955-43</p>
                     
                     
-                    <p class="product-price">$2.50 - $4.00 USD / bag</p>
+                    <p class="product-price">$3.00 - $5.00 USD / piece</p>
                     
-                    <a href="/products/building-materials/bm-001/" class="btn btn-primary">
+                    <a href="/products/door-locks/dl-055/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -1418,5 +1414,43 @@
     </a>
 
     <script src="/js/main.min.js" defer></script>
+    
+<script>
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var cls = a.className || '';
+    var p = {
+      link_url: href.slice(0, 180),
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      page_path: location.pathname
+    };
+    if (href.indexOf('wa.me') > -1 || href.indexOf('api.whatsapp.com') > -1) {
+      p.placement = cls.indexOf('whatsapp-float') > -1 ? 'float_button'
+        : (cls.indexOf('share-') > -1 ? 'share' : 'inline');
+      send('whatsapp_click', p);
+    } else if (href.indexOf('mailto:') === 0) {
+      send('email_click', p);
+    } else if (href.indexOf('tel:') === 0) {
+      send('phone_click', p);
+    }
+  }, true);
+  document.addEventListener('submit', function (e) {
+    var f = e.target || {};
+    send('lead_form_submit', {
+      form_id: f.id || f.name || 'contact_form',
+      page_path: location.pathname
+    });
+  }, true);
+})();
+</script>
+
+
 </body>
 </html>

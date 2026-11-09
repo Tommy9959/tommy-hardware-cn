@@ -58,31 +58,31 @@
       {
         "@type": "ListItem",
         "position":  1 ,
-        "name": "橱柜五金",
+        "name": "橱柜五金批发 — 拉手、旋钮与 T 型把手 中国工厂直供",
         "url": "https:\/\/jh-hardware.com\/zh\/products\/cabinet-hardware\/"
       },
       {
         "@type": "ListItem",
         "position":  2 ,
-        "name": "导轨",
-        "url": "https:\/\/jh-hardware.com\/zh\/products\/sliding-tracks\/"
-      },
-      {
-        "@type": "ListItem",
-        "position":  3 ,
         "name": "挂锁",
         "url": "https:\/\/jh-hardware.com\/zh\/products\/padlocks\/"
       },
       {
         "@type": "ListItem",
+        "position":  3 ,
+        "name": "滑轨批发 — 抽屉滑轨、衣柜轨道与吊轨门五金 中国工厂直供",
+        "url": "https:\/\/jh-hardware.com\/zh\/products\/sliding-tracks\/"
+      },
+      {
+        "@type": "ListItem",
         "position":  4 ,
-        "name": "家具配件",
+        "name": "家具配件批发 — 三合一连接件、隐藏铰链与拉手 中国工厂直供",
         "url": "https:\/\/jh-hardware.com\/zh\/products\/furniture-fittings\/"
       },
       {
         "@type": "ListItem",
         "position":  5 ,
-        "name": "建材",
+        "name": "建材批发 — 瓷砖胶、防水涂料、腻子粉与 PVC 扣板 中国工厂直供",
         "url": "https:\/\/jh-hardware.com\/zh\/products\/building-materials\/"
       },
       {
@@ -100,7 +100,7 @@
       {
         "@type": "ListItem",
         "position":  8 ,
-        "name": "门配件",
+        "name": "门配件批发 — 闭门器、猫眼、门吸与插销 中国工厂直供",
         "url": "https:\/\/jh-hardware.com\/zh\/products\/door-accessories\/"
       },
       {
@@ -112,7 +112,7 @@
       {
         "@type": "ListItem",
         "position":  10 ,
-        "name": "沙发脚",
+        "name": "沙发脚批发 — 木脚、金属脚与可调脚 中国工厂直供",
         "url": "https:\/\/jh-hardware.com\/zh\/products\/sofa-legs\/"
       },
       {
@@ -473,30 +473,6 @@
         
             
             
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
                 
             
         
@@ -778,6 +754,30 @@
             
             
                 
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
             
         
             
@@ -805,7 +805,7 @@
                 <a href="/zh/products/door-locks/">
                     
                     <div class="category-img-wrapper">
-                        <picture><source srcset="/images/products/door-locks/7129-107.webp" type="image/webp"><img src="/images/products/door-locks/7129-107.jpg" 
+                        <picture><source srcset="/images/products/door-locks/dl-004.webp" type="image/webp"><img src="/images/products/door-locks/dl-004.jpg" 
        alt="门锁" 
        class="category-card-img" 
        loading="lazy" 
@@ -827,7 +827,7 @@
                 <a href="/zh/products/padlocks/">
                     
                     <div class="category-img-wrapper">
-                        <picture><source srcset="/images/products/padlocks/hlv.webp" type="image/webp"><img src="/images/products/padlocks/hlv.jpg" 
+                        <picture><source srcset="/images/products/padlocks/sfn.webp" type="image/webp"><img src="/images/products/padlocks/sfn.jpg" 
        alt="挂锁" 
        class="category-card-img" 
        loading="lazy" 
@@ -1026,5 +1026,43 @@
     </a>
 
     <script src="/js/main.min.js" defer></script>
+    
+<script>
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var cls = a.className || '';
+    var p = {
+      link_url: href.slice(0, 180),
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      page_path: location.pathname
+    };
+    if (href.indexOf('wa.me') > -1 || href.indexOf('api.whatsapp.com') > -1) {
+      p.placement = cls.indexOf('whatsapp-float') > -1 ? 'float_button'
+        : (cls.indexOf('share-') > -1 ? 'share' : 'inline');
+      send('whatsapp_click', p);
+    } else if (href.indexOf('mailto:') === 0) {
+      send('email_click', p);
+    } else if (href.indexOf('tel:') === 0) {
+      send('phone_click', p);
+    }
+  }, true);
+  document.addEventListener('submit', function (e) {
+    var f = e.target || {};
+    send('lead_form_submit', {
+      form_id: f.id || f.name || 'contact_form',
+      page_path: location.pathname
+    });
+  }, true);
+})();
+</script>
+
+
 </body>
 </html>

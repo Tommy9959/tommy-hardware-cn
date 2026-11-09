@@ -674,48 +674,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>橱柜五金 CH-003 - 橱柜五金 | 批发 尼日利亚 非洲</h3>
-                    
-                    <p>橱柜五金 CH-003</p>
-                    
-                    
-                    <p class="product-price">0.80 - 3.50 美元/件</p>
-                    
-                    <a href="/zh/products/cabinet-hardware/ch-003/" class="btn btn-primary">
-                        查看详情
-                    </a>
-                </div>
-                
-                
-                
-                
-                <div class="product-card">
-                    <div class="product-icon">🔧</div>
-                    <h3>沙发脚 SL-003 - 沙发脚 | 批发 尼日利亚 非洲</h3>
-                    
-                    <p>沙发脚 SL-003</p>
-                    
-                    
-                    <p class="product-price">2.00 - 6.00 美元/件</p>
-                    
-                    <a href="/zh/products/sofa-legs/sl-003/" class="btn btn-primary">
-                        查看详情
-                    </a>
-                </div>
-                
-                
-                
-                
-                <div class="product-card">
-                    <div class="product-icon">🔧</div>
-                    <h3>铁面板铝执手门锁 905-118 - 门锁 | 批发 尼日利亚 非洲</h3>
+                    <h3>铁面板铝执手门锁 905-151 - 门锁 | 批发 尼日利亚 非洲</h3>
                     
                     <p>铁面板铝执手门锁</p>
                     
                     
                     <p class="product-price">3.00 - 5.00 美元/个</p>
                     
-                    <a href="/zh/products/door-locks/dl-033/" class="btn btn-primary">
+                    <a href="/zh/products/door-locks/dl-034/" class="btn btn-primary">
                         查看详情
                     </a>
                 </div>
@@ -725,14 +691,44 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>导轨 ST-005 - 滑轨 | 批发 尼日利亚 非洲</h3>
+                    <h3>LTN - 仿铜榔头挂锁 - 挂锁 | 批发 尼日利亚 非洲</h3>
                     
-                    <p>导轨 ST-005</p>
+                    <p>高品质仿铜榔头挂锁。工厂直供，价格优惠。</p>
                     
                     
-                    <p class="product-price">5.00 - 12.00 美元/米</p>
+                    <a href="/zh/products/padlocks/ltn/" class="btn btn-primary">
+                        查看详情
+                    </a>
+                </div>
+                
+                
+                
+                
+                <div class="product-card">
+                    <div class="product-icon">🔧</div>
+                    <h3>铁面板铝执手门锁 755-231 - 门锁 | 批发 尼日利亚 非洲</h3>
                     
-                    <a href="/zh/products/sliding-tracks/st-005/" class="btn btn-primary">
+                    <p>铁面板铝执手门锁</p>
+                    
+                    
+                    <p class="product-price">2.50 - 5.00 美元/个</p>
+                    
+                    <a href="/zh/products/door-locks/dl-027/" class="btn btn-primary">
+                        查看详情
+                    </a>
+                </div>
+                
+                
+                
+                
+                <div class="product-card">
+                    <div class="product-icon">🔧</div>
+                    <h3>SF - 镀铬四方叶片锁 - 挂锁 | 批发 尼日利亚 非洲</h3>
+                    
+                    <p>高品质镀铬四方叶片锁。工厂直供，价格优惠。</p>
+                    
+                    
+                    <a href="/zh/products/padlocks/sf/" class="btn btn-primary">
                         查看详情
                     </a>
                 </div>
@@ -1328,5 +1324,43 @@
     </a>
 
     <script src="/js/main.min.js" defer></script>
+    
+<script>
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var cls = a.className || '';
+    var p = {
+      link_url: href.slice(0, 180),
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      page_path: location.pathname
+    };
+    if (href.indexOf('wa.me') > -1 || href.indexOf('api.whatsapp.com') > -1) {
+      p.placement = cls.indexOf('whatsapp-float') > -1 ? 'float_button'
+        : (cls.indexOf('share-') > -1 ? 'share' : 'inline');
+      send('whatsapp_click', p);
+    } else if (href.indexOf('mailto:') === 0) {
+      send('email_click', p);
+    } else if (href.indexOf('tel:') === 0) {
+      send('phone_click', p);
+    }
+  }, true);
+  document.addEventListener('submit', function (e) {
+    var f = e.target || {};
+    send('lead_form_submit', {
+      form_id: f.id || f.name || 'contact_form',
+      page_path: location.pathname
+    });
+  }, true);
+})();
+</script>
+
+
 </body>
 </html>

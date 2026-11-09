@@ -684,14 +684,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Iron Plate Door Lock 955A-113</h3>
+                    <h3>Construction Adhesive BM-005 — Wholesale</h3>
                     
-                    <p>Iron Plate Door Lock 113</p>
+                    <p>Construction Adhesive BM-005</p>
                     
                     
-                    <p class="product-price">$3.00 - $5.00 USD / piece</p>
+                    <p class="product-price">$2.00 - $4.50 USD / tube</p>
                     
-                    <a href="/products/door-locks/dl-056/" class="btn btn-primary">
+                    <a href="/products/building-materials/bm-005/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -701,14 +701,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Sliding Track ST-005</h3>
+                    <h3>Furniture Connector Cam FF-002 — Wholesale</h3>
                     
-                    <p>Sliding Track ST-005</p>
+                    <p>Furniture Connector Cam FF-002</p>
                     
                     
-                    <p class="product-price">$5.00 - $12.00 USD / meter</p>
+                    <p class="product-price">$0.30 - $0.80 USD / set</p>
                     
-                    <a href="/products/sliding-tracks/st-005/" class="btn btn-primary">
+                    <a href="/products/furniture-fittings/ff-002/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -718,31 +718,31 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>Door Finger Guard DA-006</h3>
+                    <h3>Wall Putty Powder BM-004 — Wholesale</h3>
                     
-                    <p>Door Finger Guard</p>
-                    
-                    
-                    <p class="product-price">$1.00 - $3.50 USD / pc</p>
-                    
-                    <a href="/products/door-accessories/da-006/" class="btn btn-primary">
-                        View Details
-                    </a>
-                </div>
-                
-                
-                
-                
-                <div class="product-card">
-                    <div class="product-icon">🔧</div>
-                    <h3>Wall Putty Powder BM-004</h3>
-                    
-                    <p>Wall Putty Powder</p>
+                    <p>Wall Putty Powder BM-004</p>
                     
                     
                     <p class="product-price">$1.50 - $3.00 USD / bag</p>
                     
                     <a href="/products/building-materials/bm-004/" class="btn btn-primary">
+                        View Details
+                    </a>
+                </div>
+                
+                
+                
+                
+                <div class="product-card">
+                    <div class="product-icon">🔧</div>
+                    <h3>Aluminum Cabinet Leg SL-004 — Wholesale</h3>
+                    
+                    <p>Aluminum Cabinet Leg SL-004</p>
+                    
+                    
+                    <p class="product-price">$2.00 - $6.00 USD / piece</p>
+                    
+                    <a href="/products/sofa-legs/sl-004/" class="btn btn-primary">
                         View Details
                     </a>
                 </div>
@@ -1401,5 +1401,43 @@
     </a>
 
     <script src="/js/main.min.js" defer></script>
+    
+<script>
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var cls = a.className || '';
+    var p = {
+      link_url: href.slice(0, 180),
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      page_path: location.pathname
+    };
+    if (href.indexOf('wa.me') > -1 || href.indexOf('api.whatsapp.com') > -1) {
+      p.placement = cls.indexOf('whatsapp-float') > -1 ? 'float_button'
+        : (cls.indexOf('share-') > -1 ? 'share' : 'inline');
+      send('whatsapp_click', p);
+    } else if (href.indexOf('mailto:') === 0) {
+      send('email_click', p);
+    } else if (href.indexOf('tel:') === 0) {
+      send('phone_click', p);
+    }
+  }, true);
+  document.addEventListener('submit', function (e) {
+    var f = e.target || {};
+    send('lead_form_submit', {
+      form_id: f.id || f.name || 'contact_form',
+      page_path: location.pathname
+    });
+  }, true);
+})();
+</script>
+
+
 </body>
 </html>

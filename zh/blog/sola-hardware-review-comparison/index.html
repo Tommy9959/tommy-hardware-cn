@@ -513,12 +513,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>LTN - 仿铜榔头挂锁 - 挂锁 | 批发 尼日利亚 非洲</h3>
+                    <h3>铁面板铝执手门锁 9379-183 - 门锁 | 批发 尼日利亚 非洲</h3>
                     
-                    <p>高品质仿铜榔头挂锁。工厂直供，价格优惠。</p>
+                    <p>铁面板铝执手门锁</p>
                     
                     
-                    <a href="/zh/products/padlocks/ltn/" class="btn btn-primary">
+                    <p class="product-price">3.00 - 5.00 美元/个</p>
+                    
+                    <a href="/zh/products/door-locks/dl-045/" class="btn btn-primary">
                         查看详情
                     </a>
                 </div>
@@ -528,14 +530,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>沙发脚 SL-003 - 沙发脚 | 批发 尼日利亚 非洲</h3>
+                    <h3>铁面板铝执手门锁 9129-118 - 门锁 | 批发 尼日利亚 非洲</h3>
                     
-                    <p>沙发脚 SL-003</p>
+                    <p>铁面板铝执手门锁</p>
                     
                     
-                    <p class="product-price">2.00 - 6.00 美元/件</p>
+                    <p class="product-price">3.00 - 5.00 美元/个</p>
                     
-                    <a href="/zh/products/sofa-legs/sl-003/" class="btn btn-primary">
+                    <a href="/zh/products/door-locks/dl-039/" class="btn btn-primary">
                         查看详情
                     </a>
                 </div>
@@ -545,14 +547,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>优质门把手 DH-003 - 门把手 | 批发 尼日利亚 非洲</h3>
+                    <h3>门铰链 HH-005 - 门铰链 | 批发 尼日利亚 非洲</h3>
                     
-                    <p>优质门把手 DH-003</p>
+                    <p>门铰链 HH-005</p>
                     
                     
-                    <p class="product-price">3.00 - 5.50 美元/件</p>
+                    <p class="product-price">1.50 - 4.00 美元/件</p>
                     
-                    <a href="/zh/products/door-handles/dh-003/" class="btn btn-primary">
+                    <a href="/zh/products/door-hinges/hh-005/" class="btn btn-primary">
                         查看详情
                     </a>
                 </div>
@@ -562,14 +564,14 @@
                 
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
-                    <h3>橱柜五金 CH-006 - 橱柜五金 | 批发 尼日利亚 非洲</h3>
+                    <h3>铝合金家具拉手 FF-001 — 工厂批发</h3>
                     
-                    <p>橱柜五金 CH-006</p>
+                    <p>铝合金家具拉手 FF-001</p>
                     
                     
-                    <p class="product-price">0.80 - 3.50 美元/件</p>
+                    <p class="product-price">1.00 - 3.00 美元/个</p>
                     
-                    <a href="/zh/products/cabinet-hardware/ch-006/" class="btn btn-primary">
+                    <a href="/zh/products/furniture-fittings/ff-001/" class="btn btn-primary">
                         查看详情
                     </a>
                 </div>
@@ -1165,5 +1167,43 @@
     </a>
 
     <script src="/js/main.min.js" defer></script>
+    
+<script>
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  function send(name, params) {
+    try { window.gtag('event', name, params); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var cls = a.className || '';
+    var p = {
+      link_url: href.slice(0, 180),
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      page_path: location.pathname
+    };
+    if (href.indexOf('wa.me') > -1 || href.indexOf('api.whatsapp.com') > -1) {
+      p.placement = cls.indexOf('whatsapp-float') > -1 ? 'float_button'
+        : (cls.indexOf('share-') > -1 ? 'share' : 'inline');
+      send('whatsapp_click', p);
+    } else if (href.indexOf('mailto:') === 0) {
+      send('email_click', p);
+    } else if (href.indexOf('tel:') === 0) {
+      send('phone_click', p);
+    }
+  }, true);
+  document.addEventListener('submit', function (e) {
+    var f = e.target || {};
+    send('lead_form_submit', {
+      form_id: f.id || f.name || 'contact_form',
+      page_path: location.pathname
+    });
+  }, true);
+})();
+</script>
+
+
 </body>
 </html>
