@@ -95,6 +95,9 @@
                     <p>📱 {{ .Site.Params.phone }}</p>
                     <p>💬 {{ if eq .Site.Language.Lang "zh" }}微信：{{ .Site.Params.wechat }}{{ else }}{{ if eq .Site.Language.Lang "en" }}WeChat: {{ .Site.Params.wechat }}{{ else }}WeChat: {{ .Site.Params.wechat }}{{ end }}{{ end }}</p>
                     <p>📍 {{ if eq .Site.Language.Lang "zh" }}{{ .Site.Params.address }}{{ else }}{{ if eq .Site.Language.Lang "en" }}{{ .Site.Params.addressEn }}{{ else }}{{ .Site.Params.addressAr }}{{ end }}{{ end }}</p>
+                    {{- with site.Params.social.facebook }}
+                    <p>📘 <a href="{{ . }}" target="_blank" rel="noopener me">Facebook</a></p>
+                    {{- end }}
                 </div>
             </div>
             <div class="footer-links">
@@ -107,7 +110,7 @@
             <div class="footer-bottom">
                 <p>&copy; {{ now.Year }}
                 {{- if eq .Site.Language.Lang "zh" }} JH HARDWARE（钧瀚五金） | 运营主体：JH HARDWARE（钧瀚五金）
-                {{- else if eq .Site.Language.Lang "ar" }} JH HARDWARE | الكيان القانوني: شركة ييو شويهوي للاستيراد والتصدير المحدودة
+                {{- else if eq .Site.Language.Lang "ar" }} JH HARDWARE | يديره: JH HARDWARE
                 {{- else }} JH HARDWARE (钧瀚五金) | Operated by: JH HARDWARE
                 {{- end }}. All rights reserved.</p>
             </div>

@@ -193,9 +193,9 @@ enableGitInfo = true
   bing = ''  # 待添加 Bing 站长工具验证
 
 # 社交媒体 SEO
-[social]
+[params.social]
   twitter = ''
-  facebook = ''
+  facebook = 'https://www.facebook.com/profile.php?id=61570393182368'
   linkedin = ''
   instagram = ''
 
