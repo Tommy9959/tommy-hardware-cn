@@ -45,7 +45,7 @@
         {{- $finishTxt = cond (in (lower $finish) "finish") (printf ", %s" $finish) (printf ", %s finish" $finish) -}}
     {{- end -}}
     {{- /* 优先用 front matter 已润色且长度合适的差异化描述，避免 120 个产品共用同一句式 */ -}}
-    {{- $coreOK := and $descCore (ge (len $descCore) 90) (le (len $descCore) 158) (not (strings.HasSuffix $descCore "...")) -}}
+    {{- $coreOK := and $descCore (ge (strings.RuneCount $descCore) 90) (le (strings.RuneCount $descCore) 158) (not (strings.HasSuffix $descCore "...")) -}}
     {{- if $coreOK -}}
         {{- $description = $descCore -}}
     {{- else if $descCore -}}

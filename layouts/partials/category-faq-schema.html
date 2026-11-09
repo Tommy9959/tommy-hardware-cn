@@ -1,0 +1,17 @@
+{{- /* 品类页 FAQPage Schema：优先使用 front matter 的 faqs，保证 schema 与可见正文一致 */ -}}
+{{- $indexPaths := slice "/products/" "/en/products/" "/zh/products/" "/ar/products/" -}}
+{{- if not (in $indexPaths .RelPermalink) -}}
+  {{- $items := slice -}}
+  {{- with .Params.faqs -}}
+    {{- range . -}}
+      {{- $items = $items | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $items = slice
+      (dict "@type" "Question" "name" (printf "What is the price of %s from China?" .Title) "acceptedAnswer" (dict "@type" "Answer" "text" (printf "Factory direct prices for %s start at the FOB Yiwu range shown on this page. Contact us for a carton-level quotation with volume discounts to Nigeria." .Title)))
+      (dict "@type" "Question" "name" (printf "What is the MOQ for %s?" .Title) "acceptedAnswer" (dict "@type" "Answer" "text" "MOQ is typically 500 to 1000 pcs per model depending on the item. Mixed-model and mixed-container orders are accepted for first orders."))
+      (dict "@type" "Question" "name" "How long does delivery to Nigeria take?" "acceptedAnswer" (dict "@type" "Answer" "text" "Production takes 15-25 days after deposit, then 30-45 days sea freight to Lagos, Onne or Port Harcourt. Form M, SONCAP and PAAR documents are prepared by us."))
+    -}}
+  {{- end -}}
+<script type="application/ld+json">{{ (dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $items) | jsonify | safeJS }}</script>
+{{- end -}}
