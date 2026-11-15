@@ -31,6 +31,10 @@
             <div class="product-info">
                 <h1 class="product-title">{{ .Title }}</h1>
 
+                {{ with .Params.price_range }}
+                <div class="padlock-price"><strong>FOB price:</strong> {{ . }}{{ with $.Params.moq }} &nbsp;·&nbsp; <strong>MOQ:</strong> {{ . }}{{ end }}</div>
+                {{ end }}
+
                 <div class="product-highlights">
                     <h3>{{ if eq .Site.Language.Lang "zh" }}产品亮点{{ else }}{{ if eq .Site.Language.Lang "en" }}Product Highlights{{ else }}مميزات المنتج{{ end }}{{ end }}</h3>
                     <ul>

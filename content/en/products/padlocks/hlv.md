@@ -1,6 +1,6 @@
 ---
 title: 'HLV - Cr-Plated Rectangular Iron Padlock (Vane Key)'
-description: 'Quality Cr-Plated Rectangular Iron Padlock (Vane Key). Factory direct wholesale price for Nigerian and African importers. ISO 9001 certified. waterproof padlock, chrome plated padlock, vane key padlock, weather resistant padlock, outdoor padlock, rust proof padlock Nigeria. MOQ from 400 pcs. Free samples available.'
+description: "HLV - Cr-Plated Rectangular Iron Padlock (Vane Key): Iron Body, Iron Discs Cylinder, A3 Steel Shackle with Chrome Plated finish, $0.94 - $1.81 USD / piece..."
 image: /images/products/padlocks/hlv.jpg
 tags:
   - 'HLV padlock'
@@ -21,19 +21,35 @@ specifications:
   - 'Finish: Standard finish'
   - 'Application: Various applications'
 seotitle: "HLV Cr-Plated Rectangular Iron Padlock"
+price_range: "$0.94 - $1.81 USD / piece"
+moq: "400 pcs"
+faqs:
+  - question: "How much does HLV cost?"
+    answer: "$0.94 - $1.81 USD / piece FOB Yiwu, depending on quantity and finish. Freight to Lagos is quoted separately."
+  - question: "What is the MOQ for HLV?"
+    answer: "400 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items."
+  - question: "Do you supply samples of HLV?"
+    answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
+  - question: "How is HLV packed for export?"
+    answer: "Export carton, packed for sea freight."
 ---
-## Cr-Plated Rectangular Iron Padlock - Vane Key
 
-High quality Cr-Plated Rectangular Iron Padlock - Vane Key. Factory direct supply, competitive prices.
+## HLV - Cr-Plated Rectangular Iron Padlock (Vane Key)
 
-**Size Range:** 50mm-100mm  
-**Material:** Iron Body, Iron Discs Cylinder, A3 Steel Shackle  
-**Surface Finish:** Chrome Plated  
-**Keys per Lock:** 3  
-**Packing:** Double Blister  
-**Certification:** ISO 9001, CE, SGS
+**HLV - Cr-Plated Rectangular Iron Padlock (Vane Key)** is an Iron Body, Iron Discs Cylinder, A3 Steel Shackle item in Chrome Plated finish, supplied FOB Yiwu at $0.94 - $1.81 USD / piece with an MOQ of 400 pcs. It is specified for gates, shop shutters, containers and lockers.
 
-## Models & Pricing
+
+### Models, sizes and prices
+
+| Item | Detail |
+|------|--------|
+| Model | HLV |
+| Material | Iron Body, Iron Discs Cylinder, A3 Steel Shackle |
+| Finish | Chrome Plated |
+| FOB price | $0.94 - $1.81 USD / piece |
+| MOQ | 400 pcs |
+| Lead time | 15-25 days |
+
 | Model | Size(mm) | Lock Body(mm) | Shackle(mm) | Weight(g) | Qty/Ctn | Price(USD) |
 |-------|----------|--------------|-------------|-----------|---------|------------|
 | RD-HLV50 | 50 | 50x46x17 | 8mm | 215g | 72 | $0.94 |
@@ -43,48 +59,34 @@ High quality Cr-Plated Rectangular Iron Padlock - Vane Key. Factory direct suppl
 | RD-HLV90 | 90 | 87x55x20 | 11mm | 548g | 48 | $1.7 |
 | RD-HLV100 | 100 | 93x55x20 | 11mm | 575g | 48 | $1.81 |
 
+### Where it is used
 
-## Features
-- ✓ Factory direct, best prices
-- ✓ High quality materials, durable
-- ✓ Custom design accepted (OEM/ODM)
-- ✓ Fast delivery 15-25 days
+This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door or cabinet it will sit on: Chrome Plated is what the buyer sees first, and it decides repeat orders more than the price line does.
 
-## Applications
-- **Residential:** Home doors, gates, cabinets
-- **Commercial:** Warehouses, shops, offices
-- **Industrial:** Factories, storage yards
+### Ordering HLV from JH HARDWARE
 
----
+- **Price:** $0.94 - $1.81 USD / piece FOB Yiwu
+- **MOQ:** 400 pcs
+- **Production:** 15-25 days after deposit
+- **Shipping:** 25-35 days to Lagos (Apapa / Tin Can), 30-40 days to Onne
+- **Payment:** 30% T/T deposit, 70% before shipment
+- **Documents:** SONCAP, Form M and PAAR support, invoice, packing list, B/L
 
-**Contact us for bulk orders**
-📧 Email: z946487044@icloud.com
-📱 WhatsApp: +86 183 5800 8400
+### FAQ
 
-### Why Choose This HLV - Cr-Plated Rectangular Iron Padlock (Vane Key)?
+**How much does HLV cost?**
+$0.94 - $1.81 USD / piece FOB Yiwu, depending on quantity and finish. Freight to Lagos is quoted separately.
 
-- **Premium high-quality material Construction** — Made from selected high-quality material, ensuring long service life even in demanding environments.
-- **Versatile Finish Options** — Available in various finishes to match any architectural style and preference.
-- **Wide Application Range** — Perfectly suited for various applications, providing reliable performance.
-- **Factory Direct Pricing** — As an ISO 9001 certified manufacturer, we offer competitive pricing without middlemen markup.
-- **Quality Assurance** — Each piece undergoes 100% inspection before packaging. Salt spray tested for corrosion resistance.
+**What is the MOQ for HLV?**
+400 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items.
 
-### Shipping & Packaging Details
+**What finish is available for HLV?**
+Chrome Plated. Other finishes can be produced on request; finishes are quoted per order because they change the unit price.
 
-All products are professionally packaged for export. Standard export carton with individual bubble wrap protection. FOB Yiwu / Shanghai port. Sample orders dispatched within 3-5 days via international express (DHL/FedEx/UPS). Bulk orders shipped within 15-25 days by sea.
+**How is HLV packed for export?**
+Export carton, packed for sea freight.
 
-### Technical Support & Warranty
+### Related
 
-Our technical team provides full support including installation guidance, product selection advice, and after-sales service. 2-year warranty against manufacturing defects. Free replacement for any quality issues.
-
-### Related Products You May Like
-
-Browse our complete range of hardware products designed for the African and Middle Eastern markets. We offer matching collections to ensure consistent style throughout your project. Contact us for combination orders and volume discounts.
-
-### Why Nigerian Importers Choose This Padlock
-Trusted by Nigerian hardware dealers for its reliability and competitive pricing:
-- **Waterproof design** — Withstands Nigeria's rainy season
-- **High security** — Hardened steel shackle, anti-pick mechanism
-- **Best seller in Nigerian markets** — Factory direct pricing beats local wholesale
-- **Mixed container orders welcome** — Ship with door locks and hinges
-
+- [Padlocks price list](/products/padlocks/)
+- [Door hardware price list Nigeria 2026](/blog/door-hardware-price-list-nigeria-2026/)

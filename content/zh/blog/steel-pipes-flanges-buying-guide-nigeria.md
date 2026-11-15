@@ -157,7 +157,7 @@ draft: false
 
 ## 准备进口？
 
-📧 **邮箱:** info@sola-hardware.com  
+📧 **邮箱:** z946487044@icloud.com  
 🌐 **网站:** jh-hardware.com  
 📍 **工厂：** 中国浙江义乌
 

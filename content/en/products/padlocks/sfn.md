@@ -1,6 +1,6 @@
 ---
 title: 'SFN - Golden Square Iron Padlock'
-description: 'Quality Golden Square Iron Padlock. Factory direct wholesale price for Nigerian and African importers. ISO 9001 certified. golden square iron padlock, square padlock wholesale, iron padlock golden finish, affordable padlock Nigeria, budget padlock factory. MOQ from 400 pcs. Free samples available.'
+description: "Wholesale SFN - Golden Square Iron Padlock in Iron Body, Half Brass Cylinder, A3 Steel Shackle, Golden Painting — $0.50 - $1.43 USD / piece FOB Yiwu, MOQ..."
 image: /images/products/padlocks/sfn.jpg
 tags:
   - 'SFN padlock'
@@ -20,19 +20,35 @@ specifications:
   - 'Material: Premium material'
   - 'Finish: Standard finish'
   - 'Application: Various applications'
+price_range: "$0.50 - $1.43 USD / piece"
+moq: "400 pcs"
+faqs:
+  - question: "How much does SFN cost?"
+    answer: "$0.50 - $1.43 USD / piece FOB Yiwu, depending on quantity and finish. Freight to Lagos is quoted separately."
+  - question: "What is the MOQ for SFN?"
+    answer: "400 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items."
+  - question: "Do you supply samples of SFN?"
+    answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
+  - question: "How is SFN packed for export?"
+    answer: "Export carton, packed for sea freight."
 ---
-## Golden Square Iron Padlock
 
-High quality Golden Square Iron Padlock. Factory direct supply, competitive prices.
+## SFN - Golden Square Iron Padlock
 
-**Size Range:** 32mm-70mm  
-**Material:** Iron Body, Half Brass Cylinder, A3 Steel Shackle  
-**Surface Finish:** Golden Painting  
-**Keys per Lock:** 3  
-**Packing:** Double Blister  
-**Certification:** ISO 9001, CE, SGS
+The **SFN - Golden Square Iron Padlock** is built from Iron Body, Half Brass Cylinder, A3 Steel Shackle in Golden Painting finish and ships at $0.50 - $1.43 USD / piece FOB, MOQ 400 pcs. Importers in Nigeria buy it for gates, shop shutters, containers and lockers.
 
-## Models & Pricing
+
+### Models, sizes and prices
+
+| Item | Detail |
+|------|--------|
+| Model | SFN |
+| Material | Iron Body, Half Brass Cylinder, A3 Steel Shackle |
+| Finish | Golden Painting |
+| FOB price | $0.50 - $1.43 USD / piece |
+| MOQ | 400 pcs |
+| Lead time | 15-25 days |
+
 | Model | Size(mm) | Lock Body(mm) | Shackle(mm) | Weight(g) | Qty/Ctn | Price(USD) |
 |-------|----------|--------------|-------------|-----------|---------|------------|
 | RD-SFN32 | 32 | 32x29x14 | 5mm | 97g | 192 | $0.5 |
@@ -44,48 +60,34 @@ High quality Golden Square Iron Padlock. Factory direct supply, competitive pric
 | RD-SFN38L | L38 | 38x35x15 | 6mm | - | 144 | $0.65 |
 | RD-SFN50L | L50 | 48x40x18 | 8mm | - | 96 | $0.94 |
 
+### Where it is used
 
-## Features
-- ✓ Factory direct, best prices
-- ✓ High quality materials, durable
-- ✓ Custom design accepted (OEM/ODM)
-- ✓ Fast delivery 15-25 days
+This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door or cabinet it will sit on: Golden Painting is what the buyer sees first, and it decides repeat orders more than the price line does.
 
-## Applications
-- **Residential:** Home doors, gates, cabinets
-- **Commercial:** Warehouses, shops, offices
-- **Industrial:** Factories, storage yards
+### Ordering SFN from JH HARDWARE
 
----
+- **Price:** $0.50 - $1.43 USD / piece FOB Yiwu
+- **MOQ:** 400 pcs
+- **Production:** 15-25 days after deposit
+- **Shipping:** 25-35 days to Lagos (Apapa / Tin Can), 30-40 days to Onne
+- **Payment:** 30% T/T deposit, 70% before shipment
+- **Documents:** SONCAP, Form M and PAAR support, invoice, packing list, B/L
 
-**Contact us for bulk orders**
-📧 Email: z946487044@icloud.com
-📱 WhatsApp: +86 183 5800 8400
+### FAQ
 
-### Why Choose This SFN - Golden Square Iron Padlock?
+**How much does SFN cost?**
+$0.50 - $1.43 USD / piece FOB Yiwu, depending on quantity and finish. Freight to Lagos is quoted separately.
 
-- **Premium high-quality material Construction** — Made from selected high-quality material, ensuring long service life even in demanding environments.
-- **Versatile Finish Options** — Available in various finishes to match any architectural style and preference.
-- **Wide Application Range** — Perfectly suited for various applications, providing reliable performance.
-- **Factory Direct Pricing** — As an ISO 9001 certified manufacturer, we offer competitive pricing without middlemen markup.
-- **Quality Assurance** — Each piece undergoes 100% inspection before packaging. Salt spray tested for corrosion resistance.
+**What is the MOQ for SFN?**
+400 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items.
 
-### Shipping & Packaging Details
+**What finish is available for SFN?**
+Golden Painting. Other finishes can be produced on request; finishes are quoted per order because they change the unit price.
 
-All products are professionally packaged for export. Standard export carton with individual bubble wrap protection. FOB Yiwu / Shanghai port. Sample orders dispatched within 3-5 days via international express (DHL/FedEx/UPS). Bulk orders shipped within 15-25 days by sea.
+**How is SFN packed for export?**
+Export carton, packed for sea freight.
 
-### Technical Support & Warranty
+### Related
 
-Our technical team provides full support including installation guidance, product selection advice, and after-sales service. 2-year warranty against manufacturing defects. Free replacement for any quality issues.
-
-### Related Products You May Like
-
-Browse our complete range of hardware products designed for the African and Middle Eastern markets. We offer matching collections to ensure consistent style throughout your project. Contact us for combination orders and volume discounts.
-
-### Why Nigerian Importers Choose This Padlock
-Trusted by Nigerian hardware dealers for its reliability and competitive pricing:
-- **Waterproof design** — Withstands Nigeria's rainy season
-- **High security** — Hardened steel shackle, anti-pick mechanism
-- **Best seller in Nigerian markets** — Factory direct pricing beats local wholesale
-- **Mixed container orders welcome** — Ship with door locks and hinges
-
+- [Padlocks price list](/products/padlocks/)
+- [Door hardware price list Nigeria 2026](/blog/door-hardware-price-list-nigeria-2026/)

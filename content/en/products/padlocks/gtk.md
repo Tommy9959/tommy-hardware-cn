@@ -1,6 +1,6 @@
 ---
 title: 'GTK - WaterProof Padlock With Plastic Cover'
-description: 'Quality WaterProof Padlock With Plastic Cover. Factory direct wholesale price for Nigerian and African importers. ISO 9001 certified. waterproof padlock with plastic cover, laminated padlock, plastic covered padlock, outdoor padlock waterproof, weatherproof padlock wholesale. MOQ from 400 pcs. Free samples available.'
+description: "GTK - WaterProof Padlock With Plastic Cover — Iron Body, Solid Brass Cylinder, A3 Steel Shackle, Plastic Cover. $0.94 - $2.28 USD / piece FOB Yiwu, MOQ..."
 image: /images/products/padlocks/gtk.jpg
 tags:
   - 'waterproof padlock'
@@ -20,19 +20,35 @@ specifications:
   - 'Material: Premium material'
   - 'Finish: Standard finish'
   - 'Application: Various applications'
+price_range: "$0.94 - $2.28 USD / piece"
+moq: "400 pcs"
+faqs:
+  - question: "How much does GTK cost?"
+    answer: "$0.94 - $2.28 USD / piece FOB Yiwu, depending on quantity and finish. Freight to Lagos is quoted separately."
+  - question: "What is the MOQ for GTK?"
+    answer: "400 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items."
+  - question: "Do you supply samples of GTK?"
+    answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
+  - question: "How is GTK packed for export?"
+    answer: "Export carton, packed for sea freight."
 ---
-## WaterProof Padlock With Plastic Cover
 
-High quality WaterProof Padlock With Plastic Cover. Factory direct supply, competitive prices.
+## GTK - WaterProof Padlock With Plastic Cover
 
-**Size Range:** 45mm-80mm  
-**Material:** Iron Body, Solid Brass Cylinder, A3 Steel Shackle  
-**Surface Finish:** Plastic Cover  
-**Keys per Lock:** 3  
-**Packing:** Double Blister  
-**Certification:** ISO 9001, CE, SGS
+The **GTK - WaterProof Padlock With Plastic Cover** is built from Iron Body, Solid Brass Cylinder, A3 Steel Shackle in Plastic Cover finish and ships at $0.94 - $2.28 USD / piece FOB, MOQ 400 pcs. Importers in Nigeria buy it for gates, shop shutters, containers and lockers.
 
-## Models & Pricing
+
+### Models, sizes and prices
+
+| Item | Detail |
+|------|--------|
+| Model | GTK |
+| Material | Iron Body, Solid Brass Cylinder, A3 Steel Shackle |
+| Finish | Plastic Cover |
+| FOB price | $0.94 - $2.28 USD / piece |
+| MOQ | 400 pcs |
+| Lead time | 15-25 days |
+
 | Model | Size(mm) | Lock Body(mm) | Shackle(mm) | Weight(g) | Qty/Ctn | Price(USD) |
 |-------|----------|--------------|-------------|-----------|---------|------------|
 | RD-GTK45 | 45 | 46x40x24 | 6.8mm | 165g | 96 | $0.94 |
@@ -44,48 +60,34 @@ High quality WaterProof Padlock With Plastic Cover. Factory direct supply, compe
 | RD-GTK70L | L70 | 71x56x32 | 10mm | 585g | 48 | $1.87 |
 | RD-GTK80L | L80 | 84x63x34 | 11.5mm | 803g | 36 | $2.28 |
 
+### Where it is used
 
-## Features
-- ✓ Factory direct, best prices
-- ✓ High quality materials, durable
-- ✓ Custom design accepted (OEM/ODM)
-- ✓ Fast delivery 15-25 days
+This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door or cabinet it will sit on: Plastic Cover is what the buyer sees first, and it decides repeat orders more than the price line does.
 
-## Applications
-- **Residential:** Home doors, gates, cabinets
-- **Commercial:** Warehouses, shops, offices
-- **Industrial:** Factories, storage yards
+### Ordering GTK from JH HARDWARE
 
----
+- **Price:** $0.94 - $2.28 USD / piece FOB Yiwu
+- **MOQ:** 400 pcs
+- **Production:** 15-25 days after deposit
+- **Shipping:** 25-35 days to Lagos (Apapa / Tin Can), 30-40 days to Onne
+- **Payment:** 30% T/T deposit, 70% before shipment
+- **Documents:** SONCAP, Form M and PAAR support, invoice, packing list, B/L
 
-**Contact us for bulk orders**
-📧 Email: z946487044@icloud.com
-📱 WhatsApp: +86 183 5800 8400
+### FAQ
 
-### Why Choose This GTK - WaterProof Padlock With Plastic Cover?
+**How much does GTK cost?**
+$0.94 - $2.28 USD / piece FOB Yiwu, depending on quantity and finish. Freight to Lagos is quoted separately.
 
-- **Premium high-quality material Construction** — Made from selected high-quality material, ensuring long service life even in demanding environments.
-- **Versatile Finish Options** — Available in various finishes to match any architectural style and preference.
-- **Wide Application Range** — Perfectly suited for various applications, providing reliable performance.
-- **Factory Direct Pricing** — As an ISO 9001 certified manufacturer, we offer competitive pricing without middlemen markup.
-- **Quality Assurance** — Each piece undergoes 100% inspection before packaging. Salt spray tested for corrosion resistance.
+**What is the MOQ for GTK?**
+400 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items.
 
-### Shipping & Packaging Details
+**What finish is available for GTK?**
+Plastic Cover. Other finishes can be produced on request; finishes are quoted per order because they change the unit price.
 
-All products are professionally packaged for export. Standard export carton with individual bubble wrap protection. FOB Yiwu / Shanghai port. Sample orders dispatched within 3-5 days via international express (DHL/FedEx/UPS). Bulk orders shipped within 15-25 days by sea.
+**How is GTK packed for export?**
+Export carton, packed for sea freight.
 
-### Technical Support & Warranty
+### Related
 
-Our technical team provides full support including installation guidance, product selection advice, and after-sales service. 2-year warranty against manufacturing defects. Free replacement for any quality issues.
-
-### Related Products You May Like
-
-Browse our complete range of hardware products designed for the African and Middle Eastern markets. We offer matching collections to ensure consistent style throughout your project. Contact us for combination orders and volume discounts.
-
-### Why Nigerian Importers Choose This Padlock
-Trusted by Nigerian hardware dealers for its reliability and competitive pricing:
-- **Waterproof design** — Withstands Nigeria's rainy season
-- **High security** — Hardened steel shackle, anti-pick mechanism
-- **Best seller in Nigerian markets** — Factory direct pricing beats local wholesale
-- **Mixed container orders welcome** — Ship with door locks and hinges
-
+- [Padlocks price list](/products/padlocks/)
+- [Door hardware price list Nigeria 2026](/blog/door-hardware-price-list-nigeria-2026/)

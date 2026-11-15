@@ -13,7 +13,7 @@ seotitle: "SOLA Hardware Review 2026: Chinese Brand"
 
 *By Tommy — 10 years in the Nigeria hardware export business*
 
-I've been shipping hardware to Nigeria since 2016. In that decade, I've seen container loads of cheap padlocks rust in Lagos humidity, watched Turkish handles crack under Accra sun, and watched dozens of "premium" Chinese brands come and go. So when I tell you SOLA is different, it's not hype — it's experience talking.
+I've been shipping hardware to Nigeria since 2015. In that decade, I've seen container loads of cheap padlocks rust in Lagos humidity, watched Turkish handles crack under Accra sun, and watched dozens of "premium" Chinese brands come and go. So when I tell you SOLA is different, it's not hype — it's experience talking.
 
 Let's break down the SOLA hardware line honestly: door locks, door handles, hinges, and padlocks. I'll compare them against the budget junk flooding Alibaba, against other serious Chinese manufacturers, and against the Turkish brands that still command a premium in the Nigerian market.
 
@@ -149,4 +149,4 @@ That's the kind of partner worth betting on.
 
 ---
 
-*Tommy is a 10-year veteran of China-West Africa hardware trade. Based in Yiwu, he works with JH HARDWARE on SOLA brand distribution to the Nigerian market. All opinions are his own, based on hands-on product testing and customer feedback across 500+ containers shipped since 2016.*
+*Tommy is a 10-year veteran of China-West Africa hardware trade. Based in Yiwu, he works with JH HARDWARE on SOLA brand distribution to the Nigerian market. All opinions are his own, based on hands-on product testing and customer feedback across 500+ containers shipped since 2015.*

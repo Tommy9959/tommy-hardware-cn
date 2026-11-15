@@ -236,7 +236,7 @@ If you're importing padlocks for your African market:
 
 We supply padlocks from all 9 SOLA series — from budget laminated to premium solid brass to best-selling waterproof shell locks.
 
-**Thinking of starting?** We've been exporting to Africa since 2016. We know what SONCAP requires, what paperwork your shipment needs, and how to pack a mixed container so nothing rattles loose. **Free samples are available** — test the locks yourself in your specific environment before committing to a full container. We also support SONCAP certification and can arrange mixed-container shipping (padlocks + door handles + hinges) to help you save on freight costs. Our GTK waterproof series has become the go‑to choice for importers in Lagos, Kano, and Port Harcourt — let us help you make it your next bestseller.
+**Thinking of starting?** We've been exporting to Africa since 2015. We know what SONCAP requires, what paperwork your shipment needs, and how to pack a mixed container so nothing rattles loose. **Free samples are available** — test the locks yourself in your specific environment before committing to a full container. We also support SONCAP certification and can arrange mixed-container shipping (padlocks + door handles + hinges) to help you save on freight costs. Our GTK waterproof series has become the go‑to choice for importers in Lagos, Kano, and Port Harcourt — let us help you make it your next bestseller.
 
 **Contact us:**
 - 📧 **Email:** info@jh-hardware.com

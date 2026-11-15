@@ -26,7 +26,7 @@ lastmod: 2026-11-03
 
 *Last reviewed: November 2026.*
 
-Let me start with a number: **527**. That's how many Nigerian customers we've worked with since 2016. Some ordered once and disappeared. Some have ordered every 3 months for 8 years.
+Let me start with a number: **527**. That's how many Nigerian customers we've worked with since 2015. Some ordered once and disappeared. Some have ordered every 3 months for 8 years.
 
 This guide isn't about "market projections" from a textbook. It's about what I've learned after 10 years of WhatsApp calls at 2 a.m., containers stuck in Lagos ports, and customers who became friends.
 

@@ -192,9 +192,9 @@ A: Yes. We provide all required documentation for government and oil & gas tende
 
 Contact SOLA Hardware for a customized quote:
 
-📧 **Email:** info@sola-hardware.com  
+📧 **Email:** z946487044@icloud.com  
 🌐 **Website:** jh-hardware.com  
-📍 **Factory:** Yiwu, Zhejiang, China — serving Nigerian importers since 2016
+📍 **Factory:** Yiwu, Zhejiang, China — serving Nigerian importers since 2015
 
 ---
 
