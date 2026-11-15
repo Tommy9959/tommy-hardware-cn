@@ -1,6 +1,6 @@
 # JH HARDWARE — full machine-readable context (llms-full.txt)
 
-_Generated 2026-11-09 from site content. Companion to https://jh-hardware.com/llms.txt_
+_Generated 2026-11-15 from site content. Companion to https://jh-hardware.com/llms.txt_
 
 ## Company
 
@@ -222,15 +222,15 @@ _Generated 2026-11-09 from site content. Companion to https://jh-hardware.com/ll
 - **Door Hardware Price List Nigeria 2026** — https://jh-hardware.com/blog/door-hardware-price-list-nigeria-2026/
   Nigeria door hardware price list 2026: real factory FOB ranges for locks ($2.50-$30), hinges ($1.50-$4.00), handles ($2.80-$5.50). MOQ from 100 sets, 15-25 days.
 - **SONCAP, Form M & PAAR for Nigeria 2026: Free Guide From a Hardware Exporter** — https://jh-hardware.com/blog/door-hardware-quality-certification-guide/
-  After 10 years of getting goods stuck in Lagos and Port Harcourt ports, here's what certifications you actually need — ISO 9001, CE, SGS, SONCAP — and how to spot fake ones.
+  What a hardware container into Nigeria really needs — SONCAP, Form M, PAAR and ISO 9001: the right order, real costs, and the mistakes that cause demurrage.
 - **Door Hinges Price in Nigeria 2026 – $0.50/pc** — https://jh-hardware.com/blog/door-hinges-selection-guide-nigeria/
-  2026 door hinge prices in Nigeria: SS304 from $0.50/pc, galvanized, concealed and ball-bearing types with real wholesale prices. Free samples, 15-25 days.
+  Door hinge price in Nigeria 2026: galvanized butt hinge from $0.50/pc, SS304 $0.80, concealed $1.50. MOQ 1,000 pcs, free samples, 15-25 days to Lagos.
 - **Door Locks Jamming? 5 Fixes for Nigeria** — https://jh-hardware.com/blog/door-lock-problems-nigeria-fix-guide/
-  Why door locks jam in Nigeria - Harmattan dust and coastal humidity. 5 fixes with graphite powder and simple tools, plus how to pick a lock that lasts.
+  Key jams or lock sticks in Harmattan dust and coastal damp? 5 fixes with graphite powder and a screwdriver, plus how to choose a lock that survives Nigeria.
 - **The Complete Drawer Slides Buying Guide for Nigeria (2026)** — https://jh-hardware.com/blog/drawer-slides-buying-guide-nigeria/
   Everything Nigerian furniture makers, contractors, and importers need to know about buying drawer slides — from ball bearing vs roller slides to rust resistance in humid climates, weight ratings, and 
 - **Edge Banding Types & Price in Nigeria** — https://jh-hardware.com/blog/edge-banding-guide-nigeria/
-  Edge banding for Nigerian furniture makers: PVC vs ABS vs melamine, 0.4mm-3mm thickness, adhesive choice and 2026 wholesale prices per roll from China.
+  Edge banding for Nigerian furniture makers: PVC vs ABS vs melamine, 0.4mm-3mm thickness, adhesive choice, and 2026 wholesale price per roll from China.
 - **Why Hardware Rusts in Nigeria's Coastal Cities (And How to Prevent It) — 10 Years of Lessons** — https://jh-hardware.com/blog/hardware-rust-coastal-nigeria-prevention/
   After 10 years exporting hardware to Lagos, Port Harcourt, and Calabar, here's what I've learned about rust — why it happens, what materials survive, and how to save thousands by choosing the right ha
 - **Why Hardware Rusts Fast in Nigeria (And How to Prevent It)** — https://jh-hardware.com/blog/hardware-rust-prevention-nigeria/
@@ -244,7 +244,7 @@ _Generated 2026-11-09 from site content. Companion to https://jh-hardware.com/ll
 - **Iron Casing Pipe for Construction in Nigeria — 16mm & 25mm Price Guide 2026** — https://jh-hardware.com/blog/iron-casing-pipe-guide-nigeria/
   Complete guide to iron casing pipe (conduit pipe) for Nigerian construction projects. 16mm and 25mm prices, building specifications, import requirements. Factory direct from SOLA Hardware in Yiwu, Chi
 - **Iron Door Lock Price Nigeria — $2.50/pc** — https://jh-hardware.com/blog/iron-door-lock-price-nigeria/
-  Iron door lock price in Nigeria 2026: mortise and cylinder locks $2.50-$6.00/pc factory direct. Free sample, SONCAP ready, 15-25 days to Lagos or Onitsha.
+  Iron door lock price in Nigeria 2026: $2.50-$6.00/pc FOB Yiwu. Mortise and cylinder types, MOQ 100 sets, free sample, SONCAP support, 15-25 days to Lagos.
 - **Build a Hardware Brand in Nigeria: 3 Real Dealers Who Went from Trader to Brand Owner** — https://jh-hardware.com/blog/nigeria-brand-building-guide/
   How Nigerian hardware importers built trusted brands from scratch. Real case studies of SOLA dealers in Lagos, Abuja & Port Harcourt — product strategy, pricing, marketing on Instagram & WhatsApp, cus
 - **Nigeria Hardware Market 2026 — What I've Learned After 10 Years of Selling There** — https://jh-hardware.com/blog/nigeria-hardware-market-guide/
@@ -264,7 +264,7 @@ _Generated 2026-11-09 from site content. Companion to https://jh-hardware.com/ll
 - **SONCAP, Form M & PAAR Nigeria 2026 Guide** — https://jh-hardware.com/blog/soncap-form-m-paar-nigeria-import-certification/
   Step-by-step SONCAP, Form M and PAAR guide for Nigeria imports 2026 - costs, timelines and the mistakes that leave containers stuck at Apapa.
 - **Iron Casing Pipe Price Nigeria 16mm & 25mm** — https://jh-hardware.com/blog/steel-pipes-buying-guide-nigeria/
-  Iron casing pipe price in Nigeria 2026: 16mm and 25mm embedded and conduit pipes at factory-direct cost. Sizing guide, weight per bundle, quality checks.
+  25mm iron casing pipe price in Nigeria 2026: 16mm and 25mm conduit and embedded pipe, weight per bundle, factory-direct FOB, 15-25 days to Lagos or Onitsha.
 - **Steel Pipes and Flanges Price in Nigeria 2026: Complete Buying Guide for Importers** — https://jh-hardware.com/blog/steel-pipes-flanges-buying-guide-nigeria/
   Complete guide to importing steel pipes and flanges to Nigeria in 2026. Covers types, prices per kg, sizes, Flange Standards (ANSI/BS), suppliers, shipping, and SONCAP requirements.
 
@@ -276,4 +276,4 @@ _Generated 2026-11-09 from site content. Companion to https://jh-hardware.com/ll
 - "How long does shipping from China to Nigeria take for hardware?" → 15-25 days production + 25-40 days sea freight to Apapa, Tin Can or Onne.
 - "What documents are needed to import hardware into Nigeria?" → SONCAP certificate, Form M and PAAR; JH HARDWARE assists free of charge.
 
-_End of file · 2026-11-09_
+_End of file · 2026-11-15_
