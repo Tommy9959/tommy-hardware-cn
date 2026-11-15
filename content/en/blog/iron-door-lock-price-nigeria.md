@@ -1,6 +1,6 @@
 ---
 title: "Iron Door Lock Price Nigeria — $2.50/pc"
-description: "Iron door lock price in Nigeria 2026: mortise and cylinder locks $2.50-$6.00/pc factory direct. Free sample, SONCAP ready, 15-25 days to Lagos or Onitsha."
+description: "Iron door lock price in Nigeria 2026: $2.50-$6.00/pc FOB Yiwu. Mortise and cylinder types, MOQ 100 sets, free sample, SONCAP support, 15-25 days to Lagos."
 keywords: "iron door lock price in Nigeria, door lock price Nigeria 2026, best door locks for Nigeria, iron door lock Nigeria, door lock wholesale price Nigeria, iron mortise lock price, JH Hardware, Nigeria door lock supplier"
 author: "Tommy — JH Hardware (10 Years Exporting to Nigeria)"
 date: "2026-06-06T10:00:00+08:00"
@@ -20,6 +20,7 @@ faqs:
   - question: "Are SOLA Hardware door locks good quality?"
     answer: "Yes. ISO 9001, CE, and SGS certified. Iron plate with aluminum handle construction. 10+ years exporting to Africa. 500+ satisfied clients including Nigeria, Kenya, Ghana."
 
+seotitle: "Iron Door Lock Price Nigeria 2026: $2.50-$6"
 ---
 
 ## Iron Door Lock Price in Nigeria 2026 — Factory Prices, Real Stories, Buying Tips

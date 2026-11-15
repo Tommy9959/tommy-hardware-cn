@@ -1,11 +1,12 @@
 ---
 title: "Iron Casing Pipe Price Nigeria 16mm & 25mm"
-description: "Iron casing pipe price in Nigeria 2026: 16mm and 25mm embedded and conduit pipes at factory-direct cost. Sizing guide, weight per bundle, quality checks."
+description: "25mm iron casing pipe price in Nigeria 2026: 16mm and 25mm conduit and embedded pipe, weight per bundle, factory-direct FOB, 15-25 days to Lagos or Onitsha."
 keywords: "iron casing pipes Nigeria, 16mm pipe, 25mm pipe, casing pipe Nigeria, iron pipes for construction, embedded pipes, conduit pipes, building materials Nigeria"
 author: "JH HARDWARE"
 date: "2026-05-27"
 tags: ["iron casing pipes", "Nigeria market", "building materials", "construction"]
 categories: ["Product Guide"]
+seotitle: "25mm & 16mm Iron Pipe Price in Nigeria 2026"
 ---
 
 ## Iron Casing Pipe 16mm & 25mm Price in Nigeria 2026: Embedded Pipe Buying Guide

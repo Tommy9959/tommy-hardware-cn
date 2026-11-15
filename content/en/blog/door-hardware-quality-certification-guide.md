@@ -1,12 +1,12 @@
 ---
 title: "SONCAP, Form M & PAAR for Nigeria 2026: Free Guide From a Hardware Exporter"
-description: "After 10 years of getting goods stuck in Lagos and Port Harcourt ports, here's what certifications you actually need — ISO 9001, CE, SGS, SONCAP — and how to spot fake ones."
+description: "What a hardware container into Nigeria really needs — SONCAP, Form M, PAAR and ISO 9001: the right order, real costs, and the mistakes that cause demurrage."
 keywords: "Nigeria customs certification, SONCAP, ISO 9001, SGS, CE, customs clearance Nigeria, fake certificates, JH Hardware"
 author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-04-29"
 tags: ["customs clearance", "Nigeria tips", "certifications", "quality control", "what matters"]
 categories: ["From Our Experience"]
-seotitle: "SONCAP, Form M & PAAR Guide Nigeria 2026"
+seotitle: "SONCAP, Form M & PAAR: Nigeria Import Guide"
 ---
 
 ## Nigeria Import Certifications 2026: SONCAP, Form M, PAAR — What You Actually Need (10 Years of Experience)
