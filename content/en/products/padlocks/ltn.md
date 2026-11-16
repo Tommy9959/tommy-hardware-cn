@@ -89,3 +89,10 @@ Export carton, packed for sea freight.
 
 - [Padlocks price list](/products/padlocks/)
 - [Door hardware price list Nigeria 2026](/blog/door-hardware-price-list-nigeria-2026/)
+
+**Other models in this range:**
+
+- [SF — SF - CR-Plated Square Iron Padlock (Vane Key)](/products/padlocks/sf/)
+- [SFN — SFN - Golden Square Iron Padlock](/products/padlocks/sfn/)
+- [YGTK — YGTK - WaterProof Round Steel Padlock](/products/padlocks/ygtk/)
+

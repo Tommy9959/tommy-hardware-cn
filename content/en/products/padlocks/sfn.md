@@ -91,3 +91,10 @@ Export carton, packed for sea freight.
 
 - [Padlocks price list](/products/padlocks/)
 - [Door hardware price list Nigeria 2026](/blog/door-hardware-price-list-nigeria-2026/)
+
+**Other models in this range:**
+
+- [YGTK — YGTK - WaterProof Round Steel Padlock](/products/padlocks/ygtk/)
+- [YJN — YJN - Nickle Round Side Iron Padlock](/products/padlocks/yjn/)
+- [GTK — GTK - WaterProof Padlock With Plastic Cover](/products/padlocks/gtk/)
+

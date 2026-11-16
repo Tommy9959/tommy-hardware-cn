@@ -1,5 +1,6 @@
 ---
 title: "Blog"
-description: "SOLA Hardware blog — sourcing guides, product knowledge, and market insights for furniture and hardware buyers in Nigeria and Africa."
+description: "Sourcing guides, price lists and import know-how for door hardware buyers in Nigeria and Africa — written from 10 years of exporting from Yiwu."
+seotitle: "Door Hardware Sourcing Blog, Nigeria"
 ---
 

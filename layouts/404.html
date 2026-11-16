@@ -59,6 +59,9 @@
             <a href="{{ "/contact/" | relLangURL }}" class="btn btn-primary" style="background: #e74c3c;">
                 {{ if eq $lang "zh" }}📧 联系我们{{ else }}{{ if eq $lang "ar" }}📧 اتصل بنا{{ else }}📧 Contact Us{{ end }}{{ end }}
             </a>
+            <a href="https://wa.me/{{ site.Params.whatsapp | default "8618358008400" }}?text={{ if eq $lang "zh" }}你好，我在网站上打不开某个页面{{ else }}{{ if eq $lang "ar" }}مرحبا، رابط في الموقع لا يعمل{{ else }}Hi, a page on your site is not working{{ end }}{{ end }}" class="btn btn-primary" style="background: #25D366;" target="_blank" rel="noopener">
+                {{ if eq $lang "zh" }}💬 WhatsApp 直接问{{ else }}{{ if eq $lang "ar" }}💬 واتساب{{ else }}💬 WhatsApp Us{{ end }}{{ end }}
+            </a>
         </div>
     </div>
 </section>

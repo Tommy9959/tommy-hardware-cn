@@ -94,32 +94,41 @@
   {{- end -}}
 {{- end -}}
 
+{{- /* 标题超过 60 字符：先去掉品牌后缀；仍超长则按词截断，避免 SERP 截断 */ -}}
+{{- if gt (strings.RuneCount $title) 60 -}}
+  {{- $brandSuffix := printf " | %s" $brand -}}
+  {{- if strings.HasSuffix $title $brandSuffix -}}
+    {{- $title = strings.TrimSuffix $brandSuffix $title -}}
+  {{- end -}}
+  {{- if gt (strings.RuneCount $title) 60 -}}
+    {{- $cutT := substr $title 0 57 -}}
+    {{- $tw := split $cutT " " -}}
+    {{- if gt (len $tw) 2 -}}
+      {{- $cutT = delimit (first (sub (len $tw) 1) $tw) " " -}}
+    {{- end -}}
+    {{- $title = $cutT -}}
+  {{- end -}}
+{{- end -}}
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
 <!-- 基础 SEO -->
 <title>{{ $title }}</title>
 <meta name="title" content="{{ $title }}">
-{{- /* 限制描述到推荐长度以内：英文160字，中文250字 */ -}}
+{{- /* 限制描述长度：英文 158、中文 80、阿语 150 字符（按字符不按字节计） */ -}}
 {{- $descTrim := $description -}}
-{{- $maxDescLen := 160 -}}
-{{- if or (eq .Site.Language.Lang "zh") (eq .Site.Language.Lang "ar") -}}
-  {{- /* 中文/阿拉伯语每个字符携带更多信息，可略长 */ -}}
-  {{- $maxDescLen = 250 -}}
+{{- $maxDescLen := 158 -}}
+{{- if eq .Site.Language.Lang "zh" -}}
+  {{- $maxDescLen = 80 -}}
+{{- else if eq .Site.Language.Lang "ar" -}}
+  {{- $maxDescLen = 150 -}}
 {{- end -}}
-{{- if gt (len $descTrim) $maxDescLen -}}
+{{- if gt (strings.RuneCount $descTrim) $maxDescLen -}}
   {{- $cut := substr $descTrim 0 (sub $maxDescLen 3) -}}
-  {{- /* 回退到最后一个空格，避免把单词切断 */ -}}
-  {{- $cutLen := len $cut -}}
-  {{- $sp := 0 -}}
-  {{- range $i := seq $cutLen 1 -}}
-    {{- if eq (substr $cut (sub $i 1) 1) " " -}}
-      {{- $sp = sub $i 1 -}}
-      {{- break -}}
-    {{- end -}}
-  {{- end -}}
-  {{- if gt $sp 45 -}}
-    {{- $cut = substr $cut 0 $sp -}}
+  {{- $words := split $cut " " -}}
+  {{- if gt (len $words) 2 -}}
+    {{- $cut = delimit (first (sub (len $words) 1) $words) " " -}}
   {{- end -}}
   {{- $descTrim = printf "%s..." $cut -}}
 {{- end -}}
@@ -162,18 +171,25 @@
 <meta property="twitter:image" content="{{ cond .Params.og_image (.Params.og_image | absURL) (cond .Params.image (.Params.image | absURL) (site.Params.defaultOgImage | absURL)) }}">
 
 <!-- 多语言替代链接 - 只链接到确实存在的翻译 -->
+{{- /* noindex 的语言（如阿语）不参与 hreflang，避免与索引信号冲突 */ -}}
+{{- $noindexLangs := slice -}}
+{{- range site.Sites -}}
+  {{- if .Params.noindex -}}{{- $noindexLangs = $noindexLangs | append .Language.Lang -}}{{- end -}}
+{{- end -}}
 {{- if .IsTranslated -}}
-{{- /* 有明确翻译的页面：列出实际存在的翻译版本 + x-default */ -}}
+{{- if not (in $noindexLangs site.Language.Lang) -}}
+{{- range .AllTranslations -}}
+{{- if not (in $noindexLangs .Language.Lang) }}
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
-{{- range .Translations }}
-<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{- end -}}
 {{- end }}
-{{- /* x-default 指向英文首页 */ -}}
 <link rel="alternate" hreflang="x-default" href="{{ site.BaseURL }}">
+{{- end -}}
 {{- else if .IsHome -}}
-{{- /* 首页：所有语言版本肯定都存在 */ -}}
-{{- range site.Languages -}}
-<link rel="alternate" hreflang="{{ .Lang }}" href="{{ $.Site.BaseURL }}{{ if eq .Lang "en" }}{{ else }}{{ .Lang }}{{ end }}">
+{{- range site.Sites -}}
+{{- if not (in $noindexLangs .Language.Lang) }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Home.Permalink }}">
+{{- end -}}
 {{- end }}
 <link rel="alternate" hreflang="x-default" href="{{ site.BaseURL }}">
 {{- else if and (eq .Section "blog") (not .IsTranslated) -}}
@@ -229,6 +245,15 @@
       "url": "{{ "/" | absURL }}"
     },
     "businessFunction": "https://schema.org/Sell",
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "NG" },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": { "@type": "QuantitativeValue", "minValue": 15, "maxValue": 25, "unitCode": "DAY" },
+        "transitTime": { "@type": "QuantitativeValue", "minValue": 25, "maxValue": 35, "unitCode": "DAY" }
+      }
+    },
     "hasMerchantReturnPolicy": {
       "@type": "MerchantReturnPolicy",
       "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"

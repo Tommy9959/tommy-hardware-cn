@@ -6,8 +6,8 @@
 {{- range .Site.Pages }}
   {{- /* 跳过禁用sitemap的页面 */ -}}
   {{- if .Sitemap.Disable }}{{ continue }}{{ end -}}
-  {{- /* 跳过 noindex 页面 */ -}}
-  {{- if .Params.noindex }}{{ continue }}{{ end -}}
+  {{- /* 跳过 noindex 页面（含整语言 noindex，如阿语） */ -}}
+  {{- if or .Params.noindex .Site.Params.noindex }}{{ continue }}{{ end -}}
   {{- /* 跳过排除路径 */ -}}
   {{- $exclude := false -}}
   {{- range $excludedPaths -}}
