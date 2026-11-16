@@ -148,7 +148,7 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $description }}">
-<meta property="og:image" content="{{ cond .Params.og_image (.Params.og_image | absURL) (cond .Params.image (.Params.image | absURL) (site.Params.logo | absURL)) }}">
+<meta property="og:image" content="{{ cond .Params.og_image (.Params.og_image | absURL) (cond .Params.image (.Params.image | absURL) (site.Params.defaultOgImage | absURL)) }}">
 <meta property="og:locale" content="{{ .Site.Language.Lang }}">
 <meta property="og:site_name" content="JH HARDWARE">
 
@@ -159,7 +159,7 @@
 <meta property="twitter:url" content="{{ .Permalink }}">
 <meta property="twitter:title" content="{{ $title }}">
 <meta property="twitter:description" content="{{ $description }}">
-<meta property="twitter:image" content="{{ cond .Params.og_image (.Params.og_image | absURL) (cond .Params.image (.Params.image | absURL) (site.Params.logo | absURL)) }}">
+<meta property="twitter:image" content="{{ cond .Params.og_image (.Params.og_image | absURL) (cond .Params.image (.Params.image | absURL) (site.Params.defaultOgImage | absURL)) }}">
 
 <!-- 多语言替代链接 - 只链接到确实存在的翻译 -->
 {{- if .IsTranslated -}}
@@ -436,7 +436,7 @@
   "@id": "{{ .Permalink }}#article",
   "headline": "{{ .Title }}",
   "description": "{{ $description }}",
-  "image": "{{ cond .Params.image (.Params.image | absURL) ("/images/logo/logo.jpeg" | absURL) }}",
+  "image": "{{ cond .Params.image (.Params.image | absURL) (cond .Params.og_image (.Params.og_image | absURL) (site.Params.defaultOgImage | absURL)) }}",
   "datePublished": "{{ $blogDate }}",
   "dateModified": "{{ $modDate }}",
   "inLanguage": "{{ .Site.Language.LanguageCode }}",

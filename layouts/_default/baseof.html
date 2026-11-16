@@ -12,7 +12,9 @@
     {{ partial "performance.html" . }}
     
     <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="{{ "images/logo/logo.jpeg" | relURL }}">
+    <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/logo/apple-touch-icon.png" | relURL }}">
     
     <!-- 样式 -->
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
@@ -38,7 +40,7 @@
         <div class="container">
             <div class="header-content">
                 <a href="{{ "/" | relLangURL }}" class="site-logo">
-                    <picture><source srcset="{{ "images/logo/logo.webp" | relURL }}" type="image/webp"><img src="{{ "images/logo/logo.jpeg" | relURL }}" alt="Logo" class="logo-image"></picture>
+                    <picture><source srcset="{{ "images/logo/logo-header.webp" | relURL }}" type="image/webp"><img src="{{ "images/logo/logo-header.png" | relURL }}" alt="JH HARDWARE 钧瀚五金" class="logo-image" width="176" height="176"></picture>
                     <span class="site-name">{{ .Site.Title }}</span>
                 </a>
                 

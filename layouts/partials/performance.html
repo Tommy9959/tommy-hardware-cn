@@ -29,7 +29,7 @@
   - 其他页面：不预加载，节省连接数
 */ -}}
 {{- if .IsHome -}}
-  {{- with .Site.Params.logo -}}
+  {{- with (default .Site.Params.logo .Site.Params.logoHeader) -}}
   {{- $webpLogo := replace . ".jpeg" ".webp" -}}
   {{- $webpLogo = replace $webpLogo ".jpg" ".webp" -}}
   <link rel="preload" href="{{ $webpLogo | relURL }}" as="image" fetchpriority="high">

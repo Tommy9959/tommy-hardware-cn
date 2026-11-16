@@ -25,7 +25,7 @@
     "name": "{{ $authorName }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ .Site.BaseURL }}images/logo.png"
+      "url": "{{ site.Params.logo | absURL }}"
     }
   },
   "mainEntityOfPage": {
