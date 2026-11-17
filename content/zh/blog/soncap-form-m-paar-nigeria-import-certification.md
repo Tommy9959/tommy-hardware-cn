@@ -6,6 +6,7 @@ author: "Tommy — JH Hardware（10 年对非出口经验）"
 date: "2026-06-03"
 tags: ["SONCAP", "Form M", "PAAR", "尼日利亚海关", "进口认证", "阿帕帕港", "尼日利亚清关", "进口指南"]
 categories: ["尼日利亚进口指南"]
+tldr: "五金柜能不能顺利清出 Apapa，取决于三份文件：Form M（发货前通过银行开）、SONCAP 证书（认证机构出）、PAAR（到港办理）。文章给顺序、时效和卡柜的常见错误。"
 ---
 
 ## SONCAP、Form M 与 PAAR — 2026 年尼日利亚进口认证完整指南
