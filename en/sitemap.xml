@@ -1,5 +1,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://jh-hardware.com/ai-facts/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/ai-facts/"/></url><url>
     <loc>https://jh-hardware.com/about/</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
