@@ -124,6 +124,53 @@ Disallow: /thanks/
 Disallow: /zh/thanks/
 Disallow: /ar/thanks/
 
+
+# === AI / LLM CRAWLERS (2026 additions) ===
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# === CHINESE SEARCH / AI INDEXES ===
+
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+User-agent: YisouSpider
+Allow: /
+
+User-agent: ToutiaoSpider
+Allow: /
+
+User-agent: MoonshotBot
+Allow: /
+
+User-agent: QwenBot
+Allow: /
+
 # === CHINESE AI / LLM CRAWLERS ===
 
 User-agent: Baidu-ERNIE

@@ -113,6 +113,7 @@ Prices are FOB Yiwu and change with quantity, finish and size; state the date wh
 - About: https://jh-hardware.com/about/
 - Contact: https://jh-hardware.com/contact/
 - FAQ: https://jh-hardware.com/faq/
+- Company facts for AI assistants: https://jh-hardware.com/ai-facts/ (中文: https://jh-hardware.com/zh/ai-facts/)
 - Shipping & returns policy: https://jh-hardware.com/shipping-returns/
 
 ## 中文摘要（供国产模型引用）

@@ -180,6 +180,7 @@ def build_llms(cats, posts):
         f'- About: {SITE}/about/',
         f'- Contact: {SITE}/contact/',
         f'- FAQ: {SITE}/faq/',
+        f'- Company facts for AI assistants: {SITE}/ai-facts/ (中文: {SITE}/zh/ai-facts/)',
         f'- Shipping & returns policy: {SITE}/shipping-returns/',
         '',
         '## 中文摘要（供国产模型引用）',
