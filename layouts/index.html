@@ -66,16 +66,19 @@
             {{ $hingeProducts := slice }}
             {{ $accessoryProducts := slice }}
             {{ range $allProducts }}
-                {{ if and (strings.Contains .File.Dir "products/padlocks/") .Params.image }}
+                {{ $img := lower (.Params.image | default "") }}
+                {{/* 只有真实位图才用于首页卡片：排除 .svg 占位图（"Product Image Coming Soon"） */}}
+                {{ $realImg := and $img (not (strings.Contains $img ".svg")) (not (strings.Contains $img "placeholder")) }}
+                {{ if and (strings.Contains .File.Dir "products/padlocks/") $realImg }}
                     {{ $padlockProducts = $padlockProducts | append . }}
                 {{ end }}
-                {{ if and (strings.Contains .File.Dir "products/door-locks/") .Params.image }}
+                {{ if and (strings.Contains .File.Dir "products/door-locks/") $realImg }}
                     {{ $doorlockProducts = $doorlockProducts | append . }}
                 {{ end }}
-                {{ if and (strings.Contains .File.Dir "products/door-hinges/") (and .Params.image (not (strings.Contains .Params.image "placeholder"))) }}
+                {{ if and (strings.Contains .File.Dir "products/door-hinges/") $realImg }}
                     {{ $hingeProducts = $hingeProducts | append . }}
                 {{ end }}
-                {{ if and (strings.Contains .File.Dir "products/door-accessories/") (and .Params.image (not (strings.Contains .Params.image "placeholder"))) }}
+                {{ if and (strings.Contains .File.Dir "products/door-accessories/") $realImg }}
                     {{ $accessoryProducts = $accessoryProducts | append . }}
                 {{ end }}
             {{ end }}

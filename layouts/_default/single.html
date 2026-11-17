@@ -32,12 +32,8 @@
                     <img src="/images/products/placeholder.svg" alt="{{ $imgAlt }}" title="{{ $productName }} - Image Coming Soon" loading="lazy" style="max-width: 100%; height: auto;">
                     {{ end }}
                 </div>
-                <div class="thumbnail-grid">
-                    <div class="thumbnail active">1</div>
-                    <div class="thumbnail">2</div>
-                    <div class="thumbnail">3</div>
-                    <div class="thumbnail">4</div>
-                </div>
+                {{/* 原本这里是 4 个写死的空白缩略图（只有数字 1-4，没有图片，点了也没反应），
+                     产品每个型号只配一张实拍图，故移除这段假缩略图。有真实图库时再按 .Params.images 输出。 */}}
             </div>
 
             <!-- 右侧：产品信息 -->

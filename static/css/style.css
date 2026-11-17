@@ -31,9 +31,18 @@ body {
 .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
 a { text-decoration: none; color: inherit; transition: color 0.3s; }
 img { max-width: 100%; height: auto; }
+/* <picture> 默认生成内联盒子，会打断内部 img 的 height:100%/object-fit:contain 计算
+   （图片按原始比例溢出，被容器的 overflow:hidden 裁掉 → 卡片只显示局部）。
+   设为 display:contents 让 img 直接参与容器尺寸计算。 */
+picture { display: contents; }
 /* 图片懒加载优化 */
 img[loading="lazy"] { background: #f0f0f0; min-height: 200px; }
 img[loading="lazy"]:not([src]) { opacity: 0; }
+/* 卡片图片尺寸由容器 aspect-ratio 决定，不受懒加载占位高度影响（必须放在上面规则之后） */
+.product-img-wrapper img,
+.category-img-wrapper img,
+.model-card img,
+.product-card-img { min-height: 0; background: transparent; }
 
 /* ===== 头部 ===== */
 .site-header {
