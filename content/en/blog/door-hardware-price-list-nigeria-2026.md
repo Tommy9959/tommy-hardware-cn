@@ -106,3 +106,4 @@ A: Buy in bulk (100+ pieces), choose durable stainless or galvanized finishes fo
 **Q: Why is hardware so expensive in Nigeria?**
 A: The market price includes shipping, import duties (up to 20–35%), SONCAP certification, clearing fees, and multiple trader margins — typically 3–5× the factory price.
 
+**Related reading:** [Door lock landed cost in Lagos: the full breakdown](/blog/door-lock-landed-cost-nigeria/) · [SS304 vs galvanised hinges over five years](/blog/ss304-vs-galvanised-hinges-nigeria/)

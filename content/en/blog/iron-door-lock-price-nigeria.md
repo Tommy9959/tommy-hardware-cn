@@ -285,3 +285,5 @@ He's been our customer since 2022. Last year he ordered 3,500 locks.
 
 *Published: June 6, 2026*  
 *Written by Tommy, JH Hardware — 10 years exporting iron door locks to Nigeria*
+
+**Related reading:** [What a $3.00 lock really costs landed in Lagos](/blog/door-lock-landed-cost-nigeria/)

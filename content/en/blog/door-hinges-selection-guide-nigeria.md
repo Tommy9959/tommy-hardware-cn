@@ -121,3 +121,5 @@ We source door hinges from ISO 9001 certified partner factories with strict mate
 👉 **Related guides:** [Best padlock in Nigeria 2026 — price guide →](/blog/padlock-buying-guide/) · [Door locks jamming in Nigeria? Fix guide →](/blog/door-lock-problems-nigeria-fix-guide/) · [Browse all hardware products →](/products/)
 
 *Written by JH HARDWARE — 10 years exporting hardware to Africa and the Middle East.*
+
+**Related reading:** [SS304 vs galvanised hinges: the five-year cost per door](/blog/ss304-vs-galvanised-hinges-nigeria/)
