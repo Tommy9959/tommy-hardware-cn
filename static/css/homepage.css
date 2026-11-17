@@ -560,3 +560,11 @@
     .trust-bar { gap: 12px; }
     .trust-badge { font-size: 0.85rem; padding: 8px 16px; }
 }
+/* 移动端收单列：原 @media(max-width:768px) 块写在基础规则之前，被源码顺序覆盖而失效 */
+@media (max-width: 768px) {
+    .map-info { grid-template-columns: 1fr; }
+    .info-card { padding: 16px; }
+}
+/* hero 只有一栏内容(无配图)，原两列栅格右侧空白 → 收成单列居中 */
+.hero-container { grid-template-columns: 1fr; justify-items: center; }
+.hero-content { max-width: 820px; width: 100%; }

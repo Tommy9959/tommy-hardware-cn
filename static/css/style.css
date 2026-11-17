@@ -286,8 +286,9 @@ img[loading="lazy"]:not([src]) { opacity: 0; }
     position: relative;
     overflow: hidden;
 }
-.hero-section::before {
-    /* LCP优化：移除动画圆圈，减少渲染 */
+/* .hero-section::before 的装饰圆圈已按 LCP 优化移除；
+   注意原来这里留了空选择器 + 少了闭合大括号，导致后面 150+ 条规则被 CSS 嵌套包进
+   .hero-section::before 全部失效（含所有移动端 @media）。 */
 .hero-content {
     position: relative;
     z-index: 1;
@@ -1104,13 +1105,20 @@ img[loading="lazy"]:not([src]) { opacity: 0; }
         max-width: 45%;
         object-fit: contain;
     }
-    .site-logo h1 {
+    .site-logo h1,
+    .site-name {
         font-size: 1.2rem;
         margin: 0;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         font-weight: 700;
+        /* 给右上角汉堡按钮让位，避免公司名压到 ☰ 图标下面 */
+        max-width: calc(100% - 64px);
+    }
+    .site-logo {
+        justify-content: flex-start;
+        padding-right: 56px;
     }
     /* 显示汉堡菜单按钮 */
     .mobile-menu-toggle {
@@ -1384,16 +1392,7 @@ img[loading="lazy"]:not([src]) { opacity: 0; }
 }
 
 @media (max-width: 480px) {
-    .site-header { padding: 0.4rem 0; }
-    .site-logo img {
-        height: 0.95rem;
-    }
-    .site-logo h1 {
-        font-size: 0.95rem;
-    }
-    .hero-section { padding: 3rem 0; }
-    .hero-title { font-size: 1.5rem; }
-    .container { padding: 0 15px; }
+    /* 原来的重复块把 logo 压到 0.95rem（约 15px，几乎看不见），并和上一块的 3.5rem 打架，已删除重复声明 */
     .site-main {
         margin-top: 0;
     }
