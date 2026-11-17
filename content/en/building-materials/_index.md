@@ -81,7 +81,7 @@ We export a wide range of building materials and accessories to Nigeria, Dubai, 
 **🌍 Export Experience**
 - 10+ years in African market
 - Deep understanding of Nigeria, Dubai import regulations
-- 1000+ happy clients worldwide
+- Nigeria, West Africa and Middle East wholesale coverage
 - Multilingual support (EN/CN/AR)
 
 ### 📦 Product Range Summary

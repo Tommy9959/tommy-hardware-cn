@@ -149,4 +149,4 @@ That's the kind of partner worth betting on.
 
 ---
 
-*Tommy is a 10-year veteran of China-West Africa hardware trade. Based in Yiwu, he works with JH HARDWARE on SOLA brand distribution to the Nigerian market. All opinions are his own, based on hands-on product testing and customer feedback across 500+ containers shipped since 2015.*
+*Tommy is a 10-year veteran of China-West Africa hardware trade. Based in Yiwu, he works with JH HARDWARE on SOLA brand distribution to the Nigerian market. All opinions are his own, based on hands-on product testing and customer feedback across 1,000+ containers shipped since 2016.*

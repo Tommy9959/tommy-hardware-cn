@@ -14,7 +14,7 @@ Back in 2018, a customer from Lagos called me in a panic. He'd bought 2,000 padl
 
 That call changed how I think about padlocks for the African market. It's not just about "making a sale." It's about making sure the lock still works six months after it leaves our warehouse.
 
-Since 2016, we've shipped over **150,000 padlocks** to Nigeria, Ghana, Kenya, Tanzania, and across the Middle East. We've seen what sells, what comes back, and what *shouldn't* be sold at all.
+Since 2016, we've shipped over **2 million padlocks** to Nigeria, Ghana, Kenya, Tanzania, and across the Middle East. We've seen what sells, what comes back, and what *shouldn't* be sold at all.
 
 Here's the hard-won truth about padlocks in Africa.
 
