@@ -1489,3 +1489,21 @@ img[loading="lazy"]:not([src]) { opacity: 0; }
         font-size: 1rem;
     }
 }
+
+/* ===== 移动端：正文表格横向滚动 =====
+   博客文章里的价格表在最窄手机上会把整页撑到 509px（横向滚动条+内容被切）。
+   让表格自己成为可横向滚动的块，页面本身不再溢出。 */
+pre, .site-main pre code {
+    max-width: 100%;
+    overflow-x: auto;
+}
+@media (max-width: 768px) {
+    .site-main table {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+    }
+}
