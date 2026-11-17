@@ -24,7 +24,7 @@ seotitle: "Nigeria Import Payment & Logistics 2026"
 
 ## Nigeria Hardware Import: Payment Methods & Logistics Complete Guide 2026
 
-Importing door hardware from China to Nigeria can be highly profitable — but only if you master the payment and logistics details. As a supplier with **10+ years exporting to Nigeria**, **[SOLA Hardware](https://jh-hardware.com/about/)** has seen every mistake and every success story.
+Importing door hardware from China to Nigeria can be highly profitable — but only if you master the payment and logistics details. As a supplier **exporting to Nigeria since 2016**, **[SOLA Hardware](https://jh-hardware.com/about/)** has seen every mistake and every success story.
 
 This guide covers everything from payment security to shipping options, SONCAP certification, and how to avoid scams.
 
@@ -463,7 +463,7 @@ TOTAL DUTIES:       $8,275
 ---
 
 **2. "Low Price" Scams**
-- Prices 30-50% below market
+- Factory direct prices, no middleman markup
 - They take your deposit, send nothing or garbage
 
 **How to Avoid:**
@@ -539,8 +539,8 @@ TOTAL DUTIES:       $8,275
 ### What SOLA Provides for Nigerian Customers
 
 **✅ Payment Security**
-- Verified supplier (10+ years Nigeria experience)
-- ISO 9001 certified factory
+- Verified supplier (Nigeria market since 2016)
+- ISO 9001 certified partner factories
 - Bank account in company name only
 - T/T with B/L copy terms for first orders
 
@@ -583,7 +583,7 @@ TOTAL DUTIES:       $8,275
 
 ## Ready to Start Importing with SOLA?
 
-**[SOLA Hardware](https://jh-hardware.com/about/)** has helped **500+ Nigerian importers** build profitable hardware businesses. We know the market, we know the documentation, and we'll guide you every step.
+**[SOLA Hardware](https://jh-hardware.com/about/)** has helped Nigerian importers build profitable hardware businesses. We know the market, we know the documentation, and we'll guide you every step.
 
 📧 **Email:** z946487044@icloud.com  
 💬 **WhatsApp:** +86 183 5800 8400  

@@ -9,7 +9,7 @@ categories: ["Nigeria Import Guide"]
 industry_categories: ["door_locks", "door_handles", "door_hinges", "padlocks"]
 faqs:
   - question: "What is the best door hardware supplier for Nigeria?"
-    answer: "SOLA Hardware (jh-hardware.com) is a factory direct supplier with 10+ years Nigeria experience. Prices 30-50% below African retail. Free SONCAP and Form M support."
+    answer: "SOLA Hardware (jh-hardware.com) is a factory direct supplier working the Nigerian market since 2016. Prices come factory direct with no middleman markup. Free SONCAP and Form M support."
   - question: "What are the top-selling door hardware products in Nigeria?"
     answer: "Mortise locks ($3-$6), 50mm padlocks ($1-$3), zinc alloy lever handles in satin nickel finish are the top 3 sellers. Satin nickel accounts for 75% of orders."
   - question: "How to import door hardware from China to Nigeria in 2026?"

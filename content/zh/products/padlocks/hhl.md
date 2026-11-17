@@ -7,7 +7,7 @@ features:
   - '高品质材料、经久耐用'
   - '接受定制设计 (OEM/ODM)'
   - '快速交货 15-25 天'
-  - 'ISO 9001、CE、SGS 认证'
+  - 'SGS / CE 检测报告（按需提供）'
 specifications:
   - '材质：优质材料'
   - '表面处理：标准处理'
@@ -31,7 +31,7 @@ tags:
 **Surface Finish:** Nickel Painting  
 **Keys per Lock:** 3 or 5  
 **Packing:** Gift Packing / Double Blister  
-**Certification:** ISO 9001, CE, SGS
+**Certification:** SGS / CE reports on request
 
 ## Models & Pricing
 | 型号 | 尺寸(mm) | 锁体(mm) | 锁梁(mm) | 重量(g) | 每箱数量 | 价格(USD) |

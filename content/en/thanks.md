@@ -16,7 +16,7 @@ Your message has been sent successfully. We will get back to you **within 2 hour
 
 ### Our commitment to you:
 
-- ✅ Factory direct pricing — save 30-50%
-- ✅ Free samples for quality testing
+- ✅ Factory direct pricing — no middleman markup
+- ✅ Samples shipped freight collect — inspect before you order
 - ✅ Complete export documentation (Form M, SONCAP)
 - ✅ Fast delivery from China to Nigeria (15-25 days)

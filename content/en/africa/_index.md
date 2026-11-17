@@ -148,7 +148,7 @@ We specialize in exporting door hardware and building materials to Africa with o
 2. **Complete Documentation** - All documents for African customs clearance
 3. **Competitive Pricing** - Factory direct prices, 30-50% lower than market
 4. **Fast Delivery** - 15-35 days to major African ports
-5. **Quality Assurance** - ISO 9001, CE, SGS certified
+5. **Quality Assurance** - ISO 9001 partner factories, SGS / CE reports on request
 6. **After-Sales Support** - 24/7 customer service for African clients
 7. **Flexible Payment** - T/T, L/C, Western Union accepted
 8. **Small Orders Welcome** - MOQ from 200-1000 pcs depending on product

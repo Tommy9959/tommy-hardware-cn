@@ -113,7 +113,7 @@
                     </tr>
                     <tr>
                         <td>{{ if eq .Site.Language.Lang "zh" }}认证{{ else }}{{ if eq .Site.Language.Lang "en" }}Certification{{ else }}الشهادات{{ end }}{{ end }}</td>
-                        <td>ISO 9001, CE, SGS</td>
+                        <td>{{ if eq .Site.Language.Lang "zh" }}SGS / CE 检测报告（按需提供）{{ else }}{{ if eq .Site.Language.Lang "en" }}SGS / CE reports on request{{ else }}تقارير SGS / CE عند الطلب{{ end }}{{ end }}</td>
                     </tr>
                 </table>
             </div>
@@ -139,7 +139,7 @@
                     <div class="material-item">
                         <div class="material-icon">🔬</div>
                         <h4>{{ if eq .Site.Language.Lang "zh" }}质量检测{{ else }}{{ if eq .Site.Language.Lang "en" }}Quality Testing{{ else }}اختبار الجودة{{ end }}{{ end }}</h4>
-                        <p>{{ if eq .Site.Language.Lang "zh" }}50,000+ 次开关测试，100% 出厂检验{{ else }}{{ if eq .Site.Language.Lang "en" }}50,000+ cycles test, 100% inspection{{ else }}اختبار 50,000+ دورة، فحص 100%{{ end }}{{ end }}</p>
+                        <p>{{ if eq .Site.Language.Lang "zh" }}出货前逐批抽检，附验货实拍{{ else }}{{ if eq .Site.Language.Lang "en" }}Pre-shipment inspection with photo evidence{{ else }}فحص قبل الشحن مع صور فوتوغرافية{{ end }}{{ end }}</p>
                     </div>
                 </div>
             </div>
@@ -253,7 +253,7 @@
                 <div class="faq-item">
                     <h3 itemprop="name">{{ if eq .Site.Language.Lang "zh" }}贵公司是工厂还是贸易公司？{{ else }}{{ if eq .Site.Language.Lang "en" }}Are you a factory or trading company?{{ else }}هل أنتم مصنع أم شركة تجارية؟{{ end }}{{ end }}</h3>
                     <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                        <p itemprop="text">{{ if eq .Site.Language.Lang "zh" }}我们是专业生产商，拥有自己的工厂和研发团队。10年以上五金出口经验，产品远销非洲、中东等50多个国家。{{ else }}{{ if eq .Site.Language.Lang "en" }}We are a professional manufacturer with our own factory and R&D team. 10+ years of hardware export experience to 50+ countries across Africa and Middle East.{{ else }}نحن مصنع محترف مع مصنعنا وفريق البحث والتطوير الخاص بنا. أكثر من 10 سنوات من الخبرة في تصدير الأجهزة.{{ end }}{{ end }}</p>
+                        <p itemprop="text">{{ if eq .Site.Language.Lang "zh" }}我们是出口供应商，直接对接浙江、广东的合作工厂，没有中间贸易环节。自 2016 年起做非洲出口，主要服务尼日利亚、西非与中东的五金批发商；出货前逐批抽检并附验货实拍。{{ else }}{{ if eq .Site.Language.Lang "en" }}We are an export supplier working directly with partner factories in Zhejiang and Guangdong — no trading layers in between. Exporting to Africa since 2016, mainly serving hardware wholesalers in Nigeria, West Africa and the Middle East, with pre-shipment inspection and photo evidence on every batch.{{ else }}نحن مورّد تصدير نتعامل مباشرة مع مصانع شريكة في تشجيانغ وقوانغدونغ بدون وسطاء. نصدر إلى أفريقيا منذ 2016، ونخدم تجار الجملة في نيجيريا وغرب أفريقيا والشرق الأوسط، مع فحص قبل الشحن وصور لكل دفعة.{{ end }}{{ end }}</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -305,7 +305,7 @@
     <div class="container">
         <div class="cta-content">
             <h3>{{ if eq .Site.Language.Lang "zh" }}立即询价，获取工厂直供货源{{ else }}{{ if eq .Site.Language.Lang "en" }}Get Factory Direct Pricing Today{{ else }}احصل على سعر المصنع المباشر اليوم{{ end }}{{ end }}</h3>
-            <p>{{ if eq .Site.Language.Lang "zh" }}免费样品 • 15-25天交货 • ISO 9001 认证{{ else }}{{ if eq .Site.Language.Lang "en" }}Free samples • 15-25 day delivery • ISO 9001 certified{{ else }}عينات مجانية • تسليم 15-25 يوم • شهادة ISO 9001{{ end }}{{ end }}</p>
+            <p>{{ if eq .Site.Language.Lang "zh" }}样品可寄（运费到付）• 7-15 天出货 • SONCAP / Form M 支持{{ else }}{{ if eq .Site.Language.Lang "en" }}Samples freight collect • 7-15 day dispatch • SONCAP / Form M support{{ else }}عينات على حساب المستلم • شحن 7-15 يوم • دعم SONCAP / Form M{{ end }}{{ end }}</p>
             <div class="cta-buttons">
                 <a href="https://wa.me/{{ .Site.Params.whatsapp }}?text=I'm interested in {{ .Title }} ({{ .File.ContentBaseName }})" class="btn btn-whatsapp" target="_blank" rel="noopener">
                     💬 {{ if eq .Site.Language.Lang "zh" }}WhatsApp 咨询{{ else }}{{ if eq .Site.Language.Lang "en" }}WhatsApp Inquiry{{ else }}استفسار واتساب{{ end }}{{ end }}

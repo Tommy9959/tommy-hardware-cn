@@ -17,8 +17,8 @@ We specialize in exporting door hardware to Nigeria with over 10 years of experi
 ### 🎯 Why Nigeria Chooses Us
 
 #### ✅ Nigeria Market Expertise
-- **10+ Years** focused on Nigerian market
-- **1000+** Happy clients across Nigeria
+- **Since 2016** supplying the Nigerian market
+- **Onitsha · Lagos · Abuja · Port Harcourt** wholesale coverage
 - Deep understanding of Nigerian import regulations
 - Familiar with Form M, SONCAP, PAAR documentation
 

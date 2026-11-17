@@ -31,7 +31,7 @@ tags:
 **Surface Finish:** Nickel Painting  
 **Keys per Lock:** 3 or 5  
 **Packing:** Gift Packing / Double Blister  
-**Certification:** ISO 9001, CE, SGS
+**Certification:** SGS / CE reports on request
 
 ## Models & Pricing
 | الموديل | المقاس(mm) | الجسم(mm) | القيد(mm) | الوزن(g) | الكمية/كرتون | السعر(USD) |

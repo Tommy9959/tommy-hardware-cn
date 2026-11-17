@@ -11,12 +11,12 @@ SOLA Hardware (JH HARDWARE) is a leading manufacturer and exporter of door hardw
 ### Why Choose SOLA Hardware?
 
 - 🏭 **Factory Direct Manufacturer** — No middlemen, best prices
-- 🌍 **10+ Years Exporting to Africa** — We understand your market
+- 🌍 **Exporting to Africa since 2016** — We understand your market
 - 📋 **Full Documentation Support** — Form M, SONCAP, Bill of Lading, PAAR
-- 🇳🇬 **[Nigeria Market Specialized](/nigeria/)** — 10+ years serving Lagos, Abuja, Port Harcourt
+- 🇳🇬 **[Nigeria Market Specialized](/nigeria/)** — serving Lagos, Abuja, Port Harcourt and Onitsha wholesalers
 - 🚢 **Fast Shipping** — 15-25 days from Ningbo to Lagos
-- ✅ **ISO 9001, CE, SGS Certified**
-- 🆓 **Free Samples Available** for quality testing
+- ✅ **SGS / CE reports from partner factories on request**
+- 📦 **Samples shipped, freight collect** — inspect quality before ordering
 
 ### Contact Methods
 

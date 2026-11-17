@@ -16,7 +16,7 @@ faqs:
   - question: "Do you supply keyed-alike padlocks?"
     answer: "Yes. The YGTK waterproof round steel padlock can be supplied keyed alike so one key opens a whole building — used for schools, hotels and multi-unit properties."
   - question: "What certifications and documents come with the order?"
-    answer: "ISO 9001, CE and SGS certification, plus SONCAP, Form M and PAAR support for Nigerian import at no extra paperwork fee. Commercial invoice, packing list and bill of lading are issued with every shipment."
+    answer: "ISO 9001 partner factories with SGS / CE reports on request, plus SONCAP, Form M and PAAR support for Nigerian import at no extra paperwork fee. Commercial invoice, packing list and bill of lading are issued with every shipment."
   - question: "How long does delivery to Nigeria take?"
     answer: "Production takes 15-25 days after deposit. Sea freight is 25-35 days to Lagos (Apapa or Tin Can) and about 30-40 days to Onne. Samples ship in 5-7 days."
 ---
@@ -68,7 +68,7 @@ A padlock is the one item a customer tests in the shop: he shakes it, checks the
 - **Shipping:** 25-35 days Ningbo/Yiwu to Lagos (Apapa / Tin Can), about 30-40 days to Onne
 - **Mixed containers:** padlocks can share a 20ft or 40HQ with door locks, hinges, handles and sliding tracks
 
-Free samples are available — you cover the courier.
+Samples are available — you cover the courier, deducted from the order.
 
 ### Import paperwork and payment
 

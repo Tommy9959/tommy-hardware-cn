@@ -44,7 +44,7 @@ Contact: WhatsApp **+86 183 5800 8400** · Email **z946487044@icloud.com**
 ## Why Choose JH HARDWARE?
 
 ### Deep Understanding of African Market
-- **10+ years** focused on Africa exports
+- **Since 2016** exporting to Africa — Nigeria, West Africa and the Middle East
 - Products popular in **Nigeria, Ghana, Kenya, Tanzania, Ethiopia, South Africa**
 - Trusted by **500+ African importers and distributors**
 - We understand local preferences, standards, and pricing expectations
@@ -58,8 +58,8 @@ Contact: WhatsApp **+86 183 5800 8400** · Email **z946487044@icloud.com**
 - **Building Materials** — casing pipes, construction chemicals, wallpaper, waterproof coating
 
 ### Factory Direct Advantages
-- **ISO 9001:2015** certified manufacturing — consistent quality guaranteed
-- **30-50% lower** prices than European brands — competitive edge for African importers
+- **ISO 9001:2015** partner factories — batch traceability and SGS/CE reports on request
+- **Factory direct pricing** — no middleman markup, quoted per carton with specs and weights
 - **Flexible MOQ** — small orders accepted, perfect for growing businesses
 - **Free samples** — test our quality before placing bulk orders
 

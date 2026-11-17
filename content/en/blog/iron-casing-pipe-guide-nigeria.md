@@ -219,7 +219,7 @@ SOLA Hardware provides all Nigerian customs documents **free of charge**:
 ## Why Nigerian Builders Choose SOLA Hardware
 
 ### 🏭 Direct from Factory
-We are not a trading company — we work directly with ISO 9001 certified steel pipe manufacturers in China. No middleman markup.
+We work directly with ISO 9001 certified steel pipe manufacturers in China — no trading layers, no middleman markup.
 
 ### 📄 Complete Documentation
 SONCAP, Form M, PAAR — all handled by our team. We know the Nigerian clearance process inside and out.

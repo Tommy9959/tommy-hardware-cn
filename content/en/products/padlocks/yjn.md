@@ -15,7 +15,7 @@ features:
   - 'High quality materials, durable'
   - 'Custom design accepted (OEM/ODM)'
   - 'Fast delivery 15-25 days'
-  - 'ISO 9001, CE, SGS certified'
+  - 'SGS / CE test reports available on request'
 specifications:
   - 'Material: Premium material'
   - 'Finish: Standard finish'

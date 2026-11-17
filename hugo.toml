@@ -22,7 +22,7 @@ enableGitInfo = true
     languageName = 'English'
     languageCode = 'en-us'
     contentDir = 'content/en'
-    description = 'Factory direct supply of door handles, locks, hinges, and sliding tracks. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
+    description = 'Factory direct supply of door handles, locks, hinges, and sliding tracks. Sourced from ISO 9001 partner factories. Export to Nigeria, West Africa and the Middle East.'
     
   [languages.zh]
     title = 'JH HARDWARE | 钧瀚五金 - 工厂直销尼日利亚·非洲'
@@ -162,7 +162,7 @@ enableGitInfo = true
   logoHeader = '/images/logo/logo-header.png'
   latitude = '29.3089'
   longitude = '120.0741'
-  description = 'Factory direct supply of door handles, hinges, locks, sliding tracks, and iron casing pipes. ISO 9001 certified manufacturer. Export to Nigeria, Dubai, Africa.'
+  description = 'Factory direct supply of door handles, hinges, locks, sliding tracks, and iron casing pipes. Sourced from ISO 9001 partner factories. Export to Nigeria, West Africa and the Middle East.'
   descriptionEn = 'Factory direct supply of door handles, hinges, locks, sliding tracks, and iron casing pipes. ISO 9001 certified. Export to Nigeria, Dubai, Africa.'
   descriptionAr = 'توريد مباشر لمقابض الأبواب والمفاصل والأقفال وأنابيب الكاسينغ الحديدية. مصنع حاصل على شهادة ISO 9001. تصدير إلى نيجيريا ودبي وأفريقيا.'
   googleVerification = ''

@@ -101,7 +101,7 @@ Below are indicative FOB Yiwu prices for wholesale buyers in Nigeria:
 
 ## Why Buy Direct from SOLA Hardware?
 
-We manufacture door hinges in our ISO 9001 certified factory with strict material control:
+We source door hinges from ISO 9001 certified partner factories with strict material control:
 - **100% SS304 material** — no mixed steel, no shortcuts
 - **Salt spray tested** — minimum 48 hours resistance
 - **Factory direct pricing** — no middleman markup

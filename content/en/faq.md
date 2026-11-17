@@ -44,10 +44,10 @@ faqs:
 
 ### Q: What's your quality standard?
 **A:** Our quality standards include:
-- ✅ ISO 9001:2015 certified factory
-- ✅ CE certification for European market
-- ✅ SGS third-party testing
-- ✅ 50,000+ cycle testing for door handles
+- ✅ ISO 9001:2015 partner factories (certificates shared on request)
+- ✅ SGS / CE test reports available on request
+- ✅ Pre-shipment inspection with photos of every batch
+- ✅ Third-party inspection by your nominated agent
 - ✅ 72-hour salt spray test for corrosion resistance
 - ✅ 100% inspection before shipment
 
@@ -154,7 +154,7 @@ faqs:
 
 ### Q: Do you provide free samples?
 **A:** Yes, we offer:
-- **Free samples:** Available for most products
+- **Samples:** Available for most products — freight collect (deducted from the order)
 - **Freight:** Collect (buyer pays shipping)
 - **Sample time:** 3-5 days
 - **Sample quantity:** 1-5 pcs per model
@@ -271,8 +271,8 @@ faqs:
 
 ### Q: How long have you been in business?
 **A:** Our experience:
-- **Company established:** 10+ years
-- **Export experience:** 10+ years
+- **Company established:** exporting since 2016
+- **Export experience:** Nigeria, West Africa and the Middle East
 - **Main markets:** Africa, Middle East, Europe
 - **Annual capacity:** 5+ million pieces
 

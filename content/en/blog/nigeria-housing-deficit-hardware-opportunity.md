@@ -16,7 +16,7 @@ faqs:
   - question: "What hardware products are most needed for Nigerian housing projects?"
     answer: "Mortise locks ($3-$6), satin nickel lever handles ($1.50-$5), door hinges ($0.35-$2.50/pair), padlocks ($0.50-$3), and iron casing pipes 16mm/25mm. SS304 stainless steel finishes for coastal areas, SS201 for inland."
   - question: "How can I start supplying hardware to Nigeria's construction market?"
-    answer: "Partner with a factory-direct supplier like SOLA Hardware. We offer free SONCAP/Form M, low MOQ, mixed containers, and 10+ years Nigeria market expertise. Start with a mixed container of best-sellers. Contact us for a consultation."
+    answer: "Partner with a factory-direct supplier like SOLA Hardware. We offer free SONCAP/Form M, low MOQ, mixed containers, and Nigeria market expertise since 2016. Start with a mixed container of best-sellers. Contact us for a consultation."
 seotitle: "Nigeria Housing Deficit 2026: Hardware"
 ---
 
