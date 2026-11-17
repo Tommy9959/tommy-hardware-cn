@@ -20,6 +20,7 @@ faqs:
 
 seotitle: "Nigeria Hardware Market Guide 2026"
 lastmod: 2026-11-03
+tldr: "Nigerian hardware demand concentrates in Lagos (Alaba, Ladipo), Onitsha (Main Market, Ogidi), Aba, Kano and Port Harcourt. The volume sellers are 4x3 inch butt hinges, iron plate mortise locks and 50–70mm padlocks, restocked every 2–4 months. Price matters, but rust complaints are what end a supplier relationship."
 ---
 
 ## Nigeria Hardware Market 2026 — What I've Learned After 10 Years of Selling There

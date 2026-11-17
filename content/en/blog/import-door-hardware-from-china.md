@@ -20,6 +20,7 @@ faqs:
 
 seotitle: "Import Door Hardware from China: 2026 Guide"
 lastmod: 2026-11-03
+tldr: "Buying door hardware from China: confirm you are dealing with a factory rather than a trading company, get a pre-shipment inspection, check the supplier can support SONCAP and Form M, and treat prices far below market as a warning — the saving usually comes out of plating thickness or zinc grade."
 ---
 
 ## How to Import Door Hardware from China Without Losing Your Shirt — 10 Years of Mistakes I've Seen

@@ -21,6 +21,7 @@ faqs:
     answer: "Yes. Sourced from ISO 9001 partner factories, with SGS / CE reports on request. Iron plate with aluminum handle construction. Exporting to Africa since 2016, serving wholesalers in Nigeria, Ghana and Kenya."
 
 seotitle: "Iron Door Lock Price Nigeria 2026: $2.50-$6"
+tldr: "Iron door locks cost $2.50–$5.00 per piece FOB Yiwu in 2026 (lock sets $10–$30). MOQ is 400 pcs or 100 sets, production takes 15–25 days, and sea freight to Lagos adds 25–35 days. Coastal buyers should specify SS304 or chrome-plated bodies, not bare iron."
 ---
 
 ## Iron Door Lock Price in Nigeria 2026 — Factory Prices, Real Stories, Buying Tips

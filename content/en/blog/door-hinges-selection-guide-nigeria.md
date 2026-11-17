@@ -5,6 +5,7 @@ description: "Door hinge price in Nigeria 2026: galvanized butt hinge from $0.50
 tags: ["door hinges", "Nigeria construction", "hardware guide", "butt hinges", "pivot hinges", "self-closing hinges"]
 author: "JH HARDWARE"
 seotitle: "Door Hinges Price Nigeria 2026: SS304 $0.50"
+tldr: "Door hinge prices in Nigeria start at $0.50/pc for galvanised butt hinges, $0.80 for SS304 and about $1.50 for concealed hinges, FOB Yiwu. MOQ is 1,000 pcs and production takes 15–25 days. In Lagos, Port Harcourt and other coastal cities specify SS304 — zinc-plated steel rusts within months."
 ---
 
 If you're building or renovating in Nigeria—whether it's a residential compound in Lekki, a commercial building in Ikeja, or a school project in Abuja—door hinges are one of those small components that can make or break the whole installation.

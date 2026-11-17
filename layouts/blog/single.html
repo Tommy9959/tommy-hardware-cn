@@ -13,6 +13,7 @@
   "@type": "BlogPosting",
   "headline": "{{ .Title }}",
   "description": "{{ .Description }}",
+  {{- with .Params.tldr }}"abstract": "{{ . }}",{{ end }}
   "datePublished": "{{ $datePublished }}",
   "dateModified": "{{ $dateModified }}",
   "author": {
@@ -52,6 +53,12 @@
         <!-- Article Header -->
         <header class="blog-header">
             <h1 class="blog-title">{{ .Title }}</h1>
+            {{- with .Params.tldr }}
+            <div class="tldr-box">
+                <strong>{{ if eq $.Site.Language.Lang "zh" }}快速答案{{ else }}{{ if eq $.Site.Language.Lang "ar" }}إجابة سريعة{{ else }}Quick answer{{ end }}{{ end }}</strong>
+                <p>{{ . }}</p>
+            </div>
+            {{- end }}
             <div class="blog-meta">
                 <span class="meta-item">📅 {{ if eq .Site.Language.Lang "zh" }}{{ .Date.Format "2006年1月2日" }}{{ else }}{{ if eq .Site.Language.Lang "ar" }}{{ .Date.Format "2006-01-02" }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}{{ end }}</span>
                 <span class="meta-item">✍️ {{ if eq .Site.Language.Lang "zh" }}{{ .Params.author | default "JH HARDWARE（钧瀚五金）" }}{{ else }}{{ if eq .Site.Language.Lang "ar" }}{{ .Params.author | default "JH HARDWARE" }}{{ else }}{{ .Params.author | default "JH HARDWARE" }}{{ end }}{{ end }}</span>

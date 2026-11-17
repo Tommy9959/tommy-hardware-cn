@@ -7,6 +7,7 @@ date: "2026-06-03"
 tags: ["SONCAP", "Form M", "PAAR", "Nigeria customs", "import certification", "Apapa port", "Nigeria clearance", "import guide"]
 categories: ["Nigeria Import Guide"]
 lastmod: 2026-11-03
+tldr: "Three documents decide whether a hardware container clears Apapa: Form M (opened through your bank before shipment), the SONCAP certificate (issued by an accredited inspection body) and PAAR (raised at the destination port). The guide gives the order to do them in, the timelines, the paperwork each step needs, and the mistakes that leave containers stuck."
 ---
 
 ## SONCAP, Form M & PAAR — Complete Nigeria Import Certification Guide 2026
