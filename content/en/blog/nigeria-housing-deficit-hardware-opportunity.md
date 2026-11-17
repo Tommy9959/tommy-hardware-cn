@@ -48,7 +48,7 @@ Those are staggering numbers. And they don't account for commercial construction
 Even capturing **1% of this market** means selling:
 - 1.5 million door locks
 - 1.8 million door handles
-- 150,000+ iron casing pipes
+- 1.4 million+ iron casing pipes (70,000+ bundles × 20 pieces)
 
 This is why major Nigerian construction companies are already expanding their supply chains. And why smart distributors are locking in factory-direct partnerships now.
 
