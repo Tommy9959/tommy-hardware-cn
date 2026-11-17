@@ -128,10 +128,11 @@
                 <div class="social-links">
                     <h3>{{ if eq .Site.Language.Lang "zh" }}关注我们{{ else }}{{ if eq .Site.Language.Lang "en" }}Follow Us{{ else }}تابعنا{{ end }}{{ end }}</h3>
                     <div class="social-icons">
-                        <a href="#" class="social-icon" title="LinkedIn" target="_blank">💼</a>
-                        <a href="#" class="social-icon" title="Facebook" target="_blank">📘</a>
-                        <a href="#" class="social-icon" title="Instagram" target="_blank">📷</a>
-                        <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="social-icon" title="WhatsApp" target="_blank">💬</a>
+                        {{/* 只渲染真实存在的账号；原来 LinkedIn / Instagram 是 href="#" 的死按钮，点了没反应 */}}
+                        {{ with .Site.Params.social.facebook }}<a href="{{ . }}" class="social-icon" title="Facebook" target="_blank" rel="noopener">📘</a>{{ end }}
+                        {{ with .Site.Params.social.linkedin }}<a href="{{ . }}" class="social-icon" title="LinkedIn" target="_blank" rel="noopener">💼</a>{{ end }}
+                        {{ with .Site.Params.social.instagram }}<a href="{{ . }}" class="social-icon" title="Instagram" target="_blank" rel="noopener">📷</a>{{ end }}
+                        <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="social-icon" title="WhatsApp" target="_blank" rel="noopener">💬</a>
                     </div>
                 </div>
             </div>
