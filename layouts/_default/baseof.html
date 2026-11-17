@@ -17,7 +17,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/logo/apple-touch-icon.png" | relURL }}">
     
     <!-- 样式 -->
-    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}?v={{ now.Unix }}">
     
     <!-- Google Analytics -->
     {{ with .Site.Params.googleAnalytics }}

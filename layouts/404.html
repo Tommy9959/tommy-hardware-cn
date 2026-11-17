@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $lang := .Site.Language.Lang }}
-<link rel="stylesheet" href="{{ "css/homepage.min.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/homepage.min.css" | relURL }}?v={{ now.Unix }}">
 
 <section style="min-height: 80vh; display: flex; align-items: center; justify-content: center; padding: 2rem;">
     <div style="text-align: center; max-width: 600px;">
