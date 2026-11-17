@@ -18,6 +18,7 @@ faqs:
   - question: "How can I start supplying hardware to Nigeria's construction market?"
     answer: "Partner with a factory-direct supplier like SOLA Hardware. We offer free SONCAP/Form M, low MOQ, mixed containers, and Nigeria market expertise since 2016. Start with a mixed container of best-sellers. Contact us for a consultation."
 seotitle: "Nigeria Housing Deficit 2026: Hardware"
+tldr: "Nigeria's housing deficit is officially 14.9 million units. Each unit needs six to ten doors, and each door needs three hinges, a lock and two handles — which is why door hardware demand tracks construction activity rather than retail spending."
 ---
 
 ## Nigeria's Housing Deficit 2026: A $15B Opportunity for Hardware Suppliers

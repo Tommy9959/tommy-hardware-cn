@@ -6,6 +6,7 @@ author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-04-29"
 tags: ["door locks", "what sells", "Nigeria market", "sales data", "from our experience"]
 categories: ["From Our Experience"]
+tldr: "Door locks start at $2.50 per piece FOB Yiwu. Iron plate mortise locks dominate Nigerian housing because the installation pattern is universal, while cylinder and rim locks are specified for commercial doors and higher-security entrances."
 ---
 
 ## What Door Locks Actually Sell in Nigeria (10 Years of Sales Data)

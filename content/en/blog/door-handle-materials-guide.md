@@ -19,6 +19,7 @@ faqs:
     answer: "Yes. Standard sizes: 60/70/80mm backset, 54mm or 72mm latch centers. SOLA Hardware stocks sizes compatible with Nigerian door specifications."
 
 seotitle: "Door Handle Material: SS304 vs Zinc Alloy"
+tldr: "SS304 lever handles cost $1.50-3.00 per piece, zinc alloy $1.50-3.50 and solid brass $2.50-5.00 FOB Yiwu. In Lagos and Port Harcourt SS304 wins on corrosion; zinc alloy is fine indoors but pits outdoors within a couple of years, and brass is bought for feel and prestige rather than durability."
 ---
 
 ## Stainless Steel vs Zinc Alloy Door Handles for Nigeria: Which is Better? [2026 Guide]

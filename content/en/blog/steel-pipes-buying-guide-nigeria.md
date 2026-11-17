@@ -7,6 +7,7 @@ date: "2026-05-27"
 tags: ["iron casing pipes", "Nigeria market", "building materials", "construction"]
 categories: ["Product Guide"]
 seotitle: "25mm & 16mm Iron Pipe Price in Nigeria 2026"
+tldr: "25mm iron casing pipe runs $1.20-3.00 per metre FOB Yiwu depending on wall thickness, and 16mm $0.80-1.80 per metre. Bundles hold 20 pieces, production takes 15-25 days, and sea freight to Lagos or Onitsha adds 25-35 days."
 ---
 
 ## Iron Casing Pipe 16mm & 25mm Price in Nigeria 2026: Embedded Pipe Buying Guide

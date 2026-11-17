@@ -16,6 +16,7 @@ faqs:
   - question: "How much weight should cabinet hinges and slides handle?"
     answer: "For hinges: standard kitchen cabinet doors weigh 3–8 kg, so hinges rated for 20–30 kg are sufficient. For drawer slides: 35–45 kg dynamic load is the sweet spot for the African market — enough for kitchen drawers loaded with utensils, pots, and pantry items. Heavy-duty slides (70+ kg) are only needed for filing cabinets and commercial kitchens."
 seotitle: "Cabinet Hinges & Slides Wholesale Africa"
+tldr: "Soft-close hinges and full-extension ball-bearing slides are now the default in African kitchen projects. Match the hardware to the load: 35kg slides for kitchen drawers, 0.8-1.2mm steel for cabinet hinges, and soft-close only where the cabinet carcase can take the mechanism."
 ---
 
 ## Cabinet Door Hinges & Slides for Africa: How to Choose the Right Kitchen Hardware for Your Market

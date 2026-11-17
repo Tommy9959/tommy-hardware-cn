@@ -13,6 +13,7 @@ tags:
 categories:
   - Product Guide
 seotitle: "Sofa Legs Wholesale Nigeria: Sourcing Guide"
+tldr: "Sofa legs ship by the carton in wood, metal and plastic, 4-10 inch, with weight capacity and finish driving price. Plastic is cheapest and lightest to ship; metal and wood carry the premium furniture that Nigerian workshops sell to hotels and estates."
 ---
 
 ## Sofa Legs Wholesale Guide for Nigeria: Types, Materials & Sourcing Tips

@@ -5,6 +5,7 @@ description: "Don't let Nigeria's humidity destroy your door hardware. Pro insta
 tags: ["installation guide", "maintenance", "Nigeria market", "door hardware", "door lock installation Nigeria", "hinge maintenance", "door handle repair"]
 categories: ["Product Guide"]
 seotitle: "Door Hardware Installation & Rust Prevention"
+tldr: "Humidity, not daily use, is what kills door hardware in Nigeria — rust starts at screw heads and hinge knuckles. Fit matching stainless screws, leave 2-3mm clearance at the lock face, and clear a sticking lock with graphite powder rather than oil, which traps dust."
 ---
 
 My name is Tommy. I've been shipping door hardware to Nigeria for ten years—Lagos, Abuja, Port Harcourt, Onitsha, Kano, you name it. I've seen beautiful doors ruined by bad installation, and I've seen cheap hardware last years when fitted right.

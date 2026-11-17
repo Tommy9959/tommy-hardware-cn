@@ -7,6 +7,7 @@ date: "2026-04-10"
 tags: ["door handles", "what sells", "Nigeria market", "mistakes to avoid", "from our experience"]
 categories: ["From Our Experience"]
 seotitle: "Door Handle Price Nigeria 2026: Buying Guide"
+tldr: "Door handles start at $1.20 per piece FOB Yiwu. Lever handles outsell knobs on Nigerian exterior doors because they work with a wet or full hand, while rose and plate handles dominate interior doors; SS304 is the safe default for coastal cities."
 ---
 
 ## What Door Handles Actually Sell in Nigeria (And What Doesn't) — 10 Years of Experience

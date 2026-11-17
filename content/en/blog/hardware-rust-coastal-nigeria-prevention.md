@@ -19,6 +19,7 @@ faqs:
     answer: "Somewhat. Regular oiling, keeping hardware dry, and avoiding salty environments can help. But in Lagos or Port Harcourt's humidity, no amount of maintenance will make cheap plated steel last long term."
 
 seotitle: "Hardware Rust in Nigeria: Prevention Guide"
+tldr: "In Lagos, Port Harcourt and Calabar, rust is salt plus humidity, and it attacks screw heads, hinge knuckles and lock faces before anything else. SS304 bodies, matching screws and a yearly wipe-down add years of life; oil-based lubricants make it worse by trapping dust and salt."
 ---
 
 ## Why Hardware Rusts in Nigeria's Coastal Cities (And How to Prevent It) — 10 Years of Lessons

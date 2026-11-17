@@ -16,6 +16,7 @@ tags:
 categories:
   - Product Guide
 seotitle: "Drawer Slides Buying Guide for Nigeria 2026"
+tldr: "Ball-bearing slides rated 25-45kg are the default for kitchen and office drawers; roller slides only suit light, low-cost furniture. In coastal Nigeria specify plated or stainless slides — untreated steel seizes inside a year — and match the rating to the load, not to the price."
 ---
 
 ## The Complete Drawer Slides Buying Guide for Nigeria

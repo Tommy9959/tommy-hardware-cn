@@ -6,6 +6,7 @@ tags: ["building materials", "tile adhesive", "waterproofing", "wallpaper", "PVC
 categories: ["Products", "Buying Guide"]
 description: "Building materials wholesale from China to Nigeria — tile adhesive, waterproof coating, wallpaper, PVC ceiling panels. Factory prices, shipping costs, import regulations. SONCAP included."
 seotitle: "Building Materials Wholesale Nigeria 2026"
+tldr: "Tile adhesive, waterproof coating, wallpaper and PVC ceiling panels follow the same route as hardware: 15-25 days production, then 25-35 days sea freight to Lagos. Most of these products fall under SONCAP, and they fill the space left in a container that hardware alone does not use."
 ---
 
 If you're in the Nigerian construction industry, you know the struggle: **quality building materials are expensive locally**, and finding reliable suppliers from China is a minefield of fake products and broken promises.

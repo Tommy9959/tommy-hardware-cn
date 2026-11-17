@@ -22,6 +22,7 @@ faqs:
   - question: "What's the difference between iron casing pipe and galvanized steel pipe?"
     answer: "Iron casing pipe is lighter, cheaper, and specifically designed for embedding in concrete as conduit. Galvanized steel pipe is heavier, corrosion-resistant, and used for structural/plumbing applications where it stays exposed."
 seotitle: "Iron Casing Pipe Price Nigeria 2026"
+tldr: "16mm casing pipe runs $0.80-1.80 per metre and 25mm $1.20-3.00 per metre FOB Yiwu, depending on wall thickness. Pipes ship in bundles of 20, a 20ft container takes roughly 70,000 pieces, and steel conduit falls under SONCAP."
 ---
 ## Iron Casing Pipe for Construction in Nigeria — Complete Buyer's Guide
 

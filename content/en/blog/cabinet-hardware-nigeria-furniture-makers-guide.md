@@ -19,6 +19,7 @@ faqs:
     answer: "A 20GP container holds approximately 50,000-70,000 hinges or 8,000-10,000 sets of drawer slides. Mixed containers accepted — combine hinges, slides, handles, and other hardware."
 
 seotitle: "Cabinet Hardware for Nigerian Makers"
+tldr: "Nigerian furniture makers now ask for soft-close hinges and full-extension slides by default — roughly 60% of recent orders specify soft-close. The guide covers which hinges and slides actually sell, how weight rating drives price, and how to consolidate a cabinet-hardware order into one container."
 ---
 
 ## Cabinet Hardware for Africa: What Nigerian Furniture Makers Actually Need

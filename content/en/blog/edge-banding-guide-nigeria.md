@@ -17,6 +17,7 @@ tags:
 categories:
   - Product Guide
 seotitle: "Edge Banding Price Nigeria: PVC 0.4mm-3mm"
+tldr: "PVC edge banding runs 0.4-3mm: 0.4-0.8mm for interior furniture, 1-2mm for high-wear edges, 3mm for postforming. Melamine is the cheapest and chips first; ABS is the durable upgrade. It is priced per roll FOB Yiwu and ships cheaply by volume."
 ---
 
 ## The Complete Edge Banding Guide for Nigeria

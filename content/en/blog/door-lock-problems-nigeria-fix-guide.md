@@ -7,6 +7,7 @@ date: "2026-06-09"
 tags: ["door lock problems", "door lock repair", "Nigeria maintenance", "Harmattan dust", "rust prevention", "door hardware care"]
 categories: ["Maintenance Guide", "From Our Experience"]
 seotitle: "Lock Jammed? 5 Fixes That Work in Nigeria"
+tldr: "Most locks that jam in Nigeria are suffering from Harmattan dust or a misaligned strike plate, not failure. Clear the cylinder with graphite powder, check the hinges for sag and the strike plate for rub, and replace the lock only when the key turns freely but the bolt does not move."
 ---
 
 ## Door Locks Keep Jamming in Nigeria? Common Problems and How to Fix Them

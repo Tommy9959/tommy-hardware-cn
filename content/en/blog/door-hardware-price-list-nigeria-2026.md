@@ -7,6 +7,7 @@ date: "2026-08-04"
 tags: ["door hardware price Nigeria", "door lock price", "door hinge price", "door handle price", "padlock price Nigeria", "wholesale hardware", "buy hardware Nigeria", "market price guide"]
 categories: ["Price Guide", "Buying Guide"]
 lastmod: 2026-11-03
+tldr: "2026 FOB Yiwu ranges: door locks $2.50-$30, hinges $1.50-$4.00, handles $2.80-$5.50 and padlocks $0.42-$2.71. MOQ starts at 100 sets, production takes 15-25 days, and sea freight to Lagos adds 25-35 days."
 ---
 
 ## How Much Does Door Hardware Cost in Nigeria 2026?

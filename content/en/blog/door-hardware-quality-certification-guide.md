@@ -7,6 +7,7 @@ date: "2026-04-29"
 tags: ["customs clearance", "Nigeria tips", "certifications", "quality control", "what matters"]
 categories: ["From Our Experience"]
 seotitle: "SONCAP, Form M & PAAR: Nigeria Import Guide"
+tldr: "A hardware container into Nigeria needs three documents in the right order: Form M opened before shipment, the SONCAP certificate from an accredited inspection body, then PAAR at the destination port. Get the sequence wrong and the container sits at Apapa accruing demurrage."
 ---
 
 ## Nigeria Import Certifications 2026: SONCAP, Form M, PAAR — What You Actually Need (10 Years of Experience)

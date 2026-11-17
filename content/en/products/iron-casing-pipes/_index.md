@@ -27,6 +27,17 @@ products:
     material: "Iron / Galvanized"
     finish: "Galvanized"
 seotitle: "Iron Casing Pipe Price Nigeria 2026 16/25mm"
+faqs:
+  - q: "What do 16mm and 25mm casing pipes cost?"
+    a: "$0.80-$3.00 per metre FOB Yiwu depending on diameter and wall thickness: 16mm from $0.80/m, 25mm from $1.20/m, 25mm with a 2.5mm wall up to $3.00/m."
+  - q: "Which wall thickness should I order?"
+    a: "1.5mm for light conduit and embedded wiring, 2.0mm for structural reinforcement, 2.5mm for heavy-load foundations and columns."
+  - q: "How are pipes packed for export?"
+    a: "Bundles of 20 pieces, strapped and wrapped; a 20ft container takes roughly 70,000 pieces depending on length and diameter."
+  - q: "Do pipes need SONCAP?"
+    a: "Yes — steel conduit is on the SONCAP product list. The certificate is arranged through an accredited inspection body, and the paperwork is supported at no extra fee."
+  - q: "What is the MOQ and lead time?"
+    a: "One bundle per size for trial, full container loads for export pricing; 15-25 days production, 25-35 days to Lagos."
 ---
 ## Why Choose Our Iron Casing Pipes for Your Nigerian Building Projects?
 

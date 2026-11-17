@@ -20,6 +20,7 @@ faqs:
     answer: "Work with a licensed clearing agent. Ensure SONCAP and Form M are prepared before shipment. SOLA Hardware provides free documentation support to help streamline clearance."
 
 seotitle: "Nigeria Import Payment & Logistics 2026"
+tldr: "Nigerian importers pay by T/T (30% deposit, 70% before shipment), L/C for large orders, or RMB settlement. LCL suits trial orders while FCL pays off above roughly 15 cubic metres, and clearance still needs Form M, SONCAP and PAAR in that order."
 ---
 
 ## Nigeria Hardware Import: Payment Methods & Logistics Complete Guide 2026

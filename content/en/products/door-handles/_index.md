@@ -27,6 +27,17 @@ products:
     material: "Zinc Alloy + SS304"
     finish: "Multiple Colors Available"
 seotitle: "Door Handle Wholesale: SS, Aluminum & Brass"
+faqs:
+  - q: "How much do door handles cost from China?"
+    a: "$1.00-$6.00 per piece FOB Yiwu: aluminum $1.00-$2.50, SS304 lever handles $1.50-$3.00, solid brass $2.50-$5.00, commercial heavy-duty $3.00-$6.00."
+  - q: "Which handle sells best in Nigeria?"
+    a: "SS304 lever handles (DH-001) and rosette handles (DH-006) — they survive humid coastal air and fit the standard mortise lock bodies used in Nigerian housing."
+  - q: "Can handles be matched to a specific lock body?"
+    a: "Yes. Send the lock model or the spindle and hole spacing; handles are supplied with the matching 8mm spindle and fixing screws at no extra cost."
+  - q: "What is the MOQ and lead time?"
+    a: "400 pieces per model, 15-25 days production after deposit, 25-35 days sea freight to Lagos."
+  - q: "Do you supply handles for sliding doors?"
+    a: "Yes — DH-004 is a zinc-alloy flush pull designed for sliding and cavity doors, where a lever handle cannot be mounted."
 ---
 
 ### Door Handle Price & Types
