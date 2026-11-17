@@ -1507,3 +1507,8 @@ pre, .site-main pre code {
         white-space: nowrap;
     }
 }
+
+/* ── AI 搜索：文章首段「快速答案」框 ── */
+.tldr-box{background:#fffaf0;border-left:4px solid #d4af37;border-radius:0 8px 8px 0;padding:1rem 1.25rem;margin:1.25rem 0 1.5rem;font-size:1.02rem;line-height:1.7;color:#2a2a2e}
+.tldr-box strong{display:block;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;color:#8a6d1f;margin-bottom:.4rem}
+.tldr-box p{margin:0}
