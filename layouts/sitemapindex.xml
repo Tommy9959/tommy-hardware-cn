@@ -1,0 +1,23 @@
+{{- /*
+  sitemapindex — 只引用有内容的语言子 sitemap。
+  阿语整站 noindex（其子 sitemap 0 条 <url>），空子文件会被百度判成
+  "sitemap 内容异常"，故按语言参数 noindex 跳过 ar；en/zh 保留给
+  Google / Bing / 百度。Hugo 内部模板会自动带上全部语言，必须本文件覆盖。
+  上下文 . = []*hugolib.Site（不是单个 Site，别用 .Pages/.Sitemap）。
+  子 sitemap 的路径必须是 /<lang>/sitemap.xml，不能拿 Home.Permalink 拼
+  （en 的 Home 是根路径，拼出来会指回索引自身，形成自引用死循环）。
+*/ -}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{- range . }}
+  {{- if not .Params.noindex }}
+  {{- $u := urls.Parse .Home.Permalink }}
+  <sitemap>
+    <loc>{{ printf "%s://%s/%s/sitemap.xml" $u.Scheme $u.Host .Language.Lang }}</loc>
+    {{- if not .Lastmod.IsZero }}
+    <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}</lastmod>
+    {{- end }}
+  </sitemap>
+  {{- end }}
+  {{- end }}
+</sitemapindex>
