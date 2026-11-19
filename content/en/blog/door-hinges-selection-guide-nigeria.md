@@ -1,11 +1,11 @@
 ---
-title: "Door Hinges Price in Nigeria 2026 – $0.50/pc"
+title: "Door Hinges Price in Nigeria 2026 – $0.35/pc"
 date: 2026-05-22T21:55:00+08:00
-description: "Door hinge price in Nigeria 2026: galvanized butt hinge from $0.50/pc, SS304 $0.80, concealed $1.50. MOQ 1,000 pcs, free samples, 15-25 days to Lagos."
+description: "Door hinge price in Nigeria 2026: galvanised butt hinge $0.35/pc, SS304 $0.50, concealed $0.60-1.50. MOQ 1,000 pcs, 15-25 days to Lagos."
 tags: ["door hinges", "Nigeria construction", "hardware guide", "butt hinges", "pivot hinges", "self-closing hinges"]
 author: "JH HARDWARE"
-seotitle: "Door Hinges Price Nigeria 2026: SS304 $0.50"
-tldr: "Door hinge prices in Nigeria start at $0.50/pc for galvanised butt hinges, $0.80 for SS304 and about $1.50 for concealed hinges, FOB Yiwu. MOQ is 1,000 pcs and production takes 15–25 days. In Lagos, Port Harcourt and other coastal cities specify SS304 — zinc-plated steel rusts within months."
+seotitle: "Door Hinges Price Nigeria 2026: $0.35-$3.50"
+tldr: "Door hinge prices in Nigeria start at $0.35/pc for galvanised butt hinges, $0.50 for SS304 and $0.60-1.50 for concealed hinges, FOB Yiwu; pivot hinges run $2.00-3.50. A standard door takes 3 hinges, so the hinge cost per door is roughly $1.05-2.40 galvanised or $1.50-3.60 SS304. MOQ is 1,000 pcs and production takes 15-25 days. In Lagos and Port Harcourt specify SS304 — zinc-plated steel rusts within months."
 ---
 
 If you're building or renovating in Nigeria—whether it's a residential compound in Lekki, a commercial building in Ikeja, or a school project in Abuja—door hinges are one of those small components that can make or break the whole installation.
@@ -99,6 +99,34 @@ Below are indicative FOB Yiwu prices for wholesale buyers in Nigeria:
 | Pivot Hinge | Heavy Duty Steel | Various | $2.00 - $3.50/pc |
 
 *Door hinge prices vary by quantity. Larger orders get better pricing. Contact us for door hinge price to Lagos, Apapa, or Tincan Island port. Estimated sea freight from Ningbo to Apapa: approximately $120–180 per CBM for LCL consolidated shipments (est. 25–30 days transit).*
+
+## How much do hinges cost per door?
+
+A standard interior door hangs on three hinges, so the number that matters for a BOQ is the cost per door, not per piece:
+
+| Door type | Hinges per door | Cost per door (FOB Yiwu) |
+|-----------|----------------|--------------------------|
+| Interior room door, 4"×3" galvanised (HH-003) | 3 | $1.05 - $2.40 |
+| Interior room door, 4"×3" SS304 (HH-001) | 3 | $1.50 - $3.60 |
+| Heavy duty main door, 4"×4" SS304 (HH-004) | 3-4 | $2.40 - $7.20 |
+| Concealed interior hinge (HH-005) | 3 | $1.80 - $4.50 |
+| Brass butt hinge, 4"×3" (HH-002) | 3 | $3.60 - $7.50 |
+| Pivot hinge for metal gate or heavy leaf | 2 + floor spring | $4.00 - $7.00 |
+
+Two things that change the total: **screw quality** (stainless screws matching the hinge material — a $0.02 saving here causes most call-backs) and **hinge count**. A 50 kg iron door needs 4 hinges, not 3; going one size up is cheaper than repairing a sagging door.
+
+For a 100-unit housing project, that puts the hinge line at roughly **$150-$360 for interior doors** and **$240-$720 for main doors** at the SS304 spec — which is why the material decision should be made on the BOQ, not at the market.
+
+## Heavy duty hinges for security and iron doors
+
+Anything above a standard timber leaf needs a heavier hinge than a 4"×3" butt hinge:
+
+- **Iron and steel security doors** — 4"×4" SS304 (HH-004) with a non-removable pin, 4 hinges per leaf. The pin is what stops the door being lifted off its hinges from outside.
+- **Gates and very heavy leaves** — pivot hinge plus a floor spring, so the weight goes into the floor and header instead of the frame.
+- **Doors that slam constantly** (shops, schools, stairwells) — self-closing spring hinge with an adjustable tension screw; fixed-tension springs lose their setting inside a year in Nigerian heat.
+
+If you are not sure which rating your door needs, send us the leaf weight and thickness in kg and mm and we will tell you the size — that is faster than guessing from the dimensions alone.
+
 
 ## Why Buy Direct from SOLA Hardware?
 
