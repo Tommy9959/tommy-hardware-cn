@@ -30,63 +30,63 @@ _Generated 2026-11-20 from site content. Companion to https://jh-hardware.com/ll
 
 | Model | Product | Material | MOQ | Price (FOB USD) | URL |
 | --- | --- | --- | --- | --- | --- |
-| DL-001 | Iron Plate Aluminum Handle Door Lock 755-151 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-001/ |
-| DL-002 | Iron Plate Aluminum Handle Door Lock 755-113 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-002/ |
-| DL-003 | Iron Plate Aluminum Handle Door Lock 837-352 | Iron Plate + Aluminum Handle | 50 sets | $3.85 USD / piece | https://jh-hardware.com/products/door-locks/dl-003/ |
-| DL-004 | Iron Plate Aluminum Handle Door Lock 955-231 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-004/ |
-| DL-005 | Iron Plate Aluminum Handle Door Lock 955-118 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-005/ |
-| DL-006 | Iron Plate Aluminum Handle Door Lock 905-126 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-006/ |
-| DL-007 | Iron Plate Aluminum Handle Door Lock 9129-352 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-007/ |
-| DL-008 | Iron Plate Door Lock 705-113 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-008/ |
-| DL-009 | Iron Plate Door Lock 705-118 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-009/ |
-| DL-010 | Iron Plate Door Lock 705-126 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-010/ |
-| DL-011 | Iron Plate Door Lock 705-151 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-011/ |
-| DL-012 | Iron Plate Door Lock 705-231 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-012/ |
-| DL-013 | Iron Plate Door Lock 705-352 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-013/ |
-| DL-014 | Iron Plate Door Lock 705-43 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-014/ |
-| DL-015 | Iron Plate Door Lock 7129-107 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-015/ |
-| DL-016 | Iron Plate Door Lock 7129-113 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-016/ |
-| DL-017 | Iron Plate Door Lock 7129-118 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-017/ |
-| DL-018 | Iron Plate Door Lock 7129-126 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-018/ |
-| DL-019 | Iron Plate Door Lock 7129-151 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-019/ |
-| DL-020 | Iron Plate Door Lock 7129-231 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-020/ |
-| DL-021 | Iron Plate Door Lock 7129-352 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-021/ |
-| DL-022 | Iron Plate Door Lock 7129-43 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-022/ |
-| DL-023 | Iron Plate Door Lock 7340-231 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-023/ |
-| DL-024 | Iron Plate Door Lock 7340-364 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-024/ |
-| DL-025 | Iron Plate Door Lock 7340-375 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-025/ |
-| DL-026 | Iron Plate Door Lock 755-115 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-026/ |
-| DL-027 | Iron Plate Door Lock 755-231 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-027/ |
-| DL-028 | Iron Plate Door Lock 755-325 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-028/ |
-| DL-029 | Iron Plate Door Lock 131 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-029/ |
-| DL-030 | Iron Plate Door Lock 151 | Iron Plate + Aluminum Handle | 50 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-030/ |
-| DL-031 | Iron Plate Door Lock 837-01 | Iron Plate + Aluminum Handle | 50 sets | $10.00 - $30.00 USD / set | https://jh-hardware.com/products/door-locks/dl-031/ |
-| DL-032 | Iron Plate Door Lock 905-113 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-032/ |
-| DL-033 | Iron Plate Door Lock 905-118 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-033/ |
-| DL-034 | Iron Plate Door Lock 905-151 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-034/ |
-| DL-035 | Iron Plate Door Lock 905-231 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-035/ |
-| DL-036 | Iron Plate Door Lock 905-352 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-036/ |
-| DL-037 | Iron Plate Door Lock 905-43 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-037/ |
-| DL-038 | Iron Plate Door Lock 9129-113 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-038/ |
-| DL-039 | Iron Plate Door Lock 9129-118 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-039/ |
-| DL-040 | Iron Plate Door Lock 9129-126 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-040/ |
-| DL-041 | Iron Plate Door Lock 9129-151 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-041/ |
-| DL-042 | Iron Plate Door Lock 9129-231 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-042/ |
-| DL-043 | Iron Plate Door Lock 9129-43 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-043/ |
-| DL-044 | Iron Plate Door Lock 9155-340 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-044/ |
-| DL-045 | Iron Plate Door Lock 9379-183 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-045/ |
-| DL-046 | Iron Plate Door Lock 9389-432 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-046/ |
-| DL-047 | Iron Plate Door Lock 9390-396 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-047/ |
-| DL-048 | Iron Plate Door Lock 9420-431 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-048/ |
-| DL-049 | Iron Plate Door Lock 955-113 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-049/ |
-| DL-050 | Iron Plate Door Lock 955-126 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-050/ |
-| DL-051 | Iron Plate Door Lock 955-151 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-051/ |
-| DL-052 | Iron Plate Door Lock 955-325 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-052/ |
-| DL-053 | Iron Plate Door Lock 955-330 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-053/ |
-| DL-054 | Iron Plate Door Lock 955-352 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-054/ |
-| DL-055 | Iron Plate Door Lock 955-43 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-055/ |
-| DL-056 | Iron Plate Door Lock 113 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-056/ |
-| DL-057 | Iron Plate Door Lock 151 | Iron Plate + Aluminum Handle | 50 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-057/ |
+| DL-001 | Iron Plate Aluminum Handle Door Lock 755-151 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-001/ |
+| DL-002 | Iron Plate Aluminum Handle Door Lock 755-113 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-002/ |
+| DL-003 | Iron Plate Aluminum Handle Door Lock 837-352 | Iron Plate + Aluminum Handle | 1000 sets | $3.85 USD / piece | https://jh-hardware.com/products/door-locks/dl-003/ |
+| DL-004 | Iron Plate Aluminum Handle Door Lock 955-231 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-004/ |
+| DL-005 | Iron Plate Aluminum Handle Door Lock 955-118 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-005/ |
+| DL-006 | Iron Plate Aluminum Handle Door Lock 905-126 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-006/ |
+| DL-007 | Iron Plate Aluminum Handle Door Lock 9129-352 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-007/ |
+| DL-008 | Iron Plate Door Lock 705-113 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-008/ |
+| DL-009 | Iron Plate Door Lock 705-118 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-009/ |
+| DL-010 | Iron Plate Door Lock 705-126 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-010/ |
+| DL-011 | Iron Plate Door Lock 705-151 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-011/ |
+| DL-012 | Iron Plate Door Lock 705-231 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-012/ |
+| DL-013 | Iron Plate Door Lock 705-352 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-013/ |
+| DL-014 | Iron Plate Door Lock 705-43 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-014/ |
+| DL-015 | Iron Plate Door Lock 7129-107 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-015/ |
+| DL-016 | Iron Plate Door Lock 7129-113 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-016/ |
+| DL-017 | Iron Plate Door Lock 7129-118 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-017/ |
+| DL-018 | Iron Plate Door Lock 7129-126 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-018/ |
+| DL-019 | Iron Plate Door Lock 7129-151 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-019/ |
+| DL-020 | Iron Plate Door Lock 7129-231 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-020/ |
+| DL-021 | Iron Plate Door Lock 7129-352 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-021/ |
+| DL-022 | Iron Plate Door Lock 7129-43 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-022/ |
+| DL-023 | Iron Plate Door Lock 7340-231 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-023/ |
+| DL-024 | Iron Plate Door Lock 7340-364 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-024/ |
+| DL-025 | Iron Plate Door Lock 7340-375 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-025/ |
+| DL-026 | Iron Plate Door Lock 755-115 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-026/ |
+| DL-027 | Iron Plate Door Lock 755-231 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-027/ |
+| DL-028 | Iron Plate Door Lock 755-325 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-028/ |
+| DL-029 | Iron Plate Door Lock 131 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-029/ |
+| DL-030 | Iron Plate Door Lock 151 | Iron Plate + Aluminum Handle | 1000 sets | $2.50 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-030/ |
+| DL-031 | Iron Plate Door Lock 837-01 | Iron Plate + Aluminum Handle | 1000 sets | $10.00 - $30.00 USD / set | https://jh-hardware.com/products/door-locks/dl-031/ |
+| DL-032 | Iron Plate Door Lock 905-113 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-032/ |
+| DL-033 | Iron Plate Door Lock 905-118 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-033/ |
+| DL-034 | Iron Plate Door Lock 905-151 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-034/ |
+| DL-035 | Iron Plate Door Lock 905-231 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-035/ |
+| DL-036 | Iron Plate Door Lock 905-352 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-036/ |
+| DL-037 | Iron Plate Door Lock 905-43 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-037/ |
+| DL-038 | Iron Plate Door Lock 9129-113 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-038/ |
+| DL-039 | Iron Plate Door Lock 9129-118 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-039/ |
+| DL-040 | Iron Plate Door Lock 9129-126 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-040/ |
+| DL-041 | Iron Plate Door Lock 9129-151 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-041/ |
+| DL-042 | Iron Plate Door Lock 9129-231 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-042/ |
+| DL-043 | Iron Plate Door Lock 9129-43 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-043/ |
+| DL-044 | Iron Plate Door Lock 9155-340 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-044/ |
+| DL-045 | Iron Plate Door Lock 9379-183 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-045/ |
+| DL-046 | Iron Plate Door Lock 9389-432 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-046/ |
+| DL-047 | Iron Plate Door Lock 9390-396 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-047/ |
+| DL-048 | Iron Plate Door Lock 9420-431 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-048/ |
+| DL-049 | Iron Plate Door Lock 955-113 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-049/ |
+| DL-050 | Iron Plate Door Lock 955-126 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-050/ |
+| DL-051 | Iron Plate Door Lock 955-151 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-051/ |
+| DL-052 | Iron Plate Door Lock 955-325 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-052/ |
+| DL-053 | Iron Plate Door Lock 955-330 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-053/ |
+| DL-054 | Iron Plate Door Lock 955-352 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-054/ |
+| DL-055 | Iron Plate Door Lock 955-43 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-055/ |
+| DL-056 | Iron Plate Door Lock 113 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-056/ |
+| DL-057 | Iron Plate Door Lock 151 | Iron Plate + Aluminum Handle | 1000 sets | $3.00 - $5.00 USD / piece | https://jh-hardware.com/products/door-locks/dl-057/ |
 
 ### Padlocks — 8 models, $0.42-$2.71/pc
 
