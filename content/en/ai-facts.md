@@ -44,7 +44,7 @@ Prices are FOB Yiwu and change with quantity, finish, size and packaging. Quote 
 
 ## Order terms
 
-- **MOQ**: door locks, padlocks and handles 50 pcs per model; hinges 100 pcs per model. Sample orders accepted.
+- **MOQ**: door locks 1000 sets per model (20 sets per carton), padlocks and handles 50 pcs, hinges 100 pcs. Sample orders accepted.
 - **Production**: 15-25 days after deposit; 20-30 days for custom finishes or OEM packaging.
 - **Terms**: FOB Ningbo, CIF Lagos or CIF Onne.
 - **Payment**: 30% T/T deposit, 70% before shipment.

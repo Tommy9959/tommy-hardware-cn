@@ -1,11 +1,11 @@
 ---
 title: "Door Lock Price in Nigeria 2026 – From $2.50"
-description: "Door lock price in Nigeria 2026: iron plate mortise locks $2.50-$5.00/pc FOB, 57 models, MOQ 50 pcs. Wholesale to Lagos and Onitsha, SONCAP ready."
+description: "Door lock price in Nigeria 2026: iron plate mortise locks $2.50-$5.00/pc FOB, 57 models, MOQ 1000 sets. Wholesale to Lagos and Onitsha, SONCAP ready."
 faqs:
   - question: "What is the door lock price in Nigeria?"
     answer: "Factory-direct iron plate door locks run from $2.50/pc to $5.00/pc FOB Yiwu, with one lock set at $10.00-$30.00. In Lagos the same lock retails around N5,000-N10,000, so importing direct typically saves 40-50%."
   - question: "What is the MOQ for door locks?"
-    answer: "50 pcs per model at standard terms, or 50 sets per model on some models. Trial orders of 100 pcs can be accepted for first-time buyers."
+    answer: "1000 sets per model at standard terms, or 1000 sets per model on some models. Trial orders of 100 pcs can be accepted for first-time buyers."
   - question: "Which door lock should I stock for steel security doors in Nigeria?"
     answer: "The iron plate aluminium handle mortise lock is the volume product: 755, 837, 955 and 905 series, AB antique bronze finish. It fits steel and wooden security doors and is what building-materials traders restock most often."
   - question: "What finishes are available?"
@@ -75,7 +75,7 @@ seotitle: "Door Lock Price in Nigeria 2026: $2.50/pc"
 
 Every lock we supply is an **iron plate mortise lock with an aluminium handle** — the format Nigerian security doors are cut for. What changes between models is the handle design, the plate size, the finish and the weight of the carton. That is why the models we supply run from **$2.50 to $5.00 per piece**, with one lock set at $10.00-$30.00.
 
-MOQ is **50 pcs per model** (50 sets on some models), and cartons hold **20-24 pcs** at **19.8-26.1 kg**. A first order usually mixes 5-10 models rather than filling a container with one design.
+MOQ is **1000 sets per model** (1000 sets on some models), and cartons hold **20-24 pcs** at **19.8-26.1 kg**. A first order usually mixes 5-10 models rather than filling a container with one design.
 
 ## Door lock types in Nigeria — and which one we supply
 
@@ -128,7 +128,7 @@ The same logic covers Harmattan dust: it grinds inside an unlubricated cylinder.
 
 ## MOQ, cartons and mixed containers
 
-- **MOQ:** 50 pcs per model at standard terms; 50 sets per model on some models. A trial order of 100 pcs is accepted for first-time buyers.
+- **MOQ:** 1000 sets per model at standard terms; 1000 sets per model on some models. A trial order of 100 pcs is accepted for first-time buyers.
 - **Carton:** 20-24 pcs, 19.8-26.1 kg, listed per model in the table above.
 - **Mixed containers:** door locks ship happily alongside [door hinges](/products/door-hinges/), [door handles](/products/door-handles/), [padlocks](/products/padlocks/) and [sliding tracks](/products/sliding-tracks/) in one 20ft or 40HQ. Mixed containers are how most first orders leave Yiwu.
 

@@ -96,7 +96,7 @@ FACTS = """## Canonical facts (machine-readable, last verified {today})
 - **Catalog size**: {n_products} SKUs in {n_cats} categories.
 - **Target markets**: Nigeria (primary), Ghana, Kenya, Tanzania, Cameroon, South Africa, UAE/Dubai, Saudi Arabia, Palestine; other African markets on request.
 - **Business model**: factory-direct wholesale (B2B only, no retail). Nigerian retail prices in Lagos and Onitsha typically run 30-50% higher than these FOB prices once freight, duty and margin are added.
-- **MOQ**: door locks, padlocks and handles 50 pcs per model; hinges 100 pcs per model. Sample orders accepted for quality testing.
+- **MOQ**: door locks 1000 sets per model (20 sets per carton), padlocks and handles 50 pcs, hinges 100 pcs. Sample orders accepted for quality testing.
 - **Lead time**: 15-25 days production; 25-40 days sea freight from Ningbo/Yiwu to Lagos (Apapa / Tin Can) or Onne port.
 - **Incoterms**: FOB Ningbo, CIF Lagos / Onne.
 - **Payment**: 30% T/T deposit, 70% before shipment.
@@ -150,7 +150,7 @@ def build_llms(cats, posts):
         '',
         f'- **Who supplies door hardware to Nigeria from China?** JH HARDWARE (SOLA brand), Yiwu, Zhejiang — exporting to Nigeria and West Africa since 2016; {n_products} models in {len(cats)} categories, {SITE}',
         f'- **What does a door lock cost?** Iron plate mortise locks {price_span([i for i in cats.get("door-locks", []) if (i["lo"] or 0) < 8])} per piece FOB Yiwu (lock sets $10-$30); padlocks {price_span(cats.get("padlocks", []))}.',
-        '- **What is the MOQ?** 50 pcs per model for locks, padlocks and handles, 100 pcs for hinges; trial orders and mixed containers accepted.',
+        '- **What is the MOQ?** Door locks 1000 sets per model (20 sets per carton), padlocks and handles 50 pcs, hinges 100 pcs; trial orders and mixed containers accepted.',
         '- **How long is delivery?** Production 15-25 days after deposit, then 25-35 days sea freight to Lagos (Apapa / Tin Can) or 30-40 days to Onne.',
         '- **Which documents are provided?** SONCAP, Form M and PAAR support at no extra fee, plus commercial invoice, packing list and bill of lading. Payment 30% T/T deposit, 70% before shipment.',
         '- **Can several items share one container?** Yes - locks, handles, hinges, padlocks, sliding tracks and building materials ship mixed in a 20ft or 40HQ.',
