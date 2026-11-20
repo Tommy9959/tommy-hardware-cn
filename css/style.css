@@ -1512,3 +1512,23 @@ pre, .site-main pre code {
 .tldr-box{background:#fffaf0;border-left:4px solid #d4af37;border-radius:0 8px 8px 0;padding:1rem 1.25rem;margin:1.25rem 0 1.5rem;font-size:1.02rem;line-height:1.7;color:#2a2a2e}
 .tldr-box strong{display:block;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;color:#8a6d1f;margin-bottom:.4rem}
 .tldr-box p{margin:0}
+
+/* ===== Contact page: direct channels (online inquiry form retired) ===== */
+.direct-contact-actions{display:grid;gap:.75rem;margin:1.5rem 0 1.75rem}
+.dc-btn{display:flex;align-items:center;gap:.9rem;padding:.95rem 1.1rem;border-radius:12px;border:1px solid #e5e7eb;background:#fff;text-decoration:none;color:#111;transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease}
+.dc-btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.08);border-color:#c7d2fe;text-decoration:none}
+.dc-icon{font-size:1.35rem;line-height:1}
+.dc-text{display:flex;flex-direction:column;gap:.15rem;text-align:left}
+.dc-text strong{font-size:1rem;color:#111}
+.dc-text small{font-size:.85rem;color:#666;word-break:break-all}
+.dc-email{border-color:#c7d2fe;background:#f8faff}
+.dc-wa{background:#25d366;border-color:#25d366}
+.dc-wa .dc-text strong,.dc-wa .dc-text small{color:#fff}
+.dc-wechat{background:#f0fdf4;border-color:#bbf7d0;cursor:default}
+.dc-wechat .dc-text small{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.95rem;color:#111}
+.dc-checklist{background:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:1.1rem 1.25rem}
+.dc-checklist h3{font-size:1.05rem;margin:0 0 .65rem;color:#111}
+.dc-checklist ol{margin:0;padding-left:1.2rem;display:grid;gap:.45rem}
+.dc-checklist li{font-size:.92rem;color:#444;line-height:1.55}
+.dc-note{margin:.9rem 0 0;font-size:.85rem;color:#6b7280}
+@media (max-width:768px){.dc-btn{padding:.85rem .95rem}.dc-checklist{padding:.95rem 1rem}}
