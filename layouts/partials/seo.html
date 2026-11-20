@@ -454,7 +454,7 @@
   "naics": "332510"
 }
 </script>
-{{- else if eq .Section "blog" -}}
+{{- else if and (eq .Section "blog") .IsPage -}}
 {{- $blogDate := .Date.Format "2006-01-02" -}}
 {{- $modDate := (.Lastmod | default .Date).Format "2006-01-02" -}}
 {{- $authorRaw := .Params.author | default "Tommy — JH Hardware" -}}
@@ -500,6 +500,33 @@
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ .Permalink }}"
+  }
+}
+</script>
+{{- else if and (eq .Section "blog") (not .IsPage) -}}
+{{- /* 博客列表页：给 CollectionPage + ItemList，不要伪装成一篇 BlogPosting（旧代码在这里输出了日期 0001-01-01 的文章） */ -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "{{ .Permalink }}#collection",
+  "name": {{ .Title | jsonify | safeJS }},
+  "url": "{{ .Permalink }}",
+  "description": {{ $description | jsonify | safeJS }},
+  "isPartOf": { "@type": "WebSite", "name": "JH HARDWARE", "url": "{{ site.BaseURL }}" },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ len .Pages }},
+    "itemListElement": [
+      {{- range $idx, $pg := first 24 .Pages }}
+      {
+        "@type": "ListItem",
+        "position": {{ add $idx 1 }},
+        "name": {{ $pg.Title | jsonify | safeJS }},
+        "url": "{{ $pg.Permalink }}"
+      }{{ if lt (add $idx 1) (len (first 24 $.Pages)) }},{{ end }}
+      {{- end }}
+    ]
   }
 }
 </script>
