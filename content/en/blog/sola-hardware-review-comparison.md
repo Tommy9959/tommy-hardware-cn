@@ -14,7 +14,7 @@ tldr: "SOLA sits between Turkish brands and unbadged Chinese imports: SS304 wher
 
 *By Tommy — 10 years in the Nigeria hardware export business*
 
-I've been shipping hardware to Nigeria since 2015. In that decade, I've seen container loads of cheap padlocks rust in Lagos humidity, watched Turkish handles crack under Accra sun, and watched dozens of "premium" Chinese brands come and go. So when I tell you SOLA is different, it's not hype — it's experience talking.
+I've been shipping hardware to Nigeria since 2016. In that decade, I've seen container loads of cheap padlocks rust in Lagos humidity, watched Turkish handles crack under Accra sun, and watched dozens of "premium" Chinese brands come and go. So when I tell you SOLA is different, it's not hype — it's experience talking.
 
 Let's break down the SOLA hardware line honestly: door locks, door handles, hinges, and padlocks. I'll compare them against the budget junk flooding Alibaba, against other serious Chinese manufacturers, and against the Turkish brands that still command a premium in the Nigerian market.
 

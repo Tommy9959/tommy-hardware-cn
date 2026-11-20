@@ -195,7 +195,7 @@ Contact SOLA Hardware for a customized quote:
 
 📧 **Email:** z946487044@icloud.com  
 🌐 **Website:** jh-hardware.com  
-📍 **Factory:** Yiwu, Zhejiang, China — serving Nigerian importers since 2015
+📍 **Factory:** Yiwu, Zhejiang, China — serving Nigerian importers since 2016
 
 ---
 

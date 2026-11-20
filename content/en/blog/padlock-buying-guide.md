@@ -11,6 +11,8 @@ tldr: "Padlock wholesale prices in Nigeria run $0.42–$2.71 per piece FOB Yiwu:
 
 ## Padlocks for Africa: Which Type Actually Sells Best in Nigeria? (2026 Data)
 
+> **Prices re-checked 20 November 2026** against the current FOB list on the product pages — the ranges in this guide match the catalog as of that date. Freight, duty and clearing costs move separately; quote them on the day you buy.
+
 Back in 2018, a customer from Lagos called me in a panic. He'd bought 2,000 padlocks from another supplier — cheap iron padlocks, about $0.35 each. Six months later, they were all rusted shut. He'd stored them at a warehouse near the Apapa port, and the sea air did its job. Every single lock was seized. He lost the whole container.
 
 That call changed how I think about padlocks for the African market. It's not just about "making a sale." It's about making sure the lock still works six months after it leaves our warehouse.
@@ -237,7 +239,7 @@ If you're importing padlocks for your African market:
 
 We supply padlocks from all 9 SOLA series — from budget laminated to premium solid brass to best-selling waterproof shell locks.
 
-**Thinking of starting?** We've been exporting to Africa since 2015. We know what SONCAP requires, what paperwork your shipment needs, and how to pack a mixed container so nothing rattles loose. **Free samples are available** — test the locks yourself in your specific environment before committing to a full container. We also support SONCAP certification and can arrange mixed-container shipping (padlocks + door handles + hinges) to help you save on freight costs. Our GTK waterproof series has become the go‑to choice for importers in Lagos, Kano, and Port Harcourt — let us help you make it your next bestseller.
+**Thinking of starting?** We've been exporting to Africa since 2016. We know what SONCAP requires, what paperwork your shipment needs, and how to pack a mixed container so nothing rattles loose. **Free samples are available** — test the locks yourself in your specific environment before committing to a full container. We also support SONCAP certification and can arrange mixed-container shipping (padlocks + door handles + hinges) to help you save on freight costs. Our GTK waterproof series has become the go‑to choice for importers in Lagos, Kano, and Port Harcourt — let us help you make it your next bestseller.
 
 **Contact us:**
 - 📧 **Email:** info@jh-hardware.com

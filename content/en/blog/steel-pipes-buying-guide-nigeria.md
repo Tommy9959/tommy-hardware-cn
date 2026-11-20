@@ -212,4 +212,4 @@ Tell Tommy what you need — size (16mm or 25mm), quantity, wall thickness, and 
 
 ---
 
-*JH HARDWARE — Your trusted partner for building materials in Nigeria since 2015.*
+*JH HARDWARE — Your trusted partner for building materials in Nigeria since 2016.*
