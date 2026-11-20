@@ -60,7 +60,7 @@
             <h2>{{ if eq .Site.Language.Lang "zh" }}获取免费样品和报价{{ else }}{{ if eq .Site.Language.Lang "en" }}Get Free Samples & Quote{{ else }}احصل على عينات مجانية{{ end }}{{ end }}</h2>
             <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else }}{{ if eq .Site.Language.Lang "en" }}Contact now, reply within 2 hours{{ else }}اتصل الآن{{ end }}{{ end }}</p>
             <div class="contact-methods">
-                <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="contact-btn whatsapp" target="_blank">💬 WhatsApp: {{ .Site.Params.whatsapp }}</a>
+                <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="contact-btn whatsapp" target="_blank">💬 WhatsApp: +{{ .Site.Params.whatsapp }}</a>
                 <a href="mailto:{{ .Site.Params.email }}" class="contact-btn email">📧 {{ .Site.Params.email }}</a>
             </div>
         </div>

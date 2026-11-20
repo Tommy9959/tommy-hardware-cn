@@ -137,87 +137,71 @@
                 </div>
             </div>
 
-            <!-- 右侧：询价表单 -->
-            <div class="contact-form-section">
-                <h2>{{ if eq .Site.Language.Lang "zh" }}快速询价{{ else }}{{ if eq .Site.Language.Lang "en" }}Quick Inquiry{{ else }}استفسار سريع{{ end }}{{ end }}</h2>
-                <p class="form-description">{{ if eq .Site.Language.Lang "zh" }}填写下方表单，我们将在 24 小时内回复您{{ else }}{{ if eq .Site.Language.Lang "en" }}Fill out the form below and we'll respond within 24 hours{{ else }}املأ النموذج أدناه وسنرد خلال 24 ساعة{{ end }}{{ end }}</p>
-                
-                <form class="inquiry-form" action="https://formspree.io/f/xojpbpbj" method="POST">
-                    <input type="hidden" name="_next" value="{{ "/thanks" | relLangURL }}">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="name">{{ if eq .Site.Language.Lang "zh" }}姓名 *{{ else }}{{ if eq .Site.Language.Lang "en" }}Your Name *{{ else }}الاسم *{{ end }}{{ end }}</label>
-                            <input type="text" id="name" name="name" required placeholder="{{ if eq .Site.Language.Lang "zh" }}John{{ else }}{{ if eq .Site.Language.Lang "en" }}John{{ else }}John{{ end }}{{ end }}">
-                        </div>
-                        <div class="form-group">
-                            <label for="company">{{ if eq .Site.Language.Lang "zh" }}公司名称{{ else }}{{ if eq .Site.Language.Lang "en" }}Company Name{{ else }}اسم الشركة{{ end }}{{ end }}</label>
-                            <input type="text" id="company" name="company" placeholder="{{ if eq .Site.Language.Lang "zh" }}您的公司{{ else }}{{ if eq .Site.Language.Lang "en" }}Your Company{{ else }}شركتك{{ end }}{{ end }}">
-                        </div>
+            <!-- 右侧：直接联系方式（在线表单已下线，询盘走邮箱/WhatsApp/微信） -->
+            {{- $lang := .Site.Language.Lang -}}
+            {{- $dcBody := "Model or product photo: | Quantity (pcs / cartons): | Destination port (Apapa / Tin Can / Onne): | Target price: | Company name:" -}}
+            {{- $dcHref := printf "mailto:%s?subject=Wholesale inquiry - jh-hardware.com&body=%s" .Site.Params.email $dcBody -}}
+            <div class="contact-form-section contact-direct">
+                <h2>{{ if eq $lang "zh" }}直接联系我们{{ else }}{{ if eq $lang "en" }}Contact Us Directly{{ else }}تواصل معنا مباشرة{{ end }}{{ end }}</h2>
+                <p class="form-description">
+                    {{ if eq $lang "zh" }}我们不再使用在线表单。发邮件、WhatsApp 或微信，消息直接到我这里，工作时间内 24 小时必回，急单 2 小时内回。
+                    {{ else }}{{ if eq $lang "en" }}No online form — email, WhatsApp or WeChat reaches us directly. We reply within 24 hours on working days, and within 2 hours for urgent orders.
+                    {{ else }}لا يوجد نموذج — راسلنا عبر البريد الإلكتروني أو واتساب أو ويتشات وسيصلك ردنا خلال 24 ساعة.{{ end }}{{ end }}
+                </p>
+
+                <div class="direct-contact-actions">
+                    <a href="{{ $dcHref | safeURL }}" class="dc-btn dc-email" data-dc="email">
+                        <span class="dc-icon">📧</span>
+                        <span class="dc-text">
+                            <strong>{{ if eq $lang "zh" }}发邮件{{ else }}{{ if eq $lang "en" }}Email us{{ else }}راسلنا بالبريد{{ end }}{{ end }}</strong>
+                            <small>{{ .Site.Params.email }}</small>
+                        </span>
+                    </a>
+                    <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="dc-btn dc-wa" target="_blank" rel="noopener" data-dc="whatsapp">
+                        <span class="dc-icon">💬</span>
+                        <span class="dc-text">
+                            <strong>WhatsApp</strong>
+                            <small>{{ .Site.Params.phone }}</small>
+                        </span>
+                    </a>
+                    <div class="dc-btn dc-wechat" data-dc="wechat">
+                        <span class="dc-icon">🟢</span>
+                        <span class="dc-text">
+                            <strong>{{ if eq $lang "zh" }}微信号{{ else }}{{ if eq $lang "en" }}WeChat ID{{ else }}معرّف ويتشات{{ end }}{{ end }}</strong>
+                            <small>{{ .Site.Params.wechat }}</small>
+                        </span>
                     </div>
+                </div>
 
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="email">{{ if eq .Site.Language.Lang "zh" }}邮箱 *{{ else }}{{ if eq .Site.Language.Lang "en" }}Email *{{ else }}البريد الإلكتروني *{{ end }}{{ end }}</label>
-                            <input type="email" id="email" name="email" required placeholder="{{ if eq .Site.Language.Lang "zh" }}john@example.com{{ else }}{{ if eq .Site.Language.Lang "en" }}john@example.com{{ else }}john@example.com{{ end }}{{ end }}">
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">{{ if eq .Site.Language.Lang "zh" }}电话 / WhatsApp{{ else }}{{ if eq .Site.Language.Lang "en" }}Phone / WhatsApp{{ else }}الهاتف / واتساب{{ end }}{{ end }}</label>
-                            <input type="tel" id="phone" name="phone" placeholder="+1 234 567 8900">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="country">{{ if eq .Site.Language.Lang "zh" }}国家 / 地区{{ else }}{{ if eq .Site.Language.Lang "en" }}Country / Region{{ else }}البلد / المنطقة{{ end }}{{ end }}</label>
-                        <input type="text" id="country" name="country" placeholder="{{ if eq .Site.Language.Lang "zh" }}例如：尼日利亚，迪拜，美国{{ else }}{{ if eq .Site.Language.Lang "en" }}e.g. Nigeria, Dubai, USA{{ else }}على سبيل المثال: نيجيريا، دبي، الولايات المتحدة{{ end }}{{ end }}">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="product">{{ if eq .Site.Language.Lang "zh" }}感兴趣的产品 *{{ else }}{{ if eq .Site.Language.Lang "en" }}Product of Interest *{{ else }}المنتج المهتم به *{{ end }}{{ end }}</label>
-                        <select id="product" name="product" required>
-                            <option value="">{{ if eq .Site.Language.Lang "zh" }}请选择产品类别{{ else }}{{ if eq .Site.Language.Lang "en" }}Select product category{{ else }}اختر فئة المنتج{{ end }}{{ end }}</option>
-                            <option value="Door Handles">🚪 {{ if eq .Site.Language.Lang "zh" }}门把手{{ else }}{{ if eq .Site.Language.Lang "en" }}Door Handles{{ else }}مقابض الأبواب{{ end }}{{ end }}</option>
-                            <option value="Door Locks">🔒 {{ if eq .Site.Language.Lang "zh" }}门锁{{ else }}{{ if eq .Site.Language.Lang "en" }}Door Locks{{ else }}أقفال الأبواب{{ end }}{{ end }}</option>
-                            <option value="Door Hinges">🔧 {{ if eq .Site.Language.Lang "zh" }}门铰链{{ else }}{{ if eq .Site.Language.Lang "en" }}Door Hinges{{ else }}مفاصل الأبواب{{ end }}{{ end }}</option>
-                            <option value="Sliding Tracks">📦 {{ if eq .Site.Language.Lang "zh" }}导轨{{ else }}{{ if eq .Site.Language.Lang "en" }}Sliding Tracks{{ else }}المسارات المنزلقة{{ end }}{{ end }}</option>
-                            <option value="Sofa Legs">🪑 {{ if eq .Site.Language.Lang "zh" }}沙发脚{{ else }}{{ if eq .Site.Language.Lang "en" }}Sofa Legs{{ else }}أرجل الأريكة{{ end }}{{ end }}</option>
-                            <option value="Cabinet Hardware">🗄️ {{ if eq .Site.Language.Lang "zh" }}橱柜五金{{ else }}{{ if eq .Site.Language.Lang "en" }}Cabinet Hardware{{ else }}أجهزة الخزانة{{ end }}{{ end }}</option>
-                            <option value="Multiple Products">{{ if eq .Site.Language.Lang "zh" }}多种产品{{ else }}{{ if eq .Site.Language.Lang "en" }}Multiple Products{{ else }}منتجات متعددة{{ end }}{{ end }}</option>
-                            <option value="Other">{{ if eq .Site.Language.Lang "zh" }}其他{{ else }}{{ if eq .Site.Language.Lang "en" }}Other{{ else }}أخرى{{ end }}{{ end }}</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="quantity">{{ if eq .Site.Language.Lang "zh" }}预估数量{{ else }}{{ if eq .Site.Language.Lang "en" }}Estimated Quantity{{ else }}الكمية المقدرة{{ end }}{{ end }}</label>
-                        <select id="quantity" name="quantity">
-                            <option value="">-- {{ if eq .Site.Language.Lang "zh" }}请选择{{ else }}{{ if eq .Site.Language.Lang "en" }}Select{{ else }}اختر{{ end }}{{ end }} --</option>
-                            <option value="Sample Order">{{ if eq .Site.Language.Lang "zh" }}样品订单{{ else }}{{ if eq .Site.Language.Lang "en" }}Sample Order{{ else }}طلب عينة{{ end }}{{ end }}</option>
-                            <option value="100-500 pcs">100 - 500 pcs</option>
-                            <option value="500-1000 pcs">500 - 1,000 pcs</option>
-                            <option value="1000-5000 pcs">1,000 - 5,000 pcs</option>
-                            <option value="5000+ pcs">5,000+ pcs</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">{{ if eq .Site.Language.Lang "zh" }}询盘内容 *{{ else }}{{ if eq .Site.Language.Lang "en" }}Message *{{ else }}الرسالة *{{ end }}{{ end }}</label>
-                        <textarea id="message" name="message" rows="5" required placeholder="{{ if eq .Site.Language.Lang "zh" }}请告诉我们您的具体需求：&#10;- 产品型号或图片&#10;- 数量和规格&#10;- 目标价格&#10;- 交货地址&#10;- 其他特殊要求{{ else }}{{ if eq .Site.Language.Lang "en" }}Please tell us your specific requirements:&#10;- Product model or photos&#10;- Quantity and specifications&#10;- Target price&#10;- Delivery address&#10;- Other special requirements{{ else }}أخبرنا عن متطلباتك المحددة:&#10;- نموذج المنتج أو الصور&#10;- الكمية والمواصفات&#10;- السعر المستهدف&#10;- عنوان التسليم&#10;- متطلبات خاصة أخرى{{ end }}{{ end }}"></textarea>
-                    </div>
-
-                    <div class="form-group">
-                        <label style="display: flex; align-items: flex-start; gap: 0.5rem; cursor: pointer;">
-                            <input type="checkbox" name="newsletter" value="yes" style="width: auto; margin-top: 0.25rem;">
-                            <span style="font-size: 0.85rem; color: var(--text-light);">{{ if eq .Site.Language.Lang "zh" }}我希望接收新产品和优惠信息（可选）{{ else }}{{ if eq .Site.Language.Lang "en" }}I'd like to receive new product updates and offers (optional){{ else }}أرغب في تلقي تحديثات المنتجات والعروض{{ end }}{{ end }}</span>
-                        </label>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary btn-large btn-block">
-                        🚀 {{ if eq .Site.Language.Lang "zh" }}发送询盘{{ else }}{{ if eq .Site.Language.Lang "en" }}Send Inquiry{{ else }}إرسال الاستفسار{{ end }}{{ end }}
-                    </button>
-
-                    <p class="form-note">{{ if eq .Site.Language.Lang "zh" }}* 为必填项。我们保护您的隐私，不会泄露您的信息{{ else }}{{ if eq .Site.Language.Lang "en" }}* Required fields. We protect your privacy and won't share your information{{ else }}* الحقول المطلوبة. نحن نحمي خصوصيتك{{ end }}{{ end }}</p>
-                </form>
+                <div class="dc-checklist">
+                    <h3>{{ if eq $lang "zh" }}想更快拿到报价，邮件里带上这 4 项{{ else }}{{ if eq $lang "en" }}Four lines get you a quote the same day{{ else }}أربعة أسطر تحصل بها على عرض السعر في اليوم نفسه{{ end }}{{ end }}</h3>
+                    <ol>
+                        {{ if eq $lang "zh" }}
+                        <li><strong>型号或产品图片</strong>（例如 755-151、HH-001）</li>
+                        <li><strong>数量</strong>：件数、箱数，或整柜</li>
+                        <li><strong>目的港</strong>：拉各斯 Apapa / Tin Can / Onne</li>
+                        <li><strong>目标价</strong>（可选，但能省一轮往来）</li>
+                        {{ else }}{{ if eq $lang "en" }}
+                        <li><strong>Model number or a product photo</strong> — e.g. 755-151, HH-001</li>
+                        <li><strong>Quantity</strong> — pieces, cartons, or a full container</li>
+                        <li><strong>Destination port</strong> — Lagos Apapa, Tin Can, or Onne</li>
+                        <li><strong>Target price</strong> (optional, but it saves a round of emails)</li>
+                        {{ else }}
+                        <li><strong>رقم الموديل أو صورة المنتج</strong></li>
+                        <li><strong>الكمية</strong> — قطع أو كراتين أو حاوية كاملة</li>
+                        <li><strong>ميناء الوصول</strong> — لاغوس أبابا أو تين كان أو أوني</li>
+                        <li><strong>السعر المستهدف</strong> (اختياري)</li>
+                        {{ end }}{{ end }}
+                    </ol>
+                    <p class="dc-note">
+                        {{ if eq $lang "zh" }}点「发邮件」会自动带好模板，直接填就行。
+                        {{ else }}{{ if eq $lang "en" }}Clicking “Email us” opens a draft with these four lines already written.
+                        {{ else }}الضغط على «راسلنا بالبريد» يفتح رسالة جاهزة بهذه الأسطر.{{ end }}{{ end }}
+                    </p>
+                </div>
             </div>
         </div>
+
 
         <!-- 地图部分 -->
         <div class="map-section">
