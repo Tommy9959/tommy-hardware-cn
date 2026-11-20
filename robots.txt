@@ -353,6 +353,14 @@ User-agent: Meta-ExternalFetcher
 Allow: /
 Disallow: /thanks/
 
+# Common Crawl（部分模型的训练语料源）与会话式检索爬虫
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+Disallow: /thanks/
+
 User-agent: Applebot
 Allow: /
 Disallow: /thanks/
