@@ -124,7 +124,7 @@
                     <a href="https://wa.me/8618358008400" class="btn btn-whatsapp" target="_blank">
                         💬 {{ if eq .Site.Language.Lang "zh" }}WhatsApp 立即询价{{ else }}{{ if eq .Site.Language.Lang "en" }}WhatsApp for Quote Now{{ else }}واتساب للحصول على عرض سعر{{ end }}{{ end }}
                     </a>
-                    <a href="mailto:z946487044@icloud.com" class="btn btn-email">
+                    <a href="mailto:{{ .Site.Params.email }}" class="btn btn-email">
                         📧 {{ if eq .Site.Language.Lang "zh" }}发送邮件{{ else }}{{ if eq .Site.Language.Lang "en" }}Send Email{{ else }}إرسال بريد إلكتروني{{ end }}{{ end }}
                     </a>
                 </div>
