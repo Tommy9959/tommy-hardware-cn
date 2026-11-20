@@ -32,6 +32,7 @@ faqs:
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is HHL packed for export?"
     answer: "Export carton, packed for sea freight."
+seotitle: "HHL Padlock Wholesale: $2.40-2.71"
 ---
 
 ## HHL - Heavy Duty Rectangle Iron Padlock
@@ -59,6 +60,12 @@ faqs:
 ### Where it is used
 
 This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door or cabinet it will sit on: Nickel Painting is what the buyer sees first, and it decides repeat orders more than the price line does.
+
+## Who buys the HHL
+
+The HHL series runs 3 sizes from 74mm to 94mm, priced $2.4-2.71 per piece and packed 24-24 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Alaba and Ladipo in Lagos buy it one carton first, then by the series once the size mix is proven.
+
+Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. Where it is the wrong choice: salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
 
 ### Ordering HHL from JH HARDWARE
 

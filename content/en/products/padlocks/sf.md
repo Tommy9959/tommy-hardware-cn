@@ -20,7 +20,6 @@ specifications:
   - 'Material: Premium material'
   - 'Finish: Standard finish'
   - 'Application: Various applications'
-seotitle: "SF CR-Plated Square Iron Padlock Vane Key"
 price_range: "$0.42 - $1.26 USD / piece"
 moq: "400 pcs"
 faqs:
@@ -32,6 +31,7 @@ faqs:
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is SF packed for export?"
     answer: "Export carton, packed for sea freight."
+seotitle: "SF Padlock Wholesale: $0.42-1.26"
 ---
 
 ## SF - CR-Plated Square Iron Padlock (Vane Key)
@@ -66,6 +66,12 @@ The **SF - CR-Plated Square Iron Padlock (Vane Key)** is built from Iron Body, I
 ### Where it is used
 
 This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door or cabinet it will sit on: Chrome Plated is what the buyer sees first, and it decides repeat orders more than the price line does.
+
+## Who buys the SF
+
+The SF series runs 10 sizes from 30mm to 70mm, priced $0.42-1.26 per piece and packed 72-144 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Alaba and Ladipo in Lagos buy it one carton first, then by the series once the size mix is proven.
+
+Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. One caution: salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
 
 ### Ordering SF from JH HARDWARE
 

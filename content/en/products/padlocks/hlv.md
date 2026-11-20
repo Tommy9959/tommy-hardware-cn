@@ -20,7 +20,6 @@ specifications:
   - 'Material: Premium material'
   - 'Finish: Standard finish'
   - 'Application: Various applications'
-seotitle: "HLV Cr-Plated Rectangular Iron Padlock"
 price_range: "$0.94 - $1.81 USD / piece"
 moq: "400 pcs"
 faqs:
@@ -32,6 +31,7 @@ faqs:
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is HLV packed for export?"
     answer: "Export carton, packed for sea freight."
+seotitle: "HLV Padlock Wholesale: $0.94-1.81"
 ---
 
 ## HLV - Cr-Plated Rectangular Iron Padlock (Vane Key)
@@ -62,6 +62,12 @@ faqs:
 ### Where it is used
 
 This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door or cabinet it will sit on: Chrome Plated is what the buyer sees first, and it decides repeat orders more than the price line does.
+
+## Who buys the HLV
+
+The HLV series runs 6 sizes from 50mm to 100mm, priced $0.94-1.81 per piece and packed 48-72 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Onitsha Main Market and Ogidi buy it one carton first, then by the series once the size mix is proven.
+
+Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. Where it is the wrong choice: salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
 
 ### Ordering HLV from JH HARDWARE
 

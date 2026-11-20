@@ -31,6 +31,7 @@ faqs:
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is GTK packed for export?"
     answer: "Export carton, packed for sea freight."
+seotitle: "GTK Padlock Wholesale: $0.94-2.28"
 ---
 
 ## GTK - WaterProof Padlock With Plastic Cover
@@ -63,6 +64,12 @@ The **GTK - WaterProof Padlock With Plastic Cover** is built from Iron Body, Sol
 ### Where it is used
 
 This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door or cabinet it will sit on: Plastic Cover is what the buyer sees first, and it decides repeat orders more than the price line does.
+
+## Who buys the GTK
+
+The GTK series runs 8 sizes from 45mm to 80mm, priced $0.94-2.28 per piece and packed 36-96 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Alaba and Ladipo in Lagos buy it one carton first, then by the series once the size mix is proven.
+
+Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. It is not the answer for every job — salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
 
 ### Ordering GTK from JH HARDWARE
 

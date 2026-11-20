@@ -31,6 +31,7 @@ faqs:
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is YJN packed for export?"
     answer: "Export carton, packed for sea freight."
+seotitle: "YJN Padlock Wholesale: $0.50-1.43"
 ---
 
 ## YJN - Nickle Round Side Iron Padlock
@@ -60,6 +61,12 @@ faqs:
 ### Where it is used
 
 This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door or cabinet it will sit on: Nickel Painting is what the buyer sees first, and it decides repeat orders more than the price line does.
+
+## Who buys the YJN
+
+The YJN series runs 5 sizes from 32mm to 70mm, priced $0.5-1.43 per piece and packed 48-192 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Alaba and Ladipo in Lagos buy it one carton first, then by the series once the size mix is proven.
+
+Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. One caution: salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
 
 ### Ordering YJN from JH HARDWARE
 

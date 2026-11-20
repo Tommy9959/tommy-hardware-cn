@@ -31,6 +31,7 @@ faqs:
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is SFN packed for export?"
     answer: "Export carton, packed for sea freight."
+seotitle: "SFN Padlock Wholesale: $0.50-1.43"
 ---
 
 ## SFN - Golden Square Iron Padlock
@@ -63,6 +64,12 @@ The **SFN - Golden Square Iron Padlock** is built from Iron Body, Half Brass Cyl
 ### Where it is used
 
 This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door or cabinet it will sit on: Golden Painting is what the buyer sees first, and it decides repeat orders more than the price line does.
+
+## Who buys the SFN
+
+The SFN series runs 8 sizes from 32mm to 70mm, priced $0.5-1.43 per piece and packed 48-192 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Alaba and Ladipo in Lagos buy it one carton first, then by the series once the size mix is proven.
+
+Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. Where it is the wrong choice: salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
 
 ### Ordering SFN from JH HARDWARE
 

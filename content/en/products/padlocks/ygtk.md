@@ -31,6 +31,7 @@ faqs:
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is YGTK packed for export?"
     answer: "Export carton, packed for sea freight."
+seotitle: "YGTK Padlock Wholesale: $2.32-2.32"
 ---
 
 ## YGTK - WaterProof Round Steel Padlock
@@ -56,6 +57,12 @@ faqs:
 ### Where it is used
 
 This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door or cabinet it will sit on: Plastic Cover is what the buyer sees first, and it decides repeat orders more than the price line does.
+
+## Who buys the YGTK
+
+The YGTK series runs 1 sizes from 70mm to 70mm, priced $2.32-2.32 per piece and packed 36-36 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Kano and Abuja buy it one carton first, then by the series once the size mix is proven.
+
+Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. One caution: salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
 
 ### Ordering YGTK from JH HARDWARE
 

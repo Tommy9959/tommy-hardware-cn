@@ -31,6 +31,7 @@ faqs:
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is LTN packed for export?"
     answer: "Export carton, packed for sea freight."
+seotitle: "LTN Padlock Wholesale: $0.64-1.81"
 ---
 
 ## LTN - Imitate Brass Hammer Padlock
@@ -61,6 +62,12 @@ The **LTN - Imitate Brass Hammer Padlock** is built from Iron Body, Solid Brass 
 ### Where it is used
 
 This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door or cabinet it will sit on: Imitate Brass Painting is what the buyer sees first, and it decides repeat orders more than the price line does.
+
+## Who buys the LTN
+
+The LTN series runs 6 sizes from 30mm to 80mm, priced $0.64-1.81 per piece and packed 48-144 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Alaba and Ladipo in Lagos buy it one carton first, then by the series once the size mix is proven.
+
+Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. Where it is the wrong choice: salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
 
 ### Ordering LTN from JH HARDWARE
 
