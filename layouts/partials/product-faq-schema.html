@@ -3,7 +3,7 @@
   每个产品页自动生成 5 个 B2B 常见问题
   从产品 frontmatter 中提取信息动态生成
 */ -}}
-{{- if and (eq .Section "products") .IsPage -}}
+{{- if and (eq .Section "products") .IsPage (eq .Site.Language.Lang "en") (not .Params.faqs) -}}
 {{- /* 使用product_name（纯净产品名），不用.Title（含SEO关键词的完整标题）*/ -}}
 {{- $productName := .Params.product_name | default .Title -}}
 {{- $model := $productName -}}

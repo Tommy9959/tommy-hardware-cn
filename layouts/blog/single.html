@@ -1,43 +1,6 @@
 {{ define "main" }}
-<!-- BlogPosting Schema for AI search engines -->
-{{ $datePublished := .Date | time.Format "2006-01-02" }}
-{{ $dateModified := .Lastmod | default .Date | time.Format "2006-01-02" }}
-{{ $keywords := "" }}
-{{ with .Params.tags }}{{ $keywords = delimit . ", " }}{{ end }}
-
-{{ $authorName := cond (eq .Site.Language.Lang "zh") "JH HARDWARE（钧瀚五金）" (cond (eq .Site.Language.Lang "ar") "JH HARDWARE" "JH HARDWARE") }}
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "{{ .Title }}",
-  "description": "{{ .Description }}",
-  {{- with .Params.tldr }}"abstract": "{{ . }}",{{ end }}
-  "datePublished": "{{ $datePublished }}",
-  "dateModified": "{{ $dateModified }}",
-  "author": {
-    "@type": "Organization",
-    "name": "{{ $authorName }}",
-    "url": "{{ .Site.BaseURL }}"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ $authorName }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ site.Params.logo | absURL }}"
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ .Permalink }}"
-  },
-  "image": "{{ .Site.BaseURL }}images/products/door-locks/dl-001.jpg",
-  "keywords": "{{ $keywords }}",
-  "inLanguage": "{{ .Site.Language.Lang }}"
-}
-</script>
+{{/* BlogPosting schema 由 partials/seo.html 统一输出（含 Person 作者、tldr abstract、keywords）。
+     此处不要重复输出第二份 BlogPosting，否则同一 URL 有两个作者冲突的实体。*/}}
 
 <article class="blog-post">
     <div class="container">
@@ -148,20 +111,35 @@
     </div>
 </article>
 
-<!-- FAQPage Schema for blog content with Q&A format -->
 {{ if .Params.faqs }}
+<!-- FAQ 必须既可见又有 schema：只输出 JSON-LD 而页面上没有问答，违反 Google 结构化数据规则，
+     且 AI 引擎无法把这段问答当正文引用。front matter 里 q/a 与 question/answer 两种键都支持。 -->
+<section class="product-faq blog-faq">
+    <div class="container">
+        <h2>{{ if eq .Site.Language.Lang "zh" }}常见问题{{ else }}{{ if eq .Site.Language.Lang "ar" }}الأسئلة الشائعة{{ else }}Frequently Asked Questions{{ end }}{{ end }}</h2>
+        <div class="faq-list">
+            {{- range .Params.faqs }}
+            <div class="faq-item">
+                <h3>{{ .question | default .q }}</h3>
+                <div><p>{{ .answer | default .a }}</p></div>
+            </div>
+            {{- end }}
+        </div>
+    </div>
+</section>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id": "{{ .Permalink }}#faq",
   "mainEntity": [{{ range $i, $faq := .Params.faqs }}
     {{ if $i }},{{ end }}
     {
       "@type": "Question",
-      "name": "{{ $faq.question }}",
+      "name": {{ ($faq.question | default $faq.q) | jsonify | safeJS }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ $faq.answer }}"
+        "text": {{ ($faq.answer | default $faq.a) | jsonify | safeJS }}
       }
     }{{ end }}
   ]

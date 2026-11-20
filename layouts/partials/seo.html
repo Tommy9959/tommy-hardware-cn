@@ -192,11 +192,11 @@
 {{- end -}}
 {{- end }}
 <link rel="alternate" hreflang="x-default" href="{{ site.BaseURL }}">
-{{- else if and (eq .Section "blog") (not .IsTranslated) -}}
-{{- /* 博客没有翻译的版本：只声明自己的语言，不加不存在的替代 */ -}}
-{{- /* 不加任何 alternate，避免指向不存在的页面 */ -}}
 {{- else if not .IsTranslated -}}
-{{- /* 其他没有翻译的页面（产品页等）：只声明自己的语言 */ -}}
+{{- /* 没有翻译的页面（新博客、单语页）：声明自身语言的 hreflang 自引用，
+       Google 要求 hreflang 必须包含当前页自身，否则整组信号被忽略。 */ -}}
+<link rel="alternate" hreflang="{{ site.Language.LanguageCode }}" href="{{ .Permalink }}">
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
 {{- end -}}
 
 <!-- 结构化数据 (Schema.org) -->
@@ -208,6 +208,12 @@
 {{- /* 真实分类名称：从 Dir 路径提取最后一段 */ -}}
 {{- $skuID := .File.ContentBaseName -}}
 {{- $sku := printf "JH-%s" $skuID | upper -}}
+{{- /* mpn 只放真实型号码（如 705-113 / 955A-113）。旧实现用 .Title，批量改标题后
+       mpn 变成了整句含价格的 SEO 标题，对 Google/AI 是脏数据。*/ -}}
+{{- $modelName := printf "%s %s" (.Params.product_name | default "") .Title -}}
+{{- $modelFound := findRE "[0-9]{3,4}[A-Za-z]?-[0-9]{2,4}" $modelName -}}
+{{- $mpn := .File.ContentBaseName | upper -}}
+{{- if $modelFound -}}{{- $mpn = index $modelFound (sub (len $modelFound) 1) -}}{{- end -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -215,7 +221,7 @@
   "@id": "{{ .Permalink }}#product",
   "name": "{{ .Params.product_name | default .Title }}",
   "sku": "{{ $sku }}",
-  "mpn": "{{ .Title }}",
+  "mpn": "{{ $mpn }}",
   "description": "{{ $description }}",
   "image": "{{ cond .Params.image (.Params.image | absURL) ("/images/products/placeholder.svg" | absURL) }}",
   "url": "{{ .Permalink }}",
@@ -287,8 +293,8 @@
     {{- range $i, $q := . }}
     {
       "@type": "Question",
-      "name": {{ $q.question | jsonify | safeJS }},
-      "acceptedAnswer": { "@type": "Answer", "text": {{ $q.answer | jsonify | safeJS }} }
+      "name": {{ ($q.question | default $q.q) | jsonify | safeJS }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ ($q.answer | default $q.a) | jsonify | safeJS }} }
     }{{ if lt (add $i 1) (len $.Params.faqs) }},{{ end }}
     {{- end }}
   ]
@@ -465,6 +471,8 @@
   "datePublished": "{{ $blogDate }}",
   "dateModified": "{{ $modDate }}",
   "inLanguage": "{{ .Site.Language.LanguageCode }}",
+  {{- with .Params.tldr }}"abstract": {{ . | jsonify | safeJS }},{{ end }}
+  {{- with .Params.tags }}"keywords": {{ delimit . ", " | jsonify | safeJS }},{{ end }}
   "author": {{ if $isOrgAuthor }}{
     "@type": "Organization",
     "name": "{{ $company }}",

@@ -4,7 +4,7 @@
   {{- $items := slice -}}
   {{- with .Params.faqs -}}
     {{- range . -}}
-      {{- $items = $items | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) -}}
+      {{- $items = $items | append (dict "@type" "Question" "name" (.question | default .q) "acceptedAnswer" (dict "@type" "Answer" "text" (.answer | default .a))) -}}
     {{- end -}}
   {{- else -}}
     {{- $items = slice

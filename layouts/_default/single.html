@@ -282,9 +282,20 @@
                 </div>
             </div>
         </section>
+        {{ else }}
+        <!-- 有专属 FAQ 时，可见问答与 FAQPage schema 必须一致（schema 内容必须对用户可见） -->
+        <section class="product-faq">
+            <h2>{{ if eq .Site.Language.Lang "zh" }}常见问题{{ else }}{{ if eq .Site.Language.Lang "en" }}Frequently Asked Questions{{ else }}الأسئلة الشائعة{{ end }}{{ end }}</h2>
+            <div class="faq-list">
+                {{- range .Params.faqs }}
+                <div class="faq-item">
+                    <h3>{{ .question }}</h3>
+                    <div><p>{{ .answer }}</p></div>
+                </div>
+                {{- end }}
+            </div>
+        </section>
         {{ end }}
-
-        <!-- 联系 CTA -->
         <div class="contact-cta">
             <h2>{{ if eq .Site.Language.Lang "zh" }}获取免费样品和报价{{ else }}{{ if eq .Site.Language.Lang "en" }}Get Free Samples & Quote{{ else }}احصل على عينات مجانية{{ end }}{{ end }}</h2>
             <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else }}{{ if eq .Site.Language.Lang "en" }}Contact now, reply within 2 hours{{ else }}اتصل الآن{{ end }}{{ end }}</p>
@@ -670,8 +681,9 @@ document.querySelectorAll('.thumbnail').forEach(thumb => {
 </article>
 {{ end }}
 
-<!-- FAQPage Schema for all pages with faqs frontmatter -->
-{{ if .Params.faqs }}
+<!-- FAQPage Schema for pages with faqs frontmatter.
+     产品页的 faqs 已由 partials/seo.html 输出（同一条 #faq），这里排除 products 避免同页两份 FAQPage。 -->
+{{ if and .Params.faqs (ne .Section "products") }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -680,10 +692,10 @@ document.querySelectorAll('.thumbnail').forEach(thumb => {
     {{ if $i }},{{ end }}
     {
       "@type": "Question",
-      "name": "{{ $faq.question }}",
+      "name": {{ ($faq.question | default $faq.q) | jsonify | safeJS }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ $faq.answer }}"
+        "text": {{ ($faq.answer | default $faq.a) | jsonify | safeJS }}
       }
     }{{ end }}
   ]
