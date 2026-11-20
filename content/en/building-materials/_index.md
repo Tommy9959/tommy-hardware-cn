@@ -26,14 +26,14 @@ We export a wide range of building materials and accessories to Nigeria, Dubai, 
 #### 2. **Iron Pipes & Steel Tubes** 🏗️
 - **Types:** Galvanized Iron Pipes, Steel Tubes, Square Pipes, Round Pipes
 - **Applications:** Construction, plumbing, fencing, scaffolding
-- **MOQ:** 50 cartons (1,000 pcs)
+- **MOQ:** 50 cartons (100 pcs)
 - **Price Range:** $2.00-15.00/piece
 - **Sizes:** Various diameters and lengths available
 
 #### 3. **Curtain Rods** 🪟
 - **Types:** Stainless Steel Rods, Aluminum Rods, Decorative Rods, Telescopic Rods
 - **Applications:** Home decoration, hotel, office
-- **MOQ:** 20 cartons (400 pcs)
+- **MOQ:** 20 cartons (50 pcs)
 - **Price Range:** $3.00-12.00/set
 - **Finishes:** Chrome, Brushed Nickel, Bronze, Black
 

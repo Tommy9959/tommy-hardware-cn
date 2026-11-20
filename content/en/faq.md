@@ -4,7 +4,7 @@ description: "SOLA Hardware FAQ — door hardware supplier for Nigeria and Afric
 keywords: "FAQ, door hardware FAQ, MOQ, delivery time, payment terms, samples, SONCAP, Form M, Nigeria import"
 faqs:
   - question: "What is SOLA Hardware's MOQ for door hardware?"
-    answer: "Door handles: 400-500 pcs per model. Door locks: 200-400 pcs per model. Door hinges: 500-1000 pairs. Mixed container orders accepted."
+    answer: "Door handles: 400-500 pcs per model. Door locks: 200-50 pcs per model. Door hinges: 500-1000 pairs. Mixed container orders accepted."
   - question: "What payment methods do you accept?"
     answer: "T/T bank transfer (30% deposit + 70% before shipment) is standard. L/C for $50K+ orders. Western Union for under $5K. PayPal for samples (buyer pays fees)."
   - question: "How long does shipping from China to Nigeria take?"
@@ -18,7 +18,7 @@ faqs:
   - question: "What is the door lock price range?"
     answer: "Iron plate $2.50-$5, mortise locks $3-$6, lever handles $1.50-$5, padlocks $0.50-$3, smart locks $20-$80. FOB China."
   - question: "Do you offer OEM/ODM customization?"
-    answer: "Yes. Custom logo, finishes, packaging, and product development. Custom MOQ: 500-1000 pcs."
+    answer: "Yes. Custom logo, finishes, packaging, and product development. Custom MOQ: 500-100 pcs."
 ---
 
 ## Frequently Asked Questions (FAQ)
@@ -64,8 +64,8 @@ faqs:
 ### Q: What's your MOQ (Minimum Order Quantity)?
 **A:** Our standard MOQ:
 - **Door Handles:** 400-500 pcs per model
-- **Door Locks:** 200-400 pcs per model
-- **Door Hinges:** 500-1000 pcs per pair
+- **Door Locks:** 200-50 pcs per model
+- **Door Hinges:** 500-100 pcs per pair
 - **Sliding Tracks:** 500-1000 meters
 - **Mixed orders:** Accepted (contact us for details)
 
@@ -86,7 +86,7 @@ faqs:
 
 ### Q: Do you offer discounts for large orders?
 **A:** Yes, we offer volume discounts:
-- **500-1000 pcs:** 3-5% discount
+- **500-100 pcs:** 3-5% discount
 - **1000-5000 pcs:** 5-8% discount
 - **5000+ pcs:** 8-12% discount
 - **Container orders:** Best price (contact us)
@@ -185,8 +185,8 @@ faqs:
 
 ### Q: What's the MOQ for custom orders?
 **A:** Custom order MOQ:
-- **Logo customization:** 500-1000 pcs
-- **Custom finish:** 500-1000 pcs
+- **Logo customization:** 500-100 pcs
+- **Custom finish:** 500-100 pcs
 - **Custom packaging:** 1000+ pcs
 - **New product development:** 2000+ pcs (negotiable)
 

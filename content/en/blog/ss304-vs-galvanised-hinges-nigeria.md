@@ -62,7 +62,7 @@ The purchase price is the visible cost. The invisible ones:
 
 ## What we quote
 
-Our hinge range runs $0.35-2.50 per piece FOB Yiwu, MOQ 1,000 pieces per model, 15-25 days production. For coastal Nigeria we quote SS304 by default and galvanised only when the buyer asks for it — not because SS304 is more profitable for us, but because the returns and complaints on galvanised are worse than the margin difference.
+Our hinge range runs $0.35-2.50 per piece FOB Yiwu, MOQ 100 pieces per model, 15-25 days production. For coastal Nigeria we quote SS304 by default and galvanised only when the buyer asks for it — not because SS304 is more profitable for us, but because the returns and complaints on galvanised are worse than the margin difference.
 
 ## Questions buyers ask
 

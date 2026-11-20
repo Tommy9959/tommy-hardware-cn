@@ -113,7 +113,7 @@ I've seen too many buyers order hinges based on price alone, only to discover pr
 
 ### 3. What African Buyers Actually Pay (2026 Price Guide)
 
-*Prices are FOB China (Shanghai/Ningbo), based on actual SOLA Hardware shipments. MOQ: 500–1000 pieces per type.*
+*Prices are FOB China (Shanghai/Ningbo), based on actual SOLA Hardware shipments. MOQ: 500–100 pieces per type.*
 
 | Product | Grade | Price Range (FOB) | Typical Margin |
 |---------|-------|-------------------|:--------------:|

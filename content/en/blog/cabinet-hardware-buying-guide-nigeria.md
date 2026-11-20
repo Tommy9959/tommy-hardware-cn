@@ -7,7 +7,7 @@ date: "2026-06-03"
 tags: ["cabinet hardware", "hinges", "Nigeria", "buying guide", "wholesale", "kitchen cabinets", "furniture hardware"]
 categories: ["Product Guide"]
 seotitle: "Cabinet Hardware Buying Guide for Nigeria"
-tldr: "Cabinet hardware for Nigeria means 35mm cup hinges, ball-bearing slides rated by weight, and knobs or pulls that survive humid air. MOQ runs 400-1,000 pieces per model, production 15-25 days, and cabinet hardware ships mixed with door hardware in one container."
+tldr: "Cabinet hardware for Nigeria means 35mm cup hinges, ball-bearing slides rated by weight, and knobs or pulls that survive humid air. MOQ runs 400-100 pieces per model, production 15-25 days, and cabinet hardware ships mixed with door hardware in one container."
 ---
 
 > **Tommy's Note:** I've been exporting cabinet hardware to Nigeria for over a decade. This guide is everything I wish my customers knew on day one.
@@ -149,7 +149,7 @@ Full disclosure: SOLA is our house brand, and we've been developing it specifica
 **For Wardrobes and Storage**
 - **Model:** SOLA SM-90 Surface Mount Hinge
 - **Finish:** Chrome (bulk orders get price breaks)
-- **MOQ:** 1,000 pieces
+- **MOQ:** 100 pieces
 - **Why:** Reinforced steel, corrosion-resistant, easy installation.
 
 **For Premium Projects**

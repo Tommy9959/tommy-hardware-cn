@@ -72,7 +72,7 @@ This is the biggest trend I've seen in 10 years. Five years ago, almost nobody i
 - Opening angle: 90°-110° (95° is most popular)
 
 **Price range:** $0.48-$0.90 per piece FOB (cold-rolled steel hinges)
-**MOQ:** 500-1,000 pieces per type
+**MOQ:** 500-100 pieces per type
 
 ### 2. Standard Clip-On Hinges — Still Popular for Budget Projects
 

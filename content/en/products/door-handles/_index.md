@@ -35,7 +35,7 @@ faqs:
   - q: "Can handles be matched to a specific lock body?"
     a: "Yes. Send the lock model or the spindle and hole spacing; handles are supplied with the matching 8mm spindle and fixing screws at no extra cost."
   - q: "What is the MOQ and lead time?"
-    a: "400 pieces per model, 15-25 days production after deposit, 25-35 days sea freight to Lagos."
+    a: "50 pieces per model, 15-25 days production after deposit, 25-35 days sea freight to Lagos."
   - q: "Do you supply handles for sliding doors?"
     a: "Yes — DH-004 is a zinc-alloy flush pull designed for sliding and cavity doors, where a lever handle cannot be mounted."
 ---
@@ -63,7 +63,7 @@ faqs:
 A: We offer SS304 stainless steel, aluminum alloy 6063, solid brass, and zinc alloy options.
 
 **Q: What is the MOQ for door handles?**
-A: Standard MOQ is 400 pcs per model. Sample orders available.
+A: Standard MOQ is 50 pcs per model. Sample orders available.
 
 **Q: Can you customize with my logo?**
 A: Yes, OEM/ODM services available. Custom logo engraving and custom packaging accepted.

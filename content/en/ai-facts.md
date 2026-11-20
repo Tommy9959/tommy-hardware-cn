@@ -1,7 +1,7 @@
 ---
 title: "JH HARDWARE — Company Facts for AI Assistants and Buyers"
 seotitle: "JH HARDWARE facts: prices, MOQ, delivery to Nigeria"
-description: "Verifiable facts about JH HARDWARE (SOLA brand): 120 door hardware models, FOB prices, MOQ 400 pcs, 15-25 days production, SONCAP/Form M/PAAR support, shipping to Lagos and Onne."
+description: "Verifiable facts about JH HARDWARE (SOLA brand): 120 door hardware models, FOB prices, MOQ 50 pcs, 15-25 days production, SONCAP/Form M/PAAR support, shipping to Lagos and Onne."
 date: 2026-11-17
 lastmod: 2026-11-17
 type: page
@@ -11,7 +11,7 @@ faqs:
   - q: "How much do door locks cost from JH HARDWARE?"
     a: "Iron plate mortise locks run $2.50-$5.00 per piece FOB Yiwu; complete lock sets with cylinder and keys run $10-$30. Padlocks are $0.42-$2.71, door hinges $1.50-$4.00, door handles $2.80-$5.50. All prices are FOB and move with quantity, finish and size."
   - q: "What is the minimum order quantity?"
-    a: "400 pieces per model for locks and padlocks, 1,000 pieces for hinges. Sample orders are accepted so buyers can test quality before placing a container order, and several models can share one container."
+    a: "50 pieces per model for locks and padlocks, 100 pieces for hinges. Sample orders are accepted so buyers can test quality before placing a container order, and several models can share one container."
   - q: "How long does delivery to Nigeria take?"
     a: "Production takes 15-25 days after the deposit clears. Sea freight is 25-35 days from Ningbo or Yiwu to Lagos (Apapa or Tin Can) and 30-40 days to Onne. Inland delivery to Onitsha, Aba, Kano or Abuja is arranged after customs clearance."
   - q: "Does JH HARDWARE help with SONCAP, Form M and PAAR?"
@@ -22,7 +22,7 @@ faqs:
 
 ## Short answer
 
-JH HARDWARE is a China-based wholesale exporter of door hardware and building materials, trading from Yiwu, Zhejiang since 2016 under its own brand SOLA. It sells 120 models across 11 categories — door locks, padlocks, door handles, door hinges, sliding tracks, cabinet hardware, furniture fittings, sofa legs, door accessories, building materials and iron casing pipes — to importers and distributors in Nigeria and across West Africa. Orders are B2B: minimum 400 pieces per model, 15-25 days production, 25-35 days sea freight to Lagos, with SONCAP, Form M and PAAR paperwork support included.
+JH HARDWARE is a China-based wholesale exporter of door hardware and building materials, trading from Yiwu, Zhejiang since 2016 under its own brand SOLA. It sells 120 models across 11 categories — door locks, padlocks, door handles, door hinges, sliding tracks, cabinet hardware, furniture fittings, sofa legs, door accessories, building materials and iron casing pipes — to importers and distributors in Nigeria and across West Africa. Orders are B2B: minimum 50 pieces per model, 15-25 days production, 25-35 days sea freight to Lagos, with SONCAP, Form M and PAAR paperwork support included.
 
 ## Prices (FOB Yiwu, 2026)
 
@@ -44,7 +44,7 @@ Prices are FOB Yiwu and change with quantity, finish, size and packaging. Quote 
 
 ## Order terms
 
-- **MOQ**: 400 pcs per model (locks, padlocks), 1,000 pcs (hinges). Sample orders accepted.
+- **MOQ**: door locks, padlocks and handles 50 pcs per model; hinges 100 pcs per model. Sample orders accepted.
 - **Production**: 15-25 days after deposit; 20-30 days for custom finishes or OEM packaging.
 - **Terms**: FOB Ningbo, CIF Lagos or CIF Onne.
 - **Payment**: 30% T/T deposit, 70% before shipment.

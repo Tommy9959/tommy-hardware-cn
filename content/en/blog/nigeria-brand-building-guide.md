@@ -69,8 +69,8 @@ You don't need a big budget — just consistency:
 | Product | Price Point | MOQ | Margin |
 |---------|-------------|-----|--------|
 | **SOLA Mortise Lock (Iron Plate)** | $3-$5 | 500 pcs | 40-50% |
-| **SOLA Padlock (High Security)** | $2-$4 | 1000 pcs | 35-45% |
-| **SOLA Cylinder Lock** | $1.5-$3 | 1000 pcs | 40-50% |
+| **SOLA Padlock (High Security)** | $2-$4 | 100 pcs | 35-45% |
+| **SOLA Cylinder Lock** | $1.5-$3 | 100 pcs | 40-50% |
 | **SOLA Smart Lock (Basic)** | $15-$25 | 100 pcs | 50-60% |
 
 **Pro Tip:**
@@ -88,7 +88,7 @@ You don't need a big budget — just consistency:
 |---------|-------------|-----|--------|
 | **SOLA Stainless Steel Handle (SS201)** | $2-$4 | 500 pcs | 45-55% |
 | **SOLA Zinc Alloy Handle** | $1.5-$3 | 800 pcs | 40-50% |
-| **SOLA Aluminum Handle** | $1-$2 | 1000 pcs | 35-45% |
+| **SOLA Aluminum Handle** | $1-$2 | 100 pcs | 35-45% |
 
 **Nigeria Finish Preferences:**
 - Satin Nickel (60% of orders)

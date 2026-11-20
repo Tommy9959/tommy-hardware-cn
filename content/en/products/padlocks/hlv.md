@@ -21,12 +21,12 @@ specifications:
   - 'Finish: Standard finish'
   - 'Application: Various applications'
 price_range: "$0.94 - $1.81 USD / piece"
-moq: "400 pcs"
+moq: "50 pcs"
 faqs:
   - question: "How much does HLV cost?"
     answer: "$0.94 - $1.81 USD / piece FOB Yiwu, depending on quantity and finish. Freight to Lagos is quoted separately."
   - question: "What is the MOQ for HLV?"
-    answer: "400 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items."
+    answer: "50 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items."
   - question: "Do you supply samples of HLV?"
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is HLV packed for export?"
@@ -36,7 +36,7 @@ seotitle: "HLV Padlock Wholesale: $0.94-1.81"
 
 ## HLV - Cr-Plated Rectangular Iron Padlock (Vane Key)
 
-**HLV - Cr-Plated Rectangular Iron Padlock (Vane Key)** is an Iron Body, Iron Discs Cylinder, A3 Steel Shackle item in Chrome Plated finish, supplied FOB Yiwu at $0.94 - $1.81 USD / piece with an MOQ of 400 pcs. It is specified for gates, shop shutters, containers and lockers.
+**HLV - Cr-Plated Rectangular Iron Padlock (Vane Key)** is an Iron Body, Iron Discs Cylinder, A3 Steel Shackle item in Chrome Plated finish, supplied FOB Yiwu at $0.94 - $1.81 USD / piece with an MOQ of 50 pcs. It is specified for gates, shop shutters, containers and lockers.
 
 
 ### Models, sizes and prices
@@ -47,7 +47,7 @@ seotitle: "HLV Padlock Wholesale: $0.94-1.81"
 | Material | Iron Body, Iron Discs Cylinder, A3 Steel Shackle |
 | Finish | Chrome Plated |
 | FOB price | $0.94 - $1.81 USD / piece |
-| MOQ | 400 pcs |
+| MOQ | 50 pcs |
 | Lead time | 15-25 days |
 
 | Model | Size(mm) | Lock Body(mm) | Shackle(mm) | Weight(g) | Qty/Ctn | Price(USD) |
@@ -72,7 +72,7 @@ Carton quantity changes with size, so confirm the size mix first and the carton 
 ### Ordering HLV from JH HARDWARE
 
 - **Price:** $0.94 - $1.81 USD / piece FOB Yiwu
-- **MOQ:** 400 pcs
+- **MOQ:** 50 pcs
 - **Production:** 15-25 days after deposit
 - **Shipping:** 25-35 days to Lagos (Apapa / Tin Can), 30-40 days to Onne
 - **Payment:** 30% T/T deposit, 70% before shipment
@@ -84,7 +84,7 @@ Carton quantity changes with size, so confirm the size mix first and the carton 
 $0.94 - $1.81 USD / piece FOB Yiwu, depending on quantity and finish. Freight to Lagos is quoted separately.
 
 **What is the MOQ for HLV?**
-400 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items.
+50 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items.
 
 **What finish is available for HLV?**
 Chrome Plated. Other finishes can be produced on request; finishes are quoted per order because they change the unit price.

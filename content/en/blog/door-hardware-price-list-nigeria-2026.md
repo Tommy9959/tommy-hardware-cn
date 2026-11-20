@@ -31,15 +31,15 @@ These ranges come straight from our current catalogue — 120 SKUs across 11 cat
 | Category | FOB price range | Unit | Typical MOQ |
 |---|---|---|---|
 | Door locks — mortise, cylinder, rim, iron plate | $2.50 – $30.00 | per piece | 100 sets |
-| Door hinges — SS304, galvanized, concealed | $1.50 – $4.00 | per piece | 1,000 pcs |
-| Door handles — zinc alloy, stainless, aluminium | $2.80 – $5.50 | per piece | 400 pcs |
+| Door hinges — SS304, galvanized, concealed | $1.50 – $4.00 | per piece | 100 pcs |
+| Door handles — zinc alloy, stainless, aluminium | $2.80 – $5.50 | per piece | 50 pcs |
 | Sliding tracks & drawer slides | $5.00 – $12.00 | per metre | 500 m |
-| Cabinet hardware — handles, knobs, hinges, slides | $0.80 – $3.50 | per piece | 1,000 pcs |
+| Cabinet hardware — handles, knobs, hinges, slides | $0.80 – $3.50 | per piece | 100 pcs |
 | Furniture fittings — cam connectors, dowels, shelf supports | $0.20 – $5.00 | per piece | 500 pcs |
 | Sofa legs — wood, metal, plastic | $2.00 – $6.00 | per piece | 500 pcs |
 | Door accessories — stoppers, closers, viewers, chains | $0.30 – $12.00 | per piece | 500 pcs |
 | Building materials — tile adhesive, glue, curtain rods | $1.50 – $8.00 | per bag / pc | 500 pcs |
-| Iron casing pipes — 16mm & 25mm with couplings | $0.30 – $3.00 | per metre | 1,000 pcs |
+| Iron casing pipes — 16mm & 25mm with couplings | $0.30 – $3.00 | per metre | 100 pcs |
 | Padlocks — laminated, waterproof, solid brass | quoted per model | per piece | 500 pcs |
 
 Padlocks are quoted per model because brass content moves the price week to week — ask for the current list.

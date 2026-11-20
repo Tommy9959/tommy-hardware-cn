@@ -117,9 +117,9 @@ Based on your market:
 | Product | MOQ | 20ft Container Fit |
 |---------|-----|-------------------|
 | Door Closers | 500 pcs | ~8,000 pcs |
-| Door Viewers | 1,000 pcs | ~50,000 pcs |
-| Door Stoppers | 1,000 pcs | ~30,000 pcs |
-| Security Chains | 1,000 pcs | ~20,000 pcs |
+| Door Viewers | 100 pcs | ~50,000 pcs |
+| Door Stoppers | 100 pcs | ~30,000 pcs |
+| Security Chains | 100 pcs | ~20,000 pcs |
 | Door Bolts | 500 pcs | ~15,000 pcs |
 | Finger Guards | 500 pcs | ~10,000 pcs |
 | Angle Brackets | 2,000 pcs | ~100,000 pcs |

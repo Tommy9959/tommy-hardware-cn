@@ -1,6 +1,6 @@
 ---
 title: "Cabinet Hardware Wholesale — Knobs, Pull Handles & T-Bar Handles Supplier China"
-description: "Cabinet hardware wholesale to Nigeria — cabinet knobs, pull handles and T-bar handles from $0.80/pc FOB Yiwu. Zinc alloy, aluminium, brass and stainless. MOQ 1000 pcs."
+description: "Cabinet hardware wholesale to Nigeria — cabinet knobs, pull handles and T-bar handles from $0.80/pc FOB Yiwu. Zinc alloy, aluminium, brass and stainless. MOQ 100 pcs."
 products:
   - model: "CH-001"
     name: "Cabinet Knob Round"
@@ -33,7 +33,7 @@ faqs:
   - q: "What hole spacing is available for cabinet pulls?"
     a: "Standard hole centres are 32 mm, 64 mm, 96 mm, 128 mm and 160 mm. Kitchen and wardrobe doors sold in Nigeria mostly use 96 mm and 128 mm, so those two sizes should make up the bulk of a first order."
   - q: "What is the MOQ for cabinet hardware?"
-    a: "1,000 pcs per model for standard knobs and pulls. Mixed-model orders are accepted, so a container can combine several finishes and sizes."
+    a: "100 pcs per model for standard knobs and pulls. Mixed-model orders are accepted, so a container can combine several finishes and sizes."
   - q: "Which cabinet hardware finish sells best in Nigeria?"
     a: "Chrome and brushed nickel remain the volume sellers in the open markets. Matte black and satin gold are growing quickly in Lagos and Abuja new-build kitchens where buyers follow European catalogue styles."
   - q: "Do cabinet knobs and pulls include screws?"
@@ -52,12 +52,12 @@ This page covers the six models we hold in continuous production, their FOB pric
 
 | Model | Product | Material | Finish | FOB Price | MOQ |
 |---|---|---|---|---|---|
-| CH-001 | Cabinet Knob Round | Zinc Alloy | Chrome / Brushed Nickel | $0.80 - $3.50 / pc | 1000 pcs |
-| CH-002 | Cabinet Pull Handle | Aluminum Alloy | Matte Black / Silver | $0.80 - $3.50 / pc | 1000 pcs |
-| CH-003 | Kitchen Cabinet Knob | Stainless Steel | Satin / Polished | $0.80 - $3.50 / pc | 1000 pcs |
-| CH-004 | Bathroom Cabinet Pull | Brass | Antique Brass / Chrome | $0.80 - $3.50 / pc | 1000 pcs |
-| CH-005 | Modern T-Bar Handle | Zinc Alloy | Multiple Colors | $0.80 - $3.50 / pc | 1000 pcs |
-| CH-006 | Concealed Cabinet Knob | Plastic + Metal | White / Black | $0.80 - $3.50 / pc | 1000 pcs |
+| CH-001 | Cabinet Knob Round | Zinc Alloy | Chrome / Brushed Nickel | $0.80 - $3.50 / pc | 100 pcs |
+| CH-002 | Cabinet Pull Handle | Aluminum Alloy | Matte Black / Silver | $0.80 - $3.50 / pc | 100 pcs |
+| CH-003 | Kitchen Cabinet Knob | Stainless Steel | Satin / Polished | $0.80 - $3.50 / pc | 100 pcs |
+| CH-004 | Bathroom Cabinet Pull | Brass | Antique Brass / Chrome | $0.80 - $3.50 / pc | 100 pcs |
+| CH-005 | Modern T-Bar Handle | Zinc Alloy | Multiple Colors | $0.80 - $3.50 / pc | 100 pcs |
+| CH-006 | Concealed Cabinet Knob | Plastic + Metal | White / Black | $0.80 - $3.50 / pc | 100 pcs |
 
 *One shared range covers all six models because price is driven by material and finish rather than by shape: a plastic-metal concealed knob sits near $0.80, a solid brass bathroom pull near $3.50. Send us the exact model, finish and quantity and we confirm the precise figure — no guessing.*
 
@@ -84,7 +84,7 @@ Plating thickness is what separates a two-year handle from a six-month handle. W
 
 ### Packing, MOQ and mixed orders
 
-- MOQ: 1,000 pcs per model, 500 pcs acceptable on a trial basis.
+- MOQ: 100 pcs per model, 500 pcs acceptable on a trial basis.
 - Packing: polybag + inner box + export carton; screws included in every inner box.
 - Mixed container: cabinet knobs and pulls combine well with cam locks, concealed hinges and drawer slides from our cabinet and furniture lines.
 - Lead time: 15-25 days after deposit; 12-18 days for repeats.
@@ -106,7 +106,7 @@ A: $0.80 - $3.50 per piece FOB Yiwu depending on material and finish. Plastic-me
 A: 32, 64, 96, 128 and 160 mm centres. 96 mm and 128 mm sell best in Nigeria.
 
 **Q: What is the MOQ?**
-A: 1,000 pcs per model, 500 pcs for a trial order. Mixed-model containers are welcome.
+A: 100 pcs per model, 500 pcs for a trial order. Mixed-model containers are welcome.
 
 **Q: Which finish sells best in Nigeria?**
 A: Chrome and brushed nickel by volume; matte black and satin gold growing fast in Lagos and Abuja projects.

@@ -62,7 +62,7 @@ Here's a direct comparison with two mid-tier brands I've personally handled:
 | Anti-corrosion standard | Zinc phosphate + powder coat | Powder coat only | Standard zinc plating |
 | Available in 54mm bore? | Yes (standard) | Some models | Yes |
 | Batch traceability | Full | Partial | None |
-| OEM/ODM minimum | 200 pcs per model | 1000 pcs per model | 500 pcs per model |
+| OEM/ODM minimum | 200 pcs per model | 100 pcs per model | 500 pcs per model |
 
 ### 3. SOLA vs. Turkish Brands (The Premium Challenge)
 

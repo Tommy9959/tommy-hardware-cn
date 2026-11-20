@@ -1,6 +1,6 @@
 ---
 title: "Padlock Price in Nigeria 2026 from $0.42 | Waterproof & Brass"
-description: "Padlock price in Nigeria from $0.42/pc FOB Yiwu: waterproof, chrome, brass-cylinder and heavy duty iron padlocks, 30-100mm. MOQ 400 pcs, free samples, SONCAP ready."
+description: "Padlock price in Nigeria from $0.42/pc FOB Yiwu: waterproof, chrome, brass-cylinder and heavy duty iron padlocks, 30-100mm. MOQ 50 pcs, free samples, SONCAP ready."
 keywords: "padlock price in Nigeria, padlocks wholesale, waterproof padlock, brass padlock, heavy duty padlock, laminated padlock, padlock factory China, padlock supplier SOLA, keyed alike padlock, bulk padlock"
 canonical: "https://jh-hardware.com/products/padlocks/"
 seotitle: "Padlock Price in Nigeria: From $0.42"
@@ -12,7 +12,7 @@ faqs:
   - question: "What sizes sell best in Nigeria?"
     answer: "50mm and 60mm are the volume sizes for shops, doors and gates. 70mm and above sell to warehouses, containers and industrial buyers, where the 10mm-plus shackle matters."
   - question: "What is the MOQ for padlocks?"
-    answer: "MOQ is 400 pcs per model. Mixed containers are accepted, so several series can share one 20ft or 40HQ with hinges, locks and handles."
+    answer: "MOQ is 50 pcs per model. Mixed containers are accepted, so several series can share one 20ft or 40HQ with hinges, locks and handles."
   - question: "Do you supply keyed-alike padlocks?"
     answer: "Yes. The YGTK waterproof round steel padlock can be supplied keyed alike so one key opens a whole building — used for schools, hotels and multi-unit properties."
   - question: "What certifications and documents come with the order?"
@@ -62,7 +62,7 @@ A padlock is the one item a customer tests in the shop: he shakes it, checks the
 
 ### MOQ, packing and lead time
 
-- **MOQ:** 400 pcs per model
+- **MOQ:** 50 pcs per model
 - **Packing:** double blister, 3 keys per lock, export carton (carton counts vary by size, e.g. 72 pcs for 50-70mm locks, 48 pcs for 80mm and above)
 - **Production:** 15-25 days after deposit
 - **Shipping:** 25-35 days Ningbo/Yiwu to Lagos (Apapa / Tin Can), about 30-40 days to Onne
@@ -86,7 +86,7 @@ GTK (plastic-cover waterproof) or YGTK (waterproof round steel).
 50mm and 60mm for shops, doors and gates; 70mm and above for warehouses and containers.
 
 **What is the MOQ?**
-400 pcs per model, mixed containers welcome.
+50 pcs per model, mixed containers welcome.
 
 **Do you supply keyed alike?**
 Yes — YGTK, keyed alike for schools, hotels and multi-unit buildings.

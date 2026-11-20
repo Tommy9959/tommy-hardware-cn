@@ -20,7 +20,7 @@ faqs:
     answer: "Yes, 100% free SONCAP documentation and Form M guidance for all Nigerian clients at no extra charge. Saves $500+ in paperwork costs."
 seotitle: "Door Hardware Nigeria 2026: Wholesale Guide"
 lastmod: 2026-11-03
-tldr: "Door hardware import to Nigeria at a glance: locks $2.50–$5.00, handles $1.50–$3.50, hinges $0.50–$1.80 and padlocks $0.42–$2.71 per piece FOB Yiwu, MOQ 400–1,000 pcs, 15–25 days production, SONCAP/Form M/PAAR support, 25–35 days sea freight to Lagos or Onne."
+tldr: "Door hardware import to Nigeria at a glance: locks $2.50–$5.00, handles $1.50–$3.50, hinges $0.50–$1.80 and padlocks $0.42–$2.71 per piece FOB Yiwu, MOQ 50–100 pcs, 15–25 days production, SONCAP/Form M/PAAR support, 25–35 days sea freight to Lagos or Onne."
 ---
 
 ## Door Hardware Nigeria Complete Guide 2026: Wholesale Prices, Quality & Shipping from China
@@ -137,7 +137,7 @@ Door handles are the most visible part of any door hardware installation. Aesthe
 #### Pull Handles (Commercial)
 - **Price range (FOB China):** $0.50 – $2.00 per piece
 - **Best sellers:** Aluminum pulls, 600mm–1200mm length for glass doors
-- **Volume:** 200–1,000 pieces per order
+- **Volume:** 200–100 pieces per order
 
 > 📖 **Related:** [Door Handle Materials Guide](/blog/door-handle-materials-guide/) — SS201 vs SS304 vs zinc alloy explained.
 

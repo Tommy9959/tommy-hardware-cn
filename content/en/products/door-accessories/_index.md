@@ -35,7 +35,7 @@ faqs:
   - q: "What is the price of door accessories from China?"
     a: "Angle brackets start at $0.30/pc, rubber door stoppers at $0.50/pc, security chains at $0.80/pc, door viewers at $1.00/pc, slide bolts at $1.50/pc and automatic door closers at $5.00/pc FOB Yiwu."
   - q: "What is the MOQ for door accessories?"
-    a: "500 pcs per model for most items, 1,000 pcs for angle brackets. Mixed-model orders are accepted, which is how most wholesalers build a first container."
+    a: "500 pcs per model for most items, 100 pcs for angle brackets. Mixed-model orders are accepted, which is how most wholesalers build a first container."
   - q: "Which door closer suits a Nigerian residential door?"
     a: "For standard wooden or metal doors up to 60 kg, a size 2-3 overhead closer with adjustable closing speed is the right choice. Heavier security doors need a size 4 closer or a floor spring instead."
   - q: "Do the door viewers fit metal security doors?"
@@ -60,7 +60,7 @@ Locks and hinges sell the door, but the accessories decide whether the customer 
 | DA-004 | Door Security Chain | Steel + Zinc Alloy | Chrome / White | $0.80 - $2.00 / pc | 500 pcs |
 | DA-005 | Door Bolt Slide | Stainless Steel | Satin / Chrome | $1.50 - $4.00 / pc | 500 pcs |
 | DA-006 | Door Finger Guard | Aluminum + Rubber | Silver / Gray | $1.00 - $3.50 / pc | 500 pcs |
-| DA-007 | Angle Bracket 30×30 | Steel / Stainless Steel | Galvanized / Painted | $0.30 - $0.80 / pc | 1000 pcs |
+| DA-007 | Angle Bracket 30×30 | Steel / Stainless Steel | Galvanized / Painted | $0.30 - $0.80 / pc | 100 pcs |
 
 *Prices are FOB Yiwu for standard finishes. Closers are the widest range because body size and spring rating drive cost — a size 2 residential closer is near $5.00, a size 4 heavy door closer near $12.00.*
 
@@ -81,7 +81,7 @@ Locks and hinges sell the door, but the accessories decide whether the customer 
 
 ### Packing, MOQ and mixed containers
 
-- MOQ: 500 pcs per model, 1,000 pcs for angle brackets.
+- MOQ: 500 pcs per model, 100 pcs for angle brackets.
 - Packing: polybag + inner box + export carton; screws and templates included for closers.
 - Mixed container: accessories are the ideal filler alongside locks, hinges and handles.
 - Lead time: 15-25 days after deposit; 12-18 days on repeats.
@@ -99,7 +99,7 @@ Locks and hinges sell the door, but the accessories decide whether the customer 
 A: $0.30/pc for brackets up to $5.00-12.00/pc for automatic closers, FOB Yiwu.
 
 **Q: What is the MOQ?**
-A: 500 pcs per model; 1,000 pcs for angle brackets. Mixed models accepted.
+A: 500 pcs per model; 100 pcs for angle brackets. Mixed models accepted.
 
 **Q: Which closer suits a Nigerian residential door?**
 A: Size 2-3 overhead closer for doors up to 60 kg; size 4 for heavy security doors.

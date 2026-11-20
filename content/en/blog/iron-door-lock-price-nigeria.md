@@ -16,12 +16,12 @@ faqs:
   - question: "What type of door lock is best for Nigeria?"
     answer: "Mortise locks in satin nickel finish are the #1 seller. Single cylinder models preferred. Iron plate locks are popular for budget projects. Smart locks growing in Abuja and Lagos."
   - question: "What is the MOQ for door locks from China?"
-    answer: "1000 pieces per model for door locks. Mixed models in one container accepted. Smaller orders possible for sample/testing. Contact SOLA Hardware for flexibility."
+    answer: "100 pieces per model for door locks. Mixed models in one container accepted. Smaller orders possible for sample/testing. Contact SOLA Hardware for flexibility."
   - question: "Are SOLA Hardware door locks good quality?"
     answer: "Yes. Sourced from ISO 9001 partner factories, with SGS / CE reports on request. Iron plate with aluminum handle construction. Exporting to Africa since 2016, serving wholesalers in Nigeria, Ghana and Kenya."
 
 seotitle: "Iron Door Lock Price Nigeria 2026: $2.50-$6"
-tldr: "Iron door locks cost $2.50–$5.00 per piece FOB Yiwu in 2026 (lock sets $10–$30). MOQ is 400 pcs or 100 sets, production takes 15–25 days, and sea freight to Lagos adds 25–35 days. Coastal buyers should specify SS304 or chrome-plated bodies, not bare iron."
+tldr: "Iron door locks cost $2.50–$5.00 per piece FOB Yiwu in 2026 (lock sets $10–$30). MOQ is 50 pcs or 100 sets, production takes 15–25 days, and sea freight to Lagos adds 25–35 days. Coastal buyers should specify SS304 or chrome-plated bodies, not bare iron."
 ---
 
 ## Iron Door Lock Price in Nigeria 2026 — Factory Prices, Real Stories, Buying Tips

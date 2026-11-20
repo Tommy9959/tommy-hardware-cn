@@ -29,10 +29,10 @@ We specialize in exporting door hardware to Nigeria with over 10 years of experi
 - Complete customs clearance documentation
 
 #### ✅ Products Popular in Nigeria
-- **Door Handles:** Stainless Steel, Aluminum, Brass (MOQ: 400 pcs)
-- **Door Locks:** Mortise Locks, Padlocks, Smart Locks (MOQ: 1000 pcs)
+- **Door Handles:** Stainless Steel, Aluminum, Brass (MOQ: 50 pcs)
+- **Door Locks:** Mortise Locks, Padlocks, Smart Locks (MOQ: 100 pcs)
 - **Door Hinges:** Butt Hinges, Pivot Hinges (MOQ: 1000 pairs)
-- **Sliding Tracks:** Drawer Slides, Wardrobe Tracks (MOQ: 1000 pcs)
+- **Sliding Tracks:** Drawer Slides, Wardrobe Tracks (MOQ: 100 pcs)
 - **Building Materials:** Glue, Iron Pipes, Curtain Rods, Wallpaper
 
 ### 📦 Nigeria Import Process
@@ -71,13 +71,13 @@ We specialize in exporting door hardware to Nigeria with over 10 years of experi
 ### 💰 Competitive Pricing for Nigeria
 
 **Door Handles:**
-- Stainless Steel: $1.50-8.00/pc (MOQ: 400 pcs)
+- Stainless Steel: $1.50-8.00/pc (MOQ: 50 pcs)
 - Aluminum: $0.80-4.00/pc (MOQ: 600 pcs)
-- Brass: $2.00-12.00/pc (MOQ: 400 pcs)
+- Brass: $2.00-12.00/pc (MOQ: 50 pcs)
 
 **Door Locks:**
-- Mortise Locks: $3.00-25.00/pc (MOQ: 1000 pcs)
-- Padlocks: $1.50-8.00/pc (MOQ: 1000 pcs)
+- Mortise Locks: $3.00-25.00/pc (MOQ: 100 pcs)
+- Padlocks: $1.50-8.00/pc (MOQ: 100 pcs)
 - Smart Locks: $15.00-50.00/pc (MOQ: 200 pcs)
 
 **Door Hinges:**

@@ -1,6 +1,6 @@
 ---
 title: "Door Hinge Price in Nigeria 2026 from $0.50 | SS304 & Butt Hinges"
-description: "Door hinge price in Nigeria from $0.50/pc (FOB Yiwu). SS304 stainless, butt, concealed & pivot hinges for wooden, metal & aluminum doors. MOQ 1,000 pcs, free samples, SONCAP ready."
+description: "Door hinge price in Nigeria from $0.50/pc (FOB Yiwu). SS304 stainless, butt, concealed & pivot hinges for wooden, metal & aluminum doors. MOQ 100 pcs, free samples, SONCAP ready."
 seotitle: "Door Hinge Price in Nigeria: $0.50 SS304"
 products:
   - model: "HH-001"
@@ -31,7 +31,7 @@ faqs:
   - question: "What is the door hinge price in Nigeria?"
     answer: "Factory-direct door hinge prices run from $0.50/pc for an SS304 butt hinge (4x3 inch) up to $3.50/pc for a heavy-duty pivot hinge, FOB Yiwu. Brass and heavier models sit in the $1.00-$2.50 range. Price depends on size, material, finish and quantity."
   - question: "What is the MOQ for door hinges?"
-    answer: "MOQ is 1,000 pcs per model for hinges. Mixed containers are accepted, so several hinge models can share one 20ft or 40HQ with locks and handles."
+    answer: "MOQ is 100 pcs per model for hinges. Mixed containers are accepted, so several hinge models can share one 20ft or 40HQ with locks and handles."
   - question: "Which hinge material is best for Lagos and Port Harcourt?"
     answer: "For coastal cities use SS304 stainless steel. Zinc-plated cold rolled steel is fine for inland markets like Kano and Abuja, but in coastal humidity a bare or thin zinc finish starts rusting within months."
   - question: "How long does delivery to Nigeria take?"
@@ -83,7 +83,7 @@ Cheap uncoated iron looks fine in the shop and rusts on the door. That is the mo
 
 ### MOQ, packing and lead time
 
-- **MOQ:** 1,000 pcs per model
+- **MOQ:** 100 pcs per model
 - **Packing:** individual poly bag or plain box, then export carton; carton counts vary by size
 - **Production:** 15-25 days after deposit
 - **Shipping:** 25-35 days Ningbo/Yiwu to Lagos (Apapa / Tin Can), about 30-40 days to Onne
@@ -101,7 +101,7 @@ We handle the Nigerian side of the paperwork: **SONCAP, Form M and PAAR** suppor
 Factory-direct prices start at $0.50/pc for an SS304 butt hinge (4"x3") and reach $3.50/pc for a heavy-duty pivot hinge, FOB Yiwu. Brass and heavier models sit around $1.00-$2.50.
 
 **What is the MOQ?**
-1,000 pcs per model, and mixed containers are welcome.
+100 pcs per model, and mixed containers are welcome.
 
 **Which material suits Lagos and Port Harcourt?**
 SS304 stainless steel. Zinc-plated cold rolled steel is better value for inland cities.

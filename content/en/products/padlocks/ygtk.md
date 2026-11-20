@@ -1,6 +1,6 @@
 ---
 title: 'YGTK - WaterProof Round Steel Padlock'
-description: "YGTK - WaterProof Round Steel Padlock — Iron Body, Solid Brass Cylinder, A3 Steel Shackle, Plastic Cover. $2.32 - $2.32 USD / piece FOB Yiwu, MOQ 400 pcs...."
+description: "YGTK - WaterProof Round Steel Padlock — Iron Body, Solid Brass Cylinder, A3 Steel Shackle, Plastic Cover. $2.32 - $2.32 USD / piece FOB Yiwu, MOQ 50 pcs...."
 image: /images/products/padlocks/ygtk.jpg
 tags:
   - 'waterproof padlock'
@@ -21,12 +21,12 @@ specifications:
   - 'Finish: Standard finish'
   - 'Application: Various applications'
 price_range: "$2.32 - $2.32 USD / piece"
-moq: "400 pcs"
+moq: "50 pcs"
 faqs:
   - question: "How much does YGTK cost?"
     answer: "$2.32 - $2.32 USD / piece FOB Yiwu, depending on quantity and finish. Freight to Lagos is quoted separately."
   - question: "What is the MOQ for YGTK?"
-    answer: "400 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items."
+    answer: "50 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items."
   - question: "Do you supply samples of YGTK?"
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is YGTK packed for export?"
@@ -36,7 +36,7 @@ seotitle: "YGTK Padlock Wholesale: $2.32-2.32"
 
 ## YGTK - WaterProof Round Steel Padlock
 
-**YGTK - WaterProof Round Steel Padlock** — Iron Body, Solid Brass Cylinder, A3 Steel Shackle in Plastic Cover finish, $2.32 - $2.32 USD / piece FOB Yiwu, MOQ 400 pcs. A working part for gates, shop shutters, containers and lockers.
+**YGTK - WaterProof Round Steel Padlock** — Iron Body, Solid Brass Cylinder, A3 Steel Shackle in Plastic Cover finish, $2.32 - $2.32 USD / piece FOB Yiwu, MOQ 50 pcs. A working part for gates, shop shutters, containers and lockers.
 
 
 ### Models, sizes and prices
@@ -47,7 +47,7 @@ seotitle: "YGTK Padlock Wholesale: $2.32-2.32"
 | Material | Iron Body, Solid Brass Cylinder, A3 Steel Shackle |
 | Finish | Plastic Cover |
 | FOB price | $2.32 - $2.32 USD / piece |
-| MOQ | 400 pcs |
+| MOQ | 50 pcs |
 | Lead time | 15-25 days |
 
 | Model | Size(mm) | Lock Body(mm) | Shackle(mm) | Weight(g) | Qty/Ctn | Price(USD) |
@@ -67,7 +67,7 @@ Carton quantity changes with size, so confirm the size mix first and the carton 
 ### Ordering YGTK from JH HARDWARE
 
 - **Price:** $2.32 - $2.32 USD / piece FOB Yiwu
-- **MOQ:** 400 pcs
+- **MOQ:** 50 pcs
 - **Production:** 15-25 days after deposit
 - **Shipping:** 25-35 days to Lagos (Apapa / Tin Can), 30-40 days to Onne
 - **Payment:** 30% T/T deposit, 70% before shipment
@@ -79,7 +79,7 @@ Carton quantity changes with size, so confirm the size mix first and the carton 
 $2.32 - $2.32 USD / piece FOB Yiwu, depending on quantity and finish. Freight to Lagos is quoted separately.
 
 **What is the MOQ for YGTK?**
-400 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items.
+50 pcs. Mixed containers are accepted, so this model can share a 20ft or 40HQ with other items.
 
 **What finish is available for YGTK?**
 Plastic Cover. Other finishes can be produced on request; finishes are quoted per order because they change the unit price.

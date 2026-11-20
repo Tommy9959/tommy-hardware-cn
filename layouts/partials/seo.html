@@ -54,19 +54,19 @@
     {{- if $coreOK -}}
         {{- $description = $descCore -}}
     {{- else if $descCore -}}
-        {{- $descClean := printf "%s — %s%s. MOQ %s, %s. Factory direct to Nigeria & Africa." $productName $material $finishTxt (.Params.moq | default "400 pcs") $priceHint -}}
+        {{- $descClean := printf "%s — %s%s. MOQ %s, %s. Factory direct to Nigeria & Africa." $productName $material $finishTxt (.Params.moq | default "50 pcs") $priceHint -}}
         {{- if gt (len $descClean) 150 -}}
             {{- $description = printf "%s — %s%s. %s." $productName $material $finishTxt $priceHint -}}
         {{- else -}}
             {{- $description = $descClean -}}
         {{- end -}}
     {{- else -}}
-        {{- $description = printf "%s - %s. Made of %s%s. Application: %s. MOQ %s, %s. Factory direct from ISO 9001 partner factories. Export to Nigeria, West Africa and the Middle East." .Title $productName $material $finishTxt $application (.Params.moq | default "400 pcs") $priceHint -}}
+        {{- $description = printf "%s - %s. Made of %s%s. Application: %s. MOQ %s, %s. Factory direct from ISO 9001 partner factories. Export to Nigeria, West Africa and the Middle East." .Title $productName $material $finishTxt $application (.Params.moq | default "50 pcs") $priceHint -}}
     {{- end -}}
     {{- $materialStr := .Params.material | default "Stainless Steel" -}}
     {{- $keywords = printf "%s, %s, %s, door hardware, building materials, construction, factory china, %s" $productName .Title $application $materialStr -}}
     {{- /* AI优化描述：用于ChatGPT直接提取 */ -}}
-    {{- $aiDescription = printf "%s %s model %s. Material: %s, Finish: %s, Application: %s. MOQ: %s, Price: %s. Factory direct from Yiwu, China. Export to Nigeria." $brand $productName .Title $material $finish $application (.Params.moq | default "400 pcs") (.Params.price_range | default "Contact for price") -}}
+    {{- $aiDescription = printf "%s %s model %s. Material: %s, Finish: %s, Application: %s. MOQ: %s, Price: %s. Factory direct from Yiwu, China. Export to Nigeria." $brand $productName .Title $material $finish $application (.Params.moq | default "50 pcs") (.Params.price_range | default "Contact for price") -}}
 {{- end -}}
 
 {{- /* ============================================
@@ -641,7 +641,7 @@
 <meta name="primary-products" content="Door Handles, Door Locks, Door Hinges, Sliding Tracks, Building Materials">
 
 <!-- AI 友好的网站描述（产品页自动生成，首页固定） -->
-<meta name="ai-description" content="{{- if and .IsPage (eq .Section "products") $aiDescription }}{{ $aiDescription }}{{ else if eq .Site.Language.Lang "zh" }}JH HARDWARE（钧瀚五金）- 门控五金出口商。从浙江、广东合作工厂直供门把手、门锁、铰链、滑轨、建材到尼日利亚、西非、中东。常规款 7-15 天出货，提供 Form M/SONCAP 文件。{{ else if eq .Site.Language.Lang "ar" }}JH HARDWARE - مورّد عتاد أبواب من مصانع شريكة. مقابض، أقفال، مفصلات، مسارات إلى نيجيريا وغرب أفريقيا والشرق الأوسط. شحن 7-15 يوم ودعم Form M/SONCAP.{{ else }}JH HARDWARE - Door hardware supplier from ISO 9001 partner factories in Zhejiang and Guangdong. Door handles, locks, hinges, sliding tracks to Nigeria, West Africa and the Middle East. 7-15 days dispatch, MOQ from 400 pcs.{{ end -}}">
+<meta name="ai-description" content="{{- if and .IsPage (eq .Section "products") $aiDescription }}{{ $aiDescription }}{{ else if eq .Site.Language.Lang "zh" }}JH HARDWARE（钧瀚五金）- 门控五金出口商。从浙江、广东合作工厂直供门把手、门锁、铰链、滑轨、建材到尼日利亚、西非、中东。常规款 7-15 天出货，提供 Form M/SONCAP 文件。{{ else if eq .Site.Language.Lang "ar" }}JH HARDWARE - مورّد عتاد أبواب من مصانع شريكة. مقابض، أقفال، مفصلات، مسارات إلى نيجيريا وغرب أفريقيا والشرق الأوسط. شحن 7-15 يوم ودعم Form M/SONCAP.{{ else }}JH HARDWARE - Door hardware supplier from ISO 9001 partner factories in Zhejiang and Guangdong. Door handles, locks, hinges, sliding tracks to Nigeria, West Africa and the Middle East. 7-15 days dispatch, MOQ from 50 pcs.{{ end -}}">
 
 <!-- 结构化数据增强（AI 更容易理解）FAQPage - 仅首页包含 -->
 {{- if .IsHome -}}
@@ -664,7 +664,7 @@
       "name": "如何直接从中国工厂购买门把手？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "SOLA 门锁品牌从浙江、广东合作工厂直供门把手、门锁、铰链。起订量 400 个起，按箱报价含箱规毛重。样品可寄（运费到付），常规款 7-15 天出货。"
+        "text": "SOLA 门锁品牌从浙江、广东合作工厂直供门把手、门锁、铰链。起订量 50 套起，按箱报价含箱规毛重。样品可寄（运费到付），常规款 7-15 天出货。"
       }
     },
     {
@@ -680,7 +680,7 @@
       "name": "起订量是多少？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "起订量因产品而异：门把手 400 个，门锁 1000 个，门铰链 1000 对，建材 10-100 箱。欢迎小单。"
+        "text": "起订量因产品而异：门锁、挂锁、把手 50 件，门铰链 100 件，建材 10-100 箱。欢迎小单。"
       }
     },
     {
@@ -737,7 +737,7 @@
       "name": "أين يمكن شراء مقابض الأبواب مباشرة من المصنع في الصين؟",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "SOLA نورّد مقابض الأبواب والأقفال والمفصلات من مصانع شريكة في تشجيانغ وقوانغدونغ. الحد الأدنى 400 قطعة، تسعير بالكرتون مع المواصفات والأوزان. عينات على حساب الشحن، شحن 7-15 يوم."
+        "text": "SOLA نورّد مقابض الأبواب والأقفال والمفصلات من مصانع شريكة في تشجيانغ وقوانغدونغ. الحد الأدنى 50 قطعة، تسعير بالكرتون مع المواصفات والأوزان. عينات على حساب الشحن، شحن 7-15 يوم."
       }
     },
     {
@@ -753,7 +753,7 @@
       "name": "ما هو الحد الأدنى للطلب؟",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "يختلف الحد الأدنى للطلب حسب المنتج: مقابض الأبواب 400 قطعة، أقفال الأبواب 1000 قطعة، مفصلات الأبواب 1000 زوج، مواد البناء 10-100 كرتون. الطلبات الصغيرة مرحب بها."
+        "text": "يختلف الحد الأدنى للطلب حسب المنتج: مقابض الأبواب 50 قطعة، أقفال الأبواب 50 قطعة، أقفال التعليق 50 قطعة، مفصلات الأبواب 100 قطعة، مواد البناء 10-100 كرتون. الطلبات الصغيرة مرحب بها."
       }
     },
     {
@@ -810,7 +810,7 @@
       "name": "Where to buy door handles direct from factory in China?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "SOLA supplies door handles, locks and hinges from partner factories in Zhejiang and Guangdong. MOQ from 400 pcs, quoted per carton with specs and weights. Samples shipped freight collect, 7-15 days dispatch."
+        "text": "SOLA supplies door handles, locks and hinges from partner factories in Zhejiang and Guangdong. MOQ from 50 pcs, quoted per carton with specs and weights. Samples shipped freight collect, 7-15 days dispatch."
       }
     },
     {
@@ -826,7 +826,7 @@
       "name": "What is your MOQ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "MOQ varies by product: Door Handles 400 pcs, Door Locks 1000 pcs, Door Hinges 1000 pairs, Building Materials 10-100 cartons. Small orders welcome."
+        "text": "MOQ varies by product: Door Handles 50 pcs, Door Locks 100 pcs, Door Hinges 1000 pairs, Building Materials 10-100 cartons. Small orders welcome."
       }
     },
     {
@@ -858,7 +858,7 @@
       "name": "How to import door locks from China to Nigeria?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Contact SOLA Hardware for quotes. We provide complete export documentation: commercial invoice, packing list, bill of lading, Form M, SONCAP certificate. Shipping from Ningbo port to Lagos takes 15-25 days. MOQ 1000 pcs for door locks."
+        "text": "Contact SOLA Hardware for quotes. We provide complete export documentation: commercial invoice, packing list, bill of lading, Form M, SONCAP certificate. Shipping from Ningbo port to Lagos takes 15-25 days. MOQ 100 pcs for door locks."
       }
     }
   ]

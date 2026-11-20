@@ -30,8 +30,8 @@ SOLA Hardware (JH HARDWARE) is a leading manufacturer and exporter of door hardw
 ### Our Products
 
 We supply wholesale quantities of:
-- **Door Locks** — Mortise locks, deadbolts, smart locks (MOQ 400 pcs)
-- **Padlocks** — Heavy duty iron padlocks, waterproof padlocks (MOQ 400 pcs)
+- **Door Locks** — Mortise locks, deadbolts, smart locks (MOQ 50 pcs)
+- **Padlocks** — Heavy duty iron padlocks, waterproof padlocks (MOQ 50 pcs)
 - **Door Handles** — Stainless steel, aluminum, brass handles
 - **Door Hinges** — Butt hinges, concealed hinges, heavy-duty
 - **Sliding Tracks** — Drawer slides, wardrobe tracks

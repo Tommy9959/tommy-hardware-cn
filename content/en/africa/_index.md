@@ -31,8 +31,8 @@ We specialize in exporting door hardware and building materials to Africa with o
 - Complete customs clearance documentation
 
 #### ✅ Products Popular in Africa
-- **Door Handles:** Stainless Steel, Aluminum, Brass (MOQ: 400 pcs)
-- **Door Locks:** Mortise Locks, Padlocks, Smart Locks (MOQ: 1000 pcs)
+- **Door Handles:** Stainless Steel, Aluminum, Brass (MOQ: 50 pcs)
+- **Door Locks:** Mortise Locks, Padlocks, Smart Locks (MOQ: 100 pcs)
 - **Door Hinges:** Butt Hinges, Pivot Hinges (MOQ: 1000 pairs)
 - **Building Materials:** Glue, Iron Pipes, Curtain Rods, Wallpaper
 - **Furniture Hardware:** Cabinet Accessories, Plastic Handles
@@ -72,13 +72,13 @@ We specialize in exporting door hardware and building materials to Africa with o
 ### 💰 Competitive Pricing for Africa
 
 **Door Handles:**
-- Stainless Steel: $1.50-8.00/pc (MOQ: 400 pcs)
+- Stainless Steel: $1.50-8.00/pc (MOQ: 50 pcs)
 - Aluminum: $0.80-4.00/pc (MOQ: 600 pcs)
-- Brass: $2.00-12.00/pc (MOQ: 400 pcs)
+- Brass: $2.00-12.00/pc (MOQ: 50 pcs)
 
 **Door Locks:**
-- Mortise Locks: $3.00-25.00/pc (MOQ: 1000 pcs)
-- Padlocks: $1.50-8.00/pc (MOQ: 1000 pcs)
+- Mortise Locks: $3.00-25.00/pc (MOQ: 100 pcs)
+- Padlocks: $1.50-8.00/pc (MOQ: 100 pcs)
 - Smart Locks: $15.00-50.00/pc (MOQ: 200 pcs)
 
 **Door Hinges:**
@@ -151,7 +151,7 @@ We specialize in exporting door hardware and building materials to Africa with o
 5. **Quality Assurance** - ISO 9001 partner factories, SGS / CE reports on request
 6. **After-Sales Support** - 24/7 customer service for African clients
 7. **Flexible Payment** - T/T, L/C, Western Union accepted
-8. **Small Orders Welcome** - MOQ from 200-1000 pcs depending on product
+8. **Small Orders Welcome** - MOQ from 200-100 pcs depending on product
 
 ---
 
