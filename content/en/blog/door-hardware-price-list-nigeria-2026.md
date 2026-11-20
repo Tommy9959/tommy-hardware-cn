@@ -1,13 +1,13 @@
 ---
 title: "Door Hardware Price List Nigeria 2026"
-description: "Nigeria door hardware price list 2026: real factory FOB ranges for locks ($2.50-$30), hinges ($1.50-$4.00), handles ($2.80-$5.50). MOQ from 100 sets, 15-25 days."
+description: "Nigeria door hardware price list 2026: real factory FOB ranges for locks ($2.50-$30), hinges ($1.50-$4.00), handles ($2.80-$5.50). MOQ from 50 sets, 15-25 days."
 keywords: "door hardware price Nigeria 2026, door lock price in Nigeria, door hinge price Nigeria, door handle price Nigeria, padlock price Nigeria, wholesale hardware Nigeria, buy door locks in Nigeria, hardware supplier Lagos"
 author: "Tommy — JH Hardware (10 Years in Nigeria)"
 date: "2026-08-04"
 tags: ["door hardware price Nigeria", "door lock price", "door hinge price", "door handle price", "padlock price Nigeria", "wholesale hardware", "buy hardware Nigeria", "market price guide"]
 categories: ["Price Guide", "Buying Guide"]
 lastmod: 2026-11-03
-tldr: "2026 FOB Yiwu ranges: door locks $2.50-$30, hinges $1.50-$4.00, handles $2.80-$5.50 and padlocks $0.42-$2.71. MOQ starts at 100 sets, production takes 15-25 days, and sea freight to Lagos adds 25-35 days."
+tldr: "2026 FOB Yiwu ranges: door locks $2.50-$30, hinges $1.50-$4.00, handles $2.80-$5.50 and padlocks $0.42-$2.71. MOQ starts at 50 sets, production takes 15-25 days, and sea freight to Lagos adds 25-35 days."
 ---
 
 ## How Much Does Door Hardware Cost in Nigeria 2026?
@@ -30,7 +30,7 @@ These ranges come straight from our current catalogue — 120 SKUs across 11 cat
 
 | Category | FOB price range | Unit | Typical MOQ |
 |---|---|---|---|
-| Door locks — mortise, cylinder, rim, iron plate | $2.50 – $30.00 | per piece | 100 sets |
+| Door locks — mortise, cylinder, rim, iron plate | $2.50 – $30.00 | per piece | 50 sets |
 | Door hinges — SS304, galvanized, concealed | $1.50 – $4.00 | per piece | 100 pcs |
 | Door handles — zinc alloy, stainless, aluminium | $2.80 – $5.50 | per piece | 50 pcs |
 | Sliding tracks & drawer slides | $5.00 – $12.00 | per metre | 500 m |
