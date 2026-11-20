@@ -219,12 +219,15 @@
 {{- $modelFound := findRE "[0-9]{3,4}[A-Za-z]?-[0-9]{2,4}" $modelName -}}
 {{- $mpn := .File.ContentBaseName | upper -}}
 {{- if $modelFound -}}{{- $mpn = index $modelFound (sub (len $modelFound) 1) -}}{{- end -}}
+{{- /* 商品名带型号，AI 引用时才有型号可锚定；product_name 已含型号时不重复 */ -}}
+{{- $prodName := .Params.product_name | default .Title -}}
+{{- if and $mpn .Params.product_name (not (in .Params.product_name $mpn)) -}}{{- $prodName = printf "%s %s" .Params.product_name $mpn -}}{{- end -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
   "@id": "{{ .Permalink }}#product",
-  "name": "{{ .Params.product_name | default .Title }}",
+  "name": "{{ $prodName }}",
   "sku": "{{ $sku }}",
   "mpn": "{{ $mpn }}",
   "description": "{{ $description }}",
