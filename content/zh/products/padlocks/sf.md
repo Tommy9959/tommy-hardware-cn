@@ -1,5 +1,4 @@
 ---
-title: SF - 镀铬四方叶片锁 - 挂锁 | 批发 尼日利亚 非洲
 image: /images/products/padlocks/sf.jpg
 features:
   - '工厂直销价格'
@@ -21,6 +20,7 @@ tags:
   - '铁挂锁'
 price_range: "0.42 - 1.26 美元/把"
 seotitle: "SF 镀铬四方叶片锁批发 $0.42-1.26/把"
+title: "SF 镀铬四方叶片锁"
 description: "SF镀铬四方叶片锁批发，30-70mm共10个规格，$0.42-1.26/把，整箱或混柜发尼日利亚。"
 faqs:
   - question: "SF 的批发价是多少？"

@@ -1,5 +1,4 @@
 ---
-title: LTN - 仿铜榔头挂锁 - 挂锁 | 批发 尼日利亚 非洲
 image: /images/products/padlocks/ltn.jpg
 features:
   - '工厂直销价格'
@@ -21,6 +20,7 @@ tags:
   - '全铜挂锁'
 price_range: "0.64 - 1.81 美元/把"
 seotitle: "LTN 仿铜榔头挂锁批发 $0.64-1.81/把"
+title: "LTN 仿铜榔头挂锁"
 description: "LTN仿铜榔头挂锁批发，30-80mm共6个规格，$0.64-1.81/把，整箱或混柜发尼日利亚。"
 faqs:
   - question: "LTN 的批发价是多少？"

@@ -1,5 +1,4 @@
 ---
-title: YJN - 大圆角直开亚光挂锁 - 挂锁 | 批发 尼日利亚 非洲
 image: /images/products/padlocks/yjn.jpg
 features:
   - '工厂直销价格'
@@ -21,6 +20,7 @@ tags:
   - '铁挂锁'
 price_range: "0.5 - 1.43 美元/把"
 seotitle: "YJN 大圆角直开亚光挂锁批发 $0.5-1.43/把"
+title: "YJN 大圆角直开亚光挂锁"
 description: "YJN大圆角直开亚光挂锁批发，32-70mm共5个规格，$0.5-1.43/把，整箱或混柜发尼日利亚。"
 faqs:
   - question: "YJN 的批发价是多少？"

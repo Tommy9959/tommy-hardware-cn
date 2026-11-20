@@ -1,5 +1,4 @@
 ---
-title: GTK - 防水套壳挂锁 - 挂锁 | 批发 尼日利亚 非洲
 image: /images/products/padlocks/gtk.jpg
 features:
   - '工厂直销价格'
@@ -21,6 +20,7 @@ tags:
   - 'SOLA Hardware'
 price_range: "0.94 - 2.28 美元/把"
 seotitle: "GTK 防水套壳挂锁批发 $0.94-2.28/把"
+title: "GTK 防水套壳挂锁"
 description: "GTK防水套壳挂锁批发，45-80mm共8个规格，$0.94-2.28/把，整箱或混柜发尼日利亚。"
 faqs:
   - question: "GTK 的批发价是多少？"

@@ -1,5 +1,4 @@
 ---
-title: HLV - 镀铬矩形挂锁（叶片锁） - 挂锁 | 批发 尼日利亚 非洲
 image: /images/products/padlocks/hlv.jpg
 features:
   - '工厂直销价格'
@@ -21,6 +20,7 @@ tags:
   - '铁挂锁'
 price_range: "0.94 - 1.81 美元/把"
 seotitle: "HLV 镀铬矩形挂锁（叶片锁）批发 $0.94-1.81/把"
+title: "HLV 镀铬矩形挂锁（叶片锁）"
 description: "HLV镀铬矩形挂锁（叶片锁）批发，50-100mm共6个规格，$0.94-1.81/把，整箱或混柜发尼日利亚。"
 faqs:
   - question: "HLV 的批发价是多少？"

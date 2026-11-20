@@ -1,5 +1,4 @@
 ---
-title: YGTK - 防水圆钢套壳挂锁 - 挂锁 | 批发 尼日利亚 非洲
 image: /images/products/padlocks/ygtk.jpg
 features:
   - '工厂直销价格'
@@ -21,6 +20,7 @@ tags:
   - 'SOLA Hardware'
 price_range: "2.32 - 2.32 美元/把"
 seotitle: "YGTK 防水圆钢套壳挂锁批发 $2.32-2.32/把"
+title: "YGTK 防水圆钢套壳挂锁"
 description: "YGTK防水圆钢套壳挂锁批发，70mm共1个规格，$2.32-2.32/把，整箱或混柜发尼日利亚。"
 faqs:
   - question: "YGTK 的批发价是多少？"

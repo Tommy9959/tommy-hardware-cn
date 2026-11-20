@@ -1,5 +1,4 @@
 ---
-title: SFN - 四方直开喷金挂锁 - 挂锁 | 批发 尼日利亚 非洲
 image: /images/products/padlocks/sfn.jpg
 features:
   - '工厂直销价格'
@@ -21,6 +20,7 @@ tags:
   - '铁挂锁'
 price_range: "0.5 - 1.43 美元/把"
 seotitle: "SFN 四方直开喷金挂锁批发 $0.5-1.43/把"
+title: "SFN 四方直开喷金挂锁"
 description: "SFN四方直开喷金挂锁批发，32-70mm共8个规格，$0.5-1.43/把，整箱或混柜发尼日利亚。"
 faqs:
   - question: "SFN 的批发价是多少？"

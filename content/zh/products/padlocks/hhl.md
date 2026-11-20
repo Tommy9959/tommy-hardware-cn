@@ -1,5 +1,4 @@
 ---
-title: HHL - 重型长方铁挂锁 - 挂锁 | 批发 尼日利亚 非洲
 image: /images/products/padlocks/hhl.jpg
 features:
   - '工厂直销价格'
@@ -22,6 +21,7 @@ tags:
   - '铁挂锁'
 price_range: "2.4 - 2.71 美元/把"
 seotitle: "HHL 重型长方铁挂锁批发 $2.4-2.71/把"
+title: "HHL 重型长方铁挂锁"
 description: "HHL重型长方铁挂锁批发，74-94mm共3个规格，$2.4-2.71/把，整箱或混柜发尼日利亚。"
 faqs:
   - question: "HHL 的批发价是多少？"
