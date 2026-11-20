@@ -56,6 +56,21 @@
             {{ .Content }}
         </div>
 
+        {{- /* 可见 FAQ：FAQPage schema 里的问答必须能在页面上看到，否则违反结构化数据规则 */ -}}
+        {{ with .Params.faqs }}
+        <section class="product-faq series-faq">
+            <h2>{{ if eq $.Site.Language.Lang "zh" }}常见问题{{ else }}{{ if eq $.Site.Language.Lang "en" }}Frequently Asked Questions{{ else }}الأسئلة الشائعة{{ end }}{{ end }}</h2>
+            <div class="faq-list">
+                {{- range . }}
+                <div class="faq-item">
+                    <h3>{{ .question | default .q }}</h3>
+                    <div><p>{{ .answer | default .a }}</p></div>
+                </div>
+                {{- end }}
+            </div>
+        </section>
+        {{ end }}
+
         <div class="contact-cta">
             <h2>{{ if eq .Site.Language.Lang "zh" }}获取免费样品和报价{{ else }}{{ if eq .Site.Language.Lang "en" }}Get Free Samples & Quote{{ else }}احصل على عينات مجانية{{ end }}{{ end }}</h2>
             <p>{{ if eq .Site.Language.Lang "zh" }}立即联系，2 小时内回复{{ else }}{{ if eq .Site.Language.Lang "en" }}Contact now, reply within 2 hours{{ else }}اتصل الآن{{ end }}{{ end }}</p>

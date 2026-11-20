@@ -45,7 +45,12 @@
         {{- $finishTxt = cond (in (lower $finish) "finish") (printf ", %s" $finish) (printf ", %s finish" $finish) -}}
     {{- end -}}
     {{- /* 优先用 front matter 已润色且长度合适的差异化描述，避免 120 个产品共用同一句式 */ -}}
-    {{- $coreOK := and $descCore (ge (strings.RuneCount $descCore) 90) (le (strings.RuneCount $descCore) 158) (not (strings.HasSuffix $descCore "...")) -}}
+    {{- /* 描述长度band按语言：中文 40-80（CJK 字信息密度高），阿语 60-150，英语 90-158。
+         旧实现三语共用 90-158，中文 70 字的好描述会被判"太短"而回落到英文模板句。 */ -}}
+    {{- $descLo := 90 -}}{{- $descHi := 158 -}}
+    {{- if eq .Site.Language.Lang "zh" -}}{{- $descLo = 40 -}}{{- $descHi = 80 -}}
+    {{- else if eq .Site.Language.Lang "ar" -}}{{- $descLo = 60 -}}{{- $descHi = 150 -}}{{- end -}}
+    {{- $coreOK := and $descCore (ge (strings.RuneCount $descCore) $descLo) (le (strings.RuneCount $descCore) $descHi) (not (strings.HasSuffix $descCore "...")) -}}
     {{- if $coreOK -}}
         {{- $description = $descCore -}}
     {{- else if $descCore -}}
@@ -236,8 +241,12 @@
     {{- if gt (len $parts) 1 -}}
       {{- $numStr := index (split (index $parts 1) " ") 0 -}}
       {{- if $numStr -}}{{- $priceNum = float $numStr -}}{{- end -}}
+    {{- else -}}
+      {{- /* 中文/阿语价格写成 "2.50 - 5.00 美元/个"，没有 $ 符号：取第一个数字作为起价 */ -}}
+      {{- $nums := findRE "[0-9]+(\\.[0-9]+)?" . -}}
+      {{- if $nums -}}{{- $priceNum = float (index $nums 0) -}}{{- end -}}
     {{- end -}}
-  {{- end }}
+  {{- end -}}
   {{- if gt $priceNum 0.0 }}
   "offers": {
     "@type": "Offer",
