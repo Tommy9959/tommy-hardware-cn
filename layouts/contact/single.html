@@ -140,7 +140,6 @@
             <!-- 右侧：直接联系方式（在线表单已下线，询盘走邮箱/WhatsApp/微信） -->
             {{- $lang := .Site.Language.Lang -}}
             {{- $dcBody := "Model or product photo: | Quantity (pcs / cartons): | Destination port (Apapa / Tin Can / Onne): | Target price: | Company name:" -}}
-            {{- $dcHref := printf "mailto:%s?subject=Wholesale inquiry - jh-hardware.com&body=%s" .Site.Params.email $dcBody -}}
             <div class="contact-form-section contact-direct">
                 <h2>{{ if eq $lang "zh" }}直接联系我们{{ else }}{{ if eq $lang "en" }}Contact Us Directly{{ else }}تواصل معنا مباشرة{{ end }}{{ end }}</h2>
                 <p class="form-description">
@@ -150,7 +149,7 @@
                 </p>
 
                 <div class="direct-contact-actions">
-                    <a href="{{ $dcHref | safeURL }}" class="dc-btn dc-email" data-dc="email">
+                    {{ printf `<a href="mailto:%s?subject=%s&body=%s" class="dc-btn dc-email" data-dc="email">` .Site.Params.email "Wholesale inquiry - jh-hardware.com" $dcBody | safeHTML }}
                         <span class="dc-icon">📧</span>
                         <span class="dc-text">
                             <strong>{{ if eq $lang "zh" }}发邮件{{ else }}{{ if eq $lang "en" }}Email us{{ else }}راسلنا بالبريد{{ end }}{{ end }}</strong>
