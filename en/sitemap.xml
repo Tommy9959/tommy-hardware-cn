@@ -571,24 +571,12 @@
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/africa/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/africa/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-handles/dh-002/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-handles/dh-002/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-handles/dh-002/"/></url><url>
     <loc>https://jh-hardware.com/products/sofa-legs/sl-004/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/sofa-legs/sl-004/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/sofa-legs/sl-004/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-accessories/da-007/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-007/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-007/"/></url><url>
     <loc>https://jh-hardware.com/products/sliding-tracks/st-006/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -673,6 +661,12 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/cabinet-hardware/ch-004/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/cabinet-hardware/ch-004/"/></url><url>
+    <loc>https://jh-hardware.com/products/cabinet-hardware/ch-005/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/cabinet-hardware/ch-005/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/cabinet-hardware/ch-005/"/></url><url>
     <loc>https://jh-hardware.com/products/cabinet-hardware/ch-006/</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -685,6 +679,66 @@
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/contact/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/contact/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-accessories/da-001/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-001/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-001/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-accessories/da-002/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-002/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-002/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-accessories/da-003/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-003/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-003/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-accessories/da-004/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-004/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-004/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-accessories/da-006/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-006/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-006/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-accessories/da-007/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-007/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-007/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-handles/dh-001/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-handles/dh-001/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-handles/dh-001/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-handles/dh-002/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-handles/dh-002/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-handles/dh-002/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-handles/dh-004/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-handles/dh-004/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-handles/dh-004/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-handles/dh-006/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-handles/dh-006/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-handles/dh-006/"/></url><url>
     <loc>https://jh-hardware.com/products/door-accessories/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -697,48 +751,12 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-005/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-005/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-accessories/da-002/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-002/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-002/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-accessories/da-006/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-006/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-006/"/></url><url>
     <loc>https://jh-hardware.com/products/door-handles/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-handles/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-handles/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-hinges/hh-001/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-hinges/hh-001/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-hinges/hh-001/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-hinges/hh-002/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-hinges/hh-002/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-hinges/hh-002/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-hinges/hh-003/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-hinges/hh-003/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-hinges/hh-003/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-hinges/hh-004/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-hinges/hh-004/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-hinges/hh-004/"/></url><url>
     <loc>https://jh-hardware.com/products/door-hinges/hh-005/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -763,24 +781,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-locks/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-locks/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-accessories/da-004/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-004/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-004/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-accessories/da-001/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-001/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-001/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-accessories/da-003/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-accessories/da-003/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-accessories/da-003/"/></url><url>
     <loc>https://jh-hardware.com/products/furniture-fittings/ff-005/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -859,6 +859,30 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/sofa-legs/sl-006/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/sofa-legs/sl-006/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-hinges/hh-001/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-hinges/hh-001/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-hinges/hh-001/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-hinges/hh-002/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-hinges/hh-002/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-hinges/hh-002/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-hinges/hh-003/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-hinges/hh-003/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-hinges/hh-003/"/></url><url>
+    <loc>https://jh-hardware.com/products/door-hinges/hh-004/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-hinges/hh-004/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-hinges/hh-004/"/></url><url>
     <loc>https://jh-hardware.com/products/padlocks/hhl/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -955,12 +979,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/sofa-legs/sl-002/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/sofa-legs/sl-002/"/></url><url>
-    <loc>https://jh-hardware.com/products/cabinet-hardware/ch-005/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/cabinet-hardware/ch-005/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/cabinet-hardware/ch-005/"/></url><url>
     <loc>https://jh-hardware.com/nigeria/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -985,24 +1003,12 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-handles/dh-003/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-handles/dh-003/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-handles/dh-004/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-handles/dh-004/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-handles/dh-004/"/></url><url>
     <loc>https://jh-hardware.com/products/door-handles/dh-005/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-handles/dh-005/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-handles/dh-005/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-handles/dh-006/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-handles/dh-006/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-handles/dh-006/"/></url><url>
     <loc>https://jh-hardware.com/privacy-policy/</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -1057,12 +1063,6 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/"/></url><url>
-    <loc>https://jh-hardware.com/products/door-handles/dh-001/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-handles/dh-001/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-handles/dh-001/"/></url><url>
     <loc>https://jh-hardware.com/terms/</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>

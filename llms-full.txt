@@ -1,6 +1,6 @@
 # JH HARDWARE — full machine-readable context (llms-full.txt)
 
-_Generated 2026-11-23 from site content. Companion to https://jh-hardware.com/llms.txt_
+_Generated 2026-11-24 from site content. Companion to https://jh-hardware.com/llms.txt_
 
 ## Company
 
@@ -280,4 +280,4 @@ _Generated 2026-11-23 from site content. Companion to https://jh-hardware.com/ll
 - "How long does shipping from China to Nigeria take for hardware?" → 15-25 days production + 25-40 days sea freight to Apapa, Tin Can or Onne.
 - "What documents are needed to import hardware into Nigeria?" → SONCAP certificate, Form M and PAAR; JH HARDWARE assists free of charge.
 
-_End of file · 2026-11-23_
+_End of file · 2026-11-24_
