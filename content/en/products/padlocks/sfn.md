@@ -1,6 +1,6 @@
 ---
-title: 'SFN - Golden Square Iron Padlock'
-description: "Wholesale SFN - Golden Square Iron Padlock in Iron Body, Half Brass Cylinder, A3 Steel Shackle, Golden Painting — $0.50 - $1.43 USD / piece FOB Yiwu, MOQ..."
+title: "SFN Golden Square Iron Padlock Wholesale: $0.50-1.43"
+description: "SFN golden square iron padlock, $0.50-1.43/pc FOB Yiwu, MOQ 50 pcs, 32 to 70 mm bodies, 48-192 pcs per carton. Wholesale to Nigeria."
 image: /images/products/padlocks/sfn.jpg
 tags:
   - 'SFN padlock'
@@ -31,7 +31,11 @@ faqs:
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is SFN packed for export?"
     answer: "Export carton, packed for sea freight."
-seotitle: "SFN Padlock Wholesale: $0.50-1.43"
+  - question: "How many SFN padlocks fit in one carton?"
+    answer: "192 at 32 mm, 144 at 38 mm, 96 at 50 mm, and 48 at 60 and 70 mm. The size mix decides the carton total."
+  - question: "Is the SFN the right padlock for a shop shutter?"
+    answer: "It is a light-body line, 32 to 70 mm at 97 g to 540 g. For a shutter or a gate, quote the heavier HHL or HLV bodies in this range."
+seotitle: "SFN Iron Padlock Wholesale $0.50-1.43"
 ---
 
 ## SFN - Golden Square Iron Padlock
@@ -67,9 +71,9 @@ This model is specified for gates, shop shutters, containers and lockers — typ
 
 ## Who buys the SFN
 
-The SFN series runs 8 sizes from 32mm to 70mm, priced $0.5-1.43 per piece and packed 48-192 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Alaba and Ladipo in Lagos buy it one carton first, then by the series once the size mix is proven.
+SFN is the small-body golden line: eight listed sizes from 32 mm to 70 mm, $0.50-1.43 per piece at 50 pcs MOQ, with cartons running from 192 pcs at 32 mm down to 48 pcs at 60 and 70 mm. The 32 and 38 mm bodies at 97 g and 144 g are the ones that sell off a market stall by the handful; the 50 to 70 mm sizes go to shop shutters and light gates.
 
-Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. Where it is the wrong choice: salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
+The buyers are market-stall hardware sellers and security-goods distributors in **Onitsha Main Market** and **Aba (Ariaria)**, and the padlock trade in **Lagos — Alaba** that supplies them. The golden painting and half brass cylinder are what the customer sees first, and they decide the sale before the shackle is even tested. Because the carton count halves as the size climbs, the same money buys a very different number of locks at 32 mm and at 70 mm — confirm the size mix before the carton total is quoted. This is a light-duty line; for gates and containers the heavier bodies in this range are the right quote.
 
 ### Ordering SFN from JH HARDWARE
 
@@ -94,10 +98,17 @@ Golden Painting. Other finishes can be produced on request; finishes are quoted 
 **How is SFN packed for export?**
 Export carton, packed for sea freight.
 
+**How many SFN padlocks fit in one carton?**
+192 at 32 mm, 144 at 38 mm, 96 at 50 mm, and 48 at 60 and 70 mm. The size mix decides the carton total.
+
+**Is the SFN the right padlock for a shop shutter?**
+It is a light-body line, 32 to 70 mm at 97 g to 540 g. For a shutter or a gate, quote the heavier HHL or HLV bodies in this range.
+
 ### Related
 
 - [Padlocks price list](/products/padlocks/)
 - [Door hardware price list Nigeria 2026](/blog/door-hardware-price-list-nigeria-2026/)
+- [SONCAP and Form M for imported padlocks](/blog/soncap-form-m-paar-nigeria-import-certification/)
 
 **Other models in this range:**
 

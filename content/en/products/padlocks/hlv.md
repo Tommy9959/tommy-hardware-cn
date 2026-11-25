@@ -1,6 +1,6 @@
 ---
-title: 'HLV - Cr-Plated Rectangular Iron Padlock (Vane Key)'
-description: "HLV - Cr-Plated Rectangular Iron Padlock (Vane Key): Iron Body, Iron Discs Cylinder, A3 Steel Shackle with Chrome Plated finish, $0.94 - $1.81 USD / piece..."
+title: "HLV Chrome Iron Padlock 50-100mm Wholesale: $0.94-1.81"
+description: "HLV chrome plated iron padlock, $0.94-1.81/pc FOB Yiwu, MOQ 50 pcs, 50 to 100 mm bodies, 48-72 pcs per carton. Nigeria wholesale."
 image: /images/products/padlocks/hlv.jpg
 tags:
   - 'HLV padlock'
@@ -31,7 +31,11 @@ faqs:
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is HLV packed for export?"
     answer: "Export carton, packed for sea freight."
-seotitle: "HLV Padlock Wholesale: $0.94-1.81"
+  - question: "What shackle diameter does the HLV use?"
+    answer: "8 mm on the 50 and 60, 10 mm on the 70 and 80, 11 mm on the 90 and 100 — the body and the shackle step together."
+  - question: "Why does the HLV carton count change with size?"
+    answer: "Cartons hold 72 pcs up to 70 mm and 48 pcs for the 80 to 100 mm bodies. Confirm the size mix first and the carton total follows."
+seotitle: "HLV Iron Padlock Wholesale $0.94-1.81"
 ---
 
 ## HLV - Cr-Plated Rectangular Iron Padlock (Vane Key)
@@ -65,9 +69,9 @@ This model is specified for gates, shop shutters, containers and lockers — typ
 
 ## Who buys the HLV
 
-The HLV series runs 6 sizes from 50mm to 100mm, priced $0.94-1.81 per piece and packed 48-72 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Onitsha Main Market and Ogidi buy it one carton first, then by the series once the size mix is proven.
+HLV is the vane-key line: a chrome plated rectangular iron body with an iron disc cylinder, six sizes from 50 mm to 100 mm, $0.94-1.81 per piece at 50 pcs MOQ. Shackle diameter steps with the body — 8 mm on the 50 and 60, 10 mm on the 70 and 80, 11 mm on the 90 and 100 — and cartons run 72 pcs up to 70 mm, then 48 pcs for the two largest.
 
-Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. Where it is the wrong choice: salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
+The buyers are hardware shops and security-goods distributors in **Onitsha Main Market** and **Ogidi**, plus the shutter and container trade in **Lagos — Ladipo**. The 50 and 60 mm sizes are the volume lines because they fit the hasps already on shop shutters; the 90 and 100 mm are ordered for compound gates where the body has to be seen. At 50 pcs MOQ a shop can hold the full ladder in small depth, and a mixed order is quoted as separate carton lines by size. For coastal sites chrome plating is not the finish to promise — quote the waterproof series instead.
 
 ### Ordering HLV from JH HARDWARE
 
@@ -92,10 +96,17 @@ Chrome Plated. Other finishes can be produced on request; finishes are quoted pe
 **How is HLV packed for export?**
 Export carton, packed for sea freight.
 
+**What shackle diameter does the HLV use?**
+8 mm on the 50 and 60, 10 mm on the 70 and 80, 11 mm on the 90 and 100 — the body and the shackle step together.
+
+**Why does the HLV carton count change with size?**
+Cartons hold 72 pcs up to 70 mm and 48 pcs for the 80 to 100 mm bodies. Confirm the size mix first and the carton total follows.
+
 ### Related
 
 - [Padlocks price list](/products/padlocks/)
 - [Door hardware price list Nigeria 2026](/blog/door-hardware-price-list-nigeria-2026/)
+- [Importing door hardware from China](/blog/import-door-hardware-from-china/)
 
 **Other models in this range:**
 
