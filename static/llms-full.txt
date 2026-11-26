@@ -1,6 +1,6 @@
 # JH HARDWARE — full machine-readable context (llms-full.txt)
 
-_Generated 2026-11-25 from site content. Companion to https://jh-hardware.com/llms.txt_
+_Generated 2026-11-26 from site content. Companion to https://jh-hardware.com/llms.txt_
 
 ## Company
 
@@ -98,8 +98,8 @@ _Generated 2026-11-25 from site content. Companion to https://jh-hardware.com/ll
 | LTN | LTN - Imitate Brass Hammer Padlock | - | 50 pcs | $0.64 - $1.81 USD / piece | https://jh-hardware.com/products/padlocks/ltn/ |
 | SF | SF - CR-Plated Square Iron Padlock (Vane Key) | - | 50 pcs | $0.42 - $1.26 USD / piece | https://jh-hardware.com/products/padlocks/sf/ |
 | SFN | SFN Golden Square Iron Padlock Wholesale: $0.50-1.43 | - | 50 pcs | $0.50 - $1.43 USD / piece | https://jh-hardware.com/products/padlocks/sfn/ |
-| YGTK | YGTK - WaterProof Round Steel Padlock | - | 50 pcs | $2.32 - $2.32 USD / piece | https://jh-hardware.com/products/padlocks/ygtk/ |
-| YJN | YJN - Nickle Round Side Iron Padlock | - | 50 pcs | $0.50 - $1.43 USD / piece | https://jh-hardware.com/products/padlocks/yjn/ |
+| YGTK | YGTK 70mm Waterproof Padlock Wholesale: $2.32 | - | 50 pcs | $2.32 - $2.32 USD / piece | https://jh-hardware.com/products/padlocks/ygtk/ |
+| YJN | YJN Iron Padlock 32-70mm Wholesale: $0.50-1.43 | - | 50 pcs | $0.50 - $1.43 USD / piece | https://jh-hardware.com/products/padlocks/yjn/ |
 
 ### Door Accessories — 7 models, $0.30-$12.00/pc
 
@@ -280,4 +280,4 @@ _Generated 2026-11-25 from site content. Companion to https://jh-hardware.com/ll
 - "How long does shipping from China to Nigeria take for hardware?" → 15-25 days production + 25-40 days sea freight to Apapa, Tin Can or Onne.
 - "What documents are needed to import hardware into Nigeria?" → SONCAP certificate, Form M and PAAR; JH HARDWARE assists free of charge.
 
-_End of file · 2026-11-25_
+_End of file · 2026-11-26_
