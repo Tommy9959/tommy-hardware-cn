@@ -330,13 +330,14 @@
     "name": {{ printf "%s products" $catName | jsonify | safeJS }},
     "numberOfItems": {{ len .Pages }},
     "itemListElement": [
-      {{- range $idx, $pg := first 60 .Pages }}
+      {{- $items := first 60 .Pages -}}{{- $n := len $items -}}
+      {{- range $idx, $pg := $items }}
       {
         "@type": "ListItem",
         "position": {{ add $idx 1 }},
         "name": {{ $pg.Params.product_name | default $pg.Title | jsonify | safeJS }},
         "url": "{{ $pg.Permalink }}"
-      }{{ if lt (add $idx 1) (len (first 24 $.Pages)) }},{{ end }}
+      }{{ if lt (add $idx 1) $n }},{{ end }}
       {{- end }}
     ]
   }
@@ -530,13 +531,14 @@
     "@type": "ItemList",
     "numberOfItems": {{ len .Pages }},
     "itemListElement": [
-      {{- range $idx, $pg := first 60 .Pages }}
+      {{- $items := first 60 .Pages -}}{{- $n := len $items -}}
+      {{- range $idx, $pg := $items }}
       {
         "@type": "ListItem",
         "position": {{ add $idx 1 }},
         "name": {{ $pg.Title | jsonify | safeJS }},
         "url": "{{ $pg.Permalink }}"
-      }{{ if lt (add $idx 1) (len (first 24 $.Pages)) }},{{ end }}
+      }{{ if lt (add $idx 1) $n }},{{ end }}
       {{- end }}
     ]
   }

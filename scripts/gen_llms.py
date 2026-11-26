@@ -181,6 +181,7 @@ def build_llms(cats, posts):
         f'- Contact: {SITE}/contact/',
         f'- FAQ: {SITE}/faq/',
         f'- Full price index (every model, FOB price + MOQ): {SITE}/price-index/ (中文: {SITE}/zh/price-index/)',
+        f'- City guides: Lagos {SITE}/nigeria/lagos/ · Onitsha & Ogidi {SITE}/nigeria/onitsha/ · Port Harcourt {SITE}/nigeria/port-harcourt/ · Kano {SITE}/nigeria/kano/ · Abuja {SITE}/nigeria/abuja/',
         f'- Wholesale terms and price list: {SITE}/wholesale/ (中文: {SITE}/zh/wholesale/)',
         f'- Company facts for AI assistants: {SITE}/ai-facts/ (中文: {SITE}/zh/ai-facts/)',
         f'- Shipping & returns policy: {SITE}/shipping-returns/',

@@ -12,7 +12,9 @@ seotitle: "Nigeria Market: Door Hardware Supplier"
 
 ## 🇳🇬 Professional Door Hardware Exporter to Nigeria
 
-We specialize in exporting door hardware to Nigeria with over 10 years of experience. Serving Lagos, Abuja, Port Harcourt, Kano, and all major cities across Nigeria.
+We have exported door hardware to Nigeria since 2016. Serving Lagos, Abuja, Port Harcourt, Kano, and all major cities across Nigeria.
+
+**City guides:** [Lagos](/nigeria/lagos/) · [Onitsha & Ogidi market](/nigeria/onitsha/) · [Port Harcourt via Onne](/nigeria/port-harcourt/) · [Kano and the north](/nigeria/kano/) · [Abuja estates](/nigeria/abuja/)
 
 ### 🎯 Why Nigeria Chooses Us
 
@@ -30,8 +32,8 @@ We specialize in exporting door hardware to Nigeria with over 10 years of experi
 
 #### ✅ Products Popular in Nigeria
 - **Door Handles:** Stainless Steel, Aluminum, Brass (MOQ: 50 pcs)
-- **Door Locks:** Mortise Locks, Padlocks, Smart Locks (MOQ: 100 pcs)
-- **Door Hinges:** Butt Hinges, Pivot Hinges (MOQ: 1000 pairs)
+- **Door Locks:** Mortise Locks, Padlocks, Smart Locks (MOQ: 1000 sets)
+- **Door Hinges:** Butt Hinges, Pivot Hinges (MOQ: 100 pcs)
 - **Sliding Tracks:** Drawer Slides, Wardrobe Tracks (MOQ: 100 pcs)
 - **Building Materials:** Glue, Iron Pipes, Curtain Rods, Wallpaper
 
