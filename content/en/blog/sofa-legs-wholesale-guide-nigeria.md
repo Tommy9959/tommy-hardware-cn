@@ -14,6 +14,15 @@ categories:
   - Product Guide
 seotitle: "Sofa Legs Wholesale Nigeria: Sourcing Guide"
 tldr: "Sofa legs ship by the carton in wood, metal and plastic, 4-10 inch, with weight capacity and finish driving price. Plastic is cheapest and lightest to ship; metal and wood carry the premium furniture that Nigerian workshops sell to hotels and estates."
+faqs:
+  - q: "What sofa leg heights are standard?"
+    a: "100mm and 150mm cover most sofas and armchairs; 200mm+ is used on mid-century styles. Height must be quoted with the fixing type, because the thread decides whether the leg can be swapped later."
+  - q: "Wood, metal or plastic legs?"
+    a: "Wood for premium upholstery, metal for modern and outdoor pieces, plastic for volume furniture where cost per piece dominates. In coastal cities, powder-coated metal outperforms untreated wood."
+  - q: "What thread sizes are common?"
+    a: "M8 and M10 bolts with a hanger bolt or plate fixing. Confirm the thread with the frame supplier before ordering 5,000 pieces."
+  - q: "What is the price and MOQ?"
+    a: "$2.00-$6.00 per piece FOB Yiwu, MOQ 500 pieces per model, mixed models in one container."
 ---
 
 ## Sofa Legs Wholesale Guide for Nigeria: Types, Materials & Sourcing Tips

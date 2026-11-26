@@ -67,33 +67,33 @@
         <section class="related-products">
             <h2>{{ if eq .Site.Language.Lang "zh" }}相关产品{{ else }}{{ if eq .Site.Language.Lang "en" }}Related Products{{ else }}المنتجات ذات الصلة{{ end }}{{ end }}</h2>
             <div class="products-grid">
-                {{ $currentLang := .Site.Language.Lang }}
-                {{ $relatedProducts := where .Site.RegularPages "Section" "products" }}
-                {{ $relatedProducts = where $relatedProducts "Site.Language.Lang" "eq" $currentLang }}
-                {{ $shuffledProducts := shuffle $relatedProducts }}
-                {{ $count := 0 }}
-                {{ range $shuffledProducts }}
-                {{ if lt $count 4 }}
-                {{ $count = add $count 1 }}
+                {{- range (slice "/products/door-locks" "/products/door-hinges" "/products/door-handles" "/products/padlocks") }}
+                {{- with site.GetPage . }}
                 <div class="product-card">
                     <div class="product-icon">🔧</div>
                     <h3>{{ .Title }}</h3>
-                    {{ if .Params.product_name }}
-                    <p>{{ .Params.product_name | truncate 50 }}</p>
-                    {{ else if .Description }}
-                    <p>{{ .Description | truncate 50 }}</p>
-                    {{ end }}
-                    {{ if .Params.price_range }}
-                    <p class="product-price">{{ .Params.price_range }}</p>
-                    {{ end }}
+                    {{ with .Description }}<p>{{ . | truncate 60 }}</p>{{ end }}
                     <a href="{{ .RelPermalink }}" class="btn btn-primary">
                         {{ if eq $.Site.Language.Lang "zh" }}查看详情{{ else }}{{ if eq $.Site.Language.Lang "en" }}View Details{{ else }}عرض التفاصيل{{ end }}{{ end }}
                     </a>
                 </div>
-                {{ end }}
-                {{ end }}
+                {{- end }}
+                {{- end }}
             </div>
         </section>
+
+        {{- if site.GetPage "/nigeria/lagos" }}
+        <section class="city-guides" style="margin:2rem 0;padding:1.25rem 1.5rem;background:#f8f9fb;border-radius:10px;">
+            <h2 style="font-size:1.1rem;margin:0 0 .6rem;">
+                {{ if eq .Site.Language.Lang "zh" }}发货到哪些城市{{ else }}{{ if eq .Site.Language.Lang "ar" }}الشحن إلى المدن{{ else }}Shipping to{{ end }}{{ end }}
+            </h2>
+            <p style="margin:0;line-height:2;">
+                {{- range (slice "/nigeria/lagos" "/nigeria/onitsha" "/nigeria/port-harcourt" "/nigeria/kano" "/nigeria/abuja") }}
+                {{- with site.GetPage . }}<a href="{{ .RelPermalink }}" style="margin-right:1rem;">{{ .Title | truncate 34 }}</a>{{ end }}
+                {{- end }}
+            </p>
+        </section>
+        {{- end }}
 
         <!-- Contact CTA -->
         <div class="contact-cta">

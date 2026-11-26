@@ -257,6 +257,15 @@
         {{ end }}
 
         <!-- 相关产品 - 优先同品类 -->
+        {{- if site.GetPage "/nigeria/lagos" }}
+        <p class="ship-cities" style="max-width:900px;margin:0 auto 1.5rem;padding:0 1.25rem;font-size:.95rem;color:#555;">
+            {{ if eq .Site.Language.Lang "zh" }}发货口岸与城市：{{ else }}{{ if eq .Site.Language.Lang "ar" }}مدن الشحن: {{ else }}Shipping guides: {{ end }}{{ end }}
+            {{- range (slice "/nigeria/lagos" "/nigeria/onitsha" "/nigeria/port-harcourt" "/nigeria/kano" "/nigeria/abuja") }}
+            {{- with site.GetPage . }}<a href="{{ .RelPermalink }}" style="margin-right:.75rem;">{{ .Title | truncate 30 }}</a>{{ end }}
+            {{- end }}
+        </p>
+        {{- end }}
+
         <section class="related-products">
             <h2>{{ if eq .Site.Language.Lang "zh" }}同品类产品{{ else }}{{ if eq .Site.Language.Lang "en" }}More Products in This Category{{ else }}المزيد من المنتجات في هذه الفئة{{ end }}{{ end }}</h2>
             <div class="products-grid">

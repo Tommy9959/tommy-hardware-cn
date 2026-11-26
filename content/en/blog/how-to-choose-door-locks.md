@@ -7,6 +7,15 @@ date: "2026-04-29"
 tags: ["door locks", "what sells", "Nigeria market", "sales data", "from our experience"]
 categories: ["From Our Experience"]
 tldr: "Door locks start at $2.50 per piece FOB Yiwu. Iron plate mortise locks dominate Nigerian housing because the installation pattern is universal, while cylinder and rim locks are specified for commercial doors and higher-security entrances."
+faqs:
+  - q: "What type of lock is standard on Nigerian doors?"
+    a: "The iron plate mortise lock with a cylinder, fitted to the steel security doors used across Lagos, Onitsha and the north. Complete sets with cylinder and keys run $10-$30 FOB; bodies alone $2.50-$5.00."
+  - q: "How do I measure the backset before ordering?"
+    a: "Measure from the door edge to the centre of the keyhole. 50mm and 60mm cover most Nigerian doors; ordering the wrong backset is the most common reason a lock cannot be fitted."
+  - q: "What is the difference between a $3 and a $5 lock?"
+    a: "Face plate plating thickness, cylinder pin quality and the smoothness of the bolt. On the coast the cheap one rusts first; inland the difference shows in how long the key stays smooth."
+  - q: "What is the MOQ for door locks?"
+    a: "1000 sets per model, packed 20 sets per carton. Sample orders of 100 pieces are accepted for first-time buyers."
 ---
 
 ## What Door Locks Actually Sell in Nigeria (10 Years of Sales Data)

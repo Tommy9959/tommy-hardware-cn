@@ -18,6 +18,15 @@ categories:
   - Product Guide
 seotitle: "Edge Banding Price Nigeria: PVC 0.4mm-3mm"
 tldr: "PVC edge banding runs 0.4-3mm: 0.4-0.8mm for interior furniture, 1-2mm for high-wear edges, 3mm for postforming. Melamine is the cheapest and chips first; ABS is the durable upgrade. It is priced per roll FOB Yiwu and ships cheaply by volume."
+faqs:
+  - q: "What thickness edge banding do Nigerian workshops use?"
+    a: "0.5mm for low-cost furniture and 1-2mm for kitchen and office work that takes knocks. Thickness, not width, decides how the edge survives a chair leg."
+  - q: "PVC or melamine edge banding?"
+    a: "PVC for kitchens, bathrooms and anything near water; melamine for dry interior furniture where colour matching matters more than impact resistance."
+  - q: "How much edge banding comes on a roll?"
+    a: "Standard rolls are 50m or 100m; the price is quoted per metre, and glue-line quality decides whether the band lifts at the corners within a year."
+  - q: "What is the MOQ and how is it shipped?"
+    a: "Quoted per carton of rolls, shipped with the rest of a furniture-fittings order; 15-25 days production and 25-35 days to Lagos."
 ---
 
 ## The Complete Edge Banding Guide for Nigeria

@@ -7,6 +7,15 @@ date: "2026-05-21"
 tags: ["padlocks", "Nigeria market", "product guide", "what sells"]
 categories: ["Product Guide"]
 tldr: "Padlock wholesale prices in Nigeria run $0.42–$2.71 per piece FOB Yiwu: chrome square iron from $0.42, waterproof plastic-cover $0.94–$2.28, heavy-duty iron $2.40–$2.71. 50–70mm sells best; in Lagos and Port Harcourt specify plastic-cover or brass-cylinder models — unplated iron seizes within one rainy season."
+faqs:
+  - q: "How much does a padlock cost wholesale from China?"
+    a: "$0.42-$2.71 per piece FOB Yiwu. Brass and hardened-shackle models sit at the top; chrome-plated iron square padlocks are the cheapest and the fastest movers in Nigerian markets."
+  - q: "Which padlock sells best in Nigeria?"
+    a: "50-63mm brass or plastic-cover waterproof padlocks. The waterproof cover matters on gates and outdoor shutters, and it is the difference between a padlock that lasts two years and one that seizes in one rainy season."
+  - q: "Brass or iron padlock?"
+    a: "Brass body with a hardened shackle for security doors and shops; iron with a plastic cover where price per piece decides. Iron rusts at the shackle once the plating wears, which in Lagos happens within a season or two."
+  - q: "What is the MOQ and lead time?"
+    a: "50 pieces per model, production 15-25 days, then 25-35 days sea freight to Lagos or 30-40 days to Onne."
 ---
 
 ## Padlocks for Africa: Which Type Actually Sells Best in Nigeria? (2026 Data)
