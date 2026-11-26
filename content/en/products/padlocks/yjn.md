@@ -1,6 +1,6 @@
 ---
-title: 'YJN - Nickle Round Side Iron Padlock'
-description: "Wholesale YJN - Nickle Round Side Iron Padlock in Iron Body, Half Brass Cylinder, A3 Steel Shackle, Nickel Painting — $0.50 - $1.43 USD / piece FOB Yiwu,..."
+title: 'YJN Iron Padlock 32-70mm Wholesale: $0.50-1.43'
+description: "$0.50-1.43/pc FOB Yiwu for the YJN nickle round iron padlock, five sizes 32-70mm, 48-192 pcs/carton, MOQ 50 pcs, wholesale supply to Nigeria."
 image: /images/products/padlocks/yjn.jpg
 tags:
   - 'YJN padlock'
@@ -31,7 +31,11 @@ faqs:
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is YJN packed for export?"
     answer: "Export carton, packed for sea freight."
-seotitle: "YJN Padlock Wholesale: $0.50-1.43"
+  - question: "Which YJN size sells first?"
+    answer: "The 50mm (RD-YJN50, 246g, 96 pcs/carton, $0.89) is the middle of the ladder and the usual starting point, with 32mm at 192 pcs/carton for boxes and lockers. All five sizes share one body style, so the mix can be adjusted on the next order."
+  - question: "Why do YJN cartons hold fewer pieces as the size goes up?"
+    answer: "Piece weight runs from 90g at 32mm to 500g at 70mm, so the same export carton holds 192 pieces at the small end and 48 at 60mm and 70mm. Send the size split and we return the carton count before you confirm."
+seotitle: "YJN Iron Padlock 5 Sizes: $0.50-1.43"
 ---
 
 ## YJN - Nickle Round Side Iron Padlock
@@ -64,9 +68,11 @@ This model is specified for gates, shop shutters, containers and lockers — typ
 
 ## Who buys the YJN
 
-The YJN series runs 5 sizes from 32mm to 70mm, priced $0.5-1.43 per piece and packed 48-192 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Alaba and Ladipo in Lagos buy it one carton first, then by the series once the size mix is proven.
+The YJN is the size ladder of this range: 32, 38, 50, 60 and 70mm on one body style, $0.50 to $1.43 a piece. Weight climbs from 90g to 500g and the carton count falls the other way — 192 pieces at 32mm, 48 at 60 and 70mm — so the size mix decides both the freight and the shelf.
 
-Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. One caution: salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
+That is why it is the reorder line for lock traders in **Onitsha Main Market** and **Ogidi**: small sizes for boxes, lockers and bag zips, the 60 and 70mm for gates and shop shutters, all on one order. In **Lagos — Alaba and Ladipo** the same trader splits a carton between 38mm and 50mm for the counter display, and in **Aba (Ariaria)** the 32mm is the impulse item at the stall.
+
+Where it is the wrong choice: a gate standing in salt air — the nickel finish is a painted surface, and the waterproof YGTK is the better quote for the coast.
 
 ### Ordering YJN from JH HARDWARE
 
@@ -91,10 +97,17 @@ Nickel Painting. Other finishes can be produced on request; finishes are quoted 
 **How is YJN packed for export?**
 Export carton, packed for sea freight.
 
+**Which YJN size sells first?**
+The 50mm (RD-YJN50, 246g, 96 pcs/carton, $0.89) is the middle of the ladder and the usual starting point, with 32mm at 192 pcs/carton for boxes and lockers. All five sizes share one body style, so the mix can be adjusted on the next order.
+
+**Why do YJN cartons hold fewer pieces as the size goes up?**
+Piece weight runs from 90g at 32mm to 500g at 70mm, so the same export carton holds 192 pieces at the small end and 48 at 60mm and 70mm. Send the size split and we return the carton count before you confirm.
+
 ### Related
 
 - [Padlocks price list](/products/padlocks/)
 - [Door hardware price list Nigeria 2026](/blog/door-hardware-price-list-nigeria-2026/)
+- [SONCAP, Form M and PAAR for Nigerian imports](/blog/soncap-form-m-paar-nigeria-import-certification/)
 
 **Other models in this range:**
 

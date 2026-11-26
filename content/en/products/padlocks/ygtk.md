@@ -1,6 +1,6 @@
 ---
-title: 'YGTK - WaterProof Round Steel Padlock'
-description: "YGTK - WaterProof Round Steel Padlock — Iron Body, Solid Brass Cylinder, A3 Steel Shackle, Plastic Cover. $2.32 - $2.32 USD / piece FOB Yiwu, MOQ 50 pcs...."
+title: 'YGTK 70mm Waterproof Padlock Wholesale: $2.32'
+description: "$2.32/pc FOB Yiwu for the YGTK 70mm waterproof padlock — iron body, solid brass cylinder, A3 shackle, 36 pcs/carton, MOQ 50 pcs, shipping to Nigeria."
 image: /images/products/padlocks/ygtk.jpg
 tags:
   - 'waterproof padlock'
@@ -31,7 +31,11 @@ faqs:
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is YGTK packed for export?"
     answer: "Export carton, packed for sea freight."
-seotitle: "YGTK Padlock Wholesale: $2.32-2.32"
+  - question: "Why does the YGTK come in one size only?"
+    answer: "The YGTK series is built around a single 70mm body — 71x56x31mm, 10.5mm A3 shackle, 568g, 36 pcs per carton. One size keeps the carton count fixed, so a reorder is a straight repeat; if you need 32-60mm as well, take the YJN series."
+  - question: "Is the YGTK the right padlock for coastal gates?"
+    answer: "It is the model we quote first for salt-air sites such as Port Harcourt and Onne: iron body, solid brass cylinder and an A3 steel shackle under a plastic cover. Confirm the quantity and we ship 36 pcs to the carton."
+seotitle: "YGTK 70mm Waterproof Padlock Wholesale"
 ---
 
 ## YGTK - WaterProof Round Steel Padlock
@@ -60,9 +64,11 @@ This model is specified for gates, shop shutters, containers and lockers — typ
 
 ## Who buys the YGTK
 
-The YGTK series runs 1 sizes from 70mm to 70mm, priced $2.32-2.32 per piece and packed 36-36 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Kano and Abuja buy it one carton first, then by the series once the size mix is proven.
+The YGTK is the one-size answer in this range: a single 70mm round body (71x56x31mm) on a 10.5mm A3 steel shackle, 568g a piece, 36 to the export carton. Because there is only one SKU, a trader can stack it without deciding a size mix first — which is why it sits behind the counter in **Onitsha Main Market** and **Ogidi**, sold against shop shutters, market stalls and container doors.
 
-Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. One caution: salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
+In **Lagos — Alaba and Ladipo** it is ordered beside the YJN series: the YGTK for the rain-facing job, the smaller YJN sizes for boxes and lockers. In **Aba (Ariaria)** it is bought by the dozen for the same reason — no size confusion at the stall.
+
+The plastic cover over the iron body is the point of this model, so for **Port Harcourt and Onne** it is the padlock we quote first when the buyer says the gate stands in salt air. Where it is the wrong choice: buyers who want to compare sizes on one card — that order belongs to the YJN.
 
 ### Ordering YGTK from JH HARDWARE
 
@@ -87,10 +93,17 @@ Plastic Cover. Other finishes can be produced on request; finishes are quoted pe
 **How is YGTK packed for export?**
 Export carton, packed for sea freight.
 
+**Why does the YGTK come in one size only?**
+The YGTK series is built around a single 70mm body — 71x56x31mm, 10.5mm A3 shackle, 568g, 36 pcs per carton. One size keeps the carton count fixed, so a reorder is a straight repeat; if you need 32-60mm as well, take the YJN series.
+
+**Is the YGTK the right padlock for coastal gates?**
+It is the model we quote first for salt-air sites such as Port Harcourt and Onne: iron body, solid brass cylinder and an A3 steel shackle under a plastic cover. Confirm the quantity and we ship 36 pcs to the carton.
+
 ### Related
 
 - [Padlocks price list](/products/padlocks/)
 - [Door hardware price list Nigeria 2026](/blog/door-hardware-price-list-nigeria-2026/)
+- [SONCAP, Form M and PAAR for Nigerian imports](/blog/soncap-form-m-paar-nigeria-import-certification/)
 
 **Other models in this range:**
 
