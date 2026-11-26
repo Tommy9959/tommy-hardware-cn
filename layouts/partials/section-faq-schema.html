@@ -1,0 +1,20 @@
+{{- /* 栏目页 FAQPage：/nigeria/、/africa/ 等 section 的 faqs 输出结构化数据。
+       单页（产品/博客/静态页）的 FAQPage 由 seo.html 或 product-faq-schema.html 负责。 */ -}}
+{{- if and .IsSection .Params.faqs -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "{{ .Permalink }}#faq",
+  "mainEntity": [
+  {{- range $i, $f := .Params.faqs }}{{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $f.q | jsonify | safeJS }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ $f.a | jsonify | safeJS }} }
+    }
+  {{- end }}
+  ]
+}
+</script>
+{{- end -}}

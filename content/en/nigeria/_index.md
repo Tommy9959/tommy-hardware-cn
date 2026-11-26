@@ -6,6 +6,17 @@ author: "JH HARDWARE"
 canonical: "https://jh-hardware.com/en/nigeria/"
 robots: "index, follow"
 seotitle: "Nigeria Market: Door Hardware Supplier"
+tldr: "JH HARDWARE ships door hardware from Yiwu to Nigeria: locks $2.50-$5.00, hinges $0.35-$2.50, padlocks $0.42-$2.71 per piece FOB, MOQ 50-1000 pcs, production 15-25 days, sea freight 25-35 days to Lagos (Apapa/Tin Can) or 30-40 days to Onne. SONCAP, Form M and PAAR support is included."
+faqs:
+  - q: "How much does door hardware cost in Nigeria?"
+    a: "Iron plate mortise locks $2.50-$5.00 per piece, hinges $0.35-$2.50, padlocks $0.42-$2.71 and door handles $1.00-$6.00, all FOB Yiwu. Landed cost in Lagos runs 35-45% higher after freight, duty, VAT and clearing."
+  - q: "What is the minimum order for Nigeria?"
+    a: "50 pieces per model for padlocks and handles, 100 for hinges, 500 for accessories and fittings, 1000 sets for door locks. Mixed containers are standard."
+  - q: "Which port is best for Nigeria?"
+    a: "Lagos (Apapa or Tin Can) for the south-west, 25-35 days. Onne for the south-east and Port Harcourt, 30-40 days, which removes the Lagos truck leg."
+  - q: "Do you support SONCAP and Form M?"
+    a: "Yes, at no extra fee, along with PAAR. The documents must start before shipment, so product details are collected at the quotation stage."
+
 ---
 
 ## Nigeria Market - Door Hardware Supplier
