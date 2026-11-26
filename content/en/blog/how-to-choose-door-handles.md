@@ -8,6 +8,15 @@ tags: ["door handles", "what sells", "Nigeria market", "mistakes to avoid", "fro
 categories: ["From Our Experience"]
 seotitle: "Door Handle Price Nigeria 2026: Buying Guide"
 tldr: "Door handles start at $1.20 per piece FOB Yiwu. Lever handles outsell knobs on Nigerian exterior doors because they work with a wet or full hand, while rose and plate handles dominate interior doors; SS304 is the safe default for coastal cities."
+faqs:
+  - q: "How much do door handles cost in Nigeria in 2026?"
+    a: "$1.00-$6.00 per piece FOB Yiwu: aluminium $1.00-$2.50, SS304 lever handles $1.50-$3.00, solid brass $2.50-$5.00 and commercial high-traffic handles $3.00-$6.00. Landed cost in Lagos runs 35-45% higher."
+  - q: "Lever handle or knob for a Nigerian door?"
+    a: "Lever for anything used with a full or wet hand. A knob needs a firm grip and fails earlier on exterior doors; lever handles are also easier for children and older users. Knobs are fine on interior wardrobe and bathroom doors."
+  - q: "Which handle material survives Nigerian humidity?"
+    a: "SS304 in Lagos, Port Harcourt and any coastal city. Zinc alloy is acceptable inland (Kano, Abuja) if the plating is thick. Thin chrome on zinc blisters within 18 months on a coastal exterior door."
+  - q: "What is the MOQ and lead time for door handles?"
+    a: "50 pieces per model, production 15-25 days after deposit, then 25-35 days sea freight to Lagos or 30-40 days to Onne."
 ---
 
 ## What Door Handles Actually Sell in Nigeria (And What Doesn't) — 10 Years of Experience

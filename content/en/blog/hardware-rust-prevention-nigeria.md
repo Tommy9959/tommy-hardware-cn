@@ -5,6 +5,15 @@ description: "Learn why door hardware rusts so quickly in Nigeria's coastal clim
 tags: ["rust prevention", "hardware maintenance", "stainless steel vs galvanized", "Nigeria climate", "door hardware care"]
 seotitle: "Why Hardware Rusts in Nigeria & Fix"
 tldr: "Hardware rusts fastest within a few kilometres of the coast and during the rainy season; inland cities such as Kano see a fraction of the damage on the same product. Specify material for the destination, not for the invoice."
+faqs:
+  - q: "Why does hardware rust so fast in Nigeria?"
+    a: "Humidity above 80% for most of the year plus salt air on the coast. Rust starts where plating is thinnest — screw heads, hinge knuckles, the edge of a lock face plate — not on flat surfaces."
+  - q: "Does oil or grease stop hinge rust?"
+    a: "No. Oil holds dust and washes off. Graphite powder in the hinge pin and stainless screws do more, because the screw is usually the first part to fail and it takes the hinge with it."
+  - q: "How do I protect hardware during installation?"
+    a: "Fit matching stainless screws, seal cut edges with paint or silicone, and avoid scratching plated surfaces during fitting. A scratched face plate rusts from the scratch outward."
+  - q: "Which finish should I specify for a coastal building?"
+    a: "SS304 for hinges and handles, hot-dip galvanised for structural items, and plated locks with a thick nickel layer. Powder-coated finishes look good but chip at fixing points, which is where rust begins."
 ---
 
 If you've noticed door handles, hinges, and locks rusting within months of installation in Nigeria, you're not alone. This is one of the most common complaints we hear from customers in Lagos, Port Harcourt, and other coastal cities.

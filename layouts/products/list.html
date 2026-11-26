@@ -173,9 +173,9 @@
         {{ if .Content }}
         <div class="category-intro">
             {{ .Content }}
-            <p class="pi-link">
+            {{ if .Site.GetPage "/price-index" }}<p class="pi-link">
                 {{ if eq .Site.Language.Lang "zh" }}全部 120 个型号的 FOB 价格和起订量 → <a href="{{ "/price-index/" | relLangURL }}">价格总表</a>{{ else if eq .Site.Language.Lang "ar" }}<a href="{{ "/price-index/" | relLangURL }}">قائمة الأسعار الكاملة</a>{{ else }}Every model, FOB price and MOQ in one table → <a href="{{ "/price-index/" | relLangURL }}">price index</a>{{ end }}
-            </p>
+            </p>{{ end }}
         </div>
         {{ end }}
 

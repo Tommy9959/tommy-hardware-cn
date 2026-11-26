@@ -138,7 +138,7 @@ industry_categories: ["door_locks", "door_handles", "door_hinges", "padlocks"]
 
 - **[أسعار أقفال الأبواب في نيجيريا 2026 →](https://jh-hardware.com/products/door-locks/)** — قائمة أسعار كاملة مع صور
 - **[أدلة الاستيراد →](https://jh-hardware.com/blog/)** — المزيد من المقالات حول استيراد نيجيريا
-- **[دليل أسعار مقابض الأبواب →](https://jh-hardware.com/blog/door-handle-price-nigeria-2026/)** — تفصيل أسعار 2026
+- **[دليل أسعار مقابض الأبواب →](https://jh-hardware.com/products/door-handles/)** — تفصيل أسعار 2026
 
 ---
 

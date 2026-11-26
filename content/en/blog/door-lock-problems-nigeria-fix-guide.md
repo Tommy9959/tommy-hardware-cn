@@ -8,6 +8,15 @@ tags: ["door lock problems", "door lock repair", "Nigeria maintenance", "Harmatt
 categories: ["Maintenance Guide", "From Our Experience"]
 seotitle: "Lock Jammed? 5 Fixes That Work in Nigeria"
 tldr: "Most locks that jam in Nigeria are suffering from Harmattan dust or a misaligned strike plate, not failure. Clear the cylinder with graphite powder, check the hinges for sag and the strike plate for rub, and replace the lock only when the key turns freely but the bolt does not move."
+faqs:
+  - q: "Why does my door lock stick or jam?"
+    a: "Almost always alignment, not the lock: the door has dropped on its hinges, so the bolt no longer meets the strike plate square. Check the top hinge screws first, then adjust the strike plate. A lock that jams only in the rainy season is swelling timber or a swollen seal, not a failed cylinder."
+  - q: "Why do keys break inside Nigerian door locks?"
+    a: "Thin brass blanks and worn cylinders. A key that needs wiggling is already worn; once it snaps, extraction usually means replacing the cylinder. Buying locks with a thicker key blank and keeping a spare cut at purchase is cheaper than an emergency locksmith."
+  - q: "What is the most common lock failure in Lagos and Port Harcourt?"
+    a: "Rust and corrosion at the face plate and cylinder, not mechanical failure. Coastal humidity attacks plated zinc within 12-18 months. SS304 face plates and a graphite (not oil) lubricant in the cylinder extend life several years."
+  - q: "Which lock should I buy to avoid these problems?"
+    a: "An iron plate mortise lock with a plated or stainless face plate and a cylinder that accepts a standard blank. Our range runs $2.50-$5.00 per piece FOB, MOQ 1000 sets, and the specification differences that matter are plating thickness and cylinder quality, not the pattern."
 ---
 
 ## Door Locks Keep Jamming in Nigeria? Common Problems and How to Fix Them

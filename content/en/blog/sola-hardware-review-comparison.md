@@ -8,6 +8,15 @@ tags: ["SOLA", "brand comparison", "Nigeria market", "door hardware"]
 categories: ["Product Guide"]
 seotitle: "SOLA Hardware Review 2026: Chinese Brand"
 tldr: "SOLA sits between Turkish brands and unbadged Chinese imports: SS304 where corrosion matters, consistent plating, and pricing below Turkish equivalents. The honest limits are lead time from China and the absence of local stock."
+faqs:
+  - q: "Is SOLA hardware good quality?"
+    a: "SOLA is our own brand, made in partner factories in Zhejiang and Guangdong with SGS/CE reports available. The honest answer: it sits in the mid-range — better plating and cylinder quality than the cheapest Chinese locks, below European brands on tolerance."
+  - q: "How does SOLA compare with Chinese unbranded locks?"
+    a: "The difference is in the parts you cannot see: plating thickness on the face plate, cylinder pins, and hinge steel grade. Unbranded locks cost 10-20% less and typically fail a year earlier on the coast."
+  - q: "What is the price range for SOLA locks?"
+    a: "$2.50-$5.00 per piece for iron plate mortise locks, $10-$30 for complete sets with cylinder and keys, FOB Yiwu, MOQ 1000 sets per model."
+  - q: "Can I get samples before committing to a container?"
+    a: "Yes. Samples are couriered in 3-5 days and are the only reliable way to judge plating and cylinder feel; most buyers test two or three models before a first order."
 ---
 
 ## SOLA Hardware Review: Why This Chinese Brand Is Winning the Nigerian Market (2026)

@@ -6,6 +6,15 @@ tags: ["door hinges", "Nigeria construction", "hardware guide", "butt hinges", "
 author: "JH HARDWARE"
 seotitle: "Which Door Hinge? SS304 vs Galvanised, Nigeria"
 tldr: "Door hinge prices in Nigeria start at $0.35/pc for galvanised butt hinges, $0.50 for SS304 and $0.60-1.50 for concealed hinges, FOB Yiwu; pivot hinges run $2.00-3.50. A standard door takes 3 hinges, so the hinge cost per door is roughly $1.05-2.40 galvanised or $1.50-3.60 SS304. MOQ is 100 pcs and production takes 15-25 days. In Lagos and Port Harcourt specify SS304 — zinc-plated steel rusts within months."
+faqs:
+  - q: "How many hinges does a door need?"
+    a: "Three for a standard 2.1 m door, four above 2.4 m or for heavy security doors. Two hinges is the most common installation error in Nigeria and the reason doors drop within a year."
+  - q: "SS304 or galvanised for a Nigerian door?"
+    a: "SS304 in Lagos, Port Harcourt and anywhere coastal; galvanised is fine inland (Kano, Abuja). The price gap is 20-80 cents per piece, which is smaller than one replacement visit."
+  - q: "What size hinge for a standard Nigerian door?"
+    a: "4x3 inch is the volume size for residential doors; 5x4 inch for heavier security and commercial doors. 3 inch hinges belong on cabinet doors, not room doors."
+  - q: "What is the price and MOQ?"
+    a: "$0.35-$2.50 per piece FOB Yiwu depending on material and size, MOQ 100 pieces per model, 15-25 days production plus 25-35 days to Lagos."
 ---
 
 If you're building or renovating in Nigeria—whether it's a residential compound in Lekki, a commercial building in Ikeja, or a school project in Abuja—door hinges are one of those small components that can make or break the whole installation.

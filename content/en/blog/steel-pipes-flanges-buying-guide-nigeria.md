@@ -16,6 +16,17 @@ author: "SOLA Hardware"
 draft: false
 seotitle: "Steel Pipes & Flanges Price Nigeria 2026"
 tldr: "Steel pipes and flanges for Nigeria are priced per kilogram or per tonne FOB, with flange standards (ANSI/BS) and wall thickness driving the quote. SONCAP clearance needs a mill certificate behind it. The guide covers sizes, weight per metre, container loading, and the document chain from mill certificate to PAAR."
+faqs:
+  - q: "What's the minimum order quantity for steel pipes?"
+    a: "A: MOQ is typically 1 ton per size. Sample orders (20–50 pcs) accepted for quality testing."
+  - q: "How do I verify pipe quality before shipping?"
+    a: "A: We provide material certificates and can arrange third-party inspection (SGS, Bureau Veritas) at your cost."
+  - q: "What payment methods do you accept?"
+    a: "A: T/T (30% deposit, 70% against BL copy), L/C at sight, and Western Union for small orders."
+  - q: "How long does delivery take?"
+    a: "A: Production 15–25 days + shipping 25–35 days = total 40–60 days to Nigerian ports."
+  - q: "Do you supply to government/NNPC projects?"
+    a: "A: Yes. We provide all required documentation for government and oil & gas tenders."
 ---
 
 If you're importing **steel pipes and flanges to Nigeria in 2026**, this is the most comprehensive guide you'll find. From pricing and sizes to shipping logistics and SONCAP certification — everything you need to source these essential building materials from China.

@@ -17,6 +17,15 @@ categories:
   - Product Guide
 seotitle: "Drawer Slides Buying Guide for Nigeria 2026"
 tldr: "Ball-bearing slides rated 25-45kg are the default for kitchen and office drawers; roller slides only suit light, low-cost furniture. In coastal Nigeria specify plated or stainless slides — untreated steel seizes inside a year — and match the rating to the load, not to the price."
+faqs:
+  - q: "What weight rating do I need for drawer slides?"
+    a: "25kg ball-bearing slides for kitchen and wardrobe drawers, 35-45kg for tool drawers and workshop benches. Buyers who under-specify get sagging drawers within a year, which is a return, not a repair."
+  - q: "What is the price of drawer slides in Nigeria?"
+    a: "$5.00-$12.00 per set FOB Yiwu, with length, weight rating and soft-close deciding where in the range a model lands. Landed cost in Lagos adds roughly 35-45%."
+  - q: "Full extension or partial extension?"
+    a: "Full extension for kitchen and workshop drawers so the whole drawer is reachable; partial extension is cheaper and adequate for shallow wardrobe drawers."
+  - q: "What is the MOQ and lead time?"
+    a: "MOQ is quoted per model and per length — mixing lengths in one order is normal. Production is 15-25 days, then 25-35 days sea freight to Lagos."
 ---
 
 ## The Complete Drawer Slides Buying Guide for Nigeria

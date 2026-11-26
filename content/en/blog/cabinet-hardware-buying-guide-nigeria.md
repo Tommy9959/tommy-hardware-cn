@@ -7,7 +7,16 @@ date: "2026-06-03"
 tags: ["cabinet hardware", "hinges", "Nigeria", "buying guide", "wholesale", "kitchen cabinets", "furniture hardware"]
 categories: ["Product Guide"]
 seotitle: "Cabinet Hardware Buying Guide for Nigeria"
-tldr: "Cabinet hardware for Nigeria means 35mm cup hinges, ball-bearing slides rated by weight, and knobs or pulls that survive humid air. MOQ runs 400-100 pieces per model, production 15-25 days, and cabinet hardware ships mixed with door hardware in one container."
+tldr: "Cabinet hardware for Nigeria means 35mm cup hinges, ball-bearing slides rated by weight, and knobs or pulls that survive humid air. MOQ runs 100 pieces per model for cabinet hardware and 500 for furniture fittings, production 15-25 days, and cabinet hardware ships mixed with door hardware in one container."
+faqs:
+  - q: "Which cabinet hinge should I buy for Nigerian kitchens?"
+    a: "A 35mm cup hinge with 100-110 degree opening, in nickel-plated steel or SS304. Soft-close is now standard in mid-market kitchens; the cost difference per hinge is small and it removes the main complaint buyers have."
+  - q: "What weight rating do drawer slides need?"
+    a: "25kg ball-bearing slides cover most kitchen and wardrobe drawers. Use 35-45kg for tool drawers, workshop benches and anything holding pots. Weight rating, not length, is what drives the price."
+  - q: "What is the MOQ for cabinet hardware?"
+    a: "100 pieces per model for cabinet hardware, 500 pieces for furniture fittings. Mixed models in one container is standard."
+  - q: "How much does cabinet hardware cost?"
+    a: "$0.80-$3.50 per piece FOB Yiwu depending on the item and finish, with soft-close and heavier slides at the top of the range."
 ---
 
 > **Tommy's Note:** I've been exporting cabinet hardware to Nigeria for over a decade. This guide is everything I wish my customers knew on day one.

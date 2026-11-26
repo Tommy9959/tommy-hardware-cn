@@ -6,6 +6,15 @@ tags: ["installation guide", "maintenance", "Nigeria market", "door hardware", "
 categories: ["Product Guide"]
 seotitle: "Door Hardware Installation & Rust Prevention"
 tldr: "Humidity, not daily use, is what kills door hardware in Nigeria — rust starts at screw heads and hinge knuckles. Fit matching stainless screws, leave 2-3mm clearance at the lock face, and clear a sticking lock with graphite powder rather than oil, which traps dust."
+faqs:
+  - q: "Why does door hardware rust so fast in Nigeria?"
+    a: "Humidity rather than daily use. Rust starts at screw heads and hinge knuckles, where the plating is thinnest and water sits. Matching stainless screws and a dry hinge pin solve most of it."
+  - q: "How do I stop doors from jamming?"
+    a: "Align the three hinges before tightening, leave a 2-3mm gap on the latch side and do not over-tighten the top hinge. Most jamming in new installations is alignment, not a defective hinge."
+  - q: "How often should hardware be checked?"
+    a: "Every six months on the coast, once a year inland. Check screws for rust, lubricate hinge pins and lock cylinders, and replace any screw that has started to bleed rust."
+  - q: "What should I buy for a coastal building?"
+    a: "SS304 hinges and plated lock faces. Galvanised hardware is acceptable inland, but on the coast it is a replacement cost inside two years."
 ---
 
 My name is Tommy. I've been shipping door hardware to Nigeria for ten years—Lagos, Abuja, Port Harcourt, Onitsha, Kano, you name it. I've seen beautiful doors ruined by bad installation, and I've seen cheap hardware last years when fitted right.

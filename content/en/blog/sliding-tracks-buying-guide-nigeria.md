@@ -7,6 +7,19 @@ categories: ["Products", "Buying Guide"]
 description: "Sliding tracks wholesale guide for Nigeria — drawer slides, wardrobe rails, barn door tracks. Factory prices from China, quality differences explained, import tips. Free SONCAP included."
 seotitle: "Sliding Tracks Price Nigeria 2026 Wholesale"
 tldr: "Drawer slides, wardrobe rails and barn-door tracks run $5.00-12.00 per piece FOB Yiwu. Weight rating drives the price more than length; soft-close and push-to-open are the upgrades buyers ask for, and plated steel is the minimum for coastal Nigeria."
+faqs:
+  - q: "What is the MOQ for sliding tracks?"
+    a: "1,000 pairs for drawer slides, 200 sets for wardrobe rails, 100 sets for barn door tracks. Mixed containers accepted."
+  - q: "Do you offer free samples?"
+    a: "Yes. Free samples, you pay shipping. Delivery: 3-5 days via DHL/FedEx."
+  - q: "How long does production take?"
+    a: "15-20 days for standard orders. Rush orders possible with 50% deposit."
+  - q: "Can you mix different products in one container?"
+    a: "Yes. You can combine sliding tracks, door locks, handles, hinges, and other hardware in one 20ft or 40ft container."
+  - q: "What payment methods do you accept?"
+    a: "T/T (bank transfer), L/C for large orders. 30% deposit, 70% before shipment."
+  - q: "Do you ship to African ports other than Nigeria?"
+    a: "Yes. We ship to Ghana (Tema), Kenya (Mombasa), Tanzania (Dar es Salaam), Dubai (Jebel Ali), and 30+ other ports."
 ---
 
 When you walk into a hardware store in Lagos, Onitsha, or Kano, you'll see dozens of sliding tracks and drawer slides stacked on the shelves — but **most of them are low-quality** and will fail within months.

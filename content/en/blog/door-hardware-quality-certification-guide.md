@@ -8,6 +8,15 @@ tags: ["customs clearance", "Nigeria tips", "certifications", "quality control",
 categories: ["From Our Experience"]
 seotitle: "SONCAP, Form M & PAAR: Nigeria Import Guide"
 tldr: "A hardware container into Nigeria needs three documents in the right order: Form M opened before shipment, the SONCAP certificate from an accredited inspection body, then PAAR at the destination port. Get the sequence wrong and the container sits at Apapa accruing demurrage."
+faqs:
+  - q: "In what order do Form M, SONCAP and PAAR happen?"
+    a: "Form M is opened through your bank before shipment, the SONCAP certificate is issued by an accredited inspection body before the goods ship, and PAAR is raised at the destination port before clearing. Getting the order wrong is what causes demurrage."
+  - q: "How long does SONCAP take?"
+    a: "Usually one to two weeks after inspection and testing, which is why product details are collected at quotation stage rather than after production ends."
+  - q: "Who pays for SONCAP and Form M?"
+    a: "The importer pays the issuing bodies and the bank. We supply product details, invoices and test reports at no fee, so the paperwork can be started without waiting on us."
+  - q: "What happens if the documents are late?"
+    a: "The container cannot be cleared and starts accruing demurrage at the port. A week of storage can exceed the margin on the whole shipment, which is why documents are usually the first thing to confirm."
 ---
 
 ## Nigeria Import Certifications 2026: SONCAP, Form M, PAAR — What You Actually Need (10 Years of Experience)

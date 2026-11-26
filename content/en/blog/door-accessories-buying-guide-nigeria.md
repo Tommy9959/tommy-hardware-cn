@@ -7,6 +7,17 @@ categories: ["Products", "Buying Guide"]
 description: "Door accessories wholesale guide for Nigeria — door closers, stoppers, viewers, security chains. Factory prices, quality levels explained, import tips. Free SONCAP support."
 seotitle: "Door Accessories Price Nigeria 2026"
 tldr: "Door closers, stoppers, viewers and security chains run $0.30-12.00 per piece FOB Yiwu. Door closers are the item most often returned: buy adjustable closing speed and a body that matches the door weight, not the cheapest fixed-force model."
+faqs:
+  - q: "What is the MOQ for door accessories?"
+    a: "500-2,000 pcs per model depending on the item. Mixed containers welcome."
+  - q: "Do you offer free samples?"
+    a: "Yes. Free samples, you pay shipping. Delivery in 3-5 days via courier."
+  - q: "Can I mix door accessories with other hardware?"
+    a: "Yes. Combine with door locks, handles, hinges, sliding tracks in one container."
+  - q: "What payment methods?"
+    a: "T/T (30% deposit, 70% before shipment). L/C for large orders."
+  - q: "How long is production?"
+    a: "15-20 days for standard orders."
 ---
 
 When building a house or office in Nigeria, the door gets all the attention — but it's the **accessories** that make it work properly.

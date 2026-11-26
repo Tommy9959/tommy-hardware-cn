@@ -8,6 +8,19 @@ tags: ["SONCAP", "Form M", "PAAR", "Nigeria customs", "import certification", "A
 categories: ["Nigeria Import Guide"]
 lastmod: 2026-11-03
 tldr: "Three documents decide whether a hardware container clears Apapa: Form M (opened through your bank before shipment), the SONCAP certificate (issued by an accredited inspection body) and PAAR (raised at the destination port). The guide gives the order to do them in, the timelines, the paperwork each step needs, and the mistakes that leave containers stuck."
+faqs:
+  - q: "Can I get SONCAP after my goods arrive at Apapa?"
+    a: "A: Technically yes, but it's expensive and risky. Your container sits at port, incurring storage fees, while you wait for the certificate. Always get SONCAP before shipping."
+  - q: "How long is SONCAP valid?"
+    a: "A: A single shipment certificate is valid for that specific shipment only. A product registration certificate is valid for 1 year and covers multiple shipments."
+  - q: "Can I file Form M myself online?"
+    a: "A: In 2026, Form M must be filed through a Nigerian bank using the CBN Trade System portal. You cannot file it directly."
+  - q: "What if my bank doesn't have a Form M desk?"
+    a: "A: Use a different bank. Not all Nigerian banks handle Form M efficiently. Stick with Zenith, GTBank, Access, First Bank, or UBA."
+  - q: "Do I need a clearing agent?"
+    a: "A: For your first few shipments, yes. A good clearing agent is worth every Naira. They know the customs officers, the paperwork shortcuts (legal ones), and how to handle document discrepancies."
+  - q: "What's the fastest I can clear Apapa?"
+    a: "A: With proper documentation and a good clearing agent: 3-7 days after arrival. Without proper documentation: 30-90+ days. ---"
 ---
 
 ## SONCAP, Form M & PAAR — Complete Nigeria Import Certification Guide 2026
