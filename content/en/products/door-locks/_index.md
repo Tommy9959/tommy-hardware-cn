@@ -75,7 +75,7 @@ seotitle: "Door Lock Price in Nigeria 2026: $2.50/pc"
 
 Every lock we supply is an **iron plate mortise lock with an aluminium handle** — the format Nigerian security doors are cut for. What changes between models is the handle design, the plate size, the finish and the weight of the carton. That is why the models we supply run from **$2.50 to $5.00 per piece**, with one lock set at $10.00-$30.00.
 
-MOQ is **1000 sets per model** (1000 sets on some models), and cartons hold **20-24 pcs** at **19.8-26.1 kg**. A first order usually mixes 5-10 models rather than filling a container with one design.
+MOQ is **1000 sets per model** (20 sets per carton), and cartons hold **20-24 pcs** at **19.8-26.1 kg**. A first order usually mixes 5-10 models rather than filling a container with one design.
 
 ## Door lock types in Nigeria — and which one we supply
 
@@ -128,7 +128,7 @@ The same logic covers Harmattan dust: it grinds inside an unlubricated cylinder.
 
 ## MOQ, cartons and mixed containers
 
-- **MOQ:** 1000 sets per model at standard terms; 1000 sets per model on some models. A trial order of 100 pcs is accepted for first-time buyers.
+- **MOQ:** 1000 sets per model (20 sets per carton). A trial order of 100 pcs is accepted for first-time buyers.
 - **Carton:** 20-24 pcs, 19.8-26.1 kg, listed per model in the table above.
 - **Mixed containers:** door locks ship happily alongside [door hinges](/products/door-hinges/), [door handles](/products/door-handles/), [padlocks](/products/padlocks/) and [sliding tracks](/products/sliding-tracks/) in one 20ft or 40HQ. Mixed containers are how most first orders leave Yiwu.
 

@@ -330,7 +330,7 @@
     "name": {{ printf "%s products" $catName | jsonify | safeJS }},
     "numberOfItems": {{ len .Pages }},
     "itemListElement": [
-      {{- range $idx, $pg := first 24 .Pages }}
+      {{- range $idx, $pg := first 60 .Pages }}
       {
         "@type": "ListItem",
         "position": {{ add $idx 1 }},
@@ -530,7 +530,7 @@
     "@type": "ItemList",
     "numberOfItems": {{ len .Pages }},
     "itemListElement": [
-      {{- range $idx, $pg := first 24 .Pages }}
+      {{- range $idx, $pg := first 60 .Pages }}
       {
         "@type": "ListItem",
         "position": {{ add $idx 1 }},

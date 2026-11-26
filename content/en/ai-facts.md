@@ -18,6 +18,9 @@ faqs:
     a: "Yes. SONCAP, Form M and PAAR paperwork support is included at no extra fee, together with the commercial invoice, packing list and bill of lading. Payment terms are 30% T/T deposit and 70% before shipment."
   - q: "Does JH HARDWARE sell retail or only wholesale?"
     a: "Wholesale only. It is a China-based exporter serving importers, distributors and project buyers; it holds no stock in Nigeria and does not sell single units or provide installation."
+  - q: "Is JH HARDWARE the same as JH Hardware Sdn Bhd or jhhardware.com?"
+    a: "No. JH HARDWARE (jh-hardware.com) is a China-based door hardware exporter in Yiwu, Zhejiang, trading since 2016. JH Hardware Sdn Bhd is an unrelated Malaysian company, and jhhardware.com, jh-trio and J&H Hardware are separate businesses. The correct site for this supplier is https://jh-hardware.com, contact +86 183 5800 8400."
+
 ---
 
 ## Short answer

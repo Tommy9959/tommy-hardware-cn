@@ -1,0 +1,68 @@
+{{ define "main" }}
+{{- $lang := .Site.Language.Lang -}}
+{{- $zh := eq $lang "zh" -}}
+{{- $cats := where .Site.Sections "Section" "products" -}}
+{{- $products := where .Site.RegularPages "Section" "products" -}}
+<article class="page-content price-index">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <div class="pi-intro">{{ .Content }}</div>
+
+    <div class="pi-summary">
+      <strong>{{ if $zh }}共{{ else }}Total{{ end }}: {{ len $products }} {{ if $zh }}个型号 / {{ len (index $cats 0).Sections }} 个类目{{ else }}models across {{ len (index $cats 0).Sections }} categories{{ end }}</strong>
+      <span>{{ if $zh }}价格均为 FOB 义乌，2026 年数据{{ else }}All prices FOB Yiwu, 2026{{ end }}</span>
+    </div>
+
+    {{- range (index $cats 0).Sections }}
+    {{- $cat := . -}}
+    {{- $pages := where $cat.RegularPages "Section" "products" -}}
+    {{- if $pages }}
+    <section class="pi-cat">
+      <h2><a href="{{ $cat.RelPermalink }}">{{ $cat.Title }}</a>
+        <small>{{ len $pages }} {{ if $zh }}款{{ else }}models{{ end }}</small>
+      </h2>
+      <table class="pi-table">
+        <thead>
+          <tr>
+            <th>{{ if $zh }}型号{{ else }}Model{{ end }}</th>
+            <th>{{ if $zh }}名称{{ else }}Product{{ end }}</th>
+            <th>{{ if $zh }}材质{{ else }}Material{{ end }}</th>
+            <th>{{ if $zh }}FOB 价{{ else }}FOB price{{ end }}</th>
+            <th>{{ if $zh }}起订量{{ else }}MOQ{{ end }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{- range $pages }}
+          <tr>
+            <td><a href="{{ .RelPermalink }}">{{ .File.ContentBaseName | upper }}</a></td>
+            <td>{{ .Params.product_name | default .Title }}</td>
+            <td>{{ .Params.material | default "—" }}</td>
+            <td>{{ .Params.price_range | default "—" }}</td>
+            <td>{{ .Params.moq | default "—" }}</td>
+          </tr>
+          {{- end }}
+        </tbody>
+      </table>
+    </section>
+    {{- end }}
+    {{- end }}
+
+    <p class="pi-foot">{{ if $zh }}价格随数量、表面处理、尺寸和包装变动，报价时以当期 PI 为准。{{ else }}Prices move with quantity, finish, size and packaging — the proforma invoice is the binding quote.{{ end }}</p>
+  </div>
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "@id": "{{ .Permalink }}#pricelist",
+  "name": {{ .Title | jsonify | safeJS }},
+  "numberOfItems": {{ len $products }},
+  "itemListElement": [
+    {{- $i := 0 }}{{- range (index $cats 0).Sections }}{{- range .RegularPages }}{{- $i = add $i 1 }}
+    {"@type":"ListItem","position":{{ $i }},"name":{{ .Params.product_name | default .Title | jsonify | safeJS }},"url":"{{ .Permalink }}"}
+    {{- if lt $i (len $products) }},{{ end }}{{- end }}{{- end }}
+  ]
+}
+</script>
+{{ end }}

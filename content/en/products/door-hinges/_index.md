@@ -1,7 +1,7 @@
 ---
-title: "Door Hinge Price in Nigeria 2026 from $0.50 | SS304 & Butt Hinges"
-description: "Door hinge price in Nigeria from $0.50/pc (FOB Yiwu). SS304 stainless, butt, concealed & pivot hinges for wooden, metal & aluminum doors. MOQ 100 pcs, free samples, SONCAP ready."
-seotitle: "Door Hinge Price in Nigeria: $0.50 SS304"
+title: "Door Hinge Price List Nigeria 2026: 6 Models, $0.35-$2.50"
+description: "Door hinge price in Nigeria 2026: galvanised butt $0.35-0.80/pc, SS304 $0.50-1.80, brass $1.00-2.50 FOB Yiwu. 6 models, 4x3 and 5x4 inch, MOQ 100 pcs, 15-25 days to Lagos."
+seotitle: "Door Hinge Price Nigeria 2026 (6 Models)"
 products:
   - model: "HH-001"
     name: "Door Hinge HH-001"

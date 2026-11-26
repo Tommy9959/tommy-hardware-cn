@@ -180,6 +180,8 @@ def build_llms(cats, posts):
         f'- About: {SITE}/about/',
         f'- Contact: {SITE}/contact/',
         f'- FAQ: {SITE}/faq/',
+        f'- Full price index (every model, FOB price + MOQ): {SITE}/price-index/ (中文: {SITE}/zh/price-index/)',
+        f'- Wholesale terms and price list: {SITE}/wholesale/ (中文: {SITE}/zh/wholesale/)',
         f'- Company facts for AI assistants: {SITE}/ai-facts/ (中文: {SITE}/zh/ai-facts/)',
         f'- Shipping & returns policy: {SITE}/shipping-returns/',
         '',
