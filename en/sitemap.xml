@@ -1,7 +1,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://jh-hardware.com/price-index/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/price-index/"/></url><url>
+    <loc>https://jh-hardware.com/wholesale/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/wholesale/"/></url><url>
     <loc>https://jh-hardware.com/ai-facts/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/ai-facts/"/></url><url>
@@ -170,7 +180,7 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/blog/hardware-rust-prevention-nigeria/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/blog/hardware-rust-prevention-nigeria/"/></url><url>
     <loc>https://jh-hardware.com/blog/door-hinges-selection-guide-nigeria/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/blog/door-hinges-selection-guide-nigeria/"/>
@@ -752,13 +762,13 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-handles/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-handles/"/></url><url>
     <loc>https://jh-hardware.com/products/door-hinges/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-hinges/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://jh-hardware.com/ar/products/door-hinges/"/></url><url>
     <loc>https://jh-hardware.com/products/door-locks/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://jh-hardware.com/zh/products/door-locks/"/>
