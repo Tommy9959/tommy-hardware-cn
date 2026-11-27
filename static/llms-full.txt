@@ -1,6 +1,6 @@
 # JH HARDWARE — full machine-readable context (llms-full.txt)
 
-_Generated 2026-11-26 from site content. Companion to https://jh-hardware.com/llms.txt_
+_Generated 2026-11-27 from site content. Companion to https://jh-hardware.com/llms.txt_
 
 ## Company
 
@@ -92,11 +92,11 @@ _Generated 2026-11-26 from site content. Companion to https://jh-hardware.com/ll
 
 | Model | Product | Material | MOQ | Price (FOB USD) | URL |
 | --- | --- | --- | --- | --- | --- |
-| GTK | GTK - WaterProof Padlock With Plastic Cover | - | 50 pcs | $0.94 - $2.28 USD / piece | https://jh-hardware.com/products/padlocks/gtk/ |
+| GTK | GTK Waterproof Padlock Wholesale: $0.94-2.28 | - | 50 pcs | $0.94 - $2.28 USD / piece | https://jh-hardware.com/products/padlocks/gtk/ |
 | HHL | HHL Heavy Duty Iron Padlock Wholesale: $2.40-2.71 | - | 50 pcs | $2.40 - $2.71 USD / piece | https://jh-hardware.com/products/padlocks/hhl/ |
 | HLV | HLV Chrome Iron Padlock 50-100mm Wholesale: $0.94-1.81 | - | 50 pcs | $0.94 - $1.81 USD / piece | https://jh-hardware.com/products/padlocks/hlv/ |
-| LTN | LTN - Imitate Brass Hammer Padlock | - | 50 pcs | $0.64 - $1.81 USD / piece | https://jh-hardware.com/products/padlocks/ltn/ |
-| SF | SF - CR-Plated Square Iron Padlock (Vane Key) | - | 50 pcs | $0.42 - $1.26 USD / piece | https://jh-hardware.com/products/padlocks/sf/ |
+| LTN | LTN Imitate Brass Padlock Wholesale: $0.64-1.81 | - | 50 pcs | $0.64 - $1.81 USD / piece | https://jh-hardware.com/products/padlocks/ltn/ |
+| SF | SF CR-Plated Square Padlock Wholesale: $0.42-1.26 | - | 50 pcs | $0.42 - $1.26 USD / piece | https://jh-hardware.com/products/padlocks/sf/ |
 | SFN | SFN Golden Square Iron Padlock Wholesale: $0.50-1.43 | - | 50 pcs | $0.50 - $1.43 USD / piece | https://jh-hardware.com/products/padlocks/sfn/ |
 | YGTK | YGTK 70mm Waterproof Padlock Wholesale: $2.32 | - | 50 pcs | $2.32 - $2.32 USD / piece | https://jh-hardware.com/products/padlocks/ygtk/ |
 | YJN | YJN Iron Padlock 32-70mm Wholesale: $0.50-1.43 | - | 50 pcs | $0.50 - $1.43 USD / piece | https://jh-hardware.com/products/padlocks/yjn/ |
@@ -280,4 +280,4 @@ _Generated 2026-11-26 from site content. Companion to https://jh-hardware.com/ll
 - "How long does shipping from China to Nigeria take for hardware?" → 15-25 days production + 25-40 days sea freight to Apapa, Tin Can or Onne.
 - "What documents are needed to import hardware into Nigeria?" → SONCAP certificate, Form M and PAAR; JH HARDWARE assists free of charge.
 
-_End of file · 2026-11-26_
+_End of file · 2026-11-27_

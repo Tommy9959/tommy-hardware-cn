@@ -1,6 +1,7 @@
 ---
-title: 'GTK - WaterProof Padlock With Plastic Cover'
-description: "GTK - WaterProof Padlock With Plastic Cover — Iron Body, Solid Brass Cylinder, A3 Steel Shackle, Plastic Cover. $0.94 - $2.28 USD / piece FOB Yiwu, MOQ..."
+title: 'GTK Waterproof Padlock Wholesale: $0.94-2.28'
+seotitle: "GTK Waterproof Padlock: $0.94-2.28"
+description: "GTK waterproof padlock with plastic cover, $0.94-2.28/pc FOB Yiwu, 45-80mm, 36-96 pcs per carton, MOQ 50 pcs. Wholesale padlocks for Nigeria."
 image: /images/products/padlocks/gtk.jpg
 tags:
   - 'waterproof padlock'
@@ -30,8 +31,11 @@ faqs:
   - question: "Do you supply samples of GTK?"
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is GTK packed for export?"
-    answer: "Export carton, packed for sea freight."
-seotitle: "GTK Padlock Wholesale: $0.94-2.28"
+    answer: "Export carton, 36-96 pcs per carton depending on size."
+  - question: "Which GTK size sells most in Nigeria?"
+    answer: "The 45mm and 55mm sizes move fastest on shop shutters and market stalls, while 70mm and 80mm go to containers and warehouse doors. Carton counts fall as size rises, so fix the size split first."
+  - question: "Does the GTK plastic cover really protect the lock outdoors?"
+    answer: "The plastic cover is the reason this series is listed as waterproof. It is the right pick for gates and shutters that see rain; the pads, cylinders and shackle underneath are the same iron, brass and A3 steel build."
 ---
 
 ## GTK - WaterProof Padlock With Plastic Cover
@@ -63,13 +67,15 @@ The **GTK - WaterProof Padlock With Plastic Cover** is built from Iron Body, Sol
 
 ### Where it is used
 
-This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door or cabinet it will sit on: Plastic Cover is what the buyer sees first, and it decides repeat orders more than the price line does.
+This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door it will sit on: Plastic Cover is what the buyer sees first, and it decides repeat orders more than the price line does.
 
 ## Who buys the GTK
 
-The GTK series runs 8 sizes from 45mm to 80mm, priced $0.94-2.28 per piece and packed 36-96 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Alaba and Ladipo in Lagos buy it one carton first, then by the series once the size mix is proven.
+The GTK is the weather-proof series: iron body, solid brass cylinder, A3 steel shackle and a plastic cover over the lot, in eight sizes from 45mm to 80mm at $0.94–2.28, packed 36–96 pcs to the carton. The cover is what separates it from the plated padlocks — it is the version bought for gates and shutters that stay out in the rain, and it is why coastal buyers ask for it by name.
 
-Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. It is not the answer for every job — salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
+Those buyers are security-goods distributors and market-stall traders. **Lagos — Alaba and Ladipo** distributors buy one carton to test a size, then take the series once the mix proves; **Onitsha Main Market and Ogidi** shops sell the 45mm and 55mm sizes over the counter to stall holders; **Port Harcourt and Onne** orders lean to 70mm and 80mm for containers and yard gates.
+
+Where it is the wrong choice: interior cabinet or locker use, where a cheaper plated padlock does the same job. Carton counts drop as size rises, so confirm the size split before the carton count.
 
 ### Ordering GTK from JH HARDWARE
 
@@ -92,16 +98,22 @@ $0.94 - $2.28 USD / piece FOB Yiwu, depending on quantity and finish. Freight to
 Plastic Cover. Other finishes can be produced on request; finishes are quoted per order because they change the unit price.
 
 **How is GTK packed for export?**
-Export carton, packed for sea freight.
+Export carton, 36-96 pcs per carton depending on size.
+
+**Which GTK size sells most in Nigeria?**
+The 45mm and 55mm sizes move fastest on shop shutters and market stalls, while 70mm and 80mm go to containers and warehouse doors. Carton counts fall as size rises, so fix the size split first.
+
+**Does the GTK plastic cover really protect the lock outdoors?**
+The plastic cover is the reason this series is listed as waterproof. It is the right pick for gates and shutters that see rain; the pads, cylinders and shackle underneath are the same iron, brass and A3 steel build.
 
 ### Related
 
 - [Padlocks price list](/products/padlocks/)
 - [Door hardware price list Nigeria 2026](/blog/door-hardware-price-list-nigeria-2026/)
+- [SONCAP, Form M and PAAR for Nigerian imports](/blog/soncap-form-m-paar-nigeria-import-certification/)
 
 **Other models in this range:**
 
 - [HHL — HHL - Heavy Duty Rectangle Iron Padlock](/products/padlocks/hhl/)
 - [HLV — HLV - Cr-Plated Rectangular Iron Padlock (Vane Key)](/products/padlocks/hlv/)
 - [LTN — LTN - Imitate Brass Hammer Padlock](/products/padlocks/ltn/)
-

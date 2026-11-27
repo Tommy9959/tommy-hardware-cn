@@ -1,6 +1,7 @@
 ---
-title: 'SF - CR-Plated Square Iron Padlock (Vane Key)'
-description: "SF - CR-Plated Square Iron Padlock (Vane Key): Iron Body, Iron Discs Cylinder, A3 Steel Shackle with Chrome Plated finish, $0.42 - $1.26 USD / piece FOB,..."
+title: 'SF CR-Plated Square Padlock Wholesale: $0.42-1.26'
+seotitle: "SF CR-Plated Padlock: $0.42-1.26"
+description: "SF CR-plated square iron padlock with vane key, $0.42-1.26/pc FOB Yiwu, 30-70mm, 72-144 pcs per carton, MOQ 50 pcs. Wholesale for Nigeria."
 image: /images/products/padlocks/sf.jpg
 tags:
   - 'SF padlock'
@@ -30,8 +31,11 @@ faqs:
   - question: "Do you supply samples of SF?"
     answer: "Yes — free sample, you cover the courier only. Samples ship in 5-7 days."
   - question: "How is SF packed for export?"
-    answer: "Export carton, packed for sea freight."
-seotitle: "SF Padlock Wholesale: $0.42-1.26"
+    answer: "Export carton, 72-144 pcs per carton depending on size."
+  - question: "What is a vane key on the SF padlock?"
+    answer: "The SF uses a vane key with an iron discs cylinder — the flat key with cuts on the face rather than the edge. That is the mechanism listed for this model, and it is what you should quote a customer asking for a disc-type lock."
+  - question: "Why is the SF cheaper than the brass-look padlocks?"
+    answer: "The SF starts at $0.42 for the 30mm size against $0.64 for the LTN range. It is the chrome-plated iron square body, so it is the volume line — buy it for price-led counters, not for brass looks."
 ---
 
 ## SF - CR-Plated Square Iron Padlock (Vane Key)
@@ -65,13 +69,15 @@ The **SF - CR-Plated Square Iron Padlock (Vane Key)** is built from Iron Body, I
 
 ### Where it is used
 
-This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door or cabinet it will sit on: Chrome Plated is what the buyer sees first, and it decides repeat orders more than the price line does.
+This model is specified for gates, shop shutters, containers and lockers — typically outdoor and industrial use.  Check the finish against the door it will sit on: Chrome Plated is what the buyer sees first, and it decides repeat orders more than the price line does.
 
 ## Who buys the SF
 
-The SF series runs 10 sizes from 30mm to 70mm, priced $0.42-1.26 per piece and packed 72-144 pieces to the export carton. Hardware shops, market stalls and security-goods distributors in Alaba and Ladipo in Lagos buy it one carton first, then by the series once the size mix is proven.
+The SF is the volume padlock in this range: chrome-plated square iron body, iron discs cylinder with a vane key, A3 steel shackle, ten variants from 30mm to 70mm (standard and long shackle) at $0.42–1.26, packed 72–144 to the carton. At 42 cents for a 30mm it is the price line a stall can sell all day, and the long-shackle variants cover hasps that a standard shackle will not reach.
 
-Carton quantity changes with size, so confirm the size mix first and the carton count follows from it. One caution: salt-air sites for the plated ranges — the waterproof plastic-cover series is the right answer there.
+So it is bought by high-turnover counter traders. **Onitsha Main Market and Ogidi** stalls take the 30mm and 40mm in cartons and sell them loose; **Aba (Ariaria)** traders buy the same sizes for shutter and locker jobs; **Lagos — Alaba and Ladipo** distributors carry the full standard and long-shackle run and split it between shops. The 60mm and 70mm sizes go to gate buyers who want chrome rather than plastic.
+
+Where it is the wrong choice: coastal gates and anything left in the rain — the plating is the weak point there, so quote the waterproof GTK series instead.
 
 ### Ordering SF from JH HARDWARE
 
@@ -94,16 +100,22 @@ $0.42 - $1.26 USD / piece FOB Yiwu, depending on quantity and finish. Freight to
 Chrome Plated. Other finishes can be produced on request; finishes are quoted per order because they change the unit price.
 
 **How is SF packed for export?**
-Export carton, packed for sea freight.
+Export carton, 72-144 pcs per carton depending on size.
+
+**What is a vane key on the SF padlock?**
+The SF uses a vane key with an iron discs cylinder — the flat key with cuts on the face rather than the edge. That is the mechanism listed for this model, and it is what you should quote a customer asking for a disc-type lock.
+
+**Why is the SF cheaper than the brass-look padlocks?**
+The SF starts at $0.42 for the 30mm size against $0.64 for the LTN range. It is the chrome-plated iron square body, so it is the volume line — buy it for price-led counters, not for brass looks.
 
 ### Related
 
 - [Padlocks price list](/products/padlocks/)
 - [Door hardware price list Nigeria 2026](/blog/door-hardware-price-list-nigeria-2026/)
+- [SONCAP, Form M and PAAR for Nigerian imports](/blog/soncap-form-m-paar-nigeria-import-certification/)
 
 **Other models in this range:**
 
 - [SFN — SFN - Golden Square Iron Padlock](/products/padlocks/sfn/)
 - [YGTK — YGTK - WaterProof Round Steel Padlock](/products/padlocks/ygtk/)
 - [YJN — YJN - Nickle Round Side Iron Padlock](/products/padlocks/yjn/)
-
